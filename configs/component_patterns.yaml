@@ -1,0 +1,24 @@
+# Padrões de componentes UI por aplicativo (rankings OBI).
+# Loaded by: src/multimodal/tools/component_patterns.py :: generate(config)
+#
+# Ferramenta offline: lê os CSVs de um run de explicabilidade já finalizado e
+# resume, por app, o componente mais saliente de cada tela (rank-0) e os tipos
+# mais recorrentes entre as telas. Reproduz a tabela de padrões de componentes
+# da dissertação.
+#
+# Zero TF/GPU, zero re-run do pipeline.
+
+# Run de explicabilidade a resumir (path absoluto ou relativo à raiz do repo).
+run_dir: "results/explanations/multimodal_v3/explicabilidade_v6_20260726_202438"
+
+# Apps a incluir, NA ORDEM em que devem aparecer na tabela.
+# Deixe a lista vazia (ou comente) para processar todos os apps do run.
+# Os quatro abaixo são os analisados no eixo qualitativo da dissertação.
+packages:
+  - com.hp.pregnancy.lite
+  - com.chineseskill
+  - org.nutritionfacts.dailydozen
+  - com.outfit7.talkingangelafree
+
+# Quantos componentes recorrentes reportar por app.
+top_n: 3

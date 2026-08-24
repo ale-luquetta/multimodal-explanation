@@ -1,0 +1,37 @@
+# Unimodal (vision-only) training configuration.
+# Loaded by: src/multimodal/training/unimodal.py :: train(config)
+
+# Reproducibility
+random_seed: 42
+
+# Image branch (MobileNetV2)
+img_size: 224
+
+# Training loop
+batch_size: 32
+epochs: 30
+learning_rate: 0.001
+l2_reg: 1.0e-4
+
+# Dataset selection
+column: "Average Rating Updated"
+app_percentage: 0.1
+
+# Sampling / balancing
+min_screens_per_app: 3
+max_screens_per_app: 8
+balance_splits: true  # when true, downsamples majority class in each split
+
+# Cross-validation (optional). When false, uses single hold-out (70/15/15).
+# When true, runs k-fold stratified by app (label + screen-count quartile).
+use_cross_validation: false
+cv_k: 5
+
+# Fine-tuning opcional do backbone (Fase 2, herdado do v11).
+# Quando false (default), só Fase 1 (backbone frozen) é executada — comportamento atual.
+# Quando true, descongela as últimas `unfreeze_last_n_layers` camadas do MobileNetV2 após
+# a Fase 1 e treina mais `fine_tune_epochs` épocas com `fine_tune_lr` (tipicamente 50× menor).
+fine_tune_backbone: true
+fine_tune_lr: 2.0e-6
+fine_tune_epochs: 15
+unfreeze_last_n_layers: 10

@@ -1,0 +1,13 @@
+# Compare unimodal_v2 vs multimodal XAI outputs (fidelidade por ablação).
+# Loaded by: src/multimodal/tools/compare_xai.py :: compare(config)
+#
+# Ferramenta offline: lê os CSVs de dois runs já finalizados, computa métricas
+# pareadas por tela (Spearman, top-k match, Δlogit, concentração, alinhamento
+# semântico) e produz comparison_per_screen.csv + comparison_summary.txt.
+#
+# Zero TF/GPU, zero re-run dos pipelines V2.
+
+# Paths absolutos (ou relativos à raiz do repo) para os dois runs a comparar.
+# Atualize para os timestamps/runs que quiser comparar.
+unimodal_run_dir: "results/explanations/unimodal_v2/explanations_unimodal_20260430_113549"
+multimodal_run_dir: "results/explanations/multimodal_v3/explicabilidade_v6_20260726_202438"

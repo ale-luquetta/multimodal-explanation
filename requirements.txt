@@ -1,0 +1,55 @@
+#Tensorflow
+tensorflow-gpu==2.10.1
+opencv-python==4.11.0.86
+
+# PyTorch com suporte a CUDA 11.8
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.4.1+cu118
+torchvision==0.19.1+cu118
+torchaudio==2.4.1+cu118
+
+# Transformers + accelerate
+transformers==4.44.2
+accelerate==0.34.2
+
+# HuggingFace Hub e Tokenizers
+huggingface-hub==0.25.1
+tokenizers==0.19.1
+
+# Dependências do ABSA e fast tokenizers
+sentencepiece==0.2.0
+protobuf==3.19.6
+
+# Data processing
+pandas==2.1.1
+
+# NumPy e SciPy - VERSÕES COMPATÍVEIS COM MKL
+numpy>=1.26.4
+scipy>=1.14.0
+
+# Machine Learning
+scikit-learn>=1.5.0
+
+# NLP para extração de aspectos
+spacy==3.7.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
+
+# ===================================
+# EXPLICABILIDADE
+# ===================================
+
+# SHAP - Explicabilidade baseada em Shapley values
+shap>=0.45.0
+
+# Segmentação SLIC para SHAP Visual (superpixels)
+scikit-image==0.25.2
+
+# Visualização
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilidades
+tqdm>=4.66.0
+
+# Config loading
+pyyaml>=6.0

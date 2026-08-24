@@ -1,0 +1,31 @@
+# DeBERTa ABSA embeddings generator configuration.
+# Loaded by: src/multimodal/tools/generate_embeddings.py :: generate(config)
+#
+# Gera um CACHE de embeddings em data/embeddings_cache/<cache_name>/
+# Cada cache é autocontido: .npy por app + cache_config.yaml com os metadados
+# de geração. O treinamento (v2/v3) seleciona qual cache usar via o campo
+# embeddings_cache_subdir ou via picker interativo.
+
+# Nome da subpasta do cache. Aceita apenas [a-zA-Z0-9_-].
+cache_name: "polarized_top20"
+
+# Número de reviews por app a serem embarcados no cache.
+texts_per_app: 20
+
+# Filtro mínimo: descarta reviews com menos palavras que este valor
+# (contagem via str.split() simples — suficiente para filtrar "ok", "great", etc.).
+min_words: 5
+
+# Critério de seleção dos reviews:
+# - "default": ordem original do CSV (head(N)) — equivalente à lógica atual
+#   de load_screen_text em v2/v3.
+# - "interface_polarized": ordena por interface_pos do DeBERTa ABSA.
+#   Para apps bons (top APP_PERCENTAGE por rating): descendente (mais positivos primeiro).
+#   Para apps ruins (bottom APP_PERCENTAGE): ascendente (mais negativos primeiro).
+#   Apps fora do top/bottom são PULADOS (não entram no treino mesmo).
+selection_criterion: "interface_polarized"
+
+# Usados apenas quando selection_criterion == "interface_polarized"
+# para determinar qual app é "bom" ou "ruim" via ranking do rating.
+app_percentage: 0.1
+column: "Average Rating Updated"

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data 
+data/datasets/**
+data/reviews/**
+data/reviews_processed/**
+data/embeddings_cache/**
+!data/datasets/.gitkeep
+!data/reviews/.gitkeep
+!data/reviews_processed/.gitkeep
+!data/embeddings_cache/.gitkeep
+
+# Model checkpoints
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.ckpt
+
+# Results 
+results/**/*.png
+results/**/*.jpg
+results/**/*.npy
+results/**/*.pkl
+results/**/*.csv
+results/**/*.json
+results/**/*.log
+!results/**/.gitkeep
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+mlruns/

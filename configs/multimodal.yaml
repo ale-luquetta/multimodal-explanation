@@ -1,0 +1,66 @@
+# Multimodal training configuration (fusão espacial; o módulo ainda se chama
+# multimodal_v3.py, mas é a única variante multimodal em uso).
+# Loaded by: src/multimodal/training/multimodal_v3.py :: train(config)
+#
+# Fusão espacial (a variante V2, com fusão só na cabeça densa, foi removida):
+# - O vetor de texto é projetado para
+#   `text_spatial_proj_dim` canais, broadcast para a grade espacial do feature
+#   map do MobileNetV2, concatenado nos canais e processado por uma Conv2D
+#   pós-fusão (alvo do Grad-CAM nesta variante).
+# - Continua usando o checkpoint da Fase (i) para inicializar o backbone.
+
+# Reproducibility
+random_seed: 42
+
+# Image branch (MobileNetV2)
+img_size: 224
+
+# V3: checkpoint da Fase (i) para inicialização do backbone (mesmo formato da v2).
+# Aceita .h5 (legado) ou .keras. Fallback para ImageNet se o arquivo não existir.
+image_backbone_checkpoint: "models/unimodal/app_rating_model.h5"
+
+# Training loop
+batch_size: 16
+epochs: 30
+learning_rate: 3.0e-5
+l2_reg: 1.0e-4
+
+# Dataset selection
+column: "Average Rating Updated"
+app_percentage: 0.1
+
+# Text branch (DeBERTa ABSA)
+max_text_length: 128
+aspect: "interface"
+
+# V3: dimensão da projeção textual antes do broadcast espacial.
+# O fused map terá shape (h, w, C_img + text_spatial_proj_dim).
+# Trade-off: maior = mais "peso" textual no mapa fundido + mais parâmetros na
+# Conv2D pós-fusão. Default 128 mantém parâmetros contidos.
+text_spatial_proj_dim: 128
+
+# Sampling per app / class
+min_screens_per_app: 3
+max_screens_per_app: 8
+texts_per_image: 20
+max_samples_per_class: 50000
+balance_splits: true
+
+# Used by the submenu option "Gerar embeddings para apps ainda sem cache"
+cache_texts_per_app: 50
+
+# Optional: seleciona subpasta em data/embeddings_cache/ para usar neste treino.
+# Quando setado e válido, pula o picker interativo. Quando ausente ou inválido,
+# o treino mostra picker com subpastas disponíveis (ver "Generate text embeddings cache").
+# embeddings_cache_subdir: "polarized_top20"
+
+# Cross-validation (optional). When false, uses single hold-out (70/15/15).
+use_cross_validation: false
+cv_k: 5
+
+# Fine-tuning opcional do backbone (Fase 2).
+# Quando false (default), só Fase 1 (backbone frozen) é executada.
+fine_tune_backbone: false
+fine_tune_lr: 2.0e-6
+fine_tune_epochs: 15
+unfreeze_last_n_layers: 10

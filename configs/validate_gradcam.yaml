@@ -1,0 +1,38 @@
+# Validação Grad-CAM custom (multimodal v2) × tf_explain (referência externa).
+# Loaded by: src/multimodal/tools/validate_gradcam.py :: validate(config)
+#
+# Roda o mesmo input (image + text embedding) em ambas as implementações e
+# gera figura side-by-side + métricas de concordância (Pearson, IoU, RMSE).
+#
+# Pré-requisito: pip install tf-explain
+
+# Modelo multimodal treinado (.h5)
+multimodal_model_path: "results/training/multimodal_v2/resultados_20260416_102640/app_rating_model.h5"
+
+# Screenshot a explicar
+image_path: "data/datasets/rico/screenshots/46567.jpg"
+
+# Cache de embeddings do app correspondente 
+embedding_cache_path: "data/embeddings_cache/com_hp_pregnancy_lite.npy"
+
+# Índice do embedding no cache (0 = review mais polarizada para a classe do app)
+embedding_idx: 0
+
+# Nome da camada conv-4D alvo do Grad-CAM.
+# Deixe null para auto-detectar (tf_explain varre layers em reverse).
+# Exemplos MobileNetV2: "out_relu", "block_16_depthwise_relu", "Conv_1"
+output_layer_name: out_relu
+
+# Implementações de referência a comparar contra o Grad-CAM custom.
+# Custom sempre roda. Flags desligam individualmente.
+#
+# tf_explain: DESATIVADO por padrão — incompatível com nossa arquitetura
+# (backbone MobileNetV2 aninhado dentro do modelo multimodal; tf_explain
+# 0.3.1 não acessa layers de submodels). Pyimagesearch supre o papel de
+# referência externa via o truque image_pooling.input.
+use_tf_explain: false         # incompatível com backbones aninhados
+use_pyimagesearch: true       # Rosebrock 2020 — referência externa principal
+
+# Metadata (só para legenda da figura + JSON output)
+package_name: "com.hp.pregnancy.lite"
+screen_id: "46567"
