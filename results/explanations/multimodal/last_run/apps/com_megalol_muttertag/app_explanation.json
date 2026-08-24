@@ -1,0 +1,370 @@
+{
+  "package_name": "com.megalol.muttertag",
+  "num_screens": 8,
+  "app_score": 0.9933169484138489,
+  "app_prediction": "good",
+  "app_confidence": 0.9933169484138489,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9738845229148865,
+    0.9992327690124512,
+    0.9959794282913208,
+    0.9979366064071655,
+    0.9963588118553162,
+    0.9898719191551208,
+    0.9980522394180298,
+    0.9952192902565002
+  ],
+  "prediction_variance": 6.1026147296416866e-05,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_megalol_muttertag\\com_megalol_muttertag_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.megalol.muttertag was classified as good with average confidence 99% across 8 screens.",
+    "simple": "com.megalol.muttertag was classified as good with average confidence 99% across 8 screens. Across these screens, the model recurringly attended to Text Button components.",
+    "detailed": "com.megalol.muttertag was classified as good with average confidence 99% across 8 screens. Across these screens, the model recurringly attended to Text Button components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text Button (11x), Icon (6x), Image (5x). The most influential review words across screens were 'special', 'handy', 'want', 'express', and 'send'. The app belongs to the Books & Reference category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "14419",
+    "review_rank": 2,
+    "delta_p_img": 0.7316183745861053,
+    "confidence": 0.9992327690124512,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14419.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "special",
+      3.534894
+    ],
+    [
+      "handy",
+      3.258578
+    ],
+    [
+      "want",
+      2.57649
+    ],
+    [
+      "express",
+      2.407433
+    ],
+    [
+      "send",
+      1.476012
+    ],
+    [
+      "selection",
+      1.452432
+    ],
+    [
+      "good",
+      1.357449
+    ],
+    [
+      "loads",
+      1.289073
+    ],
+    [
+      "big",
+      1.180194
+    ],
+    [
+      "funny",
+      1.1377
+    ],
+    [
+      "greeting",
+      1.019745
+    ],
+    [
+      "card",
+      0.998811
+    ],
+    [
+      "recommend",
+      0.943613
+    ],
+    [
+      "haven't",
+      0.910188
+    ],
+    [
+      "choose",
+      0.901216
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "handy",
+      0.163085
+    ],
+    [
+      "special",
+      0.156305
+    ],
+    [
+      "good",
+      0.130272
+    ],
+    [
+      "greeting",
+      0.123044
+    ],
+    [
+      "funny",
+      0.116572
+    ],
+    [
+      "haven't",
+      0.104136
+    ],
+    [
+      "great",
+      0.104027
+    ],
+    [
+      "selection",
+      0.098606
+    ],
+    [
+      "quirky",
+      0.087844
+    ],
+    [
+      "not reason",
+      -0.085749
+    ],
+    [
+      "loads",
+      0.066608
+    ],
+    [
+      "cute",
+      0.064334
+    ],
+    [
+      "quick",
+      0.06369
+    ],
+    [
+      "best",
+      0.062777
+    ],
+    [
+      "recommend",
+      0.056648
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "handy",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": 0.163085,
+      "in_both": true
+    },
+    {
+      "word": "special",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 1,
+      "rank_shap": 2,
+      "shap_signed": 0.156305,
+      "in_both": true
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.030798,
+      "rank_bahdanau": 7,
+      "rank_shap": 3,
+      "shap_signed": 0.130272,
+      "in_both": true
+    },
+    {
+      "word": "selection",
+      "rrf_score": 0.029857,
+      "rank_bahdanau": 6,
+      "rank_shap": 8,
+      "shap_signed": 0.098606,
+      "in_both": true
+    },
+    {
+      "word": "greeting",
+      "rrf_score": 0.02971,
+      "rank_bahdanau": 11,
+      "rank_shap": 4,
+      "shap_signed": 0.123044,
+      "in_both": true
+    },
+    {
+      "word": "funny",
+      "rrf_score": 0.02967,
+      "rank_bahdanau": 10,
+      "rank_shap": 5,
+      "shap_signed": 0.116572,
+      "in_both": true
+    },
+    {
+      "word": "loads",
+      "rrf_score": 0.02879,
+      "rank_bahdanau": 8,
+      "rank_shap": 11,
+      "shap_signed": 0.066608,
+      "in_both": true
+    },
+    {
+      "word": "haven't",
+      "rrf_score": 0.028665,
+      "rank_bahdanau": 14,
+      "rank_shap": 6,
+      "shap_signed": 0.104136,
+      "in_both": true
+    },
+    {
+      "word": "recommend",
+      "rrf_score": 0.027032,
+      "rank_bahdanau": 13,
+      "rank_shap": 15,
+      "shap_signed": 0.056648,
+      "in_both": true
+    },
+    {
+      "word": "want",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "express",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "send",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "great",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.104027,
+      "in_both": false
+    },
+    {
+      "word": "quirky",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.087844,
+      "in_both": false
+    },
+    {
+      "word": "big",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 0,
+      "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 2,
+      "text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 15,
+      "text": "This is my 'go to' application when I want to express myself in a special way."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 5,
+      "text": "Handy to send a quick greeting when you haven't time to spell out a message."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 3,
+      "text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "special",
+      3.534894
+    ],
+    [
+      "handy",
+      3.258578
+    ],
+    [
+      "want",
+      2.57649
+    ],
+    [
+      "express",
+      2.407433
+    ],
+    [
+      "send",
+      1.476012
+    ],
+    [
+      "selection",
+      1.452432
+    ],
+    [
+      "good",
+      1.357449
+    ],
+    [
+      "loads",
+      1.289073
+    ],
+    [
+      "big",
+      1.180194
+    ],
+    [
+      "funny",
+      1.1377
+    ],
+    [
+      "greeting",
+      1.019745
+    ],
+    [
+      "card",
+      0.998811
+    ],
+    [
+      "recommend",
+      0.943613
+    ],
+    [
+      "haven't",
+      0.910188
+    ],
+    [
+      "choose",
+      0.901216
+    ]
+  ]
+}

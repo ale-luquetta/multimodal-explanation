@@ -1,0 +1,366 @@
+{
+  "package_name": "com.taptapstudio.dailyprayerlite",
+  "num_screens": 4,
+  "app_score": 0.7402899861335754,
+  "app_prediction": "good",
+  "app_confidence": 0.7402899861335754,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9797859787940979,
+    0.048887789249420166,
+    0.9974965453147888,
+    0.9349896311759949
+  ],
+  "prediction_variance": 0.1598646235555421,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_taptapstudio_dailyprayerlite\\com_taptapstudio_dailyprayerlite_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.taptapstudio.dailyprayerlite was labeled as good with average confidence 74% across 4 screens.",
+    "simple": "com.taptapstudio.dailyprayerlite was labeled as good with average confidence 74% across 4 screens. Across these screens, the model consistently focused on Text components.",
+    "detailed": "com.taptapstudio.dailyprayerlite was labeled as good with average confidence 74% across 4 screens. Across these screens, the model consistently focused on Text components. The screens disagreed considerably (variance 0.16), indicating heterogeneous evidence across the UI. The most recurring salient components were: Text (5x), Text Button (3x), Input (3x). The most influential review words across screens were 'prayer', 'love', 'ever', 'everyday', and 'guidelines'. The app belongs to the Books & Reference category and was analyzed across 4 screens."
+  },
+  "representative_screen": {
+    "screen_id": "69845",
+    "review_rank": 0,
+    "delta_p_img": 0.17078685760498047,
+    "confidence": 0.9511122107505798,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69845.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "prayer",
+      1.972426
+    ],
+    [
+      "love",
+      1.102685
+    ],
+    [
+      "ever",
+      0.951412
+    ],
+    [
+      "everyday",
+      0.742101
+    ],
+    [
+      "guidelines",
+      0.732636
+    ],
+    [
+      "positively",
+      0.642341
+    ],
+    [
+      "evening",
+      0.634147
+    ],
+    [
+      "life",
+      0.596789
+    ],
+    [
+      "best",
+      0.511425
+    ],
+    [
+      "it,i",
+      0.508474
+    ],
+    [
+      "quotes",
+      0.495022
+    ],
+    [
+      "five",
+      0.448201
+    ],
+    [
+      "anyone",
+      0.405181
+    ],
+    [
+      "seen",
+      0.404198
+    ],
+    [
+      "daily",
+      0.392936
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "love",
+      0.79859
+    ],
+    [
+      "prayer",
+      0.410964
+    ],
+    [
+      "beautiful",
+      0.365677
+    ],
+    [
+      "life",
+      0.293729
+    ],
+    [
+      "best",
+      0.283972
+    ],
+    [
+      "ever",
+      0.281588
+    ],
+    [
+      "positively",
+      0.189856
+    ],
+    [
+      "good",
+      0.176151
+    ],
+    [
+      "nice",
+      0.173323
+    ],
+    [
+      "evening",
+      0.165368
+    ],
+    [
+      "enjoy",
+      0.131111
+    ],
+    [
+      "everyday",
+      0.126545
+    ],
+    [
+      "reflective",
+      0.122094
+    ],
+    [
+      "devotions",
+      0.120333
+    ],
+    [
+      "memorized",
+      0.115413
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "prayer",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 1,
+      "rank_shap": 2,
+      "shap_signed": 0.410964,
+      "in_both": true
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": 0.79859,
+      "in_both": true
+    },
+    {
+      "word": "ever",
+      "rrf_score": 0.031025,
+      "rank_bahdanau": 3,
+      "rank_shap": 6,
+      "shap_signed": 0.281588,
+      "in_both": true
+    },
+    {
+      "word": "life",
+      "rrf_score": 0.030331,
+      "rank_bahdanau": 8,
+      "rank_shap": 4,
+      "shap_signed": 0.293729,
+      "in_both": true
+    },
+    {
+      "word": "positively",
+      "rrf_score": 0.030077,
+      "rank_bahdanau": 6,
+      "rank_shap": 7,
+      "shap_signed": 0.189856,
+      "in_both": true
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.029877,
+      "rank_bahdanau": 9,
+      "rank_shap": 5,
+      "shap_signed": 0.283972,
+      "in_both": true
+    },
+    {
+      "word": "everyday",
+      "rrf_score": 0.029514,
+      "rank_bahdanau": 4,
+      "rank_shap": 12,
+      "shap_signed": 0.126545,
+      "in_both": true
+    },
+    {
+      "word": "evening",
+      "rrf_score": 0.029211,
+      "rank_bahdanau": 7,
+      "rank_shap": 10,
+      "shap_signed": 0.165368,
+      "in_both": true
+    },
+    {
+      "word": "beautiful",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.365677,
+      "in_both": false
+    },
+    {
+      "word": "guidelines",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.176151,
+      "in_both": false
+    },
+    {
+      "word": "nice",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.173323,
+      "in_both": false
+    },
+    {
+      "word": "it,i",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": 10,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "enjoy",
+      "rrf_score": 0.014085,
+      "rank_bahdanau": null,
+      "rank_shap": 11,
+      "shap_signed": 0.131111,
+      "in_both": false
+    },
+    {
+      "word": "quotes",
+      "rrf_score": 0.014085,
+      "rank_bahdanau": 11,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 13,
+      "text": "The best daily prayer app ever. It impacted my prayer life positively. I love this app"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 19,
+      "text": "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 6,
+      "text": "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 15,
+      "text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 2,
+      "text": "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "prayer",
+      1.972426
+    ],
+    [
+      "love",
+      1.102685
+    ],
+    [
+      "ever",
+      0.951412
+    ],
+    [
+      "everyday",
+      0.742101
+    ],
+    [
+      "guidelines",
+      0.732636
+    ],
+    [
+      "positively",
+      0.642341
+    ],
+    [
+      "evening",
+      0.634147
+    ],
+    [
+      "life",
+      0.596789
+    ],
+    [
+      "best",
+      0.511425
+    ],
+    [
+      "it,i",
+      0.508474
+    ],
+    [
+      "quotes",
+      0.495022
+    ],
+    [
+      "five",
+      0.448201
+    ],
+    [
+      "anyone",
+      0.405181
+    ],
+    [
+      "seen",
+      0.404198
+    ],
+    [
+      "daily",
+      0.392936
+    ]
+  ]
+}

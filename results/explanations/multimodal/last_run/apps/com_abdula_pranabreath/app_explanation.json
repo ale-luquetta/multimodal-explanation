@@ -1,0 +1,369 @@
+{
+  "package_name": "com.abdula.pranabreath",
+  "num_screens": 7,
+  "app_score": 0.9826483726501465,
+  "app_prediction": "good",
+  "app_confidence": 0.9826483726501465,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9946256279945374,
+    0.9755151867866516,
+    0.9957864880561829,
+    0.9931690692901611,
+    0.9622060060501099,
+    0.9715250730514526,
+    0.9857111573219299
+  ],
+  "prediction_variance": 0.00014694727378282226,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_abdula_pranabreath\\com_abdula_pranabreath_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.abdula.pranabreath was classified as good with average confidence 98% across 7 screens.",
+    "simple": "com.abdula.pranabreath was classified as good with average confidence 98% across 7 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "com.abdula.pranabreath was classified as good with average confidence 98% across 7 screens. Across these screens, the model recurringly attended to Text components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text (9x), Text Button (3x), Icon (3x). The most influential review words across screens were 'far', 'updated', 'gold', 'customizable', and 'can't comparisons'. The app belongs to the Health & Fitness category and was analyzed across 7 screens."
+  },
+  "representative_screen": {
+    "screen_id": "46852",
+    "review_rank": 3,
+    "delta_p_img": 0.4703531861305237,
+    "confidence": 0.9715250730514526,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\46852.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "far",
+      1.006488
+    ],
+    [
+      "updated",
+      0.792921
+    ],
+    [
+      "gold",
+      0.759255
+    ],
+    [
+      "customizable",
+      0.734218
+    ],
+    [
+      "can't comparisons",
+      0.652213
+    ],
+    [
+      "developers",
+      0.604839
+    ],
+    [
+      "rate",
+      0.548062
+    ],
+    [
+      "content",
+      0.543832
+    ],
+    [
+      "cost",
+      0.527343
+    ],
+    [
+      "right",
+      0.489933
+    ],
+    [
+      "often",
+      0.482318
+    ],
+    [
+      "recommend",
+      0.47359
+    ],
+    [
+      "solid",
+      0.465786
+    ],
+    [
+      "user",
+      0.460583
+    ],
+    [
+      "input",
+      0.430435
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "able",
+      0.296655
+    ],
+    [
+      "impressed",
+      0.28391
+    ],
+    [
+      "zero",
+      0.2492
+    ],
+    [
+      "worth",
+      0.237599
+    ],
+    [
+      "huge",
+      0.219514
+    ],
+    [
+      "excellent",
+      0.217323
+    ],
+    [
+      "appreciation",
+      0.200835
+    ],
+    [
+      "solid",
+      0.195247
+    ],
+    [
+      "customizable",
+      0.178998
+    ],
+    [
+      "consistently",
+      0.178138
+    ],
+    [
+      "highly",
+      0.165829
+    ],
+    [
+      "wealth",
+      0.157798
+    ],
+    [
+      "using",
+      0.153875
+    ],
+    [
+      "love",
+      0.150887
+    ],
+    [
+      "far",
+      0.148464
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "customizable",
+      "rrf_score": 0.030118,
+      "rank_bahdanau": 4,
+      "rank_shap": 9,
+      "shap_signed": 0.178998,
+      "in_both": true
+    },
+    {
+      "word": "far",
+      "rrf_score": 0.029727,
+      "rank_bahdanau": 1,
+      "rank_shap": 15,
+      "shap_signed": 0.148464,
+      "in_both": true
+    },
+    {
+      "word": "solid",
+      "rrf_score": 0.028405,
+      "rank_bahdanau": 13,
+      "rank_shap": 8,
+      "shap_signed": 0.195247,
+      "in_both": true
+    },
+    {
+      "word": "able",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": null,
+      "rank_shap": 1,
+      "shap_signed": 0.296655,
+      "in_both": false
+    },
+    {
+      "word": "impressed",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": 0.28391,
+      "in_both": false
+    },
+    {
+      "word": "updated",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "gold",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "zero",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.2492,
+      "in_both": false
+    },
+    {
+      "word": "worth",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.237599,
+      "in_both": false
+    },
+    {
+      "word": "can't comparisons",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "huge",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.219514,
+      "in_both": false
+    },
+    {
+      "word": "developers",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "excellent",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.217323,
+      "in_both": false
+    },
+    {
+      "word": "rate",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "appreciation",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.200835,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 6,
+      "text": "The app is a gem & completely underrated. The creators of the app aproached it just right: with elegant minimalism and full health benefits in mind. I'm very happy with this app! It makes me feel good, it helps me with my anxiety. The interface is so simple and yet inviting, and the sounds are so pleasing to the ear, that i look forward to using this app. I'm considering buying a premium version not because i need to or have to , but as a genuine desire to express my appreciation to developers."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 5,
+      "text": "This app more than well worth the one time payment to support the developers. It took a little bit of digging to find that there's a wealth of additional content, updated every so often, at no extra cost. I love this app so much. It really stands out as one of a kind. Highly customizable, intuitive with a beautiful user experience."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 3,
+      "text": "Extremely impressed. A huge chunk of time had to go into building this app; it has an endless amount of features including a vast library of various pranayama techniques by which to choose from as-is or you can edit them. All of the pranayama styles are directly linked to Wikipedia by means of being directly associated with this particular app. It trains, teaches, keeps track of all your practice sessions, and has an abundance of customization options. HIGHLY recommend. Worth the cost to upgrade"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 16,
+      "text": "Gave it a 4 only because I'm only 3 day's in. Really like it so far. Two years in now. This is the only breath pacer that I have used consistently so I can't make comparisons but this one I know. This app is solid gold. The developers are right there when you need them. They listen to the users and make changes based on input. There is a User Wiki available that is comprehensive and regularly updated. Solid Gold."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 9,
+      "text": "So far this seems excellent. Huge library of instantly importable exercises, all totally customizable. I have been able to increase my HRV, and decrease HR and breath rate, in a very short time, after a lifetime of bad habits. Zero glitches so far - been using for about a month. ~~~ UPDATE January 2023 Been using this app for five months now. It is excellent. Zero problems, ever. Super user friendly, super customizable, huge inventory of exercises (far more than anyone would ever need)."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "far",
+      1.006488
+    ],
+    [
+      "updated",
+      0.792921
+    ],
+    [
+      "gold",
+      0.759255
+    ],
+    [
+      "customizable",
+      0.734218
+    ],
+    [
+      "can't comparisons",
+      0.652213
+    ],
+    [
+      "developers",
+      0.604839
+    ],
+    [
+      "rate",
+      0.548062
+    ],
+    [
+      "content",
+      0.543832
+    ],
+    [
+      "cost",
+      0.527343
+    ],
+    [
+      "right",
+      0.489933
+    ],
+    [
+      "often",
+      0.482318
+    ],
+    [
+      "recommend",
+      0.47359
+    ],
+    [
+      "solid",
+      0.465786
+    ],
+    [
+      "user",
+      0.460583
+    ],
+    [
+      "input",
+      0.430435
+    ]
+  ]
+}

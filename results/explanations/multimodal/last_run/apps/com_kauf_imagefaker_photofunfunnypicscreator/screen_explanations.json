@@ -1,0 +1,4724 @@
+[
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12687",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12687.jpg",
+    "text": "Its slow and the ads are effing ridiculous भोसड़ी के मादरचोद बेकार अप्प है All ads",
+    "prediction": 0.00013020067126490176,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9998697993287351,
+    "gradcam_stats": {
+      "mean": 0.3895617425441742,
+      "max": 1.0,
+      "std": 0.24024292826652527
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.0001297301205340773,
+      "p_img": 0.06059747189283371,
+      "delta_p_img": 0.06046774177229963
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 19238.166015625,
+        "score_mean": 0.41093143403163446
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          74,
+          174,
+          112,
+          192
+        ],
+        "bounds_rico": [
+          480,
+          1999,
+          720,
+          2203
+        ],
+        "score_total": 183.31690979003906,
+        "score_mean": 0.26800717805561264
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          37,
+          174,
+          74,
+          192
+        ],
+        "bounds_rico": [
+          240,
+          1999,
+          480,
+          2203
+        ],
+        "score_total": 175.20372009277344,
+        "score_mean": 0.2630686487879481
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 19238.166015625,
+        "score_mean": 0.41093143403163446,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 183.31690979003906,
+        "score_mean": 0.26800717805561264,
+        "bounds_image": [
+          74,
+          174,
+          112,
+          192
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 175.20372009277344,
+        "score_mean": 0.2630686487879481,
+        "bounds_image": [
+          37,
+          174,
+          74,
+          192
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 19238.166015625,
+        "score_mean": 0.41093143403163446,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 183.31690979003906,
+        "score_mean": 0.26800717805561264,
+        "bounds_image": [
+          74,
+          174,
+          112,
+          192
+        ],
+        "bounds_rico": [
+          480,
+          1999,
+          720,
+          2203
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 175.20372009277344,
+        "score_mean": 0.2630686487879481,
+        "bounds_image": [
+          37,
+          174,
+          74,
+          192
+        ],
+        "bounds_rico": [
+          240,
+          1999,
+          480,
+          2203
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 175.13778686523438,
+        "score_mean": 0.26296964994779937,
+        "bounds_image": [
+          112,
+          174,
+          149,
+          192
+        ],
+        "bounds_rico": [
+          720,
+          1999,
+          960,
+          2203
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 167.55535888671875,
+        "score_mean": 0.25158462295303113,
+        "bounds_image": [
+          0,
+          174,
+          37,
+          192
+        ],
+        "bounds_rico": [
+          0,
+          1999,
+          240,
+          2203
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 368.81646728515625,
+        "score_mean": 0.2276644859784915,
+        "bounds_image": [
+          141,
+          0,
+          195,
+          30
+        ],
+        "bounds_rico": [
+          907,
+          0,
+          1256,
+          349
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 110.91519165039062,
+        "score_mean": 0.16653932680238834,
+        "bounds_image": [
+          149,
+          174,
+          186,
+          192
+        ],
+        "bounds_rico": [
+          960,
+          1999,
+          1200,
+          2203
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 437.6978759765625,
+        "score_mean": 0.13026722499302457,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          0,
+          2210,
+          1440,
+          2385
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Web View",
+        "score_total": 437.6978759765625,
+        "score_mean": 0.13026722499302457,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          0,
+          2210,
+          1440,
+          2385
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 72.76211547851562,
+        "score_mean": 0.10637736181069536,
+        "bounds_image": [
+          186,
+          174,
+          224,
+          192
+        ],
+        "bounds_rico": [
+          1200,
+          1999,
+          1440,
+          2203
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Its"
+      },
+      {
+        "index": 2,
+        "token": "▁slow"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Image, Icon",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.00014463312982115895,
+        "p_img": 0.06832906603813171,
+        "delta_p_img": 0.06818443290831055,
+        "gradcam_mean": 0.3817256987094879,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 8.936657104641199e-05,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -4.8e-05
+          ],
+          [
+            "secs",
+            -2e-05
+          ],
+          [
+            "video",
+            5e-06
+          ],
+          [
+            "ads",
+            -3e-06
+          ],
+          [
+            "sec",
+            -3e-06
+          ],
+          [
+            "popping",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1710623949766159,
+          "max": 0.9999960064888,
+          "std": 0.3073486089706421
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon, Image",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.00014089129399508238,
+        "p_img": 0.06584227830171585,
+        "delta_p_img": 0.06570138700772077,
+        "gradcam_mean": 0.3865394592285156,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 8.749189146328717e-05,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            1.3e-05
+          ],
+          [
+            "againa",
+            -7e-06
+          ],
+          [
+            "tried",
+            -6e-06
+          ],
+          [
+            "videos",
+            5e-06
+          ],
+          [
+            "pop",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16984818875789642,
+          "max": 0.9999961256980896,
+          "std": 0.30614790320396423
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Image, Icon",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.00018749003356788307,
+        "p_img": 0.08409001678228378,
+        "delta_p_img": 0.0839025267487159,
+        "gradcam_mean": 0.3757321238517761,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 0.00010686619498301297,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            4.9e-05
+          ],
+          [
+            "point",
+            -1.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1716211885213852,
+          "max": 0.999997615814209,
+          "std": 0.31294798851013184
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Image, Icon",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.0001775222335709259,
+        "p_img": 0.08178583532571793,
+        "delta_p_img": 0.081608313092147,
+        "gradcam_mean": 0.3771606683731079,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 9.983386553358287e-05,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            3.8e-05
+          ],
+          [
+            "didn't letting",
+            -2.5e-05
+          ],
+          [
+            "function",
+            -2.1e-05
+          ],
+          [
+            "uninstall",
+            -1.9e-05
+          ],
+          [
+            "videos",
+            1.6e-05
+          ],
+          [
+            "any",
+            -1.5e-05
+          ],
+          [
+            "adds",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17063066363334656,
+          "max": 0.9999971985816956,
+          "std": 0.3102753460407257
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Background Image, Image, Image",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.000278088467894122,
+        "p_img": 0.11628762632608414,
+        "delta_p_img": 0.11600953785819001,
+        "gradcam_mean": 0.3682548403739929,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Image",
+        "delta_p_img_shap": 0.0001495442120358348,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            9.1e-05
+          ],
+          [
+            "play",
+            7e-05
+          ],
+          [
+            "without 20sec",
+            2.3e-05
+          ],
+          [
+            "ads",
+            9e-06
+          ],
+          [
+            "u",
+            0.0
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17184236645698547,
+          "max": 0.9999987483024597,
+          "std": 0.3184351921081543
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Background Image at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was classified as bad with 100% confidence (with high confidence). The model focused on a small Background Image at the top-left, a small Icon at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12688",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12688.jpg",
+    "text": "Simply sucks Its slow and the ads are effing ridiculous tumb up",
+    "prediction": 0.0014244818594306707,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9985755181405693,
+    "gradcam_stats": {
+      "mean": 0.37592196464538574,
+      "max": 1.0,
+      "std": 0.23534686863422394
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.0014195876428857446,
+      "p_img": 0.10866868495941162,
+      "delta_p_img": 0.10724909731652588
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 18595.11328125,
+        "score_mean": 0.39719568697133456
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ],
+        "score_total": 21.970684051513672,
+        "score_mean": 0.2241906535868742
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 18595.11328125,
+        "score_mean": 0.39719568697133456,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 21.970684051513672,
+        "score_mean": 0.2241906535868742,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 18595.11328125,
+        "score_mean": 0.39719568697133456,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 21.970684051513672,
+        "score_mean": 0.2241906535868742,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Simply"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.0017787555698305368,
+        "p_img": 0.11733169853687286,
+        "delta_p_img": 0.11555294296704233,
+        "gradcam_mean": 0.3626205623149872,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.11555294296704233,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.000667
+          ],
+          [
+            "secs",
+            -0.000302
+          ],
+          [
+            "video",
+            8.7e-05
+          ],
+          [
+            "ads",
+            -4.8e-05
+          ],
+          [
+            "sec",
+            -4.3e-05
+          ],
+          [
+            "popping",
+            2.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12744908034801483,
+          "max": 0.9999999403953552,
+          "std": 0.2353532314300537
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.0016743761952966452,
+        "p_img": 0.11586910486221313,
+        "delta_p_img": 0.11419472866691649,
+        "gradcam_mean": 0.36363598704338074,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.11419472866691649,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.00023
+          ],
+          [
+            "videos",
+            7.9e-05
+          ],
+          [
+            "againa",
+            -6.5e-05
+          ],
+          [
+            "tried",
+            -5.3e-05
+          ],
+          [
+            "pop",
+            4.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12783904373645782,
+          "max": 0.9999999403953552,
+          "std": 0.23594655096530914
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.002466758945956826,
+        "p_img": 0.14314091205596924,
+        "delta_p_img": 0.1406741531100124,
+        "gradcam_mean": 0.37062564492225647,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.1406741531100124,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.000943
+          ],
+          [
+            "point",
+            -0.000257
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12240879237651825,
+          "max": 0.9999998807907104,
+          "std": 0.22949612140655518
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.0022946116514503956,
+        "p_img": 0.1388142704963684,
+        "delta_p_img": 0.136519658844918,
+        "gradcam_mean": 0.36660948395729065,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.136519658844918,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.000582
+          ],
+          [
+            "function",
+            -0.000348
+          ],
+          [
+            "didn't letting",
+            -0.000345
+          ],
+          [
+            "uninstall",
+            -0.000255
+          ],
+          [
+            "videos",
+            0.000219
+          ],
+          [
+            "any",
+            -0.000218
+          ],
+          [
+            "adds",
+            5.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1243777945637703,
+          "max": 0.9999998807907104,
+          "std": 0.23275728523731232
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.003777503501623869,
+        "p_img": 0.19306711852550507,
+        "delta_p_img": 0.1892896150238812,
+        "gradcam_mean": 0.3474217355251312,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.1892896150238812,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.001482
+          ],
+          [
+            "play",
+            0.0011
+          ],
+          [
+            "without 20sec",
+            0.000403
+          ],
+          [
+            "ads",
+            0.000149
+          ],
+          [
+            "u",
+            2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13223084807395935,
+          "max": 0.9999998807907104,
+          "std": 0.22934231162071228
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Background Image at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Background Image at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12689",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12689.jpg",
+    "text": "Its slow and the ads are effing ridiculous Simply sucks But, tried it againa and too many videos you have to watch and pop up surveys",
+    "prediction": 0.003621697425842285,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9963783025741577,
+    "gradcam_stats": {
+      "mean": 0.4820396304130554,
+      "max": 1.0,
+      "std": 0.25784674286842346
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.003630921710282564,
+      "p_img": 0.10588610172271729,
+      "delta_p_img": 0.10225518001243472
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 23460.556640625,
+        "score_mean": 0.5011226213393926
+      },
+      {
+        "rank": 1,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 23460.556640625,
+        "score_mean": 0.5011226213393926
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          68,
+          0,
+          104,
+          19
+        ],
+        "bounds_rico": [
+          441,
+          0,
+          669,
+          228
+        ],
+        "score_total": 190.644287109375,
+        "score_mean": 0.2787197179961623
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 23460.556640625,
+        "score_mean": 0.5011226213393926,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Background Image",
+        "score_total": 23460.556640625,
+        "score_mean": 0.5011226213393926,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 190.644287109375,
+        "score_mean": 0.2787197179961623,
+        "bounds_image": [
+          68,
+          0,
+          104,
+          19
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 23460.556640625,
+        "score_mean": 0.5011226213393926,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Background Image",
+        "score_total": 23460.556640625,
+        "score_mean": 0.5011226213393926,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 190.644287109375,
+        "score_mean": 0.2787197179961623,
+        "bounds_image": [
+          68,
+          0,
+          104,
+          19
+        ],
+        "bounds_rico": [
+          441,
+          0,
+          669,
+          228
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 95.49427795410156,
+        "score_mean": 0.13961151747675668,
+        "bounds_image": [
+          16,
+          0,
+          52,
+          19
+        ],
+        "bounds_rico": [
+          107,
+          0,
+          335,
+          228
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 47.09428405761719,
+        "score_mean": 0.07081847226709352,
+        "bounds_image": [
+          172,
+          0,
+          207,
+          19
+        ],
+        "bounds_rico": [
+          1108,
+          0,
+          1335,
+          227
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 29.84429931640625,
+        "score_mean": 0.044878645588580825,
+        "bounds_image": [
+          120,
+          0,
+          155,
+          19
+        ],
+        "bounds_rico": [
+          775,
+          0,
+          1002,
+          227
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Its"
+      },
+      {
+        "index": 2,
+        "token": "▁slow"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Background Image, Icon",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.00411855336278677,
+        "p_img": 0.11535029858350754,
+        "delta_p_img": 0.11123174522072077,
+        "gradcam_mean": 0.483344167470932,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View, Background Image",
+        "delta_p_img_shap": 0.11123174522072077,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.002384
+          ],
+          [
+            "secs",
+            -0.000899
+          ],
+          [
+            "video",
+            0.000214
+          ],
+          [
+            "ads",
+            -0.000178
+          ],
+          [
+            "sec",
+            -0.000134
+          ],
+          [
+            "popping",
+            4.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19667541980743408,
+          "max": 0.9999997615814209,
+          "std": 0.35496366024017334
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Background Image, Icon",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.003992699086666107,
+        "p_img": 0.11339952051639557,
+        "delta_p_img": 0.10940682142972946,
+        "gradcam_mean": 0.48381170630455017,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Web View",
+        "delta_p_img_shap": 0.10940682142972946,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.000667
+          ],
+          [
+            "againa",
+            -0.000321
+          ],
+          [
+            "tried",
+            -0.000298
+          ],
+          [
+            "videos",
+            0.000253
+          ],
+          [
+            "pop",
+            9.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16478119790554047,
+          "max": 0.9999997615814209,
+          "std": 0.3047710061073303
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Background Image, Icon",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.006458616815507412,
+        "p_img": 0.14035634696483612,
+        "delta_p_img": 0.1338977301493287,
+        "gradcam_mean": 0.47197622060775757,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.006245160475373268,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.002774
+          ],
+          [
+            "point",
+            -0.000888
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16728292405605316,
+          "max": 0.9999998211860657,
+          "std": 0.3130140006542206
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Background Image, Icon",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.005591950379312038,
+        "p_img": 0.13584817945957184,
+        "delta_p_img": 0.1302562290802598,
+        "gradcam_mean": 0.4688358008861542,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.0059660617262125015,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.001893
+          ],
+          [
+            "didn't letting",
+            -0.001263
+          ],
+          [
+            "function",
+            -0.001143
+          ],
+          [
+            "uninstall",
+            -0.000987
+          ],
+          [
+            "any",
+            -0.00087
+          ],
+          [
+            "videos",
+            0.000701
+          ],
+          [
+            "adds",
+            0.000114
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16885876655578613,
+          "max": 0.9999998211860657,
+          "std": 0.3164386451244354
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Background Image, Icon",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.011279354803264141,
+        "p_img": 0.1897781491279602,
+        "delta_p_img": 0.17849879432469606,
+        "gradcam_mean": 0.4323313236236572,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.010579503141343594,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.004892
+          ],
+          [
+            "play",
+            0.003895
+          ],
+          [
+            "without 20sec",
+            0.001242
+          ],
+          [
+            "ads",
+            0.000465
+          ],
+          [
+            "u",
+            -6.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1617724597454071,
+          "max": 0.9999998807907104,
+          "std": 0.30146798491477966
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was labeled as bad with 100% confidence (confidently). The model attended to a small Web View at the top-left, a small Background Image at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12690",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12690.jpg",
+    "text": "Simply sucks Its slow and the ads are effing ridiculous tumb up",
+    "prediction": 0.002972312504425645,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9970276874955744,
+    "gradcam_stats": {
+      "mean": 0.3725748360157013,
+      "max": 1.0,
+      "std": 0.21993733942508698
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.0029871868900954723,
+      "p_img": 0.0020568137988448143,
+      "delta_p_img": 0.000930373091250658
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 93.7969970703125,
+        "score_mean": 0.5210944281684028
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ],
+        "bounds_rico": [
+          0,
+          140,
+          56,
+          196
+        ],
+        "score_total": 20.242454528808594,
+        "score_mean": 0.5060613632202149
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 14.466438293457031,
+        "score_mean": 0.028365565281288297
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 93.7969970703125,
+        "score_mean": 0.5210944281684028,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 20.242454528808594,
+        "score_mean": 0.5060613632202149,
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 14.466438293457031,
+        "score_mean": 0.028365565281288297,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 93.7969970703125,
+        "score_mean": 0.5210944281684028,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 20.242454528808594,
+        "score_mean": 0.5060613632202149,
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ],
+        "bounds_rico": [
+          0,
+          140,
+          56,
+          196
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 14.466438293457031,
+        "score_mean": 0.028365565281288297,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Simply"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.003705113660544157,
+        "p_img": 0.0026011790614575148,
+        "delta_p_img": 0.0011039345990866423,
+        "gradcam_mean": 0.3680752217769623,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text Button",
+        "delta_p_img_shap": 0.0011039345990866423,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.001355
+          ],
+          [
+            "secs",
+            -0.000574
+          ],
+          [
+            "video",
+            0.000185
+          ],
+          [
+            "ads",
+            -8.8e-05
+          ],
+          [
+            "popping",
+            5.6e-05
+          ],
+          [
+            "sec",
+            -3.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0949343591928482,
+          "max": 0.9999995231628418,
+          "std": 0.20587164163589478
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.003497764701023698,
+        "p_img": 0.002450321102514863,
+        "delta_p_img": 0.0010474435985088348,
+        "gradcam_mean": 0.3694385886192322,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text Button",
+        "delta_p_img_shap": 0.0010474435985088348,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.000435
+          ],
+          [
+            "videos",
+            0.000186
+          ],
+          [
+            "tried",
+            -0.000107
+          ],
+          [
+            "pop",
+            8.9e-05
+          ],
+          [
+            "againa",
+            -8.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0958312377333641,
+          "max": 0.999999463558197,
+          "std": 0.20755524933338165
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.005105971824377775,
+        "p_img": 0.0035814237780869007,
+        "delta_p_img": 0.0015245480462908745,
+        "gradcam_mean": 0.3517308235168457,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text Button",
+        "delta_p_img_shap": 0.0015245480462908745,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.001704
+          ],
+          [
+            "point",
+            -0.00047
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09299634397029877,
+          "max": 0.9999997019767761,
+          "std": 0.20237530767917633
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.004723365418612957,
+        "p_img": 0.0032719045411795378,
+        "delta_p_img": 0.0014514608774334192,
+        "gradcam_mean": 0.3556835353374481,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text Button",
+        "delta_p_img_shap": 0.0014514608774334192,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.001174
+          ],
+          [
+            "didn't letting",
+            -0.00068
+          ],
+          [
+            "function",
+            -0.000649
+          ],
+          [
+            "uninstall",
+            -0.000499
+          ],
+          [
+            "any",
+            -0.000493
+          ],
+          [
+            "videos",
+            0.000407
+          ],
+          [
+            "adds",
+            9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09324680268764496,
+          "max": 0.9999996423721313,
+          "std": 0.20200398564338684
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.00781006645411253,
+        "p_img": 0.005408227909356356,
+        "delta_p_img": 0.002401838544756174,
+        "gradcam_mean": 0.32774418592453003,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text Button",
+        "delta_p_img_shap": 0.002401838544756174,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.002763
+          ],
+          [
+            "play",
+            0.002142
+          ],
+          [
+            "without 20sec",
+            0.000714
+          ],
+          [
+            "ads",
+            0.000383
+          ],
+          [
+            "u",
+            8.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09004528820514679,
+          "max": 0.9999997615814209,
+          "std": 0.19697634875774384
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Icon at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was labeled as bad with 100% confidence (confidently). The model attended to a small Icon at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12691",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12691.jpg",
+    "text": "Simply sucks Its slow and the ads are effing ridiculous tumb up",
+    "prediction": 0.053594715893268585,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9464052841067314,
+    "gradcam_stats": {
+      "mean": 0.3954352140426636,
+      "max": 1.0,
+      "std": 0.29582637548446655
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.05369827151298523,
+      "p_img": 0.09101949632167816,
+      "delta_p_img": 0.03732122480869293
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 18935.5859375,
+        "score_mean": 0.40446825737995556
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          0,
+          27,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          175,
+          175
+        ],
+        "score_total": 142.85195922851562,
+        "score_mean": 0.3527208869839892
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 18935.5859375,
+        "score_mean": 0.40446825737995556,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 142.85195922851562,
+        "score_mean": 0.3527208869839892,
+        "bounds_image": [
+          0,
+          0,
+          27,
+          15
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 18935.5859375,
+        "score_mean": 0.40446825737995556,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 142.85195922851562,
+        "score_mean": 0.3527208869839892,
+        "bounds_image": [
+          0,
+          0,
+          27,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          175,
+          175
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Simply"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.06673001497983932,
+        "p_img": 0.0989476889371872,
+        "delta_p_img": 0.03221767395734787,
+        "gradcam_mean": 0.3811097741127014,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.03221767395734787,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.014662
+          ],
+          [
+            "secs",
+            -0.007376
+          ],
+          [
+            "video",
+            0.003422
+          ],
+          [
+            "ads",
+            -0.001689
+          ],
+          [
+            "popping",
+            0.000616
+          ],
+          [
+            "sec",
+            -0.000362
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13417954742908478,
+          "max": 0.9999993443489075,
+          "std": 0.27947622537612915
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.06284982711076736,
+        "p_img": 0.09706535935401917,
+        "delta_p_img": 0.0342155322432518,
+        "gradcam_mean": 0.3741314113140106,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.0342155322432518,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.006219
+          ],
+          [
+            "videos",
+            0.002843
+          ],
+          [
+            "pop",
+            0.001293
+          ],
+          [
+            "tried",
+            -0.000809
+          ],
+          [
+            "againa",
+            -0.000242
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13463179767131805,
+          "max": 0.9999992847442627,
+          "std": 0.279825896024704
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.0841432735323906,
+        "p_img": 0.1190914586186409,
+        "delta_p_img": 0.034948185086250305,
+        "gradcam_mean": 0.3644372224807739,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.034948185086250305,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.020117
+          ],
+          [
+            "point",
+            -0.004478
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1342281550168991,
+          "max": 0.9999995231628418,
+          "std": 0.2802717089653015
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.0837341845035553,
+        "p_img": 0.11584808677434921,
+        "delta_p_img": 0.032113902270793915,
+        "gradcam_mean": 0.3679230213165283,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.032113902270793915,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.015623
+          ],
+          [
+            "didn't letting",
+            -0.008056
+          ],
+          [
+            "videos",
+            0.007236
+          ],
+          [
+            "uninstall",
+            -0.007081
+          ],
+          [
+            "function",
+            -0.005627
+          ],
+          [
+            "any",
+            -0.004489
+          ],
+          [
+            "adds",
+            0.002552
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13554587960243225,
+          "max": 0.9999995231628418,
+          "std": 0.2806040048599243
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.11538447439670563,
+        "p_img": 0.15871471166610718,
+        "delta_p_img": 0.04333023726940155,
+        "gradcam_mean": 0.3646725118160248,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.04333023726940155,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.029176
+          ],
+          [
+            "play",
+            0.0231
+          ],
+          [
+            "without 20sec",
+            0.009199
+          ],
+          [
+            "ads",
+            0.004891
+          ],
+          [
+            "u",
+            0.000865
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13435429334640503,
+          "max": 0.9999996423721313,
+          "std": 0.28187817335128784
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 95% confidence.",
+      "simple": "This screen was labeled as bad with 95% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was labeled as bad with 95% confidence (confidently). The model attended to a small Web View at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12692",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12692.jpg",
+    "text": "Simply sucks Its slow and the ads are effing ridiculous tumb up",
+    "prediction": 0.013954266905784607,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9860457330942154,
+    "gradcam_stats": {
+      "mean": 0.4312633275985718,
+      "max": 1.0,
+      "std": 0.19103731215000153
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.01391894556581974,
+      "p_img": 0.07953035831451416,
+      "delta_p_img": 0.06561141274869442
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          105
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          1205
+        ],
+        "score_total": 11505.5078125,
+        "score_mean": 0.48917975393282315
+      },
+      {
+        "rank": 1,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 20651.546875,
+        "score_mean": 0.44112155833475736
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          1,
+          106,
+          222,
+          125
+        ],
+        "bounds_rico": [
+          11,
+          1216,
+          1429,
+          1432
+        ],
+        "score_total": 1841.436279296875,
+        "score_mean": 0.4385416240287866
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 11505.5078125,
+        "score_mean": 0.48917975393282315,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          105
+        ]
+      },
+      {
+        "component": "Background Image",
+        "score_total": 20651.546875,
+        "score_mean": 0.44112155833475736,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1841.436279296875,
+        "score_mean": 0.4385416240287866,
+        "bounds_image": [
+          1,
+          106,
+          222,
+          125
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 11505.5078125,
+        "score_mean": 0.48917975393282315,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          105
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          1205
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Background Image",
+        "score_total": 20651.546875,
+        "score_mean": 0.44112155833475736,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1841.436279296875,
+        "score_mean": 0.4385416240287866,
+        "bounds_image": [
+          1,
+          106,
+          222,
+          125
+        ],
+        "bounds_rico": [
+          11,
+          1216,
+          1429,
+          1432
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 1810.75341796875,
+        "score_mean": 0.43123444104995234,
+        "bounds_image": [
+          1,
+          127,
+          222,
+          146
+        ],
+        "bounds_rico": [
+          11,
+          1454,
+          1429,
+          1670
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 1629.238525390625,
+        "score_mean": 0.4095622235773316,
+        "bounds_image": [
+          1,
+          148,
+          222,
+          166
+        ],
+        "bounds_rico": [
+          11,
+          1692,
+          1429,
+          1907
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 1559.4796142578125,
+        "score_mean": 0.3713930969892385,
+        "bounds_image": [
+          1,
+          168,
+          222,
+          187
+        ],
+        "bounds_rico": [
+          11,
+          1929,
+          1429,
+          2144
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 1340.672607421875,
+        "score_mean": 0.31928378362035603,
+        "bounds_image": [
+          1,
+          189,
+          222,
+          208
+        ],
+        "bounds_rico": [
+          11,
+          2166,
+          1429,
+          2381
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Simply"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.016277767717838287,
+        "p_img": 0.03801589086651802,
+        "delta_p_img": 0.021738123148679733,
+        "gradcam_mean": 0.4203290641307831,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.007681158371269703,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.004033
+          ],
+          [
+            "secs",
+            -0.001692
+          ],
+          [
+            "video",
+            0.0006
+          ],
+          [
+            "ads",
+            -0.000176
+          ],
+          [
+            "sec",
+            -0.000175
+          ],
+          [
+            "popping",
+            0.000103
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1945897489786148,
+          "max": 0.9999995827674866,
+          "std": 0.3177845776081085
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.015614987351000309,
+        "p_img": 0.03624751418828964,
+        "delta_p_img": 0.020632526837289333,
+        "gradcam_mean": 0.4118940532207489,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.007853962946683168,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.001287
+          ],
+          [
+            "videos",
+            0.000548
+          ],
+          [
+            "tried",
+            -0.000392
+          ],
+          [
+            "againa",
+            -0.000356
+          ],
+          [
+            "pop",
+            0.000303
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19553405046463013,
+          "max": 0.9999995231628418,
+          "std": 0.31948626041412354
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.019832756370306015,
+        "p_img": 0.0549527183175087,
+        "delta_p_img": 0.03511996194720268,
+        "gradcam_mean": 0.4040907919406891,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.008599407970905304,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.004602
+          ],
+          [
+            "point",
+            -0.001185
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19243140518665314,
+          "max": 0.9999996423721313,
+          "std": 0.3138372302055359
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.019408278167247772,
+        "p_img": 0.010885017924010754,
+        "delta_p_img": 0.008523260243237019,
+        "gradcam_mean": 0.41869571805000305,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.008523260243237019,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.003422
+          ],
+          [
+            "function",
+            -0.001794
+          ],
+          [
+            "didn't letting",
+            -0.001786
+          ],
+          [
+            "uninstall",
+            -0.00161
+          ],
+          [
+            "videos",
+            0.001317
+          ],
+          [
+            "any",
+            -0.001171
+          ],
+          [
+            "adds",
+            0.000362
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1922786831855774,
+          "max": 0.9999996423721313,
+          "std": 0.3132164478302002
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.027370039373636246,
+        "p_img": 0.11542097479104996,
+        "delta_p_img": 0.08805093541741371,
+        "gradcam_mean": 0.40097784996032715,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.010000266134738922,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.0075
+          ],
+          [
+            "play",
+            0.005867
+          ],
+          [
+            "without 20sec",
+            0.001932
+          ],
+          [
+            "ads",
+            0.001015
+          ],
+          [
+            "u",
+            0.000252
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19025357067584991,
+          "max": 0.9999997019767761,
+          "std": 0.3087867200374603
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 99% confidence.",
+      "simple": "This screen was classified as bad with 99% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was classified as bad with 99% confidence (with high confidence). The model focused on a small Image at the top-left, a small Background Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12693",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12693.jpg",
+    "text": "Its slow and the ads are effing ridiculous Simply sucks With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+    "prediction": 0.006861110217869282,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9931388897821307,
+    "gradcam_stats": {
+      "mean": 0.4346081614494324,
+      "max": 1.0,
+      "std": 0.24406366050243378
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.006879531778395176,
+      "p_img": 0.003850121982395649,
+      "delta_p_img": 0.003029409795999527
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ],
+        "score_total": 234.74969482421875,
+        "score_mean": 0.5434020713523582
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 77.26112365722656,
+        "score_mean": 0.4292284647623698
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 92.84588623046875,
+        "score_mean": 0.1820507573146446
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 234.74969482421875,
+        "score_mean": 0.5434020713523582,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 77.26112365722656,
+        "score_mean": 0.4292284647623698,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 92.84588623046875,
+        "score_mean": 0.1820507573146446,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 234.74969482421875,
+        "score_mean": 0.5434020713523582,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 77.26112365722656,
+        "score_mean": 0.4292284647623698,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 92.84588623046875,
+        "score_mean": 0.1820507573146446,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Its"
+      },
+      {
+        "index": 2,
+        "token": "▁slow"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.007511903066188097,
+        "p_img": 0.004321568179875612,
+        "delta_p_img": 0.0031903348863124847,
+        "gradcam_mean": 0.4313928186893463,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.0031903348863124847,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.003783
+          ],
+          [
+            "secs",
+            -0.001486
+          ],
+          [
+            "video",
+            0.000364
+          ],
+          [
+            "ads",
+            -0.00026
+          ],
+          [
+            "sec",
+            -0.000198
+          ],
+          [
+            "popping",
+            6.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.22486470639705658,
+          "max": 0.9999998211860657,
+          "std": 0.3449777662754059
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.00752926105633378,
+        "p_img": 0.004228648729622364,
+        "delta_p_img": 0.0033006123267114162,
+        "gradcam_mean": 0.4303435981273651,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.0033006123267114162,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.00099
+          ],
+          [
+            "againa",
+            -0.000522
+          ],
+          [
+            "tried",
+            -0.000484
+          ],
+          [
+            "videos",
+            0.000388
+          ],
+          [
+            "pop",
+            0.000149
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.22581595182418823,
+          "max": 0.9999998211860657,
+          "std": 0.3440152108669281
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.010805413126945496,
+        "p_img": 0.005950719118118286,
+        "delta_p_img": 0.0048546940088272095,
+        "gradcam_mean": 0.39788955450057983,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.0048546940088272095,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.004044
+          ],
+          [
+            "point",
+            -0.001412
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2191382646560669,
+          "max": 0.9999998807907104,
+          "std": 0.34215420484542847
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.009794997051358223,
+        "p_img": 0.005579269491136074,
+        "delta_p_img": 0.004215727560222149,
+        "gradcam_mean": 0.4046052098274231,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.004215727560222149,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.002966
+          ],
+          [
+            "function",
+            -0.001907
+          ],
+          [
+            "didn't letting",
+            -0.001898
+          ],
+          [
+            "uninstall",
+            -0.001483
+          ],
+          [
+            "any",
+            -0.001256
+          ],
+          [
+            "videos",
+            0.001171
+          ],
+          [
+            "adds",
+            7.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21625323593616486,
+          "max": 0.9999998807907104,
+          "std": 0.3375658094882965
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.018089864403009415,
+        "p_img": 0.00969410128891468,
+        "delta_p_img": 0.008395763114094734,
+        "gradcam_mean": 0.3792867958545685,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.008395763114094734,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.007984
+          ],
+          [
+            "play",
+            0.005778
+          ],
+          [
+            "without 20sec",
+            0.002049
+          ],
+          [
+            "ads",
+            0.000642
+          ],
+          [
+            "u",
+            -4.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.22587159276008606,
+          "max": 0.9999999403953552,
+          "std": 0.3519919216632843
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 99% confidence.",
+      "simple": "This screen was predicted as bad with 99% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was predicted as bad with 99% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+    "screen_id": "12694",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12694.jpg",
+    "text": "Simply sucks Its slow and the ads are effing ridiculous tumb up",
+    "prediction": 0.021174639463424683,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9788253605365753,
+    "gradcam_stats": {
+      "mean": 0.30355754494667053,
+      "max": 1.0,
+      "std": 0.30426326394081116
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+      "But, tried it againa and too many videos you have to watch and pop up surveys",
+      "This was a decent app at one point, but now there way too many adds.",
+      "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+      "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    ],
+    "app_name": "Photo Fun - Funny Pics Creator",
+    "category": "Comics",
+    "faithfulness": {
+      "p_orig": 0.02113000489771366,
+      "p_img": 0.005095117259770632,
+      "delta_p_img": 0.01603488763794303
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          8,
+          131,
+          21,
+          139
+        ],
+        "bounds_rico": [
+          56,
+          1506,
+          140,
+          1590
+        ],
+        "score_total": 10.675098419189453,
+        "score_mean": 0.1026451771075909
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          13,
+          187,
+          26,
+          194
+        ],
+        "bounds_rico": [
+          84,
+          2140,
+          168,
+          2224
+        ],
+        "score_total": 7.549858093261719,
+        "score_mean": 0.08296547355232659
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          39,
+          125,
+          224,
+          145
+        ],
+        "bounds_rico": [
+          252,
+          1436,
+          1440,
+          1660
+        ],
+        "score_total": 260.0318908691406,
+        "score_mean": 0.07027888942409206
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 10.675098419189453,
+        "score_mean": 0.1026451771075909,
+        "bounds_image": [
+          8,
+          131,
+          21,
+          139
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 7.549858093261719,
+        "score_mean": 0.08296547355232659,
+        "bounds_image": [
+          13,
+          187,
+          26,
+          194
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 260.0318908691406,
+        "score_mean": 0.07027888942409206,
+        "bounds_image": [
+          39,
+          125,
+          224,
+          145
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 10.675098419189453,
+        "score_mean": 0.1026451771075909,
+        "bounds_image": [
+          8,
+          131,
+          21,
+          139
+        ],
+        "bounds_rico": [
+          56,
+          1506,
+          140,
+          1590
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 7.549858093261719,
+        "score_mean": 0.08296547355232659,
+        "bounds_image": [
+          13,
+          187,
+          26,
+          194
+        ],
+        "bounds_rico": [
+          84,
+          2140,
+          168,
+          2224
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 260.0318908691406,
+        "score_mean": 0.07027888942409206,
+        "bounds_image": [
+          39,
+          125,
+          224,
+          145
+        ],
+        "bounds_rico": [
+          252,
+          1436,
+          1440,
+          1660
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 2.7617266178131104,
+        "score_mean": 0.04248810181250939,
+        "bounds_image": [
+          13,
+          204,
+          26,
+          209
+        ],
+        "bounds_rico": [
+          84,
+          2336,
+          168,
+          2392
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 104.57772827148438,
+        "score_mean": 0.02746263872675535,
+        "bounds_image": [
+          0,
+          165,
+          224,
+          182
+        ],
+        "bounds_rico": [
+          0,
+          1888,
+          1440,
+          2084
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 13.145377159118652,
+        "score_mean": 0.01622886069026994,
+        "bounds_image": [
+          121,
+          147,
+          175,
+          162
+        ],
+        "bounds_rico": [
+          781,
+          1688,
+          1125,
+          1856
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 9.843040466308594,
+        "score_mean": 0.015623873756045388,
+        "bounds_image": [
+          175,
+          147,
+          217,
+          162
+        ],
+        "bounds_rico": [
+          1125,
+          1688,
+          1398,
+          1856
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 7.966394901275635,
+        "score_mean": 0.008492958316924985,
+        "bounds_image": [
+          39,
+          187,
+          173,
+          194
+        ],
+        "bounds_rico": [
+          252,
+          2139,
+          1114,
+          2224
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 0.5461577773094177,
+        "score_mean": 0.0023240756481251817,
+        "bounds_image": [
+          39,
+          204,
+          86,
+          209
+        ],
+        "bounds_rico": [
+          252,
+          2335,
+          556,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Simply"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads.",
+        "word_count": 20,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.9838,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁popping, ▁interface, ▁video",
+        "p_orig": 0.02419114299118519,
+        "p_img": 0.006210255436599255,
+        "delta_p_img": 0.017980887554585934,
+        "gradcam_mean": 0.30473852157592773,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.016258014366030693,
+        "word_attention_top15": [
+          [
+            "can't talking",
+            0.373338
+          ],
+          [
+            "ads",
+            0.225103
+          ],
+          [
+            "popping",
+            0.154507
+          ],
+          [
+            "video",
+            0.125975
+          ],
+          [
+            "sec",
+            0.075861
+          ],
+          [
+            "secs",
+            0.045216
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't talking",
+            -0.006876
+          ],
+          [
+            "secs",
+            -0.002841
+          ],
+          [
+            "video",
+            0.000825
+          ],
+          [
+            "ads",
+            -0.000635
+          ],
+          [
+            "sec",
+            -0.000348
+          ],
+          [
+            "popping",
+            6.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14951060712337494,
+          "max": 0.9999991655349731,
+          "std": 0.2946385145187378
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "But, tried it againa and too many videos you have to watch and pop up surveys",
+        "word_count": 16,
+        "interface_pos": 0.0065,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁But, ▁interface, ▁pop",
+        "p_orig": 0.02362200617790222,
+        "p_img": 0.00592252891510725,
+        "delta_p_img": 0.01769947726279497,
+        "gradcam_mean": 0.30130723118782043,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.016288491897284985,
+        "word_attention_top15": [
+          [
+            "againa",
+            0.254817
+          ],
+          [
+            "pop",
+            0.175939
+          ],
+          [
+            "surveys",
+            0.17163
+          ],
+          [
+            "tried",
+            0.160779
+          ],
+          [
+            "watch",
+            0.124112
+          ],
+          [
+            "videos",
+            0.112722
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.002051
+          ],
+          [
+            "videos",
+            0.000957
+          ],
+          [
+            "againa",
+            -0.000878
+          ],
+          [
+            "tried",
+            -0.000824
+          ],
+          [
+            "pop",
+            0.000403
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15046554803848267,
+          "max": 0.9999991655349731,
+          "std": 0.2961467504501343
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "This was a decent app at one point, but now there way too many adds.",
+        "word_count": 15,
+        "interface_pos": 0.0143,
+        "interface_neg": 0.9643,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Icon",
+        "top_k_tokens": "▁This, ▁app, ▁at",
+        "p_orig": 0.030316585674881935,
+        "p_img": 0.008497165516018867,
+        "delta_p_img": 0.021819420158863068,
+        "gradcam_mean": 0.2967052459716797,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.019444563426077366,
+        "word_attention_top15": [
+          [
+            "point",
+            0.426103
+          ],
+          [
+            "adds",
+            0.300719
+          ],
+          [
+            "decent",
+            0.273178
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "decent",
+            0.008035
+          ],
+          [
+            "point",
+            -0.002707
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15353438258171082,
+          "max": 0.999999463558197,
+          "std": 0.30072247982025146
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure",
+        "word_count": 25,
+        "interface_pos": 0.034,
+        "interface_neg": 0.8346,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Icon",
+        "top_k_tokens": "▁Didn, ▁the, ▁app",
+        "p_orig": 0.02874535694718361,
+        "p_img": 0.00802682526409626,
+        "delta_p_img": 0.02071853168308735,
+        "gradcam_mean": 0.3005503714084625,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.018387826159596443,
+        "word_attention_top15": [
+          [
+            "didn't letting",
+            0.459856
+          ],
+          [
+            "adds",
+            0.126976
+          ],
+          [
+            "videos",
+            0.096374
+          ],
+          [
+            "uninstall",
+            0.092781
+          ],
+          [
+            "function",
+            0.067658
+          ],
+          [
+            "any",
+            0.058298
+          ],
+          [
+            "watch",
+            0.050784
+          ],
+          [
+            "sure",
+            0.047273
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "watch",
+            0.005951
+          ],
+          [
+            "function",
+            -0.003888
+          ],
+          [
+            "didn't letting",
+            -0.003776
+          ],
+          [
+            "uninstall",
+            -0.002905
+          ],
+          [
+            "videos",
+            0.002811
+          ],
+          [
+            "any",
+            -0.002254
+          ],
+          [
+            "adds",
+            0.000656
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1536770910024643,
+          "max": 0.9999994039535522,
+          "std": 0.3013874590396881
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It would be a fun app if u could play it without 20sec ads every 5 seconds",
+        "word_count": 17,
+        "interface_pos": 0.482,
+        "interface_neg": 0.257,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁It, ▁ads, ▁app",
+        "p_orig": 0.04592981934547424,
+        "p_img": 0.01351784635335207,
+        "delta_p_img": 0.03241197299212217,
+        "gradcam_mean": 0.27792632579803467,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.028858045116066933,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.267257
+          ],
+          [
+            "without 20sec",
+            0.254295
+          ],
+          [
+            "play",
+            0.179045
+          ],
+          [
+            "fun",
+            0.12391
+          ],
+          [
+            "u",
+            0.111598
+          ],
+          [
+            "seconds",
+            0.063894
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fun",
+            0.01552
+          ],
+          [
+            "play",
+            0.011498
+          ],
+          [
+            "without 20sec",
+            0.004483
+          ],
+          [
+            "ads",
+            0.001896
+          ],
+          [
+            "u",
+            0.000133
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14956732094287872,
+          "max": 0.9999997019767761,
+          "std": 0.2905462384223938
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 98% confidence.",
+      "simple": "This screen was predicted as bad with 98% confidence. The model concentrated on a small Icon at the top-left.",
+      "detailed": "This screen of Photo Fun - Funny Pics Creator (category: Comics) was predicted as bad with 98% confidence (with strong evidence). The model gave priority to a small Icon at the top-left, a small Icon at the top-left, and a small Text at the top-left."
+    }
+  }
+]

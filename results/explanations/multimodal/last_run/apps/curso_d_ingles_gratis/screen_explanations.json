@@ -1,0 +1,1807 @@
+[
+  {
+    "package_name": "curso.d.ingles.gratis",
+    "screen_id": "53623",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\53623.jpg",
+    "text": "A helpful application for everyone. This is the best English learning app out there! Quality content and easy to learn. Don't hesitate to download and try to use this useful tool for your study. The best English guide. I must say that this app includes all the features included in a paid English course. This app is very well built and the way things are organized is great. It is very easy to learn with the help of this application. I recommend you to try it. I really like the features of this ap",
+    "prediction": 0.9851850271224976,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9851850271224976,
+    "gradcam_stats": {
+      "mean": 0.541620135307312,
+      "max": 1.0,
+      "std": 0.15489453077316284
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Best choice for everyone. The simplest app ever to use with intuitive interface but also the most effective for any beginners who want to better their English skills.",
+      "Great application to learn English As everyone knows, English is the most important language for communicating with people regardless of any language-speaking country. Therefore, knowledge of English is the best way to advance to a successful career. This application helps to learn English at home, saving money and time. Very useful, most get it for the complete English course!",
+      "Great!! Thanks so much for developing such a useful application. It helped me a lot. Since childhood I have had weak English. The training classes were boring. Now I can easily learn English using this app. This app is really cool. I recommend it.",
+      "The best English learning app I have worked on recently in a tourist hotel and my English is not good. I searched and found this app and used it to learn. This helps me to learn English. Now my English has improved a lot. Thank you developer.",
+      "this amazing App! I am very impressed after installing this app. What a good application to learn English! It's nice to have an app like this. It is a good way to learn English! I love the strategy that this app works and very fair! English can be a useful element that everyone should learn and this app removes it. Recommended!"
+    ],
+    "app_name": "Curso de Ingles Gratis",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.9851781725883484,
+      "p_img": 0.7813126444816589,
+      "delta_p_img": 0.20386552810668945
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ],
+        "score_total": 24988.025390625,
+        "score_mean": 0.5522459642553262
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 24988.025390625,
+        "score_mean": 0.5522459642553262,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 24988.025390625,
+        "score_mean": 0.5522459642553262,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 30,
+        "token": "▁and"
+      },
+      {
+        "index": 32,
+        "token": "▁to"
+      },
+      {
+        "index": 14,
+        "token": "▁out"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "Best choice for everyone. The simplest app ever to use with intuitive interface but also the most effective for any beginners who want to better their English skills.",
+        "word_count": 28,
+        "interface_pos": 0.9972,
+        "interface_neg": 0.0008,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁who, ▁beginners, ▁choice",
+        "p_orig": 0.932941198348999,
+        "p_img": 0.44468408823013306,
+        "delta_p_img": 0.48825711011886597,
+        "gradcam_mean": 0.398425430059433,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.48825711011886597,
+        "word_attention_top15": [
+          [
+            "skills",
+            0.126917
+          ],
+          [
+            "beginners",
+            0.10947
+          ],
+          [
+            "choice",
+            0.10327
+          ],
+          [
+            "everyone",
+            0.098639
+          ],
+          [
+            "any",
+            0.077239
+          ],
+          [
+            "effective",
+            0.074255
+          ],
+          [
+            "ever",
+            0.071186
+          ],
+          [
+            "interface",
+            0.0609
+          ],
+          [
+            "want",
+            0.058262
+          ],
+          [
+            "best",
+            0.055724
+          ],
+          [
+            "intuitive",
+            0.051948
+          ],
+          [
+            "better",
+            0.044595
+          ],
+          [
+            "simplest",
+            0.044091
+          ],
+          [
+            "english",
+            0.023504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "effective",
+            0.092217
+          ],
+          [
+            "beginners",
+            0.037021
+          ],
+          [
+            "everyone",
+            0.034986
+          ],
+          [
+            "choice",
+            0.032806
+          ],
+          [
+            "ever",
+            0.029467
+          ],
+          [
+            "simplest",
+            0.027567
+          ],
+          [
+            "best",
+            0.027406
+          ],
+          [
+            "intuitive",
+            0.026815
+          ],
+          [
+            "better",
+            0.022986
+          ],
+          [
+            "interface",
+            -0.021322
+          ],
+          [
+            "english",
+            0.017874
+          ],
+          [
+            "any",
+            0.013103
+          ],
+          [
+            "want",
+            -0.001603
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19805049896240234,
+          "max": 0.9999998807907104,
+          "std": 0.31364718079566956
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Great application to learn English As everyone knows, English is the most important language for communicating with people regardless of any language-speaking country. Therefore, knowledge of English is the best way to advance to a successful career. This application helps to learn English at home, saving money and time. Very useful, most get it for the complete English course!",
+        "word_count": 59,
+        "interface_pos": 0.9965,
+        "interface_neg": 0.0008,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁country, ▁the, ▁best",
+        "p_orig": 0.9808244705200195,
+        "p_img": 0.7287439703941345,
+        "delta_p_img": 0.252080500125885,
+        "gradcam_mean": 0.5560349225997925,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.252080500125885,
+        "word_attention_top15": [
+          [
+            "country",
+            0.103109
+          ],
+          [
+            "english",
+            0.088063
+          ],
+          [
+            "time",
+            0.074142
+          ],
+          [
+            "language-speaking",
+            0.062186
+          ],
+          [
+            "useful",
+            0.056283
+          ],
+          [
+            "career",
+            0.052749
+          ],
+          [
+            "course",
+            0.046479
+          ],
+          [
+            "best",
+            0.044038
+          ],
+          [
+            "learn",
+            0.042068
+          ],
+          [
+            "therefore",
+            0.041257
+          ],
+          [
+            "advance",
+            0.035834
+          ],
+          [
+            "great",
+            0.035421
+          ],
+          [
+            "home",
+            0.03409
+          ],
+          [
+            "everyone",
+            0.029767
+          ],
+          [
+            "helps",
+            0.027571
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.106266
+          ],
+          [
+            "best",
+            0.075483
+          ],
+          [
+            "english",
+            0.074084
+          ],
+          [
+            "useful",
+            0.047747
+          ],
+          [
+            "saving",
+            0.036069
+          ],
+          [
+            "helps",
+            0.028605
+          ],
+          [
+            "successful",
+            0.024716
+          ],
+          [
+            "complete",
+            0.024181
+          ],
+          [
+            "important",
+            0.020667
+          ],
+          [
+            "career",
+            0.019637
+          ],
+          [
+            "learn",
+            0.015783
+          ],
+          [
+            "money",
+            0.015332
+          ],
+          [
+            "home",
+            0.012868
+          ],
+          [
+            "communicating",
+            0.01076
+          ],
+          [
+            "knowledge",
+            0.009148
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23410487174987793,
+          "max": 0.9999998807907104,
+          "std": 0.3608514964580536
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Great!! Thanks so much for developing such a useful application. It helped me a lot. Since childhood I have had weak English. The training classes were boring. Now I can easily learn English using this app. This app is really cool. I recommend it.",
+        "word_count": 44,
+        "interface_pos": 0.9959,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁much, ▁it, ▁so",
+        "p_orig": 0.9684857130050659,
+        "p_img": 0.6103673577308655,
+        "delta_p_img": 0.35811835527420044,
+        "gradcam_mean": 0.4589250385761261,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.35811835527420044,
+        "word_attention_top15": [
+          [
+            "great",
+            0.162317
+          ],
+          [
+            "cool",
+            0.124432
+          ],
+          [
+            "english",
+            0.101854
+          ],
+          [
+            "useful",
+            0.07804
+          ],
+          [
+            "developing",
+            0.068117
+          ],
+          [
+            "recommend",
+            0.06378
+          ],
+          [
+            "easily",
+            0.058533
+          ],
+          [
+            "boring",
+            0.0551
+          ],
+          [
+            "childhood",
+            0.049206
+          ],
+          [
+            "helped",
+            0.038475
+          ],
+          [
+            "learn",
+            0.036051
+          ],
+          [
+            "classes",
+            0.035568
+          ],
+          [
+            "weak",
+            0.034661
+          ],
+          [
+            "using",
+            0.034512
+          ],
+          [
+            "thanks",
+            0.027591
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cool",
+            0.077742
+          ],
+          [
+            "easily",
+            0.060131
+          ],
+          [
+            "useful",
+            0.042196
+          ],
+          [
+            "great",
+            0.035387
+          ],
+          [
+            "thanks",
+            0.034303
+          ],
+          [
+            "helped",
+            0.030209
+          ],
+          [
+            "recommend",
+            0.017552
+          ],
+          [
+            "using",
+            0.014745
+          ],
+          [
+            "training",
+            -0.012175
+          ],
+          [
+            "weak",
+            -0.009668
+          ],
+          [
+            "childhood",
+            0.009581
+          ],
+          [
+            "learn",
+            0.008951
+          ],
+          [
+            "developing",
+            0.008794
+          ],
+          [
+            "boring",
+            -0.008385
+          ],
+          [
+            "since",
+            0.008049
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21641093492507935,
+          "max": 0.9999998807907104,
+          "std": 0.33608677983283997
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "The best English learning app I have worked on recently in a tourist hotel and my English is not good. I searched and found this app and used it to learn. This helps me to learn English. Now my English has improved a lot. Thank you developer.",
+        "word_count": 47,
+        "interface_pos": 0.9947,
+        "interface_neg": 0.0013,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁The, ▁you, ▁interface",
+        "p_orig": 0.9537693858146667,
+        "p_img": 0.5395213961601257,
+        "delta_p_img": 0.414247989654541,
+        "gradcam_mean": 0.42752358317375183,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.414247989654541,
+        "word_attention_top15": [
+          [
+            "not good",
+            0.168347
+          ],
+          [
+            "english",
+            0.153084
+          ],
+          [
+            "learn",
+            0.116926
+          ],
+          [
+            "developer",
+            0.092475
+          ],
+          [
+            "learning",
+            0.071119
+          ],
+          [
+            "helps",
+            0.061173
+          ],
+          [
+            "thank",
+            0.053312
+          ],
+          [
+            "hotel",
+            0.050612
+          ],
+          [
+            "improved",
+            0.04809
+          ],
+          [
+            "recently",
+            0.047244
+          ],
+          [
+            "found",
+            0.034144
+          ],
+          [
+            "best",
+            0.032138
+          ],
+          [
+            "tourist",
+            0.031743
+          ],
+          [
+            "searched",
+            0.019977
+          ],
+          [
+            "worked",
+            0.019614
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "best",
+            0.166569
+          ],
+          [
+            "not good",
+            -0.069688
+          ],
+          [
+            "found",
+            0.05479
+          ],
+          [
+            "english",
+            0.047086
+          ],
+          [
+            "learn",
+            0.03776
+          ],
+          [
+            "helps",
+            0.030792
+          ],
+          [
+            "improved",
+            0.023301
+          ],
+          [
+            "thank",
+            0.02011
+          ],
+          [
+            "searched",
+            -0.016241
+          ],
+          [
+            "worked",
+            0.011831
+          ],
+          [
+            "learning",
+            0.007102
+          ],
+          [
+            "recently",
+            -0.006344
+          ],
+          [
+            "hotel",
+            -0.003116
+          ],
+          [
+            "tourist",
+            -0.000381
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21179936826229095,
+          "max": 0.9999998807907104,
+          "std": 0.32183021306991577
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "this amazing App! I am very impressed after installing this app. What a good application to learn English! It's nice to have an app like this. It is a good way to learn English! I love the strategy that this app works and very fair! English can be a useful element that everyone should learn and this app removes it. Recommended!",
+        "word_count": 61,
+        "interface_pos": 0.9943,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁this, s, ▁and",
+        "p_orig": 0.9818952679634094,
+        "p_img": 0.7351105213165283,
+        "delta_p_img": 0.2467847466468811,
+        "gradcam_mean": 0.5564661026000977,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.2467847466468811,
+        "word_attention_top15": [
+          [
+            "english",
+            0.136546
+          ],
+          [
+            "good",
+            0.125448
+          ],
+          [
+            "learn",
+            0.11458
+          ],
+          [
+            "element",
+            0.076352
+          ],
+          [
+            "nice",
+            0.069147
+          ],
+          [
+            "love",
+            0.06682
+          ],
+          [
+            "fair",
+            0.059913
+          ],
+          [
+            "recommended",
+            0.058475
+          ],
+          [
+            "installing",
+            0.054408
+          ],
+          [
+            "impressed",
+            0.043869
+          ],
+          [
+            "works",
+            0.042544
+          ],
+          [
+            "strategy",
+            0.03969
+          ],
+          [
+            "removes",
+            0.033855
+          ],
+          [
+            "amazing",
+            0.031433
+          ],
+          [
+            "everyone",
+            0.03072
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fair",
+            0.089786
+          ],
+          [
+            "good",
+            0.088474
+          ],
+          [
+            "removes",
+            -0.073669
+          ],
+          [
+            "love",
+            0.067166
+          ],
+          [
+            "nice",
+            0.041669
+          ],
+          [
+            "amazing",
+            0.022013
+          ],
+          [
+            "learn",
+            0.01908
+          ],
+          [
+            "works",
+            0.018309
+          ],
+          [
+            "everyone",
+            0.018066
+          ],
+          [
+            "impressed",
+            0.016657
+          ],
+          [
+            "installing",
+            0.013206
+          ],
+          [
+            "element",
+            -0.012093
+          ],
+          [
+            "useful",
+            0.011035
+          ],
+          [
+            "strategy",
+            0.004671
+          ],
+          [
+            "english",
+            -0.002726
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23409023880958557,
+          "max": 0.9999998807907104,
+          "std": 0.36163586378097534
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 99% confidence.",
+      "simple": "This screen was classified as good with 99% confidence. The model focused primarily on a small Web View at the top-left.",
+      "detailed": "This screen of Curso de Ingles Gratis (category: Education) was classified as good with 99% confidence (with high confidence). The model focused on a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "curso.d.ingles.gratis",
+    "screen_id": "53622",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\53622.jpg",
+    "text": "A helpful application for everyone. This is the best English learning app out there! Quality content and easy to learn. Don't hesitate to download and try to use this useful tool for your study. The best English guide. I must say that this app includes all the features included in a paid English course. This app is very well built and the way things are organized is great. It is very easy to learn with the help of this application. I recommend you to try it. I really like the features of this ap",
+    "prediction": 0.9562341570854187,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9562341570854187,
+    "gradcam_stats": {
+      "mean": 0.5152206420898438,
+      "max": 1.0,
+      "std": 0.20000819861888885
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A helpful application for everyone. This is the best English learning app out there! Quality content and easy to learn. Don't hesitate to download and try to use this useful tool for your study.",
+      "The best English guide. I must say that this app includes all the features included in a paid English course. This app is very well built and the way things are organized is great. It is very easy to learn with the help of this application. I recommend you to try it.",
+      "I really like the features of this application. This app really helps me to learn English more, and I'm also able to listen from the native speakers about the explanation clearly. I will introduce this application for sure.",
+      "Good app. I really like the features of this application. This app really helps me to learn English more, and I'm also able to listen from the native speakers about the explanation clearly. I will introduce this application for sure.",
+      "this amazing App! I am very impressed after installing this app. What a good application to learn English! It's nice to have an app like this. It is a good way to learn English! I love the strategy that this app works and very fair! English can be a useful element that everyone should learn and this app removes it. Recommended!"
+    ],
+    "app_name": "Curso de Ingles Gratis",
+    "category": "Education",
+    "faithfulness": {},
+    "top_components_ablated": [],
+    "top_components": [],
+    "components_full_ranked": []
+  },
+  {
+    "package_name": "curso.d.ingles.gratis",
+    "screen_id": "53624",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\53624.jpg",
+    "text": "A helpful application for everyone. This is the best English learning app out there! Quality content and easy to learn. Don't hesitate to download and try to use this useful tool for your study. The best English guide. I must say that this app includes all the features included in a paid English course. This app is very well built and the way things are organized is great. It is very easy to learn with the help of this application. I recommend you to try it. I really like the features of this ap",
+    "prediction": 0.9980170726776123,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9980170726776123,
+    "gradcam_stats": {
+      "mean": 0.44613224267959595,
+      "max": 1.0,
+      "std": 0.2131660282611847
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Best choice for everyone. The simplest app ever to use with intuitive interface but also the most effective for any beginners who want to better their English skills.",
+      "Great application to learn English As everyone knows, English is the most important language for communicating with people regardless of any language-speaking country. Therefore, knowledge of English is the best way to advance to a successful career. This application helps to learn English at home, saving money and time. Very useful, most get it for the complete English course!",
+      "Great!! Thanks so much for developing such a useful application. It helped me a lot. Since childhood I have had weak English. The training classes were boring. Now I can easily learn English using this app. This app is really cool. I recommend it.",
+      "The best English learning app I have worked on recently in a tourist hotel and my English is not good. I searched and found this app and used it to learn. This helps me to learn English. Now my English has improved a lot. Thank you developer.",
+      "this amazing App! I am very impressed after installing this app. What a good application to learn English! It's nice to have an app like this. It is a good way to learn English! I love the strategy that this app works and very fair! English can be a useful element that everyone should learn and this app removes it. Recommended!"
+    ],
+    "app_name": "Curso de Ingles Gratis",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.9980255365371704,
+      "p_img": 0.9977722764015198,
+      "delta_p_img": 0.00025326013565063477
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          33,
+          135,
+          190,
+          152
+        ],
+        "bounds_rico": [
+          216,
+          1553,
+          1224,
+          1746
+        ],
+        "score_total": 1857.8370361328125,
+        "score_mean": 0.6960798187084348
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          33,
+          152,
+          190,
+          167
+        ],
+        "bounds_rico": [
+          216,
+          1746,
+          1224,
+          1914
+        ],
+        "score_total": 1468.23583984375,
+        "score_mean": 0.6234547090631635
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          33,
+          167,
+          190,
+          182
+        ],
+        "bounds_rico": [
+          216,
+          1914,
+          1224,
+          2082
+        ],
+        "score_total": 1271.953857421875,
+        "score_mean": 0.5401077950835987
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 1857.8370361328125,
+        "score_mean": 0.6960798187084348,
+        "bounds_image": [
+          33,
+          135,
+          190,
+          152
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1468.23583984375,
+        "score_mean": 0.6234547090631635,
+        "bounds_image": [
+          33,
+          152,
+          190,
+          167
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1271.953857421875,
+        "score_mean": 0.5401077950835987,
+        "bounds_image": [
+          33,
+          167,
+          190,
+          182
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 1857.8370361328125,
+        "score_mean": 0.6960798187084348,
+        "bounds_image": [
+          33,
+          135,
+          190,
+          152
+        ],
+        "bounds_rico": [
+          216,
+          1553,
+          1224,
+          1746
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 1468.23583984375,
+        "score_mean": 0.6234547090631635,
+        "bounds_image": [
+          33,
+          152,
+          190,
+          167
+        ],
+        "bounds_rico": [
+          216,
+          1746,
+          1224,
+          1914
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 1271.953857421875,
+        "score_mean": 0.5401077950835987,
+        "bounds_image": [
+          33,
+          167,
+          190,
+          182
+        ],
+        "bounds_rico": [
+          216,
+          1914,
+          1224,
+          2082
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 8201.705078125,
+        "score_mean": 0.5172293042899035,
+        "bounds_image": [
+          33,
+          34,
+          190,
+          135
+        ],
+        "bounds_rico": [
+          216,
+          394,
+          1224,
+          1553
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 30,
+        "token": "▁and"
+      },
+      {
+        "index": 32,
+        "token": "▁to"
+      },
+      {
+        "index": 14,
+        "token": "▁out"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "Best choice for everyone. The simplest app ever to use with intuitive interface but also the most effective for any beginners who want to better their English skills.",
+        "word_count": 28,
+        "interface_pos": 0.9972,
+        "interface_neg": 0.0008,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁who, ▁beginners, ▁choice",
+        "p_orig": 0.9950533509254456,
+        "p_img": 0.9943629503250122,
+        "delta_p_img": 0.0006904006004333496,
+        "gradcam_mean": 0.41583937406539917,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0006904006004333496,
+        "word_attention_top15": [
+          [
+            "skills",
+            0.126917
+          ],
+          [
+            "beginners",
+            0.10947
+          ],
+          [
+            "choice",
+            0.10327
+          ],
+          [
+            "everyone",
+            0.098639
+          ],
+          [
+            "any",
+            0.077239
+          ],
+          [
+            "effective",
+            0.074255
+          ],
+          [
+            "ever",
+            0.071186
+          ],
+          [
+            "interface",
+            0.0609
+          ],
+          [
+            "want",
+            0.058262
+          ],
+          [
+            "best",
+            0.055724
+          ],
+          [
+            "intuitive",
+            0.051948
+          ],
+          [
+            "better",
+            0.044595
+          ],
+          [
+            "simplest",
+            0.044091
+          ],
+          [
+            "english",
+            0.023504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "effective",
+            0.004032
+          ],
+          [
+            "beginners",
+            0.002414
+          ],
+          [
+            "english",
+            0.001639
+          ],
+          [
+            "everyone",
+            0.001583
+          ],
+          [
+            "ever",
+            0.001577
+          ],
+          [
+            "choice",
+            0.001481
+          ],
+          [
+            "intuitive",
+            0.001454
+          ],
+          [
+            "better",
+            0.001408
+          ],
+          [
+            "simplest",
+            0.001403
+          ],
+          [
+            "best",
+            0.001366
+          ],
+          [
+            "any",
+            0.000796
+          ],
+          [
+            "want",
+            -0.000493
+          ],
+          [
+            "interface",
+            -0.00028
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08360716700553894,
+          "max": 0.9999999403953552,
+          "std": 0.20672038197517395
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Great application to learn English As everyone knows, English is the most important language for communicating with people regardless of any language-speaking country. Therefore, knowledge of English is the best way to advance to a successful career. This application helps to learn English at home, saving money and time. Very useful, most get it for the complete English course!",
+        "word_count": 59,
+        "interface_pos": 0.9965,
+        "interface_neg": 0.0008,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁country, ▁the, ▁best",
+        "p_orig": 0.9975041747093201,
+        "p_img": 0.9971229434013367,
+        "delta_p_img": 0.00038123130798339844,
+        "gradcam_mean": 0.43617817759513855,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.00038123130798339844,
+        "word_attention_top15": [
+          [
+            "country",
+            0.103109
+          ],
+          [
+            "english",
+            0.088063
+          ],
+          [
+            "time",
+            0.074142
+          ],
+          [
+            "language-speaking",
+            0.062186
+          ],
+          [
+            "useful",
+            0.056283
+          ],
+          [
+            "career",
+            0.052749
+          ],
+          [
+            "course",
+            0.046479
+          ],
+          [
+            "best",
+            0.044038
+          ],
+          [
+            "learn",
+            0.042068
+          ],
+          [
+            "therefore",
+            0.041257
+          ],
+          [
+            "advance",
+            0.035834
+          ],
+          [
+            "great",
+            0.035421
+          ],
+          [
+            "home",
+            0.03409
+          ],
+          [
+            "everyone",
+            0.029767
+          ],
+          [
+            "helps",
+            0.027571
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "best",
+            0.004213
+          ],
+          [
+            "great",
+            0.003852
+          ],
+          [
+            "english",
+            0.003051
+          ],
+          [
+            "useful",
+            0.002237
+          ],
+          [
+            "complete",
+            0.00146
+          ],
+          [
+            "saving",
+            0.001441
+          ],
+          [
+            "learn",
+            0.001337
+          ],
+          [
+            "helps",
+            0.001287
+          ],
+          [
+            "successful",
+            0.001125
+          ],
+          [
+            "important",
+            0.001081
+          ],
+          [
+            "career",
+            0.000847
+          ],
+          [
+            "money",
+            0.000758
+          ],
+          [
+            "communicating",
+            0.000573
+          ],
+          [
+            "home",
+            0.000569
+          ],
+          [
+            "knowledge",
+            0.000548
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07956881076097488,
+          "max": 0.9999999403953552,
+          "std": 0.20523926615715027
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Great!! Thanks so much for developing such a useful application. It helped me a lot. Since childhood I have had weak English. The training classes were boring. Now I can easily learn English using this app. This app is really cool. I recommend it.",
+        "word_count": 44,
+        "interface_pos": 0.9959,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁much, ▁it, ▁so",
+        "p_orig": 0.9966502785682678,
+        "p_img": 0.9960582256317139,
+        "delta_p_img": 0.0005920529365539551,
+        "gradcam_mean": 0.43760544061660767,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0005920529365539551,
+        "word_attention_top15": [
+          [
+            "great",
+            0.162317
+          ],
+          [
+            "cool",
+            0.124432
+          ],
+          [
+            "english",
+            0.101854
+          ],
+          [
+            "useful",
+            0.07804
+          ],
+          [
+            "developing",
+            0.068117
+          ],
+          [
+            "recommend",
+            0.06378
+          ],
+          [
+            "easily",
+            0.058533
+          ],
+          [
+            "boring",
+            0.0551
+          ],
+          [
+            "childhood",
+            0.049206
+          ],
+          [
+            "helped",
+            0.038475
+          ],
+          [
+            "learn",
+            0.036051
+          ],
+          [
+            "classes",
+            0.035568
+          ],
+          [
+            "weak",
+            0.034661
+          ],
+          [
+            "using",
+            0.034512
+          ],
+          [
+            "thanks",
+            0.027591
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cool",
+            0.003108
+          ],
+          [
+            "easily",
+            0.002614
+          ],
+          [
+            "useful",
+            0.002026
+          ],
+          [
+            "great",
+            0.001518
+          ],
+          [
+            "helped",
+            0.00144
+          ],
+          [
+            "thanks",
+            0.001395
+          ],
+          [
+            "recommend",
+            0.001169
+          ],
+          [
+            "childhood",
+            0.000905
+          ],
+          [
+            "developing",
+            0.000879
+          ],
+          [
+            "weak",
+            -0.000818
+          ],
+          [
+            "using",
+            0.000765
+          ],
+          [
+            "boring",
+            -0.000646
+          ],
+          [
+            "learn",
+            0.00064
+          ],
+          [
+            "training",
+            -0.00038
+          ],
+          [
+            "since",
+            0.000305
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0796479806303978,
+          "max": 0.9999999403953552,
+          "std": 0.20619764924049377
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "The best English learning app I have worked on recently in a tourist hotel and my English is not good. I searched and found this app and used it to learn. This helps me to learn English. Now my English has improved a lot. Thank you developer.",
+        "word_count": 47,
+        "interface_pos": 0.9947,
+        "interface_neg": 0.0013,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁The, ▁you, ▁interface",
+        "p_orig": 0.9956610798835754,
+        "p_img": 0.9949396848678589,
+        "delta_p_img": 0.0007213950157165527,
+        "gradcam_mean": 0.42689916491508484,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0007213950157165527,
+        "word_attention_top15": [
+          [
+            "not good",
+            0.168347
+          ],
+          [
+            "english",
+            0.153084
+          ],
+          [
+            "learn",
+            0.116926
+          ],
+          [
+            "developer",
+            0.092475
+          ],
+          [
+            "learning",
+            0.071119
+          ],
+          [
+            "helps",
+            0.061173
+          ],
+          [
+            "thank",
+            0.053312
+          ],
+          [
+            "hotel",
+            0.050612
+          ],
+          [
+            "improved",
+            0.04809
+          ],
+          [
+            "recently",
+            0.047244
+          ],
+          [
+            "found",
+            0.034144
+          ],
+          [
+            "best",
+            0.032138
+          ],
+          [
+            "tourist",
+            0.031743
+          ],
+          [
+            "searched",
+            0.019977
+          ],
+          [
+            "worked",
+            0.019614
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "best",
+            0.006457
+          ],
+          [
+            "not good",
+            -0.003082
+          ],
+          [
+            "found",
+            0.002955
+          ],
+          [
+            "english",
+            0.001781
+          ],
+          [
+            "learn",
+            0.001697
+          ],
+          [
+            "helps",
+            0.001584
+          ],
+          [
+            "worked",
+            0.001164
+          ],
+          [
+            "thank",
+            0.000995
+          ],
+          [
+            "improved",
+            0.000911
+          ],
+          [
+            "learning",
+            0.000694
+          ],
+          [
+            "searched",
+            -0.00038
+          ],
+          [
+            "recently",
+            -0.000334
+          ],
+          [
+            "tourist",
+            -0.000251
+          ],
+          [
+            "hotel",
+            0.000105
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08416840434074402,
+          "max": 0.9999999403953552,
+          "std": 0.20922642946243286
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "this amazing App! I am very impressed after installing this app. What a good application to learn English! It's nice to have an app like this. It is a good way to learn English! I love the strategy that this app works and very fair! English can be a useful element that everyone should learn and this app removes it. Recommended!",
+        "word_count": 61,
+        "interface_pos": 0.9943,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁this, s, ▁and",
+        "p_orig": 0.9976246953010559,
+        "p_img": 0.9972597360610962,
+        "delta_p_img": 0.0003649592399597168,
+        "gradcam_mean": 0.4476219117641449,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0003649592399597168,
+        "word_attention_top15": [
+          [
+            "english",
+            0.136546
+          ],
+          [
+            "good",
+            0.125448
+          ],
+          [
+            "learn",
+            0.11458
+          ],
+          [
+            "element",
+            0.076352
+          ],
+          [
+            "nice",
+            0.069147
+          ],
+          [
+            "love",
+            0.06682
+          ],
+          [
+            "fair",
+            0.059913
+          ],
+          [
+            "recommended",
+            0.058475
+          ],
+          [
+            "installing",
+            0.054408
+          ],
+          [
+            "impressed",
+            0.043869
+          ],
+          [
+            "works",
+            0.042544
+          ],
+          [
+            "strategy",
+            0.03969
+          ],
+          [
+            "removes",
+            0.033855
+          ],
+          [
+            "amazing",
+            0.031433
+          ],
+          [
+            "everyone",
+            0.03072
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "removes",
+            -0.005918
+          ],
+          [
+            "fair",
+            0.004995
+          ],
+          [
+            "good",
+            0.004145
+          ],
+          [
+            "love",
+            0.002672
+          ],
+          [
+            "everyone",
+            0.002277
+          ],
+          [
+            "nice",
+            0.00192
+          ],
+          [
+            "learn",
+            0.001615
+          ],
+          [
+            "useful",
+            0.001476
+          ],
+          [
+            "impressed",
+            0.000914
+          ],
+          [
+            "amazing",
+            0.000796
+          ],
+          [
+            "works",
+            0.000706
+          ],
+          [
+            "installing",
+            0.000657
+          ],
+          [
+            "element",
+            -0.000626
+          ],
+          [
+            "strategy",
+            0.000256
+          ],
+          [
+            "english",
+            -0.000205
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0779280811548233,
+          "max": 0.9999998807907104,
+          "std": 0.20468729734420776
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 100% confidence.",
+      "simple": "This screen was classified as good with 100% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Curso de Ingles Gratis (category: Education) was classified as good with 100% confidence (with high confidence). The model focused on a small Text Button at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "package_name": "com.pocoyo.house",
+  "num_screens": 5,
+  "app_score": 0.0036228160141035916,
+  "app_prediction": "bad",
+  "app_confidence": 0.9963771839858964,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0014035331550985575,
+    0.003311174688860774,
+    0.0030664969235658646,
+    0.008409827016294003,
+    0.0019230482866987586
+  ],
+  "prediction_variance": 6.227302463317682e-06,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_pocoyo_house\\com_pocoyo_house_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.pocoyo.house was classified as bad with average confidence 100% across 5 screens.",
+    "simple": "com.pocoyo.house was classified as bad with average confidence 100% across 5 screens. Across these screens, the model recurringly attended to Image components.",
+    "detailed": "com.pocoyo.house was classified as bad with average confidence 100% across 5 screens. Across these screens, the model recurringly attended to Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (6x), Icon (2x), Text (2x). The most influential review words across screens were 'dont recommend', 'pocoyo', 'subscription', 'content', and 'experience'. The app belongs to the Entertainment category and was analyzed across 5 screens."
+  },
+  "representative_screen": {
+    "screen_id": "49921",
+    "review_rank": 2,
+    "delta_p_img": 0.11961832735687494,
+    "confidence": 0.9966888253111392,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\49921.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "dont recommend",
+      1.159958
+    ],
+    [
+      "pocoyo",
+      0.927663
+    ],
+    [
+      "subscription",
+      0.780241
+    ],
+    [
+      "content",
+      0.571542
+    ],
+    [
+      "experience",
+      0.545257
+    ],
+    [
+      "don't kind",
+      0.475612
+    ],
+    [
+      "fun",
+      0.446916
+    ],
+    [
+      "don't graphics",
+      0.436511
+    ],
+    [
+      "love",
+      0.407667
+    ],
+    [
+      "whats",
+      0.350721
+    ],
+    [
+      "free",
+      0.339273
+    ],
+    [
+      "poor",
+      0.337389
+    ],
+    [
+      "logo",
+      0.330389
+    ],
+    [
+      "149.99",
+      0.300053
+    ],
+    [
+      "marketing",
+      0.291697
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "fun",
+      0.010626
+    ],
+    [
+      "don't kind",
+      -0.010525
+    ],
+    [
+      "bad",
+      -0.010162
+    ],
+    [
+      "poor",
+      -0.009017
+    ],
+    [
+      "scam",
+      -0.008057
+    ],
+    [
+      "terrible",
+      -0.007847
+    ],
+    [
+      "free",
+      0.007531
+    ],
+    [
+      "horrible",
+      -0.007444
+    ],
+    [
+      "dont recommend",
+      -0.006456
+    ],
+    [
+      "costly",
+      -0.006068
+    ],
+    [
+      "never install",
+      -0.005956
+    ],
+    [
+      "device",
+      0.005565
+    ],
+    [
+      "definitely",
+      0.004315
+    ],
+    [
+      "value",
+      0.004311
+    ],
+    [
+      "subscription",
+      0.004168
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "fun",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 7,
+      "rank_shap": 1,
+      "shap_signed": 0.010626,
+      "in_both": true
+    },
+    {
+      "word": "don't kind",
+      "rrf_score": 0.031281,
+      "rank_bahdanau": 6,
+      "rank_shap": 2,
+      "shap_signed": -0.010525,
+      "in_both": true
+    },
+    {
+      "word": "dont recommend",
+      "rrf_score": 0.030886,
+      "rank_bahdanau": 1,
+      "rank_shap": 9,
+      "shap_signed": -0.006456,
+      "in_both": true
+    },
+    {
+      "word": "poor",
+      "rrf_score": 0.029514,
+      "rank_bahdanau": 12,
+      "rank_shap": 4,
+      "shap_signed": -0.009017,
+      "in_both": true
+    },
+    {
+      "word": "subscription",
+      "rrf_score": 0.029206,
+      "rank_bahdanau": 3,
+      "rank_shap": 15,
+      "shap_signed": 0.004168,
+      "in_both": true
+    },
+    {
+      "word": "free",
+      "rrf_score": 0.02901,
+      "rank_bahdanau": 11,
+      "rank_shap": 7,
+      "shap_signed": 0.007531,
+      "in_both": true
+    },
+    {
+      "word": "pocoyo",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "bad",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.010162,
+      "in_both": false
+    },
+    {
+      "word": "content",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "scam",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.008057,
+      "in_both": false
+    },
+    {
+      "word": "experience",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "terrible",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": -0.007847,
+      "in_both": false
+    },
+    {
+      "word": "don't graphics",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "horrible",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.007444,
+      "in_both": false
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 19,
+      "text": "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 12,
+      "text": "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 2,
+      "text": "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 4,
+      "text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 10,
+      "text": "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "dont recommend",
+      1.159958
+    ],
+    [
+      "pocoyo",
+      0.927663
+    ],
+    [
+      "subscription",
+      0.780241
+    ],
+    [
+      "content",
+      0.571542
+    ],
+    [
+      "experience",
+      0.545257
+    ],
+    [
+      "don't kind",
+      0.475612
+    ],
+    [
+      "fun",
+      0.446916
+    ],
+    [
+      "don't graphics",
+      0.436511
+    ],
+    [
+      "love",
+      0.407667
+    ],
+    [
+      "whats",
+      0.350721
+    ],
+    [
+      "free",
+      0.339273
+    ],
+    [
+      "poor",
+      0.337389
+    ],
+    [
+      "logo",
+      0.330389
+    ],
+    [
+      "149.99",
+      0.300053
+    ],
+    [
+      "marketing",
+      0.291697
+    ]
+  ]
+}

@@ -1,0 +1,2456 @@
+[
+  {
+    "package_name": "com.kauf.particle.virtualmatch",
+    "screen_id": "44083",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44083.jpg",
+    "text": "It sucks this app is more ad than app. complete garbage I wish i could give 0 stars this thing sucks",
+    "prediction": 0.0018460697028785944,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9981539302971214,
+    "gradcam_stats": {
+      "mean": 0.43574750423431396,
+      "max": 1.0,
+      "std": 0.24153724312782288
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤",
+      "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)",
+      "I just wanted a fire game and got so much more! I have been playing it and have been impressed.",
+      "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again",
+      "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!"
+    ],
+    "app_name": "Virtual Match",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.0018492498202249408,
+      "p_img": 0.0028575663454830647,
+      "delta_p_img": 0.0010083165252581239
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          7,
+          1440,
+          182
+        ],
+        "score_total": 497.77813720703125,
+        "score_mean": 0.14814825512114024
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 497.77813720703125,
+        "score_mean": 0.14814825512114024,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          15
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 497.77813720703125,
+        "score_mean": 0.14814825512114024,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          7,
+          1440,
+          182
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁It"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤",
+        "word_count": 18,
+        "interface_pos": 0.6292,
+        "interface_neg": 0.0082,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁Grace, ▁❤, ▁interface",
+        "p_orig": 0.009007799439132214,
+        "p_img": 0.013278323225677013,
+        "delta_p_img": 0.0042705237865448,
+        "gradcam_mean": 0.3842668831348419,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.0042705237865448,
+        "word_attention_top15": [
+          [
+            "frère",
+            0.11497
+          ],
+          [
+            "d'agneau",
+            0.103572
+          ],
+          [
+            "grace",
+            0.102227
+          ],
+          [
+            "j'ai",
+            0.086411
+          ],
+          [
+            "gigot",
+            0.080271
+          ],
+          [
+            "pecho",
+            0.073538
+          ],
+          [
+            "❤",
+            0.067206
+          ],
+          [
+            "manger",
+            0.057662
+          ],
+          [
+            "chandelle",
+            0.057597
+          ],
+          [
+            "délicieux",
+            0.04531
+          ],
+          [
+            "et",
+            0.044164
+          ],
+          [
+            "mon",
+            0.039187
+          ],
+          [
+            "un",
+            0.035155
+          ],
+          [
+            "beaucoup",
+            0.034785
+          ],
+          [
+            "merci",
+            0.024883
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "délicieux",
+            0.001229
+          ],
+          [
+            "merci",
+            0.001101
+          ],
+          [
+            "pecho",
+            0.000898
+          ],
+          [
+            "pu",
+            0.000838
+          ],
+          [
+            "j'ai",
+            -0.000802
+          ],
+          [
+            "et",
+            0.000701
+          ],
+          [
+            "manger",
+            0.00069
+          ],
+          [
+            "d'agneau",
+            0.000658
+          ],
+          [
+            "gigot",
+            -0.000638
+          ],
+          [
+            "beaucoup",
+            0.000636
+          ],
+          [
+            "mon",
+            0.000427
+          ],
+          [
+            "frère",
+            -0.000287
+          ],
+          [
+            "grace",
+            0.00028
+          ],
+          [
+            "la",
+            0.00024
+          ],
+          [
+            "chandelle",
+            -8.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1506229192018509,
+          "max": 0.9999996423721313,
+          "std": 0.2890952229499817
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)",
+        "word_count": 23,
+        "interface_pos": 0.9688,
+        "interface_neg": 0.0076,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁I, ▁interface, ▁it",
+        "p_orig": 0.009392700158059597,
+        "p_img": 0.013515354134142399,
+        "delta_p_img": 0.004122653976082802,
+        "gradcam_mean": 0.38180872797966003,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.004122653976082802,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.771847
+          ],
+          [
+            "wish",
+            0.080755
+          ],
+          [
+            "free",
+            0.076493
+          ],
+          [
+            "rid",
+            0.046565
+          ],
+          [
+            "pay",
+            0.024341
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "wish",
+            -0.001282
+          ],
+          [
+            "rid",
+            -0.000936
+          ],
+          [
+            "free",
+            0.000801
+          ],
+          [
+            "pay",
+            0.000742
+          ],
+          [
+            "ads",
+            0.000195
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15112780034542084,
+          "max": 0.9999996423721313,
+          "std": 0.28997987508773804
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I just wanted a fire game and got so much more! I have been playing it and have been impressed.",
+        "word_count": 20,
+        "interface_pos": 0.9762,
+        "interface_neg": 0.0034,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁interface, ▁and, ▁been",
+        "p_orig": 0.014632505364716053,
+        "p_img": 0.022886967286467552,
+        "delta_p_img": 0.0082544619217515,
+        "gradcam_mean": 0.35090354084968567,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.0082544619217515,
+        "word_attention_top15": [
+          [
+            "impressed",
+            0.30513
+          ],
+          [
+            "game",
+            0.255674
+          ],
+          [
+            "fire",
+            0.186226
+          ],
+          [
+            "playing",
+            0.181865
+          ],
+          [
+            "wanted",
+            0.071105
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "playing",
+            0.001714
+          ],
+          [
+            "wanted",
+            -0.001395
+          ],
+          [
+            "fire",
+            -0.000973
+          ],
+          [
+            "game",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1514396220445633,
+          "max": 0.9999996423721313,
+          "std": 0.2912686765193939
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again",
+        "word_count": 24,
+        "interface_pos": 0.0029,
+        "interface_neg": 0.9877,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁interface, ▁work, ▁once",
+        "p_orig": 0.00216847681440413,
+        "p_img": 0.0031491301488131285,
+        "delta_p_img": 0.0009806533344089985,
+        "gradcam_mean": 0.4481399357318878,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.0009806533344089985,
+        "word_attention_top15": [
+          [
+            "work.....plus",
+            0.369008
+          ],
+          [
+            "adverts.....the",
+            0.289715
+          ],
+          [
+            "game",
+            0.070299
+          ],
+          [
+            "works",
+            0.060611
+          ],
+          [
+            "doesnt",
+            0.060222
+          ],
+          [
+            "never",
+            0.052939
+          ],
+          [
+            "full",
+            0.041569
+          ],
+          [
+            "adverts",
+            0.033154
+          ],
+          [
+            "finally",
+            0.022484
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.001234
+          ],
+          [
+            "works",
+            0.000743
+          ],
+          [
+            "work.....plus",
+            0.000567
+          ],
+          [
+            "never",
+            0.000281
+          ],
+          [
+            "adverts",
+            -0.000276
+          ],
+          [
+            "full",
+            -0.000109
+          ],
+          [
+            "game",
+            -8.2e-05
+          ],
+          [
+            "adverts.....the",
+            -5.1e-05
+          ],
+          [
+            "finally",
+            2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14307242631912231,
+          "max": 0.9999982714653015,
+          "std": 0.27853038907051086
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!",
+        "word_count": 35,
+        "interface_pos": 0.0032,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁I, ▁interface, ▁squirrel",
+        "p_orig": 0.002571344841271639,
+        "p_img": 0.0038005239330232143,
+        "delta_p_img": 0.0012291790917515755,
+        "gradcam_mean": 0.43347907066345215,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.0012291790917515755,
+        "word_attention_top15": [
+          [
+            "sights",
+            0.136502
+          ],
+          [
+            "not able",
+            0.127081
+          ],
+          [
+            "squirrel",
+            0.096014
+          ],
+          [
+            "brought",
+            0.090383
+          ],
+          [
+            "yet",
+            0.089881
+          ],
+          [
+            "game",
+            0.088164
+          ],
+          [
+            "ads",
+            0.072308
+          ],
+          [
+            "porn",
+            0.066408
+          ],
+          [
+            "crazy",
+            0.062156
+          ],
+          [
+            "nasty",
+            0.054105
+          ],
+          [
+            "ad",
+            0.049609
+          ],
+          [
+            "pretty",
+            0.043244
+          ],
+          [
+            "clicked",
+            0.024144
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nasty",
+            -0.000826
+          ],
+          [
+            "pretty",
+            0.000489
+          ],
+          [
+            "porn",
+            -0.000347
+          ],
+          [
+            "not able",
+            -0.000176
+          ],
+          [
+            "sights",
+            0.000175
+          ],
+          [
+            "brought",
+            0.000154
+          ],
+          [
+            "ads",
+            5.9e-05
+          ],
+          [
+            "ad",
+            3.5e-05
+          ],
+          [
+            "yet",
+            3.4e-05
+          ],
+          [
+            "game",
+            1.8e-05
+          ],
+          [
+            "clicked",
+            1.6e-05
+          ],
+          [
+            "squirrel",
+            -4e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14305345714092255,
+          "max": 0.9999986290931702,
+          "std": 0.27802574634552
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of Virtual Match (category: Lifestyle) was labeled as bad with 100% confidence (confidently). The model attended to a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.particle.virtualmatch",
+    "screen_id": "44084",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44084.jpg",
+    "text": "this app is more ad than app. complete garbage I wish i could give 0 stars this thing sucks It sucks",
+    "prediction": 0.0025894897989928722,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9974105102010071,
+    "gradcam_stats": {
+      "mean": 0.40940237045288086,
+      "max": 1.0,
+      "std": 0.24363163113594055
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤",
+      "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)",
+      "I just wanted a fire game and got so much more! I have been playing it and have been impressed.",
+      "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again",
+      "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!"
+    ],
+    "app_name": "Virtual Match",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.0025822140742093325,
+      "p_img": 0.008408837020397186,
+      "delta_p_img": 0.005826622946187854
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          83,
+          132,
+          140,
+          161
+        ],
+        "bounds_rico": [
+          536,
+          1517,
+          905,
+          1840
+        ],
+        "score_total": 1471.8486328125,
+        "score_mean": 0.8904105461660617
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ],
+        "bounds_rico": [
+          536,
+          1840,
+          905,
+          1906
+        ],
+        "score_total": 243.85586547851562,
+        "score_mean": 0.8556346157140899
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ],
+        "bounds_rico": [
+          145,
+          1840,
+          514,
+          1906
+        ],
+        "score_total": 243.18727111816406,
+        "score_mean": 0.8532886705900493
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 1471.8486328125,
+        "score_mean": 0.8904105461660617,
+        "bounds_image": [
+          83,
+          132,
+          140,
+          161
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 243.85586547851562,
+        "score_mean": 0.8556346157140899,
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 243.18727111816406,
+        "score_mean": 0.8532886705900493,
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 1471.8486328125,
+        "score_mean": 0.8904105461660617,
+        "bounds_image": [
+          83,
+          132,
+          140,
+          161
+        ],
+        "bounds_rico": [
+          536,
+          1517,
+          905,
+          1840
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 243.85586547851562,
+        "score_mean": 0.8556346157140899,
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ],
+        "bounds_rico": [
+          536,
+          1840,
+          905,
+          1906
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 243.18727111816406,
+        "score_mean": 0.8532886705900493,
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ],
+        "bounds_rico": [
+          145,
+          1840,
+          514,
+          1906
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 1390.235595703125,
+        "score_mean": 0.8410378679389746,
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ],
+        "bounds_rico": [
+          145,
+          1517,
+          514,
+          1840
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 1230.5164794921875,
+        "score_mean": 0.7710003004337015,
+        "bounds_image": [
+          22,
+          168,
+          79,
+          196
+        ],
+        "bounds_rico": [
+          145,
+          1928,
+          514,
+          2242
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 215.36196899414062,
+        "score_mean": 0.7556560315583881,
+        "bounds_image": [
+          83,
+          125,
+          140,
+          130
+        ],
+        "bounds_rico": [
+          536,
+          1429,
+          905,
+          1495
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 214.6702117919922,
+        "score_mean": 0.7532288133052357,
+        "bounds_image": [
+          22,
+          125,
+          79,
+          130
+        ],
+        "bounds_rico": [
+          145,
+          1429,
+          514,
+          1495
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 1177.1956787109375,
+        "score_mean": 0.7375912773878055,
+        "bounds_image": [
+          83,
+          168,
+          140,
+          196
+        ],
+        "bounds_rico": [
+          536,
+          1928,
+          905,
+          2242
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 1063.7470703125,
+        "score_mean": 0.6435251484044162,
+        "bounds_image": [
+          22,
+          96,
+          79,
+          125
+        ],
+        "bounds_rico": [
+          145,
+          1106,
+          514,
+          1429
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 984.625244140625,
+        "score_mean": 0.5956595548340139,
+        "bounds_image": [
+          83,
+          96,
+          140,
+          125
+        ],
+        "bounds_rico": [
+          536,
+          1106,
+          905,
+          1429
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 147.61419677734375,
+        "score_mean": 0.517944550095943,
+        "bounds_image": [
+          22,
+          89,
+          79,
+          94
+        ],
+        "bounds_rico": [
+          145,
+          1018,
+          514,
+          1084
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 140.48060607910156,
+        "score_mean": 0.4929144072950932,
+        "bounds_image": [
+          83,
+          89,
+          140,
+          94
+        ],
+        "bounds_rico": [
+          536,
+          1018,
+          905,
+          1084
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 700.673095703125,
+        "score_mean": 0.4238796707217937,
+        "bounds_image": [
+          22,
+          60,
+          79,
+          89
+        ],
+        "bounds_rico": [
+          145,
+          695,
+          514,
+          1018
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 117.727783203125,
+        "score_mean": 0.41307994106359647,
+        "bounds_image": [
+          144,
+          161,
+          201,
+          166
+        ],
+        "bounds_rico": [
+          927,
+          1840,
+          1296,
+          1906
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Image",
+        "score_total": 682.3046875,
+        "score_mean": 0.41276750604960677,
+        "bounds_image": [
+          144,
+          132,
+          201,
+          161
+        ],
+        "bounds_rico": [
+          927,
+          1517,
+          1296,
+          1840
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Image",
+        "score_total": 670.8596801757812,
+        "score_mean": 0.4058437266641145,
+        "bounds_image": [
+          83,
+          60,
+          140,
+          89
+        ],
+        "bounds_rico": [
+          536,
+          695,
+          905,
+          1018
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Image",
+        "score_total": 574.3768310546875,
+        "score_mean": 0.3598852324904057,
+        "bounds_image": [
+          144,
+          168,
+          201,
+          196
+        ],
+        "bounds_rico": [
+          927,
+          1928,
+          1296,
+          2242
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 98.485107421875,
+        "score_mean": 0.3455617804276316,
+        "bounds_image": [
+          22,
+          53,
+          79,
+          58
+        ],
+        "bounds_rico": [
+          145,
+          607,
+          514,
+          673
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text",
+        "score_total": 97.16444396972656,
+        "score_mean": 0.3409278735779879,
+        "bounds_image": [
+          144,
+          125,
+          201,
+          130
+        ],
+        "bounds_rico": [
+          927,
+          1429,
+          1296,
+          1495
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 82.55305480957031,
+        "score_mean": 0.28965984143708884,
+        "bounds_image": [
+          83,
+          53,
+          140,
+          58
+        ],
+        "bounds_rico": [
+          536,
+          607,
+          905,
+          673
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Image",
+        "score_total": 458.05242919921875,
+        "score_mean": 0.2771037079245123,
+        "bounds_image": [
+          22,
+          24,
+          79,
+          53
+        ],
+        "bounds_rico": [
+          145,
+          284,
+          514,
+          607
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Image",
+        "score_total": 456.86395263671875,
+        "score_mean": 0.2763847263380029,
+        "bounds_image": [
+          144,
+          96,
+          201,
+          125
+        ],
+        "bounds_rico": [
+          927,
+          1106,
+          1296,
+          1429
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 78.41365814208984,
+        "score_mean": 0.275135642603824,
+        "bounds_image": [
+          144,
+          89,
+          201,
+          94
+        ],
+        "bounds_rico": [
+          927,
+          1018,
+          1296,
+          1084
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Image",
+        "score_total": 446.0838928222656,
+        "score_mean": 0.26986321404855756,
+        "bounds_image": [
+          144,
+          60,
+          201,
+          89
+        ],
+        "bounds_rico": [
+          927,
+          695,
+          1296,
+          1018
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text",
+        "score_total": 66.7298583984375,
+        "score_mean": 0.23413985402960527,
+        "bounds_image": [
+          144,
+          53,
+          201,
+          58
+        ],
+        "bounds_rico": [
+          927,
+          607,
+          1296,
+          673
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Image",
+        "score_total": 364.4223937988281,
+        "score_mean": 0.22046121826910353,
+        "bounds_image": [
+          144,
+          24,
+          201,
+          53
+        ],
+        "bounds_rico": [
+          927,
+          284,
+          1296,
+          607
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Image",
+        "score_total": 358.6615905761719,
+        "score_mean": 0.21697615884825885,
+        "bounds_image": [
+          83,
+          24,
+          140,
+          53
+        ],
+        "bounds_rico": [
+          536,
+          284,
+          905,
+          607
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Text",
+        "score_total": 349.67816162109375,
+        "score_mean": 0.19108096263447746,
+        "bounds_image": [
+          20,
+          13,
+          203,
+          23
+        ],
+        "bounds_rico": [
+          134,
+          152,
+          1307,
+          273
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Icon",
+        "score_total": 121.0603256225586,
+        "score_mean": 0.16674975981068677,
+        "bounds_image": [
+          191,
+          0,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1231,
+          0,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 12,
+        "token": "▁interface"
+      },
+      {
+        "index": 9,
+        "token": "▁complete"
+      },
+      {
+        "index": 5,
+        "token": "▁ad"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤",
+        "word_count": 18,
+        "interface_pos": 0.6292,
+        "interface_neg": 0.0082,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁Grace, ▁❤, ▁interface",
+        "p_orig": 0.011788592673838139,
+        "p_img": 0.05237577110528946,
+        "delta_p_img": 0.04058717843145132,
+        "gradcam_mean": 0.304455041885376,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.10528992023319006,
+        "word_attention_top15": [
+          [
+            "frère",
+            0.11497
+          ],
+          [
+            "d'agneau",
+            0.103572
+          ],
+          [
+            "grace",
+            0.102227
+          ],
+          [
+            "j'ai",
+            0.086411
+          ],
+          [
+            "gigot",
+            0.080271
+          ],
+          [
+            "pecho",
+            0.073538
+          ],
+          [
+            "❤",
+            0.067206
+          ],
+          [
+            "manger",
+            0.057662
+          ],
+          [
+            "chandelle",
+            0.057597
+          ],
+          [
+            "délicieux",
+            0.04531
+          ],
+          [
+            "et",
+            0.044164
+          ],
+          [
+            "mon",
+            0.039187
+          ],
+          [
+            "un",
+            0.035155
+          ],
+          [
+            "beaucoup",
+            0.034785
+          ],
+          [
+            "merci",
+            0.024883
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "délicieux",
+            0.001587
+          ],
+          [
+            "j'ai",
+            -0.001392
+          ],
+          [
+            "merci",
+            0.001326
+          ],
+          [
+            "pecho",
+            0.001254
+          ],
+          [
+            "pu",
+            0.001129
+          ],
+          [
+            "et",
+            0.001076
+          ],
+          [
+            "manger",
+            0.001039
+          ],
+          [
+            "d'agneau",
+            0.000948
+          ],
+          [
+            "gigot",
+            -0.000924
+          ],
+          [
+            "beaucoup",
+            0.000662
+          ],
+          [
+            "mon",
+            0.000573
+          ],
+          [
+            "la",
+            0.000323
+          ],
+          [
+            "grace",
+            0.000319
+          ],
+          [
+            "frère",
+            -0.000275
+          ],
+          [
+            "un",
+            -0.000253
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20081393420696259,
+          "max": 0.9999999403953552,
+          "std": 0.29469963908195496
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)",
+        "word_count": 23,
+        "interface_pos": 0.9688,
+        "interface_neg": 0.0076,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁I, ▁interface, ▁it",
+        "p_orig": 0.011153697036206722,
+        "p_img": 0.04690990597009659,
+        "delta_p_img": 0.035756208933889866,
+        "gradcam_mean": 0.31010547280311584,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.08811850938946009,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.771847
+          ],
+          [
+            "wish",
+            0.080755
+          ],
+          [
+            "free",
+            0.076493
+          ],
+          [
+            "rid",
+            0.046565
+          ],
+          [
+            "pay",
+            0.024341
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "wish",
+            -0.001995
+          ],
+          [
+            "rid",
+            -0.001273
+          ],
+          [
+            "free",
+            0.000934
+          ],
+          [
+            "pay",
+            0.000919
+          ],
+          [
+            "ads",
+            -0.000184
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2030172199010849,
+          "max": 0.9999999403953552,
+          "std": 0.2967495322227478
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I just wanted a fire game and got so much more! I have been playing it and have been impressed.",
+        "word_count": 20,
+        "interface_pos": 0.9762,
+        "interface_neg": 0.0034,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁interface, ▁and, ▁been",
+        "p_orig": 0.02095688134431839,
+        "p_img": 0.015466726385056973,
+        "delta_p_img": 0.005490154959261417,
+        "gradcam_mean": 0.2782812714576721,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.17354495078325272,
+        "word_attention_top15": [
+          [
+            "impressed",
+            0.30513
+          ],
+          [
+            "game",
+            0.255674
+          ],
+          [
+            "fire",
+            0.186226
+          ],
+          [
+            "playing",
+            0.181865
+          ],
+          [
+            "wanted",
+            0.071105
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "playing",
+            0.002452
+          ],
+          [
+            "wanted",
+            -0.002392
+          ],
+          [
+            "fire",
+            -0.001241
+          ],
+          [
+            "game",
+            -0.000105
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2001519501209259,
+          "max": 0.9999999403953552,
+          "std": 0.29610475897789
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again",
+        "word_count": 24,
+        "interface_pos": 0.0029,
+        "interface_neg": 0.9877,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁interface, ▁work, ▁once",
+        "p_orig": 0.002398715354502201,
+        "p_img": 0.007969643920660019,
+        "delta_p_img": 0.005570928566157818,
+        "gradcam_mean": 0.4040292501449585,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.005609937012195587,
+        "word_attention_top15": [
+          [
+            "work.....plus",
+            0.369008
+          ],
+          [
+            "adverts.....the",
+            0.289715
+          ],
+          [
+            "game",
+            0.070299
+          ],
+          [
+            "works",
+            0.060611
+          ],
+          [
+            "doesnt",
+            0.060222
+          ],
+          [
+            "never",
+            0.052939
+          ],
+          [
+            "full",
+            0.041569
+          ],
+          [
+            "adverts",
+            0.033154
+          ],
+          [
+            "finally",
+            0.022484
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.001294
+          ],
+          [
+            "works",
+            0.000663
+          ],
+          [
+            "adverts",
+            -0.000391
+          ],
+          [
+            "work.....plus",
+            0.00039
+          ],
+          [
+            "adverts.....the",
+            -0.000286
+          ],
+          [
+            "never",
+            0.000173
+          ],
+          [
+            "full",
+            -0.00013
+          ],
+          [
+            "game",
+            -7.5e-05
+          ],
+          [
+            "finally",
+            -5.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19774065911769867,
+          "max": 0.9999997019767761,
+          "std": 0.30334651470184326
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!",
+        "word_count": 35,
+        "interface_pos": 0.0032,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁I, ▁interface, ▁squirrel",
+        "p_orig": 0.0028942173812538385,
+        "p_img": 0.010231923311948776,
+        "delta_p_img": 0.007337705930694938,
+        "gradcam_mean": 0.39777836203575134,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.007023202953860164,
+        "word_attention_top15": [
+          [
+            "sights",
+            0.136502
+          ],
+          [
+            "not able",
+            0.127081
+          ],
+          [
+            "squirrel",
+            0.096014
+          ],
+          [
+            "brought",
+            0.090383
+          ],
+          [
+            "yet",
+            0.089881
+          ],
+          [
+            "game",
+            0.088164
+          ],
+          [
+            "ads",
+            0.072308
+          ],
+          [
+            "porn",
+            0.066408
+          ],
+          [
+            "crazy",
+            0.062156
+          ],
+          [
+            "nasty",
+            0.054105
+          ],
+          [
+            "ad",
+            0.049609
+          ],
+          [
+            "pretty",
+            0.043244
+          ],
+          [
+            "clicked",
+            0.024144
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nasty",
+            -0.001087
+          ],
+          [
+            "pretty",
+            0.000667
+          ],
+          [
+            "porn",
+            -0.000509
+          ],
+          [
+            "not able",
+            -0.000354
+          ],
+          [
+            "sights",
+            0.00022
+          ],
+          [
+            "brought",
+            0.00016
+          ],
+          [
+            "squirrel",
+            -6e-05
+          ],
+          [
+            "game",
+            3.6e-05
+          ],
+          [
+            "ad",
+            3.4e-05
+          ],
+          [
+            "clicked",
+            -3.1e-05
+          ],
+          [
+            "ads",
+            -1.9e-05
+          ],
+          [
+            "yet",
+            -1.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20209631323814392,
+          "max": 0.9999997019767761,
+          "std": 0.30376896262168884
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Virtual Match (category: Lifestyle) was labeled as bad with 100% confidence (confidently). The model attended to a small Image at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.particle.virtualmatch",
+    "screen_id": "44085",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44085.jpg",
+    "text": "It sucks this app is more ad than app. complete garbage I wish i could give 0 stars this thing sucks",
+    "prediction": 0.006491510197520256,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9935084898024797,
+    "gradcam_stats": {
+      "mean": 0.561762809753418,
+      "max": 1.0,
+      "std": 0.1945124864578247
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤",
+      "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)",
+      "I just wanted a fire game and got so much more! I have been playing it and have been impressed.",
+      "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again",
+      "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!"
+    ],
+    "app_name": "Virtual Match",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.006500348448753357,
+      "p_img": 0.05578502640128136,
+      "delta_p_img": 0.049284677952528
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 26586.1640625,
+        "score_mean": 0.5678862795305024
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ],
+        "score_total": 25.684818267822266,
+        "score_mean": 0.262089982324717
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 26586.1640625,
+        "score_mean": 0.5678862795305024,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 25.684818267822266,
+        "score_mean": 0.262089982324717,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 26586.1640625,
+        "score_mean": 0.5678862795305024,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 25.684818267822266,
+        "score_mean": 0.262089982324717,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁It"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁sucks"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤",
+        "word_count": 18,
+        "interface_pos": 0.6292,
+        "interface_neg": 0.0082,
+        "interface_sentiment": "positive",
+        "top_components": "Background Image, Image",
+        "top_k_tokens": "▁Grace, ▁❤, ▁interface",
+        "p_orig": 0.03318348899483681,
+        "p_img": 0.1548791080713272,
+        "delta_p_img": 0.1216956190764904,
+        "gradcam_mean": 0.39453646540641785,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.1216956190764904,
+        "word_attention_top15": [
+          [
+            "frère",
+            0.11497
+          ],
+          [
+            "d'agneau",
+            0.103572
+          ],
+          [
+            "grace",
+            0.102227
+          ],
+          [
+            "j'ai",
+            0.086411
+          ],
+          [
+            "gigot",
+            0.080271
+          ],
+          [
+            "pecho",
+            0.073538
+          ],
+          [
+            "❤",
+            0.067206
+          ],
+          [
+            "manger",
+            0.057662
+          ],
+          [
+            "chandelle",
+            0.057597
+          ],
+          [
+            "délicieux",
+            0.04531
+          ],
+          [
+            "et",
+            0.044164
+          ],
+          [
+            "mon",
+            0.039187
+          ],
+          [
+            "un",
+            0.035155
+          ],
+          [
+            "beaucoup",
+            0.034785
+          ],
+          [
+            "merci",
+            0.024883
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "délicieux",
+            0.004956
+          ],
+          [
+            "j'ai",
+            -0.003791
+          ],
+          [
+            "merci",
+            0.003565
+          ],
+          [
+            "pecho",
+            0.003451
+          ],
+          [
+            "manger",
+            0.003053
+          ],
+          [
+            "pu",
+            0.003012
+          ],
+          [
+            "et",
+            0.002879
+          ],
+          [
+            "d'agneau",
+            0.002595
+          ],
+          [
+            "gigot",
+            -0.002238
+          ],
+          [
+            "beaucoup",
+            0.001887
+          ],
+          [
+            "mon",
+            0.001566
+          ],
+          [
+            "la",
+            0.001127
+          ],
+          [
+            "grace",
+            0.000756
+          ],
+          [
+            "un",
+            -0.000752
+          ],
+          [
+            "frère",
+            -0.000483
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21160271763801575,
+          "max": 0.9999999403953552,
+          "std": 0.2861558496952057
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)",
+        "word_count": 23,
+        "interface_pos": 0.9688,
+        "interface_neg": 0.0076,
+        "interface_sentiment": "positive",
+        "top_components": "Background Image, Image",
+        "top_k_tokens": "▁I, ▁interface, ▁it",
+        "p_orig": 0.03260762244462967,
+        "p_img": 0.15737409889698029,
+        "delta_p_img": 0.12476647645235062,
+        "gradcam_mean": 0.4046652913093567,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.12476647645235062,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.771847
+          ],
+          [
+            "wish",
+            0.080755
+          ],
+          [
+            "free",
+            0.076493
+          ],
+          [
+            "rid",
+            0.046565
+          ],
+          [
+            "pay",
+            0.024341
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "wish",
+            -0.005543
+          ],
+          [
+            "rid",
+            -0.003751
+          ],
+          [
+            "pay",
+            0.002959
+          ],
+          [
+            "free",
+            0.002811
+          ],
+          [
+            "ads",
+            -8.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2123209536075592,
+          "max": 0.9999999403953552,
+          "std": 0.28692689538002014
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I just wanted a fire game and got so much more! I have been playing it and have been impressed.",
+        "word_count": 20,
+        "interface_pos": 0.9762,
+        "interface_neg": 0.0034,
+        "interface_sentiment": "positive",
+        "top_components": "Background Image, Image",
+        "top_k_tokens": "▁interface, ▁and, ▁been",
+        "p_orig": 0.05549370124936104,
+        "p_img": 0.21463853120803833,
+        "delta_p_img": 0.1591448299586773,
+        "gradcam_mean": 0.3433675169944763,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.1591448299586773,
+        "word_attention_top15": [
+          [
+            "impressed",
+            0.30513
+          ],
+          [
+            "game",
+            0.255674
+          ],
+          [
+            "fire",
+            0.186226
+          ],
+          [
+            "playing",
+            0.181865
+          ],
+          [
+            "wanted",
+            0.071105
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "playing",
+            0.006411
+          ],
+          [
+            "wanted",
+            -0.006232
+          ],
+          [
+            "fire",
+            -0.003381
+          ],
+          [
+            "game",
+            -0.000325
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21998314559459686,
+          "max": 0.9999998807907104,
+          "std": 0.2919391393661499
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again",
+        "word_count": 24,
+        "interface_pos": 0.0029,
+        "interface_neg": 0.9877,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Image",
+        "top_k_tokens": "▁interface, ▁work, ▁once",
+        "p_orig": 0.0068272133357822895,
+        "p_img": 0.06147757172584534,
+        "delta_p_img": 0.05465035839006305,
+        "gradcam_mean": 0.5444502234458923,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.05465035839006305,
+        "word_attention_top15": [
+          [
+            "work.....plus",
+            0.369008
+          ],
+          [
+            "adverts.....the",
+            0.289715
+          ],
+          [
+            "game",
+            0.070299
+          ],
+          [
+            "works",
+            0.060611
+          ],
+          [
+            "doesnt",
+            0.060222
+          ],
+          [
+            "never",
+            0.052939
+          ],
+          [
+            "full",
+            0.041569
+          ],
+          [
+            "adverts",
+            0.033154
+          ],
+          [
+            "finally",
+            0.022484
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.004015
+          ],
+          [
+            "works",
+            0.002164
+          ],
+          [
+            "work.....plus",
+            0.001484
+          ],
+          [
+            "adverts",
+            -0.001013
+          ],
+          [
+            "never",
+            0.000764
+          ],
+          [
+            "adverts.....the",
+            -0.000441
+          ],
+          [
+            "full",
+            -0.000414
+          ],
+          [
+            "game",
+            -0.000144
+          ],
+          [
+            "finally",
+            -4.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20546235144138336,
+          "max": 0.9999996423721313,
+          "std": 0.2806455194950104
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!",
+        "word_count": 35,
+        "interface_pos": 0.0032,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Image",
+        "top_k_tokens": "▁I, ▁interface, ▁squirrel",
+        "p_orig": 0.008591802790760994,
+        "p_img": 0.07036244869232178,
+        "delta_p_img": 0.06177064590156078,
+        "gradcam_mean": 0.516995906829834,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.06177064590156078,
+        "word_attention_top15": [
+          [
+            "sights",
+            0.136502
+          ],
+          [
+            "not able",
+            0.127081
+          ],
+          [
+            "squirrel",
+            0.096014
+          ],
+          [
+            "brought",
+            0.090383
+          ],
+          [
+            "yet",
+            0.089881
+          ],
+          [
+            "game",
+            0.088164
+          ],
+          [
+            "ads",
+            0.072308
+          ],
+          [
+            "porn",
+            0.066408
+          ],
+          [
+            "crazy",
+            0.062156
+          ],
+          [
+            "nasty",
+            0.054105
+          ],
+          [
+            "ad",
+            0.049609
+          ],
+          [
+            "pretty",
+            0.043244
+          ],
+          [
+            "clicked",
+            0.024144
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nasty",
+            -0.00246
+          ],
+          [
+            "pretty",
+            0.001421
+          ],
+          [
+            "porn",
+            -0.001198
+          ],
+          [
+            "not able",
+            -0.000647
+          ],
+          [
+            "brought",
+            0.000573
+          ],
+          [
+            "sights",
+            0.000539
+          ],
+          [
+            "ad",
+            0.000183
+          ],
+          [
+            "game",
+            0.000152
+          ],
+          [
+            "ads",
+            0.000144
+          ],
+          [
+            "yet",
+            4.9e-05
+          ],
+          [
+            "squirrel",
+            -2.9e-05
+          ],
+          [
+            "clicked",
+            2.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20709925889968872,
+          "max": 0.9999997019767761,
+          "std": 0.2815365195274353
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 99% confidence.",
+      "simple": "This screen was classified as bad with 99% confidence. The model focused primarily on a small Background Image at the top-left.",
+      "detailed": "This screen of Virtual Match (category: Lifestyle) was classified as bad with 99% confidence (with high confidence). The model focused on a small Background Image at the top-left, and a small Image at the top-left."
+    }
+  }
+]

@@ -1,0 +1,6854 @@
+[
+  {
+    "package_name": "com.droidcanvas.televicentro",
+    "screen_id": "61036",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61036.jpg",
+    "text": "Does not work Does not work Terrible",
+    "prediction": 0.0003572654677554965,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9996427345322445,
+    "gradcam_stats": {
+      "mean": 0.49751701951026917,
+      "max": 1.0,
+      "std": 0.2269519567489624
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+      "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+      "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+      "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+      "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    ],
+    "app_name": "Televicentro",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.0003556494484655559,
+      "p_img": 0.002856472972780466,
+      "delta_p_img": 0.00250082352431491
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          76,
+          88,
+          147,
+          128
+        ],
+        "bounds_rico": [
+          492,
+          1010,
+          947,
+          1465
+        ],
+        "score_total": 2286.19384765625,
+        "score_mean": 0.8049978336817781
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          112,
+          141,
+          224,
+          169
+        ],
+        "bounds_rico": [
+          720,
+          1622,
+          1440,
+          1937
+        ],
+        "score_total": 1891.706298828125,
+        "score_mean": 0.603222671820193
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          0,
+          138,
+          112,
+          173
+        ],
+        "bounds_rico": [
+          0,
+          1581,
+          720,
+          1978
+        ],
+        "score_total": 2141.787109375,
+        "score_mean": 0.5463742625956632
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 2286.19384765625,
+        "score_mean": 0.8049978336817781,
+        "bounds_image": [
+          76,
+          88,
+          147,
+          128
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1891.706298828125,
+        "score_mean": 0.603222671820193,
+        "bounds_image": [
+          112,
+          141,
+          224,
+          169
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 2141.787109375,
+        "score_mean": 0.5463742625956632,
+        "bounds_image": [
+          0,
+          138,
+          112,
+          173
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 2286.19384765625,
+        "score_mean": 0.8049978336817781,
+        "bounds_image": [
+          76,
+          88,
+          147,
+          128
+        ],
+        "bounds_rico": [
+          492,
+          1010,
+          947,
+          1465
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1891.706298828125,
+        "score_mean": 0.603222671820193,
+        "bounds_image": [
+          112,
+          141,
+          224,
+          169
+        ],
+        "bounds_rico": [
+          720,
+          1622,
+          1440,
+          1937
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 2141.787109375,
+        "score_mean": 0.5463742625956632,
+        "bounds_image": [
+          0,
+          138,
+          112,
+          173
+        ],
+        "bounds_rico": [
+          0,
+          1581,
+          720,
+          1978
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 4029.47021484375,
+        "score_mean": 0.5139630376076212,
+        "bounds_image": [
+          0,
+          40,
+          224,
+          75
+        ],
+        "bounds_rico": [
+          0,
+          462,
+          1440,
+          859
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 5,
+        "token": "▁interface"
+      },
+      {
+        "index": 1,
+        "token": "▁Does"
+      },
+      {
+        "index": 2,
+        "token": "▁not"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+        "word_count": 21,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9912,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁interface, ▁de, ▁sir",
+        "p_orig": 0.00039182434557005763,
+        "p_img": 0.0032555938232690096,
+        "delta_p_img": 0.002863769477698952,
+        "gradcam_mean": 0.47886374592781067,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.06787032057764009,
+        "word_attention_top15": [
+          [
+            "pais",
+            0.110119
+          ],
+          [
+            "🤦🤦🤦",
+            0.106386
+          ],
+          [
+            "de",
+            0.087996
+          ],
+          [
+            "tarjeta",
+            0.086903
+          ],
+          [
+            "sirve",
+            0.075395
+          ],
+          [
+            "debito",
+            0.064192
+          ],
+          [
+            "cobro",
+            0.054269
+          ],
+          [
+            "son",
+            0.049395
+          ],
+          [
+            "quiera",
+            0.048654
+          ],
+          [
+            "malos",
+            0.040074
+          ],
+          [
+            "un",
+            0.035371
+          ],
+          [
+            "ni",
+            0.033724
+          ],
+          [
+            "en",
+            0.032774
+          ],
+          [
+            "con",
+            0.029147
+          ],
+          [
+            "les",
+            0.027955
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "malos",
+            -0.000154
+          ],
+          [
+            "les",
+            -0.000135
+          ],
+          [
+            "sirve",
+            0.000111
+          ],
+          [
+            "ni",
+            -7.1e-05
+          ],
+          [
+            "mi",
+            6.6e-05
+          ],
+          [
+            "cobro",
+            6.4e-05
+          ],
+          [
+            "con",
+            5.6e-05
+          ],
+          [
+            "debito",
+            -5.5e-05
+          ],
+          [
+            "en",
+            4.9e-05
+          ],
+          [
+            "de",
+            -3.6e-05
+          ],
+          [
+            "pais",
+            3.5e-05
+          ],
+          [
+            "si",
+            3.4e-05
+          ],
+          [
+            "program",
+            2.7e-05
+          ],
+          [
+            "son",
+            -2.1e-05
+          ],
+          [
+            "quiera",
+            2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.129171222448349,
+          "max": 0.999999463558197,
+          "std": 0.2522267699241638
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+        "word_count": 91,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.9628,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁y, ▁los, idos",
+        "p_orig": 0.0005432803882285953,
+        "p_img": 0.004380741156637669,
+        "delta_p_img": 0.0038374607684090734,
+        "gradcam_mean": 0.4753207266330719,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.0038374607684090734,
+        "word_attention_top15": [
+          [
+            "partidos",
+            0.06701
+          ],
+          [
+            "de",
+            0.06687
+          ],
+          [
+            "elaborados",
+            0.052465
+          ],
+          [
+            "hondureños",
+            0.045426
+          ],
+          [
+            "nacional",
+            0.038827
+          ],
+          [
+            "televisión",
+            0.038235
+          ],
+          [
+            "acceso",
+            0.029353
+          ],
+          [
+            "contenido",
+            0.027367
+          ],
+          [
+            "la",
+            0.025385
+          ],
+          [
+            "los",
+            0.025106
+          ],
+          [
+            "el",
+            0.023619
+          ],
+          [
+            "no puedes",
+            0.022824
+          ],
+          [
+            "muy",
+            0.022318
+          ],
+          [
+            "población",
+            0.020396
+          ],
+          [
+            "residen",
+            0.02035
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "mala",
+            -0.000114
+          ],
+          [
+            "mal",
+            -8.6e-05
+          ],
+          [
+            "no puedes",
+            -6.2e-05
+          ],
+          [
+            "para",
+            4.2e-05
+          ],
+          [
+            "elaborados",
+            3.9e-05
+          ],
+          [
+            "muy",
+            3.5e-05
+          ],
+          [
+            "acceso",
+            3.1e-05
+          ],
+          [
+            "tiene",
+            2.1e-05
+          ],
+          [
+            "atrevo",
+            2e-05
+          ],
+          [
+            "ver",
+            1.8e-05
+          ],
+          [
+            "tanto",
+            1.7e-05
+          ],
+          [
+            "como",
+            1.6e-05
+          ],
+          [
+            "pobreza",
+            -1.6e-05
+          ],
+          [
+            "afuera",
+            -1.5e-05
+          ],
+          [
+            "decir",
+            -1.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1270267814397812,
+          "max": 0.9999995827674866,
+          "std": 0.24945616722106934
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+        "word_count": 17,
+        "interface_pos": 0.0239,
+        "interface_neg": 0.9569,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁pueden, ▁interface, ▁No",
+        "p_orig": 0.000516925472766161,
+        "p_img": 0.004105998668819666,
+        "delta_p_img": 0.003589073196053505,
+        "gradcam_mean": 0.4781460165977478,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.003589073196053505,
+        "word_attention_top15": [
+          [
+            "no sirve",
+            0.177849
+          ],
+          [
+            "ver",
+            0.119627
+          ],
+          [
+            "cobrar",
+            0.101172
+          ],
+          [
+            "partidos",
+            0.093792
+          ],
+          [
+            "pueden",
+            0.092251
+          ],
+          [
+            "gratis",
+            0.073054
+          ],
+          [
+            "hasta",
+            0.057376
+          ],
+          [
+            "que",
+            0.050852
+          ],
+          [
+            "quieren",
+            0.050156
+          ],
+          [
+            "hahaha",
+            0.047651
+          ],
+          [
+            "cualquier",
+            0.042613
+          ],
+          [
+            "se",
+            0.038656
+          ],
+          [
+            "por",
+            0.032428
+          ],
+          [
+            "en",
+            0.022523
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "gratis",
+            0.000297
+          ],
+          [
+            "no sirve",
+            -0.00027
+          ],
+          [
+            "cobrar",
+            -0.000102
+          ],
+          [
+            "cualquier",
+            8.4e-05
+          ],
+          [
+            "ver",
+            5.9e-05
+          ],
+          [
+            "que",
+            -4.2e-05
+          ],
+          [
+            "partidos",
+            3.6e-05
+          ],
+          [
+            "quieren",
+            3.3e-05
+          ],
+          [
+            "pueden",
+            2.9e-05
+          ],
+          [
+            "se",
+            2.9e-05
+          ],
+          [
+            "hasta",
+            1.5e-05
+          ],
+          [
+            "por",
+            6e-06
+          ],
+          [
+            "en",
+            0.0
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1308397352695465,
+          "max": 0.9999995827674866,
+          "std": 0.25524577498435974
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+        "word_count": 22,
+        "interface_pos": 0.04,
+        "interface_neg": 0.9546,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁Yo, ago, ▁la",
+        "p_orig": 0.000573179975617677,
+        "p_img": 0.0046534487046301365,
+        "delta_p_img": 0.0040802687290124595,
+        "gradcam_mean": 0.4708367884159088,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.02878543984843418,
+        "word_attention_top15": [
+          [
+            "yo",
+            0.201114
+          ],
+          [
+            "inaceptable",
+            0.113051
+          ],
+          [
+            "pago",
+            0.090706
+          ],
+          [
+            "solucionarlo",
+            0.077242
+          ],
+          [
+            "la",
+            0.073985
+          ],
+          [
+            "demasiado",
+            0.071522
+          ],
+          [
+            "liga",
+            0.063783
+          ],
+          [
+            "friza",
+            0.04758
+          ],
+          [
+            "hagan",
+            0.038561
+          ],
+          [
+            "se",
+            0.038018
+          ],
+          [
+            "es",
+            0.035456
+          ],
+          [
+            "algo",
+            0.035041
+          ],
+          [
+            "cobren",
+            0.026635
+          ],
+          [
+            "que",
+            0.023818
+          ],
+          [
+            "para",
+            0.018392
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "la",
+            0.000123
+          ],
+          [
+            "malo",
+            -9.4e-05
+          ],
+          [
+            "demasiado",
+            -8.6e-05
+          ],
+          [
+            "algo",
+            -6.3e-05
+          ],
+          [
+            "friza",
+            -6.2e-05
+          ],
+          [
+            "inaceptable",
+            5.7e-05
+          ],
+          [
+            "yo",
+            5.3e-05
+          ],
+          [
+            "liga",
+            4.5e-05
+          ],
+          [
+            "hagan",
+            3.8e-05
+          ],
+          [
+            "tan",
+            3.8e-05
+          ],
+          [
+            "es",
+            -3.4e-05
+          ],
+          [
+            "se",
+            -1.9e-05
+          ],
+          [
+            "para",
+            1.6e-05
+          ],
+          [
+            "pago",
+            1.6e-05
+          ],
+          [
+            "por",
+            1.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13096186518669128,
+          "max": 0.9999995827674866,
+          "std": 0.255256325006485
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!",
+        "word_count": 29,
+        "interface_pos": 0.0434,
+        "interface_neg": 0.9318,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁La, ▁gratis, ▁interface",
+        "p_orig": 0.0005395258776843548,
+        "p_img": 0.004503295756876469,
+        "delta_p_img": 0.003963769879192114,
+        "gradcam_mean": 0.47866860032081604,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.003963769879192114,
+        "word_attention_top15": [
+          [
+            "hondureña",
+            0.109134
+          ],
+          [
+            "patrocinadores",
+            0.097863
+          ],
+          [
+            "gratis",
+            0.08983
+          ],
+          [
+            "la",
+            0.086197
+          ],
+          [
+            "desistalar",
+            0.084452
+          ],
+          [
+            "acabo",
+            0.066938
+          ],
+          [
+            "es",
+            0.047852
+          ],
+          [
+            "cobrenle",
+            0.047621
+          ],
+          [
+            "desepcion",
+            0.045132
+          ],
+          [
+            "liga",
+            0.042649
+          ],
+          [
+            "antes",
+            0.033557
+          ],
+          [
+            "cuando",
+            0.030286
+          ],
+          [
+            "quieren",
+            0.029695
+          ],
+          [
+            "los",
+            0.026871
+          ],
+          [
+            "cobrar",
+            0.025255
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cobrar",
+            -0.000251
+          ],
+          [
+            "desepcion",
+            -0.000243
+          ],
+          [
+            "completa",
+            0.000113
+          ],
+          [
+            "malo",
+            -8.9e-05
+          ],
+          [
+            "patrocinadores",
+            8.1e-05
+          ],
+          [
+            "la",
+            8e-05
+          ],
+          [
+            "es",
+            5.6e-05
+          ],
+          [
+            "antes",
+            -4.7e-05
+          ],
+          [
+            "quieren",
+            -4.4e-05
+          ],
+          [
+            "sido",
+            4e-05
+          ],
+          [
+            "hondureña",
+            3.9e-05
+          ],
+          [
+            "gratis",
+            -2.8e-05
+          ],
+          [
+            "esta",
+            1.6e-05
+          ],
+          [
+            "cobrenle",
+            1.4e-05
+          ],
+          [
+            "tan",
+            1.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12960943579673767,
+          "max": 0.9999995827674866,
+          "std": 0.25305289030075073
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of Televicentro (category: Communication) was classified as bad with 100% confidence (with high confidence). The model focused on a small Image at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.droidcanvas.televicentro",
+    "screen_id": "61037",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61037.jpg",
+    "text": "Muy mala porque no se puede veer. Con otras canales Cabelas no se batalla nada solo con uds .y radio america. Del grupo america . Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦 no sirve pague para ver partidos y nomas me robaron no Dejan ver nada",
+    "prediction": 0.026944033801555634,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9730559661984444,
+    "gradcam_stats": {
+      "mean": 0.34985020756721497,
+      "max": 1.0,
+      "std": 0.23429645597934723
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+      "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+      "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+      "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+      "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    ],
+    "app_name": "Televicentro",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.027008552104234695,
+      "p_img": 0.014521644450724125,
+      "delta_p_img": 0.01248690765351057
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          2,
+          152,
+          57,
+          183
+        ],
+        "bounds_rico": [
+          18,
+          1748,
+          368,
+          2098
+        ],
+        "score_total": 1392.558837890625,
+        "score_mean": 0.8167500515487537
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          2,
+          189,
+          57,
+          209
+        ],
+        "bounds_rico": [
+          18,
+          2165,
+          368,
+          2392
+        ],
+        "score_total": 652.136962890625,
+        "score_mean": 0.5928517844460227
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          2,
+          43,
+          57,
+          74
+        ],
+        "bounds_rico": [
+          18,
+          497,
+          368,
+          847
+        ],
+        "score_total": 868.7086791992188,
+        "score_mean": 0.5095065567150843
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 1392.558837890625,
+        "score_mean": 0.8167500515487537,
+        "bounds_image": [
+          2,
+          152,
+          57,
+          183
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 652.136962890625,
+        "score_mean": 0.5928517844460227,
+        "bounds_image": [
+          2,
+          189,
+          57,
+          209
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 868.7086791992188,
+        "score_mean": 0.5095065567150843,
+        "bounds_image": [
+          2,
+          43,
+          57,
+          74
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 1392.558837890625,
+        "score_mean": 0.8167500515487537,
+        "bounds_image": [
+          2,
+          152,
+          57,
+          183
+        ],
+        "bounds_rico": [
+          18,
+          1748,
+          368,
+          2098
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 652.136962890625,
+        "score_mean": 0.5928517844460227,
+        "bounds_image": [
+          2,
+          189,
+          57,
+          209
+        ],
+        "bounds_rico": [
+          18,
+          2165,
+          368,
+          2392
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 868.7086791992188,
+        "score_mean": 0.5095065567150843,
+        "bounds_image": [
+          2,
+          43,
+          57,
+          74
+        ],
+        "bounds_rico": [
+          18,
+          497,
+          368,
+          847
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 222.8558349609375,
+        "score_mean": 0.49744606018066406,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 779.9622802734375,
+        "score_mean": 0.4574558828583211,
+        "bounds_image": [
+          2,
+          116,
+          57,
+          147
+        ],
+        "bounds_rico": [
+          18,
+          1331,
+          368,
+          1681
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 177.8120574951172,
+        "score_mean": 0.4379607327465941,
+        "bounds_image": [
+          5,
+          10,
+          34,
+          24
+        ],
+        "bounds_rico": [
+          35,
+          119,
+          223,
+          276
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 2076.77734375,
+        "score_mean": 0.3958028099390128,
+        "bounds_image": [
+          62,
+          152,
+          221,
+          185
+        ],
+        "bounds_rico": [
+          404,
+          1748,
+          1422,
+          2125
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 1927.26318359375,
+        "score_mean": 0.3673076393355727,
+        "bounds_image": [
+          62,
+          116,
+          221,
+          149
+        ],
+        "bounds_rico": [
+          404,
+          1331,
+          1422,
+          1708
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 584.7093505859375,
+        "score_mean": 0.3429380355342742,
+        "bounds_image": [
+          2,
+          79,
+          57,
+          110
+        ],
+        "bounds_rico": [
+          18,
+          914,
+          368,
+          1264
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 1572.456787109375,
+        "score_mean": 0.29968682811308844,
+        "bounds_image": [
+          62,
+          79,
+          221,
+          112
+        ],
+        "bounds_rico": [
+          404,
+          914,
+          1422,
+          1291
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 892.3948364257812,
+        "score_mean": 0.28062730705213246,
+        "bounds_image": [
+          62,
+          189,
+          221,
+          209
+        ],
+        "bounds_rico": [
+          404,
+          2165,
+          1422,
+          2392
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 387.17608642578125,
+        "score_mean": 0.24692352450623803,
+        "bounds_image": [
+          28,
+          29,
+          224,
+          37
+        ],
+        "bounds_rico": [
+          185,
+          340,
+          1440,
+          433
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 1216.6690673828125,
+        "score_mean": 0.23187899130604392,
+        "bounds_image": [
+          62,
+          43,
+          221,
+          76
+        ],
+        "bounds_rico": [
+          404,
+          497,
+          1422,
+          874
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 696.0194091796875,
+        "score_mean": 0.21015078779579938,
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ],
+        "bounds_rico": [
+          258,
+          84,
+          1440,
+          294
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "▁Con"
+      },
+      {
+        "index": 13,
+        "token": "ales"
+      },
+      {
+        "index": 35,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+        "word_count": 21,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9912,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁interface, ▁de, ▁sir",
+        "p_orig": 0.033434707671403885,
+        "p_img": 0.024855507537722588,
+        "delta_p_img": 0.008579200133681297,
+        "gradcam_mean": 0.34327784180641174,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.018115771934390068,
+        "word_attention_top15": [
+          [
+            "pais",
+            0.110119
+          ],
+          [
+            "🤦🤦🤦",
+            0.106386
+          ],
+          [
+            "de",
+            0.087996
+          ],
+          [
+            "tarjeta",
+            0.086903
+          ],
+          [
+            "sirve",
+            0.075395
+          ],
+          [
+            "debito",
+            0.064192
+          ],
+          [
+            "cobro",
+            0.054269
+          ],
+          [
+            "son",
+            0.049395
+          ],
+          [
+            "quiera",
+            0.048654
+          ],
+          [
+            "malos",
+            0.040074
+          ],
+          [
+            "un",
+            0.035371
+          ],
+          [
+            "ni",
+            0.033724
+          ],
+          [
+            "en",
+            0.032774
+          ],
+          [
+            "con",
+            0.029147
+          ],
+          [
+            "les",
+            0.027955
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "les",
+            -0.030534
+          ],
+          [
+            "malos",
+            -0.025609
+          ],
+          [
+            "sirve",
+            0.019489
+          ],
+          [
+            "con",
+            0.013173
+          ],
+          [
+            "mi",
+            0.012082
+          ],
+          [
+            "ni",
+            -0.011778
+          ],
+          [
+            "cobro",
+            0.009877
+          ],
+          [
+            "debito",
+            -0.009381
+          ],
+          [
+            "que",
+            0.008871
+          ],
+          [
+            "en",
+            0.008584
+          ],
+          [
+            "de",
+            -0.006547
+          ],
+          [
+            "si",
+            0.005159
+          ],
+          [
+            "pais",
+            0.004458
+          ],
+          [
+            "son",
+            -0.002532
+          ],
+          [
+            "tan",
+            -0.002224
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16662879288196564,
+          "max": 0.9999998211860657,
+          "std": 0.25701838731765747
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+        "word_count": 91,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.9628,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁y, ▁los, idos",
+        "p_orig": 0.044689979404211044,
+        "p_img": 0.03412064537405968,
+        "delta_p_img": 0.010569334030151367,
+        "gradcam_mean": 0.34926846623420715,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.02324499562382698,
+        "word_attention_top15": [
+          [
+            "partidos",
+            0.06701
+          ],
+          [
+            "de",
+            0.06687
+          ],
+          [
+            "elaborados",
+            0.052465
+          ],
+          [
+            "hondureños",
+            0.045426
+          ],
+          [
+            "nacional",
+            0.038827
+          ],
+          [
+            "televisión",
+            0.038235
+          ],
+          [
+            "acceso",
+            0.029353
+          ],
+          [
+            "contenido",
+            0.027367
+          ],
+          [
+            "la",
+            0.025385
+          ],
+          [
+            "los",
+            0.025106
+          ],
+          [
+            "el",
+            0.023619
+          ],
+          [
+            "no puedes",
+            0.022824
+          ],
+          [
+            "muy",
+            0.022318
+          ],
+          [
+            "población",
+            0.020396
+          ],
+          [
+            "residen",
+            0.02035
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "mal",
+            -0.022652
+          ],
+          [
+            "mala",
+            -0.020743
+          ],
+          [
+            "no puedes",
+            -0.01593
+          ],
+          [
+            "muy",
+            0.011287
+          ],
+          [
+            "elaborados",
+            0.009298
+          ],
+          [
+            "para",
+            0.007323
+          ],
+          [
+            "acceso",
+            0.007053
+          ],
+          [
+            "tiene",
+            0.004015
+          ],
+          [
+            "tener",
+            0.003837
+          ],
+          [
+            "afuera",
+            -0.00366
+          ],
+          [
+            "atrevo",
+            0.003416
+          ],
+          [
+            "televisión",
+            -0.003282
+          ],
+          [
+            "pobreza",
+            -0.003268
+          ],
+          [
+            "tanto",
+            0.00318
+          ],
+          [
+            "decir",
+            -0.002914
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16219665110111237,
+          "max": 0.9999998807907104,
+          "std": 0.24791090190410614
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+        "word_count": 17,
+        "interface_pos": 0.0239,
+        "interface_neg": 0.9569,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁pueden, ▁interface, ▁No",
+        "p_orig": 0.045847829431295395,
+        "p_img": 0.03404628112912178,
+        "delta_p_img": 0.011801548302173615,
+        "gradcam_mean": 0.2955874502658844,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.024165133014321327,
+        "word_attention_top15": [
+          [
+            "no sirve",
+            0.177849
+          ],
+          [
+            "ver",
+            0.119627
+          ],
+          [
+            "cobrar",
+            0.101172
+          ],
+          [
+            "partidos",
+            0.093792
+          ],
+          [
+            "pueden",
+            0.092251
+          ],
+          [
+            "gratis",
+            0.073054
+          ],
+          [
+            "hasta",
+            0.057376
+          ],
+          [
+            "que",
+            0.050852
+          ],
+          [
+            "quieren",
+            0.050156
+          ],
+          [
+            "hahaha",
+            0.047651
+          ],
+          [
+            "cualquier",
+            0.042613
+          ],
+          [
+            "se",
+            0.038656
+          ],
+          [
+            "por",
+            0.032428
+          ],
+          [
+            "en",
+            0.022523
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "gratis",
+            0.051679
+          ],
+          [
+            "no sirve",
+            -0.0484
+          ],
+          [
+            "cobrar",
+            -0.020848
+          ],
+          [
+            "cualquier",
+            0.015878
+          ],
+          [
+            "que",
+            -0.010811
+          ],
+          [
+            "ver",
+            0.010378
+          ],
+          [
+            "partidos",
+            0.006922
+          ],
+          [
+            "se",
+            0.004449
+          ],
+          [
+            "hasta",
+            0.003408
+          ],
+          [
+            "quieren",
+            0.0034
+          ],
+          [
+            "por",
+            -0.002039
+          ],
+          [
+            "pueden",
+            0.001846
+          ],
+          [
+            "en",
+            -0.000729
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16764962673187256,
+          "max": 0.9999998807907104,
+          "std": 0.2593069076538086
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+        "word_count": 22,
+        "interface_pos": 0.04,
+        "interface_neg": 0.9546,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁Yo, ago, ▁la",
+        "p_orig": 0.05698724836111069,
+        "p_img": 0.04349733889102936,
+        "delta_p_img": 0.01348990947008133,
+        "gradcam_mean": 0.3195800185203552,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.030429231002926826,
+        "word_attention_top15": [
+          [
+            "yo",
+            0.201114
+          ],
+          [
+            "inaceptable",
+            0.113051
+          ],
+          [
+            "pago",
+            0.090706
+          ],
+          [
+            "solucionarlo",
+            0.077242
+          ],
+          [
+            "la",
+            0.073985
+          ],
+          [
+            "demasiado",
+            0.071522
+          ],
+          [
+            "liga",
+            0.063783
+          ],
+          [
+            "friza",
+            0.04758
+          ],
+          [
+            "hagan",
+            0.038561
+          ],
+          [
+            "se",
+            0.038018
+          ],
+          [
+            "es",
+            0.035456
+          ],
+          [
+            "algo",
+            0.035041
+          ],
+          [
+            "cobren",
+            0.026635
+          ],
+          [
+            "que",
+            0.023818
+          ],
+          [
+            "para",
+            0.018392
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "la",
+            0.024712
+          ],
+          [
+            "malo",
+            -0.01741
+          ],
+          [
+            "demasiado",
+            -0.016172
+          ],
+          [
+            "algo",
+            -0.013476
+          ],
+          [
+            "friza",
+            -0.012534
+          ],
+          [
+            "yo",
+            0.010672
+          ],
+          [
+            "inaceptable",
+            0.008249
+          ],
+          [
+            "tan",
+            0.006978
+          ],
+          [
+            "liga",
+            0.005864
+          ],
+          [
+            "hagan",
+            0.005838
+          ],
+          [
+            "es",
+            -0.004321
+          ],
+          [
+            "se",
+            -0.003725
+          ],
+          [
+            "cobren",
+            0.003023
+          ],
+          [
+            "para",
+            0.002245
+          ],
+          [
+            "por",
+            0.002178
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16765525937080383,
+          "max": 0.9999998807907104,
+          "std": 0.25654152035713196
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!",
+        "word_count": 29,
+        "interface_pos": 0.0434,
+        "interface_neg": 0.9318,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁La, ▁gratis, ▁interface",
+        "p_orig": 0.04861021786928177,
+        "p_img": 0.03786402940750122,
+        "delta_p_img": 0.010746188461780548,
+        "gradcam_mean": 0.3140491843223572,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.025708120316267014,
+        "word_attention_top15": [
+          [
+            "hondureña",
+            0.109134
+          ],
+          [
+            "patrocinadores",
+            0.097863
+          ],
+          [
+            "gratis",
+            0.08983
+          ],
+          [
+            "la",
+            0.086197
+          ],
+          [
+            "desistalar",
+            0.084452
+          ],
+          [
+            "acabo",
+            0.066938
+          ],
+          [
+            "es",
+            0.047852
+          ],
+          [
+            "cobrenle",
+            0.047621
+          ],
+          [
+            "desepcion",
+            0.045132
+          ],
+          [
+            "liga",
+            0.042649
+          ],
+          [
+            "antes",
+            0.033557
+          ],
+          [
+            "cuando",
+            0.030286
+          ],
+          [
+            "quieren",
+            0.029695
+          ],
+          [
+            "los",
+            0.026871
+          ],
+          [
+            "cobrar",
+            0.025255
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "desepcion",
+            -0.052137
+          ],
+          [
+            "cobrar",
+            -0.051097
+          ],
+          [
+            "completa",
+            0.02712
+          ],
+          [
+            "la",
+            0.012877
+          ],
+          [
+            "malo",
+            -0.012374
+          ],
+          [
+            "patrocinadores",
+            0.011882
+          ],
+          [
+            "es",
+            0.011829
+          ],
+          [
+            "sido",
+            0.010169
+          ],
+          [
+            "antes",
+            -0.00991
+          ],
+          [
+            "quieren",
+            -0.007221
+          ],
+          [
+            "gratis",
+            -0.0061
+          ],
+          [
+            "hondureña",
+            0.004616
+          ],
+          [
+            "acabo",
+            -0.003708
+          ],
+          [
+            "tan",
+            0.003301
+          ],
+          [
+            "esta",
+            0.002919
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1638127863407135,
+          "max": 0.9999998807907104,
+          "std": 0.25046348571777344
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 97% confidence.",
+      "simple": "This screen was labeled as bad with 97% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Televicentro (category: Communication) was labeled as bad with 97% confidence (confidently). The model attended to a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.droidcanvas.televicentro",
+    "screen_id": "61038",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61038.jpg",
+    "text": "Muy mala porque no se puede veer. Con otras canales Cabelas no se batalla nada solo con uds .y radio america. Del grupo america . Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦 no sirve pague para ver partidos y nomas me robaron no Dejan ver nada",
+    "prediction": 0.0371352843940258,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9628647156059742,
+    "gradcam_stats": {
+      "mean": 0.45586416125297546,
+      "max": 1.0,
+      "std": 0.2240184098482132
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+      "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+      "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+      "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+      "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    ],
+    "app_name": "Televicentro",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.037110839039087296,
+      "p_img": 0.015807008370757103,
+      "delta_p_img": 0.021303830668330193
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          64,
+          23,
+          77
+        ],
+        "bounds_rico": [
+          0,
+          742,
+          149,
+          891
+        ],
+        "score_total": 228.023681640625,
+        "score_mean": 0.7626210088315217
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          81,
+          47,
+          90
+        ],
+        "bounds_rico": [
+          18,
+          937,
+          307,
+          1030
+        ],
+        "score_total": 298.377685546875,
+        "score_mean": 0.7367350260416666
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          46,
+          43,
+          112,
+          64
+        ],
+        "bounds_rico": [
+          300,
+          497,
+          720,
+          742
+        ],
+        "score_total": 938.2755126953125,
+        "score_mean": 0.6769664593761273
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 228.023681640625,
+        "score_mean": 0.7626210088315217,
+        "bounds_image": [
+          0,
+          64,
+          23,
+          77
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 298.377685546875,
+        "score_mean": 0.7367350260416666,
+        "bounds_image": [
+          2,
+          81,
+          47,
+          90
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 938.2755126953125,
+        "score_mean": 0.6769664593761273,
+        "bounds_image": [
+          46,
+          43,
+          112,
+          64
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 228.023681640625,
+        "score_mean": 0.7626210088315217,
+        "bounds_image": [
+          0,
+          64,
+          23,
+          77
+        ],
+        "bounds_rico": [
+          0,
+          742,
+          149,
+          891
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 298.377685546875,
+        "score_mean": 0.7367350260416666,
+        "bounds_image": [
+          2,
+          81,
+          47,
+          90
+        ],
+        "bounds_rico": [
+          18,
+          937,
+          307,
+          1030
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 938.2755126953125,
+        "score_mean": 0.6769664593761273,
+        "bounds_image": [
+          46,
+          43,
+          112,
+          64
+        ],
+        "bounds_rico": [
+          300,
+          497,
+          720,
+          742
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 876.5928955078125,
+        "score_mean": 0.6696660775460752,
+        "bounds_image": [
+          47,
+          80,
+          166,
+          91
+        ],
+        "bounds_rico": [
+          307,
+          923,
+          1069,
+          1044
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 2206.10107421875,
+        "score_mean": 0.6660933195104921,
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ],
+        "bounds_rico": [
+          258,
+          84,
+          1440,
+          294
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 1489.3792724609375,
+        "score_mean": 0.6472747815997121,
+        "bounds_image": [
+          23,
+          64,
+          200,
+          77
+        ],
+        "bounds_rico": [
+          149,
+          742,
+          1291,
+          891
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 936.265380859375,
+        "score_mean": 0.5971080235072544,
+        "bounds_image": [
+          28,
+          29,
+          224,
+          37
+        ],
+        "bounds_rico": [
+          185,
+          340,
+          1440,
+          433
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 213.74208068847656,
+        "score_mean": 0.5937280019124349,
+        "bounds_image": [
+          2,
+          100,
+          47,
+          108
+        ],
+        "bounds_rico": [
+          18,
+          1147,
+          307,
+          1240
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 154.54185485839844,
+        "score_mean": 0.5660873804336939,
+        "bounds_image": [
+          166,
+          79,
+          187,
+          92
+        ],
+        "bounds_rico": [
+          1069,
+          909,
+          1203,
+          1057
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 251.54454040527344,
+        "score_mean": 0.561483349118914,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 667.8668823242188,
+        "score_mean": 0.5612326742220326,
+        "bounds_image": [
+          47,
+          96,
+          166,
+          106
+        ],
+        "bounds_rico": [
+          307,
+          1098,
+          1069,
+          1219
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text Button",
+        "score_total": 756.2586669921875,
+        "score_mean": 0.5540356534741301,
+        "bounds_image": [
+          112,
+          43,
+          177,
+          64
+        ],
+        "bounds_rico": [
+          720,
+          497,
+          1140,
+          742
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 197.80880737304688,
+        "score_mean": 0.48721381126366226,
+        "bounds_image": [
+          5,
+          10,
+          34,
+          24
+        ],
+        "bounds_rico": [
+          35,
+          119,
+          223,
+          276
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 626.8485107421875,
+        "score_mean": 0.4788758676410905,
+        "bounds_image": [
+          47,
+          117,
+          166,
+          128
+        ],
+        "bounds_rico": [
+          307,
+          1344,
+          1069,
+          1465
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 171.11439514160156,
+        "score_mean": 0.47531776428222655,
+        "bounds_image": [
+          2,
+          118,
+          47,
+          126
+        ],
+        "bounds_rico": [
+          18,
+          1358,
+          307,
+          1451
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 560.5052490234375,
+        "score_mean": 0.47101281430540964,
+        "bounds_image": [
+          47,
+          134,
+          166,
+          144
+        ],
+        "bounds_rico": [
+          307,
+          1533,
+          1069,
+          1654
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 589.56103515625,
+        "score_mean": 0.4503904011888846,
+        "bounds_image": [
+          47,
+          150,
+          166,
+          161
+        ],
+        "bounds_rico": [
+          307,
+          1722,
+          1069,
+          1843
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 118.32525634765625,
+        "score_mean": 0.448201728589607,
+        "bounds_image": [
+          47,
+          106,
+          91,
+          112
+        ],
+        "bounds_rico": [
+          307,
+          1219,
+          586,
+          1290
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Icon",
+        "score_total": 116.12104034423828,
+        "score_mean": 0.42535179613274093,
+        "bounds_image": [
+          166,
+          96,
+          187,
+          109
+        ],
+        "bounds_rico": [
+          1069,
+          1098,
+          1203,
+          1246
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 504.69244384765625,
+        "score_mean": 0.42411129735097164,
+        "bounds_image": [
+          47,
+          167,
+          166,
+          177
+        ],
+        "bounds_rico": [
+          307,
+          1911,
+          1069,
+          2032
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text",
+        "score_total": 525.973876953125,
+        "score_mean": 0.4018135041658709,
+        "bounds_image": [
+          47,
+          182,
+          166,
+          193
+        ],
+        "bounds_rico": [
+          307,
+          2086,
+          1069,
+          2207
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text",
+        "score_total": 136.54473876953125,
+        "score_mean": 0.3792909410264757,
+        "bounds_image": [
+          2,
+          135,
+          47,
+          143
+        ],
+        "bounds_rico": [
+          18,
+          1547,
+          307,
+          1640
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 223.7352294921875,
+        "score_mean": 0.37602559578518907,
+        "bounds_image": [
+          47,
+          204,
+          166,
+          209
+        ],
+        "bounds_rico": [
+          307,
+          2332,
+          1069,
+          2392
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Icon",
+        "score_total": 87.729248046875,
+        "score_mean": 0.3213525569482601,
+        "bounds_image": [
+          166,
+          116,
+          187,
+          129
+        ],
+        "bounds_rico": [
+          1069,
+          1330,
+          1203,
+          1478
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Image",
+        "score_total": 43.55070877075195,
+        "score_mean": 0.29626332497110175,
+        "bounds_image": [
+          166,
+          202,
+          187,
+          209
+        ],
+        "bounds_rico": [
+          1069,
+          2318,
+          1203,
+          2392
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Icon",
+        "score_total": 79.60997009277344,
+        "score_mean": 0.29161161206144115,
+        "bounds_image": [
+          166,
+          182,
+          187,
+          195
+        ],
+        "bounds_rico": [
+          1069,
+          2086,
+          1203,
+          2234
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Icon",
+        "score_total": 78.02725982666016,
+        "score_mean": 0.2858141385591947,
+        "bounds_image": [
+          166,
+          165,
+          187,
+          178
+        ],
+        "bounds_rico": [
+          1069,
+          1897,
+          1203,
+          2045
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Icon",
+        "score_total": 77.7978515625,
+        "score_mean": 0.28497381524725274,
+        "bounds_image": [
+          166,
+          132,
+          187,
+          145
+        ],
+        "bounds_rico": [
+          1069,
+          1519,
+          1203,
+          1667
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Text",
+        "score_total": 113.95346069335938,
+        "score_mean": 0.28136656961323303,
+        "bounds_image": [
+          2,
+          151,
+          47,
+          160
+        ],
+        "bounds_rico": [
+          18,
+          1736,
+          307,
+          1829
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Icon",
+        "score_total": 75.83851623535156,
+        "score_mean": 0.27779676276685555,
+        "bounds_image": [
+          166,
+          149,
+          187,
+          162
+        ],
+        "bounds_rico": [
+          1069,
+          1708,
+          1203,
+          1856
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Icon",
+        "score_total": 81.11112976074219,
+        "score_mean": 0.27127468147405415,
+        "bounds_image": [
+          192,
+          116,
+          215,
+          129
+        ],
+        "bounds_rico": [
+          1238,
+          1330,
+          1386,
+          1479
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Icon",
+        "score_total": 80.49845886230469,
+        "score_mean": 0.26922561492409597,
+        "bounds_image": [
+          192,
+          96,
+          215,
+          109
+        ],
+        "bounds_rico": [
+          1238,
+          1098,
+          1386,
+          1247
+        ]
+      },
+      {
+        "rank": 32,
+        "component": "Text",
+        "score_total": 44.7232551574707,
+        "score_mean": 0.21296788170224146,
+        "bounds_image": [
+          47,
+          193,
+          82,
+          199
+        ],
+        "bounds_rico": [
+          307,
+          2207,
+          528,
+          2278
+        ]
+      },
+      {
+        "rank": 33,
+        "component": "Icon",
+        "score_total": 64.46320343017578,
+        "score_mean": 0.20019628394464528,
+        "bounds_image": [
+          192,
+          165,
+          215,
+          179
+        ],
+        "bounds_rico": [
+          1238,
+          1897,
+          1386,
+          2046
+        ]
+      },
+      {
+        "rank": 34,
+        "component": "Text",
+        "score_total": 65.32780456542969,
+        "score_mean": 0.18146612379286026,
+        "bounds_image": [
+          2,
+          168,
+          47,
+          176
+        ],
+        "bounds_rico": [
+          18,
+          1925,
+          307,
+          2018
+        ]
+      },
+      {
+        "rank": 35,
+        "component": "Icon",
+        "score_total": 53.27119445800781,
+        "score_mean": 0.17816452995989235,
+        "bounds_image": [
+          192,
+          132,
+          215,
+          145
+        ],
+        "bounds_rico": [
+          1238,
+          1519,
+          1386,
+          1668
+        ]
+      },
+      {
+        "rank": 36,
+        "component": "Icon",
+        "score_total": 50.45970916748047,
+        "score_mean": 0.16876156912200826,
+        "bounds_image": [
+          192,
+          149,
+          215,
+          162
+        ],
+        "bounds_rico": [
+          1238,
+          1708,
+          1386,
+          1857
+        ]
+      },
+      {
+        "rank": 37,
+        "component": "Icon",
+        "score_total": 46.70709991455078,
+        "score_mean": 0.1562110365035143,
+        "bounds_image": [
+          192,
+          79,
+          215,
+          92
+        ],
+        "bounds_rico": [
+          1238,
+          909,
+          1386,
+          1058
+        ]
+      },
+      {
+        "rank": 38,
+        "component": "Icon",
+        "score_total": 44.80097198486328,
+        "score_mean": 0.14983602670522836,
+        "bounds_image": [
+          192,
+          182,
+          215,
+          195
+        ],
+        "bounds_rico": [
+          1238,
+          2086,
+          1386,
+          2235
+        ]
+      },
+      {
+        "rank": 39,
+        "component": "Text",
+        "score_total": 31.825960159301758,
+        "score_mean": 0.08840544488694933,
+        "bounds_image": [
+          2,
+          186,
+          47,
+          194
+        ],
+        "bounds_rico": [
+          18,
+          2135,
+          307,
+          2228
+        ]
+      },
+      {
+        "rank": 40,
+        "component": "Icon",
+        "score_total": 22.510086059570312,
+        "score_mean": 0.07214771172939202,
+        "bounds_image": [
+          200,
+          64,
+          224,
+          77
+        ],
+        "bounds_rico": [
+          1291,
+          742,
+          1440,
+          891
+        ]
+      },
+      {
+        "rank": 41,
+        "component": "Image",
+        "score_total": 10.814981460571289,
+        "score_mean": 0.06717379789174714,
+        "bounds_image": [
+          192,
+          202,
+          215,
+          209
+        ],
+        "bounds_rico": [
+          1238,
+          2318,
+          1386,
+          2392
+        ]
+      },
+      {
+        "rank": 42,
+        "component": "Text",
+        "score_total": 1.254408359527588,
+        "score_mean": 0.006968935330708821,
+        "bounds_image": [
+          2,
+          205,
+          47,
+          209
+        ],
+        "bounds_rico": [
+          18,
+          2346,
+          307,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "▁Con"
+      },
+      {
+        "index": 13,
+        "token": "ales"
+      },
+      {
+        "index": 35,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+        "word_count": 21,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9912,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Text Button",
+        "top_k_tokens": "▁interface, ▁de, ▁sir",
+        "p_orig": 0.04634767025709152,
+        "p_img": 0.020088545978069305,
+        "delta_p_img": 0.026259124279022217,
+        "gradcam_mean": 0.40577980875968933,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.023878958076238632,
+        "word_attention_top15": [
+          [
+            "pais",
+            0.110119
+          ],
+          [
+            "🤦🤦🤦",
+            0.106386
+          ],
+          [
+            "de",
+            0.087996
+          ],
+          [
+            "tarjeta",
+            0.086903
+          ],
+          [
+            "sirve",
+            0.075395
+          ],
+          [
+            "debito",
+            0.064192
+          ],
+          [
+            "cobro",
+            0.054269
+          ],
+          [
+            "son",
+            0.049395
+          ],
+          [
+            "quiera",
+            0.048654
+          ],
+          [
+            "malos",
+            0.040074
+          ],
+          [
+            "un",
+            0.035371
+          ],
+          [
+            "ni",
+            0.033724
+          ],
+          [
+            "en",
+            0.032774
+          ],
+          [
+            "con",
+            0.029147
+          ],
+          [
+            "les",
+            0.027955
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "malos",
+            -0.02833
+          ],
+          [
+            "les",
+            -0.027809
+          ],
+          [
+            "sirve",
+            0.019707
+          ],
+          [
+            "ni",
+            -0.014353
+          ],
+          [
+            "mi",
+            0.012323
+          ],
+          [
+            "con",
+            0.011872
+          ],
+          [
+            "debito",
+            -0.010256
+          ],
+          [
+            "cobro",
+            0.009337
+          ],
+          [
+            "en",
+            0.008057
+          ],
+          [
+            "que",
+            0.007509
+          ],
+          [
+            "si",
+            0.005947
+          ],
+          [
+            "pais",
+            0.005268
+          ],
+          [
+            "de",
+            -0.00455
+          ],
+          [
+            "son",
+            -0.002968
+          ],
+          [
+            "quiera",
+            0.002378
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16956257820129395,
+          "max": 0.9999995827674866,
+          "std": 0.31471526622772217
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+        "word_count": 91,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.9628,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text Button, Text",
+        "top_k_tokens": "▁y, ▁los, idos",
+        "p_orig": 0.07021189481019974,
+        "p_img": 0.031885650008916855,
+        "delta_p_img": 0.03832624480128288,
+        "gradcam_mean": 0.3202345073223114,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.03469669818878174,
+        "word_attention_top15": [
+          [
+            "partidos",
+            0.06701
+          ],
+          [
+            "de",
+            0.06687
+          ],
+          [
+            "elaborados",
+            0.052465
+          ],
+          [
+            "hondureños",
+            0.045426
+          ],
+          [
+            "nacional",
+            0.038827
+          ],
+          [
+            "televisión",
+            0.038235
+          ],
+          [
+            "acceso",
+            0.029353
+          ],
+          [
+            "contenido",
+            0.027367
+          ],
+          [
+            "la",
+            0.025385
+          ],
+          [
+            "los",
+            0.025106
+          ],
+          [
+            "el",
+            0.023619
+          ],
+          [
+            "no puedes",
+            0.022824
+          ],
+          [
+            "muy",
+            0.022318
+          ],
+          [
+            "población",
+            0.020396
+          ],
+          [
+            "residen",
+            0.02035
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "mala",
+            -0.021267
+          ],
+          [
+            "mal",
+            -0.020991
+          ],
+          [
+            "no puedes",
+            -0.015184
+          ],
+          [
+            "elaborados",
+            0.010397
+          ],
+          [
+            "para",
+            0.008452
+          ],
+          [
+            "acceso",
+            0.008096
+          ],
+          [
+            "muy",
+            0.008047
+          ],
+          [
+            "tiene",
+            0.006217
+          ],
+          [
+            "pobreza",
+            -0.003454
+          ],
+          [
+            "población",
+            0.00331
+          ],
+          [
+            "tanto",
+            0.003031
+          ],
+          [
+            "afuera",
+            -0.003026
+          ],
+          [
+            "si",
+            0.002967
+          ],
+          [
+            "internet",
+            -0.002946
+          ],
+          [
+            "atrevo",
+            0.002901
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12317759543657303,
+          "max": 0.9999997019767761,
+          "std": 0.2565478980541229
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+        "word_count": 17,
+        "interface_pos": 0.0239,
+        "interface_neg": 0.9569,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Icon, Icon",
+        "top_k_tokens": "▁pueden, ▁interface, ▁No",
+        "p_orig": 0.06364322453737259,
+        "p_img": 0.05922224372625351,
+        "delta_p_img": 0.00442098081111908,
+        "gradcam_mean": 0.3330870270729065,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text Button",
+        "delta_p_img_shap": 0.03128790110349655,
+        "word_attention_top15": [
+          [
+            "no sirve",
+            0.177849
+          ],
+          [
+            "ver",
+            0.119627
+          ],
+          [
+            "cobrar",
+            0.101172
+          ],
+          [
+            "partidos",
+            0.093792
+          ],
+          [
+            "pueden",
+            0.092251
+          ],
+          [
+            "gratis",
+            0.073054
+          ],
+          [
+            "hasta",
+            0.057376
+          ],
+          [
+            "que",
+            0.050852
+          ],
+          [
+            "quieren",
+            0.050156
+          ],
+          [
+            "hahaha",
+            0.047651
+          ],
+          [
+            "cualquier",
+            0.042613
+          ],
+          [
+            "se",
+            0.038656
+          ],
+          [
+            "por",
+            0.032428
+          ],
+          [
+            "en",
+            0.022523
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "gratis",
+            0.047366
+          ],
+          [
+            "no sirve",
+            -0.043755
+          ],
+          [
+            "cobrar",
+            -0.01832
+          ],
+          [
+            "cualquier",
+            0.014786
+          ],
+          [
+            "que",
+            -0.008726
+          ],
+          [
+            "ver",
+            0.008501
+          ],
+          [
+            "quieren",
+            0.00639
+          ],
+          [
+            "partidos",
+            0.006279
+          ],
+          [
+            "se",
+            0.004731
+          ],
+          [
+            "pueden",
+            0.001959
+          ],
+          [
+            "hasta",
+            0.001513
+          ],
+          [
+            "en",
+            -0.001078
+          ],
+          [
+            "por",
+            -0.000943
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18140628933906555,
+          "max": 0.9999996423721313,
+          "std": 0.33556583523750305
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+        "word_count": 22,
+        "interface_pos": 0.04,
+        "interface_neg": 0.9546,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Image, Icon",
+        "top_k_tokens": "▁Yo, ago, ▁la",
+        "p_orig": 0.08544107526540756,
+        "p_img": 0.08215952664613724,
+        "delta_p_img": 0.0032815486192703247,
+        "gradcam_mean": 0.23818263411521912,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.0403064489364624,
+        "word_attention_top15": [
+          [
+            "yo",
+            0.201114
+          ],
+          [
+            "inaceptable",
+            0.113051
+          ],
+          [
+            "pago",
+            0.090706
+          ],
+          [
+            "solucionarlo",
+            0.077242
+          ],
+          [
+            "la",
+            0.073985
+          ],
+          [
+            "demasiado",
+            0.071522
+          ],
+          [
+            "liga",
+            0.063783
+          ],
+          [
+            "friza",
+            0.04758
+          ],
+          [
+            "hagan",
+            0.038561
+          ],
+          [
+            "se",
+            0.038018
+          ],
+          [
+            "es",
+            0.035456
+          ],
+          [
+            "algo",
+            0.035041
+          ],
+          [
+            "cobren",
+            0.026635
+          ],
+          [
+            "que",
+            0.023818
+          ],
+          [
+            "para",
+            0.018392
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "la",
+            0.024856
+          ],
+          [
+            "malo",
+            -0.017124
+          ],
+          [
+            "demasiado",
+            -0.016802
+          ],
+          [
+            "algo",
+            -0.013888
+          ],
+          [
+            "friza",
+            -0.013639
+          ],
+          [
+            "yo",
+            0.012564
+          ],
+          [
+            "inaceptable",
+            0.010579
+          ],
+          [
+            "liga",
+            0.010178
+          ],
+          [
+            "tan",
+            0.007471
+          ],
+          [
+            "hagan",
+            0.00675
+          ],
+          [
+            "se",
+            -0.006071
+          ],
+          [
+            "cobren",
+            0.005188
+          ],
+          [
+            "es",
+            -0.003639
+          ],
+          [
+            "para",
+            0.002872
+          ],
+          [
+            "por",
+            0.001331
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1347840428352356,
+          "max": 0.9999997019767761,
+          "std": 0.27206748723983765
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!",
+        "word_count": 29,
+        "interface_pos": 0.0434,
+        "interface_neg": 0.9318,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Image, Text",
+        "top_k_tokens": "▁La, ▁gratis, ▁interface",
+        "p_orig": 0.07692843675613403,
+        "p_img": 0.07329019904136658,
+        "delta_p_img": 0.003638237714767456,
+        "gradcam_mean": 0.2776440680027008,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.037797559052705765,
+        "word_attention_top15": [
+          [
+            "hondureña",
+            0.109134
+          ],
+          [
+            "patrocinadores",
+            0.097863
+          ],
+          [
+            "gratis",
+            0.08983
+          ],
+          [
+            "la",
+            0.086197
+          ],
+          [
+            "desistalar",
+            0.084452
+          ],
+          [
+            "acabo",
+            0.066938
+          ],
+          [
+            "es",
+            0.047852
+          ],
+          [
+            "cobrenle",
+            0.047621
+          ],
+          [
+            "desepcion",
+            0.045132
+          ],
+          [
+            "liga",
+            0.042649
+          ],
+          [
+            "antes",
+            0.033557
+          ],
+          [
+            "cuando",
+            0.030286
+          ],
+          [
+            "quieren",
+            0.029695
+          ],
+          [
+            "los",
+            0.026871
+          ],
+          [
+            "cobrar",
+            0.025255
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cobrar",
+            -0.049392
+          ],
+          [
+            "desepcion",
+            -0.047957
+          ],
+          [
+            "completa",
+            0.025614
+          ],
+          [
+            "patrocinadores",
+            0.014707
+          ],
+          [
+            "malo",
+            -0.012851
+          ],
+          [
+            "la",
+            0.011365
+          ],
+          [
+            "es",
+            0.010958
+          ],
+          [
+            "sido",
+            0.01008
+          ],
+          [
+            "antes",
+            -0.009975
+          ],
+          [
+            "quieren",
+            -0.008808
+          ],
+          [
+            "hondureña",
+            0.007026
+          ],
+          [
+            "gratis",
+            -0.00577
+          ],
+          [
+            "esta",
+            0.004569
+          ],
+          [
+            "tan",
+            0.003265
+          ],
+          [
+            "como",
+            0.002728
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1635129153728485,
+          "max": 0.9999996423721313,
+          "std": 0.3111836910247803
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 96% confidence.",
+      "simple": "This screen was predicted as bad with 96% confidence. The model concentrated on a small Icon at the top-left.",
+      "detailed": "This screen of Televicentro (category: Communication) was predicted as bad with 96% confidence (with strong evidence). The model gave priority to a small Icon at the top-left, a small Text at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.droidcanvas.televicentro",
+    "screen_id": "61039",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61039.jpg",
+    "text": "Muy mala porque no se puede veer. Con otras canales Cabelas no se batalla nada solo con uds .y radio america. Del grupo america . Does not work Does not work",
+    "prediction": 0.022836139425635338,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9771638605743647,
+    "gradcam_stats": {
+      "mean": 0.36504873633384705,
+      "max": 1.0,
+      "std": 0.26984360814094543
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+      "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+      "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+      "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+      "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    ],
+    "app_name": "Televicentro",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.022746538743376732,
+      "p_img": 0.017087247222661972,
+      "delta_p_img": 0.00565929152071476
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          64,
+          23,
+          77
+        ],
+        "bounds_rico": [
+          0,
+          742,
+          149,
+          891
+        ],
+        "score_total": 249.8799591064453,
+        "score_mean": 0.8357189267774091
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          46,
+          43,
+          112,
+          64
+        ],
+        "bounds_rico": [
+          300,
+          497,
+          720,
+          742
+        ],
+        "score_total": 1116.273681640625,
+        "score_mean": 0.8053922666959776
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ],
+        "score_total": 347.8739318847656,
+        "score_mean": 0.7765043122427804
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 249.8799591064453,
+        "score_mean": 0.8357189267774091,
+        "bounds_image": [
+          0,
+          64,
+          23,
+          77
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1116.273681640625,
+        "score_mean": 0.8053922666959776,
+        "bounds_image": [
+          46,
+          43,
+          112,
+          64
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 347.8739318847656,
+        "score_mean": 0.7765043122427804,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 249.8799591064453,
+        "score_mean": 0.8357189267774091,
+        "bounds_image": [
+          0,
+          64,
+          23,
+          77
+        ],
+        "bounds_rico": [
+          0,
+          742,
+          149,
+          891
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 1116.273681640625,
+        "score_mean": 0.8053922666959776,
+        "bounds_image": [
+          46,
+          43,
+          112,
+          64
+        ],
+        "bounds_rico": [
+          300,
+          497,
+          720,
+          742
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 347.8739318847656,
+        "score_mean": 0.7765043122427804,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 1467.6243896484375,
+        "score_mean": 0.6378202475655965,
+        "bounds_image": [
+          23,
+          64,
+          200,
+          77
+        ],
+        "bounds_rico": [
+          149,
+          742,
+          1291,
+          891
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 245.90762329101562,
+        "score_mean": 0.6056838012093981,
+        "bounds_image": [
+          5,
+          10,
+          34,
+          24
+        ],
+        "bounds_rico": [
+          35,
+          119,
+          223,
+          276
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 655.58056640625,
+        "score_mean": 0.48027880322802197,
+        "bounds_image": [
+          112,
+          43,
+          177,
+          64
+        ],
+        "bounds_rico": [
+          720,
+          497,
+          1140,
+          742
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 622.326416015625,
+        "score_mean": 0.3968918469487404,
+        "bounds_image": [
+          28,
+          29,
+          224,
+          37
+        ],
+        "bounds_rico": [
+          185,
+          340,
+          1440,
+          433
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 698.6390991210938,
+        "score_mean": 0.21094175698100656,
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ],
+        "bounds_rico": [
+          258,
+          84,
+          1440,
+          294
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 48.86137771606445,
+        "score_mean": 0.15660697985918093,
+        "bounds_image": [
+          200,
+          64,
+          224,
+          77
+        ],
+        "bounds_rico": [
+          1291,
+          742,
+          1440,
+          891
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "▁Con"
+      },
+      {
+        "index": 13,
+        "token": "ales"
+      },
+      {
+        "index": 35,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+        "word_count": 21,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9912,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text Button, Icon",
+        "top_k_tokens": "▁interface, ▁de, ▁sir",
+        "p_orig": 0.02762288600206375,
+        "p_img": 0.021170005202293396,
+        "delta_p_img": 0.006452880799770355,
+        "gradcam_mean": 0.361130028963089,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.024470450589433312,
+        "word_attention_top15": [
+          [
+            "pais",
+            0.110119
+          ],
+          [
+            "🤦🤦🤦",
+            0.106386
+          ],
+          [
+            "de",
+            0.087996
+          ],
+          [
+            "tarjeta",
+            0.086903
+          ],
+          [
+            "sirve",
+            0.075395
+          ],
+          [
+            "debito",
+            0.064192
+          ],
+          [
+            "cobro",
+            0.054269
+          ],
+          [
+            "son",
+            0.049395
+          ],
+          [
+            "quiera",
+            0.048654
+          ],
+          [
+            "malos",
+            0.040074
+          ],
+          [
+            "un",
+            0.035371
+          ],
+          [
+            "ni",
+            0.033724
+          ],
+          [
+            "en",
+            0.032774
+          ],
+          [
+            "con",
+            0.029147
+          ],
+          [
+            "les",
+            0.027955
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "malos",
+            -0.013603
+          ],
+          [
+            "les",
+            -0.01132
+          ],
+          [
+            "sirve",
+            0.00975
+          ],
+          [
+            "ni",
+            -0.006387
+          ],
+          [
+            "cobro",
+            0.006053
+          ],
+          [
+            "mi",
+            0.005275
+          ],
+          [
+            "con",
+            0.004985
+          ],
+          [
+            "debito",
+            -0.004062
+          ],
+          [
+            "en",
+            0.003767
+          ],
+          [
+            "pais",
+            0.003109
+          ],
+          [
+            "si",
+            0.002925
+          ],
+          [
+            "de",
+            -0.002309
+          ],
+          [
+            "program",
+            0.002024
+          ],
+          [
+            "tan",
+            -0.001909
+          ],
+          [
+            "quiera",
+            0.001847
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07074609398841858,
+          "max": 0.9999982714653015,
+          "std": 0.17576618492603302
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+        "word_count": 91,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.9628,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text Button, Icon",
+        "top_k_tokens": "▁y, ▁los, idos",
+        "p_orig": 0.045442141592502594,
+        "p_img": 0.03688298165798187,
+        "delta_p_img": 0.008559159934520721,
+        "gradcam_mean": 0.3227437138557434,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.039870491717010736,
+        "word_attention_top15": [
+          [
+            "partidos",
+            0.06701
+          ],
+          [
+            "de",
+            0.06687
+          ],
+          [
+            "elaborados",
+            0.052465
+          ],
+          [
+            "hondureños",
+            0.045426
+          ],
+          [
+            "nacional",
+            0.038827
+          ],
+          [
+            "televisión",
+            0.038235
+          ],
+          [
+            "acceso",
+            0.029353
+          ],
+          [
+            "contenido",
+            0.027367
+          ],
+          [
+            "la",
+            0.025385
+          ],
+          [
+            "los",
+            0.025106
+          ],
+          [
+            "el",
+            0.023619
+          ],
+          [
+            "no puedes",
+            0.022824
+          ],
+          [
+            "muy",
+            0.022318
+          ],
+          [
+            "población",
+            0.020396
+          ],
+          [
+            "residen",
+            0.02035
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "mala",
+            -0.010457
+          ],
+          [
+            "mal",
+            -0.010454
+          ],
+          [
+            "elaborados",
+            0.00501
+          ],
+          [
+            "no puedes",
+            -0.004675
+          ],
+          [
+            "para",
+            0.004613
+          ],
+          [
+            "acceso",
+            0.003602
+          ],
+          [
+            "muy",
+            0.00334
+          ],
+          [
+            "tiene",
+            0.002762
+          ],
+          [
+            "ver",
+            0.001736
+          ],
+          [
+            "tanto",
+            0.001679
+          ],
+          [
+            "si",
+            0.001649
+          ],
+          [
+            "atrevo",
+            0.001452
+          ],
+          [
+            "internet",
+            -0.001416
+          ],
+          [
+            "población",
+            0.001394
+          ],
+          [
+            "la",
+            0.001393
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0806291252374649,
+          "max": 0.9999988675117493,
+          "std": 0.18735527992248535
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+        "word_count": 17,
+        "interface_pos": 0.0239,
+        "interface_neg": 0.9569,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁pueden, ▁interface, ▁No",
+        "p_orig": 0.03962606191635132,
+        "p_img": 0.03013637848198414,
+        "delta_p_img": 0.00948968343436718,
+        "gradcam_mean": 0.32410678267478943,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.034872143529355526,
+        "word_attention_top15": [
+          [
+            "no sirve",
+            0.177849
+          ],
+          [
+            "ver",
+            0.119627
+          ],
+          [
+            "cobrar",
+            0.101172
+          ],
+          [
+            "partidos",
+            0.093792
+          ],
+          [
+            "pueden",
+            0.092251
+          ],
+          [
+            "gratis",
+            0.073054
+          ],
+          [
+            "hasta",
+            0.057376
+          ],
+          [
+            "que",
+            0.050852
+          ],
+          [
+            "quieren",
+            0.050156
+          ],
+          [
+            "hahaha",
+            0.047651
+          ],
+          [
+            "cualquier",
+            0.042613
+          ],
+          [
+            "se",
+            0.038656
+          ],
+          [
+            "por",
+            0.032428
+          ],
+          [
+            "en",
+            0.022523
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "gratis",
+            0.024571
+          ],
+          [
+            "no sirve",
+            -0.023632
+          ],
+          [
+            "cobrar",
+            -0.008481
+          ],
+          [
+            "ver",
+            0.006173
+          ],
+          [
+            "cualquier",
+            0.006022
+          ],
+          [
+            "partidos",
+            0.004163
+          ],
+          [
+            "se",
+            0.003191
+          ],
+          [
+            "quieren",
+            0.002961
+          ],
+          [
+            "pueden",
+            0.002928
+          ],
+          [
+            "que",
+            -0.002832
+          ],
+          [
+            "hasta",
+            0.001152
+          ],
+          [
+            "por",
+            0.000849
+          ],
+          [
+            "en",
+            -0.000161
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0761827901005745,
+          "max": 0.9999986886978149,
+          "std": 0.18266141414642334
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+        "word_count": 22,
+        "interface_pos": 0.04,
+        "interface_neg": 0.9546,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text Button, Icon",
+        "top_k_tokens": "▁Yo, ago, ▁la",
+        "p_orig": 0.044743724167346954,
+        "p_img": 0.035924360156059265,
+        "delta_p_img": 0.00881936401128769,
+        "gradcam_mean": 0.3223738670349121,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.039062506053596735,
+        "word_attention_top15": [
+          [
+            "yo",
+            0.201114
+          ],
+          [
+            "inaceptable",
+            0.113051
+          ],
+          [
+            "pago",
+            0.090706
+          ],
+          [
+            "solucionarlo",
+            0.077242
+          ],
+          [
+            "la",
+            0.073985
+          ],
+          [
+            "demasiado",
+            0.071522
+          ],
+          [
+            "liga",
+            0.063783
+          ],
+          [
+            "friza",
+            0.04758
+          ],
+          [
+            "hagan",
+            0.038561
+          ],
+          [
+            "se",
+            0.038018
+          ],
+          [
+            "es",
+            0.035456
+          ],
+          [
+            "algo",
+            0.035041
+          ],
+          [
+            "cobren",
+            0.026635
+          ],
+          [
+            "que",
+            0.023818
+          ],
+          [
+            "para",
+            0.018392
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "la",
+            0.010591
+          ],
+          [
+            "demasiado",
+            -0.008112
+          ],
+          [
+            "malo",
+            -0.007718
+          ],
+          [
+            "liga",
+            0.005661
+          ],
+          [
+            "friza",
+            -0.00562
+          ],
+          [
+            "inaceptable",
+            0.00517
+          ],
+          [
+            "algo",
+            -0.005083
+          ],
+          [
+            "yo",
+            0.004364
+          ],
+          [
+            "tan",
+            0.003639
+          ],
+          [
+            "hagan",
+            0.002897
+          ],
+          [
+            "es",
+            -0.002314
+          ],
+          [
+            "se",
+            -0.002291
+          ],
+          [
+            "para",
+            0.001982
+          ],
+          [
+            "cobren",
+            0.001954
+          ],
+          [
+            "pago",
+            0.001512
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07533152401447296,
+          "max": 0.9999988675117493,
+          "std": 0.1806735247373581
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!",
+        "word_count": 29,
+        "interface_pos": 0.0434,
+        "interface_neg": 0.9318,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text Button, Icon",
+        "top_k_tokens": "▁La, ▁gratis, ▁interface",
+        "p_orig": 0.04378700256347656,
+        "p_img": 0.035443924367427826,
+        "delta_p_img": 0.008343078196048737,
+        "gradcam_mean": 0.3271219730377197,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.038381113205105066,
+        "word_attention_top15": [
+          [
+            "hondureña",
+            0.109134
+          ],
+          [
+            "patrocinadores",
+            0.097863
+          ],
+          [
+            "gratis",
+            0.08983
+          ],
+          [
+            "la",
+            0.086197
+          ],
+          [
+            "desistalar",
+            0.084452
+          ],
+          [
+            "acabo",
+            0.066938
+          ],
+          [
+            "es",
+            0.047852
+          ],
+          [
+            "cobrenle",
+            0.047621
+          ],
+          [
+            "desepcion",
+            0.045132
+          ],
+          [
+            "liga",
+            0.042649
+          ],
+          [
+            "antes",
+            0.033557
+          ],
+          [
+            "cuando",
+            0.030286
+          ],
+          [
+            "quieren",
+            0.029695
+          ],
+          [
+            "los",
+            0.026871
+          ],
+          [
+            "cobrar",
+            0.025255
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cobrar",
+            -0.021074
+          ],
+          [
+            "desepcion",
+            -0.01753
+          ],
+          [
+            "completa",
+            0.007463
+          ],
+          [
+            "malo",
+            -0.006944
+          ],
+          [
+            "patrocinadores",
+            0.006851
+          ],
+          [
+            "la",
+            0.00572
+          ],
+          [
+            "es",
+            0.00492
+          ],
+          [
+            "hondureña",
+            0.004584
+          ],
+          [
+            "sido",
+            0.004107
+          ],
+          [
+            "antes",
+            -0.003883
+          ],
+          [
+            "quieren",
+            -0.003343
+          ],
+          [
+            "gratis",
+            -0.002523
+          ],
+          [
+            "cobrenle",
+            0.002
+          ],
+          [
+            "como",
+            0.001634
+          ],
+          [
+            "los",
+            0.001285
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07539378106594086,
+          "max": 0.9999988675117493,
+          "std": 0.1800331175327301
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 98% confidence.",
+      "simple": "This screen was predicted as bad with 98% confidence. The model concentrated on a small Icon at the top-left.",
+      "detailed": "This screen of Televicentro (category: Communication) was predicted as bad with 98% confidence (with strong evidence). The model gave priority to a small Icon at the top-left, a small Text Button at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.droidcanvas.televicentro",
+    "screen_id": "61040",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61040.jpg",
+    "text": "Muy mala porque no se puede veer. Con otras canales Cabelas no se batalla nada solo con uds .y radio america. Del grupo america . Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦 no sirve pague para ver partidos y nomas me robaron no Dejan ver nada",
+    "prediction": 0.03417808189988136,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9658219181001186,
+    "gradcam_stats": {
+      "mean": 0.38395947217941284,
+      "max": 1.0,
+      "std": 0.19567421078681946
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+      "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+      "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+      "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+      "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    ],
+    "app_name": "Televicentro",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.03412507846951485,
+      "p_img": 0.1360425353050232,
+      "delta_p_img": 0.10191745683550835
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ],
+        "score_total": 231.11334228515625,
+        "score_mean": 0.5158779961722237
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          41,
+          224,
+          103
+        ],
+        "bounds_rico": [
+          0,
+          479,
+          1440,
+          1179
+        ],
+        "score_total": 7006.20166015625,
+        "score_mean": 0.5044788061748452
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ],
+        "bounds_rico": [
+          258,
+          84,
+          1440,
+          294
+        ],
+        "score_total": 1510.199462890625,
+        "score_mean": 0.4559780986988602
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 231.11334228515625,
+        "score_mean": 0.5158779961722237,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 7006.20166015625,
+        "score_mean": 0.5044788061748452,
+        "bounds_image": [
+          0,
+          41,
+          224,
+          103
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1510.199462890625,
+        "score_mean": 0.4559780986988602,
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 231.11334228515625,
+        "score_mean": 0.5158779961722237,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 7006.20166015625,
+        "score_mean": 0.5044788061748452,
+        "bounds_image": [
+          0,
+          41,
+          224,
+          103
+        ],
+        "bounds_rico": [
+          0,
+          479,
+          1440,
+          1179
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1510.199462890625,
+        "score_mean": 0.4559780986988602,
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ],
+        "bounds_rico": [
+          258,
+          84,
+          1440,
+          294
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 712.5869140625,
+        "score_mean": 0.4544559400908801,
+        "bounds_image": [
+          28,
+          29,
+          224,
+          37
+        ],
+        "bounds_rico": [
+          185,
+          340,
+          1440,
+          433
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 219.23757934570312,
+        "score_mean": 0.44742363131776147,
+        "bounds_image": [
+          87,
+          173,
+          136,
+          183
+        ],
+        "bounds_rico": [
+          560,
+          1984,
+          880,
+          2101
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 167.9271240234375,
+        "score_mean": 0.4136136059690579,
+        "bounds_image": [
+          5,
+          10,
+          34,
+          24
+        ],
+        "bounds_rico": [
+          35,
+          119,
+          223,
+          276
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 3248.4951171875,
+        "score_mean": 0.3449607217996708,
+        "bounds_image": [
+          2,
+          124,
+          221,
+          167
+        ],
+        "bounds_rico": [
+          18,
+          1427,
+          1422,
+          1913
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 1122.0146484375,
+        "score_mean": 0.2636312613809915,
+        "bounds_image": [
+          0,
+          190,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2182,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 952.677978515625,
+        "score_mean": 0.25588986798700647,
+        "bounds_image": [
+          2,
+          104,
+          221,
+          121
+        ],
+        "bounds_rico": [
+          18,
+          1197,
+          1422,
+          1391
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 27.895069122314453,
+        "score_mean": 0.12128290922745415,
+        "bounds_image": [
+          201,
+          173,
+          224,
+          183
+        ],
+        "bounds_rico": [
+          1293,
+          1986,
+          1440,
+          2098
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "▁Con"
+      },
+      {
+        "index": 13,
+        "token": "ales"
+      },
+      {
+        "index": 35,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+        "word_count": 21,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9912,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Image, Text",
+        "top_k_tokens": "▁interface, ▁de, ▁sir",
+        "p_orig": 0.038966331630945206,
+        "p_img": 0.4702400267124176,
+        "delta_p_img": 0.4312736950814724,
+        "gradcam_mean": 0.3817906677722931,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.09696358069777489,
+        "word_attention_top15": [
+          [
+            "pais",
+            0.110119
+          ],
+          [
+            "🤦🤦🤦",
+            0.106386
+          ],
+          [
+            "de",
+            0.087996
+          ],
+          [
+            "tarjeta",
+            0.086903
+          ],
+          [
+            "sirve",
+            0.075395
+          ],
+          [
+            "debito",
+            0.064192
+          ],
+          [
+            "cobro",
+            0.054269
+          ],
+          [
+            "son",
+            0.049395
+          ],
+          [
+            "quiera",
+            0.048654
+          ],
+          [
+            "malos",
+            0.040074
+          ],
+          [
+            "un",
+            0.035371
+          ],
+          [
+            "ni",
+            0.033724
+          ],
+          [
+            "en",
+            0.032774
+          ],
+          [
+            "con",
+            0.029147
+          ],
+          [
+            "les",
+            0.027955
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "les",
+            -0.037431
+          ],
+          [
+            "malos",
+            -0.034378
+          ],
+          [
+            "sirve",
+            0.024349
+          ],
+          [
+            "con",
+            0.015527
+          ],
+          [
+            "mi",
+            0.014971
+          ],
+          [
+            "ni",
+            -0.01483
+          ],
+          [
+            "debito",
+            -0.012635
+          ],
+          [
+            "en",
+            0.012274
+          ],
+          [
+            "que",
+            0.010619
+          ],
+          [
+            "cobro",
+            0.010561
+          ],
+          [
+            "de",
+            -0.006887
+          ],
+          [
+            "si",
+            0.006509
+          ],
+          [
+            "pais",
+            0.003838
+          ],
+          [
+            "tarjeta",
+            -0.003005
+          ],
+          [
+            "son",
+            -0.002645
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2507648766040802,
+          "max": 0.9999999403953552,
+          "std": 0.37812989950180054
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+        "word_count": 91,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.9628,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Icon, Image",
+        "top_k_tokens": "▁y, ▁los, idos",
+        "p_orig": 0.04890742525458336,
+        "p_img": 0.21644701063632965,
+        "delta_p_img": 0.1675395853817463,
+        "gradcam_mean": 0.3332456052303314,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.15010017529129982,
+        "word_attention_top15": [
+          [
+            "partidos",
+            0.06701
+          ],
+          [
+            "de",
+            0.06687
+          ],
+          [
+            "elaborados",
+            0.052465
+          ],
+          [
+            "hondureños",
+            0.045426
+          ],
+          [
+            "nacional",
+            0.038827
+          ],
+          [
+            "televisión",
+            0.038235
+          ],
+          [
+            "acceso",
+            0.029353
+          ],
+          [
+            "contenido",
+            0.027367
+          ],
+          [
+            "la",
+            0.025385
+          ],
+          [
+            "los",
+            0.025106
+          ],
+          [
+            "el",
+            0.023619
+          ],
+          [
+            "no puedes",
+            0.022824
+          ],
+          [
+            "muy",
+            0.022318
+          ],
+          [
+            "población",
+            0.020396
+          ],
+          [
+            "residen",
+            0.02035
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "mal",
+            -0.029152
+          ],
+          [
+            "mala",
+            -0.027291
+          ],
+          [
+            "no puedes",
+            -0.017691
+          ],
+          [
+            "muy",
+            0.012274
+          ],
+          [
+            "elaborados",
+            0.012024
+          ],
+          [
+            "acceso",
+            0.010382
+          ],
+          [
+            "para",
+            0.009408
+          ],
+          [
+            "tiene",
+            0.007964
+          ],
+          [
+            "afuera",
+            -0.004957
+          ],
+          [
+            "internet",
+            -0.004835
+          ],
+          [
+            "población",
+            0.004789
+          ],
+          [
+            "tanto",
+            0.004619
+          ],
+          [
+            "pobreza",
+            -0.00426
+          ],
+          [
+            "televisión",
+            -0.004172
+          ],
+          [
+            "atrevo",
+            0.003947
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24906958639621735,
+          "max": 0.9999999403953552,
+          "std": 0.3754768669605255
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+        "word_count": 17,
+        "interface_pos": 0.0239,
+        "interface_neg": 0.9569,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Image, Image",
+        "top_k_tokens": "▁pueden, ▁interface, ▁No",
+        "p_orig": 0.057259365916252136,
+        "p_img": 0.2024291455745697,
+        "delta_p_img": 0.14516977965831757,
+        "gradcam_mean": 0.35214999318122864,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.11295992136001587,
+        "word_attention_top15": [
+          [
+            "no sirve",
+            0.177849
+          ],
+          [
+            "ver",
+            0.119627
+          ],
+          [
+            "cobrar",
+            0.101172
+          ],
+          [
+            "partidos",
+            0.093792
+          ],
+          [
+            "pueden",
+            0.092251
+          ],
+          [
+            "gratis",
+            0.073054
+          ],
+          [
+            "hasta",
+            0.057376
+          ],
+          [
+            "que",
+            0.050852
+          ],
+          [
+            "quieren",
+            0.050156
+          ],
+          [
+            "hahaha",
+            0.047651
+          ],
+          [
+            "cualquier",
+            0.042613
+          ],
+          [
+            "se",
+            0.038656
+          ],
+          [
+            "por",
+            0.032428
+          ],
+          [
+            "en",
+            0.022523
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "gratis",
+            0.069092
+          ],
+          [
+            "no sirve",
+            -0.068334
+          ],
+          [
+            "cobrar",
+            -0.030665
+          ],
+          [
+            "cualquier",
+            0.020661
+          ],
+          [
+            "ver",
+            0.01471
+          ],
+          [
+            "que",
+            -0.014046
+          ],
+          [
+            "partidos",
+            0.010958
+          ],
+          [
+            "se",
+            0.006163
+          ],
+          [
+            "hasta",
+            0.004292
+          ],
+          [
+            "por",
+            -0.003775
+          ],
+          [
+            "quieren",
+            0.003421
+          ],
+          [
+            "pueden",
+            0.001109
+          ],
+          [
+            "en",
+            0.000694
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2501137852668762,
+          "max": 0.9999999403953552,
+          "std": 0.3771282732486725
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+        "word_count": 22,
+        "interface_pos": 0.04,
+        "interface_neg": 0.9546,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Icon, Image",
+        "top_k_tokens": "▁Yo, ago, ▁la",
+        "p_orig": 0.06290218979120255,
+        "p_img": 0.2568526864051819,
+        "delta_p_img": 0.19395049661397934,
+        "gradcam_mean": 0.3502291738986969,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.02503947913646698,
+        "word_attention_top15": [
+          [
+            "yo",
+            0.201114
+          ],
+          [
+            "inaceptable",
+            0.113051
+          ],
+          [
+            "pago",
+            0.090706
+          ],
+          [
+            "solucionarlo",
+            0.077242
+          ],
+          [
+            "la",
+            0.073985
+          ],
+          [
+            "demasiado",
+            0.071522
+          ],
+          [
+            "liga",
+            0.063783
+          ],
+          [
+            "friza",
+            0.04758
+          ],
+          [
+            "hagan",
+            0.038561
+          ],
+          [
+            "se",
+            0.038018
+          ],
+          [
+            "es",
+            0.035456
+          ],
+          [
+            "algo",
+            0.035041
+          ],
+          [
+            "cobren",
+            0.026635
+          ],
+          [
+            "que",
+            0.023818
+          ],
+          [
+            "para",
+            0.018392
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "la",
+            0.032103
+          ],
+          [
+            "malo",
+            -0.025278
+          ],
+          [
+            "demasiado",
+            -0.022457
+          ],
+          [
+            "algo",
+            -0.018845
+          ],
+          [
+            "friza",
+            -0.016689
+          ],
+          [
+            "yo",
+            0.013339
+          ],
+          [
+            "tan",
+            0.00882
+          ],
+          [
+            "liga",
+            0.00804
+          ],
+          [
+            "inaceptable",
+            0.007706
+          ],
+          [
+            "hagan",
+            0.007356
+          ],
+          [
+            "es",
+            -0.006474
+          ],
+          [
+            "se",
+            -0.004786
+          ],
+          [
+            "pago",
+            -0.004358
+          ],
+          [
+            "por",
+            0.003947
+          ],
+          [
+            "para",
+            0.003528
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.22551119327545166,
+          "max": 0.9999999403953552,
+          "std": 0.3593422770500183
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!",
+        "word_count": 29,
+        "interface_pos": 0.0434,
+        "interface_neg": 0.9318,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Icon, Image",
+        "top_k_tokens": "▁La, ▁gratis, ▁interface",
+        "p_orig": 0.05421936884522438,
+        "p_img": 0.23130548000335693,
+        "delta_p_img": 0.17708611115813255,
+        "gradcam_mean": 0.35454991459846497,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.1591300629079342,
+        "word_attention_top15": [
+          [
+            "hondureña",
+            0.109134
+          ],
+          [
+            "patrocinadores",
+            0.097863
+          ],
+          [
+            "gratis",
+            0.08983
+          ],
+          [
+            "la",
+            0.086197
+          ],
+          [
+            "desistalar",
+            0.084452
+          ],
+          [
+            "acabo",
+            0.066938
+          ],
+          [
+            "es",
+            0.047852
+          ],
+          [
+            "cobrenle",
+            0.047621
+          ],
+          [
+            "desepcion",
+            0.045132
+          ],
+          [
+            "liga",
+            0.042649
+          ],
+          [
+            "antes",
+            0.033557
+          ],
+          [
+            "cuando",
+            0.030286
+          ],
+          [
+            "quieren",
+            0.029695
+          ],
+          [
+            "los",
+            0.026871
+          ],
+          [
+            "cobrar",
+            0.025255
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "desepcion",
+            -0.06344
+          ],
+          [
+            "cobrar",
+            -0.062285
+          ],
+          [
+            "completa",
+            0.028567
+          ],
+          [
+            "malo",
+            -0.017833
+          ],
+          [
+            "la",
+            0.016889
+          ],
+          [
+            "patrocinadores",
+            0.016407
+          ],
+          [
+            "es",
+            0.01436
+          ],
+          [
+            "antes",
+            -0.01261
+          ],
+          [
+            "sido",
+            0.009657
+          ],
+          [
+            "quieren",
+            -0.008917
+          ],
+          [
+            "gratis",
+            -0.008517
+          ],
+          [
+            "esta",
+            0.005871
+          ],
+          [
+            "hondureña",
+            0.005742
+          ],
+          [
+            "tan",
+            0.004542
+          ],
+          [
+            "de",
+            -0.003651
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.25937119126319885,
+          "max": 0.9999999403953552,
+          "std": 0.38991183042526245
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 97% confidence.",
+      "simple": "This screen was classified as bad with 97% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of Televicentro (category: Communication) was classified as bad with 97% confidence (with high confidence). The model focused on a small Icon at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.droidcanvas.televicentro",
+    "screen_id": "61041",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61041.jpg",
+    "text": "Muy mala porque no se puede veer. Con otras canales Cabelas no se batalla nada solo con uds .y radio america. Del grupo america . Does not work Does not work",
+    "prediction": 0.0072996425442397594,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9927003574557602,
+    "gradcam_stats": {
+      "mean": 0.43078359961509705,
+      "max": 1.0,
+      "std": 0.24764636158943176
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+      "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+      "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+      "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+      "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    ],
+    "app_name": "Televicentro",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.007270423695445061,
+      "p_img": 0.0017173796659335494,
+      "delta_p_img": 0.005553044029511511
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          8,
+          109,
+          50,
+          142
+        ],
+        "bounds_rico": [
+          53,
+          1246,
+          327,
+          1624
+        ],
+        "score_total": 992.0921020507812,
+        "score_mean": 0.7157951674248061
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          65,
+          170,
+          158,
+          204
+        ],
+        "bounds_rico": [
+          420,
+          1954,
+          1020,
+          2339
+        ],
+        "score_total": 2261.31689453125,
+        "score_mean": 0.7151539830902119
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ],
+        "score_total": 221.90127563476562,
+        "score_mean": 0.49531534739903044
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 992.0921020507812,
+        "score_mean": 0.7157951674248061,
+        "bounds_image": [
+          8,
+          109,
+          50,
+          142
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 2261.31689453125,
+        "score_mean": 0.7151539830902119,
+        "bounds_image": [
+          65,
+          170,
+          158,
+          204
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 221.90127563476562,
+        "score_mean": 0.49531534739903044,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 992.0921020507812,
+        "score_mean": 0.7157951674248061,
+        "bounds_image": [
+          8,
+          109,
+          50,
+          142
+        ],
+        "bounds_rico": [
+          53,
+          1246,
+          327,
+          1624
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 2261.31689453125,
+        "score_mean": 0.7151539830902119,
+        "bounds_image": [
+          65,
+          170,
+          158,
+          204
+        ],
+        "bounds_rico": [
+          420,
+          1954,
+          1020,
+          2339
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 221.90127563476562,
+        "score_mean": 0.49531534739903044,
+        "bounds_image": [
+          0,
+          25,
+          28,
+          41
+        ],
+        "bounds_rico": [
+          0,
+          294,
+          185,
+          479
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Background Image",
+        "score_total": 17857.96875,
+        "score_mean": 0.4745421117665816,
+        "bounds_image": [
+          0,
+          41,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          479,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 159.34158325195312,
+        "score_mean": 0.39246695382254465,
+        "bounds_image": [
+          5,
+          10,
+          34,
+          24
+        ],
+        "bounds_rico": [
+          35,
+          119,
+          223,
+          276
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 490.29071044921875,
+        "score_mean": 0.21522858228675099,
+        "bounds_image": [
+          78,
+          46,
+          145,
+          80
+        ],
+        "bounds_rico": [
+          507,
+          532,
+          933,
+          917
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 327.81207275390625,
+        "score_mean": 0.209063821909379,
+        "bounds_image": [
+          28,
+          29,
+          224,
+          37
+        ],
+        "bounds_rico": [
+          185,
+          340,
+          1440,
+          433
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 509.0848083496094,
+        "score_mean": 0.15370918126497868,
+        "bounds_image": [
+          40,
+          7,
+          224,
+          25
+        ],
+        "bounds_rico": [
+          258,
+          84,
+          1440,
+          294
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text Button",
+        "score_total": 262.83270263671875,
+        "score_mean": 0.1267274361797101,
+        "bounds_image": [
+          163,
+          108,
+          224,
+          142
+        ],
+        "bounds_rico": [
+          1050,
+          1243,
+          1440,
+          1628
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "▁Con"
+      },
+      {
+        "index": 13,
+        "token": "ales"
+      },
+      {
+        "index": 35,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦",
+        "word_count": 21,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9912,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁interface, ▁de, ▁sir",
+        "p_orig": 0.008859739638864994,
+        "p_img": 0.0020534563809633255,
+        "delta_p_img": 0.0068062832579016685,
+        "gradcam_mean": 0.42133232951164246,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.005653771571815014,
+        "word_attention_top15": [
+          [
+            "pais",
+            0.110119
+          ],
+          [
+            "🤦🤦🤦",
+            0.106386
+          ],
+          [
+            "de",
+            0.087996
+          ],
+          [
+            "tarjeta",
+            0.086903
+          ],
+          [
+            "sirve",
+            0.075395
+          ],
+          [
+            "debito",
+            0.064192
+          ],
+          [
+            "cobro",
+            0.054269
+          ],
+          [
+            "son",
+            0.049395
+          ],
+          [
+            "quiera",
+            0.048654
+          ],
+          [
+            "malos",
+            0.040074
+          ],
+          [
+            "un",
+            0.035371
+          ],
+          [
+            "ni",
+            0.033724
+          ],
+          [
+            "en",
+            0.032774
+          ],
+          [
+            "con",
+            0.029147
+          ],
+          [
+            "les",
+            0.027955
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "malos",
+            -0.002289
+          ],
+          [
+            "les",
+            -0.001889
+          ],
+          [
+            "sirve",
+            0.00145
+          ],
+          [
+            "cobro",
+            0.00112
+          ],
+          [
+            "ni",
+            -0.001071
+          ],
+          [
+            "mi",
+            0.00107
+          ],
+          [
+            "con",
+            0.000796
+          ],
+          [
+            "debito",
+            -0.000673
+          ],
+          [
+            "en",
+            0.000656
+          ],
+          [
+            "si",
+            0.000554
+          ],
+          [
+            "program",
+            0.00053
+          ],
+          [
+            "de",
+            -0.000466
+          ],
+          [
+            "pais",
+            0.00044
+          ],
+          [
+            "quiera",
+            0.000396
+          ],
+          [
+            "son",
+            -0.000295
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15781697630882263,
+          "max": 0.9999998211860657,
+          "std": 0.2714230418205261
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1",
+        "word_count": 91,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.9628,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁y, ▁los, idos",
+        "p_orig": 0.010935512371361256,
+        "p_img": 0.002593559678643942,
+        "delta_p_img": 0.008341952692717314,
+        "gradcam_mean": 0.4020098149776459,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.006969065871089697,
+        "word_attention_top15": [
+          [
+            "partidos",
+            0.06701
+          ],
+          [
+            "de",
+            0.06687
+          ],
+          [
+            "elaborados",
+            0.052465
+          ],
+          [
+            "hondureños",
+            0.045426
+          ],
+          [
+            "nacional",
+            0.038827
+          ],
+          [
+            "televisión",
+            0.038235
+          ],
+          [
+            "acceso",
+            0.029353
+          ],
+          [
+            "contenido",
+            0.027367
+          ],
+          [
+            "la",
+            0.025385
+          ],
+          [
+            "los",
+            0.025106
+          ],
+          [
+            "el",
+            0.023619
+          ],
+          [
+            "no puedes",
+            0.022824
+          ],
+          [
+            "muy",
+            0.022318
+          ],
+          [
+            "población",
+            0.020396
+          ],
+          [
+            "residen",
+            0.02035
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "mala",
+            -0.001665
+          ],
+          [
+            "mal",
+            -0.001251
+          ],
+          [
+            "no puedes",
+            -0.000879
+          ],
+          [
+            "para",
+            0.000682
+          ],
+          [
+            "elaborados",
+            0.000572
+          ],
+          [
+            "acceso",
+            0.000481
+          ],
+          [
+            "muy",
+            0.000472
+          ],
+          [
+            "tiene",
+            0.000343
+          ],
+          [
+            "ver",
+            0.000308
+          ],
+          [
+            "como",
+            0.000253
+          ],
+          [
+            "pobreza",
+            -0.000243
+          ],
+          [
+            "si",
+            0.000238
+          ],
+          [
+            "el",
+            0.000229
+          ],
+          [
+            "atrevo",
+            0.000214
+          ],
+          [
+            "afuera",
+            -0.000213
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13744567334651947,
+          "max": 0.9999998807907104,
+          "std": 0.24705781042575836
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha",
+        "word_count": 17,
+        "interface_pos": 0.0239,
+        "interface_neg": 0.9569,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁pueden, ▁interface, ▁No",
+        "p_orig": 0.01100340485572815,
+        "p_img": 0.002715142909437418,
+        "delta_p_img": 0.008288261946290731,
+        "gradcam_mean": 0.41054993867874146,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.00705995038151741,
+        "word_attention_top15": [
+          [
+            "no sirve",
+            0.177849
+          ],
+          [
+            "ver",
+            0.119627
+          ],
+          [
+            "cobrar",
+            0.101172
+          ],
+          [
+            "partidos",
+            0.093792
+          ],
+          [
+            "pueden",
+            0.092251
+          ],
+          [
+            "gratis",
+            0.073054
+          ],
+          [
+            "hasta",
+            0.057376
+          ],
+          [
+            "que",
+            0.050852
+          ],
+          [
+            "quieren",
+            0.050156
+          ],
+          [
+            "hahaha",
+            0.047651
+          ],
+          [
+            "cualquier",
+            0.042613
+          ],
+          [
+            "se",
+            0.038656
+          ],
+          [
+            "por",
+            0.032428
+          ],
+          [
+            "en",
+            0.022523
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "gratis",
+            0.004356
+          ],
+          [
+            "no sirve",
+            -0.004015
+          ],
+          [
+            "cobrar",
+            -0.001396
+          ],
+          [
+            "ver",
+            0.001263
+          ],
+          [
+            "cualquier",
+            0.001186
+          ],
+          [
+            "pueden",
+            0.000804
+          ],
+          [
+            "partidos",
+            0.000641
+          ],
+          [
+            "que",
+            -0.000611
+          ],
+          [
+            "se",
+            0.000485
+          ],
+          [
+            "quieren",
+            0.000416
+          ],
+          [
+            "hasta",
+            0.000115
+          ],
+          [
+            "por",
+            0.000101
+          ],
+          [
+            "en",
+            -3.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13866883516311646,
+          "max": 0.9999998807907104,
+          "std": 0.2478553056716919
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo",
+        "word_count": 22,
+        "interface_pos": 0.04,
+        "interface_neg": 0.9546,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁Yo, ago, ▁la",
+        "p_orig": 0.012873905710875988,
+        "p_img": 0.002966765547171235,
+        "delta_p_img": 0.009907140163704753,
+        "gradcam_mean": 0.4013805091381073,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.00844618771225214,
+        "word_attention_top15": [
+          [
+            "yo",
+            0.201114
+          ],
+          [
+            "inaceptable",
+            0.113051
+          ],
+          [
+            "pago",
+            0.090706
+          ],
+          [
+            "solucionarlo",
+            0.077242
+          ],
+          [
+            "la",
+            0.073985
+          ],
+          [
+            "demasiado",
+            0.071522
+          ],
+          [
+            "liga",
+            0.063783
+          ],
+          [
+            "friza",
+            0.04758
+          ],
+          [
+            "hagan",
+            0.038561
+          ],
+          [
+            "se",
+            0.038018
+          ],
+          [
+            "es",
+            0.035456
+          ],
+          [
+            "algo",
+            0.035041
+          ],
+          [
+            "cobren",
+            0.026635
+          ],
+          [
+            "que",
+            0.023818
+          ],
+          [
+            "para",
+            0.018392
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "la",
+            0.001863
+          ],
+          [
+            "malo",
+            -0.001188
+          ],
+          [
+            "demasiado",
+            -0.001008
+          ],
+          [
+            "inaceptable",
+            0.001005
+          ],
+          [
+            "liga",
+            0.000856
+          ],
+          [
+            "friza",
+            -0.000827
+          ],
+          [
+            "yo",
+            0.000689
+          ],
+          [
+            "algo",
+            -0.000626
+          ],
+          [
+            "hagan",
+            0.000626
+          ],
+          [
+            "tan",
+            0.000607
+          ],
+          [
+            "pago",
+            0.000542
+          ],
+          [
+            "es",
+            -0.000436
+          ],
+          [
+            "para",
+            0.00034
+          ],
+          [
+            "se",
+            -0.00031
+          ],
+          [
+            "por",
+            0.000297
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13447022438049316,
+          "max": 0.9999998807907104,
+          "std": 0.24234217405319214
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!",
+        "word_count": 29,
+        "interface_pos": 0.0434,
+        "interface_neg": 0.9318,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁La, ▁gratis, ▁interface",
+        "p_orig": 0.012179977260529995,
+        "p_img": 0.0028032774571329355,
+        "delta_p_img": 0.00937669980339706,
+        "gradcam_mean": 0.40485283732414246,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.007959438487887383,
+        "word_attention_top15": [
+          [
+            "hondureña",
+            0.109134
+          ],
+          [
+            "patrocinadores",
+            0.097863
+          ],
+          [
+            "gratis",
+            0.08983
+          ],
+          [
+            "la",
+            0.086197
+          ],
+          [
+            "desistalar",
+            0.084452
+          ],
+          [
+            "acabo",
+            0.066938
+          ],
+          [
+            "es",
+            0.047852
+          ],
+          [
+            "cobrenle",
+            0.047621
+          ],
+          [
+            "desepcion",
+            0.045132
+          ],
+          [
+            "liga",
+            0.042649
+          ],
+          [
+            "antes",
+            0.033557
+          ],
+          [
+            "cuando",
+            0.030286
+          ],
+          [
+            "quieren",
+            0.029695
+          ],
+          [
+            "los",
+            0.026871
+          ],
+          [
+            "cobrar",
+            0.025255
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "desepcion",
+            -0.002824
+          ],
+          [
+            "cobrar",
+            -0.002032
+          ],
+          [
+            "malo",
+            -0.00133
+          ],
+          [
+            "patrocinadores",
+            0.001293
+          ],
+          [
+            "completa",
+            0.001177
+          ],
+          [
+            "la",
+            0.001128
+          ],
+          [
+            "hondureña",
+            0.000836
+          ],
+          [
+            "es",
+            0.000778
+          ],
+          [
+            "quieren",
+            -0.000633
+          ],
+          [
+            "sido",
+            0.000628
+          ],
+          [
+            "antes",
+            -0.000609
+          ],
+          [
+            "esta",
+            0.00045
+          ],
+          [
+            "acabo",
+            0.000436
+          ],
+          [
+            "gratis",
+            -0.000384
+          ],
+          [
+            "cobrenle",
+            0.000342
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14087486267089844,
+          "max": 0.9999998807907104,
+          "std": 0.24954231083393097
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 99% confidence.",
+      "simple": "This screen was predicted as bad with 99% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Televicentro (category: Communication) was predicted as bad with 99% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Text Button at the top-left, and a small Icon at the top-left."
+    }
+  }
+]

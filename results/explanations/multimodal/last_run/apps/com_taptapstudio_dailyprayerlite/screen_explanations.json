@@ -1,0 +1,4538 @@
+[
+  {
+    "package_name": "com.taptapstudio.dailyprayerlite",
+    "screen_id": "69844",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69844.jpg",
+    "text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app. Beautiful verses and quotes ask focused on Christ our Lord. I truly enjoy this app to pray morning and ",
+    "prediction": 0.9797859787940979,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9797859787940979,
+    "gradcam_stats": {
+      "mean": 0.4038742184638977,
+      "max": 1.0,
+      "std": 0.19540852308273315
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+      "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+      "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+      "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+      "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith."
+    ],
+    "app_name": "Daily Prayer Guide (Lite)",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9798012971878052,
+      "p_img": 0.9584766626358032,
+      "delta_p_img": 0.021324634552001953
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          28,
+          48,
+          78,
+          56
+        ],
+        "bounds_rico": [
+          182,
+          557,
+          506,
+          642
+        ],
+        "score_total": 361.77557373046875,
+        "score_mean": 0.9044389343261718
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          28,
+          63,
+          54,
+          71
+        ],
+        "bounds_rico": [
+          182,
+          729,
+          349,
+          814
+        ],
+        "score_total": 182.079833984375,
+        "score_mean": 0.8753838172325721
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          4,
+          45,
+          26,
+          59
+        ],
+        "bounds_rico": [
+          28,
+          523,
+          168,
+          677
+        ],
+        "score_total": 254.31964111328125,
+        "score_mean": 0.8257131204976664
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 361.77557373046875,
+        "score_mean": 0.9044389343261718,
+        "bounds_image": [
+          28,
+          48,
+          78,
+          56
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 182.079833984375,
+        "score_mean": 0.8753838172325721,
+        "bounds_image": [
+          28,
+          63,
+          54,
+          71
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 254.31964111328125,
+        "score_mean": 0.8257131204976664,
+        "bounds_image": [
+          4,
+          45,
+          26,
+          59
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 361.77557373046875,
+        "score_mean": 0.9044389343261718,
+        "bounds_image": [
+          28,
+          48,
+          78,
+          56
+        ],
+        "bounds_rico": [
+          182,
+          557,
+          506,
+          642
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 182.079833984375,
+        "score_mean": 0.8753838172325721,
+        "bounds_image": [
+          28,
+          63,
+          54,
+          71
+        ],
+        "bounds_rico": [
+          182,
+          729,
+          349,
+          814
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 254.31964111328125,
+        "score_mean": 0.8257131204976664,
+        "bounds_image": [
+          4,
+          45,
+          26,
+          59
+        ],
+        "bounds_rico": [
+          28,
+          523,
+          168,
+          677
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 255.019287109375,
+        "score_mean": 0.8173695099659455,
+        "bounds_image": [
+          28,
+          33,
+          67,
+          41
+        ],
+        "bounds_rico": [
+          182,
+          385,
+          436,
+          470
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 245.91786193847656,
+        "score_mean": 0.7984346166833655,
+        "bounds_image": [
+          4,
+          60,
+          26,
+          74
+        ],
+        "bounds_rico": [
+          28,
+          695,
+          168,
+          849
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 206.69076538085938,
+        "score_mean": 0.7829195658365885,
+        "bounds_image": [
+          28,
+          78,
+          61,
+          86
+        ],
+        "bounds_rico": [
+          182,
+          901,
+          393,
+          986
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 231.00704956054688,
+        "score_mean": 0.7500228881835938,
+        "bounds_image": [
+          4,
+          75,
+          26,
+          89
+        ],
+        "bounds_rico": [
+          28,
+          867,
+          168,
+          1021
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 217.39773559570312,
+        "score_mean": 0.705836803882153,
+        "bounds_image": [
+          4,
+          30,
+          26,
+          44
+        ],
+        "bounds_rico": [
+          28,
+          351,
+          168,
+          505
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 190.2734375,
+        "score_mean": 0.6606716579861112,
+        "bounds_image": [
+          28,
+          93,
+          64,
+          101
+        ],
+        "bounds_rico": [
+          182,
+          1073,
+          417,
+          1158
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 199.0048828125,
+        "score_mean": 0.6461197493912337,
+        "bounds_image": [
+          4,
+          90,
+          26,
+          104
+        ],
+        "bounds_rico": [
+          28,
+          1039,
+          168,
+          1193
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 110.33454895019531,
+        "score_mean": 0.6269008463079279,
+        "bounds_image": [
+          28,
+          18,
+          50,
+          26
+        ],
+        "bounds_rico": [
+          182,
+          213,
+          326,
+          298
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 119.14494323730469,
+        "score_mean": 0.5728122271024264,
+        "bounds_image": [
+          28,
+          108,
+          54,
+          116
+        ],
+        "bounds_rico": [
+          182,
+          1245,
+          351,
+          1330
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 115.27413940429688,
+        "score_mean": 0.5542025932898889,
+        "bounds_image": [
+          28,
+          3,
+          54,
+          11
+        ],
+        "bounds_rico": [
+          182,
+          41,
+          352,
+          126
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 165.12408447265625,
+        "score_mean": 0.5361171573787541,
+        "bounds_image": [
+          4,
+          105,
+          26,
+          119
+        ],
+        "bounds_rico": [
+          28,
+          1211,
+          168,
+          1365
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 161.2093963623047,
+        "score_mean": 0.5234071310464438,
+        "bounds_image": [
+          4,
+          15,
+          26,
+          29
+        ],
+        "bounds_rico": [
+          28,
+          179,
+          168,
+          333
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 58.48497772216797,
+        "score_mean": 0.45691388845443726,
+        "bounds_image": [
+          28,
+          123,
+          44,
+          131
+        ],
+        "bounds_rico": [
+          182,
+          1417,
+          289,
+          1502
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 138.12843322753906,
+        "score_mean": 0.4484689390504515,
+        "bounds_image": [
+          4,
+          0,
+          26,
+          14
+        ],
+        "bounds_rico": [
+          28,
+          7,
+          168,
+          161
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Web View",
+        "score_total": 6694.119140625,
+        "score_mean": 0.42260853160511364,
+        "bounds_image": [
+          136,
+          14,
+          224,
+          194
+        ],
+        "bounds_rico": [
+          875,
+          168,
+          1440,
+          2224
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text",
+        "score_total": 118.80708312988281,
+        "score_mean": 0.4154093815730168,
+        "bounds_image": [
+          4,
+          121,
+          26,
+          134
+        ],
+        "bounds_rico": [
+          28,
+          1383,
+          168,
+          1537
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 48.037376403808594,
+        "score_mean": 0.34312411717006136,
+        "bounds_image": [
+          28,
+          139,
+          48,
+          146
+        ],
+        "bounds_rico": [
+          182,
+          1589,
+          311,
+          1674
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text",
+        "score_total": 86.19864654541016,
+        "score_mean": 0.3013938690398957,
+        "bounds_image": [
+          4,
+          136,
+          26,
+          149
+        ],
+        "bounds_rico": [
+          28,
+          1555,
+          168,
+          1709
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text Button",
+        "score_total": 374.76806640625,
+        "score_mean": 0.2839152018229167,
+        "bounds_image": [
+          136,
+          194,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          875,
+          2224,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 48.263755798339844,
+        "score_mean": 0.27579289027622766,
+        "bounds_image": [
+          28,
+          154,
+          53,
+          161
+        ],
+        "bounds_rico": [
+          182,
+          1761,
+          346,
+          1846
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text Button",
+        "score_total": 339.1831359863281,
+        "score_mean": 0.2753109870018897,
+        "bounds_image": [
+          136,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          875,
+          0,
+          1440,
+          168
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text",
+        "score_total": 65.37804412841797,
+        "score_mean": 0.2285945598895733,
+        "bounds_image": [
+          4,
+          151,
+          26,
+          164
+        ],
+        "bounds_rico": [
+          28,
+          1727,
+          168,
+          1881
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "List Item",
+        "score_total": 361.7530517578125,
+        "score_mean": 0.14777493944355086,
+        "bounds_image": [
+          0,
+          165,
+          136,
+          183
+        ],
+        "bounds_rico": [
+          0,
+          1892,
+          875,
+          2092
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁devotional"
+      },
+      {
+        "index": 31,
+        "token": "▁quotes"
+      },
+      {
+        "index": 29,
+        "token": "▁verses"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+        "word_count": 16,
+        "interface_pos": 0.9963,
+        "interface_neg": 0.0006,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁ever, ▁It, ▁interface",
+        "p_orig": 0.9422916173934937,
+        "p_img": 0.8843528032302856,
+        "delta_p_img": 0.05793881416320801,
+        "gradcam_mean": 0.3371196389198303,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.058328449726104736,
+        "word_attention_top15": [
+          [
+            "ever",
+            0.237853
+          ],
+          [
+            "positively",
+            0.160585
+          ],
+          [
+            "prayer",
+            0.149809
+          ],
+          [
+            "life",
+            0.100121
+          ],
+          [
+            "daily",
+            0.098234
+          ],
+          [
+            "best",
+            0.09275
+          ],
+          [
+            "impacted",
+            0.081869
+          ],
+          [
+            "love",
+            0.078779
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "ever",
+            0.080741
+          ],
+          [
+            "love",
+            0.054928
+          ],
+          [
+            "positively",
+            0.048488
+          ],
+          [
+            "life",
+            0.047888
+          ],
+          [
+            "best",
+            0.046328
+          ],
+          [
+            "prayer",
+            0.03007
+          ],
+          [
+            "daily",
+            0.018542
+          ],
+          [
+            "impacted",
+            0.005741
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14336079359054565,
+          "max": 0.9999998807907104,
+          "std": 0.25926724076271057
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+        "word_count": 56,
+        "interface_pos": 0.995,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁it, ▁it, ▁five",
+        "p_orig": 0.9367638826370239,
+        "p_img": 0.8867537379264832,
+        "delta_p_img": 0.05001014471054077,
+        "gradcam_mean": 0.339853435754776,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.04969429969787598,
+        "word_attention_top15": [
+          [
+            "it,i",
+            0.127118
+          ],
+          [
+            "prayer",
+            0.118934
+          ],
+          [
+            "anyone",
+            0.101295
+          ],
+          [
+            "seen",
+            0.10105
+          ],
+          [
+            "five",
+            0.07071
+          ],
+          [
+            "align",
+            0.066389
+          ],
+          [
+            "love",
+            0.061422
+          ],
+          [
+            "star",
+            0.045424
+          ],
+          [
+            "try",
+            0.045169
+          ],
+          [
+            "nice",
+            0.043964
+          ],
+          [
+            "recommend",
+            0.043118
+          ],
+          [
+            "deserve",
+            0.035395
+          ],
+          [
+            "best",
+            0.035106
+          ],
+          [
+            "helps",
+            0.033168
+          ],
+          [
+            "u",
+            0.028973
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.036033
+          ],
+          [
+            "recommend",
+            0.032074
+          ],
+          [
+            "love",
+            0.028081
+          ],
+          [
+            "best",
+            0.024845
+          ],
+          [
+            "it,i",
+            0.020138
+          ],
+          [
+            "helps",
+            0.019645
+          ],
+          [
+            "prayer",
+            0.014108
+          ],
+          [
+            "deserve",
+            0.010338
+          ],
+          [
+            "someone",
+            -0.007165
+          ],
+          [
+            "anyone",
+            0.006312
+          ],
+          [
+            "five",
+            0.00397
+          ],
+          [
+            "told",
+            0.003102
+          ],
+          [
+            "align",
+            0.002711
+          ],
+          [
+            "try",
+            0.002648
+          ],
+          [
+            "seen",
+            -0.00157
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1462058275938034,
+          "max": 0.9999998807907104,
+          "std": 0.26378723978996277
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+        "word_count": 38,
+        "interface_pos": 0.9918,
+        "interface_neg": 0.0013,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁love, ▁to, ▁interface",
+        "p_orig": 0.9597880244255066,
+        "p_img": 0.9428468346595764,
+        "delta_p_img": 0.016941189765930176,
+        "gradcam_mean": 0.3604193329811096,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.03761255741119385,
+        "word_attention_top15": [
+          [
+            "guidelines",
+            0.183159
+          ],
+          [
+            "everyday",
+            0.134666
+          ],
+          [
+            "love",
+            0.09896
+          ],
+          [
+            "good",
+            0.077996
+          ],
+          [
+            "stars",
+            0.071509
+          ],
+          [
+            "memorized",
+            0.068728
+          ],
+          [
+            "scriptures",
+            0.066966
+          ],
+          [
+            "evening",
+            0.05199
+          ],
+          [
+            "prayer",
+            0.045796
+          ],
+          [
+            "⭐",
+            0.045029
+          ],
+          [
+            "rating",
+            0.041351
+          ],
+          [
+            "five",
+            0.04134
+          ],
+          [
+            "morning",
+            0.037246
+          ],
+          [
+            "giving",
+            0.035265
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.036152
+          ],
+          [
+            "good",
+            0.032602
+          ],
+          [
+            "stars",
+            0.025617
+          ],
+          [
+            "rating",
+            0.023954
+          ],
+          [
+            "memorized",
+            0.023808
+          ],
+          [
+            "everyday",
+            0.020554
+          ],
+          [
+            "evening",
+            0.013098
+          ],
+          [
+            "prayer",
+            0.011598
+          ],
+          [
+            "guidelines",
+            0.010542
+          ],
+          [
+            "five",
+            0.00851
+          ],
+          [
+            "morning",
+            0.006517
+          ],
+          [
+            "scriptures",
+            0.005148
+          ],
+          [
+            "giving",
+            0.004609
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1534247249364853,
+          "max": 0.9999998807907104,
+          "std": 0.2679676413536072
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+        "word_count": 70,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁devotional, ▁quotes, ▁verses",
+        "p_orig": 0.9798012971878052,
+        "p_img": 0.9584766626358032,
+        "delta_p_img": 0.021324634552001953,
+        "gradcam_mean": 0.4038742184638977,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.02450430393218994,
+        "word_attention_top15": [
+          [
+            "quotes",
+            0.123755
+          ],
+          [
+            "verses",
+            0.093952
+          ],
+          [
+            "beautiful",
+            0.089424
+          ],
+          [
+            "devotional",
+            0.078295
+          ],
+          [
+            "evening",
+            0.053541
+          ],
+          [
+            "life",
+            0.049076
+          ],
+          [
+            "prayers",
+            0.045513
+          ],
+          [
+            "need",
+            0.039454
+          ],
+          [
+            "colours",
+            0.029628
+          ],
+          [
+            "prayer",
+            0.027931
+          ],
+          [
+            "support",
+            0.026721
+          ],
+          [
+            "imagery",
+            0.023837
+          ],
+          [
+            "enjoy",
+            0.023652
+          ],
+          [
+            "images",
+            0.023179
+          ],
+          [
+            "reading",
+            0.022736
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.070228
+          ],
+          [
+            "enjoy",
+            0.021665
+          ],
+          [
+            "natural",
+            0.019651
+          ],
+          [
+            "fragmented",
+            -0.016641
+          ],
+          [
+            "clearer",
+            0.014874
+          ],
+          [
+            "looking",
+            0.012712
+          ],
+          [
+            "life",
+            0.012298
+          ],
+          [
+            "need",
+            0.012205
+          ],
+          [
+            "great",
+            0.012079
+          ],
+          [
+            "imagery",
+            0.011899
+          ],
+          [
+            "calming",
+            0.011688
+          ],
+          [
+            "met",
+            0.010912
+          ],
+          [
+            "photography",
+            0.008795
+          ],
+          [
+            "completely",
+            0.007188
+          ],
+          [
+            "morning",
+            0.006157
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15526947379112244,
+          "max": 0.9999998807907104,
+          "std": 0.27468401193618774
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith.",
+        "word_count": 53,
+        "interface_pos": 0.9713,
+        "interface_neg": 0.0028,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁I, ▁prayer, ▁everyday",
+        "p_orig": 0.970310389995575,
+        "p_img": 0.9555581212043762,
+        "delta_p_img": 0.01475226879119873,
+        "gradcam_mean": 0.37703490257263184,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.030995309352874756,
+        "word_attention_top15": [
+          [
+            "prayer",
+            0.150637
+          ],
+          [
+            "reflective",
+            0.097139
+          ],
+          [
+            "not overwhelming",
+            0.075084
+          ],
+          [
+            "verse",
+            0.071424
+          ],
+          [
+            "etc",
+            0.061618
+          ],
+          [
+            "evening",
+            0.053006
+          ],
+          [
+            "everyday",
+            0.050859
+          ],
+          [
+            "devotions",
+            0.050216
+          ],
+          [
+            "not short",
+            0.044431
+          ],
+          [
+            "favorites",
+            0.041431
+          ],
+          [
+            "love",
+            0.03651
+          ],
+          [
+            "responsive",
+            0.029987
+          ],
+          [
+            "not long",
+            0.028462
+          ],
+          [
+            "faith",
+            0.027665
+          ],
+          [
+            "perfect",
+            0.026767
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.052978
+          ],
+          [
+            "devotions",
+            0.033395
+          ],
+          [
+            "not long",
+            0.027128
+          ],
+          [
+            "reflective",
+            0.025695
+          ],
+          [
+            "perfectly",
+            0.019347
+          ],
+          [
+            "favorites",
+            0.019006
+          ],
+          [
+            "morning",
+            0.015773
+          ],
+          [
+            "prayer",
+            0.015505
+          ],
+          [
+            "choices",
+            0.015152
+          ],
+          [
+            "evening",
+            0.015133
+          ],
+          [
+            "perfect",
+            0.014028
+          ],
+          [
+            "prayers",
+            0.011687
+          ],
+          [
+            "responsive",
+            0.011187
+          ],
+          [
+            "simple",
+            0.010068
+          ],
+          [
+            "everyday",
+            0.00865
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1541086584329605,
+          "max": 0.9999998807907104,
+          "std": 0.2728598117828369
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 98% confidence.",
+      "simple": "This screen was classified as good with 98% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Daily Prayer Guide (Lite) (category: Books & Reference) was classified as good with 98% confidence (with high confidence). The model focused on a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.taptapstudio.dailyprayerlite",
+    "screen_id": "69845",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69845.jpg",
+    "text": "WAY too many ads for a Bible app. Very disruptive for prayer time I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app. Beautiful verses and quotes ask focus",
+    "prediction": 0.048887789249420166,
+    "predicted_class": "bad",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": false,
+    "confidence": 0.9511122107505798,
+    "gradcam_stats": {
+      "mean": 0.3094365894794464,
+      "max": 1.0,
+      "std": 0.21753588318824768
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+      "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+      "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+      "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+      "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith."
+    ],
+    "app_name": "Daily Prayer Guide (Lite)",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.04866139218211174,
+      "p_img": 0.004984870553016663,
+      "delta_p_img": 0.04367652162909508
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          173,
+          174,
+          208,
+          189
+        ],
+        "bounds_rico": [
+          1118,
+          1997,
+          1342,
+          2165
+        ],
+        "score_total": 267.6459045410156,
+        "score_mean": 0.5098017229352678
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          19,
+          111,
+          204,
+          172
+        ],
+        "bounds_rico": [
+          126,
+          1269,
+          1314,
+          1969
+        ],
+        "score_total": 5489.62890625,
+        "score_mean": 0.4864536026805494
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          30,
+          78,
+          204,
+          85
+        ],
+        "bounds_rico": [
+          196,
+          896,
+          1314,
+          981
+        ],
+        "score_total": 399.72674560546875,
+        "score_mean": 0.3281828781654095
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 267.6459045410156,
+        "score_mean": 0.5098017229352678,
+        "bounds_image": [
+          173,
+          174,
+          208,
+          189
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 5489.62890625,
+        "score_mean": 0.4864536026805494,
+        "bounds_image": [
+          19,
+          111,
+          204,
+          172
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 399.72674560546875,
+        "score_mean": 0.3281828781654095,
+        "bounds_image": [
+          30,
+          78,
+          204,
+          85
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 267.6459045410156,
+        "score_mean": 0.5098017229352678,
+        "bounds_image": [
+          173,
+          174,
+          208,
+          189
+        ],
+        "bounds_rico": [
+          1118,
+          1997,
+          1342,
+          2165
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 5489.62890625,
+        "score_mean": 0.4864536026805494,
+        "bounds_image": [
+          19,
+          111,
+          204,
+          172
+        ],
+        "bounds_rico": [
+          126,
+          1269,
+          1314,
+          1969
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 399.72674560546875,
+        "score_mean": 0.3281828781654095,
+        "bounds_image": [
+          30,
+          78,
+          204,
+          85
+        ],
+        "bounds_rico": [
+          196,
+          896,
+          1314,
+          981
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 476.65350341796875,
+        "score_mean": 0.3039882037104393,
+        "bounds_image": [
+          19,
+          91,
+          215,
+          99
+        ],
+        "bounds_rico": [
+          126,
+          1051,
+          1384,
+          1136
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 338.3711242675781,
+        "score_mean": 0.28773054784658003,
+        "bounds_image": [
+          30,
+          64,
+          198,
+          71
+        ],
+        "bounds_rico": [
+          196,
+          739,
+          1278,
+          822
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 317.441650390625,
+        "score_mean": 0.22804716263694325,
+        "bounds_image": [
+          30,
+          50,
+          204,
+          58
+        ],
+        "bounds_rico": [
+          196,
+          580,
+          1314,
+          665
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 247.29815673828125,
+        "score_mean": 0.18024646992586096,
+        "bounds_image": [
+          19,
+          37,
+          215,
+          44
+        ],
+        "bounds_rico": [
+          126,
+          425,
+          1384,
+          510
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 261.415771484375,
+        "score_mean": 0.16047622558893493,
+        "bounds_image": [
+          21,
+          22,
+          202,
+          31
+        ],
+        "bounds_rico": [
+          140,
+          262,
+          1300,
+          355
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 0.16780781745910645,
+        "score_mean": 0.011187187830607096,
+        "bounds_image": [
+          209,
+          63,
+          214,
+          66
+        ],
+        "bounds_rico": [
+          1348,
+          731,
+          1377,
+          760
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 8,
+        "token": "▁app"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁a"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+        "word_count": 16,
+        "interface_pos": 0.9963,
+        "interface_neg": 0.0006,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Text Button",
+        "top_k_tokens": "▁ever, ▁It, ▁interface",
+        "p_orig": 0.6634043455123901,
+        "p_img": 0.49261748790740967,
+        "delta_p_img": 0.17078685760498047,
+        "gradcam_mean": 0.35717377066612244,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.17788416147232056,
+        "word_attention_top15": [
+          [
+            "ever",
+            0.237853
+          ],
+          [
+            "positively",
+            0.160585
+          ],
+          [
+            "prayer",
+            0.149809
+          ],
+          [
+            "life",
+            0.100121
+          ],
+          [
+            "daily",
+            0.098234
+          ],
+          [
+            "best",
+            0.09275
+          ],
+          [
+            "impacted",
+            0.081869
+          ],
+          [
+            "love",
+            0.078779
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "life",
+            0.096149
+          ],
+          [
+            "love",
+            0.092054
+          ],
+          [
+            "ever",
+            0.090172
+          ],
+          [
+            "prayer",
+            0.082103
+          ],
+          [
+            "positively",
+            0.065382
+          ],
+          [
+            "best",
+            0.047919
+          ],
+          [
+            "impacted",
+            0.037478
+          ],
+          [
+            "daily",
+            0.012804
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09375349432229996,
+          "max": 0.9999998807907104,
+          "std": 0.200663223862648
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+        "word_count": 56,
+        "interface_pos": 0.995,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Text",
+        "top_k_tokens": "▁it, ▁it, ▁five",
+        "p_orig": 0.6511704325675964,
+        "p_img": 0.5900105834007263,
+        "delta_p_img": 0.06115984916687012,
+        "gradcam_mean": 0.36076822876930237,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.18888965249061584,
+        "word_attention_top15": [
+          [
+            "it,i",
+            0.127118
+          ],
+          [
+            "prayer",
+            0.118934
+          ],
+          [
+            "anyone",
+            0.101295
+          ],
+          [
+            "seen",
+            0.10105
+          ],
+          [
+            "five",
+            0.07071
+          ],
+          [
+            "align",
+            0.066389
+          ],
+          [
+            "love",
+            0.061422
+          ],
+          [
+            "star",
+            0.045424
+          ],
+          [
+            "try",
+            0.045169
+          ],
+          [
+            "nice",
+            0.043964
+          ],
+          [
+            "recommend",
+            0.043118
+          ],
+          [
+            "deserve",
+            0.035395
+          ],
+          [
+            "best",
+            0.035106
+          ],
+          [
+            "helps",
+            0.033168
+          ],
+          [
+            "u",
+            0.028973
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.064056
+          ],
+          [
+            "best",
+            0.048959
+          ],
+          [
+            "love",
+            0.040064
+          ],
+          [
+            "recommend",
+            0.033843
+          ],
+          [
+            "prayer",
+            0.033753
+          ],
+          [
+            "helps",
+            0.021752
+          ],
+          [
+            "it,i",
+            0.017089
+          ],
+          [
+            "anyone",
+            0.014944
+          ],
+          [
+            "align",
+            0.013595
+          ],
+          [
+            "five",
+            -0.009957
+          ],
+          [
+            "try",
+            -0.006426
+          ],
+          [
+            "u",
+            -0.00457
+          ],
+          [
+            "someone",
+            -0.003858
+          ],
+          [
+            "deserve",
+            -0.003399
+          ],
+          [
+            "told",
+            0.002155
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0930473655462265,
+          "max": 0.9999998807907104,
+          "std": 0.20140975713729858
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+        "word_count": 38,
+        "interface_pos": 0.9918,
+        "interface_neg": 0.0013,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁love, ▁to, ▁interface",
+        "p_orig": 0.7747378349304199,
+        "p_img": 0.6408056020736694,
+        "delta_p_img": 0.1339322328567505,
+        "gradcam_mean": 0.38378676772117615,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.15668082237243652,
+        "word_attention_top15": [
+          [
+            "guidelines",
+            0.183159
+          ],
+          [
+            "everyday",
+            0.134666
+          ],
+          [
+            "love",
+            0.09896
+          ],
+          [
+            "good",
+            0.077996
+          ],
+          [
+            "stars",
+            0.071509
+          ],
+          [
+            "memorized",
+            0.068728
+          ],
+          [
+            "scriptures",
+            0.066966
+          ],
+          [
+            "evening",
+            0.05199
+          ],
+          [
+            "prayer",
+            0.045796
+          ],
+          [
+            "⭐",
+            0.045029
+          ],
+          [
+            "rating",
+            0.041351
+          ],
+          [
+            "five",
+            0.04134
+          ],
+          [
+            "morning",
+            0.037246
+          ],
+          [
+            "giving",
+            0.035265
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.066227
+          ],
+          [
+            "love",
+            0.060313
+          ],
+          [
+            "memorized",
+            0.048109
+          ],
+          [
+            "prayer",
+            0.038622
+          ],
+          [
+            "everyday",
+            0.03718
+          ],
+          [
+            "guidelines",
+            0.034728
+          ],
+          [
+            "evening",
+            0.026923
+          ],
+          [
+            "stars",
+            0.021136
+          ],
+          [
+            "rating",
+            0.020021
+          ],
+          [
+            "scriptures",
+            0.010101
+          ],
+          [
+            "morning",
+            0.008371
+          ],
+          [
+            "giving",
+            0.001561
+          ],
+          [
+            "five",
+            0.000615
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.103990338742733,
+          "max": 0.9999999403953552,
+          "std": 0.2160535305738449
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+        "word_count": 70,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Icon, Text",
+        "top_k_tokens": "▁devotional, ▁quotes, ▁verses",
+        "p_orig": 0.8841977119445801,
+        "p_img": 0.8098951578140259,
+        "delta_p_img": 0.0743025541305542,
+        "gradcam_mean": 0.4239698052406311,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.24643778800964355,
+        "word_attention_top15": [
+          [
+            "quotes",
+            0.123755
+          ],
+          [
+            "verses",
+            0.093952
+          ],
+          [
+            "beautiful",
+            0.089424
+          ],
+          [
+            "devotional",
+            0.078295
+          ],
+          [
+            "evening",
+            0.053541
+          ],
+          [
+            "life",
+            0.049076
+          ],
+          [
+            "prayers",
+            0.045513
+          ],
+          [
+            "need",
+            0.039454
+          ],
+          [
+            "colours",
+            0.029628
+          ],
+          [
+            "prayer",
+            0.027931
+          ],
+          [
+            "support",
+            0.026721
+          ],
+          [
+            "imagery",
+            0.023837
+          ],
+          [
+            "enjoy",
+            0.023652
+          ],
+          [
+            "images",
+            0.023179
+          ],
+          [
+            "reading",
+            0.022736
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.147634
+          ],
+          [
+            "enjoy",
+            0.052953
+          ],
+          [
+            "need",
+            0.030139
+          ],
+          [
+            "calming",
+            0.026137
+          ],
+          [
+            "natural",
+            0.02288
+          ],
+          [
+            "life",
+            0.022695
+          ],
+          [
+            "met",
+            0.021921
+          ],
+          [
+            "clearer",
+            0.020913
+          ],
+          [
+            "evening",
+            0.015875
+          ],
+          [
+            "draws",
+            0.013852
+          ],
+          [
+            "into",
+            0.013448
+          ],
+          [
+            "great",
+            0.013225
+          ],
+          [
+            "imagery",
+            0.012791
+          ],
+          [
+            "completely",
+            0.01007
+          ],
+          [
+            "photography",
+            0.008737
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12216272950172424,
+          "max": 0.9999999403953552,
+          "std": 0.24371746182441711
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith.",
+        "word_count": 53,
+        "interface_pos": 0.9713,
+        "interface_neg": 0.0028,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text Button, Text",
+        "top_k_tokens": "▁I, ▁prayer, ▁everyday",
+        "p_orig": 0.8177483081817627,
+        "p_img": 0.7443624138832092,
+        "delta_p_img": 0.07338589429855347,
+        "gradcam_mean": 0.38351622223854065,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.15200310945510864,
+        "word_attention_top15": [
+          [
+            "prayer",
+            0.150637
+          ],
+          [
+            "reflective",
+            0.097139
+          ],
+          [
+            "not overwhelming",
+            0.075084
+          ],
+          [
+            "verse",
+            0.071424
+          ],
+          [
+            "etc",
+            0.061618
+          ],
+          [
+            "evening",
+            0.053006
+          ],
+          [
+            "everyday",
+            0.050859
+          ],
+          [
+            "devotions",
+            0.050216
+          ],
+          [
+            "not short",
+            0.044431
+          ],
+          [
+            "favorites",
+            0.041431
+          ],
+          [
+            "love",
+            0.03651
+          ],
+          [
+            "responsive",
+            0.029987
+          ],
+          [
+            "not long",
+            0.028462
+          ],
+          [
+            "faith",
+            0.027665
+          ],
+          [
+            "perfect",
+            0.026767
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.09993
+          ],
+          [
+            "favorites",
+            0.051406
+          ],
+          [
+            "reflective",
+            0.049807
+          ],
+          [
+            "perfectly",
+            0.048921
+          ],
+          [
+            "perfect",
+            0.037234
+          ],
+          [
+            "devotions",
+            0.036893
+          ],
+          [
+            "evening",
+            0.026784
+          ],
+          [
+            "responsive",
+            0.022494
+          ],
+          [
+            "simple",
+            0.021928
+          ],
+          [
+            "prayer",
+            0.019396
+          ],
+          [
+            "choices",
+            0.0162
+          ],
+          [
+            "any",
+            0.013633
+          ],
+          [
+            "follow",
+            0.013293
+          ],
+          [
+            "not long",
+            0.012567
+          ],
+          [
+            "everyday",
+            0.01238
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10787923634052277,
+          "max": 0.9999999403953552,
+          "std": 0.22231467068195343
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 95% confidence.",
+      "simple": "This screen was classified as bad with 95% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Daily Prayer Guide (Lite) (category: Books & Reference) was classified as bad with 95% confidence (with high confidence). The model focused on a small Text Button at the top-left, a small Text Button at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.taptapstudio.dailyprayerlite",
+    "screen_id": "69846",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69846.jpg",
+    "text": "Beautiful verses and quotes ask focused on Christ our Lord. I truly enjoy this app to pray morning and night. I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Grea",
+    "prediction": 0.9974965453147888,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9974965453147888,
+    "gradcam_stats": {
+      "mean": 0.5418261885643005,
+      "max": 1.0,
+      "std": 0.25178802013397217
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+      "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+      "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+      "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+      "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith."
+    ],
+    "app_name": "Daily Prayer Guide (Lite)",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.99748295545578,
+      "p_img": 0.9623507261276245,
+      "delta_p_img": 0.03513222932815552
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          13,
+          97,
+          210,
+          107
+        ],
+        "bounds_rico": [
+          88,
+          1114,
+          1352,
+          1227
+        ],
+        "score_total": 1428.5872802734375,
+        "score_mean": 0.7251712082606282
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          28,
+          224,
+          133
+        ],
+        "bounds_rico": [
+          0,
+          331,
+          1440,
+          1527
+        ],
+        "score_total": 16643.62109375,
+        "score_mean": 0.7076369512648809
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          10,
+          17,
+          218,
+          25
+        ],
+        "bounds_rico": [
+          70,
+          203,
+          1405,
+          296
+        ],
+        "score_total": 1142.09912109375,
+        "score_mean": 0.6863576448880709
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 1428.5872802734375,
+        "score_mean": 0.7251712082606282,
+        "bounds_image": [
+          13,
+          97,
+          210,
+          107
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 16643.62109375,
+        "score_mean": 0.7076369512648809,
+        "bounds_image": [
+          0,
+          28,
+          224,
+          133
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1142.09912109375,
+        "score_mean": 0.6863576448880709,
+        "bounds_image": [
+          10,
+          17,
+          218,
+          25
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 1428.5872802734375,
+        "score_mean": 0.7251712082606282,
+        "bounds_image": [
+          13,
+          97,
+          210,
+          107
+        ],
+        "bounds_rico": [
+          88,
+          1114,
+          1352,
+          1227
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 16643.62109375,
+        "score_mean": 0.7076369512648809,
+        "bounds_image": [
+          0,
+          28,
+          224,
+          133
+        ],
+        "bounds_rico": [
+          0,
+          331,
+          1440,
+          1527
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 1142.09912109375,
+        "score_mean": 0.6863576448880709,
+        "bounds_image": [
+          10,
+          17,
+          218,
+          25
+        ],
+        "bounds_rico": [
+          70,
+          203,
+          1405,
+          296
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 2087.843505859375,
+        "score_mean": 0.6657664240623007,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          168
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 2172.234375,
+        "score_mean": 0.648621790086593,
+        "bounds_image": [
+          13,
+          107,
+          210,
+          124
+        ],
+        "bounds_rico": [
+          88,
+          1227,
+          1352,
+          1421
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 46.32746124267578,
+        "score_mean": 0.5515173957461402,
+        "bounds_image": [
+          206,
+          32,
+          218,
+          39
+        ],
+        "bounds_rico": [
+          1327,
+          366,
+          1405,
+          451
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Input",
+        "score_total": 200.49960327148438,
+        "score_mean": 0.5304222308769428,
+        "bounds_image": [
+          197,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          1272,
+          0,
+          1440,
+          168
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text Button",
+        "score_total": 83.98320007324219,
+        "score_mean": 0.45643043518066406,
+        "bounds_image": [
+          5,
+          80,
+          28,
+          88
+        ],
+        "bounds_rico": [
+          35,
+          924,
+          181,
+          1009
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 5193.82470703125,
+        "score_mean": 0.3929952108831152,
+        "bounds_image": [
+          0,
+          134,
+          224,
+          193
+        ],
+        "bounds_rico": [
+          0,
+          1541,
+          1440,
+          2217
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text Button",
+        "score_total": 141.08840942382812,
+        "score_mean": 0.3876055203951322,
+        "bounds_image": [
+          0,
+          0,
+          26,
+          14
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          168,
+          168
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text Button",
+        "score_total": 109.82417297363281,
+        "score_mean": 0.37102761139740814,
+        "bounds_image": [
+          5,
+          151,
+          42,
+          159
+        ],
+        "bounds_rico": [
+          35,
+          1735,
+          276,
+          1820
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 32.500370025634766,
+        "score_mean": 0.3385455211003621,
+        "bounds_image": [
+          206,
+          137,
+          218,
+          145
+        ],
+        "bounds_rico": [
+          1327,
+          1576,
+          1405,
+          1661
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 647.0038452148438,
+        "score_mean": 0.3284283478247938,
+        "bounds_image": [
+          13,
+          168,
+          210,
+          178
+        ],
+        "bounds_rico": [
+          88,
+          1925,
+          1352,
+          2038
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text Button",
+        "score_total": 746.9700317382812,
+        "score_mean": 0.25278173662886,
+        "bounds_image": [
+          13,
+          178,
+          210,
+          193
+        ],
+        "bounds_rico": [
+          88,
+          2038,
+          1352,
+          2217
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Web View",
+        "score_total": 598.9920654296875,
+        "score_mean": 0.1671294825417655,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 13,
+        "token": "▁truly"
+      },
+      {
+        "index": 14,
+        "token": "▁enjoy"
+      },
+      {
+        "index": 16,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+        "word_count": 16,
+        "interface_pos": 0.9963,
+        "interface_neg": 0.0006,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text, Text Button",
+        "top_k_tokens": "▁ever, ▁It, ▁interface",
+        "p_orig": 0.9946843981742859,
+        "p_img": 0.975253164768219,
+        "delta_p_img": 0.019431233406066895,
+        "gradcam_mean": 0.5230422019958496,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.05991923809051514,
+        "word_attention_top15": [
+          [
+            "ever",
+            0.237853
+          ],
+          [
+            "positively",
+            0.160585
+          ],
+          [
+            "prayer",
+            0.149809
+          ],
+          [
+            "life",
+            0.100121
+          ],
+          [
+            "daily",
+            0.098234
+          ],
+          [
+            "best",
+            0.09275
+          ],
+          [
+            "impacted",
+            0.081869
+          ],
+          [
+            "love",
+            0.078779
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "ever",
+            0.004354
+          ],
+          [
+            "love",
+            0.002839
+          ],
+          [
+            "life",
+            0.00273
+          ],
+          [
+            "positively",
+            0.002636
+          ],
+          [
+            "best",
+            0.002349
+          ],
+          [
+            "prayer",
+            0.002069
+          ],
+          [
+            "daily",
+            0.001476
+          ],
+          [
+            "impacted",
+            0.000406
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23777037858963013,
+          "max": 0.9999999403953552,
+          "std": 0.34573984146118164
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+        "word_count": 56,
+        "interface_pos": 0.995,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text",
+        "top_k_tokens": "▁it, ▁it, ▁five",
+        "p_orig": 0.9936830997467041,
+        "p_img": 0.9379222989082336,
+        "delta_p_img": 0.05576080083847046,
+        "gradcam_mean": 0.48861050605773926,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.07719123363494873,
+        "word_attention_top15": [
+          [
+            "it,i",
+            0.127118
+          ],
+          [
+            "prayer",
+            0.118934
+          ],
+          [
+            "anyone",
+            0.101295
+          ],
+          [
+            "seen",
+            0.10105
+          ],
+          [
+            "five",
+            0.07071
+          ],
+          [
+            "align",
+            0.066389
+          ],
+          [
+            "love",
+            0.061422
+          ],
+          [
+            "star",
+            0.045424
+          ],
+          [
+            "try",
+            0.045169
+          ],
+          [
+            "nice",
+            0.043964
+          ],
+          [
+            "recommend",
+            0.043118
+          ],
+          [
+            "deserve",
+            0.035395
+          ],
+          [
+            "best",
+            0.035106
+          ],
+          [
+            "helps",
+            0.033168
+          ],
+          [
+            "u",
+            0.028973
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.001779
+          ],
+          [
+            "recommend",
+            0.001427
+          ],
+          [
+            "love",
+            0.001408
+          ],
+          [
+            "best",
+            0.001333
+          ],
+          [
+            "prayer",
+            0.000898
+          ],
+          [
+            "helps",
+            0.000824
+          ],
+          [
+            "it,i",
+            0.000772
+          ],
+          [
+            "anyone",
+            0.000499
+          ],
+          [
+            "deserve",
+            0.000297
+          ],
+          [
+            "someone",
+            -0.000274
+          ],
+          [
+            "five",
+            0.00023
+          ],
+          [
+            "align",
+            0.000224
+          ],
+          [
+            "u",
+            -8.7e-05
+          ],
+          [
+            "try",
+            1.7e-05
+          ],
+          [
+            "told",
+            1.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.25109541416168213,
+          "max": 0.9999999403953552,
+          "std": 0.3609466850757599
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+        "word_count": 38,
+        "interface_pos": 0.9918,
+        "interface_neg": 0.0013,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text",
+        "top_k_tokens": "▁love, ▁to, ▁interface",
+        "p_orig": 0.9957951307296753,
+        "p_img": 0.9492910504341125,
+        "delta_p_img": 0.046504080295562744,
+        "gradcam_mean": 0.5295531749725342,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.06875389814376831,
+        "word_attention_top15": [
+          [
+            "guidelines",
+            0.183159
+          ],
+          [
+            "everyday",
+            0.134666
+          ],
+          [
+            "love",
+            0.09896
+          ],
+          [
+            "good",
+            0.077996
+          ],
+          [
+            "stars",
+            0.071509
+          ],
+          [
+            "memorized",
+            0.068728
+          ],
+          [
+            "scriptures",
+            0.066966
+          ],
+          [
+            "evening",
+            0.05199
+          ],
+          [
+            "prayer",
+            0.045796
+          ],
+          [
+            "⭐",
+            0.045029
+          ],
+          [
+            "rating",
+            0.041351
+          ],
+          [
+            "five",
+            0.04134
+          ],
+          [
+            "morning",
+            0.037246
+          ],
+          [
+            "giving",
+            0.035265
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.00154
+          ],
+          [
+            "stars",
+            0.001451
+          ],
+          [
+            "everyday",
+            0.001287
+          ],
+          [
+            "good",
+            0.001234
+          ],
+          [
+            "memorized",
+            0.001201
+          ],
+          [
+            "rating",
+            0.001192
+          ],
+          [
+            "evening",
+            0.000825
+          ],
+          [
+            "prayer",
+            0.000812
+          ],
+          [
+            "guidelines",
+            0.000726
+          ],
+          [
+            "five",
+            0.000463
+          ],
+          [
+            "morning",
+            0.000415
+          ],
+          [
+            "scriptures",
+            0.000395
+          ],
+          [
+            "giving",
+            7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24310390651226044,
+          "max": 0.9999998807907104,
+          "std": 0.35261619091033936
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+        "word_count": 70,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text",
+        "top_k_tokens": "▁devotional, ▁quotes, ▁verses",
+        "p_orig": 0.9973742961883545,
+        "p_img": 0.9637993574142456,
+        "delta_p_img": 0.03357493877410889,
+        "gradcam_mean": 0.5369935035705566,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.04152947664260864,
+        "word_attention_top15": [
+          [
+            "quotes",
+            0.123755
+          ],
+          [
+            "verses",
+            0.093952
+          ],
+          [
+            "beautiful",
+            0.089424
+          ],
+          [
+            "devotional",
+            0.078295
+          ],
+          [
+            "evening",
+            0.053541
+          ],
+          [
+            "life",
+            0.049076
+          ],
+          [
+            "prayers",
+            0.045513
+          ],
+          [
+            "need",
+            0.039454
+          ],
+          [
+            "colours",
+            0.029628
+          ],
+          [
+            "prayer",
+            0.027931
+          ],
+          [
+            "support",
+            0.026721
+          ],
+          [
+            "imagery",
+            0.023837
+          ],
+          [
+            "enjoy",
+            0.023652
+          ],
+          [
+            "images",
+            0.023179
+          ],
+          [
+            "reading",
+            0.022736
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.003548
+          ],
+          [
+            "fragmented",
+            -0.001119
+          ],
+          [
+            "enjoy",
+            0.001082
+          ],
+          [
+            "natural",
+            0.000901
+          ],
+          [
+            "looking",
+            0.000757
+          ],
+          [
+            "clearer",
+            0.000718
+          ],
+          [
+            "calming",
+            0.00069
+          ],
+          [
+            "need",
+            0.000634
+          ],
+          [
+            "met",
+            0.000612
+          ],
+          [
+            "imagery",
+            0.0006
+          ],
+          [
+            "life",
+            0.000595
+          ],
+          [
+            "great",
+            0.000594
+          ],
+          [
+            "photography",
+            0.000495
+          ],
+          [
+            "reading",
+            0.000374
+          ],
+          [
+            "morning",
+            0.000372
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19189637899398804,
+          "max": 0.9999998807907104,
+          "std": 0.2991110682487488
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith.",
+        "word_count": 53,
+        "interface_pos": 0.9713,
+        "interface_neg": 0.0028,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text",
+        "top_k_tokens": "▁I, ▁prayer, ▁everyday",
+        "p_orig": 0.9966788291931152,
+        "p_img": 0.955975353717804,
+        "delta_p_img": 0.04070347547531128,
+        "gradcam_mean": 0.5186284184455872,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.050592899322509766,
+        "word_attention_top15": [
+          [
+            "prayer",
+            0.150637
+          ],
+          [
+            "reflective",
+            0.097139
+          ],
+          [
+            "not overwhelming",
+            0.075084
+          ],
+          [
+            "verse",
+            0.071424
+          ],
+          [
+            "etc",
+            0.061618
+          ],
+          [
+            "evening",
+            0.053006
+          ],
+          [
+            "everyday",
+            0.050859
+          ],
+          [
+            "devotions",
+            0.050216
+          ],
+          [
+            "not short",
+            0.044431
+          ],
+          [
+            "favorites",
+            0.041431
+          ],
+          [
+            "love",
+            0.03651
+          ],
+          [
+            "responsive",
+            0.029987
+          ],
+          [
+            "not long",
+            0.028462
+          ],
+          [
+            "faith",
+            0.027665
+          ],
+          [
+            "perfect",
+            0.026767
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.002386
+          ],
+          [
+            "devotions",
+            0.001669
+          ],
+          [
+            "not long",
+            0.001402
+          ],
+          [
+            "reflective",
+            0.001329
+          ],
+          [
+            "favorites",
+            0.001154
+          ],
+          [
+            "morning",
+            0.001002
+          ],
+          [
+            "perfectly",
+            0.000992
+          ],
+          [
+            "prayer",
+            0.000975
+          ],
+          [
+            "evening",
+            0.000951
+          ],
+          [
+            "prayers",
+            0.000807
+          ],
+          [
+            "perfect",
+            0.000791
+          ],
+          [
+            "choices",
+            0.000752
+          ],
+          [
+            "responsive",
+            0.000597
+          ],
+          [
+            "everyday",
+            0.000471
+          ],
+          [
+            "follow",
+            0.000446
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.22067968547344208,
+          "max": 0.9999998807907104,
+          "std": 0.32558584213256836
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 100% confidence.",
+      "simple": "This screen was predicted as good with 100% confidence. The model concentrated on a small Text Button at the top-left.",
+      "detailed": "This screen of Daily Prayer Guide (Lite) (category: Books & Reference) was predicted as good with 100% confidence (with strong evidence). The model gave priority to a small Text Button at the top-left, a small Image at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.taptapstudio.dailyprayerlite",
+    "screen_id": "69847",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69847.jpg",
+    "text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app. This is a really good morning start to your day, we enjoy the devotional daily and prayers. Keep up the",
+    "prediction": 0.9349896311759949,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9349896311759949,
+    "gradcam_stats": {
+      "mean": 0.39823707938194275,
+      "max": 1.0,
+      "std": 0.25599202513694763
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+      "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+      "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+      "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+      "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith."
+    ],
+    "app_name": "Daily Prayer Guide (Lite)",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9350080490112305,
+      "p_img": 0.9309697151184082,
+      "delta_p_img": 0.004038333892822266
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Input",
+        "bounds_image": [
+          192,
+          75,
+          218,
+          83
+        ],
+        "bounds_rico": [
+          1239,
+          860,
+          1405,
+          955
+        ],
+        "score_total": 173.94485473632812,
+        "score_mean": 0.8362733400785006
+      },
+      {
+        "rank": 1,
+        "component": "Input",
+        "bounds_image": [
+          192,
+          60,
+          218,
+          68
+        ],
+        "bounds_rico": [
+          1239,
+          688,
+          1405,
+          783
+        ],
+        "score_total": 169.2263946533203,
+        "score_mean": 0.8135884358332708
+      },
+      {
+        "rank": 2,
+        "component": "Input",
+        "bounds_image": [
+          192,
+          45,
+          218,
+          53
+        ],
+        "bounds_rico": [
+          1239,
+          516,
+          1405,
+          611
+        ],
+        "score_total": 161.77810668945312,
+        "score_mean": 0.7777793590839093
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Input",
+        "score_total": 173.94485473632812,
+        "score_mean": 0.8362733400785006,
+        "bounds_image": [
+          192,
+          75,
+          218,
+          83
+        ]
+      },
+      {
+        "component": "Input",
+        "score_total": 169.2263946533203,
+        "score_mean": 0.8135884358332708,
+        "bounds_image": [
+          192,
+          60,
+          218,
+          68
+        ]
+      },
+      {
+        "component": "Input",
+        "score_total": 161.77810668945312,
+        "score_mean": 0.7777793590839093,
+        "bounds_image": [
+          192,
+          45,
+          218,
+          53
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Input",
+        "score_total": 173.94485473632812,
+        "score_mean": 0.8362733400785006,
+        "bounds_image": [
+          192,
+          75,
+          218,
+          83
+        ],
+        "bounds_rico": [
+          1239,
+          860,
+          1405,
+          955
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Input",
+        "score_total": 169.2263946533203,
+        "score_mean": 0.8135884358332708,
+        "bounds_image": [
+          192,
+          60,
+          218,
+          68
+        ],
+        "bounds_rico": [
+          1239,
+          688,
+          1405,
+          783
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Input",
+        "score_total": 161.77810668945312,
+        "score_mean": 0.7777793590839093,
+        "bounds_image": [
+          192,
+          45,
+          218,
+          53
+        ],
+        "bounds_rico": [
+          1239,
+          516,
+          1405,
+          611
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 9.072185516357422,
+        "score_mean": 0.7560154596964518,
+        "bounds_image": [
+          218,
+          95,
+          222,
+          98
+        ],
+        "bounds_rico": [
+          1404,
+          1097,
+          1433,
+          1126
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 1016.2233276367188,
+        "score_mean": 0.7013273482655064,
+        "bounds_image": [
+          5,
+          93,
+          212,
+          100
+        ],
+        "bounds_rico": [
+          35,
+          1069,
+          1369,
+          1154
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 7.627025127410889,
+        "score_mean": 0.6355854272842407,
+        "bounds_image": [
+          218,
+          35,
+          222,
+          38
+        ],
+        "bounds_rico": [
+          1404,
+          409,
+          1433,
+          438
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 195.92953491210938,
+        "score_mean": 0.48258506135987533,
+        "bounds_image": [
+          5,
+          93,
+          63,
+          100
+        ],
+        "bounds_rico": [
+          35,
+          1069,
+          411,
+          1154
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text Button",
+        "score_total": 130.97488403320312,
+        "score_mean": 0.48152530894559975,
+        "bounds_image": [
+          8,
+          106,
+          42,
+          114
+        ],
+        "bounds_rico": [
+          53,
+          1219,
+          272,
+          1304
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text Button",
+        "score_total": 195.49191284179688,
+        "score_mean": 0.416827106272488,
+        "bounds_image": [
+          5,
+          78,
+          72,
+          85
+        ],
+        "bounds_rico": [
+          35,
+          897,
+          469,
+          982
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 4.872837543487549,
+        "score_mean": 0.4060697952906291,
+        "bounds_image": [
+          218,
+          20,
+          222,
+          23
+        ],
+        "bounds_rico": [
+          1404,
+          237,
+          1433,
+          266
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Web View",
+        "score_total": 7569.86767578125,
+        "score_mean": 0.35951119280876,
+        "bounds_image": [
+          0,
+          115,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1323,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text Button",
+        "score_total": 468.4609375,
+        "score_mean": 0.3232994737750173,
+        "bounds_image": [
+          5,
+          33,
+          212,
+          40
+        ],
+        "bounds_rico": [
+          35,
+          381,
+          1369,
+          466
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Input",
+        "score_total": 118.53691101074219,
+        "score_mean": 0.31358971166863014,
+        "bounds_image": [
+          197,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          1272,
+          0,
+          1440,
+          168
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text Button",
+        "score_total": 105.32975769042969,
+        "score_mean": 0.27865015262018433,
+        "bounds_image": [
+          5,
+          63,
+          59,
+          70
+        ],
+        "bounds_rico": [
+          35,
+          725,
+          380,
+          810
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text Button",
+        "score_total": 230.87246704101562,
+        "score_mean": 0.159332275390625,
+        "bounds_image": [
+          5,
+          18,
+          212,
+          25
+        ],
+        "bounds_rico": [
+          35,
+          209,
+          1369,
+          294
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text Button",
+        "score_total": 43.5207405090332,
+        "score_mean": 0.14458717777087443,
+        "bounds_image": [
+          5,
+          48,
+          48,
+          55
+        ],
+        "bounds_rico": [
+          35,
+          553,
+          310,
+          638
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text Button",
+        "score_total": 341.38311767578125,
+        "score_mean": 0.10885941252416494,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          168
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text Button",
+        "score_total": 26.630619049072266,
+        "score_mean": 0.08847381743877829,
+        "bounds_image": [
+          5,
+          33,
+          48,
+          40
+        ],
+        "bounds_rico": [
+          35,
+          381,
+          309,
+          466
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text Button",
+        "score_total": 0.9520620107650757,
+        "score_mean": 0.006800442934036255,
+        "bounds_image": [
+          5,
+          18,
+          25,
+          25
+        ],
+        "bounds_rico": [
+          35,
+          209,
+          161,
+          294
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text Button",
+        "score_total": 1.2350553274154663,
+        "score_mean": 0.003393009141251281,
+        "bounds_image": [
+          0,
+          0,
+          26,
+          14
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          168,
+          168
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁devotional"
+      },
+      {
+        "index": 31,
+        "token": "▁quotes"
+      },
+      {
+        "index": 29,
+        "token": "▁verses"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "The best daily prayer app ever. It impacted my prayer life positively. I love this app",
+        "word_count": 16,
+        "interface_pos": 0.9963,
+        "interface_neg": 0.0006,
+        "interface_sentiment": "positive",
+        "top_components": "Input, Input, Icon",
+        "top_k_tokens": "▁ever, ▁It, ▁interface",
+        "p_orig": 0.8286613821983337,
+        "p_img": 0.794722855091095,
+        "delta_p_img": 0.03393852710723877,
+        "gradcam_mean": 0.3162863552570343,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.10538452863693237,
+        "word_attention_top15": [
+          [
+            "ever",
+            0.237853
+          ],
+          [
+            "positively",
+            0.160585
+          ],
+          [
+            "prayer",
+            0.149809
+          ],
+          [
+            "life",
+            0.100121
+          ],
+          [
+            "daily",
+            0.098234
+          ],
+          [
+            "best",
+            0.09275
+          ],
+          [
+            "impacted",
+            0.081869
+          ],
+          [
+            "love",
+            0.078779
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "ever",
+            0.106321
+          ],
+          [
+            "life",
+            0.088284
+          ],
+          [
+            "love",
+            0.087987
+          ],
+          [
+            "prayer",
+            0.082126
+          ],
+          [
+            "positively",
+            0.07335
+          ],
+          [
+            "best",
+            0.062221
+          ],
+          [
+            "impacted",
+            0.034243
+          ],
+          [
+            "daily",
+            0.013552
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24791699647903442,
+          "max": 0.9999999403953552,
+          "std": 0.38726502656936646
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "This app is the best prayer app that I have seen, the app is a nice app u can try it out. It helps you to align with your prayer app it was even someone that told me about this app and I love it,I would recommend it for anyone, this app deserve a five star",
+        "word_count": 56,
+        "interface_pos": 0.995,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Input, Input, Icon",
+        "top_k_tokens": "▁it, ▁it, ▁five",
+        "p_orig": 0.8159858584403992,
+        "p_img": 0.7822734713554382,
+        "delta_p_img": 0.03371238708496094,
+        "gradcam_mean": 0.29685983061790466,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.11436468362808228,
+        "word_attention_top15": [
+          [
+            "it,i",
+            0.127118
+          ],
+          [
+            "prayer",
+            0.118934
+          ],
+          [
+            "anyone",
+            0.101295
+          ],
+          [
+            "seen",
+            0.10105
+          ],
+          [
+            "five",
+            0.07071
+          ],
+          [
+            "align",
+            0.066389
+          ],
+          [
+            "love",
+            0.061422
+          ],
+          [
+            "star",
+            0.045424
+          ],
+          [
+            "try",
+            0.045169
+          ],
+          [
+            "nice",
+            0.043964
+          ],
+          [
+            "recommend",
+            0.043118
+          ],
+          [
+            "deserve",
+            0.035395
+          ],
+          [
+            "best",
+            0.035106
+          ],
+          [
+            "helps",
+            0.033168
+          ],
+          [
+            "u",
+            0.028973
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.071455
+          ],
+          [
+            "love",
+            0.052464
+          ],
+          [
+            "best",
+            0.050018
+          ],
+          [
+            "recommend",
+            0.039495
+          ],
+          [
+            "helps",
+            0.035097
+          ],
+          [
+            "prayer",
+            0.026553
+          ],
+          [
+            "it,i",
+            0.025699
+          ],
+          [
+            "anyone",
+            0.015622
+          ],
+          [
+            "align",
+            0.012589
+          ],
+          [
+            "five",
+            -0.012287
+          ],
+          [
+            "deserve",
+            0.004014
+          ],
+          [
+            "seen",
+            0.003974
+          ],
+          [
+            "someone",
+            -0.003321
+          ],
+          [
+            "told",
+            0.003134
+          ],
+          [
+            "u",
+            -0.002487
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2542142868041992,
+          "max": 0.9999999403953552,
+          "std": 0.3965223431587219
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "I'm rating it five stars because it is a good app. a app with morning and evening prayer guidelines, and also scriptures to be memorized everyday. I really do love it. That's why I'm giving it 5. ⭐",
+        "word_count": 38,
+        "interface_pos": 0.9918,
+        "interface_neg": 0.0013,
+        "interface_sentiment": "positive",
+        "top_components": "Input, Input, Input",
+        "top_k_tokens": "▁love, ▁to, ▁interface",
+        "p_orig": 0.8803173303604126,
+        "p_img": 0.8730282187461853,
+        "delta_p_img": 0.007289111614227295,
+        "gradcam_mean": 0.32970374822616577,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.06049531698226929,
+        "word_attention_top15": [
+          [
+            "guidelines",
+            0.183159
+          ],
+          [
+            "everyday",
+            0.134666
+          ],
+          [
+            "love",
+            0.09896
+          ],
+          [
+            "good",
+            0.077996
+          ],
+          [
+            "stars",
+            0.071509
+          ],
+          [
+            "memorized",
+            0.068728
+          ],
+          [
+            "scriptures",
+            0.066966
+          ],
+          [
+            "evening",
+            0.05199
+          ],
+          [
+            "prayer",
+            0.045796
+          ],
+          [
+            "⭐",
+            0.045029
+          ],
+          [
+            "rating",
+            0.041351
+          ],
+          [
+            "five",
+            0.04134
+          ],
+          [
+            "morning",
+            0.037246
+          ],
+          [
+            "giving",
+            0.035265
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.076088
+          ],
+          [
+            "love",
+            0.074456
+          ],
+          [
+            "memorized",
+            0.042296
+          ],
+          [
+            "guidelines",
+            0.034734
+          ],
+          [
+            "everyday",
+            0.033261
+          ],
+          [
+            "rating",
+            0.029287
+          ],
+          [
+            "stars",
+            0.0267
+          ],
+          [
+            "prayer",
+            0.02574
+          ],
+          [
+            "evening",
+            0.019669
+          ],
+          [
+            "morning",
+            0.009685
+          ],
+          [
+            "five",
+            0.00561
+          ],
+          [
+            "giving",
+            0.004842
+          ],
+          [
+            "scriptures",
+            0.001989
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23739387094974518,
+          "max": 0.9999999403953552,
+          "std": 0.37228110432624817
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "I've been looking for an app to support my prayer life. This is a beautiful app that met my need. I enjoy reading the verses, quotes, devotional and prayers each morning and evening. The natural imagery in the photography is beautiful and even the way the app opens with the fragmented colours that change into the clearer images is so calming and beautiful. It completely draws me in. Great app.",
+        "word_count": 70,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Input, Input, Input",
+        "top_k_tokens": "▁devotional, ▁quotes, ▁verses",
+        "p_orig": 0.9350080490112305,
+        "p_img": 0.9309697151184082,
+        "delta_p_img": 0.004038333892822266,
+        "gradcam_mean": 0.39823707938194275,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.02546316385269165,
+        "word_attention_top15": [
+          [
+            "quotes",
+            0.123755
+          ],
+          [
+            "verses",
+            0.093952
+          ],
+          [
+            "beautiful",
+            0.089424
+          ],
+          [
+            "devotional",
+            0.078295
+          ],
+          [
+            "evening",
+            0.053541
+          ],
+          [
+            "life",
+            0.049076
+          ],
+          [
+            "prayers",
+            0.045513
+          ],
+          [
+            "need",
+            0.039454
+          ],
+          [
+            "colours",
+            0.029628
+          ],
+          [
+            "prayer",
+            0.027931
+          ],
+          [
+            "support",
+            0.026721
+          ],
+          [
+            "imagery",
+            0.023837
+          ],
+          [
+            "enjoy",
+            0.023652
+          ],
+          [
+            "images",
+            0.023179
+          ],
+          [
+            "reading",
+            0.022736
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.144266
+          ],
+          [
+            "enjoy",
+            0.05541
+          ],
+          [
+            "natural",
+            0.029573
+          ],
+          [
+            "need",
+            0.029043
+          ],
+          [
+            "clearer",
+            0.023486
+          ],
+          [
+            "life",
+            0.02309
+          ],
+          [
+            "met",
+            0.022137
+          ],
+          [
+            "calming",
+            0.021896
+          ],
+          [
+            "great",
+            0.017828
+          ],
+          [
+            "imagery",
+            0.015509
+          ],
+          [
+            "evening",
+            0.015116
+          ],
+          [
+            "looking",
+            0.013891
+          ],
+          [
+            "into",
+            0.011719
+          ],
+          [
+            "photography",
+            0.011487
+          ],
+          [
+            "draws",
+            0.010927
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20931147038936615,
+          "max": 0.9999999403953552,
+          "std": 0.33905407786369324
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "I love these morning and evening prayers and devotions. They are reflective, not too long, not too short, but perfectly reflective. I like the 4 choices everyday of morning prayer, verse, evening prayer, etc. The screen is not overwhelming. Very simple to follow and responsive. You can save favorites. Perfect for any faith.",
+        "word_count": 53,
+        "interface_pos": 0.9713,
+        "interface_neg": 0.0028,
+        "interface_sentiment": "positive",
+        "top_components": "Input, Input, Input",
+        "top_k_tokens": "▁I, ▁prayer, ▁everyday",
+        "p_orig": 0.9059845805168152,
+        "p_img": 0.9005690813064575,
+        "delta_p_img": 0.005415499210357666,
+        "gradcam_mean": 0.3780646026134491,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.04949212074279785,
+        "word_attention_top15": [
+          [
+            "prayer",
+            0.150637
+          ],
+          [
+            "reflective",
+            0.097139
+          ],
+          [
+            "not overwhelming",
+            0.075084
+          ],
+          [
+            "verse",
+            0.071424
+          ],
+          [
+            "etc",
+            0.061618
+          ],
+          [
+            "evening",
+            0.053006
+          ],
+          [
+            "everyday",
+            0.050859
+          ],
+          [
+            "devotions",
+            0.050216
+          ],
+          [
+            "not short",
+            0.044431
+          ],
+          [
+            "favorites",
+            0.041431
+          ],
+          [
+            "love",
+            0.03651
+          ],
+          [
+            "responsive",
+            0.029987
+          ],
+          [
+            "not long",
+            0.028462
+          ],
+          [
+            "faith",
+            0.027665
+          ],
+          [
+            "perfect",
+            0.026767
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.111012
+          ],
+          [
+            "devotions",
+            0.048376
+          ],
+          [
+            "reflective",
+            0.045262
+          ],
+          [
+            "perfectly",
+            0.042379
+          ],
+          [
+            "favorites",
+            0.039662
+          ],
+          [
+            "not long",
+            0.02894
+          ],
+          [
+            "perfect",
+            0.028001
+          ],
+          [
+            "evening",
+            0.024881
+          ],
+          [
+            "choices",
+            0.023924
+          ],
+          [
+            "simple",
+            0.022997
+          ],
+          [
+            "responsive",
+            0.019894
+          ],
+          [
+            "prayer",
+            0.018073
+          ],
+          [
+            "everyday",
+            0.012762
+          ],
+          [
+            "follow",
+            0.012666
+          ],
+          [
+            "save",
+            0.011709
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.22164058685302734,
+          "max": 0.9999999403953552,
+          "std": 0.3570464551448822
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 93% confidence.",
+      "simple": "This screen was predicted as good with 93% confidence. The model concentrated on a small Input at the top-left.",
+      "detailed": "This screen of Daily Prayer Guide (Lite) (category: Books & Reference) was predicted as good with 93% confidence (with strong evidence). The model gave priority to a small Input at the top-left, a small Input at the top-left, and a small Input at the top-left."
+    }
+  }
+]

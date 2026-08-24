@@ -1,0 +1,366 @@
+{
+  "package_name": "com.kauf.imagefaker.hairstylesfunandfashion",
+  "num_screens": 4,
+  "app_score": 0.007801244413712993,
+  "app_prediction": "bad",
+  "app_confidence": 0.992198755586287,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0022740145213901997,
+    0.0013966270489618182,
+    0.025346409529447556,
+    0.0021879265550523996
+  ],
+  "prediction_variance": 0.00010272788754805146,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_kauf_imagefaker_hairstylesfunandfashion\\com_kauf_imagefaker_hairstylesfunandfashion_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.kauf.imagefaker.hairstylesfunandfashion was predicted as bad with average confidence 99% across 4 screens.",
+    "simple": "com.kauf.imagefaker.hairstylesfunandfashion was predicted as bad with average confidence 99% across 4 screens. Across these screens, the model frequently emphasized Image components.",
+    "detailed": "com.kauf.imagefaker.hairstylesfunandfashion was predicted as bad with average confidence 99% across 4 screens. Across these screens, the model frequently emphasized Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (4x), Icon (2x), Text (2x). The most influential review words across screens were 'not good', 'doesn't work', 'soooôooooo', 'not match', and 'ads'. The app belongs to the Lifestyle category and was analyzed across 4 screens."
+  },
+  "representative_screen": {
+    "screen_id": "4470",
+    "review_rank": 0,
+    "delta_p_img": 0.23005665722303092,
+    "confidence": 0.9977259854786098,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\4470.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "not good",
+      3.194726
+    ],
+    [
+      "doesn't work",
+      1.966794
+    ],
+    [
+      "soooôooooo",
+      1.350488
+    ],
+    [
+      "not match",
+      1.241185
+    ],
+    [
+      "ads",
+      0.920771
+    ],
+    [
+      "try",
+      0.789224
+    ],
+    [
+      "game",
+      0.779882
+    ],
+    [
+      "picture",
+      0.73417
+    ],
+    [
+      "didn't live",
+      0.62885
+    ],
+    [
+      "select",
+      0.519327
+    ],
+    [
+      "time",
+      0.510141
+    ],
+    [
+      "annoying",
+      0.495323
+    ],
+    [
+      "popped",
+      0.466272
+    ],
+    [
+      "not realistic",
+      0.464774
+    ],
+    [
+      "keeps",
+      0.360079
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "annoying",
+      -0.026526
+    ],
+    [
+      "select",
+      -0.011978
+    ],
+    [
+      "no control",
+      -0.00917
+    ],
+    [
+      "ads",
+      -0.008647
+    ],
+    [
+      "not realistic",
+      -0.008056
+    ],
+    [
+      "soooôooooo",
+      0.008008
+    ],
+    [
+      "not good",
+      -0.007852
+    ],
+    [
+      "telling",
+      -0.007489
+    ],
+    [
+      "not recommend",
+      -0.007075
+    ],
+    [
+      "keeps",
+      0.006546
+    ],
+    [
+      "time",
+      -0.005995
+    ],
+    [
+      "popped",
+      -0.005427
+    ],
+    [
+      "not match",
+      -0.005252
+    ],
+    [
+      "game",
+      0.004938
+    ],
+    [
+      "picture",
+      -0.004823
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "not good",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 1,
+      "rank_shap": 7,
+      "shap_signed": -0.007852,
+      "in_both": true
+    },
+    {
+      "word": "soooôooooo",
+      "rrf_score": 0.031025,
+      "rank_bahdanau": 3,
+      "rank_shap": 6,
+      "shap_signed": 0.008008,
+      "in_both": true
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.03101,
+      "rank_bahdanau": 5,
+      "rank_shap": 4,
+      "shap_signed": -0.008647,
+      "in_both": true
+    },
+    {
+      "word": "select",
+      "rrf_score": 0.030415,
+      "rank_bahdanau": 10,
+      "rank_shap": 2,
+      "shap_signed": -0.011978,
+      "in_both": true
+    },
+    {
+      "word": "annoying",
+      "rrf_score": 0.030282,
+      "rank_bahdanau": 12,
+      "rank_shap": 1,
+      "shap_signed": -0.026526,
+      "in_both": true
+    },
+    {
+      "word": "not match",
+      "rrf_score": 0.029324,
+      "rank_bahdanau": 4,
+      "rank_shap": 13,
+      "shap_signed": -0.005252,
+      "in_both": true
+    },
+    {
+      "word": "not realistic",
+      "rrf_score": 0.028898,
+      "rank_bahdanau": 14,
+      "rank_shap": 5,
+      "shap_signed": -0.008056,
+      "in_both": true
+    },
+    {
+      "word": "game",
+      "rrf_score": 0.028439,
+      "rank_bahdanau": 7,
+      "rank_shap": 14,
+      "shap_signed": 0.004938,
+      "in_both": true
+    },
+    {
+      "word": "time",
+      "rrf_score": 0.028169,
+      "rank_bahdanau": 11,
+      "rank_shap": 11,
+      "shap_signed": -0.005995,
+      "in_both": true
+    },
+    {
+      "word": "picture",
+      "rrf_score": 0.028039,
+      "rank_bahdanau": 8,
+      "rank_shap": 15,
+      "shap_signed": -0.004823,
+      "in_both": true
+    },
+    {
+      "word": "keeps",
+      "rrf_score": 0.027619,
+      "rank_bahdanau": 15,
+      "rank_shap": 10,
+      "shap_signed": 0.006546,
+      "in_both": true
+    },
+    {
+      "word": "popped",
+      "rrf_score": 0.027588,
+      "rank_bahdanau": 13,
+      "rank_shap": 12,
+      "shap_signed": -0.005427,
+      "in_both": true
+    },
+    {
+      "word": "doesn't work",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "no control",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.00917,
+      "in_both": false
+    },
+    {
+      "word": "try",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 1,
+      "text": "Not very good. Not realistic and no control of what styles I wanted to try."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 8,
+      "text": "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 0,
+      "text": "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": -1,
+      "text": "It keeps telling me to select picture all the time and I've done it ! Doesn't even work"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "This game is soooôooooo annoying every time I got on the game ads popped up"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "not good",
+      3.194726
+    ],
+    [
+      "doesn't work",
+      1.966794
+    ],
+    [
+      "soooôooooo",
+      1.350488
+    ],
+    [
+      "not match",
+      1.241185
+    ],
+    [
+      "ads",
+      0.920771
+    ],
+    [
+      "try",
+      0.789224
+    ],
+    [
+      "game",
+      0.779882
+    ],
+    [
+      "picture",
+      0.73417
+    ],
+    [
+      "didn't live",
+      0.62885
+    ],
+    [
+      "select",
+      0.519327
+    ],
+    [
+      "time",
+      0.510141
+    ],
+    [
+      "annoying",
+      0.495323
+    ],
+    [
+      "popped",
+      0.466272
+    ],
+    [
+      "not realistic",
+      0.464774
+    ],
+    [
+      "keeps",
+      0.360079
+    ]
+  ]
+}

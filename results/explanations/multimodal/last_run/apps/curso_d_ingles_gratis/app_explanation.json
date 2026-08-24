@@ -1,0 +1,365 @@
+{
+  "package_name": "curso.d.ingles.gratis",
+  "num_screens": 3,
+  "app_score": 0.9798120856285095,
+  "app_prediction": "good",
+  "app_confidence": 0.9798120856285095,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9851850271224976,
+    0.9562341570854187,
+    0.9980170726776123
+  ],
+  "prediction_variance": 0.00030540292271297176,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\curso_d_ingles_gratis\\curso_d_ingles_gratis_app_explanation.png",
+  "text_explanation": {
+    "caption": "curso.d.ingles.gratis was classified as good with average confidence 98% across 3 screens.",
+    "simple": "curso.d.ingles.gratis was classified as good with average confidence 98% across 3 screens. Across these screens, the model recurringly attended to Text Button components.",
+    "detailed": "curso.d.ingles.gratis was classified as good with average confidence 98% across 3 screens. Across these screens, the model recurringly attended to Text Button components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text Button (3x), Web View (1x). The most influential review words across screens were 'english', 'learn', 'great', 'not good', and 'everyone'. The app belongs to the Education category and was analyzed across 3 screens."
+  },
+  "representative_screen": {
+    "screen_id": "53623",
+    "review_rank": 0,
+    "delta_p_img": 0.48825711011886597,
+    "confidence": 0.9851850271224976,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\53623.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "english",
+      1.006102
+    ],
+    [
+      "learn",
+      0.619251
+    ],
+    [
+      "great",
+      0.395476
+    ],
+    [
+      "not good",
+      0.336694
+    ],
+    [
+      "everyone",
+      0.318251
+    ],
+    [
+      "useful",
+      0.301047
+    ],
+    [
+      "best",
+      0.263798
+    ],
+    [
+      "skills",
+      0.253833
+    ],
+    [
+      "good",
+      0.250896
+    ],
+    [
+      "cool",
+      0.248865
+    ],
+    [
+      "beginners",
+      0.21894
+    ],
+    [
+      "choice",
+      0.206541
+    ],
+    [
+      "country",
+      0.206217
+    ],
+    [
+      "developer",
+      0.184951
+    ],
+    [
+      "helps",
+      0.177488
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "best",
+      0.281493
+    ],
+    [
+      "great",
+      0.147023
+    ],
+    [
+      "english",
+      0.144581
+    ],
+    [
+      "useful",
+      0.106717
+    ],
+    [
+      "effective",
+      0.096249
+    ],
+    [
+      "fair",
+      0.094781
+    ],
+    [
+      "good",
+      0.09262
+    ],
+    [
+      "learn",
+      0.086863
+    ],
+    [
+      "cool",
+      0.08085
+    ],
+    [
+      "removes",
+      -0.079587
+    ],
+    [
+      "not good",
+      -0.07277
+    ],
+    [
+      "love",
+      0.069838
+    ],
+    [
+      "everyone",
+      0.063286
+    ],
+    [
+      "easily",
+      0.062745
+    ],
+    [
+      "helps",
+      0.062267
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "english",
+      "rrf_score": 0.032266,
+      "rank_bahdanau": 1,
+      "rank_shap": 3,
+      "shap_signed": 0.144581,
+      "in_both": true
+    },
+    {
+      "word": "great",
+      "rrf_score": 0.032002,
+      "rank_bahdanau": 3,
+      "rank_shap": 2,
+      "shap_signed": 0.147023,
+      "in_both": true
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 7,
+      "rank_shap": 1,
+      "shap_signed": 0.281493,
+      "in_both": true
+    },
+    {
+      "word": "learn",
+      "rrf_score": 0.030835,
+      "rank_bahdanau": 2,
+      "rank_shap": 8,
+      "shap_signed": 0.086863,
+      "in_both": true
+    },
+    {
+      "word": "useful",
+      "rrf_score": 0.030777,
+      "rank_bahdanau": 6,
+      "rank_shap": 4,
+      "shap_signed": 0.106717,
+      "in_both": true
+    },
+    {
+      "word": "not good",
+      "rrf_score": 0.02971,
+      "rank_bahdanau": 4,
+      "rank_shap": 11,
+      "shap_signed": -0.07277,
+      "in_both": true
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.029418,
+      "rank_bahdanau": 9,
+      "rank_shap": 7,
+      "shap_signed": 0.09262,
+      "in_both": true
+    },
+    {
+      "word": "everyone",
+      "rrf_score": 0.029083,
+      "rank_bahdanau": 5,
+      "rank_shap": 13,
+      "shap_signed": 0.063286,
+      "in_both": true
+    },
+    {
+      "word": "cool",
+      "rrf_score": 0.028778,
+      "rank_bahdanau": 10,
+      "rank_shap": 9,
+      "shap_signed": 0.08085,
+      "in_both": true
+    },
+    {
+      "word": "helps",
+      "rrf_score": 0.026667,
+      "rank_bahdanau": 15,
+      "rank_shap": 15,
+      "shap_signed": 0.062267,
+      "in_both": true
+    },
+    {
+      "word": "effective",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.096249,
+      "in_both": false
+    },
+    {
+      "word": "fair",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.094781,
+      "in_both": false
+    },
+    {
+      "word": "skills",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "removes",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": null,
+      "rank_shap": 10,
+      "shap_signed": -0.079587,
+      "in_both": false
+    },
+    {
+      "word": "beginners",
+      "rrf_score": 0.014085,
+      "rank_bahdanau": 11,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 12,
+      "text": "Best choice for everyone. The simplest app ever to use with intuitive interface but also the most effective for any beginners who want to better their English skills."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 0,
+      "text": "Great application to learn English As everyone knows, English is the most important language for communicating with people regardless of any language-speaking country. Therefore, knowledge of English is the best way to advance to a successful career. This application helps to learn English at home, saving money and time. Very useful, most get it for the complete English course!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 5,
+      "text": "Great!! Thanks so much for developing such a useful application. It helped me a lot. Since childhood I have had weak English. The training classes were boring. Now I can easily learn English using this app. This app is really cool. I recommend it."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 9,
+      "text": "The best English learning app I have worked on recently in a tourist hotel and my English is not good. I searched and found this app and used it to learn. This helps me to learn English. Now my English has improved a lot. Thank you developer."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 14,
+      "text": "this amazing App! I am very impressed after installing this app. What a good application to learn English! It's nice to have an app like this. It is a good way to learn English! I love the strategy that this app works and very fair! English can be a useful element that everyone should learn and this app removes it. Recommended!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "english",
+      1.006102
+    ],
+    [
+      "learn",
+      0.619251
+    ],
+    [
+      "great",
+      0.395476
+    ],
+    [
+      "not good",
+      0.336694
+    ],
+    [
+      "everyone",
+      0.318251
+    ],
+    [
+      "useful",
+      0.301047
+    ],
+    [
+      "best",
+      0.263798
+    ],
+    [
+      "skills",
+      0.253833
+    ],
+    [
+      "good",
+      0.250896
+    ],
+    [
+      "cool",
+      0.248865
+    ],
+    [
+      "beginners",
+      0.21894
+    ],
+    [
+      "choice",
+      0.206541
+    ],
+    [
+      "country",
+      0.206217
+    ],
+    [
+      "developer",
+      0.184951
+    ],
+    [
+      "helps",
+      0.177488
+    ]
+  ]
+}

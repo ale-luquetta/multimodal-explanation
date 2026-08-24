@@ -1,0 +1,370 @@
+{
+  "package_name": "com.andromo.dev462136.app489914",
+  "num_screens": 8,
+  "app_score": 0.9849799573421478,
+  "app_prediction": "good",
+  "app_confidence": 0.9849799573421478,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9759057760238647,
+    0.9625399708747864,
+    0.9878580570220947,
+    0.9963101744651794,
+    0.9959208965301514,
+    0.986764669418335,
+    0.9941188097000122,
+    0.9804213047027588
+  ],
+  "prediction_variance": 0.00011871754011139046,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_andromo_dev462136_app489914\\com_andromo_dev462136_app489914_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.andromo.dev462136.app489914 was predicted as good with average confidence 98% across 8 screens.",
+    "simple": "com.andromo.dev462136.app489914 was predicted as good with average confidence 98% across 8 screens. Across these screens, the model frequently emphasized Web View components.",
+    "detailed": "com.andromo.dev462136.app489914 was predicted as good with average confidence 98% across 8 screens. Across these screens, the model frequently emphasized Web View components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Web View (11x), Icon (6x), Text Button (3x). The most influential review words across screens were 'information', 'informative', 'can't wait', 'spikes', and '100's'. The app belongs to the Medical category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "57013",
+    "review_rank": 4,
+    "delta_p_img": 0.7621306627988815,
+    "confidence": 0.9963101744651794,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\57013.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "information",
+      2.031027
+    ],
+    [
+      "informative",
+      1.360396
+    ],
+    [
+      "can't wait",
+      1.253509
+    ],
+    [
+      "spikes",
+      0.876974
+    ],
+    [
+      "100's",
+      0.87425
+    ],
+    [
+      "years",
+      0.868456
+    ],
+    [
+      "far",
+      0.856989
+    ],
+    [
+      "regimen",
+      0.805908
+    ],
+    [
+      "levels",
+      0.799697
+    ],
+    [
+      "contains",
+      0.767884
+    ],
+    [
+      "say",
+      0.710714
+    ],
+    [
+      "godsend",
+      0.69182
+    ],
+    [
+      "care",
+      0.665557
+    ],
+    [
+      "exercise",
+      0.658149
+    ],
+    [
+      "method",
+      0.606107
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "informative",
+      0.722964
+    ],
+    [
+      "excellent",
+      0.642191
+    ],
+    [
+      "can't wait",
+      0.639309
+    ],
+    [
+      "love",
+      0.502598
+    ],
+    [
+      "helpful",
+      0.468728
+    ],
+    [
+      "good",
+      0.421258
+    ],
+    [
+      "valuable",
+      0.391508
+    ],
+    [
+      "not good",
+      -0.35559
+    ],
+    [
+      "easier",
+      0.339146
+    ],
+    [
+      "information",
+      0.310642
+    ],
+    [
+      "natural",
+      0.290827
+    ],
+    [
+      "touching",
+      0.256267
+    ],
+    [
+      "simple",
+      0.223832
+    ],
+    [
+      "find",
+      0.187648
+    ],
+    [
+      "helps",
+      0.171084
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "informative",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": 0.722964,
+      "in_both": true
+    },
+    {
+      "word": "can't wait",
+      "rrf_score": 0.031746,
+      "rank_bahdanau": 3,
+      "rank_shap": 3,
+      "shap_signed": 0.639309,
+      "in_both": true
+    },
+    {
+      "word": "information",
+      "rrf_score": 0.030679,
+      "rank_bahdanau": 1,
+      "rank_shap": 10,
+      "shap_signed": 0.310642,
+      "in_both": true
+    },
+    {
+      "word": "excellent",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": 0.642191,
+      "in_both": false
+    },
+    {
+      "word": "spikes",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.502598,
+      "in_both": false
+    },
+    {
+      "word": "helpful",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.468728,
+      "in_both": false
+    },
+    {
+      "word": "100's",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "years",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.421258,
+      "in_both": false
+    },
+    {
+      "word": "valuable",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.391508,
+      "in_both": false
+    },
+    {
+      "word": "far",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not good",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.35559,
+      "in_both": false
+    },
+    {
+      "word": "regimen",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "easier",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.339146,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 13,
+      "text": "My initial experience was very informative. I learned that all vegetables and fruits are not good for diabetics and cause blood sugar spikes. I can't wait to find out what other valuable information this app contains. I love it so far."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 3,
+      "text": "I don't know about the apps, because I tend to ignore them. I find the information very helpful. Plus there are a variety of topics touching on all aspects of diabetes self care. I generally read over a section or two at night, before I go to bed. It helps me plan the next few days for food and exercise. All in all, the site is a Godsend."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 7,
+      "text": "Very informative. I like how each section breaks the information down in such a way as to really understand it in a very simple method. I am Type 2 and have really been battling with my glucose levels, with this app it will be easier for me to, I believe, get it under control, and I feel I can stay on track with my diet and physical activity regimen. Thank you for putting this all together and offering it for free."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 2,
+      "text": "I just downloaded this app. And I have to say it really has good geeat tips things you may have known but forgot them over the years. I am a type 1 diabetic for 30 years so over the years there is always new studies being done and you can learn a lot from the up to date studies and it is a lot easier now to count the calories and the carbohydrates in your food now then it was 30 years ago. You can found 100's of app with this information. I am thankful for this app."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 10,
+      "text": "Excellent guide for newly dx. diabetics, such as my dau Or longtime db patients, like my sister! I'm a retired medic/EMT, Master Gdnr, natural fds fan, gym rat & herbalist. They don't listen to a thing I say, so I'm fwdg this app, immediately! Thanks for your truly lifesaving app. Keep getting the word out. We, ALL need to heed the info, soon. Sugar's NOT synonymous w/life. In fact, I consider it the 'Anti-Life'! Though I decorate special occassion cakes, I offer natural options to ingrds."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "information",
+      2.031027
+    ],
+    [
+      "informative",
+      1.360396
+    ],
+    [
+      "can't wait",
+      1.253509
+    ],
+    [
+      "spikes",
+      0.876974
+    ],
+    [
+      "100's",
+      0.87425
+    ],
+    [
+      "years",
+      0.868456
+    ],
+    [
+      "far",
+      0.856989
+    ],
+    [
+      "regimen",
+      0.805908
+    ],
+    [
+      "levels",
+      0.799697
+    ],
+    [
+      "contains",
+      0.767884
+    ],
+    [
+      "say",
+      0.710714
+    ],
+    [
+      "godsend",
+      0.69182
+    ],
+    [
+      "care",
+      0.665557
+    ],
+    [
+      "exercise",
+      0.658149
+    ],
+    [
+      "method",
+      0.606107
+    ]
+  ]
+}

@@ -1,0 +1,2677 @@
+[
+  {
+    "package_name": "com.appspot.swisscodemonkeys.old",
+    "screen_id": "33496",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\33496.jpg",
+    "text": "Awful, just puts lines on top of your photo. it make me horror zombie instead of making older....waste of time very weak, it only burn skin, oooof",
+    "prediction": 0.00402218010276556,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9959778198972344,
+    "gradcam_stats": {
+      "mean": 0.5127540826797485,
+      "max": 1.0,
+      "std": 0.20708933472633362
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This app is very poor and has extremely limited features. Basically, it just puts a bad wrinkle filter and bushy hair on a photo, no AI or face sculpting. I was trying to amuse my 5 yr old, she said 'this app sucks' and she was right.",
+      "Recommend not to install what I think is a useless app, it shows a photo that you decorate with silly moustaches, glasses etc on.  Total waste of time, I've already uninstalled it.  You asked me to update my review of this app, sorry, my opinion is unchanged, I can do that in photoshop without installing this app.",
+      "Tried the app for 3 people and it only added some wrinkles and that's all",
+      "This app is a joke.  It did not make me look one year older, instead it just made me look super wrinkled.  In its favor though, it asked for permissions during the install process and didn't freak out when I only wanted to get pictures already taken.",
+      "Not a big selection and can't save images to my phone. Meaning that my phone won't save the images, which is ok now as l have navigated a similar one u have and found how to use it, but still not a lot of options on the app."
+    ],
+    "app_name": "Make me Old",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.004015776794403791,
+      "p_img": 0.10461311787366867,
+      "delta_p_img": 0.10059734107926488
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          2,
+          189,
+          56,
+          207
+        ],
+        "bounds_rico": [
+          18,
+          2171,
+          361,
+          2374
+        ],
+        "score_total": 712.5159912109375,
+        "score_mean": 0.7330411432211291
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          84,
+          1,
+          139,
+          22
+        ],
+        "bounds_rico": [
+          546,
+          18,
+          894,
+          254
+        ],
+        "score_total": 652.179931640625,
+        "score_mean": 0.5646579494724026
+      },
+      {
+        "rank": 2,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          15,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          175,
+          1440,
+          2392
+        ],
+        "score_total": 23081.658203125,
+        "score_mean": 0.5311500875166836
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 712.5159912109375,
+        "score_mean": 0.7330411432211291,
+        "bounds_image": [
+          2,
+          189,
+          56,
+          207
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 652.179931640625,
+        "score_mean": 0.5646579494724026,
+        "bounds_image": [
+          84,
+          1,
+          139,
+          22
+        ]
+      },
+      {
+        "component": "Background Image",
+        "score_total": 23081.658203125,
+        "score_mean": 0.5311500875166836,
+        "bounds_image": [
+          0,
+          15,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 712.5159912109375,
+        "score_mean": 0.7330411432211291,
+        "bounds_image": [
+          2,
+          189,
+          56,
+          207
+        ],
+        "bounds_rico": [
+          18,
+          2171,
+          361,
+          2374
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 652.179931640625,
+        "score_mean": 0.5646579494724026,
+        "bounds_image": [
+          84,
+          1,
+          139,
+          22
+        ],
+        "bounds_rico": [
+          546,
+          18,
+          894,
+          254
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Background Image",
+        "score_total": 23081.658203125,
+        "score_mean": 0.5311500875166836,
+        "bounds_image": [
+          0,
+          15,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          175,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 439.972900390625,
+        "score_mean": 0.3879831573109568,
+        "bounds_image": [
+          167,
+          1,
+          221,
+          22
+        ],
+        "bounds_rico": [
+          1074,
+          18,
+          1422,
+          256
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 145.50698852539062,
+        "score_mean": 0.3730948423727965,
+        "bounds_image": [
+          195,
+          23,
+          221,
+          38
+        ],
+        "bounds_rico": [
+          1254,
+          274,
+          1422,
+          442
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 396.7724609375,
+        "score_mean": 0.3435259402056277,
+        "bounds_image": [
+          84,
+          186,
+          139,
+          207
+        ],
+        "bounds_rico": [
+          546,
+          2136,
+          894,
+          2374
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 318.8911437988281,
+        "score_mean": 0.3280773084350084,
+        "bounds_image": [
+          2,
+          1,
+          56,
+          19
+        ],
+        "bounds_rico": [
+          18,
+          18,
+          361,
+          221
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text Button",
+        "score_total": 248.01870727539062,
+        "score_mean": 0.22964695118091724,
+        "bounds_image": [
+          167,
+          187,
+          221,
+          207
+        ],
+        "bounds_rico": [
+          1074,
+          2138,
+          1422,
+          2374
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Awful"
+      },
+      {
+        "index": 5,
+        "token": "▁lines"
+      },
+      {
+        "index": 13,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "This app is very poor and has extremely limited features. Basically, it just puts a bad wrinkle filter and bushy hair on a photo, no AI or face sculpting. I was trying to amuse my 5 yr old, she said 'this app sucks' and she was right.",
+        "word_count": 47,
+        "interface_pos": 0.0067,
+        "interface_neg": 0.9795,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Icon, Background Image",
+        "top_k_tokens": "▁sculpting, ▁right, ▁features",
+        "p_orig": 0.006893802434206009,
+        "p_img": 0.155654177069664,
+        "delta_p_img": 0.148760374635458,
+        "gradcam_mean": 0.4269408881664276,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Background Image",
+        "delta_p_img_shap": 0.148760374635458,
+        "word_attention_top15": [
+          [
+            "sculpting",
+            0.127982
+          ],
+          [
+            "right",
+            0.106042
+          ],
+          [
+            "sucks",
+            0.082837
+          ],
+          [
+            "features",
+            0.078917
+          ],
+          [
+            "photo",
+            0.072929
+          ],
+          [
+            "old",
+            0.056143
+          ],
+          [
+            "no ai",
+            0.050566
+          ],
+          [
+            "basically",
+            0.048179
+          ],
+          [
+            "yr",
+            0.047549
+          ],
+          [
+            "wrinkle",
+            0.044188
+          ],
+          [
+            "limited",
+            0.043216
+          ],
+          [
+            "poor",
+            0.039638
+          ],
+          [
+            "said",
+            0.036545
+          ],
+          [
+            "puts",
+            0.030586
+          ],
+          [
+            "face",
+            0.024007
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "poor",
+            -0.000981
+          ],
+          [
+            "amuse",
+            0.000679
+          ],
+          [
+            "limited",
+            -0.000581
+          ],
+          [
+            "sucks",
+            -0.000477
+          ],
+          [
+            "bad",
+            -0.000376
+          ],
+          [
+            "sculpting",
+            0.000188
+          ],
+          [
+            "face",
+            0.00015
+          ],
+          [
+            "trying",
+            -0.000138
+          ],
+          [
+            "extremely",
+            0.000136
+          ],
+          [
+            "photo",
+            0.000127
+          ],
+          [
+            "basically",
+            0.000125
+          ],
+          [
+            "features",
+            0.000124
+          ],
+          [
+            "no ai",
+            0.000113
+          ],
+          [
+            "hair",
+            -9e-05
+          ],
+          [
+            "puts",
+            7.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.176132470369339,
+          "max": 0.9999998211860657,
+          "std": 0.3089989125728607
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Recommend not to install what I think is a useless app, it shows a photo that you decorate with silly moustaches, glasses etc on.  Total waste of time, I've already uninstalled it.  You asked me to update my review of this app, sorry, my opinion is unchanged, I can do that in photoshop without installing this app.",
+        "word_count": 57,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9712,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Icon, Background Image",
+        "top_k_tokens": "▁waste, ▁moustache, ▁it",
+        "p_orig": 0.005778098478913307,
+        "p_img": 0.13916930556297302,
+        "delta_p_img": 0.13339120708405972,
+        "gradcam_mean": 0.4397946894168854,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Background Image",
+        "delta_p_img_shap": 0.13339120708405972,
+        "word_attention_top15": [
+          [
+            "moustaches",
+            0.095029
+          ],
+          [
+            "sorry",
+            0.090103
+          ],
+          [
+            "waste",
+            0.081947
+          ],
+          [
+            "not install",
+            0.064645
+          ],
+          [
+            "time",
+            0.055712
+          ],
+          [
+            "without installing",
+            0.050846
+          ],
+          [
+            "unchanged",
+            0.049429
+          ],
+          [
+            "silly",
+            0.046745
+          ],
+          [
+            "opinion",
+            0.046552
+          ],
+          [
+            "think",
+            0.046099
+          ],
+          [
+            "recommend",
+            0.043908
+          ],
+          [
+            "uninstalled",
+            0.033733
+          ],
+          [
+            "glasses",
+            0.032452
+          ],
+          [
+            "useless",
+            0.032155
+          ],
+          [
+            "total",
+            0.031795
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.000628
+          ],
+          [
+            "sorry",
+            -0.000476
+          ],
+          [
+            "not install",
+            -0.000411
+          ],
+          [
+            "review",
+            0.000384
+          ],
+          [
+            "waste",
+            -0.000354
+          ],
+          [
+            "photoshop",
+            -0.000285
+          ],
+          [
+            "silly",
+            -0.000259
+          ],
+          [
+            "unchanged",
+            0.000223
+          ],
+          [
+            "total",
+            0.000135
+          ],
+          [
+            "decorate",
+            0.000135
+          ],
+          [
+            "shows",
+            0.000119
+          ],
+          [
+            "uninstalled",
+            -0.0001
+          ],
+          [
+            "update",
+            8.1e-05
+          ],
+          [
+            "moustaches",
+            7.7e-05
+          ],
+          [
+            "photo",
+            -6.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17629431188106537,
+          "max": 0.9999998211860657,
+          "std": 0.3092629015445709
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Tried the app for 3 people and it only added some wrinkles and that's all",
+        "word_count": 15,
+        "interface_pos": 0.0106,
+        "interface_neg": 0.8672,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Icon, Background Image",
+        "top_k_tokens": "▁wrinkles, ▁some, ▁interface",
+        "p_orig": 0.004869059659540653,
+        "p_img": 0.12362240254878998,
+        "delta_p_img": 0.11875334288924932,
+        "gradcam_mean": 0.49190250039100647,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Background Image",
+        "delta_p_img_shap": 0.11875334288924932,
+        "word_attention_top15": [
+          [
+            "wrinkles",
+            0.383283
+          ],
+          [
+            "tried",
+            0.221335
+          ],
+          [
+            "people",
+            0.209303
+          ],
+          [
+            "added",
+            0.186079
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tried",
+            -0.001741
+          ],
+          [
+            "wrinkles",
+            -0.00141
+          ],
+          [
+            "people",
+            0.000362
+          ],
+          [
+            "added",
+            -6.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17817038297653198,
+          "max": 0.9999997615814209,
+          "std": 0.31249380111694336
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app is a joke.  It did not make me look one year older, instead it just made me look super wrinkled.  In its favor though, it asked for permissions during the install process and didn't freak out when I only wanted to get pictures already taken.",
+        "word_count": 47,
+        "interface_pos": 0.0282,
+        "interface_neg": 0.948,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Icon, Background Image",
+        "top_k_tokens": "▁wrinkled, ▁joke, ▁process",
+        "p_orig": 0.007810654584318399,
+        "p_img": 0.17897816002368927,
+        "delta_p_img": 0.17116750543937087,
+        "gradcam_mean": 0.44140204787254333,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Background Image",
+        "delta_p_img_shap": 0.17116750543937087,
+        "word_attention_top15": [
+          [
+            "wrinkled",
+            0.146621
+          ],
+          [
+            "joke",
+            0.102037
+          ],
+          [
+            "taken",
+            0.096733
+          ],
+          [
+            "though",
+            0.087145
+          ],
+          [
+            "didn't freak",
+            0.078598
+          ],
+          [
+            "process",
+            0.065103
+          ],
+          [
+            "already",
+            0.05851
+          ],
+          [
+            "pictures",
+            0.05441
+          ],
+          [
+            "wanted",
+            0.052129
+          ],
+          [
+            "older",
+            0.049896
+          ],
+          [
+            "instead",
+            0.040303
+          ],
+          [
+            "not look",
+            0.034555
+          ],
+          [
+            "year",
+            0.028992
+          ],
+          [
+            "install",
+            0.026334
+          ],
+          [
+            "look",
+            0.020775
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "favor",
+            0.001403
+          ],
+          [
+            "didn't freak",
+            0.00086
+          ],
+          [
+            "joke",
+            -0.000687
+          ],
+          [
+            "wrinkled",
+            -0.000532
+          ],
+          [
+            "not look",
+            0.000446
+          ],
+          [
+            "asked",
+            -0.000408
+          ],
+          [
+            "though",
+            0.000369
+          ],
+          [
+            "instead",
+            -0.00031
+          ],
+          [
+            "install",
+            0.000303
+          ],
+          [
+            "super",
+            0.000274
+          ],
+          [
+            "process",
+            0.000229
+          ],
+          [
+            "look",
+            -0.00016
+          ],
+          [
+            "older",
+            -0.000127
+          ],
+          [
+            "wanted",
+            0.000118
+          ],
+          [
+            "already",
+            9.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1752791702747345,
+          "max": 0.9999998807907104,
+          "std": 0.30819132924079895
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not a big selection and can't save images to my phone. Meaning that my phone won't save the images, which is ok now as l have navigated a similar one u have and found how to use it, but still not a lot of options on the app.",
+        "word_count": 48,
+        "interface_pos": 0.0453,
+        "interface_neg": 0.8167,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Icon, Background Image",
+        "top_k_tokens": "▁Not, ▁a, ▁it",
+        "p_orig": 0.009544823318719864,
+        "p_img": 0.20061542093753815,
+        "delta_p_img": 0.19107059761881828,
+        "gradcam_mean": 0.4106382131576538,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Background Image",
+        "delta_p_img_shap": 0.19107059761881828,
+        "word_attention_top15": [
+          [
+            "images",
+            0.154848
+          ],
+          [
+            "not big",
+            0.119759
+          ],
+          [
+            "won't save",
+            0.115681
+          ],
+          [
+            "can't save",
+            0.09054
+          ],
+          [
+            "not options",
+            0.090178
+          ],
+          [
+            "phone",
+            0.079354
+          ],
+          [
+            "similar",
+            0.071042
+          ],
+          [
+            "found",
+            0.069643
+          ],
+          [
+            "navigated",
+            0.068703
+          ],
+          [
+            "ok",
+            0.041995
+          ],
+          [
+            "u",
+            0.034718
+          ],
+          [
+            "l",
+            0.032212
+          ],
+          [
+            "selection",
+            0.02077
+          ],
+          [
+            "meaning",
+            0.010557
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "found",
+            0.001023
+          ],
+          [
+            "won't save",
+            -0.001012
+          ],
+          [
+            "not options",
+            -0.000839
+          ],
+          [
+            "can't save",
+            -0.000773
+          ],
+          [
+            "not big",
+            -0.000538
+          ],
+          [
+            "phone",
+            0.000476
+          ],
+          [
+            "ok",
+            0.000405
+          ],
+          [
+            "selection",
+            0.000405
+          ],
+          [
+            "images",
+            0.000223
+          ],
+          [
+            "navigated",
+            -0.000176
+          ],
+          [
+            "u",
+            -0.000106
+          ],
+          [
+            "similar",
+            5.7e-05
+          ],
+          [
+            "l",
+            3.9e-05
+          ],
+          [
+            "meaning",
+            3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17347818613052368,
+          "max": 0.9999998807907104,
+          "std": 0.30559566617012024
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Text Button at the top-left.",
+      "detailed": "This screen of Make me Old (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Text Button at the top-left, a small Icon at the top-left, and a small Background Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.appspot.swisscodemonkeys.old",
+    "screen_id": "33497",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\33497.jpg",
+    "text": "Awful, just puts lines on top of your photo. it make me horror zombie instead of making older....waste of time very weak, it only burn skin, oooof",
+    "prediction": 0.0025931501295417547,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9974068498704582,
+    "gradcam_stats": {
+      "mean": 0.5424363613128662,
+      "max": 1.0,
+      "std": 0.2329055219888687
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This app is very poor and has extremely limited features. Basically, it just puts a bad wrinkle filter and bushy hair on a photo, no AI or face sculpting. I was trying to amuse my 5 yr old, she said 'this app sucks' and she was right.",
+      "Recommend not to install what I think is a useless app, it shows a photo that you decorate with silly moustaches, glasses etc on.  Total waste of time, I've already uninstalled it.  You asked me to update my review of this app, sorry, my opinion is unchanged, I can do that in photoshop without installing this app.",
+      "Tried the app for 3 people and it only added some wrinkles and that's all",
+      "This app is a joke.  It did not make me look one year older, instead it just made me look super wrinkled.  In its favor though, it asked for permissions during the install process and didn't freak out when I only wanted to get pictures already taken.",
+      "Not a big selection and can't save images to my phone. Meaning that my phone won't save the images, which is ok now as l have navigated a similar one u have and found how to use it, but still not a lot of options on the app."
+    ],
+    "app_name": "Make me Old",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0026047073770314455,
+      "p_img": 0.003706088988110423,
+      "delta_p_img": 0.0011013816110789776
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          139,
+          55,
+          218,
+          110
+        ],
+        "bounds_rico": [
+          896,
+          631,
+          1404,
+          1261
+        ],
+        "score_total": 3222.1044921875,
+        "score_mean": 0.7415660511363636
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          31,
+          32,
+          191,
+          52
+        ],
+        "bounds_rico": [
+          205,
+          371,
+          1234,
+          595
+        ],
+        "score_total": 2333.11767578125,
+        "score_mean": 0.7290992736816406
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          5,
+          55,
+          84,
+          110
+        ],
+        "bounds_rico": [
+          36,
+          631,
+          544,
+          1261
+        ],
+        "score_total": 3096.375,
+        "score_mean": 0.7126294591484464
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 3222.1044921875,
+        "score_mean": 0.7415660511363636,
+        "bounds_image": [
+          139,
+          55,
+          218,
+          110
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 2333.11767578125,
+        "score_mean": 0.7290992736816406,
+        "bounds_image": [
+          31,
+          32,
+          191,
+          52
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 3096.375,
+        "score_mean": 0.7126294591484464,
+        "bounds_image": [
+          5,
+          55,
+          84,
+          110
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 3222.1044921875,
+        "score_mean": 0.7415660511363636,
+        "bounds_image": [
+          139,
+          55,
+          218,
+          110
+        ],
+        "bounds_rico": [
+          896,
+          631,
+          1404,
+          1261
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 2333.11767578125,
+        "score_mean": 0.7290992736816406,
+        "bounds_image": [
+          31,
+          32,
+          191,
+          52
+        ],
+        "bounds_rico": [
+          205,
+          371,
+          1234,
+          595
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 3096.375,
+        "score_mean": 0.7126294591484464,
+        "bounds_image": [
+          5,
+          55,
+          84,
+          110
+        ],
+        "bounds_rico": [
+          36,
+          631,
+          544,
+          1261
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 2724.083251953125,
+        "score_mean": 0.626946663280351,
+        "bounds_image": [
+          5,
+          113,
+          84,
+          168
+        ],
+        "bounds_rico": [
+          36,
+          1296,
+          544,
+          1926
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Background Image",
+        "score_total": 26737.37109375,
+        "score_mean": 0.5711160947913106,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 2232.742919921875,
+        "score_mean": 0.513864883756473,
+        "bounds_image": [
+          139,
+          113,
+          218,
+          168
+        ],
+        "bounds_rico": [
+          896,
+          1296,
+          1404,
+          1926
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 724.7877807617188,
+        "score_mean": 0.4930529120828019,
+        "bounds_image": [
+          149,
+          8,
+          219,
+          29
+        ],
+        "bounds_rico": [
+          963,
+          98,
+          1412,
+          336
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text Button",
+        "score_total": 621.8739013671875,
+        "score_mean": 0.42304347031781464,
+        "bounds_image": [
+          75,
+          2,
+          145,
+          23
+        ],
+        "bounds_rico": [
+          486,
+          29,
+          935,
+          265
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text Button",
+        "score_total": 479.4244079589844,
+        "score_mean": 0.40871646032308984,
+        "bounds_image": [
+          3,
+          8,
+          72,
+          25
+        ],
+        "bounds_rico": [
+          21,
+          94,
+          465,
+          297
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 270.48681640625,
+        "score_mean": 0.2470199236586758,
+        "bounds_image": [
+          2,
+          194,
+          221,
+          199
+        ],
+        "bounds_rico": [
+          14,
+          2224,
+          1426,
+          2285
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text Button",
+        "score_total": 56.760345458984375,
+        "score_mean": 0.1338687392900575,
+        "bounds_image": [
+          85,
+          200,
+          138,
+          208
+        ],
+        "bounds_rico": [
+          548,
+          2292,
+          892,
+          2378
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Awful"
+      },
+      {
+        "index": 5,
+        "token": "▁lines"
+      },
+      {
+        "index": 13,
+        "token": "▁interface"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "This app is very poor and has extremely limited features. Basically, it just puts a bad wrinkle filter and bushy hair on a photo, no AI or face sculpting. I was trying to amuse my 5 yr old, she said 'this app sucks' and she was right.",
+        "word_count": 47,
+        "interface_pos": 0.0067,
+        "interface_neg": 0.9795,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁sculpting, ▁right, ▁features",
+        "p_orig": 0.004551950376480818,
+        "p_img": 0.0066380430944263935,
+        "delta_p_img": 0.0020860927179455757,
+        "gradcam_mean": 0.5197820663452148,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text Button",
+        "delta_p_img_shap": 0.002804663614369929,
+        "word_attention_top15": [
+          [
+            "sculpting",
+            0.127982
+          ],
+          [
+            "right",
+            0.106042
+          ],
+          [
+            "sucks",
+            0.082837
+          ],
+          [
+            "features",
+            0.078917
+          ],
+          [
+            "photo",
+            0.072929
+          ],
+          [
+            "old",
+            0.056143
+          ],
+          [
+            "no ai",
+            0.050566
+          ],
+          [
+            "basically",
+            0.048179
+          ],
+          [
+            "yr",
+            0.047549
+          ],
+          [
+            "wrinkle",
+            0.044188
+          ],
+          [
+            "limited",
+            0.043216
+          ],
+          [
+            "poor",
+            0.039638
+          ],
+          [
+            "said",
+            0.036545
+          ],
+          [
+            "puts",
+            0.030586
+          ],
+          [
+            "face",
+            0.024007
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "poor",
+            -0.000567
+          ],
+          [
+            "limited",
+            -0.000287
+          ],
+          [
+            "sucks",
+            -0.000218
+          ],
+          [
+            "amuse",
+            0.000214
+          ],
+          [
+            "bad",
+            -0.000133
+          ],
+          [
+            "no ai",
+            0.000113
+          ],
+          [
+            "face",
+            8.9e-05
+          ],
+          [
+            "sculpting",
+            8.7e-05
+          ],
+          [
+            "photo",
+            8.5e-05
+          ],
+          [
+            "extremely",
+            8.4e-05
+          ],
+          [
+            "basically",
+            7.9e-05
+          ],
+          [
+            "features",
+            7.7e-05
+          ],
+          [
+            "yr",
+            5.6e-05
+          ],
+          [
+            "puts",
+            4.7e-05
+          ],
+          [
+            "old",
+            4.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14000409841537476,
+          "max": 0.9999995827674866,
+          "std": 0.2685810923576355
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Recommend not to install what I think is a useless app, it shows a photo that you decorate with silly moustaches, glasses etc on.  Total waste of time, I've already uninstalled it.  You asked me to update my review of this app, sorry, my opinion is unchanged, I can do that in photoshop without installing this app.",
+        "word_count": 57,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9712,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁waste, ▁moustache, ▁it",
+        "p_orig": 0.003825152525678277,
+        "p_img": 0.005814620293676853,
+        "delta_p_img": 0.001989467767998576,
+        "gradcam_mean": 0.5250347256660461,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text Button",
+        "delta_p_img_shap": 0.0022838665172457695,
+        "word_attention_top15": [
+          [
+            "moustaches",
+            0.095029
+          ],
+          [
+            "sorry",
+            0.090103
+          ],
+          [
+            "waste",
+            0.081947
+          ],
+          [
+            "not install",
+            0.064645
+          ],
+          [
+            "time",
+            0.055712
+          ],
+          [
+            "without installing",
+            0.050846
+          ],
+          [
+            "unchanged",
+            0.049429
+          ],
+          [
+            "silly",
+            0.046745
+          ],
+          [
+            "opinion",
+            0.046552
+          ],
+          [
+            "think",
+            0.046099
+          ],
+          [
+            "recommend",
+            0.043908
+          ],
+          [
+            "uninstalled",
+            0.033733
+          ],
+          [
+            "glasses",
+            0.032452
+          ],
+          [
+            "useless",
+            0.032155
+          ],
+          [
+            "total",
+            0.031795
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.0003
+          ],
+          [
+            "not install",
+            -0.000255
+          ],
+          [
+            "review",
+            0.000204
+          ],
+          [
+            "waste",
+            -0.000187
+          ],
+          [
+            "photoshop",
+            -0.000157
+          ],
+          [
+            "sorry",
+            -0.000129
+          ],
+          [
+            "silly",
+            -0.000119
+          ],
+          [
+            "unchanged",
+            9.1e-05
+          ],
+          [
+            "recommend",
+            6.5e-05
+          ],
+          [
+            "total",
+            5.9e-05
+          ],
+          [
+            "shows",
+            5.8e-05
+          ],
+          [
+            "decorate",
+            5.3e-05
+          ],
+          [
+            "update",
+            4.7e-05
+          ],
+          [
+            "opinion",
+            4.5e-05
+          ],
+          [
+            "moustaches",
+            3.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13967642188072205,
+          "max": 0.9999995231628418,
+          "std": 0.26847583055496216
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Tried the app for 3 people and it only added some wrinkles and that's all",
+        "word_count": 15,
+        "interface_pos": 0.0106,
+        "interface_neg": 0.8672,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁wrinkles, ▁some, ▁interface",
+        "p_orig": 0.0031718381214886904,
+        "p_img": 0.0045937043614685535,
+        "delta_p_img": 0.0014218662399798632,
+        "gradcam_mean": 0.5400204658508301,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text Button",
+        "delta_p_img_shap": 0.0019901487976312637,
+        "word_attention_top15": [
+          [
+            "wrinkles",
+            0.383283
+          ],
+          [
+            "tried",
+            0.221335
+          ],
+          [
+            "people",
+            0.209303
+          ],
+          [
+            "added",
+            0.186079
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tried",
+            -0.00081
+          ],
+          [
+            "wrinkles",
+            -0.000644
+          ],
+          [
+            "people",
+            0.00018
+          ],
+          [
+            "added",
+            -1.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14131656289100647,
+          "max": 0.9999992847442627,
+          "std": 0.2685278058052063
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app is a joke.  It did not make me look one year older, instead it just made me look super wrinkled.  In its favor though, it asked for permissions during the install process and didn't freak out when I only wanted to get pictures already taken.",
+        "word_count": 47,
+        "interface_pos": 0.0282,
+        "interface_neg": 0.948,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁wrinkled, ▁joke, ▁process",
+        "p_orig": 0.005030764266848564,
+        "p_img": 0.00755714438855648,
+        "delta_p_img": 0.0025263801217079163,
+        "gradcam_mean": 0.5155847072601318,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text Button",
+        "delta_p_img_shap": 0.003102836082689464,
+        "word_attention_top15": [
+          [
+            "wrinkled",
+            0.146621
+          ],
+          [
+            "joke",
+            0.102037
+          ],
+          [
+            "taken",
+            0.096733
+          ],
+          [
+            "though",
+            0.087145
+          ],
+          [
+            "didn't freak",
+            0.078598
+          ],
+          [
+            "process",
+            0.065103
+          ],
+          [
+            "already",
+            0.05851
+          ],
+          [
+            "pictures",
+            0.05441
+          ],
+          [
+            "wanted",
+            0.052129
+          ],
+          [
+            "older",
+            0.049896
+          ],
+          [
+            "instead",
+            0.040303
+          ],
+          [
+            "not look",
+            0.034555
+          ],
+          [
+            "year",
+            0.028992
+          ],
+          [
+            "install",
+            0.026334
+          ],
+          [
+            "look",
+            0.020775
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "favor",
+            0.000743
+          ],
+          [
+            "didn't freak",
+            0.000515
+          ],
+          [
+            "joke",
+            -0.000388
+          ],
+          [
+            "not look",
+            0.000295
+          ],
+          [
+            "though",
+            0.000204
+          ],
+          [
+            "wrinkled",
+            -0.000189
+          ],
+          [
+            "instead",
+            -0.000185
+          ],
+          [
+            "super",
+            0.000184
+          ],
+          [
+            "install",
+            0.000149
+          ],
+          [
+            "asked",
+            -0.000143
+          ],
+          [
+            "look",
+            -0.000117
+          ],
+          [
+            "process",
+            0.0001
+          ],
+          [
+            "already",
+            7.1e-05
+          ],
+          [
+            "wanted",
+            6.3e-05
+          ],
+          [
+            "year",
+            -4.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14255553483963013,
+          "max": 0.9999995827674866,
+          "std": 0.2717253267765045
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not a big selection and can't save images to my phone. Meaning that my phone won't save the images, which is ok now as l have navigated a similar one u have and found how to use it, but still not a lot of options on the app.",
+        "word_count": 48,
+        "interface_pos": 0.0453,
+        "interface_neg": 0.8167,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁Not, ▁a, ▁it",
+        "p_orig": 0.005605755373835564,
+        "p_img": 0.008556838147342205,
+        "delta_p_img": 0.0029510827735066414,
+        "gradcam_mean": 0.5121283531188965,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text Button",
+        "delta_p_img_shap": 0.0035091093741357327,
+        "word_attention_top15": [
+          [
+            "images",
+            0.154848
+          ],
+          [
+            "not big",
+            0.119759
+          ],
+          [
+            "won't save",
+            0.115681
+          ],
+          [
+            "can't save",
+            0.09054
+          ],
+          [
+            "not options",
+            0.090178
+          ],
+          [
+            "phone",
+            0.079354
+          ],
+          [
+            "similar",
+            0.071042
+          ],
+          [
+            "found",
+            0.069643
+          ],
+          [
+            "navigated",
+            0.068703
+          ],
+          [
+            "ok",
+            0.041995
+          ],
+          [
+            "u",
+            0.034718
+          ],
+          [
+            "l",
+            0.032212
+          ],
+          [
+            "selection",
+            0.02077
+          ],
+          [
+            "meaning",
+            0.010557
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "found",
+            0.00065
+          ],
+          [
+            "not options",
+            -0.000499
+          ],
+          [
+            "ok",
+            0.000223
+          ],
+          [
+            "can't save",
+            -0.000213
+          ],
+          [
+            "won't save",
+            -0.000143
+          ],
+          [
+            "navigated",
+            -0.000125
+          ],
+          [
+            "not big",
+            -9.7e-05
+          ],
+          [
+            "phone",
+            9.6e-05
+          ],
+          [
+            "u",
+            -9e-05
+          ],
+          [
+            "selection",
+            6.8e-05
+          ],
+          [
+            "meaning",
+            -6.6e-05
+          ],
+          [
+            "images",
+            6.6e-05
+          ],
+          [
+            "similar",
+            2.2e-05
+          ],
+          [
+            "l",
+            9e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14405782520771027,
+          "max": 0.9999996423721313,
+          "std": 0.2738122045993805
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Make me Old (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Text at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.appspot.swisscodemonkeys.old",
+    "screen_id": "33498",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\33498.jpg",
+    "text": "it make me horror zombie instead of making older....waste of time Very Slow app.. It takes lot of time just to upload Awful, just puts lines on top of your photo.",
+    "prediction": 0.05525718256831169,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9447428174316883,
+    "gradcam_stats": {
+      "mean": 0.35572460293769836,
+      "max": 1.0,
+      "std": 0.21912239491939545
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This app is very poor and has extremely limited features. Basically, it just puts a bad wrinkle filter and bushy hair on a photo, no AI or face sculpting. I was trying to amuse my 5 yr old, she said 'this app sucks' and she was right.",
+      "Recommend not to install what I think is a useless app, it shows a photo that you decorate with silly moustaches, glasses etc on.  Total waste of time, I've already uninstalled it.  You asked me to update my review of this app, sorry, my opinion is unchanged, I can do that in photoshop without installing this app.",
+      "Tried the app for 3 people and it only added some wrinkles and that's all",
+      "This app is a joke.  It did not make me look one year older, instead it just made me look super wrinkled.  In its favor though, it asked for permissions during the install process and didn't freak out when I only wanted to get pictures already taken.",
+      "Not a big selection and can't save images to my phone. Meaning that my phone won't save the images, which is ok now as l have navigated a similar one u have and found how to use it, but still not a lot of options on the app."
+    ],
+    "app_name": "Make me Old",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0552600733935833,
+      "p_img": 0.11749541759490967,
+      "delta_p_img": 0.06223534420132637
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          4,
+          9,
+          219,
+          206
+        ],
+        "bounds_rico": [
+          28,
+          112,
+          1412,
+          2364
+        ],
+        "score_total": 14348.89453125,
+        "score_mean": 0.3387768747786566
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 14348.89453125,
+        "score_mean": 0.3387768747786566,
+        "bounds_image": [
+          4,
+          9,
+          219,
+          206
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 14348.89453125,
+        "score_mean": 0.3387768747786566,
+        "bounds_image": [
+          4,
+          9,
+          219,
+          206
+        ],
+        "bounds_rico": [
+          28,
+          112,
+          1412,
+          2364
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 14,
+        "token": "waste"
+      },
+      {
+        "index": 18,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁instead"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "This app is very poor and has extremely limited features. Basically, it just puts a bad wrinkle filter and bushy hair on a photo, no AI or face sculpting. I was trying to amuse my 5 yr old, she said 'this app sucks' and she was right.",
+        "word_count": 47,
+        "interface_pos": 0.0067,
+        "interface_neg": 0.9795,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁sculpting, ▁right, ▁features",
+        "p_orig": 0.06277167797088623,
+        "p_img": 0.18116427958011627,
+        "delta_p_img": 0.11839260160923004,
+        "gradcam_mean": 0.3866005837917328,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.11839260160923004,
+        "word_attention_top15": [
+          [
+            "sculpting",
+            0.127982
+          ],
+          [
+            "right",
+            0.106042
+          ],
+          [
+            "sucks",
+            0.082837
+          ],
+          [
+            "features",
+            0.078917
+          ],
+          [
+            "photo",
+            0.072929
+          ],
+          [
+            "old",
+            0.056143
+          ],
+          [
+            "no ai",
+            0.050566
+          ],
+          [
+            "basically",
+            0.048179
+          ],
+          [
+            "yr",
+            0.047549
+          ],
+          [
+            "wrinkle",
+            0.044188
+          ],
+          [
+            "limited",
+            0.043216
+          ],
+          [
+            "poor",
+            0.039638
+          ],
+          [
+            "said",
+            0.036545
+          ],
+          [
+            "puts",
+            0.030586
+          ],
+          [
+            "face",
+            0.024007
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "limited",
+            -0.015861
+          ],
+          [
+            "poor",
+            -0.014582
+          ],
+          [
+            "bad",
+            -0.007718
+          ],
+          [
+            "amuse",
+            0.007372
+          ],
+          [
+            "sucks",
+            -0.006616
+          ],
+          [
+            "trying",
+            -0.003769
+          ],
+          [
+            "features",
+            0.003665
+          ],
+          [
+            "extremely",
+            0.003499
+          ],
+          [
+            "bushy",
+            -0.002292
+          ],
+          [
+            "hair",
+            -0.00229
+          ],
+          [
+            "face",
+            0.00138
+          ],
+          [
+            "wrinkle",
+            -0.001065
+          ],
+          [
+            "no ai",
+            -0.001007
+          ],
+          [
+            "filter",
+            -0.000544
+          ],
+          [
+            "puts",
+            -0.000398
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1588761806488037,
+          "max": 0.9999998807907104,
+          "std": 0.31569239497184753
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Recommend not to install what I think is a useless app, it shows a photo that you decorate with silly moustaches, glasses etc on.  Total waste of time, I've already uninstalled it.  You asked me to update my review of this app, sorry, my opinion is unchanged, I can do that in photoshop without installing this app.",
+        "word_count": 57,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9712,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁waste, ▁moustache, ▁it",
+        "p_orig": 0.060745835304260254,
+        "p_img": 0.16635577380657196,
+        "delta_p_img": 0.1056099385023117,
+        "gradcam_mean": 0.37729546427726746,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.1056099385023117,
+        "word_attention_top15": [
+          [
+            "moustaches",
+            0.095029
+          ],
+          [
+            "sorry",
+            0.090103
+          ],
+          [
+            "waste",
+            0.081947
+          ],
+          [
+            "not install",
+            0.064645
+          ],
+          [
+            "time",
+            0.055712
+          ],
+          [
+            "without installing",
+            0.050846
+          ],
+          [
+            "unchanged",
+            0.049429
+          ],
+          [
+            "silly",
+            0.046745
+          ],
+          [
+            "opinion",
+            0.046552
+          ],
+          [
+            "think",
+            0.046099
+          ],
+          [
+            "recommend",
+            0.043908
+          ],
+          [
+            "uninstalled",
+            0.033733
+          ],
+          [
+            "glasses",
+            0.032452
+          ],
+          [
+            "useless",
+            0.032155
+          ],
+          [
+            "total",
+            0.031795
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "sorry",
+            -0.011405
+          ],
+          [
+            "not install",
+            -0.010088
+          ],
+          [
+            "useless",
+            -0.009772
+          ],
+          [
+            "waste",
+            -0.007467
+          ],
+          [
+            "uninstalled",
+            -0.006274
+          ],
+          [
+            "unchanged",
+            0.004086
+          ],
+          [
+            "recommend",
+            0.003776
+          ],
+          [
+            "silly",
+            -0.003255
+          ],
+          [
+            "review",
+            0.002951
+          ],
+          [
+            "photo",
+            -0.002919
+          ],
+          [
+            "without installing",
+            0.002772
+          ],
+          [
+            "opinion",
+            -0.002075
+          ],
+          [
+            "total",
+            0.00203
+          ],
+          [
+            "asked",
+            0.00124
+          ],
+          [
+            "photoshop",
+            -0.00123
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15717358887195587,
+          "max": 0.9999998807907104,
+          "std": 0.31204289197921753
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 11,
+        "review_source": "cache",
+        "review_text": "Tried the app for 3 people and it only added some wrinkles and that's all",
+        "word_count": 15,
+        "interface_pos": 0.0106,
+        "interface_neg": 0.8672,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁wrinkles, ▁some, ▁interface",
+        "p_orig": 0.06176932156085968,
+        "p_img": 0.14309580624103546,
+        "delta_p_img": 0.08132648468017578,
+        "gradcam_mean": 0.2711047828197479,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.08132648468017578,
+        "word_attention_top15": [
+          [
+            "wrinkles",
+            0.383283
+          ],
+          [
+            "tried",
+            0.221335
+          ],
+          [
+            "people",
+            0.209303
+          ],
+          [
+            "added",
+            0.186079
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tried",
+            -0.023002
+          ],
+          [
+            "wrinkles",
+            -0.017188
+          ],
+          [
+            "added",
+            -0.002836
+          ],
+          [
+            "people",
+            0.002423
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1631038784980774,
+          "max": 0.9999998807907104,
+          "std": 0.3181052505970001
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app is a joke.  It did not make me look one year older, instead it just made me look super wrinkled.  In its favor though, it asked for permissions during the install process and didn't freak out when I only wanted to get pictures already taken.",
+        "word_count": 47,
+        "interface_pos": 0.0282,
+        "interface_neg": 0.948,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁wrinkled, ▁joke, ▁process",
+        "p_orig": 0.0729106143116951,
+        "p_img": 0.22560667991638184,
+        "delta_p_img": 0.15269606560468674,
+        "gradcam_mean": 0.36858633160591125,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.15269606560468674,
+        "word_attention_top15": [
+          [
+            "wrinkled",
+            0.146621
+          ],
+          [
+            "joke",
+            0.102037
+          ],
+          [
+            "taken",
+            0.096733
+          ],
+          [
+            "though",
+            0.087145
+          ],
+          [
+            "didn't freak",
+            0.078598
+          ],
+          [
+            "process",
+            0.065103
+          ],
+          [
+            "already",
+            0.05851
+          ],
+          [
+            "pictures",
+            0.05441
+          ],
+          [
+            "wanted",
+            0.052129
+          ],
+          [
+            "older",
+            0.049896
+          ],
+          [
+            "instead",
+            0.040303
+          ],
+          [
+            "not look",
+            0.034555
+          ],
+          [
+            "year",
+            0.028992
+          ],
+          [
+            "install",
+            0.026334
+          ],
+          [
+            "look",
+            0.020775
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "wrinkled",
+            -0.014984
+          ],
+          [
+            "favor",
+            0.01483
+          ],
+          [
+            "joke",
+            -0.009805
+          ],
+          [
+            "didn't freak",
+            0.009578
+          ],
+          [
+            "super",
+            0.008084
+          ],
+          [
+            "asked",
+            -0.00673
+          ],
+          [
+            "instead",
+            -0.004473
+          ],
+          [
+            "install",
+            0.003853
+          ],
+          [
+            "look",
+            -0.003322
+          ],
+          [
+            "process",
+            0.002092
+          ],
+          [
+            "older",
+            -0.001959
+          ],
+          [
+            "permissions",
+            -0.001443
+          ],
+          [
+            "though",
+            0.001274
+          ],
+          [
+            "year",
+            -0.001136
+          ],
+          [
+            "wanted",
+            0.000864
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15358461439609528,
+          "max": 0.9999998807907104,
+          "std": 0.2982498109340668
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not a big selection and can't save images to my phone. Meaning that my phone won't save the images, which is ok now as l have navigated a similar one u have and found how to use it, but still not a lot of options on the app.",
+        "word_count": 48,
+        "interface_pos": 0.0453,
+        "interface_neg": 0.8167,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁Not, ▁a, ▁it",
+        "p_orig": 0.08648239076137543,
+        "p_img": 0.2565245032310486,
+        "delta_p_img": 0.17004211246967316,
+        "gradcam_mean": 0.3167766332626343,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.17004211246967316,
+        "word_attention_top15": [
+          [
+            "images",
+            0.154848
+          ],
+          [
+            "not big",
+            0.119759
+          ],
+          [
+            "won't save",
+            0.115681
+          ],
+          [
+            "can't save",
+            0.09054
+          ],
+          [
+            "not options",
+            0.090178
+          ],
+          [
+            "phone",
+            0.079354
+          ],
+          [
+            "similar",
+            0.071042
+          ],
+          [
+            "found",
+            0.069643
+          ],
+          [
+            "navigated",
+            0.068703
+          ],
+          [
+            "ok",
+            0.041995
+          ],
+          [
+            "u",
+            0.034718
+          ],
+          [
+            "l",
+            0.032212
+          ],
+          [
+            "selection",
+            0.02077
+          ],
+          [
+            "meaning",
+            0.010557
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not options",
+            -0.024883
+          ],
+          [
+            "found",
+            0.023375
+          ],
+          [
+            "won't save",
+            -0.022161
+          ],
+          [
+            "can't save",
+            -0.016831
+          ],
+          [
+            "not big",
+            -0.012035
+          ],
+          [
+            "phone",
+            0.007712
+          ],
+          [
+            "navigated",
+            -0.005383
+          ],
+          [
+            "u",
+            -0.004924
+          ],
+          [
+            "meaning",
+            -0.003276
+          ],
+          [
+            "selection",
+            0.001444
+          ],
+          [
+            "l",
+            0.001306
+          ],
+          [
+            "images",
+            -0.000626
+          ],
+          [
+            "similar",
+            0.000266
+          ],
+          [
+            "ok",
+            -8.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17012354731559753,
+          "max": 0.9999998807907104,
+          "std": 0.32149776816368103
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 94% confidence.",
+      "simple": "This screen was labeled as bad with 94% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of Make me Old (category: Entertainment) was labeled as bad with 94% confidence (confidently). The model attended to a small Web View at the top-left."
+    }
+  }
+]

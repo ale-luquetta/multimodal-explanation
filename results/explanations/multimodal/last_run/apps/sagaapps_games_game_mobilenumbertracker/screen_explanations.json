@@ -1,0 +1,5455 @@
+[
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30280",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30280.jpg",
+    "text": "Worst... My mistake I wasted my time on it... Fake App.. Wastage of time Very stupid app",
+    "prediction": 0.03327173367142677,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9667282663285732,
+    "gradcam_stats": {
+      "mean": 0.26079854369163513,
+      "max": 1.0,
+      "std": 0.2604614198207855
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.03335339203476906,
+      "p_img": 0.050487715750932693,
+      "delta_p_img": 0.017134323716163635
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          135,
+          130,
+          195,
+          164
+        ],
+        "bounds_rico": [
+          870,
+          1491,
+          1255,
+          1876
+        ],
+        "score_total": 1530.1258544921875,
+        "score_mean": 0.7500616933785232
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          28,
+          130,
+          88,
+          164
+        ],
+        "bounds_rico": [
+          185,
+          1491,
+          570,
+          1876
+        ],
+        "score_total": 1003.42578125,
+        "score_mean": 0.4918753829656863
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "bounds_image": [
+          24,
+          193,
+          199,
+          209
+        ],
+        "bounds_rico": [
+          160,
+          2217,
+          1280,
+          2392
+        ],
+        "score_total": 1061.64697265625,
+        "score_mean": 0.37915963309151784
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 1530.1258544921875,
+        "score_mean": 0.7500616933785232,
+        "bounds_image": [
+          135,
+          130,
+          195,
+          164
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1003.42578125,
+        "score_mean": 0.4918753829656863,
+        "bounds_image": [
+          28,
+          130,
+          88,
+          164
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 1061.64697265625,
+        "score_mean": 0.37915963309151784,
+        "bounds_image": [
+          24,
+          193,
+          199,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 1530.1258544921875,
+        "score_mean": 0.7500616933785232,
+        "bounds_image": [
+          135,
+          130,
+          195,
+          164
+        ],
+        "bounds_rico": [
+          870,
+          1491,
+          1255,
+          1876
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 1003.42578125,
+        "score_mean": 0.4918753829656863,
+        "bounds_image": [
+          28,
+          130,
+          88,
+          164
+        ],
+        "bounds_rico": [
+          185,
+          1491,
+          570,
+          1876
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "score_total": 1061.64697265625,
+        "score_mean": 0.37915963309151784,
+        "bounds_image": [
+          24,
+          193,
+          199,
+          209
+        ],
+        "bounds_rico": [
+          160,
+          2217,
+          1280,
+          2392
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 606.0511474609375,
+        "score_mean": 0.29708389581418504,
+        "bounds_image": [
+          135,
+          93,
+          195,
+          127
+        ],
+        "bounds_rico": [
+          870,
+          1070,
+          1255,
+          1455
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 381.83868408203125,
+        "score_mean": 0.18717582553040749,
+        "bounds_image": [
+          28,
+          93,
+          88,
+          127
+        ],
+        "bounds_rico": [
+          185,
+          1070,
+          570,
+          1455
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 166.41127014160156,
+        "score_mean": 0.08157415203019684,
+        "bounds_image": [
+          135,
+          56,
+          195,
+          90
+        ],
+        "bounds_rico": [
+          870,
+          649,
+          1255,
+          1034
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 124.85140228271484,
+        "score_mean": 0.06120166778564453,
+        "bounds_image": [
+          28,
+          19,
+          88,
+          53
+        ],
+        "bounds_rico": [
+          185,
+          228,
+          570,
+          613
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 106.20365905761719,
+        "score_mean": 0.05206061718510646,
+        "bounds_image": [
+          28,
+          56,
+          88,
+          90
+        ],
+        "bounds_rico": [
+          185,
+          649,
+          570,
+          1034
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 50.143455505371094,
+        "score_mean": 0.024580125247730927,
+        "bounds_image": [
+          135,
+          19,
+          195,
+          53
+        ],
+        "bounds_rico": [
+          870,
+          228,
+          1255,
+          613
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Worst"
+      },
+      {
+        "index": 10,
+        "token": "▁time"
+      },
+      {
+        "index": 11,
+        "token": "▁on"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.04088909924030304,
+        "p_img": 0.06466242671012878,
+        "delta_p_img": 0.023773327469825745,
+        "gradcam_mean": 0.23186689615249634,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.017644941806793213,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.010575
+          ],
+          [
+            "sucks",
+            -0.003886
+          ],
+          [
+            "work",
+            0.003774
+          ],
+          [
+            "not bother",
+            -0.003194
+          ],
+          [
+            "save",
+            0.001665
+          ],
+          [
+            "ads",
+            0.001551
+          ],
+          [
+            "download",
+            0.000999
+          ],
+          [
+            "time",
+            -0.000611
+          ],
+          [
+            "n",
+            0.000533
+          ],
+          [
+            "please",
+            -5.1e-05
+          ],
+          [
+            "pop",
+            2.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15074166655540466,
+          "max": 0.9999999403953552,
+          "std": 0.2952664792537689
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.03288531303405762,
+        "p_img": 0.049003321677446365,
+        "delta_p_img": 0.016118008643388748,
+        "gradcam_mean": 0.25761494040489197,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.013826161623001099,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.020682
+          ],
+          [
+            "numbers",
+            -0.001351
+          ],
+          [
+            "tracking",
+            0.001144
+          ],
+          [
+            "ones",
+            0.000779
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1544601023197174,
+          "max": 0.9999999403953552,
+          "std": 0.29513636231422424
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.045938342809677124,
+        "p_img": 0.07660762965679169,
+        "delta_p_img": 0.030669286847114563,
+        "gradcam_mean": 0.22010020911693573,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.024602331221103668,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.047437
+          ],
+          [
+            "usp",
+            0.020383
+          ],
+          [
+            "mobile",
+            0.009187
+          ],
+          [
+            "another",
+            0.00731
+          ],
+          [
+            "migrated",
+            -0.006056
+          ],
+          [
+            "migration",
+            -0.005987
+          ],
+          [
+            "report",
+            -0.005409
+          ],
+          [
+            "user",
+            -0.004857
+          ],
+          [
+            "no",
+            -0.00193
+          ],
+          [
+            "vodafone",
+            0.001817
+          ],
+          [
+            "airtel",
+            0.001114
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1580694019794464,
+          "max": 0.9999998807907104,
+          "std": 0.30523592233657837
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.034470174461603165,
+        "p_img": 0.054166290909051895,
+        "delta_p_img": 0.01969611644744873,
+        "gradcam_mean": 0.2311551570892334,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.015392996370792389,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "lying",
+            -0.009212
+          ],
+          [
+            "opposite",
+            -0.008965
+          ],
+          [
+            "new",
+            0.006378
+          ],
+          [
+            "party",
+            0.004653
+          ],
+          [
+            "research",
+            -0.002842
+          ],
+          [
+            "pl",
+            -0.00171
+          ],
+          [
+            "bodies",
+            -0.001661
+          ],
+          [
+            "any",
+            0.001186
+          ],
+          [
+            "status",
+            -0.000978
+          ],
+          [
+            "call",
+            0.000755
+          ],
+          [
+            "users",
+            0.000698
+          ],
+          [
+            "80%",
+            -0.000571
+          ],
+          [
+            "place",
+            -0.000556
+          ],
+          [
+            "ie",
+            0.000475
+          ],
+          [
+            "system",
+            0.000391
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15359729528427124,
+          "max": 0.9999999403953552,
+          "std": 0.30071505904197693
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.03496285527944565,
+        "p_img": 0.05369415134191513,
+        "delta_p_img": 0.018731296062469482,
+        "gradcam_mean": 0.2554132342338562,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.01633507013320923,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.009939
+          ],
+          [
+            "cause",
+            -0.003394
+          ],
+          [
+            "not",
+            -0.002083
+          ],
+          [
+            "showing",
+            -0.001248
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15329262614250183,
+          "max": 0.9999999403953552,
+          "std": 0.2990201413631439
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 97% confidence.",
+      "simple": "This screen was predicted as bad with 97% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was predicted as bad with 97% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Image at the top-left, and a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30281",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30281.jpg",
+    "text": "Worst... My mistake I wasted my time on it... It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all Fake App.. Wastage of time",
+    "prediction": 0.011663961224257946,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.988336038775742,
+    "gradcam_stats": {
+      "mean": 0.4063171148300171,
+      "max": 1.0,
+      "std": 0.30395177006721497
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.011668139137327671,
+      "p_img": 0.02569153904914856,
+      "delta_p_img": 0.014023399911820889
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          41,
+          86,
+          48
+        ],
+        "bounds_rico": [
+          18,
+          477,
+          554,
+          558
+        ],
+        "score_total": 429.5052185058594,
+        "score_mean": 0.7304510518807132
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          8,
+          28,
+          193,
+          35
+        ],
+        "bounds_rico": [
+          55,
+          328,
+          1242,
+          404
+        ],
+        "score_total": 436.0523376464844,
+        "score_mean": 0.3367199518505671
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          7,
+          221,
+          14
+        ],
+        "bounds_rico": [
+          14,
+          86,
+          1426,
+          167
+        ],
+        "score_total": 338.6212463378906,
+        "score_mean": 0.22088796238609956
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 429.5052185058594,
+        "score_mean": 0.7304510518807132,
+        "bounds_image": [
+          2,
+          41,
+          86,
+          48
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 436.0523376464844,
+        "score_mean": 0.3367199518505671,
+        "bounds_image": [
+          8,
+          28,
+          193,
+          35
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 338.6212463378906,
+        "score_mean": 0.22088796238609956,
+        "bounds_image": [
+          2,
+          7,
+          221,
+          14
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 429.5052185058594,
+        "score_mean": 0.7304510518807132,
+        "bounds_image": [
+          2,
+          41,
+          86,
+          48
+        ],
+        "bounds_rico": [
+          18,
+          477,
+          554,
+          558
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 436.0523376464844,
+        "score_mean": 0.3367199518505671,
+        "bounds_image": [
+          8,
+          28,
+          193,
+          35
+        ],
+        "bounds_rico": [
+          55,
+          328,
+          1242,
+          404
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 338.6212463378906,
+        "score_mean": 0.22088796238609956,
+        "bounds_image": [
+          2,
+          7,
+          221,
+          14
+        ],
+        "bounds_rico": [
+          14,
+          86,
+          1426,
+          167
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 25.373641967773438,
+        "score_mean": 0.0805512443421379,
+        "bounds_image": [
+          89,
+          16,
+          134,
+          23
+        ],
+        "bounds_rico": [
+          576,
+          190,
+          864,
+          271
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Worst"
+      },
+      {
+        "index": 10,
+        "token": "▁time"
+      },
+      {
+        "index": 11,
+        "token": "▁on"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.012135936878621578,
+        "p_img": 0.025662215426564217,
+        "delta_p_img": 0.013526278547942638,
+        "gradcam_mean": 0.4268292486667633,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.013526278547942638,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.007159
+          ],
+          [
+            "sucks",
+            -0.003043
+          ],
+          [
+            "not bother",
+            -0.002999
+          ],
+          [
+            "save",
+            0.000941
+          ],
+          [
+            "work",
+            0.000859
+          ],
+          [
+            "download",
+            0.000612
+          ],
+          [
+            "time",
+            -0.000356
+          ],
+          [
+            "ads",
+            0.000302
+          ],
+          [
+            "pop",
+            -0.000229
+          ],
+          [
+            "n",
+            0.000168
+          ],
+          [
+            "please",
+            1.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17656220495700836,
+          "max": 0.9999998211860657,
+          "std": 0.3188803791999817
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.011074296198785305,
+        "p_img": 0.02410859428346157,
+        "delta_p_img": 0.013034298084676266,
+        "gradcam_mean": 0.40357670187950134,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.013034298084676266,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.016112
+          ],
+          [
+            "numbers",
+            -0.002079
+          ],
+          [
+            "tracking",
+            0.000431
+          ],
+          [
+            "ones",
+            0.000144
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17724579572677612,
+          "max": 0.9999997615814209,
+          "std": 0.31914469599723816
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.016849668696522713,
+        "p_img": 0.03949147090315819,
+        "delta_p_img": 0.022641802206635475,
+        "gradcam_mean": 0.3904869556427002,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.022641802206635475,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.032044
+          ],
+          [
+            "usp",
+            0.016179
+          ],
+          [
+            "migrated",
+            -0.006834
+          ],
+          [
+            "another",
+            0.006026
+          ],
+          [
+            "migration",
+            -0.005133
+          ],
+          [
+            "user",
+            -0.004734
+          ],
+          [
+            "mobile",
+            0.00445
+          ],
+          [
+            "report",
+            -0.004048
+          ],
+          [
+            "no",
+            -0.00166
+          ],
+          [
+            "airtel",
+            -0.000813
+          ],
+          [
+            "vodafone",
+            0.0003
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17310753464698792,
+          "max": 0.9999998807907104,
+          "std": 0.312810480594635
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.010711196810007095,
+        "p_img": 0.02398577332496643,
+        "delta_p_img": 0.013274576514959335,
+        "gradcam_mean": 0.40979230403900146,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.013274576514959335,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "opposite",
+            -0.006061
+          ],
+          [
+            "new",
+            0.004257
+          ],
+          [
+            "party",
+            0.00345
+          ],
+          [
+            "lying",
+            -0.002729
+          ],
+          [
+            "research",
+            -0.002697
+          ],
+          [
+            "bodies",
+            -0.002064
+          ],
+          [
+            "any",
+            0.00149
+          ],
+          [
+            "pl",
+            -0.001375
+          ],
+          [
+            "status",
+            -0.000841
+          ],
+          [
+            "line",
+            -0.00077
+          ],
+          [
+            "80%",
+            -0.000686
+          ],
+          [
+            "call",
+            0.000683
+          ],
+          [
+            "users",
+            0.000466
+          ],
+          [
+            "ie",
+            -0.000246
+          ],
+          [
+            "place",
+            -0.000239
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17658397555351257,
+          "max": 0.9999997615814209,
+          "std": 0.31844231486320496
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.011976656503975391,
+        "p_img": 0.026600588113069534,
+        "delta_p_img": 0.014623931609094143,
+        "gradcam_mean": 0.4034310579299927,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.014623931609094143,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.008408
+          ],
+          [
+            "cause",
+            -0.003329
+          ],
+          [
+            "not",
+            -0.00177
+          ],
+          [
+            "showing",
+            -0.000955
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17620202898979187,
+          "max": 0.9999998211860657,
+          "std": 0.31755390763282776
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 99% confidence.",
+      "simple": "This screen was predicted as bad with 99% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was predicted as bad with 99% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30282",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30282.jpg",
+    "text": "Worst... My mistake I wasted my time on it... Fake App.. Wastage of time Very stupid app",
+    "prediction": 0.041009631007909775,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9589903689920902,
+    "gradcam_stats": {
+      "mean": 0.22624662518501282,
+      "max": 1.0,
+      "std": 0.25201359391212463
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.04091288894414902,
+      "p_img": 0.08347197622060776,
+      "delta_p_img": 0.04255908727645874
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 10321.78125,
+        "score_mean": 0.22047550516917294
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          0,
+          17,
+          9
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          112,
+          112
+        ],
+        "score_total": 0.09866361320018768,
+        "score_mean": 0.0006448602169946907
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 10321.78125,
+        "score_mean": 0.22047550516917294,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 0.09866361320018768,
+        "score_mean": 0.0006448602169946907,
+        "bounds_image": [
+          0,
+          0,
+          17,
+          9
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 10321.78125,
+        "score_mean": 0.22047550516917294,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 0.09866361320018768,
+        "score_mean": 0.0006448602169946907,
+        "bounds_image": [
+          0,
+          0,
+          17,
+          9
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          112,
+          112
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Worst"
+      },
+      {
+        "index": 10,
+        "token": "▁time"
+      },
+      {
+        "index": 11,
+        "token": "▁on"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.052245527505874634,
+        "p_img": 0.09262439608573914,
+        "delta_p_img": 0.0403788685798645,
+        "gradcam_mean": 0.2124522477388382,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.0403788685798645,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.056733
+          ],
+          [
+            "not bother",
+            -0.022284
+          ],
+          [
+            "sucks",
+            -0.021016
+          ],
+          [
+            "work",
+            0.013496
+          ],
+          [
+            "save",
+            0.007378
+          ],
+          [
+            "download",
+            0.005538
+          ],
+          [
+            "ads",
+            0.00366
+          ],
+          [
+            "time",
+            -0.002517
+          ],
+          [
+            "n",
+            0.001639
+          ],
+          [
+            "pop",
+            -0.00055
+          ],
+          [
+            "please",
+            -5.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.049072906374931335,
+          "max": 0.9999999403953552,
+          "std": 0.1317456215620041
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.03842455521225929,
+        "p_img": 0.07992685586214066,
+        "delta_p_img": 0.04150230064988136,
+        "gradcam_mean": 0.2287687212228775,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.04150230064988136,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.131088
+          ],
+          [
+            "numbers",
+            -0.017718
+          ],
+          [
+            "tracking",
+            0.004937
+          ],
+          [
+            "ones",
+            0.002428
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.04905937984585762,
+          "max": 0.9999999403953552,
+          "std": 0.13188418745994568
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.07754640281200409,
+        "p_img": 0.11112552136182785,
+        "delta_p_img": 0.03357911854982376,
+        "gradcam_mean": 0.19488079845905304,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.03357911854982376,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.234017
+          ],
+          [
+            "usp",
+            0.076452
+          ],
+          [
+            "migration",
+            -0.044455
+          ],
+          [
+            "another",
+            0.040961
+          ],
+          [
+            "user",
+            -0.03982
+          ],
+          [
+            "migrated",
+            -0.037262
+          ],
+          [
+            "mobile",
+            0.035152
+          ],
+          [
+            "no",
+            -0.010775
+          ],
+          [
+            "airtel",
+            -0.007232
+          ],
+          [
+            "report",
+            -0.005208
+          ],
+          [
+            "vodafone",
+            0.001999
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.05011921375989914,
+          "max": 0.9999999403953552,
+          "std": 0.1340876966714859
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.03596112132072449,
+        "p_img": 0.08265257626771927,
+        "delta_p_img": 0.04669145494699478,
+        "gradcam_mean": 0.22409158945083618,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.04669145494699478,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "opposite",
+            -0.050602
+          ],
+          [
+            "new",
+            0.03466
+          ],
+          [
+            "party",
+            0.030552
+          ],
+          [
+            "research",
+            -0.021174
+          ],
+          [
+            "lying",
+            -0.018902
+          ],
+          [
+            "bodies",
+            -0.016944
+          ],
+          [
+            "any",
+            0.012146
+          ],
+          [
+            "pl",
+            -0.011398
+          ],
+          [
+            "call",
+            -0.00712
+          ],
+          [
+            "line",
+            -0.006745
+          ],
+          [
+            "system",
+            0.005513
+          ],
+          [
+            "status",
+            -0.004729
+          ],
+          [
+            "ie",
+            -0.004298
+          ],
+          [
+            "users",
+            0.002937
+          ],
+          [
+            "80%",
+            -0.001949
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.049426428973674774,
+          "max": 0.9999999403953552,
+          "std": 0.13301026821136475
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.044996682554483414,
+        "p_img": 0.08612044900655746,
+        "delta_p_img": 0.04112376645207405,
+        "gradcam_mean": 0.22175106406211853,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.04112376645207405,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.060798
+          ],
+          [
+            "cause",
+            -0.025857
+          ],
+          [
+            "not",
+            -0.012698
+          ],
+          [
+            "showing",
+            -0.006063
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.04845048114657402,
+          "max": 0.9999999403953552,
+          "std": 0.1320648491382599
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 96% confidence.",
+      "simple": "This screen was labeled as bad with 96% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was labeled as bad with 96% confidence (confidently). The model attended to a small Web View at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30283",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30283.jpg",
+    "text": "Worst... My mistake I wasted my time on it... Fake App.. Wastage of time Very stupid app",
+    "prediction": 0.008725948631763458,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9912740513682365,
+    "gradcam_stats": {
+      "mean": 0.3159308135509491,
+      "max": 1.0,
+      "std": 0.27034321427345276
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.008788026869297028,
+      "p_img": 0.01523971650749445,
+      "delta_p_img": 0.006451689638197422
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          5,
+          67,
+          38,
+          85
+        ],
+        "bounds_rico": [
+          35,
+          771,
+          245,
+          981
+        ],
+        "score_total": 207.60427856445312,
+        "score_mean": 0.3495021524654093
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          5,
+          42,
+          38,
+          61
+        ],
+        "bounds_rico": [
+          35,
+          489,
+          245,
+          699
+        ],
+        "score_total": 159.61373901367188,
+        "score_mean": 0.2545673668479615
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          5,
+          18,
+          38,
+          36
+        ],
+        "bounds_rico": [
+          35,
+          207,
+          245,
+          417
+        ],
+        "score_total": 87.62405395507812,
+        "score_mean": 0.14751524234861638
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 207.60427856445312,
+        "score_mean": 0.3495021524654093,
+        "bounds_image": [
+          5,
+          67,
+          38,
+          85
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 159.61373901367188,
+        "score_mean": 0.2545673668479615,
+        "bounds_image": [
+          5,
+          42,
+          38,
+          61
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 87.62405395507812,
+        "score_mean": 0.14751524234861638,
+        "bounds_image": [
+          5,
+          18,
+          38,
+          36
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 207.60427856445312,
+        "score_mean": 0.3495021524654093,
+        "bounds_image": [
+          5,
+          67,
+          38,
+          85
+        ],
+        "bounds_rico": [
+          35,
+          771,
+          245,
+          981
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 159.61373901367188,
+        "score_mean": 0.2545673668479615,
+        "bounds_image": [
+          5,
+          42,
+          38,
+          61
+        ],
+        "bounds_rico": [
+          35,
+          489,
+          245,
+          699
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 87.62405395507812,
+        "score_mean": 0.14751524234861638,
+        "bounds_image": [
+          5,
+          18,
+          38,
+          36
+        ],
+        "bounds_rico": [
+          35,
+          207,
+          245,
+          417
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 72.33780670166016,
+        "score_mean": 0.06889314923967634,
+        "bounds_image": [
+          43,
+          77,
+          218,
+          83
+        ],
+        "bounds_rico": [
+          280,
+          887,
+          1405,
+          957
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 81.10389709472656,
+        "score_mean": 0.05793135506766183,
+        "bounds_image": [
+          43,
+          69,
+          218,
+          77
+        ],
+        "bounds_rico": [
+          280,
+          795,
+          1405,
+          887
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 56.65113830566406,
+        "score_mean": 0.046245827188297194,
+        "bounds_image": [
+          43,
+          52,
+          218,
+          59
+        ],
+        "bounds_rico": [
+          280,
+          605,
+          1405,
+          675
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 57.92211151123047,
+        "score_mean": 0.04137293679373605,
+        "bounds_image": [
+          43,
+          44,
+          218,
+          52
+        ],
+        "bounds_rico": [
+          280,
+          513,
+          1405,
+          605
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 57.796051025390625,
+        "score_mean": 0.037701272684534,
+        "bounds_image": [
+          2,
+          7,
+          221,
+          14
+        ],
+        "bounds_rico": [
+          14,
+          86,
+          1426,
+          167
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 33.40784454345703,
+        "score_mean": 0.03181699480329241,
+        "bounds_image": [
+          43,
+          28,
+          218,
+          34
+        ],
+        "bounds_rico": [
+          280,
+          323,
+          1405,
+          393
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 39.11145782470703,
+        "score_mean": 0.02793675558907645,
+        "bounds_image": [
+          43,
+          20,
+          218,
+          28
+        ],
+        "bounds_rico": [
+          280,
+          231,
+          1405,
+          323
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Worst"
+      },
+      {
+        "index": 10,
+        "token": "▁time"
+      },
+      {
+        "index": 11,
+        "token": "▁on"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.01019241102039814,
+        "p_img": 0.018564779311418533,
+        "delta_p_img": 0.008372368291020393,
+        "gradcam_mean": 0.3052796721458435,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Icon",
+        "delta_p_img_shap": 0.005039272829890251,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.00441
+          ],
+          [
+            "sucks",
+            -0.001765
+          ],
+          [
+            "not bother",
+            -0.001535
+          ],
+          [
+            "work",
+            0.00098
+          ],
+          [
+            "save",
+            0.000668
+          ],
+          [
+            "download",
+            0.000425
+          ],
+          [
+            "ads",
+            0.000405
+          ],
+          [
+            "time",
+            -0.0002
+          ],
+          [
+            "pop",
+            -0.000162
+          ],
+          [
+            "n",
+            9.8e-05
+          ],
+          [
+            "please",
+            2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15593954920768738,
+          "max": 0.9999995231628418,
+          "std": 0.2986932098865509
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.008201143704354763,
+        "p_img": 0.014102266170084476,
+        "delta_p_img": 0.0059011224657297134,
+        "gradcam_mean": 0.3199443519115448,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Icon",
+        "delta_p_img_shap": 0.004202419426292181,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.009391
+          ],
+          [
+            "numbers",
+            -0.000967
+          ],
+          [
+            "tracking",
+            0.0005
+          ],
+          [
+            "ones",
+            0.000352
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15753252804279327,
+          "max": 0.9999993443489075,
+          "std": 0.2995392680168152
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.013201833702623844,
+        "p_img": 0.023786267265677452,
+        "delta_p_img": 0.010584433563053608,
+        "gradcam_mean": 0.2980314791202545,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Icon",
+        "delta_p_img_shap": 0.0066463942639529705,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.023158
+          ],
+          [
+            "usp",
+            0.011859
+          ],
+          [
+            "another",
+            0.004223
+          ],
+          [
+            "report",
+            -0.003957
+          ],
+          [
+            "migrated",
+            -0.003954
+          ],
+          [
+            "mobile",
+            0.00391
+          ],
+          [
+            "migration",
+            -0.003494
+          ],
+          [
+            "user",
+            -0.003254
+          ],
+          [
+            "no",
+            -0.001222
+          ],
+          [
+            "vodafone",
+            0.000468
+          ],
+          [
+            "airtel",
+            1.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15652060508728027,
+          "max": 0.9999996423721313,
+          "std": 0.2990037202835083
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.008564401417970657,
+        "p_img": 0.015223967842757702,
+        "delta_p_img": 0.0066595664247870445,
+        "gradcam_mean": 0.3116704523563385,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Icon",
+        "delta_p_img_shap": 0.004249232355505228,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "opposite",
+            -0.004041
+          ],
+          [
+            "new",
+            0.002785
+          ],
+          [
+            "lying",
+            -0.002562
+          ],
+          [
+            "party",
+            0.002362
+          ],
+          [
+            "research",
+            -0.00137
+          ],
+          [
+            "bodies",
+            -0.001083
+          ],
+          [
+            "pl",
+            -0.000902
+          ],
+          [
+            "any",
+            0.000762
+          ],
+          [
+            "line",
+            -0.000557
+          ],
+          [
+            "status",
+            -0.000363
+          ],
+          [
+            "users",
+            0.000269
+          ],
+          [
+            "system",
+            0.000268
+          ],
+          [
+            "call",
+            -0.000259
+          ],
+          [
+            "calling",
+            0.000199
+          ],
+          [
+            "80%",
+            -0.000197
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1560666263103485,
+          "max": 0.999999463558197,
+          "std": 0.2984166741371155
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.009182017296552658,
+        "p_img": 0.015973573550581932,
+        "delta_p_img": 0.006791556254029274,
+        "gradcam_mean": 0.315051406621933,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Icon",
+        "delta_p_img_shap": 0.004690203350037336,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.00467
+          ],
+          [
+            "cause",
+            -0.00185
+          ],
+          [
+            "not",
+            -0.00097
+          ],
+          [
+            "showing",
+            -0.000602
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15696676075458527,
+          "max": 0.999999463558197,
+          "std": 0.29917094111442566
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 99% confidence.",
+      "simple": "This screen was classified as bad with 99% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was classified as bad with 99% confidence (with high confidence). The model focused on a small Icon at the top-left, a small Icon at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30284",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30284.jpg",
+    "text": "Worst... My mistake I wasted my time on it... Fake App.. Wastage of time Very stupid app",
+    "prediction": 0.04716906696557999,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.95283093303442,
+    "gradcam_stats": {
+      "mean": 0.2469085156917572,
+      "max": 1.0,
+      "std": 0.24959968030452728
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.04725639894604683,
+      "p_img": 0.04942034184932709,
+      "delta_p_img": 0.002163942903280258
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          72,
+          157,
+          100,
+          167
+        ],
+        "bounds_rico": [
+          463,
+          1805,
+          645,
+          1911
+        ],
+        "score_total": 247.92791748046875,
+        "score_mean": 0.8854568481445313
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ],
+        "bounds_rico": [
+          142,
+          1805,
+          302,
+          1911
+        ],
+        "score_total": 196.8206024169922,
+        "score_mean": 0.8200858434041342
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ],
+        "bounds_rico": [
+          470,
+          1598,
+          638,
+          1766
+        ],
+        "score_total": 305.96826171875,
+        "score_mean": 0.7845340044070512
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 247.92791748046875,
+        "score_mean": 0.8854568481445313,
+        "bounds_image": [
+          72,
+          157,
+          100,
+          167
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 196.8206024169922,
+        "score_mean": 0.8200858434041342,
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 305.96826171875,
+        "score_mean": 0.7845340044070512,
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 247.92791748046875,
+        "score_mean": 0.8854568481445313,
+        "bounds_image": [
+          72,
+          157,
+          100,
+          167
+        ],
+        "bounds_rico": [
+          463,
+          1805,
+          645,
+          1911
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 196.8206024169922,
+        "score_mean": 0.8200858434041342,
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ],
+        "bounds_rico": [
+          142,
+          1805,
+          302,
+          1911
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 305.96826171875,
+        "score_mean": 0.7845340044070512,
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ],
+        "bounds_rico": [
+          470,
+          1598,
+          638,
+          1766
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 284.542724609375,
+        "score_mean": 0.7295967297676282,
+        "bounds_image": [
+          21,
+          139,
+          47,
+          154
+        ],
+        "bounds_rico": [
+          138,
+          1598,
+          306,
+          1766
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 256.4103088378906,
+        "score_mean": 0.7044239253788204,
+        "bounds_image": [
+          21,
+          177,
+          47,
+          191
+        ],
+        "bounds_rico": [
+          138,
+          2023,
+          306,
+          2191
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 1007.1976318359375,
+        "score_mean": 0.35868861532618856,
+        "bounds_image": [
+          8,
+          121,
+          224,
+          134
+        ],
+        "bounds_rico": [
+          56,
+          1392,
+          1440,
+          1542
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 75.48892211914062,
+        "score_mean": 0.349485750551577,
+        "bounds_image": [
+          22,
+          195,
+          46,
+          204
+        ],
+        "bounds_rico": [
+          142,
+          2230,
+          301,
+          2336
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 163.30462646484375,
+        "score_mean": 0.347456652052859,
+        "bounds_image": [
+          114,
+          157,
+          161,
+          167
+        ],
+        "bounds_rico": [
+          734,
+          1805,
+          1038,
+          1911
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 90.58477020263672,
+        "score_mean": 0.23226864154522237,
+        "bounds_image": [
+          124,
+          139,
+          150,
+          154
+        ],
+        "bounds_rico": [
+          802,
+          1598,
+          970,
+          1766
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 62.908294677734375,
+        "score_mean": 0.1613033196864984,
+        "bounds_image": [
+          176,
+          139,
+          202,
+          154
+        ],
+        "bounds_rico": [
+          1134,
+          1598,
+          1302,
+          1766
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 38.89966583251953,
+        "score_mean": 0.10805462731255425,
+        "bounds_image": [
+          171,
+          157,
+          207,
+          167
+        ],
+        "bounds_rico": [
+          1100,
+          1805,
+          1335,
+          1911
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Worst"
+      },
+      {
+        "index": 10,
+        "token": "▁time"
+      },
+      {
+        "index": 11,
+        "token": "▁on"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.05417551100254059,
+        "p_img": 0.06251247227191925,
+        "delta_p_img": 0.008336961269378662,
+        "gradcam_mean": 0.23260317742824554,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.031739525496959686,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.018179
+          ],
+          [
+            "sucks",
+            -0.008027
+          ],
+          [
+            "not bother",
+            -0.007333
+          ],
+          [
+            "work",
+            0.003219
+          ],
+          [
+            "save",
+            0.002633
+          ],
+          [
+            "ads",
+            0.001682
+          ],
+          [
+            "download",
+            0.00146
+          ],
+          [
+            "time",
+            -0.000988
+          ],
+          [
+            "pop",
+            -0.00057
+          ],
+          [
+            "n",
+            0.000482
+          ],
+          [
+            "please",
+            -0.000181
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19134144484996796,
+          "max": 0.9999998211860657,
+          "std": 0.33641517162323
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Icon",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.04551875963807106,
+        "p_img": 0.04743749275803566,
+        "delta_p_img": 0.0019187331199645996,
+        "gradcam_mean": 0.20318694412708282,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.009749922901391983,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.041969
+          ],
+          [
+            "numbers",
+            -0.003275
+          ],
+          [
+            "tracking",
+            0.002839
+          ],
+          [
+            "ones",
+            0.001591
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20285405218601227,
+          "max": 0.9999997615814209,
+          "std": 0.3508792817592621
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.065462127327919,
+        "p_img": 0.07637045532464981,
+        "delta_p_img": 0.010908327996730804,
+        "gradcam_mean": 0.21389374136924744,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.04262319207191467,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.090735
+          ],
+          [
+            "usp",
+            0.038675
+          ],
+          [
+            "mobile",
+            0.019341
+          ],
+          [
+            "another",
+            0.013031
+          ],
+          [
+            "migration",
+            -0.012031
+          ],
+          [
+            "report",
+            -0.012007
+          ],
+          [
+            "migrated",
+            -0.011343
+          ],
+          [
+            "user",
+            -0.010787
+          ],
+          [
+            "no",
+            -0.006604
+          ],
+          [
+            "vodafone",
+            0.003131
+          ],
+          [
+            "airtel",
+            0.002453
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17942668497562408,
+          "max": 0.9999998807907104,
+          "std": 0.331874281167984
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.04783148691058159,
+        "p_img": 0.051986102014780045,
+        "delta_p_img": 0.004154615104198456,
+        "gradcam_mean": 0.24973542988300323,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.00637219101190567,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "opposite",
+            -0.016162
+          ],
+          [
+            "lying",
+            -0.013751
+          ],
+          [
+            "new",
+            0.011458
+          ],
+          [
+            "party",
+            0.008409
+          ],
+          [
+            "research",
+            -0.004475
+          ],
+          [
+            "pl",
+            -0.004336
+          ],
+          [
+            "bodies",
+            -0.003866
+          ],
+          [
+            "any",
+            0.00304
+          ],
+          [
+            "status",
+            -0.001826
+          ],
+          [
+            "line",
+            -0.001818
+          ],
+          [
+            "users",
+            0.001676
+          ],
+          [
+            "place",
+            -0.001601
+          ],
+          [
+            "ie",
+            -0.001129
+          ],
+          [
+            "call",
+            0.001106
+          ],
+          [
+            "80%",
+            -0.000841
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.203979954123497,
+          "max": 0.9999997615814209,
+          "std": 0.3524903953075409
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.04892636090517044,
+        "p_img": 0.052928049117326736,
+        "delta_p_img": 0.004001688212156296,
+        "gradcam_mean": 0.23431527614593506,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.008847083896398544,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.02213
+          ],
+          [
+            "cause",
+            -0.007866
+          ],
+          [
+            "not",
+            -0.005097
+          ],
+          [
+            "showing",
+            -0.00252
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2041868418455124,
+          "max": 0.9999997615814209,
+          "std": 0.35335299372673035
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 95% confidence.",
+      "simple": "This screen was classified as bad with 95% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was classified as bad with 95% confidence (with high confidence). The model focused on a small Text at the top-left, a small Text at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30285",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30285.jpg",
+    "text": "Very stupid app Fake App.. Wastage of time Worst... My mistake I wasted my time on it...",
+    "prediction": 0.02267749421298504,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.977322505787015,
+    "gradcam_stats": {
+      "mean": 0.5507423877716064,
+      "max": 1.0,
+      "std": 0.2218427062034607
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.02271675504744053,
+      "p_img": 0.0059736985713243484,
+      "delta_p_img": 0.01674305647611618
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          84,
+          104,
+          139,
+          119
+        ],
+        "bounds_rico": [
+          545,
+          1192,
+          895,
+          1367
+        ],
+        "score_total": 667.7545776367188,
+        "score_mean": 0.8093994880445076
+      },
+      {
+        "rank": 1,
+        "component": "Input",
+        "bounds_image": [
+          5,
+          86,
+          218,
+          101
+        ],
+        "bounds_rico": [
+          35,
+          989,
+          1405,
+          1157
+        ],
+        "score_total": 2307.3173828125,
+        "score_mean": 0.722165065043036
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 667.7545776367188,
+        "score_mean": 0.8093994880445076,
+        "bounds_image": [
+          84,
+          104,
+          139,
+          119
+        ]
+      },
+      {
+        "component": "Input",
+        "score_total": 2307.3173828125,
+        "score_mean": 0.722165065043036,
+        "bounds_image": [
+          5,
+          86,
+          218,
+          101
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 667.7545776367188,
+        "score_mean": 0.8093994880445076,
+        "bounds_image": [
+          84,
+          104,
+          139,
+          119
+        ],
+        "bounds_rico": [
+          545,
+          1192,
+          895,
+          1367
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Input",
+        "score_total": 2307.3173828125,
+        "score_mean": 0.722165065043036,
+        "bounds_image": [
+          5,
+          86,
+          218,
+          101
+        ],
+        "bounds_rico": [
+          35,
+          989,
+          1405,
+          1157
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 5,
+        "token": "▁interface"
+      },
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 2,
+        "token": "▁stupid"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Input",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.0298045352101326,
+        "p_img": 0.007662215270102024,
+        "delta_p_img": 0.022142319940030575,
+        "gradcam_mean": 0.484017014503479,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input",
+        "delta_p_img_shap": 0.022142319940030575,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.009165
+          ],
+          [
+            "sucks",
+            -0.003617
+          ],
+          [
+            "work",
+            0.003146
+          ],
+          [
+            "not bother",
+            -0.00282
+          ],
+          [
+            "save",
+            0.001804
+          ],
+          [
+            "ads",
+            0.001451
+          ],
+          [
+            "download",
+            0.00096
+          ],
+          [
+            "n",
+            0.000572
+          ],
+          [
+            "please",
+            0.000327
+          ],
+          [
+            "time",
+            -0.000248
+          ],
+          [
+            "pop",
+            -2.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.05869841203093529,
+          "max": 0.999999463558197,
+          "std": 0.15318436920642853
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Input",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.022859863936901093,
+        "p_img": 0.005735690705478191,
+        "delta_p_img": 0.0171241732314229,
+        "gradcam_mean": 0.5361549854278564,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input",
+        "delta_p_img_shap": 0.0171241732314229,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.018294
+          ],
+          [
+            "numbers",
+            -0.001793
+          ],
+          [
+            "tracking",
+            0.000588
+          ],
+          [
+            "ones",
+            0.000424
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0729270800948143,
+          "max": 0.9999992847442627,
+          "std": 0.17064408957958221
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Input",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.03604142740368843,
+        "p_img": 0.009547803550958633,
+        "delta_p_img": 0.026493623852729797,
+        "gradcam_mean": 0.5044552087783813,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input",
+        "delta_p_img_shap": 0.026493623852729797,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.040046
+          ],
+          [
+            "usp",
+            0.013114
+          ],
+          [
+            "another",
+            0.006892
+          ],
+          [
+            "mobile",
+            0.006534
+          ],
+          [
+            "migration",
+            -0.004874
+          ],
+          [
+            "migrated",
+            -0.004763
+          ],
+          [
+            "user",
+            -0.004082
+          ],
+          [
+            "vodafone",
+            0.001286
+          ],
+          [
+            "no",
+            -0.001012
+          ],
+          [
+            "airtel",
+            0.000421
+          ],
+          [
+            "report",
+            -0.00041
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06301538646221161,
+          "max": 0.9999995827674866,
+          "std": 0.1579684615135193
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Input",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.02452073246240616,
+        "p_img": 0.006144355982542038,
+        "delta_p_img": 0.01837637647986412,
+        "gradcam_mean": 0.5434932112693787,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input",
+        "delta_p_img_shap": 0.01837637647986412,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "opposite",
+            -0.007575
+          ],
+          [
+            "new",
+            0.006103
+          ],
+          [
+            "lying",
+            -0.005149
+          ],
+          [
+            "party",
+            0.003719
+          ],
+          [
+            "research",
+            -0.003012
+          ],
+          [
+            "bodies",
+            -0.00216
+          ],
+          [
+            "pl",
+            -0.001383
+          ],
+          [
+            "any",
+            0.001359
+          ],
+          [
+            "status",
+            -0.001013
+          ],
+          [
+            "system",
+            0.000969
+          ],
+          [
+            "place",
+            -0.000513
+          ],
+          [
+            "80%",
+            -0.000471
+          ],
+          [
+            "users",
+            0.000367
+          ],
+          [
+            "calling",
+            0.000187
+          ],
+          [
+            "line",
+            -0.000181
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06559157371520996,
+          "max": 0.9999993443489075,
+          "std": 0.16308115422725677
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Input",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.0252134557813406,
+        "p_img": 0.006436614319682121,
+        "delta_p_img": 0.018776841461658478,
+        "gradcam_mean": 0.5324139595031738,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input",
+        "delta_p_img_shap": 0.018776841461658478,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.008212
+          ],
+          [
+            "cause",
+            -0.003377
+          ],
+          [
+            "not",
+            -0.001737
+          ],
+          [
+            "showing",
+            -0.000962
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07015901058912277,
+          "max": 0.9999993443489075,
+          "std": 0.16788235306739807
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 98% confidence.",
+      "simple": "This screen was classified as bad with 98% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was classified as bad with 98% confidence (with high confidence). The model focused on a small Text Button at the top-left, and a small Input at the top-left."
+    }
+  },
+  {
+    "package_name": "sagaapps.games.game.mobilenumbertracker",
+    "screen_id": "30286",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30286.jpg",
+    "text": "Worst... My mistake I wasted my time on it... Fake App.. Wastage of time Very stupid app",
+    "prediction": 0.003934286069124937,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9960657139308751,
+    "gradcam_stats": {
+      "mean": 0.4029158055782318,
+      "max": 1.0,
+      "std": 0.2500644326210022
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+      "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+      "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+      "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+      "I don't understand this application cause its showing what I don't understand, not even in English."
+    ],
+    "app_name": "Mobile Number Locator",
+    "category": "Communication",
+    "faithfulness": {
+      "p_orig": 0.003955127205699682,
+      "p_img": 0.0041848463006317616,
+      "delta_p_img": 0.00022971909493207932
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          43,
+          51,
+          51,
+          55
+        ],
+        "bounds_rico": [
+          281,
+          583,
+          334,
+          636
+        ],
+        "score_total": 12.858802795410156,
+        "score_mean": 0.4018375873565674
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          43,
+          29,
+          51,
+          33
+        ],
+        "bounds_rico": [
+          281,
+          335,
+          334,
+          388
+        ],
+        "score_total": 12.079944610595703,
+        "score_mean": 0.3774982690811157
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          5,
+          38,
+          38,
+          56
+        ],
+        "bounds_rico": [
+          36,
+          438,
+          246,
+          648
+        ],
+        "score_total": 150.20645141601562,
+        "score_mean": 0.25287281383167615
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 12.858802795410156,
+        "score_mean": 0.4018375873565674,
+        "bounds_image": [
+          43,
+          51,
+          51,
+          55
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 12.079944610595703,
+        "score_mean": 0.3774982690811157,
+        "bounds_image": [
+          43,
+          29,
+          51,
+          33
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 150.20645141601562,
+        "score_mean": 0.25287281383167615,
+        "bounds_image": [
+          5,
+          38,
+          38,
+          56
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 12.858802795410156,
+        "score_mean": 0.4018375873565674,
+        "bounds_image": [
+          43,
+          51,
+          51,
+          55
+        ],
+        "bounds_rico": [
+          281,
+          583,
+          334,
+          636
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 12.079944610595703,
+        "score_mean": 0.3774982690811157,
+        "bounds_image": [
+          43,
+          29,
+          51,
+          33
+        ],
+        "bounds_rico": [
+          281,
+          335,
+          334,
+          388
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 150.20645141601562,
+        "score_mean": 0.25287281383167615,
+        "bounds_image": [
+          5,
+          38,
+          38,
+          56
+        ],
+        "bounds_rico": [
+          36,
+          438,
+          246,
+          648
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 132.72491455078125,
+        "score_mean": 0.24044368578040082,
+        "bounds_image": [
+          51,
+          51,
+          189,
+          55
+        ],
+        "bounds_rico": [
+          334,
+          586,
+          1215,
+          633
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 203.19088745117188,
+        "score_mean": 0.23195306786663455,
+        "bounds_image": [
+          43,
+          45,
+          189,
+          51
+        ],
+        "bounds_rico": [
+          281,
+          521,
+          1215,
+          583
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 185.04205322265625,
+        "score_mean": 0.2112352205738085,
+        "bounds_image": [
+          43,
+          39,
+          189,
+          45
+        ],
+        "bounds_rico": [
+          281,
+          450,
+          1215,
+          521
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 120.90868377685547,
+        "score_mean": 0.19283681623102947,
+        "bounds_image": [
+          5,
+          16,
+          38,
+          35
+        ],
+        "bounds_rico": [
+          36,
+          190,
+          246,
+          400
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 89.12199401855469,
+        "score_mean": 0.16145288771477298,
+        "bounds_image": [
+          51,
+          29,
+          189,
+          33
+        ],
+        "bounds_rico": [
+          334,
+          338,
+          1215,
+          385
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 136.6942138671875,
+        "score_mean": 0.1560436231360588,
+        "bounds_image": [
+          43,
+          23,
+          189,
+          29
+        ],
+        "bounds_rico": [
+          281,
+          273,
+          1215,
+          335
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 118.67987060546875,
+        "score_mean": 0.1354793043441424,
+        "bounds_image": [
+          43,
+          17,
+          189,
+          23
+        ],
+        "bounds_rico": [
+          281,
+          202,
+          1215,
+          273
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 176.23922729492188,
+        "score_mean": 0.1149636185876855,
+        "bounds_image": [
+          2,
+          7,
+          221,
+          14
+        ],
+        "bounds_rico": [
+          14,
+          86,
+          1426,
+          167
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 1.829816222190857,
+        "score_mean": 0.029044701939537412,
+        "bounds_image": [
+          189,
+          49,
+          210,
+          52
+        ],
+        "bounds_rico": [
+          1215,
+          562,
+          1352,
+          605
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 1.785945177078247,
+        "score_mean": 0.013952696695923805,
+        "bounds_image": [
+          189,
+          42,
+          221,
+          46
+        ],
+        "bounds_rico": [
+          1215,
+          480,
+          1422,
+          527
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 0.8282350301742554,
+        "score_mean": 0.009859940835407801,
+        "bounds_image": [
+          189,
+          27,
+          210,
+          31
+        ],
+        "bounds_rico": [
+          1215,
+          314,
+          1352,
+          357
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 0.3823813796043396,
+        "score_mean": 0.002987354528158903,
+        "bounds_image": [
+          189,
+          20,
+          221,
+          24
+        ],
+        "bounds_rico": [
+          1215,
+          232,
+          1422,
+          279
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Worst"
+      },
+      {
+        "index": 10,
+        "token": "▁time"
+      },
+      {
+        "index": 11,
+        "token": "▁on"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all",
+        "word_count": 25,
+        "interface_pos": 0.0278,
+        "interface_neg": 0.931,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁not, ▁work, ▁doesnt",
+        "p_orig": 0.00485321506857872,
+        "p_img": 0.005305955186486244,
+        "delta_p_img": 0.0004527401179075241,
+        "gradcam_mean": 0.3799816966056824,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.0034000277519226074,
+        "word_attention_top15": [
+          [
+            "not bother",
+            0.213075
+          ],
+          [
+            "work",
+            0.161309
+          ],
+          [
+            "ads",
+            0.121775
+          ],
+          [
+            "sucks",
+            0.11824
+          ],
+          [
+            "doesnt",
+            0.101096
+          ],
+          [
+            "pop",
+            0.069711
+          ],
+          [
+            "download",
+            0.066558
+          ],
+          [
+            "time",
+            0.066163
+          ],
+          [
+            "save",
+            0.039837
+          ],
+          [
+            "please",
+            0.021914
+          ],
+          [
+            "n",
+            0.020321
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesnt",
+            -0.001869
+          ],
+          [
+            "sucks",
+            -0.000784
+          ],
+          [
+            "not bother",
+            -0.000654
+          ],
+          [
+            "work",
+            0.000443
+          ],
+          [
+            "save",
+            0.000323
+          ],
+          [
+            "ads",
+            0.000225
+          ],
+          [
+            "download",
+            0.000202
+          ],
+          [
+            "time",
+            -8e-05
+          ],
+          [
+            "pop",
+            -5e-05
+          ],
+          [
+            "n",
+            4.1e-05
+          ],
+          [
+            "please",
+            2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18394061923027039,
+          "max": 0.999999463558197,
+          "std": 0.34338441491127014
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9858,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁interface, ▁Don, ▁out",
+        "p_orig": 0.0036898083053529263,
+        "p_img": 0.0038584887515753508,
+        "delta_p_img": 0.0001686804462224245,
+        "gradcam_mean": 0.40230831503868103,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.0025707100285217166,
+        "word_attention_top15": [
+          [
+            "don't bangladesh",
+            0.467535
+          ],
+          [
+            "beware",
+            0.210496
+          ],
+          [
+            "numbers",
+            0.153682
+          ],
+          [
+            "tracking",
+            0.104307
+          ],
+          [
+            "ones",
+            0.06398
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't bangladesh",
+            -0.004032
+          ],
+          [
+            "numbers",
+            -0.000421
+          ],
+          [
+            "tracking",
+            0.000209
+          ],
+          [
+            "ones",
+            0.00018
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18672649562358856,
+          "max": 0.9999992847442627,
+          "std": 0.3444046080112457
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel.",
+        "word_count": 33,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁no, ▁to, ▁with",
+        "p_orig": 0.006069704424589872,
+        "p_img": 0.006646802648901939,
+        "delta_p_img": 0.000577098224312067,
+        "gradcam_mean": 0.38605359196662903,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Image",
+        "delta_p_img_shap": 0.004305873881094158,
+        "word_attention_top15": [
+          [
+            "no",
+            0.221984
+          ],
+          [
+            "airtel",
+            0.166151
+          ],
+          [
+            "another",
+            0.118272
+          ],
+          [
+            "usp",
+            0.110902
+          ],
+          [
+            "vodafone",
+            0.07362
+          ],
+          [
+            "mobile",
+            0.070445
+          ],
+          [
+            "migration",
+            0.06056
+          ],
+          [
+            "not recognise",
+            0.052507
+          ],
+          [
+            "report",
+            0.048075
+          ],
+          [
+            "migrated",
+            0.043728
+          ],
+          [
+            "user",
+            0.033755
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recognise",
+            -0.00938
+          ],
+          [
+            "usp",
+            0.004641
+          ],
+          [
+            "another",
+            0.001692
+          ],
+          [
+            "mobile",
+            0.00168
+          ],
+          [
+            "report",
+            -0.001503
+          ],
+          [
+            "migrated",
+            -0.001466
+          ],
+          [
+            "migration",
+            -0.001375
+          ],
+          [
+            "user",
+            -0.001187
+          ],
+          [
+            "no",
+            -0.000466
+          ],
+          [
+            "vodafone",
+            0.000197
+          ],
+          [
+            "airtel",
+            1.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.185995414853096,
+          "max": 0.9999995827674866,
+          "std": 0.3445887863636017
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration.",
+        "word_count": 32,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9766,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁Pl, ▁interface, ▁Research",
+        "p_orig": 0.003914637491106987,
+        "p_img": 0.0041585261933505535,
+        "delta_p_img": 0.0002438887022435665,
+        "gradcam_mean": 0.39731621742248535,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Image",
+        "delta_p_img_shap": 0.0027474687667563558,
+        "word_attention_top15": [
+          [
+            "pl",
+            0.209814
+          ],
+          [
+            "ie",
+            0.075947
+          ],
+          [
+            "calling",
+            0.074581
+          ],
+          [
+            "80%",
+            0.074151
+          ],
+          [
+            "research",
+            0.068801
+          ],
+          [
+            "new",
+            0.06304
+          ],
+          [
+            "declaration",
+            0.061294
+          ],
+          [
+            "system",
+            0.059362
+          ],
+          [
+            "users",
+            0.051377
+          ],
+          [
+            "lying",
+            0.037672
+          ],
+          [
+            "line",
+            0.034825
+          ],
+          [
+            "status",
+            0.033237
+          ],
+          [
+            "place",
+            0.03172
+          ],
+          [
+            "any",
+            0.030465
+          ],
+          [
+            "opposite",
+            0.026056
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "opposite",
+            -0.00172
+          ],
+          [
+            "new",
+            0.001241
+          ],
+          [
+            "lying",
+            -0.001186
+          ],
+          [
+            "party",
+            0.00093
+          ],
+          [
+            "research",
+            -0.000566
+          ],
+          [
+            "bodies",
+            -0.000468
+          ],
+          [
+            "pl",
+            -0.000365
+          ],
+          [
+            "any",
+            0.000332
+          ],
+          [
+            "status",
+            -0.000193
+          ],
+          [
+            "line",
+            -0.000181
+          ],
+          [
+            "system",
+            0.000163
+          ],
+          [
+            "users",
+            0.000125
+          ],
+          [
+            "80%",
+            -0.000116
+          ],
+          [
+            "place",
+            -0.000108
+          ],
+          [
+            "ie",
+            -3.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18721432983875275,
+          "max": 0.9999993443489075,
+          "std": 0.3446711003780365
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "I don't understand this application cause its showing what I don't understand, not even in English.",
+        "word_count": 16,
+        "interface_pos": 0.0018,
+        "interface_neg": 0.9857,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Icon",
+        "top_k_tokens": "▁I, ▁interface, ▁don",
+        "p_orig": 0.004139782395213842,
+        "p_img": 0.0044248225167393684,
+        "delta_p_img": 0.00028504012152552605,
+        "gradcam_mean": 0.39379948377609253,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Text",
+        "delta_p_img_shap": 0.0028862343169748783,
+        "word_attention_top15": [
+          [
+            "don't understand",
+            0.725628
+          ],
+          [
+            "not english",
+            0.168443
+          ],
+          [
+            "cause",
+            0.053529
+          ],
+          [
+            "showing",
+            0.0524
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't understand",
+            -0.002002
+          ],
+          [
+            "cause",
+            -0.000773
+          ],
+          [
+            "not",
+            -0.000423
+          ],
+          [
+            "showing",
+            -0.000243
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1864614337682724,
+          "max": 0.9999994039535522,
+          "std": 0.3443131446838379
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Mobile Number Locator (category: Communication) was labeled as bad with 100% confidence (confidently). The model attended to a small Image at the top-left, a small Image at the top-left, and a small Icon at the top-left."
+    }
+  }
+]

@@ -1,0 +1,369 @@
+{
+  "package_name": "sagaapps.games.game.mobilenumbertracker",
+  "num_screens": 7,
+  "app_score": 0.024064588826149702,
+  "app_prediction": "bad",
+  "app_confidence": 0.9759354111738503,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.03327173367142677,
+    0.011663961224257946,
+    0.041009631007909775,
+    0.008725948631763458,
+    0.04716906696557999,
+    0.02267749421298504,
+    0.003934286069124937
+  ],
+  "prediction_variance": 0.00024313220704684892,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\sagaapps_games_game_mobilenumbertracker\\sagaapps_games_game_mobilenumbertracker_app_explanation.png",
+  "text_explanation": {
+    "caption": "sagaapps.games.game.mobilenumbertracker was labeled as bad with average confidence 98% across 7 screens.",
+    "simple": "sagaapps.games.game.mobilenumbertracker was labeled as bad with average confidence 98% across 7 screens. Across these screens, the model consistently focused on Icon components.",
+    "detailed": "sagaapps.games.game.mobilenumbertracker was labeled as bad with average confidence 98% across 7 screens. Across these screens, the model consistently focused on Icon components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Icon (6x), Text (5x), Image (4x). The most influential review words across screens were 'don't understand', 'don't bangladesh', 'no', 'not bother', and 'beware'. The app belongs to the Communication category and was analyzed across 7 screens."
+  },
+  "representative_screen": {
+    "screen_id": "30282",
+    "review_rank": 3,
+    "delta_p_img": 0.04669145494699478,
+    "confidence": 0.9589903689920902,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\30282.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "don't understand",
+      5.079395
+    ],
+    [
+      "don't bangladesh",
+      3.272745
+    ],
+    [
+      "no",
+      1.553886
+    ],
+    [
+      "not bother",
+      1.491525
+    ],
+    [
+      "beware",
+      1.473474
+    ],
+    [
+      "pl",
+      1.468695
+    ],
+    [
+      "not english",
+      1.179098
+    ],
+    [
+      "airtel",
+      1.163056
+    ],
+    [
+      "work",
+      1.129162
+    ],
+    [
+      "numbers",
+      1.075772
+    ],
+    [
+      "ads",
+      0.852426
+    ],
+    [
+      "another",
+      0.827902
+    ],
+    [
+      "sucks",
+      0.827683
+    ],
+    [
+      "usp",
+      0.776317
+    ],
+    [
+      "tracking",
+      0.730151
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "not recognise",
+      -0.476817
+    ],
+    [
+      "don't bangladesh",
+      -0.241569
+    ],
+    [
+      "usp",
+      0.181302
+    ],
+    [
+      "don't understand",
+      -0.116159
+    ],
+    [
+      "doesnt",
+      -0.108091
+    ],
+    [
+      "opposite",
+      -0.095127
+    ],
+    [
+      "mobile",
+      0.080255
+    ],
+    [
+      "another",
+      0.080135
+    ],
+    [
+      "migration",
+      -0.07735
+    ],
+    [
+      "migrated",
+      -0.071678
+    ],
+    [
+      "user",
+      -0.068721
+    ],
+    [
+      "new",
+      0.066882
+    ],
+    [
+      "party",
+      0.054075
+    ],
+    [
+      "lying",
+      -0.05349
+    ],
+    [
+      "cause",
+      -0.046447
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "don't bangladesh",
+      "rrf_score": 0.032258,
+      "rank_bahdanau": 2,
+      "rank_shap": 2,
+      "shap_signed": -0.241569,
+      "in_both": true
+    },
+    {
+      "word": "don't understand",
+      "rrf_score": 0.032018,
+      "rank_bahdanau": 1,
+      "rank_shap": 4,
+      "shap_signed": -0.116159,
+      "in_both": true
+    },
+    {
+      "word": "usp",
+      "rrf_score": 0.029387,
+      "rank_bahdanau": 14,
+      "rank_shap": 3,
+      "shap_signed": 0.181302,
+      "in_both": true
+    },
+    {
+      "word": "another",
+      "rrf_score": 0.028595,
+      "rank_bahdanau": 12,
+      "rank_shap": 8,
+      "shap_signed": 0.080135,
+      "in_both": true
+    },
+    {
+      "word": "not recognise",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": null,
+      "rank_shap": 1,
+      "shap_signed": -0.476817,
+      "in_both": false
+    },
+    {
+      "word": "no",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not bother",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "doesnt",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.108091,
+      "in_both": false
+    },
+    {
+      "word": "beware",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "opposite",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": -0.095127,
+      "in_both": false
+    },
+    {
+      "word": "pl",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not english",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "mobile",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.080255,
+      "in_both": false
+    },
+    {
+      "word": "airtel",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "migration",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": -0.07735,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 19,
+      "text": "It sucks. The app doesnt work. It has too many pop up ads.  Please save your time n do not bother to download at all"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": -1,
+      "text": "Don't use this its out of Bangladesh and they are the ones tracking numbers. Beware!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": -1,
+      "text": "This app does not recognise user migration from one USP to another. Of one has migrated from Vodafone to Airtel with the same mobile no. the app would report the USP as Airtel."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": -1,
+      "text": "Pl. Research a new system ie if we will call to any bodies  an opposite party is where ? at on line calling. Because 80% users are lying about place status declaration."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "I don't understand this application cause its showing what I don't understand, not even in English."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "don't understand",
+      5.079395
+    ],
+    [
+      "don't bangladesh",
+      3.272745
+    ],
+    [
+      "no",
+      1.553886
+    ],
+    [
+      "not bother",
+      1.491525
+    ],
+    [
+      "beware",
+      1.473474
+    ],
+    [
+      "pl",
+      1.468695
+    ],
+    [
+      "not english",
+      1.179098
+    ],
+    [
+      "airtel",
+      1.163056
+    ],
+    [
+      "work",
+      1.129162
+    ],
+    [
+      "numbers",
+      1.075772
+    ],
+    [
+      "ads",
+      0.852426
+    ],
+    [
+      "another",
+      0.827902
+    ],
+    [
+      "sucks",
+      0.827683
+    ],
+    [
+      "usp",
+      0.776317
+    ],
+    [
+      "tracking",
+      0.730151
+    ]
+  ]
+}

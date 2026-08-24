@@ -1,0 +1,367 @@
+{
+  "package_name": "com.dbd.ghosttalk",
+  "num_screens": 5,
+  "app_score": 0.0014090338518144563,
+  "app_prediction": "bad",
+  "app_confidence": 0.9985909661481855,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0031563923694193363,
+    0.0002179638104280457,
+    0.00015420389536302537,
+    0.0032986453734338284,
+    0.0002179638104280457
+  ],
+  "prediction_variance": 2.207157479653471e-06,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_dbd_ghosttalk\\com_dbd_ghosttalk_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.dbd.ghosttalk was classified as bad with average confidence 100% across 5 screens.",
+    "simple": "com.dbd.ghosttalk was classified as bad with average confidence 100% across 5 screens. Across these screens, the model recurringly attended to Image components.",
+    "detailed": "com.dbd.ghosttalk was classified as bad with average confidence 100% across 5 screens. Across these screens, the model recurringly attended to Image components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Image (9x), Text (6x). The most influential review words across screens were 'voice..that's', 'don't waste', 'talking', 'say', and 'ghost'. The app belongs to the Music & Audio category and was analyzed across 5 screens."
+  },
+  "representative_screen": {
+    "screen_id": "32983",
+    "review_rank": 4,
+    "delta_p_img": 0.015550242736935616,
+    "confidence": 0.9968436076305807,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\32983.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "voice..that's",
+      2.482244
+    ],
+    [
+      "don't waste",
+      1.476414
+    ],
+    [
+      "talking",
+      1.346109
+    ],
+    [
+      "say",
+      1.178097
+    ],
+    [
+      "ghost",
+      0.980193
+    ],
+    [
+      "phone",
+      0.949862
+    ],
+    [
+      "don't download",
+      0.907062
+    ],
+    [
+      "time",
+      0.899827
+    ],
+    [
+      "can't hear",
+      0.824247
+    ],
+    [
+      "want",
+      0.78581
+    ],
+    [
+      "doesn't speak",
+      0.744963
+    ],
+    [
+      "us",
+      0.735647
+    ],
+    [
+      "game",
+      0.72117
+    ],
+    [
+      "doesn't say",
+      0.703188
+    ],
+    [
+      "scared",
+      0.678076
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "bad",
+      -0.032892
+    ],
+    [
+      "want",
+      0.027015
+    ],
+    [
+      "voice..that's",
+      0.013915
+    ],
+    [
+      "talking",
+      -0.011374
+    ],
+    [
+      "hate",
+      -0.010925
+    ],
+    [
+      "say",
+      -0.010756
+    ],
+    [
+      "voice",
+      0.010336
+    ],
+    [
+      "record",
+      -0.008713
+    ],
+    [
+      "doesn't hear",
+      -0.008381
+    ],
+    [
+      "didn't",
+      -0.008263
+    ],
+    [
+      "free",
+      0.007954
+    ],
+    [
+      "ghost",
+      -0.007885
+    ],
+    [
+      "makes",
+      0.007748
+    ],
+    [
+      "hard",
+      -0.007046
+    ],
+    [
+      "scared",
+      -0.006875
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "voice..that's",
+      "rrf_score": 0.032266,
+      "rank_bahdanau": 1,
+      "rank_shap": 3,
+      "shap_signed": 0.013915,
+      "in_both": true
+    },
+    {
+      "word": "talking",
+      "rrf_score": 0.031498,
+      "rank_bahdanau": 3,
+      "rank_shap": 4,
+      "shap_signed": -0.011374,
+      "in_both": true
+    },
+    {
+      "word": "say",
+      "rrf_score": 0.030777,
+      "rank_bahdanau": 4,
+      "rank_shap": 6,
+      "shap_signed": -0.010756,
+      "in_both": true
+    },
+    {
+      "word": "want",
+      "rrf_score": 0.030415,
+      "rank_bahdanau": 10,
+      "rank_shap": 2,
+      "shap_signed": 0.027015,
+      "in_both": true
+    },
+    {
+      "word": "ghost",
+      "rrf_score": 0.029274,
+      "rank_bahdanau": 5,
+      "rank_shap": 12,
+      "shap_signed": -0.007885,
+      "in_both": true
+    },
+    {
+      "word": "scared",
+      "rrf_score": 0.026667,
+      "rank_bahdanau": 15,
+      "rank_shap": 15,
+      "shap_signed": -0.006875,
+      "in_both": true
+    },
+    {
+      "word": "bad",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": null,
+      "rank_shap": 1,
+      "shap_signed": -0.032892,
+      "in_both": false
+    },
+    {
+      "word": "don't waste",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "hate",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.010925,
+      "in_both": false
+    },
+    {
+      "word": "phone",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "voice",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.010336,
+      "in_both": false
+    },
+    {
+      "word": "don't download",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "record",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.008713,
+      "in_both": false
+    },
+    {
+      "word": "time",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "can't hear",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 10,
+      "text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 16,
+      "text": "it scared all of us omg I turned it off and it kept talking let's just say it's real"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 8,
+      "text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 3,
+      "text": "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost.."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 9,
+      "text": "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "voice..that's",
+      2.482244
+    ],
+    [
+      "don't waste",
+      1.476414
+    ],
+    [
+      "talking",
+      1.346109
+    ],
+    [
+      "say",
+      1.178097
+    ],
+    [
+      "ghost",
+      0.980193
+    ],
+    [
+      "phone",
+      0.949862
+    ],
+    [
+      "don't download",
+      0.907062
+    ],
+    [
+      "time",
+      0.899827
+    ],
+    [
+      "can't hear",
+      0.824247
+    ],
+    [
+      "want",
+      0.78581
+    ],
+    [
+      "doesn't speak",
+      0.744963
+    ],
+    [
+      "us",
+      0.735647
+    ],
+    [
+      "game",
+      0.72117
+    ],
+    [
+      "doesn't say",
+      0.703188
+    ],
+    [
+      "scared",
+      0.678076
+    ]
+  ]
+}

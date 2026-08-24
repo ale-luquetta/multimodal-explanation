@@ -1,0 +1,6304 @@
+[
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67942",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67942.jpg",
+    "text": "Rubbish app Waste Doesn't work",
+    "prediction": 0.0019423814956098795,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9980576185043901,
+    "gradcam_stats": {
+      "mean": 0.3740079700946808,
+      "max": 1.0,
+      "std": 0.22788706421852112
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0019417540170252323,
+      "p_img": 0.032887011766433716,
+      "delta_p_img": 0.030945257749408484
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          24,
+          0,
+          199,
+          15
+        ],
+        "bounds_rico": [
+          160,
+          7,
+          1280,
+          182
+        ],
+        "score_total": 1304.832763671875,
+        "score_mean": 0.4970791480654762
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          16,
+          224,
+          161
+        ],
+        "bounds_rico": [
+          0,
+          189,
+          1440,
+          1844
+        ],
+        "score_total": 14551.326171875,
+        "score_mean": 0.4480088107104372
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          64,
+          120,
+          224,
+          154
+        ],
+        "bounds_rico": [
+          412,
+          1372,
+          1440,
+          1767
+        ],
+        "score_total": 1467.634521484375,
+        "score_mean": 0.2697857576258042
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 1304.832763671875,
+        "score_mean": 0.4970791480654762,
+        "bounds_image": [
+          24,
+          0,
+          199,
+          15
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 14551.326171875,
+        "score_mean": 0.4480088107104372,
+        "bounds_image": [
+          0,
+          16,
+          224,
+          161
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1467.634521484375,
+        "score_mean": 0.2697857576258042,
+        "bounds_image": [
+          64,
+          120,
+          224,
+          154
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 1304.832763671875,
+        "score_mean": 0.4970791480654762,
+        "bounds_image": [
+          24,
+          0,
+          199,
+          15
+        ],
+        "bounds_rico": [
+          160,
+          7,
+          1280,
+          182
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 14551.326171875,
+        "score_mean": 0.4480088107104372,
+        "bounds_image": [
+          0,
+          16,
+          224,
+          161
+        ],
+        "bounds_rico": [
+          0,
+          189,
+          1440,
+          1844
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1467.634521484375,
+        "score_mean": 0.2697857576258042,
+        "bounds_image": [
+          64,
+          120,
+          224,
+          154
+        ],
+        "bounds_rico": [
+          412,
+          1372,
+          1440,
+          1767
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Web View",
+        "score_total": 83.10861206054688,
+        "score_mean": 0.18551029477800643,
+        "bounds_image": [
+          0,
+          161,
+          224,
+          163
+        ],
+        "bounds_rico": [
+          0,
+          1844,
+          1440,
+          1872
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Web View",
+        "score_total": 1817.1793212890625,
+        "score_mean": 0.1763566887896994,
+        "bounds_image": [
+          0,
+          163,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1872,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 353.67547607421875,
+        "score_mean": 0.1625346856958726,
+        "bounds_image": [
+          0,
+          120,
+          64,
+          154
+        ],
+        "bounds_rico": [
+          0,
+          1372,
+          412,
+          1767
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Rubbish"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Image, Image",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.0029161476995795965,
+        "p_img": 0.04724592715501785,
+        "delta_p_img": 0.044329779455438256,
+        "gradcam_mean": 0.34738439321517944,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.047258625039830804,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.001043
+          ],
+          [
+            "commercial",
+            -0.000451
+          ],
+          [
+            "delete!!it's",
+            -0.000314
+          ],
+          [
+            "froze",
+            -0.000151
+          ],
+          [
+            "first",
+            8e-05
+          ],
+          [
+            "second",
+            3.1e-05
+          ],
+          [
+            "restarted",
+            2.8e-05
+          ],
+          [
+            "start",
+            -2.3e-05
+          ],
+          [
+            "another",
+            -2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2510594427585602,
+          "max": 0.9999991655349731,
+          "std": 0.3521777391433716
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Image, Image",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.0022506036330014467,
+        "p_img": 0.03439614549279213,
+        "delta_p_img": 0.03214554185979068,
+        "gradcam_mean": 0.37786436080932617,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.00928524206392467,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.000238
+          ],
+          [
+            "bunch",
+            -0.000107
+          ],
+          [
+            "give",
+            6.1e-05
+          ],
+          [
+            "f",
+            -2.9e-05
+          ],
+          [
+            "advertising",
+            -1.2e-05
+          ],
+          [
+            "ing",
+            -0.0
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24364934861660004,
+          "max": 0.999998927116394,
+          "std": 0.34572258591651917
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Image, Image",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.004755280911922455,
+        "p_img": 0.10410855710506439,
+        "delta_p_img": 0.09935327619314194,
+        "gradcam_mean": 0.3152469992637634,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.1303570345044136,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.000652
+          ],
+          [
+            "adds",
+            0.000429
+          ],
+          [
+            "prank.this",
+            0.000407
+          ],
+          [
+            "actually",
+            -0.000371
+          ],
+          [
+            "pull",
+            0.000334
+          ],
+          [
+            "click",
+            -0.000328
+          ],
+          [
+            "wants",
+            0.00026
+          ],
+          [
+            "gohst",
+            0.000143
+          ],
+          [
+            "photo",
+            -8.5e-05
+          ],
+          [
+            "prank",
+            -7.6e-05
+          ],
+          [
+            "anyone",
+            6.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2215374857187271,
+          "max": 0.9999996423721313,
+          "std": 0.33186647295951843
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Image, Image",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.0022573682945221663,
+        "p_img": 0.03543846309185028,
+        "delta_p_img": 0.033181094797328115,
+        "gradcam_mean": 0.36947157979011536,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.0095927978400141,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.002201
+          ],
+          [
+            "tonnes",
+            0.000433
+          ],
+          [
+            "nexus",
+            -0.000399
+          ],
+          [
+            "top",
+            0.000386
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24299393594264984,
+          "max": 0.9999989867210388,
+          "std": 0.3449936509132385
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Image, Image",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.002458942588418722,
+        "p_img": 0.03837358579039574,
+        "delta_p_img": 0.035914643201977015,
+        "gradcam_mean": 0.3685932457447052,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.009989092592149973,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.00037
+          ],
+          [
+            "ads",
+            0.000152
+          ],
+          [
+            "stupid",
+            -0.000104
+          ],
+          [
+            "open",
+            4.4e-05
+          ],
+          [
+            "whats",
+            2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24299786984920502,
+          "max": 0.9999990463256836,
+          "std": 0.34473177790641785
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was labeled as bad with 100% confidence (confidently). The model attended to a small Web View at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67943",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67943.jpg",
+    "text": "Rubbish app Waste Doesn't work",
+    "prediction": 0.0032042833045125008,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9967957166954875,
+    "gradcam_stats": {
+      "mean": 0.4607257544994354,
+      "max": 1.0,
+      "std": 0.23026114702224731
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.003198221093043685,
+      "p_img": 0.0023358482867479324,
+      "delta_p_img": 0.0008623728062957525
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          77,
+          191,
+          112,
+          209
+        ],
+        "bounds_rico": [
+          501,
+          2186,
+          721,
+          2392
+        ],
+        "score_total": 373.9267883300781,
+        "score_mean": 0.5935345846509177
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          112,
+          191,
+          146,
+          209
+        ],
+        "bounds_rico": [
+          721,
+          2186,
+          941,
+          2392
+        ],
+        "score_total": 339.8414611816406,
+        "score_mean": 0.5552965051987592
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          128,
+          33,
+          160,
+          50
+        ],
+        "bounds_rico": [
+          824,
+          381,
+          1030,
+          573
+        ],
+        "score_total": 295.04833984375,
+        "score_mean": 0.5423682717715993
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 373.9267883300781,
+        "score_mean": 0.5935345846509177,
+        "bounds_image": [
+          77,
+          191,
+          112,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 339.8414611816406,
+        "score_mean": 0.5552965051987592,
+        "bounds_image": [
+          112,
+          191,
+          146,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 295.04833984375,
+        "score_mean": 0.5423682717715993,
+        "bounds_image": [
+          128,
+          33,
+          160,
+          50
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 373.9267883300781,
+        "score_mean": 0.5935345846509177,
+        "bounds_image": [
+          77,
+          191,
+          112,
+          209
+        ],
+        "bounds_rico": [
+          501,
+          2186,
+          721,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 339.8414611816406,
+        "score_mean": 0.5552965051987592,
+        "bounds_image": [
+          112,
+          191,
+          146,
+          209
+        ],
+        "bounds_rico": [
+          721,
+          2186,
+          941,
+          2392
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 295.04833984375,
+        "score_mean": 0.5423682717715993,
+        "bounds_image": [
+          128,
+          33,
+          160,
+          50
+        ],
+        "bounds_rico": [
+          824,
+          381,
+          1030,
+          573
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 292.8499755859375,
+        "score_mean": 0.5383271610035616,
+        "bounds_image": [
+          96,
+          33,
+          128,
+          50
+        ],
+        "bounds_rico": [
+          618,
+          381,
+          824,
+          573
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 269.35015869140625,
+        "score_mean": 0.49512896818273205,
+        "bounds_image": [
+          64,
+          33,
+          96,
+          50
+        ],
+        "bounds_rico": [
+          412,
+          381,
+          618,
+          573
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 248.8171844482422,
+        "score_mean": 0.45738453023573933,
+        "bounds_image": [
+          32,
+          33,
+          64,
+          50
+        ],
+        "bounds_rico": [
+          206,
+          381,
+          412,
+          573
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 244.35992431640625,
+        "score_mean": 0.44919103734633503,
+        "bounds_image": [
+          0,
+          33,
+          32,
+          50
+        ],
+        "bounds_rico": [
+          0,
+          381,
+          206,
+          573
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 185.4268798828125,
+        "score_mean": 0.34085823507869945,
+        "bounds_image": [
+          96,
+          16,
+          128,
+          33
+        ],
+        "bounds_rico": [
+          618,
+          189,
+          824,
+          381
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 181.69912719726562,
+        "score_mean": 0.33400574852438536,
+        "bounds_image": [
+          64,
+          16,
+          96,
+          33
+        ],
+        "bounds_rico": [
+          412,
+          189,
+          618,
+          381
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 188.68544006347656,
+        "score_mean": 0.30830954258738,
+        "bounds_image": [
+          146,
+          191,
+          180,
+          209
+        ],
+        "bounds_rico": [
+          941,
+          2186,
+          1160,
+          2391
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 153.70004272460938,
+        "score_mean": 0.2825368432437672,
+        "bounds_image": [
+          32,
+          16,
+          64,
+          33
+        ],
+        "bounds_rico": [
+          206,
+          189,
+          412,
+          381
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Icon",
+        "score_total": 142.25778198242188,
+        "score_mean": 0.2615032757029814,
+        "bounds_image": [
+          128,
+          16,
+          160,
+          33
+        ],
+        "bounds_rico": [
+          824,
+          189,
+          1030,
+          381
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Icon",
+        "score_total": 140.03036499023438,
+        "score_mean": 0.257408759173225,
+        "bounds_image": [
+          0,
+          16,
+          32,
+          33
+        ],
+        "bounds_rico": [
+          0,
+          189,
+          206,
+          381
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 220.9545135498047,
+        "score_mean": 0.23016095161437988,
+        "bounds_image": [
+          160,
+          16,
+          224,
+          31
+        ],
+        "bounds_rico": [
+          1030,
+          189,
+          1440,
+          364
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Web View",
+        "score_total": 648.1788940429688,
+        "score_mean": 0.19291038513183595,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          7,
+          1440,
+          182
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Icon",
+        "score_total": 102.07038116455078,
+        "score_mean": 0.18762937714071834,
+        "bounds_image": [
+          192,
+          33,
+          224,
+          50
+        ],
+        "bounds_rico": [
+          1235,
+          381,
+          1440,
+          572
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Image",
+        "score_total": 83.45675659179688,
+        "score_mean": 0.1534131554996266,
+        "bounds_image": [
+          192,
+          16,
+          224,
+          33
+        ],
+        "bounds_rico": [
+          1235,
+          189,
+          1440,
+          380
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Rubbish"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.005202334839850664,
+        "p_img": 0.003843690501525998,
+        "delta_p_img": 0.001358644338324666,
+        "gradcam_mean": 0.3971899449825287,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.003396321088075638,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.00587
+          ],
+          [
+            "delete!!it's",
+            -0.002866
+          ],
+          [
+            "commercial",
+            -0.002394
+          ],
+          [
+            "froze",
+            -0.000855
+          ],
+          [
+            "first",
+            0.000302
+          ],
+          [
+            "another",
+            -0.000224
+          ],
+          [
+            "start",
+            -0.000212
+          ],
+          [
+            "second",
+            4.1e-05
+          ],
+          [
+            "restarted",
+            -3.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12658871710300446,
+          "max": 0.9999996423721313,
+          "std": 0.24617396295070648
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.003637794405221939,
+        "p_img": 0.002672735368832946,
+        "delta_p_img": 0.0009650590363889933,
+        "gradcam_mean": 0.4195818603038788,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.0023688143119215965,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.000732
+          ],
+          [
+            "bunch",
+            -0.000578
+          ],
+          [
+            "give",
+            0.000225
+          ],
+          [
+            "f",
+            -0.000154
+          ],
+          [
+            "advertising",
+            -5.3e-05
+          ],
+          [
+            "ing",
+            -4.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12954716384410858,
+          "max": 0.9999995827674866,
+          "std": 0.2475820630788803
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.01498713530600071,
+        "p_img": 0.010311808437108994,
+        "delta_p_img": 0.004675326868891716,
+        "gradcam_mean": 0.3281676173210144,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.009425529278814793,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.004155
+          ],
+          [
+            "prank.this",
+            0.002961
+          ],
+          [
+            "adds",
+            0.002737
+          ],
+          [
+            "actually",
+            -0.002527
+          ],
+          [
+            "pull",
+            0.002297
+          ],
+          [
+            "wants",
+            0.002131
+          ],
+          [
+            "click",
+            -0.001865
+          ],
+          [
+            "photo",
+            -0.000747
+          ],
+          [
+            "prank",
+            -0.000722
+          ],
+          [
+            "gohst",
+            0.000474
+          ],
+          [
+            "anyone",
+            0.000415
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1252155750989914,
+          "max": 0.9999998807907104,
+          "std": 0.24494189023971558
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.0037342223804444075,
+        "p_img": 0.002750618616119027,
+        "delta_p_img": 0.0009836037643253803,
+        "gradcam_mean": 0.41798198223114014,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.0024546284694224596,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.012367
+          ],
+          [
+            "nexus",
+            -0.002895
+          ],
+          [
+            "tonnes",
+            0.002691
+          ],
+          [
+            "top",
+            0.002315
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1299687623977661,
+          "max": 0.9999995827674866,
+          "std": 0.24791336059570312
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Icon",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.00395462429150939,
+        "p_img": 0.0029331243131309748,
+        "delta_p_img": 0.001021499978378415,
+        "gradcam_mean": 0.4159582555294037,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.002586920280009508,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.001733
+          ],
+          [
+            "ads",
+            0.000548
+          ],
+          [
+            "stupid",
+            -0.000344
+          ],
+          [
+            "open",
+            0.000156
+          ],
+          [
+            "whats",
+            -2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13047592341899872,
+          "max": 0.9999996423721313,
+          "std": 0.2482987642288208
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Icon at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was labeled as bad with 100% confidence (confidently). The model attended to a small Icon at the top-left, a small Icon at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67944",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67944.jpg",
+    "text": "Rubbish app its just a bunch of f ing advertising. I'd give it no stars if I could Doesn't work",
+    "prediction": 0.010567881166934967,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.989432118833065,
+    "gradcam_stats": {
+      "mean": 0.3554610013961792,
+      "max": 1.0,
+      "std": 0.25300151109695435
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.010536441579461098,
+      "p_img": 0.010693162679672241,
+      "delta_p_img": 0.0001567211002111435
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          112,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          720,
+          0,
+          1440,
+          168
+        ],
+        "score_total": 287.1113586425781,
+        "score_mean": 0.18310673382817483
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          0,
+          0,
+          112,
+          14
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          720,
+          168
+        ],
+        "score_total": 143.97813415527344,
+        "score_mean": 0.09182278963984275
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 287.1113586425781,
+        "score_mean": 0.18310673382817483,
+        "bounds_image": [
+          112,
+          0,
+          224,
+          14
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 143.97813415527344,
+        "score_mean": 0.09182278963984275,
+        "bounds_image": [
+          0,
+          0,
+          112,
+          14
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 287.1113586425781,
+        "score_mean": 0.18310673382817483,
+        "bounds_image": [
+          112,
+          0,
+          224,
+          14
+        ],
+        "bounds_rico": [
+          720,
+          0,
+          1440,
+          168
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 143.97813415527344,
+        "score_mean": 0.09182278963984275,
+        "bounds_image": [
+          0,
+          0,
+          112,
+          14
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          720,
+          168
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Rubbish"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.01505214162170887,
+        "p_img": 0.015548990108072758,
+        "delta_p_img": 0.0004968484863638878,
+        "gradcam_mean": 0.3336789011955261,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button",
+        "delta_p_img_shap": 0.0004968484863638878,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.013579
+          ],
+          [
+            "delete!!it's",
+            -0.007049
+          ],
+          [
+            "commercial",
+            -0.005128
+          ],
+          [
+            "froze",
+            -0.00197
+          ],
+          [
+            "first",
+            0.000665
+          ],
+          [
+            "start",
+            -0.000625
+          ],
+          [
+            "another",
+            -0.000486
+          ],
+          [
+            "restarted",
+            -0.000155
+          ],
+          [
+            "second",
+            0.000133
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12264095991849899,
+          "max": 0.9999997019767761,
+          "std": 0.20674818754196167
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.010931056924164295,
+        "p_img": 0.011219738982617855,
+        "delta_p_img": 0.0002886820584535599,
+        "gradcam_mean": 0.3518960475921631,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button",
+        "delta_p_img_shap": 0.0002886820584535599,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.001638
+          ],
+          [
+            "bunch",
+            -0.001474
+          ],
+          [
+            "f",
+            -0.000536
+          ],
+          [
+            "advertising",
+            -0.000384
+          ],
+          [
+            "give",
+            0.00038
+          ],
+          [
+            "ing",
+            -0.000233
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14241881668567657,
+          "max": 0.9999996423721313,
+          "std": 0.22259531915187836
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.037151094526052475,
+        "p_img": 0.03895281255245209,
+        "delta_p_img": 0.0018017180263996124,
+        "gradcam_mean": 0.26279744505882263,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button",
+        "delta_p_img_shap": 0.0018017180263996124,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.009694
+          ],
+          [
+            "adds",
+            0.006579
+          ],
+          [
+            "actually",
+            -0.006513
+          ],
+          [
+            "prank.this",
+            0.006505
+          ],
+          [
+            "click",
+            -0.005042
+          ],
+          [
+            "wants",
+            0.004478
+          ],
+          [
+            "pull",
+            0.004005
+          ],
+          [
+            "photo",
+            -0.001922
+          ],
+          [
+            "prank",
+            -0.001787
+          ],
+          [
+            "anyone",
+            0.001751
+          ],
+          [
+            "gohst",
+            0.000944
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12574069201946259,
+          "max": 0.9999999403953552,
+          "std": 0.20631548762321472
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.010967296548187733,
+        "p_img": 0.011370898224413395,
+        "delta_p_img": 0.00040360167622566223,
+        "gradcam_mean": 0.3463919162750244,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button",
+        "delta_p_img_shap": 0.00040360167622566223,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.029284
+          ],
+          [
+            "nexus",
+            -0.008828
+          ],
+          [
+            "tonnes",
+            0.00667
+          ],
+          [
+            "top",
+            0.005849
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14263668656349182,
+          "max": 0.9999997019767761,
+          "std": 0.22331982851028442
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.011870362795889378,
+        "p_img": 0.01210792362689972,
+        "delta_p_img": 0.00023756083101034164,
+        "gradcam_mean": 0.3423691987991333,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button",
+        "delta_p_img_shap": 0.00023756083101034164,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.004236
+          ],
+          [
+            "ads",
+            0.00101
+          ],
+          [
+            "stupid",
+            -0.000843
+          ],
+          [
+            "open",
+            0.000464
+          ],
+          [
+            "whats",
+            -0.000267
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1424235701560974,
+          "max": 0.9999996423721313,
+          "std": 0.2222450226545334
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 99% confidence.",
+      "simple": "This screen was classified as bad with 99% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was classified as bad with 99% confidence (with high confidence). The model focused on a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67945",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67945.jpg",
+    "text": "its just a bunch of f ing advertising. I'd give it no stars if I could Cant even edit a whole photo without it freezing. Worst app ever Rubbish app",
+    "prediction": 0.027787989005446434,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9722120109945536,
+    "gradcam_stats": {
+      "mean": 0.32141491770744324,
+      "max": 1.0,
+      "std": 0.23260633647441864
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.027855535969138145,
+      "p_img": 0.013645381666719913,
+      "delta_p_img": 0.014210154302418232
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ],
+        "score_total": 341.8479309082031,
+        "score_mean": 0.7913146548800998
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 135.12725830078125,
+        "score_mean": 0.7507069905598959
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 111.44769287109375,
+        "score_mean": 0.21852488798253678
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 341.8479309082031,
+        "score_mean": 0.7913146548800998,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 135.12725830078125,
+        "score_mean": 0.7507069905598959,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 111.44769287109375,
+        "score_mean": 0.21852488798253678,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 341.8479309082031,
+        "score_mean": 0.7913146548800998,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 135.12725830078125,
+        "score_mean": 0.7507069905598959,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 111.44769287109375,
+        "score_mean": 0.21852488798253678,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 2,
+        "token": "▁just"
+      },
+      {
+        "index": 6,
+        "token": "▁f"
+      },
+      {
+        "index": 7,
+        "token": "▁in"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.036558598279953,
+        "p_img": 0.01785566844046116,
+        "delta_p_img": 0.018702929839491844,
+        "gradcam_mean": 0.29391124844551086,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.018702929839491844,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.043338
+          ],
+          [
+            "delete!!it's",
+            -0.027731
+          ],
+          [
+            "commercial",
+            -0.017509
+          ],
+          [
+            "froze",
+            -0.008339
+          ],
+          [
+            "start",
+            -0.003084
+          ],
+          [
+            "another",
+            -0.001841
+          ],
+          [
+            "first",
+            0.001753
+          ],
+          [
+            "restarted",
+            -0.001651
+          ],
+          [
+            "second",
+            -0.000192
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07619868963956833,
+          "max": 0.9999999403953552,
+          "std": 0.19874781370162964
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.027855535969138145,
+        "p_img": 0.013645381666719913,
+        "delta_p_img": 0.014210154302418232,
+        "gradcam_mean": 0.32141491770744324,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.014210154302418232,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.006181
+          ],
+          [
+            "bunch",
+            -0.00576
+          ],
+          [
+            "f",
+            -0.002038
+          ],
+          [
+            "ing",
+            -0.001877
+          ],
+          [
+            "advertising",
+            -0.001519
+          ],
+          [
+            "give",
+            0.001305
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07285534590482712,
+          "max": 0.9999998807907104,
+          "std": 0.19699014723300934
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.10966414958238602,
+        "p_img": 0.04831784591078758,
+        "delta_p_img": 0.061346303671598434,
+        "gradcam_mean": 0.2609308063983917,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.061346303671598434,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.030782
+          ],
+          [
+            "actually",
+            -0.021012
+          ],
+          [
+            "adds",
+            0.020804
+          ],
+          [
+            "click",
+            -0.018189
+          ],
+          [
+            "prank.this",
+            0.017874
+          ],
+          [
+            "wants",
+            0.014231
+          ],
+          [
+            "pull",
+            0.011267
+          ],
+          [
+            "prank",
+            -0.006438
+          ],
+          [
+            "photo",
+            -0.006087
+          ],
+          [
+            "anyone",
+            0.004272
+          ],
+          [
+            "gohst",
+            0.00128
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0842689573764801,
+          "max": 0.9999998807907104,
+          "std": 0.2055990844964981
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.02893316000699997,
+        "p_img": 0.013907092623412609,
+        "delta_p_img": 0.01502606738358736,
+        "gradcam_mean": 0.31614524126052856,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.01502606738358736,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.108353
+          ],
+          [
+            "nexus",
+            -0.027246
+          ],
+          [
+            "tonnes",
+            0.023131
+          ],
+          [
+            "top",
+            0.019828
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07298360764980316,
+          "max": 0.9999999403953552,
+          "std": 0.1971224844455719
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.029930612072348595,
+        "p_img": 0.014540470205247402,
+        "delta_p_img": 0.015390141867101192,
+        "gradcam_mean": 0.31070756912231445,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.015390141867101192,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.015967
+          ],
+          [
+            "stupid",
+            -0.003642
+          ],
+          [
+            "ads",
+            0.003201
+          ],
+          [
+            "whats",
+            -0.00246
+          ],
+          [
+            "open",
+            0.001155
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07520178705453873,
+          "max": 0.9999999403953552,
+          "std": 0.1980288326740265
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 97% confidence.",
+      "simple": "This screen was labeled as bad with 97% confidence. The model directed most attention to a small Text at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was labeled as bad with 97% confidence (confidently). The model attended to a small Text at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67946",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67946.jpg",
+    "text": "Rubbish app its just a bunch of f ing advertising. I'd give it no stars if I could Cant even edit a whole photo without it freezing. Worst app ever",
+    "prediction": 0.000972908572293818,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9990270914277062,
+    "gradcam_stats": {
+      "mean": 0.4637243449687958,
+      "max": 1.0,
+      "std": 0.23932567238807678
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0009752375190146267,
+      "p_img": 0.004428039770573378,
+      "delta_p_img": 0.003452802251558751
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          46,
+          58,
+          90,
+          82
+        ],
+        "bounds_rico": [
+          299,
+          663,
+          580,
+          944
+        ],
+        "score_total": 947.246337890625,
+        "score_mean": 0.8970135775479403
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          90,
+          58,
+          133,
+          82
+        ],
+        "bounds_rico": [
+          580,
+          663,
+          861,
+          944
+        ],
+        "score_total": 918.435791015625,
+        "score_mean": 0.8899571618368459
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          90,
+          82,
+          133,
+          107
+        ],
+        "bounds_rico": [
+          580,
+          944,
+          861,
+          1225
+        ],
+        "score_total": 883.78662109375,
+        "score_mean": 0.8221270893895349
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 947.246337890625,
+        "score_mean": 0.8970135775479403,
+        "bounds_image": [
+          46,
+          58,
+          90,
+          82
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 918.435791015625,
+        "score_mean": 0.8899571618368459,
+        "bounds_image": [
+          90,
+          58,
+          133,
+          82
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 883.78662109375,
+        "score_mean": 0.8221270893895349,
+        "bounds_image": [
+          90,
+          82,
+          133,
+          107
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 947.246337890625,
+        "score_mean": 0.8970135775479403,
+        "bounds_image": [
+          46,
+          58,
+          90,
+          82
+        ],
+        "bounds_rico": [
+          299,
+          663,
+          580,
+          944
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 918.435791015625,
+        "score_mean": 0.8899571618368459,
+        "bounds_image": [
+          90,
+          58,
+          133,
+          82
+        ],
+        "bounds_rico": [
+          580,
+          663,
+          861,
+          944
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 883.78662109375,
+        "score_mean": 0.8221270893895349,
+        "bounds_image": [
+          90,
+          82,
+          133,
+          107
+        ],
+        "bounds_rico": [
+          580,
+          944,
+          861,
+          1225
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 864.8847045898438,
+        "score_mean": 0.7862588223544034,
+        "bounds_image": [
+          46,
+          82,
+          90,
+          107
+        ],
+        "bounds_rico": [
+          299,
+          944,
+          580,
+          1225
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 699.767333984375,
+        "score_mean": 0.6780691220778827,
+        "bounds_image": [
+          90,
+          107,
+          133,
+          131
+        ],
+        "bounds_rico": [
+          580,
+          1225,
+          861,
+          1506
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 710.6810913085938,
+        "score_mean": 0.6729934576785925,
+        "bounds_image": [
+          2,
+          58,
+          46,
+          82
+        ],
+        "bounds_rico": [
+          18,
+          663,
+          299,
+          944
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 733.7723388671875,
+        "score_mean": 0.667065762606534,
+        "bounds_image": [
+          133,
+          82,
+          177,
+          107
+        ],
+        "bounds_rico": [
+          861,
+          944,
+          1142,
+          1225
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 703.385009765625,
+        "score_mean": 0.6660842895507812,
+        "bounds_image": [
+          133,
+          58,
+          177,
+          82
+        ],
+        "bounds_rico": [
+          861,
+          663,
+          1142,
+          944
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 359.7519836425781,
+        "score_mean": 0.6344832163008433,
+        "bounds_image": [
+          2,
+          34,
+          65,
+          43
+        ],
+        "bounds_rico": [
+          18,
+          396,
+          420,
+          499
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 664.42724609375,
+        "score_mean": 0.6291924678918087,
+        "bounds_image": [
+          46,
+          107,
+          90,
+          131
+        ],
+        "bounds_rico": [
+          299,
+          1225,
+          580,
+          1506
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 213.76504516601562,
+        "score_mean": 0.6214100150174873,
+        "bounds_image": [
+          2,
+          50,
+          45,
+          58
+        ],
+        "bounds_rico": [
+          18,
+          578,
+          295,
+          663
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Slider",
+        "score_total": 962.1013793945312,
+        "score_mean": 0.6167316534580328,
+        "bounds_image": [
+          65,
+          34,
+          221,
+          44
+        ],
+        "bounds_rico": [
+          420,
+          396,
+          1422,
+          508
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 647.7233276367188,
+        "score_mean": 0.5888393887606534,
+        "bounds_image": [
+          2,
+          82,
+          46,
+          107
+        ],
+        "bounds_rico": [
+          18,
+          944,
+          299,
+          1225
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 593.1386108398438,
+        "score_mean": 0.5616842905680338,
+        "bounds_image": [
+          133,
+          107,
+          177,
+          131
+        ],
+        "bounds_rico": [
+          861,
+          1225,
+          1142,
+          1506
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Input",
+        "score_total": 1297.6156005859375,
+        "score_mean": 0.493765449233614,
+        "bounds_image": [
+          2,
+          9,
+          221,
+          21
+        ],
+        "bounds_rico": [
+          18,
+          103,
+          1422,
+          241
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 131.89585876464844,
+        "score_mean": 0.483135013789921,
+        "bounds_image": [
+          2,
+          27,
+          41,
+          34
+        ],
+        "bounds_rico": [
+          18,
+          311,
+          265,
+          396
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Image",
+        "score_total": 448.5870666503906,
+        "score_mean": 0.4247983585704457,
+        "bounds_image": [
+          2,
+          107,
+          46,
+          131
+        ],
+        "bounds_rico": [
+          18,
+          1225,
+          299,
+          1506
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Radio Button",
+        "score_total": 771.788818359375,
+        "score_mean": 0.352414985552226,
+        "bounds_image": [
+          2,
+          145,
+          221,
+          155
+        ],
+        "bounds_rico": [
+          18,
+          1661,
+          1422,
+          1773
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Radio Button",
+        "score_total": 693.1322021484375,
+        "score_mean": 0.3516652471580099,
+        "bounds_image": [
+          2,
+          155,
+          221,
+          164
+        ],
+        "bounds_rico": [
+          18,
+          1773,
+          1422,
+          1885
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Radio Button",
+        "score_total": 768.7509765625,
+        "score_mean": 0.35102784317922375,
+        "bounds_image": [
+          2,
+          164,
+          221,
+          174
+        ],
+        "bounds_rico": [
+          18,
+          1885,
+          1422,
+          1997
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text",
+        "score_total": 52.363746643066406,
+        "score_mean": 0.34449833317806844,
+        "bounds_image": [
+          2,
+          1,
+          21,
+          9
+        ],
+        "bounds_rico": [
+          18,
+          18,
+          138,
+          103
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Image",
+        "score_total": 355.39337158203125,
+        "score_mean": 0.33654675339207507,
+        "bounds_image": [
+          177,
+          58,
+          221,
+          82
+        ],
+        "bounds_rico": [
+          1142,
+          663,
+          1422,
+          943
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Radio Button",
+        "score_total": 723.8340454101562,
+        "score_mean": 0.33051782895440923,
+        "bounds_image": [
+          2,
+          174,
+          221,
+          184
+        ],
+        "bounds_rico": [
+          18,
+          1997,
+          1422,
+          2109
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text",
+        "score_total": 99.22166442871094,
+        "score_mean": 0.3263870540418123,
+        "bounds_image": [
+          2,
+          137,
+          40,
+          145
+        ],
+        "bounds_rico": [
+          18,
+          1576,
+          263,
+          1661
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Image",
+        "score_total": 348.3673095703125,
+        "score_mean": 0.31669755415482953,
+        "bounds_image": [
+          177,
+          82,
+          221,
+          107
+        ],
+        "bounds_rico": [
+          1142,
+          944,
+          1422,
+          1224
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Image",
+        "score_total": 283.31329345703125,
+        "score_mean": 0.2682891036524917,
+        "bounds_image": [
+          177,
+          107,
+          221,
+          131
+        ],
+        "bounds_rico": [
+          1142,
+          1225,
+          1422,
+          1505
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Radio Button",
+        "score_total": 699.2430419921875,
+        "score_mean": 0.2660742168920044,
+        "bounds_image": [
+          2,
+          184,
+          221,
+          196
+        ],
+        "bounds_rico": [
+          18,
+          2109,
+          1422,
+          2247
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Radio Button",
+        "score_total": 437.3035888671875,
+        "score_mean": 0.19968200404894407,
+        "bounds_image": [
+          2,
+          196,
+          221,
+          206
+        ],
+        "bounds_rico": [
+          18,
+          2247,
+          1422,
+          2359
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Rubbish"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.0013004562351852655,
+        "p_img": 0.005912711378186941,
+        "delta_p_img": 0.004612255143001676,
+        "gradcam_mean": 0.4544675350189209,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.005537473829463124,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.001315
+          ],
+          [
+            "delete!!it's",
+            -0.00072
+          ],
+          [
+            "commercial",
+            -0.000549
+          ],
+          [
+            "froze",
+            -0.000201
+          ],
+          [
+            "first",
+            7.1e-05
+          ],
+          [
+            "start",
+            -6.3e-05
+          ],
+          [
+            "another",
+            -6.1e-05
+          ],
+          [
+            "restarted",
+            -9e-06
+          ],
+          [
+            "second",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11277735233306885,
+          "max": 0.9999997615814209,
+          "std": 0.23933449387550354
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.000994174275547266,
+        "p_img": 0.004400277975946665,
+        "delta_p_img": 0.003406103700399399,
+        "gradcam_mean": 0.4613805413246155,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0037331264466047287,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.000182
+          ],
+          [
+            "bunch",
+            -0.000151
+          ],
+          [
+            "f",
+            -5.6e-05
+          ],
+          [
+            "give",
+            4.4e-05
+          ],
+          [
+            "advertising",
+            -2.8e-05
+          ],
+          [
+            "ing",
+            -1.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1169995665550232,
+          "max": 0.9999997019767761,
+          "std": 0.24366477131843567
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.003448687493801117,
+        "p_img": 0.01783846877515316,
+        "delta_p_img": 0.014389781281352043,
+        "gradcam_mean": 0.4147551655769348,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.014966905117034912,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.000967
+          ],
+          [
+            "prank.this",
+            0.000694
+          ],
+          [
+            "adds",
+            0.000612
+          ],
+          [
+            "actually",
+            -0.000556
+          ],
+          [
+            "pull",
+            0.00055
+          ],
+          [
+            "wants",
+            0.000484
+          ],
+          [
+            "click",
+            -0.00046
+          ],
+          [
+            "prank",
+            -0.000212
+          ],
+          [
+            "photo",
+            -0.000199
+          ],
+          [
+            "gohst",
+            0.00012
+          ],
+          [
+            "anyone",
+            6.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0996209979057312,
+          "max": 0.9999999403953552,
+          "std": 0.22475482523441315
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.0010211411863565445,
+        "p_img": 0.004607806913554668,
+        "delta_p_img": 0.003586665727198124,
+        "gradcam_mean": 0.45942336320877075,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0038929632864892483,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.002707
+          ],
+          [
+            "nexus",
+            -0.000672
+          ],
+          [
+            "tonnes",
+            0.000554
+          ],
+          [
+            "top",
+            0.000478
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1166568472981453,
+          "max": 0.9999997019767761,
+          "std": 0.24325977265834808
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.0010619066888466477,
+        "p_img": 0.004758976399898529,
+        "delta_p_img": 0.0036970697110518813,
+        "gradcam_mean": 0.4588148891925812,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.004053282900713384,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.000462
+          ],
+          [
+            "ads",
+            0.000124
+          ],
+          [
+            "stupid",
+            -9e-05
+          ],
+          [
+            "open",
+            3.9e-05
+          ],
+          [
+            "whats",
+            -3.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11546217650175095,
+          "max": 0.9999997615814209,
+          "std": 0.2418137490749359
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67947",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67947.jpg",
+    "text": "Rubbish app Doesn't work can't edit a whole photo",
+    "prediction": 0.0014070007018744946,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9985929992981255,
+    "gradcam_stats": {
+      "mean": 0.3760416507720947,
+      "max": 1.0,
+      "std": 0.2352825105190277
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0014020464150235057,
+      "p_img": 0.10873682796955109,
+      "delta_p_img": 0.10733478155452758
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 18600.263671875,
+        "score_mean": 0.3973057004416225
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ],
+        "score_total": 22.078094482421875,
+        "score_mean": 0.22528667839205996
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 18600.263671875,
+        "score_mean": 0.3973057004416225,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 22.078094482421875,
+        "score_mean": 0.22528667839205996,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 18600.263671875,
+        "score_mean": 0.3973057004416225,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 22.078094482421875,
+        "score_mean": 0.22528667839205996,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Rubbish"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.001967429183423519,
+        "p_img": 0.12449833005666733,
+        "delta_p_img": 0.12253090087324381,
+        "gradcam_mean": 0.3598608672618866,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.12253090087324381,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.000983
+          ],
+          [
+            "commercial",
+            -0.000438
+          ],
+          [
+            "delete!!it's",
+            -0.00036
+          ],
+          [
+            "froze",
+            -0.000149
+          ],
+          [
+            "start",
+            -6.2e-05
+          ],
+          [
+            "first",
+            5.9e-05
+          ],
+          [
+            "another",
+            -3.3e-05
+          ],
+          [
+            "restarted",
+            1.7e-05
+          ],
+          [
+            "second",
+            1.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12684381008148193,
+          "max": 0.9999999403953552,
+          "std": 0.23599132895469666
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.0015038091223686934,
+        "p_img": 0.1086689904332161,
+        "delta_p_img": 0.1071651813108474,
+        "gradcam_mean": 0.36829787492752075,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.1071651813108474,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.000205
+          ],
+          [
+            "bunch",
+            -0.000127
+          ],
+          [
+            "f",
+            -4.7e-05
+          ],
+          [
+            "give",
+            3.6e-05
+          ],
+          [
+            "advertising",
+            -2.8e-05
+          ],
+          [
+            "ing",
+            -2.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12928277254104614,
+          "max": 0.9999999403953552,
+          "std": 0.2385694533586502
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.0036522108130156994,
+        "p_img": 0.18513688445091248,
+        "delta_p_img": 0.18148467363789678,
+        "gradcam_mean": 0.34757283329963684,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.18148467363789678,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.000668
+          ],
+          [
+            "adds",
+            0.000385
+          ],
+          [
+            "prank.this",
+            0.000369
+          ],
+          [
+            "actually",
+            -0.000335
+          ],
+          [
+            "pull",
+            0.000311
+          ],
+          [
+            "wants",
+            0.000309
+          ],
+          [
+            "click",
+            -0.000281
+          ],
+          [
+            "gohst",
+            0.000134
+          ],
+          [
+            "prank",
+            -0.000129
+          ],
+          [
+            "photo",
+            -8.5e-05
+          ],
+          [
+            "anyone",
+            -1.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13383574783802032,
+          "max": 0.9999998807907104,
+          "std": 0.23143340647220612
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.0015258843777701259,
+        "p_img": 0.1102292463183403,
+        "delta_p_img": 0.10870336194057018,
+        "gradcam_mean": 0.3673616647720337,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.10870336194057018,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.00209
+          ],
+          [
+            "nexus",
+            -0.000444
+          ],
+          [
+            "tonnes",
+            0.000427
+          ],
+          [
+            "top",
+            0.000396
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12840434908866882,
+          "max": 0.9999999403953552,
+          "std": 0.23722031712532043
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.001618453417904675,
+        "p_img": 0.11287475377321243,
+        "delta_p_img": 0.11125630035530776,
+        "gradcam_mean": 0.36675819754600525,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.11125630035530776,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.000358
+          ],
+          [
+            "ads",
+            0.000126
+          ],
+          [
+            "stupid",
+            -8.9e-05
+          ],
+          [
+            "open",
+            3.8e-05
+          ],
+          [
+            "whats",
+            -2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12823383510112762,
+          "max": 0.9999999403953552,
+          "std": 0.23662930727005005
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Background Image at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Background Image at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67948",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67948.jpg",
+    "text": "its just a bunch of f ing advertising. I'd give it no stars if I could Rubbish app can't edit a whole photo",
+    "prediction": 0.0014578772243112326,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9985421227756888,
+    "gradcam_stats": {
+      "mean": 0.4074519872665405,
+      "max": 1.0,
+      "std": 0.22566011548042297
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0014542248100042343,
+      "p_img": 0.0006771758198738098,
+      "delta_p_img": 0.0007770489901304245
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ],
+        "bounds_rico": [
+          145,
+          1840,
+          514,
+          1906
+        ],
+        "score_total": 242.92190551757812,
+        "score_mean": 0.8523575632195723
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ],
+        "bounds_rico": [
+          536,
+          1840,
+          905,
+          1906
+        ],
+        "score_total": 234.7675018310547,
+        "score_mean": 0.823745620459841
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ],
+        "bounds_rico": [
+          145,
+          1517,
+          514,
+          1840
+        ],
+        "score_total": 1344.248291015625,
+        "score_mean": 0.8132173569362523
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 242.92190551757812,
+        "score_mean": 0.8523575632195723,
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 234.7675018310547,
+        "score_mean": 0.823745620459841,
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1344.248291015625,
+        "score_mean": 0.8132173569362523,
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 242.92190551757812,
+        "score_mean": 0.8523575632195723,
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ],
+        "bounds_rico": [
+          145,
+          1840,
+          514,
+          1906
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 234.7675018310547,
+        "score_mean": 0.823745620459841,
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ],
+        "bounds_rico": [
+          536,
+          1840,
+          905,
+          1906
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1344.248291015625,
+        "score_mean": 0.8132173569362523,
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ],
+        "bounds_rico": [
+          145,
+          1517,
+          514,
+          1840
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 1342.35888671875,
+        "score_mean": 0.8120743416326376,
+        "bounds_image": [
+          83,
+          132,
+          140,
+          161
+        ],
+        "bounds_rico": [
+          536,
+          1517,
+          905,
+          1840
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 1243.5587158203125,
+        "score_mean": 0.7791721277069628,
+        "bounds_image": [
+          22,
+          168,
+          79,
+          196
+        ],
+        "bounds_rico": [
+          145,
+          1928,
+          514,
+          2242
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 1164.33056640625,
+        "score_mean": 0.729530430079104,
+        "bounds_image": [
+          83,
+          168,
+          140,
+          196
+        ],
+        "bounds_rico": [
+          536,
+          1928,
+          905,
+          2242
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 197.76605224609375,
+        "score_mean": 0.6939159727933114,
+        "bounds_image": [
+          83,
+          125,
+          140,
+          130
+        ],
+        "bounds_rico": [
+          536,
+          1429,
+          905,
+          1495
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 194.5453338623047,
+        "score_mean": 0.6826152065344024,
+        "bounds_image": [
+          22,
+          125,
+          79,
+          130
+        ],
+        "bounds_rico": [
+          145,
+          1429,
+          514,
+          1495
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 947.3111572265625,
+        "score_mean": 0.5730859995321007,
+        "bounds_image": [
+          83,
+          96,
+          140,
+          125
+        ],
+        "bounds_rico": [
+          536,
+          1106,
+          905,
+          1429
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 897.8526611328125,
+        "score_mean": 0.543165554224327,
+        "bounds_image": [
+          22,
+          96,
+          79,
+          125
+        ],
+        "bounds_rico": [
+          145,
+          1106,
+          514,
+          1429
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 144.153564453125,
+        "score_mean": 0.5058019805372806,
+        "bounds_image": [
+          83,
+          89,
+          140,
+          94
+        ],
+        "bounds_rico": [
+          536,
+          1018,
+          905,
+          1084
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 136.65066528320312,
+        "score_mean": 0.47947601853755484,
+        "bounds_image": [
+          144,
+          161,
+          201,
+          166
+        ],
+        "bounds_rico": [
+          927,
+          1840,
+          1296,
+          1906
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 746.4505004882812,
+        "score_mean": 0.4515732005373752,
+        "bounds_image": [
+          144,
+          132,
+          201,
+          161
+        ],
+        "bounds_rico": [
+          927,
+          1517,
+          1296,
+          1840
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 702.66259765625,
+        "score_mean": 0.4402647854989035,
+        "bounds_image": [
+          144,
+          168,
+          201,
+          196
+        ],
+        "bounds_rico": [
+          927,
+          1928,
+          1296,
+          2242
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Image",
+        "score_total": 719.267578125,
+        "score_mean": 0.4351286014065336,
+        "bounds_image": [
+          83,
+          60,
+          140,
+          89
+        ],
+        "bounds_rico": [
+          536,
+          695,
+          905,
+          1018
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 119.20240020751953,
+        "score_mean": 0.418254035815858,
+        "bounds_image": [
+          22,
+          89,
+          79,
+          94
+        ],
+        "bounds_rico": [
+          145,
+          1018,
+          514,
+          1084
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 116.45262145996094,
+        "score_mean": 0.4086056893331963,
+        "bounds_image": [
+          144,
+          125,
+          201,
+          130
+        ],
+        "bounds_rico": [
+          927,
+          1429,
+          1296,
+          1495
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 108.01897430419922,
+        "score_mean": 0.3790139449270148,
+        "bounds_image": [
+          144,
+          89,
+          201,
+          94
+        ],
+        "bounds_rico": [
+          927,
+          1018,
+          1296,
+          1084
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Image",
+        "score_total": 626.2757568359375,
+        "score_mean": 0.3788722061923397,
+        "bounds_image": [
+          144,
+          96,
+          201,
+          125
+        ],
+        "bounds_rico": [
+          927,
+          1106,
+          1296,
+          1429
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Image",
+        "score_total": 602.3507690429688,
+        "score_mean": 0.3643985293665873,
+        "bounds_image": [
+          144,
+          60,
+          201,
+          89
+        ],
+        "bounds_rico": [
+          927,
+          695,
+          1296,
+          1018
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Image",
+        "score_total": 551.005859375,
+        "score_mean": 0.3333368780248034,
+        "bounds_image": [
+          22,
+          60,
+          79,
+          89
+        ],
+        "bounds_rico": [
+          145,
+          695,
+          514,
+          1018
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text",
+        "score_total": 90.76004028320312,
+        "score_mean": 0.31845628169544954,
+        "bounds_image": [
+          83,
+          53,
+          140,
+          58
+        ],
+        "bounds_rico": [
+          536,
+          607,
+          905,
+          673
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 90.05531311035156,
+        "score_mean": 0.31598355477316337,
+        "bounds_image": [
+          144,
+          53,
+          201,
+          58
+        ],
+        "bounds_rico": [
+          927,
+          607,
+          1296,
+          673
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Image",
+        "score_total": 465.0074462890625,
+        "score_mean": 0.2813112197755974,
+        "bounds_image": [
+          144,
+          24,
+          201,
+          53
+        ],
+        "bounds_rico": [
+          927,
+          284,
+          1296,
+          607
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text",
+        "score_total": 75.76289367675781,
+        "score_mean": 0.26583471465529057,
+        "bounds_image": [
+          22,
+          53,
+          79,
+          58
+        ],
+        "bounds_rico": [
+          145,
+          607,
+          514,
+          673
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Image",
+        "score_total": 378.24395751953125,
+        "score_mean": 0.22882272082246294,
+        "bounds_image": [
+          83,
+          24,
+          140,
+          53
+        ],
+        "bounds_rico": [
+          536,
+          284,
+          905,
+          607
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Icon",
+        "score_total": 147.201171875,
+        "score_mean": 0.20275643508953167,
+        "bounds_image": [
+          191,
+          0,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1231,
+          0,
+          1440,
+          252
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Image",
+        "score_total": 317.84307861328125,
+        "score_mean": 0.19228256419436252,
+        "bounds_image": [
+          22,
+          24,
+          79,
+          53
+        ],
+        "bounds_rico": [
+          145,
+          284,
+          514,
+          607
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Text",
+        "score_total": 294.45941162109375,
+        "score_mean": 0.1609067823066086,
+        "bounds_image": [
+          20,
+          13,
+          203,
+          23
+        ],
+        "bounds_rico": [
+          134,
+          152,
+          1307,
+          273
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 2,
+        "token": "▁just"
+      },
+      {
+        "index": 6,
+        "token": "▁f"
+      },
+      {
+        "index": 7,
+        "token": "▁in"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.00178695993963629,
+        "p_img": 0.005835552699863911,
+        "delta_p_img": 0.004048592760227621,
+        "gradcam_mean": 0.396542489528656,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Text",
+        "delta_p_img_shap": 0.0007399010937660933,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.000796
+          ],
+          [
+            "delete!!it's",
+            -0.000395
+          ],
+          [
+            "commercial",
+            -0.000377
+          ],
+          [
+            "froze",
+            -0.000156
+          ],
+          [
+            "start",
+            -6e-05
+          ],
+          [
+            "first",
+            4.2e-05
+          ],
+          [
+            "restarted",
+            -3.5e-05
+          ],
+          [
+            "another",
+            -2.3e-05
+          ],
+          [
+            "second",
+            3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2597351670265198,
+          "max": 0.9999998211860657,
+          "std": 0.3684985339641571
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.0014542248100042343,
+        "p_img": 0.0006771758198738098,
+        "delta_p_img": 0.0007770489901304245,
+        "gradcam_mean": 0.4074519872665405,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.0004175313515588641,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.000162
+          ],
+          [
+            "bunch",
+            -0.000133
+          ],
+          [
+            "advertising",
+            -6.8e-05
+          ],
+          [
+            "ing",
+            -6.3e-05
+          ],
+          [
+            "f",
+            -5.2e-05
+          ],
+          [
+            "give",
+            2.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.26658669114112854,
+          "max": 0.9999997615814209,
+          "std": 0.3780756890773773
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.003278330434113741,
+        "p_img": 0.0014744546497240663,
+        "delta_p_img": 0.0018038757843896747,
+        "gradcam_mean": 0.3709912598133087,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Image",
+        "delta_p_img_shap": 0.001613331027328968,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.000607
+          ],
+          [
+            "actually",
+            -0.00038
+          ],
+          [
+            "adds",
+            0.000357
+          ],
+          [
+            "click",
+            -0.000344
+          ],
+          [
+            "prank.this",
+            0.000308
+          ],
+          [
+            "wants",
+            0.000233
+          ],
+          [
+            "pull",
+            0.000192
+          ],
+          [
+            "photo",
+            -0.000121
+          ],
+          [
+            "prank",
+            -9.3e-05
+          ],
+          [
+            "anyone",
+            5e-05
+          ],
+          [
+            "gohst",
+            1.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23410944640636444,
+          "max": 0.9999998807907104,
+          "std": 0.3299873173236847
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.0015064325416460633,
+        "p_img": 0.0006981395999900997,
+        "delta_p_img": 0.0008082929416559637,
+        "gradcam_mean": 0.3900185823440552,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.00042965542525053024,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.001892
+          ],
+          [
+            "nexus",
+            -0.000451
+          ],
+          [
+            "tonnes",
+            0.000353
+          ],
+          [
+            "top",
+            0.000328
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.26542380452156067,
+          "max": 0.9999997615814209,
+          "std": 0.37626269459724426
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Image",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.0015451854560524225,
+        "p_img": 0.0007247452740557492,
+        "delta_p_img": 0.0008204401819966733,
+        "gradcam_mean": 0.38876962661743164,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Text",
+        "delta_p_img_shap": 0.0006541589391417801,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.000355
+          ],
+          [
+            "stupid",
+            -8e-05
+          ],
+          [
+            "whats",
+            -7.1e-05
+          ],
+          [
+            "ads",
+            5.4e-05
+          ],
+          [
+            "open",
+            4.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.26479700207710266,
+          "max": 0.9999997615814209,
+          "std": 0.3753471374511719
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Text at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.sticker.zombiephotoboothfree",
+    "screen_id": "67949",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67949.jpg",
+    "text": "Rubbish app its just a bunch of f ing advertising. I'd give it no stars if I could Cant even edit a whole photo without it freezing. Worst app ever",
+    "prediction": 0.05724794417619705,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.942752055823803,
+    "gradcam_stats": {
+      "mean": 0.24057571589946747,
+      "max": 1.0,
+      "std": 0.2007731795310974
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+      "its just a bunch of f ing advertising. I'd give it no stars if I could",
+      "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+      "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+      "all i get are stupid ads when i open the app. whats up with this not happy."
+    ],
+    "app_name": "Zombie Photo Booth Free",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.05744807794690132,
+      "p_img": 0.005845633335411549,
+      "delta_p_img": 0.05160244461148977
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          39,
+          125,
+          224,
+          145
+        ],
+        "bounds_rico": [
+          252,
+          1436,
+          1440,
+          1660
+        ],
+        "score_total": 1332.788330078125,
+        "score_mean": 0.36021306218327703
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          121,
+          147,
+          175,
+          162
+        ],
+        "bounds_rico": [
+          781,
+          1688,
+          1125,
+          1856
+        ],
+        "score_total": 165.33706665039062,
+        "score_mean": 0.20411983537085263
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          8,
+          131,
+          21,
+          139
+        ],
+        "bounds_rico": [
+          56,
+          1506,
+          140,
+          1590
+        ],
+        "score_total": 20.73077392578125,
+        "score_mean": 0.19933436467097357
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 1332.788330078125,
+        "score_mean": 0.36021306218327703,
+        "bounds_image": [
+          39,
+          125,
+          224,
+          145
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 165.33706665039062,
+        "score_mean": 0.20411983537085263,
+        "bounds_image": [
+          121,
+          147,
+          175,
+          162
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 20.73077392578125,
+        "score_mean": 0.19933436467097357,
+        "bounds_image": [
+          8,
+          131,
+          21,
+          139
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 1332.788330078125,
+        "score_mean": 0.36021306218327703,
+        "bounds_image": [
+          39,
+          125,
+          224,
+          145
+        ],
+        "bounds_rico": [
+          252,
+          1436,
+          1440,
+          1660
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 165.33706665039062,
+        "score_mean": 0.20411983537085263,
+        "bounds_image": [
+          121,
+          147,
+          175,
+          162
+        ],
+        "bounds_rico": [
+          781,
+          1688,
+          1125,
+          1856
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 20.73077392578125,
+        "score_mean": 0.19933436467097357,
+        "bounds_image": [
+          8,
+          131,
+          21,
+          139
+        ],
+        "bounds_rico": [
+          56,
+          1506,
+          140,
+          1590
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 112.091552734375,
+        "score_mean": 0.17792309957837302,
+        "bounds_image": [
+          175,
+          147,
+          217,
+          162
+        ],
+        "bounds_rico": [
+          1125,
+          1688,
+          1398,
+          1856
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 9.476795196533203,
+        "score_mean": 0.10414060655530992,
+        "bounds_image": [
+          13,
+          187,
+          26,
+          194
+        ],
+        "bounds_rico": [
+          84,
+          2140,
+          168,
+          2224
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 364.4605712890625,
+        "score_mean": 0.09570918363683364,
+        "bounds_image": [
+          0,
+          165,
+          224,
+          182
+        ],
+        "bounds_rico": [
+          0,
+          1888,
+          1440,
+          2084
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 5.008047580718994,
+        "score_mean": 0.0770468858572153,
+        "bounds_image": [
+          13,
+          204,
+          26,
+          209
+        ],
+        "bounds_rico": [
+          84,
+          2336,
+          168,
+          2392
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 14.333087921142578,
+        "score_mean": 0.04699373088899206,
+        "bounds_image": [
+          39,
+          204,
+          100,
+          209
+        ],
+        "bounds_rico": [
+          252,
+          2335,
+          648,
+          2392
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 33.29603958129883,
+        "score_mean": 0.04285204579317738,
+        "bounds_image": [
+          39,
+          187,
+          150,
+          194
+        ],
+        "bounds_rico": [
+          252,
+          2139,
+          965,
+          2224
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Rubbish"
+      },
+      {
+        "index": 4,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!",
+        "word_count": 21,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.976,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Text Button",
+        "top_k_tokens": "▁more, ▁start, s",
+        "p_orig": 0.08475260436534882,
+        "p_img": 0.01236092671751976,
+        "delta_p_img": 0.07239167764782906,
+        "gradcam_mean": 0.20979104936122894,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Icon",
+        "delta_p_img_shap": 0.04530077055096626,
+        "word_attention_top15": [
+          [
+            "delete!!it's",
+            0.39354
+          ],
+          [
+            "junk",
+            0.139325
+          ],
+          [
+            "start",
+            0.108575
+          ],
+          [
+            "commercial",
+            0.093998
+          ],
+          [
+            "froze",
+            0.093769
+          ],
+          [
+            "first",
+            0.064412
+          ],
+          [
+            "instant",
+            0.036888
+          ],
+          [
+            "second",
+            0.033352
+          ],
+          [
+            "restarted",
+            0.018672
+          ],
+          [
+            "another",
+            0.01747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "instant",
+            0.105703
+          ],
+          [
+            "delete!!it's",
+            -0.059022
+          ],
+          [
+            "commercial",
+            -0.044465
+          ],
+          [
+            "froze",
+            -0.018537
+          ],
+          [
+            "start",
+            -0.00634
+          ],
+          [
+            "first",
+            0.004734
+          ],
+          [
+            "another",
+            -0.00462
+          ],
+          [
+            "restarted",
+            -0.002366
+          ],
+          [
+            "second",
+            0.000103
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08273543417453766,
+          "max": 0.9999998807907104,
+          "std": 0.2097819447517395
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "its just a bunch of f ing advertising. I'd give it no stars if I could",
+        "word_count": 16,
+        "interface_pos": 0.0064,
+        "interface_neg": 0.9207,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Text Button",
+        "top_k_tokens": "▁just, ▁f, ▁in",
+        "p_orig": 0.0581866018474102,
+        "p_img": 0.008732439018785954,
+        "delta_p_img": 0.04945416282862425,
+        "gradcam_mean": 0.23667018115520477,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.03061653859913349,
+        "word_attention_top15": [
+          [
+            "ing",
+            0.332813
+          ],
+          [
+            "f",
+            0.182455
+          ],
+          [
+            "bunch",
+            0.153945
+          ],
+          [
+            "advertising",
+            0.14463
+          ],
+          [
+            "no stars",
+            0.132444
+          ],
+          [
+            "give",
+            0.053713
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no stars",
+            -0.017654
+          ],
+          [
+            "bunch",
+            -0.013768
+          ],
+          [
+            "f",
+            -0.004357
+          ],
+          [
+            "give",
+            0.003705
+          ],
+          [
+            "ing",
+            -0.003195
+          ],
+          [
+            "advertising",
+            -0.000652
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11116603016853333,
+          "max": 0.9999999403953552,
+          "std": 0.22350555658340454
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤",
+        "word_count": 24,
+        "interface_pos": 0.5387,
+        "interface_neg": 0.2541,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text Button, Text Button",
+        "top_k_tokens": "▁interface, ▁should, ▁Anyone",
+        "p_orig": 0.26096969842910767,
+        "p_img": 0.03406280651688576,
+        "delta_p_img": 0.2269068919122219,
+        "gradcam_mean": 0.14169630408287048,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Icon",
+        "delta_p_img_shap": 0.14414287358522415,
+        "word_attention_top15": [
+          [
+            "prank.this",
+            0.294447
+          ],
+          [
+            "anyone",
+            0.145923
+          ],
+          [
+            "😑😤",
+            0.118887
+          ],
+          [
+            "pull",
+            0.079782
+          ],
+          [
+            "gohst",
+            0.070355
+          ],
+          [
+            "download",
+            0.070293
+          ],
+          [
+            "adds",
+            0.051064
+          ],
+          [
+            "photo",
+            0.05076
+          ],
+          [
+            "prank",
+            0.046262
+          ],
+          [
+            "click",
+            0.02821
+          ],
+          [
+            "wants",
+            0.026274
+          ],
+          [
+            "actually",
+            0.017743
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "download",
+            0.072606
+          ],
+          [
+            "prank.this",
+            0.044345
+          ],
+          [
+            "adds",
+            0.04345
+          ],
+          [
+            "actually",
+            -0.039756
+          ],
+          [
+            "wants",
+            0.035331
+          ],
+          [
+            "click",
+            -0.034356
+          ],
+          [
+            "pull",
+            0.031727
+          ],
+          [
+            "prank",
+            -0.015765
+          ],
+          [
+            "anyone",
+            0.011901
+          ],
+          [
+            "photo",
+            -0.011674
+          ],
+          [
+            "gohst",
+            0.007792
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10663685202598572,
+          "max": 0.9999998211860657,
+          "std": 0.2404455840587616
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add.",
+        "word_count": 15,
+        "interface_pos": 0.0016,
+        "interface_neg": 0.9859,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Text Button",
+        "top_k_tokens": "▁top, ▁Doesn, ▁interface",
+        "p_orig": 0.06002942472696304,
+        "p_img": 0.00885299313813448,
+        "delta_p_img": 0.051176431588828564,
+        "gradcam_mean": 0.23482216894626617,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.03217345289885998,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.484085
+          ],
+          [
+            "top",
+            0.254955
+          ],
+          [
+            "add",
+            0.111577
+          ],
+          [
+            "nexus",
+            0.087965
+          ],
+          [
+            "tonnes",
+            0.061417
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't work",
+            -0.222557
+          ],
+          [
+            "tonnes",
+            0.045233
+          ],
+          [
+            "top",
+            0.039472
+          ],
+          [
+            "nexus",
+            -0.03281
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11117474734783173,
+          "max": 0.9999999403953552,
+          "std": 0.2234174907207489
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "all i get are stupid ads when i open the app. whats up with this not happy.",
+        "word_count": 17,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9724,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Text Button",
+        "top_k_tokens": "▁interface, ▁what, ▁all",
+        "p_orig": 0.06428071856498718,
+        "p_img": 0.009538747370243073,
+        "delta_p_img": 0.05474197119474411,
+        "gradcam_mean": 0.23362046480178833,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.03465108573436737,
+        "word_attention_top15": [
+          [
+            "whats",
+            0.334925
+          ],
+          [
+            "not happy",
+            0.286875
+          ],
+          [
+            "ads",
+            0.170713
+          ],
+          [
+            "stupid",
+            0.125997
+          ],
+          [
+            "open",
+            0.08149
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not",
+            -0.035912
+          ],
+          [
+            "ads",
+            0.009261
+          ],
+          [
+            "stupid",
+            -0.007953
+          ],
+          [
+            "whats",
+            -0.002202
+          ],
+          [
+            "open",
+            0.000657
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11146017163991928,
+          "max": 0.9999999403953552,
+          "std": 0.2235596626996994
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 94% confidence.",
+      "simple": "This screen was classified as bad with 94% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Zombie Photo Booth Free (category: Entertainment) was classified as bad with 94% confidence (with high confidence). The model focused on a small Text at the top-left, a small Text Button at the top-left, and a small Icon at the top-left."
+    }
+  }
+]

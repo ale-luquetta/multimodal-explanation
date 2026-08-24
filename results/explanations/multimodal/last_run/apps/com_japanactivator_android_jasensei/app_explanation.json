@@ -1,0 +1,370 @@
+{
+  "package_name": "com.japanactivator.android.jasensei",
+  "num_screens": 8,
+  "app_score": 0.9708737134933472,
+  "app_prediction": "good",
+  "app_confidence": 0.9708737134933472,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9512545466423035,
+    0.9964060187339783,
+    0.9983629584312439,
+    0.9526399374008179,
+    0.9597221612930298,
+    0.9393460154533386,
+    0.9851250648498535,
+    0.9841330051422119
+  ],
+  "prediction_variance": 0.00045277527342157953,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_japanactivator_android_jasensei\\com_japanactivator_android_jasensei_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.japanactivator.android.jasensei was classified as good with average confidence 97% across 8 screens.",
+    "simple": "com.japanactivator.android.jasensei was classified as good with average confidence 97% across 8 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "com.japanactivator.android.jasensei was classified as good with average confidence 97% across 8 screens. Across these screens, the model recurringly attended to Text components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text (9x), Text Button (5x), Icon (4x). The most influential review words across screens were 'helpful', 'japanese', 'language', 'go-to', and 'comprehensive'. The app belongs to the Education category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "3749",
+    "review_rank": 3,
+    "delta_p_img": 0.426324725151062,
+    "confidence": 0.9841330051422119,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\3749.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "helpful",
+      1.273848
+    ],
+    [
+      "japanese",
+      1.181976
+    ],
+    [
+      "language",
+      1.047929
+    ],
+    [
+      "go-to",
+      0.992442
+    ],
+    [
+      "comprehensive",
+      0.839342
+    ],
+    [
+      "grammar",
+      0.745767
+    ],
+    [
+      "phenomenal",
+      0.712307
+    ],
+    [
+      "levels",
+      0.704743
+    ],
+    [
+      "practice",
+      0.698962
+    ],
+    [
+      "design",
+      0.679757
+    ],
+    [
+      "years",
+      0.670123
+    ],
+    [
+      "sentence",
+      0.667446
+    ],
+    [
+      "learn",
+      0.637385
+    ],
+    [
+      "learning",
+      0.633439
+    ],
+    [
+      "encompassing",
+      0.63127
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "comprehensive",
+      0.824129
+    ],
+    [
+      "helpful",
+      0.559081
+    ],
+    [
+      "fantastic",
+      0.37543
+    ],
+    [
+      "lost",
+      -0.36627
+    ],
+    [
+      "go-to",
+      0.304885
+    ],
+    [
+      "design",
+      0.296085
+    ],
+    [
+      "useful",
+      0.27009
+    ],
+    [
+      "learning",
+      0.249602
+    ],
+    [
+      "explore",
+      0.233398
+    ],
+    [
+      "absolutely",
+      0.229308
+    ],
+    [
+      "amazing",
+      0.226188
+    ],
+    [
+      "solid",
+      0.223677
+    ],
+    [
+      "continue",
+      0.218452
+    ],
+    [
+      "love",
+      0.214221
+    ],
+    [
+      "singular",
+      0.207183
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "helpful",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 1,
+      "rank_shap": 2,
+      "shap_signed": 0.559081,
+      "in_both": true
+    },
+    {
+      "word": "comprehensive",
+      "rrf_score": 0.031778,
+      "rank_bahdanau": 5,
+      "rank_shap": 1,
+      "shap_signed": 0.824129,
+      "in_both": true
+    },
+    {
+      "word": "go-to",
+      "rrf_score": 0.03101,
+      "rank_bahdanau": 4,
+      "rank_shap": 5,
+      "shap_signed": 0.304885,
+      "in_both": true
+    },
+    {
+      "word": "design",
+      "rrf_score": 0.029437,
+      "rank_bahdanau": 10,
+      "rank_shap": 6,
+      "shap_signed": 0.296085,
+      "in_both": true
+    },
+    {
+      "word": "learning",
+      "rrf_score": 0.028219,
+      "rank_bahdanau": 14,
+      "rank_shap": 8,
+      "shap_signed": 0.249602,
+      "in_both": true
+    },
+    {
+      "word": "japanese",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "fantastic",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.37543,
+      "in_both": false
+    },
+    {
+      "word": "language",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "lost",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.36627,
+      "in_both": false
+    },
+    {
+      "word": "grammar",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "useful",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.27009,
+      "in_both": false
+    },
+    {
+      "word": "phenomenal",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "levels",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "practice",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "explore",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.233398,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 10,
+      "text": "This app is absolutely fantastic. I've downloaded a few Japanese language apps the past few weeks and I've found some are better for writing practice and others for sentence structure and grammar, but this one is all encompassing. I find it amazing that one person did all of this by themselves and hope that they continue do phenomenal work like this, thank you!!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 12,
+      "text": "I have had JA Sensei for quite some time. It is so comprehensive and helpful. It's like having a Japanese language class for all levels on your phone or computer. The unlimited plan was absolutely worth it. They keep updating and giving more stuff to help you learn. I do use Duolingo as well for more practice but JA Sensei is comprehensive and includes culture which is helpful when speaking a foreign language. I recommend using Duolingo and JA Sensei to get a full experience."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 11,
+      "text": "I've used this app for years. Super helpful, I love the design and ease of finding what I want. Easy to search and find verb conjugations, adjectives, kanji, and even counters! Irarely use my Japanese dictionaries anywhere. The handwriting program made a huge difference for me! I've only had a problem with it once, years ago. I contacted the developer, they were prompt and helpful! I love that the app is always making new improvements based on users feedback. I use the JA audio book app, too!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 13,
+      "text": "I've been watching the development of this for years. Its solid design, impressively comprehensive, and useful without having to make purchases. The donation based membership cost provides functions that need server support only, and its the work of (as far as I know) one man. If you are serious about learning Japanese, it is the singular source you need to pass all proficiency exam levels."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 4,
+      "text": "I can tell, right off the bat, that this app is going to be my go-to for learning and practicing Japanese. I feel like I'm going to get lost in all of the ways I can learn with this app! From listening, speaking, reading and writing to practicing all of those things at once with flashcards or go to the grammar section or read up on cultural blunders one might make, unawares. There is so much to explore. This is the way language learning software should be made!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "helpful",
+      1.273848
+    ],
+    [
+      "japanese",
+      1.181976
+    ],
+    [
+      "language",
+      1.047929
+    ],
+    [
+      "go-to",
+      0.992442
+    ],
+    [
+      "comprehensive",
+      0.839342
+    ],
+    [
+      "grammar",
+      0.745767
+    ],
+    [
+      "phenomenal",
+      0.712307
+    ],
+    [
+      "levels",
+      0.704743
+    ],
+    [
+      "practice",
+      0.698962
+    ],
+    [
+      "design",
+      0.679757
+    ],
+    [
+      "years",
+      0.670123
+    ],
+    [
+      "sentence",
+      0.667446
+    ],
+    [
+      "learn",
+      0.637385
+    ],
+    [
+      "learning",
+      0.633439
+    ],
+    [
+      "encompassing",
+      0.63127
+    ]
+  ]
+}

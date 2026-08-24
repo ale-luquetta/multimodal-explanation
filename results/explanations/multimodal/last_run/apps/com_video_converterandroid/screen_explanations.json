@@ -1,0 +1,6363 @@
+[
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44733",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44733.jpg",
+    "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app it crashed many times , when try to open Avi video ... big amount of Ads!! Useless app,... Just full of advertisements",
+    "prediction": 0.006983264349400997,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.993016735650599,
+    "gradcam_stats": {
+      "mean": 0.485884428024292,
+      "max": 1.0,
+      "std": 0.2255876660346985
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.006988325621932745,
+      "p_img": 0.00526212016120553,
+      "delta_p_img": 0.0017262054607272148
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          63,
+          135,
+          184,
+          155
+        ],
+        "bounds_rico": [
+          408,
+          1548,
+          1188,
+          1777
+        ],
+        "score_total": 1860.0926513671875,
+        "score_mean": 0.7686333270112345
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          125,
+          221,
+          131
+        ],
+        "bounds_rico": [
+          18,
+          1440,
+          1422,
+          1506
+        ],
+        "score_total": 850.67626953125,
+        "score_mean": 0.647394421256659
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          25,
+          5,
+          94,
+          13
+        ],
+        "bounds_rico": [
+          165,
+          63,
+          605,
+          156
+        ],
+        "score_total": 345.62457275390625,
+        "score_mean": 0.6261314723802649
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 1860.0926513671875,
+        "score_mean": 0.7686333270112345,
+        "bounds_image": [
+          63,
+          135,
+          184,
+          155
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 850.67626953125,
+        "score_mean": 0.647394421256659,
+        "bounds_image": [
+          2,
+          125,
+          221,
+          131
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 345.62457275390625,
+        "score_mean": 0.6261314723802649,
+        "bounds_image": [
+          25,
+          5,
+          94,
+          13
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 1860.0926513671875,
+        "score_mean": 0.7686333270112345,
+        "bounds_image": [
+          63,
+          135,
+          184,
+          155
+        ],
+        "bounds_rico": [
+          408,
+          1548,
+          1188,
+          1777
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 850.67626953125,
+        "score_mean": 0.647394421256659,
+        "bounds_image": [
+          2,
+          125,
+          221,
+          131
+        ],
+        "bounds_rico": [
+          18,
+          1440,
+          1422,
+          1506
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 345.62457275390625,
+        "score_mean": 0.6261314723802649,
+        "bounds_image": [
+          25,
+          5,
+          94,
+          13
+        ],
+        "bounds_rico": [
+          165,
+          63,
+          605,
+          156
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Video",
+        "score_total": 12304.779296875,
+        "score_mean": 0.5977256046281454,
+        "bounds_image": [
+          2,
+          30,
+          221,
+          124
+        ],
+        "bounds_rico": [
+          18,
+          343,
+          1422,
+          1423
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 108.51090240478516,
+        "score_mean": 0.571110012656764,
+        "bounds_image": [
+          5,
+          140,
+          24,
+          150
+        ],
+        "bounds_rico": [
+          34,
+          1601,
+          157,
+          1724
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 48.75897216796875,
+        "score_mean": 0.5079059600830078,
+        "bounds_image": [
+          33,
+          143,
+          57,
+          147
+        ],
+        "bounds_rico": [
+          217,
+          1636,
+          371,
+          1689
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 1501.050537109375,
+        "score_mean": 0.43647878368984444,
+        "bounds_image": [
+          21,
+          165,
+          202,
+          184
+        ],
+        "bounds_rico": [
+          139,
+          1886,
+          1301,
+          2107
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 62.81001663208008,
+        "score_mean": 0.3489445368448893,
+        "bounds_image": [
+          2,
+          4,
+          20,
+          14
+        ],
+        "bounds_rico": [
+          18,
+          53,
+          130,
+          165
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 33.38691711425781,
+        "score_mean": 0.34778038660685223,
+        "bounds_image": [
+          190,
+          143,
+          214,
+          147
+        ],
+        "bounds_rico": [
+          1224,
+          1636,
+          1378,
+          1689
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Web View",
+        "score_total": 684.4295654296875,
+        "score_mean": 0.19096807071140834,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 49.92218780517578,
+        "score_mean": 0.1848969918710214,
+        "bounds_image": [
+          191,
+          4,
+          218,
+          14
+        ],
+        "bounds_rico": [
+          1230,
+          57,
+          1405,
+          162
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁time"
+      },
+      {
+        "index": 5,
+        "token": "▁your"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.007040412165224552,
+        "p_img": 0.005423294845968485,
+        "delta_p_img": 0.0016171173192560673,
+        "gradcam_mean": 0.5045759677886963,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Video, Image",
+        "delta_p_img_shap": 0.001189560629427433,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.004316
+          ],
+          [
+            "big",
+            0.002625
+          ],
+          [
+            "open",
+            -0.002351
+          ],
+          [
+            "times",
+            -0.001076
+          ],
+          [
+            "amount",
+            0.000992
+          ],
+          [
+            "avi",
+            0.000835
+          ],
+          [
+            "try",
+            0.000813
+          ],
+          [
+            "video",
+            0.00051
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08904923498630524,
+          "max": 0.9999998211860657,
+          "std": 0.20232689380645752
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.006988325621932745,
+        "p_img": 0.00526212016120553,
+        "delta_p_img": 0.0017262054607272148,
+        "gradcam_mean": 0.485884428024292,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Video, Image",
+        "delta_p_img_shap": 0.0013236827217042446,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.003131
+          ],
+          [
+            "totally",
+            0.001978
+          ],
+          [
+            "dont install",
+            -0.001706
+          ],
+          [
+            "fake",
+            -0.000756
+          ],
+          [
+            "crashes",
+            -0.000549
+          ],
+          [
+            "selecting",
+            0.000548
+          ],
+          [
+            "waste",
+            -0.000422
+          ],
+          [
+            "developer",
+            -0.000353
+          ],
+          [
+            "times",
+            -0.000189
+          ],
+          [
+            "file",
+            -5e-05
+          ],
+          [
+            "type",
+            -4.8e-05
+          ],
+          [
+            "dont know",
+            8e-06
+          ],
+          [
+            "time",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08854716271162033,
+          "max": 0.9999998211860657,
+          "std": 0.20121796429157257
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.018702706322073936,
+        "p_img": 0.02542291022837162,
+        "delta_p_img": 0.006720203906297684,
+        "gradcam_mean": 0.4400647282600403,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Video, Text Button",
+        "delta_p_img_shap": 0.07007681019604206,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "able",
+            0.008841
+          ],
+          [
+            "crashed",
+            -0.008655
+          ],
+          [
+            "started",
+            0.003783
+          ],
+          [
+            "locate",
+            -0.003185
+          ],
+          [
+            "manager",
+            -0.002718
+          ],
+          [
+            "wanted",
+            0.002635
+          ],
+          [
+            "using",
+            0.002596
+          ],
+          [
+            "selected",
+            0.001796
+          ],
+          [
+            "later",
+            -0.001006
+          ],
+          [
+            "file",
+            0.001004
+          ],
+          [
+            "flv",
+            -0.000951
+          ],
+          [
+            "nifty",
+            0.000834
+          ],
+          [
+            "convert",
+            0.000724
+          ],
+          [
+            "-",
+            0.000366
+          ],
+          [
+            "seconds",
+            0.000166
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0707375779747963,
+          "max": 0.9999998807907104,
+          "std": 0.17933271825313568
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.025526482611894608,
+        "p_img": 0.034245312213897705,
+        "delta_p_img": 0.008718829602003098,
+        "gradcam_mean": 0.4231920540332794,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Video, Text Button",
+        "delta_p_img_shap": 0.09521236643195152,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.024278
+          ],
+          [
+            "can't played",
+            -0.007136
+          ],
+          [
+            "movie",
+            -0.003118
+          ],
+          [
+            "limited",
+            -0.003104
+          ],
+          [
+            "possibilities",
+            0.002594
+          ],
+          [
+            "low-volume",
+            0.002257
+          ],
+          [
+            "cases",
+            -0.001278
+          ],
+          [
+            "making",
+            0.000674
+          ],
+          [
+            "video",
+            0.000377
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06910590082406998,
+          "max": 0.9999998807907104,
+          "std": 0.1755480021238327
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.06262041628360748,
+        "p_img": 0.08039788901805878,
+        "delta_p_img": 0.017777472734451294,
+        "gradcam_mean": 0.3575638234615326,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Video, Text Button",
+        "delta_p_img_shap": 0.23040486872196198,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.029485
+          ],
+          [
+            "works",
+            0.016777
+          ],
+          [
+            "option",
+            0.014253
+          ],
+          [
+            "plz",
+            -0.008271
+          ],
+          [
+            "add",
+            -0.007624
+          ],
+          [
+            "reviews",
+            0.007158
+          ],
+          [
+            "frame",
+            -0.005346
+          ],
+          [
+            "48fps",
+            0.004902
+          ],
+          [
+            "theres",
+            -0.00361
+          ],
+          [
+            "bad",
+            -0.002778
+          ],
+          [
+            "rate",
+            -0.000952
+          ],
+          [
+            "dont understand",
+            0.000684
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06382719427347183,
+          "max": 0.9999999403953552,
+          "std": 0.16170093417167664
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 99% confidence.",
+      "simple": "This screen was predicted as bad with 99% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was predicted as bad with 99% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44734",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44734.jpg",
+    "text": "it crashed many times , when try to open Avi video ... big amount of Ads!! Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app No went support and ads are extremely intrusive to hear",
+    "prediction": 0.03909823298454285,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9609017670154572,
+    "gradcam_stats": {
+      "mean": 0.32937225699424744,
+      "max": 1.0,
+      "std": 0.24700084328651428
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.03917253389954567,
+      "p_img": 0.010688865557312965,
+      "delta_p_img": 0.028483668342232704
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          61,
+          73,
+          162,
+          89
+        ],
+        "bounds_rico": [
+          398,
+          840,
+          1042,
+          1020
+        ],
+        "score_total": 974.1521606445312,
+        "score_mean": 0.6028169310919129
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          25,
+          5,
+          83,
+          13
+        ],
+        "bounds_rico": [
+          165,
+          63,
+          539,
+          156
+        ],
+        "score_total": 141.822509765625,
+        "score_mean": 0.305651960701778
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          22,
+          221,
+          28
+        ],
+        "bounds_rico": [
+          18,
+          261,
+          1422,
+          327
+        ],
+        "score_total": 307.1397705078125,
+        "score_mean": 0.23374411758585426
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 974.1521606445312,
+        "score_mean": 0.6028169310919129,
+        "bounds_image": [
+          61,
+          73,
+          162,
+          89
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 141.822509765625,
+        "score_mean": 0.305651960701778,
+        "bounds_image": [
+          25,
+          5,
+          83,
+          13
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 307.1397705078125,
+        "score_mean": 0.23374411758585426,
+        "bounds_image": [
+          2,
+          22,
+          221,
+          28
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 974.1521606445312,
+        "score_mean": 0.6028169310919129,
+        "bounds_image": [
+          61,
+          73,
+          162,
+          89
+        ],
+        "bounds_rico": [
+          398,
+          840,
+          1042,
+          1020
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 141.822509765625,
+        "score_mean": 0.305651960701778,
+        "bounds_image": [
+          25,
+          5,
+          83,
+          13
+        ],
+        "bounds_rico": [
+          165,
+          63,
+          539,
+          156
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 307.1397705078125,
+        "score_mean": 0.23374411758585426,
+        "bounds_image": [
+          2,
+          22,
+          221,
+          28
+        ],
+        "bounds_rico": [
+          18,
+          261,
+          1422,
+          327
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 29.387157440185547,
+        "score_mean": 0.1632619857788086,
+        "bounds_image": [
+          2,
+          4,
+          20,
+          14
+        ],
+        "bounds_rico": [
+          18,
+          53,
+          130,
+          165
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 10.729766845703125,
+        "score_mean": 0.05960981580946181,
+        "bounds_image": [
+          180,
+          4,
+          198,
+          14
+        ],
+        "bounds_rico": [
+          1163,
+          53,
+          1275,
+          165
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 0.4353085160255432,
+        "score_mean": 0.0024183806445863512,
+        "bounds_image": [
+          203,
+          4,
+          221,
+          14
+        ],
+        "bounds_rico": [
+          1310,
+          53,
+          1422,
+          165
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 22,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁video"
+      },
+      {
+        "index": 1,
+        "token": "▁it"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.03917253389954567,
+        "p_img": 0.010688865557312965,
+        "delta_p_img": 0.028483668342232704,
+        "gradcam_mean": 0.32937225699424744,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.02677379921078682,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.022252
+          ],
+          [
+            "big",
+            0.012338
+          ],
+          [
+            "open",
+            -0.008314
+          ],
+          [
+            "amount",
+            0.005509
+          ],
+          [
+            "times",
+            -0.005506
+          ],
+          [
+            "avi",
+            0.003741
+          ],
+          [
+            "try",
+            0.002862
+          ],
+          [
+            "video",
+            0.002536
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13182997703552246,
+          "max": 0.9999997019767761,
+          "std": 0.2512977123260498
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.03974523767828941,
+        "p_img": 0.01043266337364912,
+        "delta_p_img": 0.029312574304640293,
+        "gradcam_mean": 0.3379897177219391,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.02753384504467249,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.015003
+          ],
+          [
+            "dont install",
+            -0.009306
+          ],
+          [
+            "totally",
+            0.008929
+          ],
+          [
+            "fake",
+            -0.00419
+          ],
+          [
+            "selecting",
+            0.003479
+          ],
+          [
+            "crashes",
+            -0.003107
+          ],
+          [
+            "waste",
+            -0.002727
+          ],
+          [
+            "developer",
+            -0.00165
+          ],
+          [
+            "file",
+            -0.001483
+          ],
+          [
+            "times",
+            -0.00102
+          ],
+          [
+            "dont know",
+            0.000271
+          ],
+          [
+            "time",
+            6.6e-05
+          ],
+          [
+            "type",
+            -6.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13114650547504425,
+          "max": 0.9999997019767761,
+          "std": 0.2507712244987488
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.11894170194864273,
+        "p_img": 0.029747923836112022,
+        "delta_p_img": 0.08919377811253071,
+        "gradcam_mean": 0.22391505539417267,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.08535740524530411,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.041803
+          ],
+          [
+            "able",
+            0.037937
+          ],
+          [
+            "started",
+            0.017028
+          ],
+          [
+            "using",
+            0.015471
+          ],
+          [
+            "wanted",
+            0.011799
+          ],
+          [
+            "manager",
+            -0.011391
+          ],
+          [
+            "locate",
+            -0.010953
+          ],
+          [
+            "selected",
+            0.009048
+          ],
+          [
+            "file",
+            0.005939
+          ],
+          [
+            "nifty",
+            0.005871
+          ],
+          [
+            "convert",
+            0.00535
+          ],
+          [
+            "later",
+            -0.004992
+          ],
+          [
+            "-",
+            0.003232
+          ],
+          [
+            "flv",
+            -0.000548
+          ],
+          [
+            "seconds",
+            -9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12614087760448456,
+          "max": 0.9999998807907104,
+          "std": 0.24644769728183746
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.14934304356575012,
+        "p_img": 0.036849245429039,
+        "delta_p_img": 0.11249379813671112,
+        "gradcam_mean": 0.2235805094242096,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.10809292644262314,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.105552
+          ],
+          [
+            "can't played",
+            -0.031979
+          ],
+          [
+            "limited",
+            -0.014399
+          ],
+          [
+            "low-volume",
+            0.014142
+          ],
+          [
+            "movie",
+            -0.01263
+          ],
+          [
+            "possibilities",
+            0.012023
+          ],
+          [
+            "making",
+            0.004022
+          ],
+          [
+            "cases",
+            -0.003129
+          ],
+          [
+            "video",
+            0.001118
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10461526364088058,
+          "max": 0.9999999403953552,
+          "std": 0.22721941769123077
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.27204760909080505,
+        "p_img": 0.07786490768194199,
+        "delta_p_img": 0.19418270140886307,
+        "gradcam_mean": 0.17091023921966553,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.18413296341896057,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.104214
+          ],
+          [
+            "works",
+            0.065013
+          ],
+          [
+            "option",
+            0.041705
+          ],
+          [
+            "reviews",
+            0.027916
+          ],
+          [
+            "plz",
+            -0.026243
+          ],
+          [
+            "add",
+            -0.019758
+          ],
+          [
+            "frame",
+            -0.016228
+          ],
+          [
+            "48fps",
+            0.015853
+          ],
+          [
+            "theres",
+            -0.009148
+          ],
+          [
+            "bad",
+            -0.008825
+          ],
+          [
+            "dont understand",
+            0.003272
+          ],
+          [
+            "rate",
+            -0.002165
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10016273707151413,
+          "max": 0.9999998807907104,
+          "std": 0.2337629199028015
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 96% confidence.",
+      "simple": "This screen was predicted as bad with 96% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was predicted as bad with 96% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44735",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44735.jpg",
+    "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app it crashed many times , when try to open Avi video ... big amount of Ads!! Useless app,... Just full of advertisements",
+    "prediction": 0.0038361537735909224,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9961638462264091,
+    "gradcam_stats": {
+      "mean": 0.5019978880882263,
+      "max": 1.0,
+      "std": 0.23245005309581757
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.003835047595202923,
+      "p_img": 0.005994982551783323,
+      "delta_p_img": 0.0021599349565804005
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          125,
+          157,
+          150,
+          167
+        ],
+        "bounds_rico": [
+          806,
+          1805,
+          965,
+          1911
+        ],
+        "score_total": 216.18228149414062,
+        "score_mean": 0.8647291259765625
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          124,
+          139,
+          150,
+          154
+        ],
+        "bounds_rico": [
+          802,
+          1598,
+          970,
+          1766
+        ],
+        "score_total": 326.0303955078125,
+        "score_mean": 0.8359753730969551
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          67,
+          157,
+          104,
+          167
+        ],
+        "bounds_rico": [
+          436,
+          1805,
+          671,
+          1911
+        ],
+        "score_total": 307.571044921875,
+        "score_mean": 0.831273094383446
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 216.18228149414062,
+        "score_mean": 0.8647291259765625,
+        "bounds_image": [
+          125,
+          157,
+          150,
+          167
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 326.0303955078125,
+        "score_mean": 0.8359753730969551,
+        "bounds_image": [
+          124,
+          139,
+          150,
+          154
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 307.571044921875,
+        "score_mean": 0.831273094383446,
+        "bounds_image": [
+          67,
+          157,
+          104,
+          167
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 216.18228149414062,
+        "score_mean": 0.8647291259765625,
+        "bounds_image": [
+          125,
+          157,
+          150,
+          167
+        ],
+        "bounds_rico": [
+          806,
+          1805,
+          965,
+          1911
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 326.0303955078125,
+        "score_mean": 0.8359753730969551,
+        "bounds_image": [
+          124,
+          139,
+          150,
+          154
+        ],
+        "bounds_rico": [
+          802,
+          1598,
+          970,
+          1766
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 307.571044921875,
+        "score_mean": 0.831273094383446,
+        "bounds_image": [
+          67,
+          157,
+          104,
+          167
+        ],
+        "bounds_rico": [
+          436,
+          1805,
+          671,
+          1911
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 283.8261413574219,
+        "score_mean": 0.7277593368139023,
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ],
+        "bounds_rico": [
+          470,
+          1598,
+          638,
+          1766
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 1737.47314453125,
+        "score_mean": 0.6187582423544338,
+        "bounds_image": [
+          8,
+          121,
+          224,
+          134
+        ],
+        "bounds_rico": [
+          56,
+          1392,
+          1440,
+          1542
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 145.3431396484375,
+        "score_mean": 0.605596415201823,
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ],
+        "bounds_rico": [
+          142,
+          1805,
+          302,
+          1911
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 209.56283569335938,
+        "score_mean": 0.5757220760806576,
+        "bounds_image": [
+          21,
+          177,
+          47,
+          191
+        ],
+        "bounds_rico": [
+          138,
+          2023,
+          306,
+          2191
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 223.2694091796875,
+        "score_mean": 0.5724856645633013,
+        "bounds_image": [
+          21,
+          139,
+          47,
+          154
+        ],
+        "bounds_rico": [
+          138,
+          1598,
+          306,
+          1766
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 220.35154724121094,
+        "score_mean": 0.5650039672851562,
+        "bounds_image": [
+          176,
+          139,
+          202,
+          154
+        ],
+        "bounds_rico": [
+          1134,
+          1598,
+          1302,
+          1766
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 248.83639526367188,
+        "score_mean": 0.5184091567993164,
+        "bounds_image": [
+          165,
+          157,
+          213,
+          167
+        ],
+        "bounds_rico": [
+          1066,
+          1805,
+          1370,
+          1911
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 116.60844421386719,
+        "score_mean": 0.46273192148359993,
+        "bounds_image": [
+          20,
+          195,
+          48,
+          204
+        ],
+        "bounds_rico": [
+          131,
+          2230,
+          313,
+          2336
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁time"
+      },
+      {
+        "index": 5,
+        "token": "▁your"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.004034636542201042,
+        "p_img": 0.006525135599076748,
+        "delta_p_img": 0.0024904990568757057,
+        "gradcam_mean": 0.47632309794425964,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Icon",
+        "delta_p_img_shap": 0.0011174168903380632,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.002852
+          ],
+          [
+            "big",
+            0.001799
+          ],
+          [
+            "open",
+            -0.001555
+          ],
+          [
+            "times",
+            -0.000806
+          ],
+          [
+            "amount",
+            0.000715
+          ],
+          [
+            "try",
+            0.000545
+          ],
+          [
+            "avi",
+            0.00054
+          ],
+          [
+            "video",
+            0.0002
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20145383477210999,
+          "max": 0.999999463558197,
+          "std": 0.3116653561592102
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.003835047595202923,
+        "p_img": 0.005994982551783323,
+        "delta_p_img": 0.0021599349565804005,
+        "gradcam_mean": 0.5019978880882263,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Icon",
+        "delta_p_img_shap": 0.0010087576229125261,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.002104
+          ],
+          [
+            "totally",
+            0.001311
+          ],
+          [
+            "dont install",
+            -0.001094
+          ],
+          [
+            "fake",
+            -0.000527
+          ],
+          [
+            "crashes",
+            -0.000392
+          ],
+          [
+            "waste",
+            -0.000382
+          ],
+          [
+            "selecting",
+            0.000376
+          ],
+          [
+            "developer",
+            -0.000264
+          ],
+          [
+            "times",
+            -0.000187
+          ],
+          [
+            "type",
+            -4.3e-05
+          ],
+          [
+            "dont know",
+            -3.8e-05
+          ],
+          [
+            "time",
+            -2.8e-05
+          ],
+          [
+            "file",
+            1.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21528440713882446,
+          "max": 0.9999994039535522,
+          "std": 0.32110729813575745
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Icon",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.011380755342543125,
+        "p_img": 0.021176740527153015,
+        "delta_p_img": 0.00979598518460989,
+        "gradcam_mean": 0.41724666953086853,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Text",
+        "delta_p_img_shap": 0.004511280916631222,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.006354
+          ],
+          [
+            "able",
+            0.006297
+          ],
+          [
+            "locate",
+            -0.002702
+          ],
+          [
+            "started",
+            0.002386
+          ],
+          [
+            "manager",
+            -0.002002
+          ],
+          [
+            "using",
+            0.001953
+          ],
+          [
+            "wanted",
+            0.001867
+          ],
+          [
+            "selected",
+            0.001486
+          ],
+          [
+            "file",
+            0.001144
+          ],
+          [
+            "later",
+            -0.001028
+          ],
+          [
+            "flv",
+            -0.00076
+          ],
+          [
+            "convert",
+            0.000653
+          ],
+          [
+            "nifty",
+            0.000593
+          ],
+          [
+            "-",
+            0.000337
+          ],
+          [
+            "seconds",
+            3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.194663867354393,
+          "max": 0.9999997615814209,
+          "std": 0.30461564660072327
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Icon",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.015869300812482834,
+        "p_img": 0.031017115339636803,
+        "delta_p_img": 0.015147814527153969,
+        "gradcam_mean": 0.41693180799484253,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Text",
+        "delta_p_img_shap": 0.006455110386013985,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.018228
+          ],
+          [
+            "can't played",
+            -0.006826
+          ],
+          [
+            "movie",
+            -0.00315
+          ],
+          [
+            "limited",
+            -0.002389
+          ],
+          [
+            "possibilities",
+            0.001918
+          ],
+          [
+            "low-volume",
+            0.001868
+          ],
+          [
+            "cases",
+            -0.001044
+          ],
+          [
+            "making",
+            0.00068
+          ],
+          [
+            "video",
+            4e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19021835923194885,
+          "max": 0.9999998807907104,
+          "std": 0.30366596579551697
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Icon",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.04831289127469063,
+        "p_img": 0.08985994011163712,
+        "delta_p_img": 0.04154704883694649,
+        "gradcam_mean": 0.31456470489501953,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Text",
+        "delta_p_img_shap": 0.024483773857355118,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.025571
+          ],
+          [
+            "option",
+            0.013514
+          ],
+          [
+            "works",
+            0.012816
+          ],
+          [
+            "add",
+            -0.007477
+          ],
+          [
+            "plz",
+            -0.006734
+          ],
+          [
+            "reviews",
+            0.005562
+          ],
+          [
+            "frame",
+            -0.005086
+          ],
+          [
+            "theres",
+            -0.003058
+          ],
+          [
+            "48fps",
+            0.002881
+          ],
+          [
+            "bad",
+            -0.001442
+          ],
+          [
+            "dont understand",
+            0.000821
+          ],
+          [
+            "rate",
+            -0.000362
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13667303323745728,
+          "max": 0.9999998807907104,
+          "std": 0.2552674412727356
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Text at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was labeled as bad with 100% confidence (confidently). The model attended to a small Text at the top-left, a small Icon at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44736",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44736.jpg",
+    "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app it crashed many times , when try to open Avi video ... big amount of Ads!! Useless app,... Just full of advertisements",
+    "prediction": 0.02652205340564251,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9734779465943575,
+    "gradcam_stats": {
+      "mean": 0.28958889842033386,
+      "max": 1.0,
+      "std": 0.2691684365272522
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.026455968618392944,
+      "p_img": 0.11961490660905838,
+      "delta_p_img": 0.09315893799066544
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 14487.3681640625,
+        "score_mean": 0.30945335278670755
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 14487.3681640625,
+        "score_mean": 0.30945335278670755,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 14487.3681640625,
+        "score_mean": 0.30945335278670755,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁time"
+      },
+      {
+        "index": 5,
+        "token": "▁your"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.02926689013838768,
+        "p_img": 0.1163940280675888,
+        "delta_p_img": 0.08712713792920113,
+        "gradcam_mean": 0.28611427545547485,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.08712713792920113,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.017132
+          ],
+          [
+            "big",
+            0.010205
+          ],
+          [
+            "open",
+            -0.008989
+          ],
+          [
+            "times",
+            -0.004843
+          ],
+          [
+            "amount",
+            0.004231
+          ],
+          [
+            "avi",
+            0.002797
+          ],
+          [
+            "try",
+            0.002231
+          ],
+          [
+            "video",
+            0.001742
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1223699226975441,
+          "max": 0.9999997615814209,
+          "std": 0.2454632818698883
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.026455968618392944,
+        "p_img": 0.11961490660905838,
+        "delta_p_img": 0.09315893799066544,
+        "gradcam_mean": 0.28958889842033386,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.09315893799066544,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.012833
+          ],
+          [
+            "totally",
+            0.007523
+          ],
+          [
+            "dont install",
+            -0.007002
+          ],
+          [
+            "fake",
+            -0.003478
+          ],
+          [
+            "selecting",
+            0.002555
+          ],
+          [
+            "waste",
+            -0.002538
+          ],
+          [
+            "crashes",
+            -0.002499
+          ],
+          [
+            "developer",
+            -0.001679
+          ],
+          [
+            "file",
+            -0.001014
+          ],
+          [
+            "times",
+            -0.000834
+          ],
+          [
+            "dont know",
+            -0.000618
+          ],
+          [
+            "time",
+            -0.000356
+          ],
+          [
+            "type",
+            -0.000227
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11995188891887665,
+          "max": 0.9999998211860657,
+          "std": 0.22435994446277618
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.07372431457042694,
+        "p_img": 0.18778850138187408,
+        "delta_p_img": 0.11406418681144714,
+        "gradcam_mean": 0.2300659418106079,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.11406418681144714,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "able",
+            0.034049
+          ],
+          [
+            "crashed",
+            -0.032573
+          ],
+          [
+            "locate",
+            -0.012281
+          ],
+          [
+            "started",
+            0.012074
+          ],
+          [
+            "using",
+            0.010542
+          ],
+          [
+            "manager",
+            -0.010503
+          ],
+          [
+            "wanted",
+            0.008963
+          ],
+          [
+            "selected",
+            0.007584
+          ],
+          [
+            "later",
+            -0.005586
+          ],
+          [
+            "file",
+            0.005029
+          ],
+          [
+            "flv",
+            -0.003983
+          ],
+          [
+            "convert",
+            0.003373
+          ],
+          [
+            "nifty",
+            0.002665
+          ],
+          [
+            "-",
+            0.001907
+          ],
+          [
+            "seconds",
+            -0.000752
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1153784990310669,
+          "max": 0.9999999403953552,
+          "std": 0.23558402061462402
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.10070977360010147,
+        "p_img": 0.20950686931610107,
+        "delta_p_img": 0.1087970957159996,
+        "gradcam_mean": 0.22381249070167542,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.1087970957159996,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.094147
+          ],
+          [
+            "can't played",
+            -0.033342
+          ],
+          [
+            "movie",
+            -0.015334
+          ],
+          [
+            "limited",
+            -0.013378
+          ],
+          [
+            "low-volume",
+            0.010385
+          ],
+          [
+            "possibilities",
+            0.010078
+          ],
+          [
+            "cases",
+            -0.004416
+          ],
+          [
+            "making",
+            0.003011
+          ],
+          [
+            "video",
+            -0.00073
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11588669568300247,
+          "max": 0.9999998807907104,
+          "std": 0.24915839731693268
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Web View",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.2368275225162506,
+        "p_img": 0.3070565462112427,
+        "delta_p_img": 0.07022902369499207,
+        "gradcam_mean": 0.18208695948123932,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.07022902369499207,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.109666
+          ],
+          [
+            "works",
+            0.05997
+          ],
+          [
+            "option",
+            0.054325
+          ],
+          [
+            "plz",
+            -0.031052
+          ],
+          [
+            "add",
+            -0.026308
+          ],
+          [
+            "reviews",
+            0.023114
+          ],
+          [
+            "frame",
+            -0.021534
+          ],
+          [
+            "48fps",
+            0.013029
+          ],
+          [
+            "theres",
+            -0.010658
+          ],
+          [
+            "bad",
+            -0.006999
+          ],
+          [
+            "rate",
+            -0.003394
+          ],
+          [
+            "dont understand",
+            0.003143
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11056423932313919,
+          "max": 0.9999999403953552,
+          "std": 0.24592290818691254
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 97% confidence.",
+      "simple": "This screen was classified as bad with 97% confidence. The model focused primarily on a small Web View at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was classified as bad with 97% confidence (with high confidence). The model focused on a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44737",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44737.jpg",
+    "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app it crashed many times , when try to open Avi video ... big amount of Ads!! Useless app,... Just full of advertisements",
+    "prediction": 0.03453291952610016,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9654670804738998,
+    "gradcam_stats": {
+      "mean": 0.44041451811790466,
+      "max": 1.0,
+      "std": 0.21990671753883362
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.03459041938185692,
+      "p_img": 0.09329194575548172,
+      "delta_p_img": 0.0587015263736248
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          31,
+          135,
+          192,
+          156
+        ],
+        "bounds_rico": [
+          203,
+          1543,
+          1236,
+          1792
+        ],
+        "score_total": 2150.689208984375,
+        "score_mean": 0.6361103842012349
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          87,
+          178,
+          136,
+          205
+        ],
+        "bounds_rico": [
+          562,
+          2038,
+          877,
+          2353
+        ],
+        "score_total": 824.4920654296875,
+        "score_mean": 0.6231988400829082
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          31,
+          107,
+          192,
+          128
+        ],
+        "bounds_rico": [
+          203,
+          1224,
+          1236,
+          1473
+        ],
+        "score_total": 1732.4986572265625,
+        "score_mean": 0.5124219630957002
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 2150.689208984375,
+        "score_mean": 0.6361103842012349,
+        "bounds_image": [
+          31,
+          135,
+          192,
+          156
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 824.4920654296875,
+        "score_mean": 0.6231988400829082,
+        "bounds_image": [
+          87,
+          178,
+          136,
+          205
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1732.4986572265625,
+        "score_mean": 0.5124219630957002,
+        "bounds_image": [
+          31,
+          107,
+          192,
+          128
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 2150.689208984375,
+        "score_mean": 0.6361103842012349,
+        "bounds_image": [
+          31,
+          135,
+          192,
+          156
+        ],
+        "bounds_rico": [
+          203,
+          1543,
+          1236,
+          1792
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 824.4920654296875,
+        "score_mean": 0.6231988400829082,
+        "bounds_image": [
+          87,
+          178,
+          136,
+          205
+        ],
+        "bounds_rico": [
+          562,
+          2038,
+          877,
+          2353
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1732.4986572265625,
+        "score_mean": 0.5124219630957002,
+        "bounds_image": [
+          31,
+          107,
+          192,
+          128
+        ],
+        "bounds_rico": [
+          203,
+          1224,
+          1236,
+          1473
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 604.0828857421875,
+        "score_mean": 0.4566008206668084,
+        "bounds_image": [
+          147,
+          178,
+          196,
+          205
+        ],
+        "bounds_rico": [
+          947,
+          2038,
+          1262,
+          2353
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 396.45269775390625,
+        "score_mean": 0.4530887974330357,
+        "bounds_image": [
+          49,
+          55,
+          174,
+          62
+        ],
+        "bounds_rico": [
+          321,
+          631,
+          1119,
+          716
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 49.52232360839844,
+        "score_mean": 0.4232677231487046,
+        "bounds_image": [
+          92,
+          62,
+          131,
+          65
+        ],
+        "bounds_rico": [
+          594,
+          716,
+          846,
+          751
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 552.3973999023438,
+        "score_mean": 0.41753393794583804,
+        "bounds_image": [
+          27,
+          178,
+          76,
+          205
+        ],
+        "bounds_rico": [
+          177,
+          2038,
+          492,
+          2353
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 389.5069274902344,
+        "score_mean": 0.39786203012281346,
+        "bounds_image": [
+          67,
+          65,
+          156,
+          76
+        ],
+        "bounds_rico": [
+          434,
+          751,
+          1005,
+          874
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Web View",
+        "score_total": 1259.168701171875,
+        "score_mean": 0.3747525896344866,
+        "bounds_image": [
+          0,
+          21,
+          224,
+          36
+        ],
+        "bounds_rico": [
+          0,
+          247,
+          1440,
+          422
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 52.82960510253906,
+        "score_mean": 0.31076238295611214,
+        "bounds_image": [
+          201,
+          5,
+          218,
+          15
+        ],
+        "bounds_rico": [
+          1293,
+          63,
+          1405,
+          175
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 149.21340942382812,
+        "score_mean": 0.23912405356382713,
+        "bounds_image": [
+          5,
+          6,
+          83,
+          14
+        ],
+        "bounds_rico": [
+          35,
+          73,
+          536,
+          166
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁time"
+      },
+      {
+        "index": 5,
+        "token": "▁your"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.03579229116439819,
+        "p_img": 0.004383849445730448,
+        "delta_p_img": 0.031408441718667746,
+        "gradcam_mean": 0.3968827426433563,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.02677581738680601,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.02812
+          ],
+          [
+            "big",
+            0.017439
+          ],
+          [
+            "open",
+            -0.014581
+          ],
+          [
+            "times",
+            -0.008033
+          ],
+          [
+            "amount",
+            0.007288
+          ],
+          [
+            "try",
+            0.005451
+          ],
+          [
+            "avi",
+            0.005096
+          ],
+          [
+            "video",
+            0.002823
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21208548545837402,
+          "max": 0.9999995231628418,
+          "std": 0.3531591296195984
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.03459041938185692,
+        "p_img": 0.09329194575548172,
+        "delta_p_img": 0.0587015263736248,
+        "gradcam_mean": 0.44041451811790466,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.025848671793937683,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.02065
+          ],
+          [
+            "totally",
+            0.012826
+          ],
+          [
+            "dont install",
+            -0.010485
+          ],
+          [
+            "fake",
+            -0.005267
+          ],
+          [
+            "selecting",
+            0.003821
+          ],
+          [
+            "waste",
+            -0.003399
+          ],
+          [
+            "crashes",
+            -0.003381
+          ],
+          [
+            "developer",
+            -0.00236
+          ],
+          [
+            "times",
+            -0.001795
+          ],
+          [
+            "file",
+            -0.001531
+          ],
+          [
+            "dont know",
+            -0.000529
+          ],
+          [
+            "type",
+            -0.000312
+          ],
+          [
+            "time",
+            0.000121
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18865908682346344,
+          "max": 0.9999995827674866,
+          "std": 0.323150098323822
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.11924967914819717,
+        "p_img": 0.030462371185421944,
+        "delta_p_img": 0.08878730796277523,
+        "gradcam_mean": 0.3469500243663788,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.09308402612805367,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.062275
+          ],
+          [
+            "able",
+            0.060309
+          ],
+          [
+            "started",
+            0.024318
+          ],
+          [
+            "locate",
+            -0.020645
+          ],
+          [
+            "manager",
+            -0.01828
+          ],
+          [
+            "using",
+            0.017697
+          ],
+          [
+            "wanted",
+            0.017677
+          ],
+          [
+            "selected",
+            0.013352
+          ],
+          [
+            "file",
+            0.007744
+          ],
+          [
+            "nifty",
+            0.007654
+          ],
+          [
+            "later",
+            -0.007215
+          ],
+          [
+            "flv",
+            -0.005692
+          ],
+          [
+            "convert",
+            0.005555
+          ],
+          [
+            "-",
+            0.003754
+          ],
+          [
+            "seconds",
+            0.000356
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1646278202533722,
+          "max": 0.9999998807907104,
+          "std": 0.3107859492301941
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.1701148897409439,
+        "p_img": 0.0411924384534359,
+        "delta_p_img": 0.128922451287508,
+        "gradcam_mean": 0.3248812258243561,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.13547592610120773,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.150909
+          ],
+          [
+            "can't played",
+            -0.051663
+          ],
+          [
+            "movie",
+            -0.022638
+          ],
+          [
+            "limited",
+            -0.018811
+          ],
+          [
+            "low-volume",
+            0.018191
+          ],
+          [
+            "possibilities",
+            0.017757
+          ],
+          [
+            "cases",
+            -0.007335
+          ],
+          [
+            "making",
+            0.005553
+          ],
+          [
+            "video",
+            0.002079
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17927590012550354,
+          "max": 0.9999998807907104,
+          "std": 0.317843496799469
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.4130711257457733,
+        "p_img": 0.1872950941324234,
+        "delta_p_img": 0.22577603161334991,
+        "gradcam_mean": 0.14760778844356537,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.319426029920578,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.171204
+          ],
+          [
+            "works",
+            0.10264
+          ],
+          [
+            "option",
+            0.079663
+          ],
+          [
+            "reviews",
+            0.047429
+          ],
+          [
+            "plz",
+            -0.045912
+          ],
+          [
+            "add",
+            -0.033128
+          ],
+          [
+            "frame",
+            -0.030833
+          ],
+          [
+            "48fps",
+            0.025077
+          ],
+          [
+            "theres",
+            -0.014348
+          ],
+          [
+            "bad",
+            -0.010836
+          ],
+          [
+            "dont understand",
+            0.005419
+          ],
+          [
+            "rate",
+            -0.004214
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1800694614648819,
+          "max": 0.9999999403953552,
+          "std": 0.32186469435691833
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 97% confidence.",
+      "simple": "This screen was classified as bad with 97% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was classified as bad with 97% confidence (with high confidence). The model focused on a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44738",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44738.jpg",
+    "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app it crashed many times , when try to open Avi video ... big amount of Ads!! Useless app,... Just full of advertisements",
+    "prediction": 0.034627340734004974,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.965372659265995,
+    "gradcam_stats": {
+      "mean": 0.4481523334980011,
+      "max": 1.0,
+      "std": 0.23368944227695465
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.03457486629486084,
+      "p_img": 0.05964810401201248,
+      "delta_p_img": 0.025073237717151642
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          2,
+          20,
+          96,
+          73
+        ],
+        "bounds_rico": [
+          18,
+          239,
+          620,
+          841
+        ],
+        "score_total": 3327.18115234375,
+        "score_mean": 0.6678404561107487
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          73,
+          110,
+          79
+        ],
+        "bounds_rico": [
+          18,
+          841,
+          711,
+          911
+        ],
+        "score_total": 380.03448486328125,
+        "score_mean": 0.5864729704680266
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          8,
+          62,
+          23,
+          70
+        ],
+        "bounds_rico": [
+          53,
+          711,
+          148,
+          806
+        ],
+        "score_total": 57.70335388183594,
+        "score_mean": 0.4808612823486328
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 3327.18115234375,
+        "score_mean": 0.6678404561107487,
+        "bounds_image": [
+          2,
+          20,
+          96,
+          73
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 380.03448486328125,
+        "score_mean": 0.5864729704680266,
+        "bounds_image": [
+          2,
+          73,
+          110,
+          79
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 57.70335388183594,
+        "score_mean": 0.4808612823486328,
+        "bounds_image": [
+          8,
+          62,
+          23,
+          70
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 3327.18115234375,
+        "score_mean": 0.6678404561107487,
+        "bounds_image": [
+          2,
+          20,
+          96,
+          73
+        ],
+        "bounds_rico": [
+          18,
+          239,
+          620,
+          841
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 380.03448486328125,
+        "score_mean": 0.5864729704680266,
+        "bounds_image": [
+          2,
+          73,
+          110,
+          79
+        ],
+        "bounds_rico": [
+          18,
+          841,
+          711,
+          911
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 57.70335388183594,
+        "score_mean": 0.4808612823486328,
+        "bounds_image": [
+          8,
+          62,
+          23,
+          70
+        ],
+        "bounds_rico": [
+          53,
+          711,
+          148,
+          806
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 85.79621124267578,
+        "score_mean": 0.47664561801486544,
+        "bounds_image": [
+          2,
+          4,
+          20,
+          14
+        ],
+        "bounds_rico": [
+          18,
+          54,
+          130,
+          166
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Web View",
+        "score_total": 1608.739501953125,
+        "score_mean": 0.44886704853602816,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 153.5230712890625,
+        "score_mean": 0.4264529758029514,
+        "bounds_image": [
+          25,
+          5,
+          70,
+          13
+        ],
+        "bounds_rico": [
+          165,
+          64,
+          454,
+          157
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁time"
+      },
+      {
+        "index": 5,
+        "token": "▁your"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Icon",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.03465237468481064,
+        "p_img": 0.05663479492068291,
+        "delta_p_img": 0.02198242023587227,
+        "gradcam_mean": 0.43458807468414307,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Web View",
+        "delta_p_img_shap": 0.11732662469148636,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.011193
+          ],
+          [
+            "big",
+            0.006165
+          ],
+          [
+            "open",
+            -0.004173
+          ],
+          [
+            "amount",
+            0.002267
+          ],
+          [
+            "times",
+            -0.002174
+          ],
+          [
+            "video",
+            0.001501
+          ],
+          [
+            "try",
+            0.001444
+          ],
+          [
+            "avi",
+            0.001433
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.05972405895590782,
+          "max": 0.9999996423721313,
+          "std": 0.17345044016838074
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Icon",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.03457486629486084,
+        "p_img": 0.05964810401201248,
+        "delta_p_img": 0.025073237717151642,
+        "gradcam_mean": 0.4481523334980011,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Web View",
+        "delta_p_img_shap": 0.12308146059513092,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.007816
+          ],
+          [
+            "dont install",
+            -0.004993
+          ],
+          [
+            "totally",
+            0.004192
+          ],
+          [
+            "fake",
+            -0.00208
+          ],
+          [
+            "selecting",
+            0.001852
+          ],
+          [
+            "crashes",
+            -0.001713
+          ],
+          [
+            "waste",
+            -0.000948
+          ],
+          [
+            "developer",
+            -0.000913
+          ],
+          [
+            "times",
+            -0.000503
+          ],
+          [
+            "file",
+            -0.000454
+          ],
+          [
+            "dont know",
+            0.000242
+          ],
+          [
+            "type",
+            -0.000125
+          ],
+          [
+            "time",
+            0.000111
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.059677232056856155,
+          "max": 0.9999997019767761,
+          "std": 0.17361822724342346
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Icon",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.07079189270734787,
+        "p_img": 0.14972583949565887,
+        "delta_p_img": 0.078933946788311,
+        "gradcam_mean": 0.39187419414520264,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Web View",
+        "delta_p_img_shap": 0.29126230627298355,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "able",
+            0.019457
+          ],
+          [
+            "crashed",
+            -0.017503
+          ],
+          [
+            "started",
+            0.007978
+          ],
+          [
+            "locate",
+            -0.006499
+          ],
+          [
+            "wanted",
+            0.006348
+          ],
+          [
+            "using",
+            0.005881
+          ],
+          [
+            "manager",
+            -0.005233
+          ],
+          [
+            "selected",
+            0.00389
+          ],
+          [
+            "nifty",
+            0.002237
+          ],
+          [
+            "convert",
+            0.002092
+          ],
+          [
+            "file",
+            0.001977
+          ],
+          [
+            "later",
+            -0.001138
+          ],
+          [
+            "flv",
+            -0.001022
+          ],
+          [
+            "-",
+            0.00079
+          ],
+          [
+            "seconds",
+            8.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06463304162025452,
+          "max": 0.9999998211860657,
+          "std": 0.1799171417951584
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.09229184687137604,
+        "p_img": 0.0904809832572937,
+        "delta_p_img": 0.0018108636140823364,
+        "gradcam_mean": 0.3878961205482483,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Web View",
+        "delta_p_img_shap": 0.3424505144357681,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.056128
+          ],
+          [
+            "can't played",
+            -0.01611
+          ],
+          [
+            "limited",
+            -0.007431
+          ],
+          [
+            "low-volume",
+            0.006227
+          ],
+          [
+            "possibilities",
+            0.005947
+          ],
+          [
+            "movie",
+            -0.005632
+          ],
+          [
+            "cases",
+            -0.002128
+          ],
+          [
+            "making",
+            0.002078
+          ],
+          [
+            "video",
+            0.000786
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06784927845001221,
+          "max": 0.9999998807907104,
+          "std": 0.18525287508964539
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.16227854788303375,
+        "p_img": 0.17513790726661682,
+        "delta_p_img": 0.012859359383583069,
+        "gradcam_mean": 0.34703609347343445,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Web View, Image",
+        "delta_p_img_shap": 0.4505569189786911,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.059481
+          ],
+          [
+            "works",
+            0.035034
+          ],
+          [
+            "option",
+            0.026357
+          ],
+          [
+            "reviews",
+            0.015369
+          ],
+          [
+            "plz",
+            -0.015095
+          ],
+          [
+            "add",
+            -0.01226
+          ],
+          [
+            "frame",
+            -0.01059
+          ],
+          [
+            "48fps",
+            0.009509
+          ],
+          [
+            "theres",
+            -0.004857
+          ],
+          [
+            "bad",
+            -0.004592
+          ],
+          [
+            "dont understand",
+            0.00299
+          ],
+          [
+            "rate",
+            -0.002079
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07370194792747498,
+          "max": 0.9999999403953552,
+          "std": 0.1942477822303772
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 97% confidence.",
+      "simple": "This screen was labeled as bad with 97% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was labeled as bad with 97% confidence (confidently). The model attended to a small Image at the top-left, a small Text at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.video.converterandroid",
+    "screen_id": "44739",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44739.jpg",
+    "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app it crashed many times , when try to open Avi video ... big amount of Ads!! No went support and ads are extremely intrusive to hear",
+    "prediction": 0.013647999614477158,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9863520003855228,
+    "gradcam_stats": {
+      "mean": 0.25926724076271057,
+      "max": 1.0,
+      "std": 0.19991062581539154
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+      "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+      "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+      "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+      "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    ],
+    "app_name": "Video Converter",
+    "category": "Video Players & Editors",
+    "faithfulness": {
+      "p_orig": 0.013639240525662899,
+      "p_img": 0.04774943366646767,
+      "delta_p_img": 0.03411019314080477
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          113,
+          36,
+          206,
+          88
+        ],
+        "bounds_rico": [
+          728,
+          414,
+          1330,
+          1016
+        ],
+        "score_total": 2991.751953125,
+        "score_mean": 0.618641843077957
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          112,
+          19,
+          224,
+          34
+        ],
+        "bounds_rico": [
+          720,
+          221,
+          1440,
+          396
+        ],
+        "score_total": 958.2726440429688,
+        "score_mean": 0.57040038335891
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          118,
+          77,
+          133,
+          85
+        ],
+        "bounds_rico": [
+          763,
+          886,
+          858,
+          981
+        ],
+        "score_total": 54.43431854248047,
+        "score_mean": 0.4536193211873372
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 2991.751953125,
+        "score_mean": 0.618641843077957,
+        "bounds_image": [
+          113,
+          36,
+          206,
+          88
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 958.2726440429688,
+        "score_mean": 0.57040038335891,
+        "bounds_image": [
+          112,
+          19,
+          224,
+          34
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 54.43431854248047,
+        "score_mean": 0.4536193211873372,
+        "bounds_image": [
+          118,
+          77,
+          133,
+          85
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 2991.751953125,
+        "score_mean": 0.618641843077957,
+        "bounds_image": [
+          113,
+          36,
+          206,
+          88
+        ],
+        "bounds_rico": [
+          728,
+          414,
+          1330,
+          1016
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 958.2726440429688,
+        "score_mean": 0.57040038335891,
+        "bounds_image": [
+          112,
+          19,
+          224,
+          34
+        ],
+        "bounds_rico": [
+          720,
+          221,
+          1440,
+          396
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 54.43431854248047,
+        "score_mean": 0.4536193211873372,
+        "bounds_image": [
+          118,
+          77,
+          133,
+          85
+        ],
+        "bounds_rico": [
+          763,
+          886,
+          858,
+          981
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 49.67723846435547,
+        "score_mean": 0.3679795441804109,
+        "bounds_image": [
+          118,
+          137,
+          133,
+          146
+        ],
+        "bounds_rico": [
+          763,
+          1575,
+          858,
+          1670
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 244.8046875,
+        "score_mean": 0.3238157242063492,
+        "bounds_image": [
+          113,
+          88,
+          221,
+          95
+        ],
+        "bounds_rico": [
+          728,
+          1016,
+          1421,
+          1086
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 205.76364135742188,
+        "score_mean": 0.31753648357626835,
+        "bounds_image": [
+          113,
+          149,
+          221,
+          155
+        ],
+        "bounds_rico": [
+          728,
+          1705,
+          1421,
+          1775
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 1485.3846435546875,
+        "score_mean": 0.3013561865600908,
+        "bounds_image": [
+          113,
+          96,
+          206,
+          149
+        ],
+        "bounds_rico": [
+          728,
+          1103,
+          1330,
+          1705
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 26.954195022583008,
+        "score_mean": 0.2246182918548584,
+        "bounds_image": [
+          8,
+          77,
+          23,
+          85
+        ],
+        "bounds_rico": [
+          53,
+          886,
+          148,
+          981
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 168.101318359375,
+        "score_mean": 0.2223562412161045,
+        "bounds_image": [
+          2,
+          88,
+          110,
+          95
+        ],
+        "bounds_rico": [
+          18,
+          1016,
+          711,
+          1086
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 135.10240173339844,
+        "score_mean": 0.20849136069968896,
+        "bounds_image": [
+          2,
+          149,
+          110,
+          155
+        ],
+        "bounds_rico": [
+          18,
+          1705,
+          711,
+          1775
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 968.2394409179688,
+        "score_mean": 0.19808499200449442,
+        "bounds_image": [
+          2,
+          36,
+          96,
+          88
+        ],
+        "bounds_rico": [
+          18,
+          414,
+          620,
+          1016
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 879.2591552734375,
+        "score_mean": 0.17648718492040094,
+        "bounds_image": [
+          2,
+          96,
+          96,
+          149
+        ],
+        "bounds_rico": [
+          18,
+          1103,
+          620,
+          1705
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 269.3991394042969,
+        "score_mean": 0.16035663059779576,
+        "bounds_image": [
+          0,
+          19,
+          112,
+          34
+        ],
+        "bounds_rico": [
+          0,
+          221,
+          720,
+          396
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Icon",
+        "score_total": 18.088268280029297,
+        "score_mean": 0.13398717244466146,
+        "bounds_image": [
+          8,
+          137,
+          23,
+          146
+        ],
+        "bounds_rico": [
+          53,
+          1575,
+          148,
+          1670
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Web View",
+        "score_total": 282.34051513671875,
+        "score_mean": 0.07877804551805768,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 33.99305725097656,
+        "score_mean": 0.06965790420282082,
+        "bounds_image": [
+          25,
+          5,
+          86,
+          13
+        ],
+        "bounds_rico": [
+          165,
+          64,
+          553,
+          157
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Image",
+        "score_total": 5.304420471191406,
+        "score_mean": 0.029469002617730035,
+        "bounds_image": [
+          2,
+          4,
+          20,
+          14
+        ],
+        "bounds_rico": [
+          18,
+          54,
+          130,
+          166
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 33,
+        "token": "▁interface"
+      },
+      {
+        "index": 6,
+        "token": "▁time"
+      },
+      {
+        "index": 5,
+        "token": "▁your"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "it crashed many times , when try to open Avi video ... big amount of Ads!!",
+        "word_count": 16,
+        "interface_pos": 0.0009,
+        "interface_neg": 0.9957,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text Button, Icon",
+        "top_k_tokens": "▁interface, ▁video, ▁it",
+        "p_orig": 0.014081152155995369,
+        "p_img": 0.04596487805247307,
+        "delta_p_img": 0.0318837258964777,
+        "gradcam_mean": 0.27353808283805847,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Text",
+        "delta_p_img_shap": 0.03584480099380016,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.242893
+          ],
+          [
+            "video",
+            0.146903
+          ],
+          [
+            "open",
+            0.117004
+          ],
+          [
+            "big",
+            0.105209
+          ],
+          [
+            "avi",
+            0.094224
+          ],
+          [
+            "times",
+            0.086361
+          ],
+          [
+            "crashed",
+            0.07462
+          ],
+          [
+            "try",
+            0.072039
+          ],
+          [
+            "amount",
+            0.060747
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "crashed",
+            -0.009036
+          ],
+          [
+            "big",
+            0.004711
+          ],
+          [
+            "open",
+            -0.004118
+          ],
+          [
+            "times",
+            -0.002256
+          ],
+          [
+            "amount",
+            0.002099
+          ],
+          [
+            "avi",
+            0.001613
+          ],
+          [
+            "video",
+            0.001156
+          ],
+          [
+            "try",
+            0.000965
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13033048808574677,
+          "max": 0.9999998807907104,
+          "std": 0.2812962532043457
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app",
+        "word_count": 31,
+        "interface_pos": 0.0141,
+        "interface_neg": 0.9596,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text Button, Icon",
+        "top_k_tokens": "▁interface, ▁time, ▁your",
+        "p_orig": 0.013639240525662899,
+        "p_img": 0.04774943366646767,
+        "delta_p_img": 0.03411019314080477,
+        "gradcam_mean": 0.25926724076271057,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Icon",
+        "delta_p_img_shap": 0.011124189011752605,
+        "word_attention_top15": [
+          [
+            "dont install",
+            0.181731
+          ],
+          [
+            "time",
+            0.151144
+          ],
+          [
+            "waste",
+            0.087722
+          ],
+          [
+            "dont know",
+            0.084698
+          ],
+          [
+            "useless",
+            0.077475
+          ],
+          [
+            "type",
+            0.067631
+          ],
+          [
+            "file",
+            0.067573
+          ],
+          [
+            "totally",
+            0.055126
+          ],
+          [
+            "developer",
+            0.054138
+          ],
+          [
+            "fake",
+            0.052148
+          ],
+          [
+            "crashes",
+            0.049319
+          ],
+          [
+            "times",
+            0.038605
+          ],
+          [
+            "selecting",
+            0.032691
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "useless",
+            -0.00606
+          ],
+          [
+            "dont install",
+            -0.00375
+          ],
+          [
+            "totally",
+            0.003477
+          ],
+          [
+            "fake",
+            -0.001756
+          ],
+          [
+            "crashes",
+            -0.001277
+          ],
+          [
+            "selecting",
+            0.001267
+          ],
+          [
+            "waste",
+            -0.000933
+          ],
+          [
+            "developer",
+            -0.000764
+          ],
+          [
+            "times",
+            -0.000631
+          ],
+          [
+            "file",
+            -0.000452
+          ],
+          [
+            "time",
+            -0.000146
+          ],
+          [
+            "type",
+            -0.000113
+          ],
+          [
+            "dont know",
+            -2.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13788768649101257,
+          "max": 0.9999998807907104,
+          "std": 0.2711471617221832
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled.",
+        "word_count": 29,
+        "interface_pos": 0.0451,
+        "interface_neg": 0.9099,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text Button, Icon",
+        "top_k_tokens": "▁Using, ▁file, ▁started",
+        "p_orig": 0.038530174642801285,
+        "p_img": 0.12987850606441498,
+        "delta_p_img": 0.0913483314216137,
+        "gradcam_mean": 0.22484174370765686,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Text",
+        "delta_p_img_shap": 0.014007113873958588,
+        "word_attention_top15": [
+          [
+            "using",
+            0.14213
+          ],
+          [
+            "later",
+            0.108803
+          ],
+          [
+            "convert",
+            0.108574
+          ],
+          [
+            "nifty",
+            0.104443
+          ],
+          [
+            "file",
+            0.09672
+          ],
+          [
+            "started",
+            0.069719
+          ],
+          [
+            "manager",
+            0.065703
+          ],
+          [
+            "uninstalled",
+            0.061225
+          ],
+          [
+            "selected",
+            0.046076
+          ],
+          [
+            "locate",
+            0.045552
+          ],
+          [
+            "flv",
+            0.044609
+          ],
+          [
+            "-",
+            0.028567
+          ],
+          [
+            "seconds",
+            0.025619
+          ],
+          [
+            "crashed",
+            0.021935
+          ],
+          [
+            "wanted",
+            0.021552
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "able",
+            0.016072
+          ],
+          [
+            "crashed",
+            -0.014936
+          ],
+          [
+            "started",
+            0.00661
+          ],
+          [
+            "using",
+            0.005769
+          ],
+          [
+            "locate",
+            -0.005174
+          ],
+          [
+            "manager",
+            -0.004874
+          ],
+          [
+            "wanted",
+            0.004568
+          ],
+          [
+            "selected",
+            0.003306
+          ],
+          [
+            "file",
+            0.001972
+          ],
+          [
+            "flv",
+            -0.001628
+          ],
+          [
+            "later",
+            -0.001613
+          ],
+          [
+            "convert",
+            0.001508
+          ],
+          [
+            "nifty",
+            0.001241
+          ],
+          [
+            "-",
+            0.000807
+          ],
+          [
+            "seconds",
+            0.000127
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13566388189792633,
+          "max": 0.9999999403953552,
+          "std": 0.2808230519294739
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion.",
+        "word_count": 25,
+        "interface_pos": 0.1924,
+        "interface_neg": 0.7468,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text Button, Icon",
+        "top_k_tokens": "▁It, ▁good, s",
+        "p_orig": 0.05003894120454788,
+        "p_img": 0.16726846992969513,
+        "delta_p_img": 0.11722952872514725,
+        "gradcam_mean": 0.2116956114768982,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Text",
+        "delta_p_img_shap": 0.020461328327655792,
+        "word_attention_top15": [
+          [
+            "good",
+            0.338177
+          ],
+          [
+            "can't played",
+            0.168169
+          ],
+          [
+            "conversion",
+            0.099153
+          ],
+          [
+            "possibilities",
+            0.09358
+          ],
+          [
+            "low-volume",
+            0.075902
+          ],
+          [
+            "cases",
+            0.061795
+          ],
+          [
+            "movie",
+            0.047073
+          ],
+          [
+            "making",
+            0.04175
+          ],
+          [
+            "limited",
+            0.039933
+          ],
+          [
+            "video",
+            0.034469
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.043762
+          ],
+          [
+            "can't played",
+            -0.014236
+          ],
+          [
+            "limited",
+            -0.006589
+          ],
+          [
+            "movie",
+            -0.006304
+          ],
+          [
+            "low-volume",
+            0.004784
+          ],
+          [
+            "possibilities",
+            0.00476
+          ],
+          [
+            "cases",
+            -0.001595
+          ],
+          [
+            "making",
+            0.001372
+          ],
+          [
+            "video",
+            0.000492
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13582587242126465,
+          "max": 0.9999999403953552,
+          "std": 0.2811717987060547
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho.",
+        "word_count": 22,
+        "interface_pos": 0.9097,
+        "interface_neg": 0.025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text Button, Icon",
+        "top_k_tokens": "▁app, ▁as, ▁works",
+        "p_orig": 0.11620704084634781,
+        "p_img": 0.3598121106624603,
+        "delta_p_img": 0.24360506981611252,
+        "gradcam_mean": 0.17271287739276886,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Text",
+        "delta_p_img_shap": 0.04215458780527115,
+        "word_attention_top15": [
+          [
+            "reviews",
+            0.165185
+          ],
+          [
+            "perfectly",
+            0.160252
+          ],
+          [
+            "works",
+            0.128531
+          ],
+          [
+            "48fps",
+            0.111074
+          ],
+          [
+            "rate",
+            0.078129
+          ],
+          [
+            "option",
+            0.067014
+          ],
+          [
+            "tho",
+            0.055025
+          ],
+          [
+            "add",
+            0.048346
+          ],
+          [
+            "theres",
+            0.042522
+          ],
+          [
+            "bad",
+            0.038561
+          ],
+          [
+            "plz",
+            0.036229
+          ],
+          [
+            "dont understand",
+            0.035008
+          ],
+          [
+            "frame",
+            0.034124
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "perfectly",
+            0.045995
+          ],
+          [
+            "works",
+            0.027806
+          ],
+          [
+            "option",
+            0.022047
+          ],
+          [
+            "plz",
+            -0.01137
+          ],
+          [
+            "reviews",
+            0.011098
+          ],
+          [
+            "add",
+            -0.009022
+          ],
+          [
+            "48fps",
+            0.008557
+          ],
+          [
+            "frame",
+            -0.007827
+          ],
+          [
+            "theres",
+            -0.004598
+          ],
+          [
+            "bad",
+            -0.003769
+          ],
+          [
+            "dont understand",
+            0.001594
+          ],
+          [
+            "rate",
+            -0.001301
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13106922805309296,
+          "max": 0.9999998807907104,
+          "std": 0.273940771818161
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 99% confidence.",
+      "simple": "This screen was predicted as bad with 99% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Video Converter (category: Video Players & Editors) was predicted as bad with 99% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Text Button at the top-left, and a small Icon at the top-left."
+    }
+  }
+]

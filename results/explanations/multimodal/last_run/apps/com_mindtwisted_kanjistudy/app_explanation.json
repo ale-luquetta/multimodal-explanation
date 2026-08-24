@@ -1,0 +1,370 @@
+{
+  "package_name": "com.mindtwisted.kanjistudy",
+  "num_screens": 8,
+  "app_score": 0.9744307473301888,
+  "app_prediction": "good",
+  "app_confidence": 0.9744307473301888,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9841899275779724,
+    0.9759200811386108,
+    0.9536398649215698,
+    0.9972757697105408,
+    0.9643446207046509,
+    0.9499548077583313,
+    0.9798654913902283,
+    0.9902554154396057
+  ],
+  "prediction_variance": 0.0002540467106490474,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_mindtwisted_kanjistudy\\com_mindtwisted_kanjistudy_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.mindtwisted.kanjistudy was classified as good with average confidence 97% across 8 screens.",
+    "simple": "com.mindtwisted.kanjistudy was classified as good with average confidence 97% across 8 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "com.mindtwisted.kanjistudy was classified as good with average confidence 97% across 8 screens. Across these screens, the model recurringly attended to Text components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text (18x), Icon (6x). The most influential review words across screens were 'kanji', 'can't wait', 'characters', 'japanese', and 'learning'. The app belongs to the Education category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "49608",
+    "review_rank": 0,
+    "delta_p_img": 0.12025678157806396,
+    "confidence": 0.9536398649215698,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\49608.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "kanji",
+      2.377532
+    ],
+    [
+      "can't wait",
+      1.614304
+    ],
+    [
+      "characters",
+      1.03519
+    ],
+    [
+      "japanese",
+      0.882449
+    ],
+    [
+      "learning",
+      0.84264
+    ],
+    [
+      "one-time",
+      0.809529
+    ],
+    [
+      "easy",
+      0.701924
+    ],
+    [
+      "learn",
+      0.695544
+    ],
+    [
+      "customizations",
+      0.64494
+    ],
+    [
+      "unlocked",
+      0.606398
+    ],
+    [
+      "tools",
+      0.597453
+    ],
+    [
+      "phone",
+      0.57446
+    ],
+    [
+      "useful",
+      0.557719
+    ],
+    [
+      "ways",
+      0.501214
+    ],
+    [
+      "love",
+      0.495224
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "useful",
+      0.888344
+    ],
+    [
+      "can't wait",
+      0.578657
+    ],
+    [
+      "functional",
+      0.494297
+    ],
+    [
+      "cannot",
+      -0.474013
+    ],
+    [
+      "easy",
+      0.458327
+    ],
+    [
+      "excellent",
+      0.439696
+    ],
+    [
+      "best",
+      0.361387
+    ],
+    [
+      "impressively",
+      0.345328
+    ],
+    [
+      "worth",
+      0.34159
+    ],
+    [
+      "amazing",
+      0.314204
+    ],
+    [
+      "ui",
+      0.29935
+    ],
+    [
+      "don't moment",
+      -0.285687
+    ],
+    [
+      "learning",
+      0.284358
+    ],
+    [
+      "clean",
+      0.283651
+    ],
+    [
+      "able",
+      0.283013
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "can't wait",
+      "rrf_score": 0.032258,
+      "rank_bahdanau": 2,
+      "rank_shap": 2,
+      "shap_signed": 0.578657,
+      "in_both": true
+    },
+    {
+      "word": "easy",
+      "rrf_score": 0.03031,
+      "rank_bahdanau": 7,
+      "rank_shap": 5,
+      "shap_signed": 0.458327,
+      "in_both": true
+    },
+    {
+      "word": "useful",
+      "rrf_score": 0.030092,
+      "rank_bahdanau": 13,
+      "rank_shap": 1,
+      "shap_signed": 0.888344,
+      "in_both": true
+    },
+    {
+      "word": "learning",
+      "rrf_score": 0.029083,
+      "rank_bahdanau": 5,
+      "rank_shap": 13,
+      "shap_signed": 0.284358,
+      "in_both": true
+    },
+    {
+      "word": "kanji",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "characters",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "functional",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.494297,
+      "in_both": false
+    },
+    {
+      "word": "cannot",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.474013,
+      "in_both": false
+    },
+    {
+      "word": "japanese",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "excellent",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.439696,
+      "in_both": false
+    },
+    {
+      "word": "one-time",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.361387,
+      "in_both": false
+    },
+    {
+      "word": "learn",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "impressively",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.345328,
+      "in_both": false
+    },
+    {
+      "word": "worth",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.34159,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 16,
+      "text": "Excellent app, I've been using it almost every day for a month now. When I open it, I can go straight to reviewing or learning, which I love. A clean interface too, no ads or clutter, so it's easy to navigate and easy on the eyes. The upgrades seemed expensive at first, but after using it for a month and getting through the free 100 Kanji, the ease of use and absence of ads or clutter made the pricing feel completely fair."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 5,
+      "text": "Genuinely useful tools for learning kanji, with further access unlocked through one-time payments rather than subscription, and wrapped with a clean & functional UI. I don't even use it at the moment and got a refund by emailing the developer over a month after the purchase ... but when I will need it, I know I'm coming back!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 15,
+      "text": "What an incredible and convenient way to learn Japanese kanji in the convenience of your phone. Thank you so much for taking the time to make this app with integrated study tools and additional info on strokes, customizations, and so on. This app is amazing and I can't wait to show anyone interested in learning Japanese."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 19,
+      "text": "The best surprise I've ever run across in an app. Impressively thorough with meanings, readings, grammar notes, and usage examples. Easy to navigate and well organized, super customizable, and has plenty of ways to practice and learn. Even includes an extensive, searchable Japanese/English dictionary. Well worth the money to unlock all characters. I literally cannot recommend this app enough."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 12,
+      "text": "Very useful app! Worth every penny. This is the most all encompassing kanji app I've found. Being able to create custom sets makes it like Anki, and being able to draw the. Characters, do flash cards style and so much more. The kanji history. I mean, it's ALL here. More info than you probably ever need. There is no better app to pair with what you're using to learn Japanese. I use Human Japanese app (which doesn't teach kanji, just sentence structure and Grammer) and this. They pair perfectly."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "kanji",
+      2.377532
+    ],
+    [
+      "can't wait",
+      1.614304
+    ],
+    [
+      "characters",
+      1.03519
+    ],
+    [
+      "japanese",
+      0.882449
+    ],
+    [
+      "learning",
+      0.84264
+    ],
+    [
+      "one-time",
+      0.809529
+    ],
+    [
+      "easy",
+      0.701924
+    ],
+    [
+      "learn",
+      0.695544
+    ],
+    [
+      "customizations",
+      0.64494
+    ],
+    [
+      "unlocked",
+      0.606398
+    ],
+    [
+      "tools",
+      0.597453
+    ],
+    [
+      "phone",
+      0.57446
+    ],
+    [
+      "useful",
+      0.557719
+    ],
+    [
+      "ways",
+      0.501214
+    ],
+    [
+      "love",
+      0.495224
+    ]
+  ]
+}

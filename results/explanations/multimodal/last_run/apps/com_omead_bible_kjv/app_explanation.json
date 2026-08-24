@@ -1,0 +1,368 @@
+{
+  "package_name": "com.omead.bible.kjv",
+  "num_screens": 6,
+  "app_score": 0.9725865920384725,
+  "app_prediction": "good",
+  "app_confidence": 0.9725865920384725,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9660137891769409,
+    0.9899175763130188,
+    0.9893546104431152,
+    0.9804710149765015,
+    0.9482963681221008,
+    0.9614661931991577
+  ],
+  "prediction_variance": 0.00023342892798636528,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_omead_bible_kjv\\com_omead_bible_kjv_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.omead.bible.kjv was labeled as good with average confidence 97% across 6 screens.",
+    "simple": "com.omead.bible.kjv was labeled as good with average confidence 97% across 6 screens. Across these screens, the model consistently focused on Text components.",
+    "detailed": "com.omead.bible.kjv was labeled as good with average confidence 97% across 6 screens. Across these screens, the model consistently focused on Text components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text (8x), Icon (5x), Text Button (2x). The most influential review words across screens were 'reading', 'easy', 'bible', 'features', and 'read'. The app belongs to the Books & Reference category and was analyzed across 6 screens."
+  },
+  "representative_screen": {
+    "screen_id": "5230",
+    "review_rank": 4,
+    "delta_p_img": 0.37787842750549316,
+    "confidence": 0.9614661931991577,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5230.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "reading",
+      1.616416
+    ],
+    [
+      "easy",
+      1.40542
+    ],
+    [
+      "bible",
+      1.292328
+    ],
+    [
+      "features",
+      1.267988
+    ],
+    [
+      "read",
+      0.835357
+    ],
+    [
+      "progress",
+      0.826463
+    ],
+    [
+      "verse's",
+      0.770325
+    ],
+    [
+      "ads",
+      0.696826
+    ],
+    [
+      "need",
+      0.684758
+    ],
+    [
+      "little\"how",
+      0.676964
+    ],
+    [
+      "nice",
+      0.577754
+    ],
+    [
+      "verses",
+      0.577187
+    ],
+    [
+      "enjoyed",
+      0.552003
+    ],
+    [
+      "alone",
+      0.536802
+    ],
+    [
+      "great",
+      0.519041
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "great",
+      0.784818
+    ],
+    [
+      "easy",
+      0.671572
+    ],
+    [
+      "enjoyed",
+      0.507008
+    ],
+    [
+      "nice",
+      0.479457
+    ],
+    [
+      "favorite",
+      0.478804
+    ],
+    [
+      "features",
+      0.447371
+    ],
+    [
+      "readable",
+      0.33831
+    ],
+    [
+      "love",
+      0.334793
+    ],
+    [
+      "friendly",
+      0.318983
+    ],
+    [
+      "favourite",
+      0.298033
+    ],
+    [
+      "reading",
+      0.249195
+    ],
+    [
+      "godsend",
+      0.248539
+    ],
+    [
+      "good",
+      0.236651
+    ],
+    [
+      "plus",
+      0.216025
+    ],
+    [
+      "free",
+      0.190341
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "easy",
+      "rrf_score": 0.032258,
+      "rank_bahdanau": 2,
+      "rank_shap": 2,
+      "shap_signed": 0.671572,
+      "in_both": true
+    },
+    {
+      "word": "features",
+      "rrf_score": 0.030777,
+      "rank_bahdanau": 4,
+      "rank_shap": 6,
+      "shap_signed": 0.447371,
+      "in_both": true
+    },
+    {
+      "word": "reading",
+      "rrf_score": 0.030478,
+      "rank_bahdanau": 1,
+      "rank_shap": 11,
+      "shap_signed": 0.249195,
+      "in_both": true
+    },
+    {
+      "word": "great",
+      "rrf_score": 0.029727,
+      "rank_bahdanau": 15,
+      "rank_shap": 1,
+      "shap_signed": 0.784818,
+      "in_both": true
+    },
+    {
+      "word": "nice",
+      "rrf_score": 0.02971,
+      "rank_bahdanau": 11,
+      "rank_shap": 4,
+      "shap_signed": 0.479457,
+      "in_both": true
+    },
+    {
+      "word": "enjoyed",
+      "rrf_score": 0.029572,
+      "rank_bahdanau": 13,
+      "rank_shap": 3,
+      "shap_signed": 0.507008,
+      "in_both": true
+    },
+    {
+      "word": "bible",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "read",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "favorite",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.478804,
+      "in_both": false
+    },
+    {
+      "word": "progress",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "verse's",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "readable",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.33831,
+      "in_both": false
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.334793,
+      "in_both": false
+    },
+    {
+      "word": "friendly",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.318983,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 5,
+      "text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 18,
+      "text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 13,
+      "text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 15,
+      "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 8,
+      "text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "reading",
+      1.616416
+    ],
+    [
+      "easy",
+      1.40542
+    ],
+    [
+      "bible",
+      1.292328
+    ],
+    [
+      "features",
+      1.267988
+    ],
+    [
+      "read",
+      0.835357
+    ],
+    [
+      "progress",
+      0.826463
+    ],
+    [
+      "verse's",
+      0.770325
+    ],
+    [
+      "ads",
+      0.696826
+    ],
+    [
+      "need",
+      0.684758
+    ],
+    [
+      "little\"how",
+      0.676964
+    ],
+    [
+      "nice",
+      0.577754
+    ],
+    [
+      "verses",
+      0.577187
+    ],
+    [
+      "enjoyed",
+      0.552003
+    ],
+    [
+      "alone",
+      0.536802
+    ],
+    [
+      "great",
+      0.519041
+    ]
+  ]
+}

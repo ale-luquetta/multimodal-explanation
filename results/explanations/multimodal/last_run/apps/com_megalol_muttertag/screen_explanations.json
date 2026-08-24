@@ -1,0 +1,7478 @@
+[
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14422",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14422.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I love this app !. There seems to be a card/pic for every occasion.",
+    "prediction": 0.9738845229148865,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9738845229148865,
+    "gradcam_stats": {
+      "mean": 0.5438694357872009,
+      "max": 1.0,
+      "std": 0.19579853117465973
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9738684892654419,
+      "p_img": 0.9439476728439331,
+      "delta_p_img": 0.02992081642150879
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          34,
+          118,
+          42,
+          123
+        ],
+        "bounds_rico": [
+          222,
+          1360,
+          271,
+          1409
+        ],
+        "score_total": 35.1644401550293,
+        "score_mean": 0.8791110038757324
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          0,
+          102,
+          148,
+          107
+        ],
+        "bounds_rico": [
+          0,
+          1174,
+          956,
+          1230
+        ],
+        "score_total": 547.4517822265625,
+        "score_mean": 0.7397997057115709
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          8,
+          119,
+          34,
+          123
+        ],
+        "bounds_rico": [
+          56,
+          1361,
+          222,
+          1408
+        ],
+        "score_total": 73.79601287841797,
+        "score_mean": 0.709577046907865
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 35.1644401550293,
+        "score_mean": 0.8791110038757324,
+        "bounds_image": [
+          34,
+          118,
+          42,
+          123
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 547.4517822265625,
+        "score_mean": 0.7397997057115709,
+        "bounds_image": [
+          0,
+          102,
+          148,
+          107
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 73.79601287841797,
+        "score_mean": 0.709577046907865,
+        "bounds_image": [
+          8,
+          119,
+          34,
+          123
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 35.1644401550293,
+        "score_mean": 0.8791110038757324,
+        "bounds_image": [
+          34,
+          118,
+          42,
+          123
+        ],
+        "bounds_rico": [
+          222,
+          1360,
+          271,
+          1409
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 547.4517822265625,
+        "score_mean": 0.7397997057115709,
+        "bounds_image": [
+          0,
+          102,
+          148,
+          107
+        ],
+        "bounds_rico": [
+          0,
+          1174,
+          956,
+          1230
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 73.79601287841797,
+        "score_mean": 0.709577046907865,
+        "bounds_image": [
+          8,
+          119,
+          34,
+          123
+        ],
+        "bounds_rico": [
+          56,
+          1361,
+          222,
+          1408
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 2738.193603515625,
+        "score_mean": 0.6433725572170171,
+        "bounds_image": [
+          0,
+          73,
+          224,
+          92
+        ],
+        "bounds_rico": [
+          0,
+          838,
+          1440,
+          1062
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 274.7596435546875,
+        "score_mean": 0.4770132700602214,
+        "bounds_image": [
+          171,
+          194,
+          219,
+          206
+        ],
+        "bounds_rico": [
+          1104,
+          2224,
+          1412,
+          2364
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 6701.5224609375,
+        "score_mean": 0.4532956210049716,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          73
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          837
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 152.68838500976562,
+        "score_mean": 0.2993889902152267,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text Button, Text Button",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9738684892654419,
+        "p_img": 0.9439476728439331,
+        "delta_p_img": 0.02992081642150879,
+        "gradcam_mean": 0.5438694357872009,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Icon",
+        "delta_p_img_shap": 0.05165368318557739,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.048409
+          ],
+          [
+            "not reason",
+            -0.033425
+          ],
+          [
+            "best",
+            0.027932
+          ],
+          [
+            "selection",
+            0.020628
+          ],
+          [
+            "outstanding",
+            0.014514
+          ],
+          [
+            "keep",
+            0.012353
+          ],
+          [
+            "good",
+            0.009944
+          ],
+          [
+            "work",
+            0.009609
+          ],
+          [
+            "entire",
+            0.008589
+          ],
+          [
+            "attention",
+            0.008462
+          ],
+          [
+            "new",
+            0.008259
+          ],
+          [
+            "nice",
+            0.007706
+          ],
+          [
+            "friends",
+            0.007621
+          ],
+          [
+            "greeting",
+            0.007465
+          ],
+          [
+            "photos",
+            0.005868
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11032785475254059,
+          "max": 1.0,
+          "std": 0.2457636445760727
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text Button, Text Button",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9583709239959717,
+        "p_img": 0.9179323315620422,
+        "delta_p_img": 0.04043859243392944,
+        "gradcam_mean": 0.5762904286384583,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Icon",
+        "delta_p_img_shap": 0.08928775787353516,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.052482
+          ],
+          [
+            "recommend",
+            0.027592
+          ],
+          [
+            "selection",
+            0.023914
+          ],
+          [
+            "big",
+            0.023719
+          ],
+          [
+            "send",
+            0.01499
+          ],
+          [
+            "card",
+            0.013608
+          ],
+          [
+            "want",
+            0.013443
+          ],
+          [
+            "thank",
+            0.005435
+          ],
+          [
+            "someone",
+            0.000157
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10037888586521149,
+          "max": 1.0,
+          "std": 0.24095551669597626
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text Button, Text Button",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9300534725189209,
+        "p_img": 0.8754028081893921,
+        "delta_p_img": 0.05465066432952881,
+        "gradcam_mean": 0.5120756030082703,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text Button",
+        "delta_p_img_shap": 0.17692625522613525,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.074536
+          ],
+          [
+            "express",
+            0.019213
+          ],
+          [
+            "want",
+            0.000291
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09946329891681671,
+          "max": 1.0,
+          "std": 0.23918473720550537
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text Button, Text Button",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.9355762004852295,
+        "p_img": 0.8860388398170471,
+        "delta_p_img": 0.04953736066818237,
+        "gradcam_mean": 0.5163441896438599,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text Button",
+        "delta_p_img_shap": 0.14610052108764648,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.078523
+          ],
+          [
+            "haven't",
+            0.048363
+          ],
+          [
+            "greeting",
+            0.045465
+          ],
+          [
+            "quick",
+            0.029193
+          ],
+          [
+            "spell",
+            -0.014017
+          ],
+          [
+            "send",
+            0.009779
+          ],
+          [
+            "time",
+            0.007294
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09998913109302521,
+          "max": 1.0,
+          "std": 0.23943059146404266
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text Button, Text Button",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.9381937384605408,
+        "p_img": 0.8909705281257629,
+        "delta_p_img": 0.04722321033477783,
+        "gradcam_mean": 0.553310215473175,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text Button",
+        "delta_p_img_shap": 0.1261933445930481,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.054669
+          ],
+          [
+            "quirky",
+            0.038758
+          ],
+          [
+            "loads",
+            0.031404
+          ],
+          [
+            "cute",
+            0.029129
+          ],
+          [
+            "choose",
+            0.022585
+          ],
+          [
+            "different",
+            0.021738
+          ],
+          [
+            "perhaps",
+            -0.015082
+          ],
+          [
+            "stuff",
+            0.014975
+          ],
+          [
+            "sediments",
+            0.01017
+          ],
+          [
+            "maybe",
+            -0.006817
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10135962814092636,
+          "max": 1.0,
+          "std": 0.240195631980896
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 97% confidence.",
+      "simple": "This screen was labeled as good with 97% confidence. The model directed most attention to a small Icon at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was labeled as good with 97% confidence (confidently). The model attended to a small Icon at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14419",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14419.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I liked this app so much, I installed it again on my new phone.",
+    "prediction": 0.9992327690124512,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9992327690124512,
+    "gradcam_stats": {
+      "mean": 0.4816891551017761,
+      "max": 1.0,
+      "std": 0.19605158269405365
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.999238133430481,
+      "p_img": 0.764465868473053,
+      "delta_p_img": 0.23477226495742798
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1804
+        ],
+        "score_total": 18540.177734375,
+        "score_mean": 0.551791003999256
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          8,
+          151,
+          30,
+          163
+        ],
+        "bounds_rico": [
+          56,
+          1734,
+          196,
+          1874
+        ],
+        "score_total": 123.96004486083984,
+        "score_mean": 0.4695456244728782
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ],
+        "score_total": 182.902099609375,
+        "score_mean": 0.3586315678615196
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 18540.177734375,
+        "score_mean": 0.551791003999256,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 123.96004486083984,
+        "score_mean": 0.4695456244728782,
+        "bounds_image": [
+          8,
+          151,
+          30,
+          163
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 182.902099609375,
+        "score_mean": 0.3586315678615196,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 18540.177734375,
+        "score_mean": 0.551791003999256,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1804
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 123.96004486083984,
+        "score_mean": 0.4695456244728782,
+        "bounds_image": [
+          8,
+          151,
+          30,
+          163
+        ],
+        "bounds_rico": [
+          56,
+          1734,
+          196,
+          1874
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 182.902099609375,
+        "score_mean": 0.3586315678615196,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 130.18475341796875,
+        "score_mean": 0.33380706004607374,
+        "bounds_image": [
+          189,
+          167,
+          215,
+          182
+        ],
+        "bounds_rico": [
+          1216,
+          1917,
+          1384,
+          2085
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 169.7638397216797,
+        "score_mean": 0.33156999945640564,
+        "bounds_image": [
+          118,
+          167,
+          182,
+          175
+        ],
+        "bounds_rico": [
+          759,
+          1917,
+          1174,
+          2001
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 113.06021118164062,
+        "score_mean": 0.27916101526331016,
+        "bounds_image": [
+          197,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          1272,
+          2210,
+          1440,
+          2378
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 48.965240478515625,
+        "score_mean": 0.2782115936279297,
+        "bounds_image": [
+          138,
+          175,
+          182,
+          179
+        ],
+        "bounds_rico": [
+          889,
+          2001,
+          1174,
+          2057
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 94.50456237792969,
+        "score_mean": 0.24231939071264022,
+        "bounds_image": [
+          171,
+          193,
+          197,
+          208
+        ],
+        "bounds_rico": [
+          1104,
+          2210,
+          1272,
+          2378
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 76.79529571533203,
+        "score_mean": 0.1969110146546975,
+        "bounds_image": [
+          145,
+          193,
+          171,
+          208
+        ],
+        "bounds_rico": [
+          936,
+          2210,
+          1104,
+          2378
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Icon",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.999238133430481,
+        "p_img": 0.764465868473053,
+        "delta_p_img": 0.23477226495742798,
+        "gradcam_mean": 0.4816891551017761,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.23477226495742798,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.002482
+          ],
+          [
+            "not reason",
+            -0.00189
+          ],
+          [
+            "best",
+            0.001515
+          ],
+          [
+            "selection",
+            0.001101
+          ],
+          [
+            "outstanding",
+            0.000739
+          ],
+          [
+            "keep",
+            0.00063
+          ],
+          [
+            "work",
+            0.000539
+          ],
+          [
+            "entire",
+            0.000531
+          ],
+          [
+            "attention",
+            0.000518
+          ],
+          [
+            "greeting",
+            0.000476
+          ],
+          [
+            "good",
+            0.000455
+          ],
+          [
+            "new",
+            0.00043
+          ],
+          [
+            "uploaded",
+            -0.000424
+          ],
+          [
+            "friends",
+            0.000418
+          ],
+          [
+            "nice",
+            0.000362
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13880272209644318,
+          "max": 0.9999998807907104,
+          "std": 0.26250720024108887
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Icon",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9984386563301086,
+        "p_img": 0.5237563252449036,
+        "delta_p_img": 0.4746823310852051,
+        "gradcam_mean": 0.467741996049881,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.005558192729949951,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.00254
+          ],
+          [
+            "recommend",
+            0.001325
+          ],
+          [
+            "selection",
+            0.001215
+          ],
+          [
+            "big",
+            0.001
+          ],
+          [
+            "card",
+            0.000807
+          ],
+          [
+            "send",
+            0.000763
+          ],
+          [
+            "want",
+            0.000603
+          ],
+          [
+            "thank",
+            0.000304
+          ],
+          [
+            "someone",
+            -5.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13647820055484772,
+          "max": 0.9999999403953552,
+          "std": 0.26380717754364014
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Icon",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9972434043884277,
+        "p_img": 0.2656250298023224,
+        "delta_p_img": 0.7316183745861053,
+        "gradcam_mean": 0.4352741241455078,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.010707557201385498,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.003377
+          ],
+          [
+            "express",
+            0.00095
+          ],
+          [
+            "want",
+            0.000138
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20313626527786255,
+          "max": 0.9999999403953552,
+          "std": 0.33398282527923584
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Icon",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.9974015951156616,
+        "p_img": 0.31665369868278503,
+        "delta_p_img": 0.6807478964328766,
+        "gradcam_mean": 0.4409399926662445,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.009810566902160645,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.003639
+          ],
+          [
+            "greeting",
+            0.002509
+          ],
+          [
+            "haven't",
+            0.002437
+          ],
+          [
+            "quick",
+            0.001456
+          ],
+          [
+            "spell",
+            -0.001205
+          ],
+          [
+            "send",
+            0.000498
+          ],
+          [
+            "time",
+            0.000258
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1909274011850357,
+          "max": 0.9999999403953552,
+          "std": 0.3189869225025177
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Icon",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.997498095035553,
+        "p_img": 0.41719889640808105,
+        "delta_p_img": 0.5802991986274719,
+        "gradcam_mean": 0.4791000783443451,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Icon",
+        "delta_p_img_shap": 0.009152591228485107,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.003005
+          ],
+          [
+            "quirky",
+            0.002116
+          ],
+          [
+            "cute",
+            0.001557
+          ],
+          [
+            "loads",
+            0.001557
+          ],
+          [
+            "choose",
+            0.001279
+          ],
+          [
+            "different",
+            0.001221
+          ],
+          [
+            "perhaps",
+            -0.000901
+          ],
+          [
+            "stuff",
+            0.000753
+          ],
+          [
+            "sediments",
+            0.000484
+          ],
+          [
+            "maybe",
+            -0.000481
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18452739715576172,
+          "max": 0.9999999403953552,
+          "std": 0.31222695112228394
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 100% confidence.",
+      "simple": "This screen was classified as good with 100% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was classified as good with 100% confidence (with high confidence). The model focused on a small Image at the top-left, a small Icon at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14423",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14423.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! I liked this app so much, I installed it again on my new phone. There's a wide range of beautiful congratulations. I love it!",
+    "prediction": 0.9959794282913208,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9959794282913208,
+    "gradcam_stats": {
+      "mean": 0.5346115827560425,
+      "max": 1.0,
+      "std": 0.17716297507286072
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9959726929664612,
+      "p_img": 0.9555215835571289,
+      "delta_p_img": 0.040451109409332275
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          117,
+          177,
+          150,
+          190
+        ],
+        "bounds_rico": [
+          757,
+          2030,
+          968,
+          2180
+        ],
+        "score_total": 379.37298583984375,
+        "score_mean": 0.8843193143119901
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          124,
+          143,
+          182,
+          150
+        ],
+        "bounds_rico": [
+          802,
+          1637,
+          1174,
+          1721
+        ],
+        "score_total": 332.58935546875,
+        "score_mean": 0.8191856046028325
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          149,
+          150,
+          182,
+          155
+        ],
+        "bounds_rico": [
+          958,
+          1721,
+          1174,
+          1777
+        ],
+        "score_total": 127.77903747558594,
+        "score_mean": 0.7744184089429451
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 379.37298583984375,
+        "score_mean": 0.8843193143119901,
+        "bounds_image": [
+          117,
+          177,
+          150,
+          190
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 332.58935546875,
+        "score_mean": 0.8191856046028325,
+        "bounds_image": [
+          124,
+          143,
+          182,
+          150
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 127.77903747558594,
+        "score_mean": 0.7744184089429451,
+        "bounds_image": [
+          149,
+          150,
+          182,
+          155
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 379.37298583984375,
+        "score_mean": 0.8843193143119901,
+        "bounds_image": [
+          117,
+          177,
+          150,
+          190
+        ],
+        "bounds_rico": [
+          757,
+          2030,
+          968,
+          2180
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 332.58935546875,
+        "score_mean": 0.8191856046028325,
+        "bounds_image": [
+          124,
+          143,
+          182,
+          150
+        ],
+        "bounds_rico": [
+          802,
+          1637,
+          1174,
+          1721
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 127.77903747558594,
+        "score_mean": 0.7744184089429451,
+        "bounds_image": [
+          149,
+          150,
+          182,
+          155
+        ],
+        "bounds_rico": [
+          958,
+          1721,
+          1174,
+          1777
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 267.49615478515625,
+        "score_mean": 0.7620973070802173,
+        "bounds_image": [
+          73,
+          177,
+          100,
+          190
+        ],
+        "bounds_rico": [
+          472,
+          2030,
+          645,
+          2180
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 260.62469482421875,
+        "score_mean": 0.6682684482672275,
+        "bounds_image": [
+          145,
+          193,
+          171,
+          208
+        ],
+        "bounds_rico": [
+          936,
+          2210,
+          1104,
+          2378
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 214.92385864257812,
+        "score_mean": 0.5904501611059838,
+        "bounds_image": [
+          189,
+          143,
+          215,
+          157
+        ],
+        "bounds_rico": [
+          1216,
+          1637,
+          1384,
+          1805
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 211.00274658203125,
+        "score_mean": 0.5410326835436698,
+        "bounds_image": [
+          171,
+          193,
+          197,
+          208
+        ],
+        "bounds_rico": [
+          1104,
+          2210,
+          1272,
+          2378
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text Button",
+        "score_total": 964.57763671875,
+        "score_mean": 0.49339009550831203,
+        "bounds_image": [
+          109,
+          29,
+          224,
+          46
+        ],
+        "bounds_rico": [
+          705,
+          336,
+          1440,
+          533
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 13371.919921875,
+        "score_mean": 0.47377834190316753,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          133
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1524
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 121.38977813720703,
+        "score_mean": 0.45980976567123877,
+        "bounds_image": [
+          8,
+          127,
+          30,
+          139
+        ],
+        "bounds_rico": [
+          56,
+          1454,
+          196,
+          1594
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Icon",
+        "score_total": 175.95591735839844,
+        "score_mean": 0.4344590552059221,
+        "bounds_image": [
+          197,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          1272,
+          2210,
+          1440,
+          2378
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Icon",
+        "score_total": 184.600830078125,
+        "score_mean": 0.36196241191789214,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9959726929664612,
+        "p_img": 0.9555215835571289,
+        "delta_p_img": 0.040451109409332275,
+        "gradcam_mean": 0.5346115827560425,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.05989706516265869,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not reason",
+            -0.010724
+          ],
+          [
+            "great",
+            0.009703
+          ],
+          [
+            "best",
+            0.006281
+          ],
+          [
+            "selection",
+            0.004413
+          ],
+          [
+            "outstanding",
+            0.002758
+          ],
+          [
+            "greeting",
+            0.002752
+          ],
+          [
+            "entire",
+            0.002598
+          ],
+          [
+            "keep",
+            0.002395
+          ],
+          [
+            "work",
+            0.002236
+          ],
+          [
+            "attention",
+            0.002008
+          ],
+          [
+            "new",
+            0.001962
+          ],
+          [
+            "good",
+            0.001737
+          ],
+          [
+            "friends",
+            0.00157
+          ],
+          [
+            "photos",
+            0.00149
+          ],
+          [
+            "nice",
+            0.001309
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23689591884613037,
+          "max": 0.9999998807907104,
+          "std": 0.35540449619293213
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9932554960250854,
+        "p_img": 0.8081490993499756,
+        "delta_p_img": 0.18510639667510986,
+        "gradcam_mean": 0.5111144185066223,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.11158537864685059,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.009826
+          ],
+          [
+            "selection",
+            0.005254
+          ],
+          [
+            "recommend",
+            0.00517
+          ],
+          [
+            "big",
+            0.004444
+          ],
+          [
+            "card",
+            0.003694
+          ],
+          [
+            "send",
+            0.002942
+          ],
+          [
+            "want",
+            0.002787
+          ],
+          [
+            "thank",
+            0.001129
+          ],
+          [
+            "someone",
+            -0.000468
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20729313790798187,
+          "max": 0.9999998807907104,
+          "std": 0.34626898169517517
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9890256524085999,
+        "p_img": 0.7005347013473511,
+        "delta_p_img": 0.2884909510612488,
+        "gradcam_mean": 0.4882986843585968,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.17246949672698975,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.014578
+          ],
+          [
+            "express",
+            0.003317
+          ],
+          [
+            "want",
+            0.00032
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19613265991210938,
+          "max": 0.9999998807907104,
+          "std": 0.32052746415138245
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.990818440914154,
+        "p_img": 0.7447193264961243,
+        "delta_p_img": 0.24609911441802979,
+        "gradcam_mean": 0.4934872090816498,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.1531272530555725,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.014828
+          ],
+          [
+            "greeting",
+            0.010588
+          ],
+          [
+            "haven't",
+            0.00966
+          ],
+          [
+            "quick",
+            0.005841
+          ],
+          [
+            "spell",
+            -0.003882
+          ],
+          [
+            "send",
+            0.002506
+          ],
+          [
+            "time",
+            0.000477
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19325470924377441,
+          "max": 0.9999998807907104,
+          "std": 0.32274776697158813
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.9899085760116577,
+        "p_img": 0.7103763818740845,
+        "delta_p_img": 0.27953219413757324,
+        "gradcam_mean": 0.4528128206729889,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.16603726148605347,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.011024
+          ],
+          [
+            "quirky",
+            0.008899
+          ],
+          [
+            "loads",
+            0.006319
+          ],
+          [
+            "cute",
+            0.00612
+          ],
+          [
+            "different",
+            0.005121
+          ],
+          [
+            "choose",
+            0.004968
+          ],
+          [
+            "perhaps",
+            -0.003666
+          ],
+          [
+            "stuff",
+            0.003127
+          ],
+          [
+            "sediments",
+            0.002623
+          ],
+          [
+            "maybe",
+            -0.00214
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20543265342712402,
+          "max": 0.9999998807907104,
+          "std": 0.3344384729862213
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 100% confidence.",
+      "simple": "This screen was labeled as good with 100% confidence. The model directed most attention to a small Text Button at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was labeled as good with 100% confidence (confidently). The model attended to a small Text Button at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14417",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14417.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I liked this app so much, I installed it again on my new phone.",
+    "prediction": 0.9979366064071655,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9979366064071655,
+    "gradcam_stats": {
+      "mean": 0.5628758072853088,
+      "max": 1.0,
+      "std": 0.1835891306400299
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9979281425476074,
+      "p_img": 0.9907721281051636,
+      "delta_p_img": 0.007156014442443848
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          71,
+          99,
+          78,
+          107
+        ],
+        "bounds_rico": [
+          460,
+          1141,
+          502,
+          1225
+        ],
+        "score_total": 43.92060089111328,
+        "score_mean": 0.7842964444841657
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          147,
+          129,
+          154,
+          133
+        ],
+        "bounds_rico": [
+          945,
+          1476,
+          994,
+          1525
+        ],
+        "score_total": 21.899694442749023,
+        "score_mean": 0.7821319443838937
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          114,
+          138,
+          216,
+          194
+        ],
+        "bounds_rico": [
+          739,
+          1587,
+          1393,
+          2224
+        ],
+        "score_total": 4414.90087890625,
+        "score_mean": 0.7729168205368084
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 43.92060089111328,
+        "score_mean": 0.7842964444841657,
+        "bounds_image": [
+          71,
+          99,
+          78,
+          107
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 21.899694442749023,
+        "score_mean": 0.7821319443838937,
+        "bounds_image": [
+          147,
+          129,
+          154,
+          133
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 4414.90087890625,
+        "score_mean": 0.7729168205368084,
+        "bounds_image": [
+          114,
+          138,
+          216,
+          194
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 43.92060089111328,
+        "score_mean": 0.7842964444841657,
+        "bounds_image": [
+          71,
+          99,
+          78,
+          107
+        ],
+        "bounds_rico": [
+          460,
+          1141,
+          502,
+          1225
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 21.899694442749023,
+        "score_mean": 0.7821319443838937,
+        "bounds_image": [
+          147,
+          129,
+          154,
+          133
+        ],
+        "bounds_rico": [
+          945,
+          1476,
+          994,
+          1525
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 4414.90087890625,
+        "score_mean": 0.7729168205368084,
+        "bounds_image": [
+          114,
+          138,
+          216,
+          194
+        ],
+        "bounds_rico": [
+          739,
+          1587,
+          1393,
+          2224
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 48.71537780761719,
+        "score_mean": 0.7611777782440186,
+        "bounds_image": [
+          156,
+          127,
+          164,
+          135
+        ],
+        "bounds_rico": [
+          1008,
+          1459,
+          1057,
+          1543
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 23.339691162109375,
+        "score_mean": 0.729365348815918,
+        "bounds_image": [
+          170,
+          129,
+          178,
+          133
+        ],
+        "bounds_rico": [
+          1099,
+          1476,
+          1148,
+          1525
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 23.1657772064209,
+        "score_mean": 0.7239305377006531,
+        "bounds_image": [
+          61,
+          101,
+          69,
+          105
+        ],
+        "bounds_rico": [
+          397,
+          1158,
+          446,
+          1207
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 22.37531280517578,
+        "score_mean": 0.6992285251617432,
+        "bounds_image": [
+          180,
+          127,
+          184,
+          135
+        ],
+        "bounds_rico": [
+          1162,
+          1459,
+          1186,
+          1543
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 5996.2626953125,
+        "score_mean": 0.6916104608203576,
+        "bounds_image": [
+          7,
+          111,
+          109,
+          196
+        ],
+        "bounds_rico": [
+          47,
+          1269,
+          701,
+          2246
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 18.336181640625,
+        "score_mean": 0.6548636300223214,
+        "bounds_image": [
+          147,
+          196,
+          154,
+          200
+        ],
+        "bounds_rico": [
+          947,
+          2242,
+          996,
+          2291
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 40.64717483520508,
+        "score_mean": 0.6351121068000793,
+        "bounds_image": [
+          47,
+          99,
+          55,
+          107
+        ],
+        "bounds_rico": [
+          308,
+          1141,
+          355,
+          1225
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 35.11042022705078,
+        "score_mean": 0.626971789768764,
+        "bounds_image": [
+          157,
+          194,
+          164,
+          202
+        ],
+        "bounds_rico": [
+          1010,
+          2225,
+          1057,
+          2309
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 5290.712890625,
+        "score_mean": 0.6031364444396945,
+        "bounds_image": [
+          114,
+          41,
+          216,
+          127
+        ],
+        "bounds_rico": [
+          739,
+          477,
+          1393,
+          1458
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 18.812389373779297,
+        "score_mean": 0.587887167930603,
+        "bounds_image": [
+          170,
+          196,
+          178,
+          200
+        ],
+        "bounds_rico": [
+          1099,
+          2242,
+          1148,
+          2291
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Icon",
+        "score_total": 16.314403533935547,
+        "score_mean": 0.5826572690691266,
+        "bounds_image": [
+          38,
+          101,
+          45,
+          105
+        ],
+        "bounds_rico": [
+          245,
+          1158,
+          294,
+          1207
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Icon",
+        "score_total": 51.403831481933594,
+        "score_mean": 0.5648772690322373,
+        "bounds_image": [
+          105,
+          194,
+          118,
+          201
+        ],
+        "bounds_rico": [
+          678,
+          2224,
+          762,
+          2308
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Image",
+        "score_total": 3331.843505859375,
+        "score_mean": 0.5631919381101039,
+        "bounds_image": [
+          7,
+          41,
+          109,
+          99
+        ],
+        "bounds_rico": [
+          47,
+          477,
+          701,
+          1140
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 30.63841438293457,
+        "score_mean": 0.547114542552403,
+        "bounds_image": [
+          72,
+          196,
+          80,
+          203
+        ],
+        "bounds_rico": [
+          469,
+          2247,
+          517,
+          2331
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 17.486003875732422,
+        "score_mean": 0.5464376211166382,
+        "bounds_image": [
+          180,
+          194,
+          184,
+          202
+        ],
+        "bounds_rico": [
+          1162,
+          2225,
+          1185,
+          2309
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Image",
+        "score_total": 14.983097076416016,
+        "score_mean": 0.5351106098720005,
+        "bounds_image": [
+          63,
+          198,
+          70,
+          202
+        ],
+        "bounds_rico": [
+          406,
+          2264,
+          455,
+          2313
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 40.4649658203125,
+        "score_mean": 0.525519036627435,
+        "bounds_image": [
+          45,
+          196,
+          56,
+          203
+        ],
+        "bounds_rico": [
+          294,
+          2247,
+          364,
+          2331
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text Button",
+        "score_total": 290.934326171875,
+        "score_mean": 0.4973236344818376,
+        "bounds_image": [
+          92,
+          24,
+          131,
+          39
+        ],
+        "bounds_rico": [
+          594,
+          280,
+          846,
+          448
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text",
+        "score_total": 149.82748413085938,
+        "score_mean": 0.49123765288806354,
+        "bounds_image": [
+          81,
+          202,
+          142,
+          207
+        ],
+        "bounds_rico": [
+          522,
+          2310,
+          918,
+          2367
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text Button",
+        "score_total": 622.5497436523438,
+        "score_mean": 0.4882743087469363,
+        "bounds_image": [
+          149,
+          192,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          960,
+          2196,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text Button",
+        "score_total": 240.2569580078125,
+        "score_mean": 0.45763230096726193,
+        "bounds_image": [
+          113,
+          204,
+          218,
+          209
+        ],
+        "bounds_rico": [
+          727,
+          2338,
+          1405,
+          2392
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Image",
+        "score_total": 14.401294708251953,
+        "score_mean": 0.45004045963287354,
+        "bounds_image": [
+          35,
+          198,
+          43,
+          202
+        ],
+        "bounds_rico": [
+          231,
+          2264,
+          280,
+          2313
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Text",
+        "score_total": 59.36592483520508,
+        "score_mean": 0.4463603371068051,
+        "bounds_image": [
+          141,
+          28,
+          160,
+          35
+        ],
+        "bounds_rico": [
+          909,
+          326,
+          1034,
+          402
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Text",
+        "score_total": 119.70858001708984,
+        "score_mean": 0.41710306626163707,
+        "bounds_image": [
+          44,
+          28,
+          85,
+          35
+        ],
+        "bounds_rico": [
+          283,
+          326,
+          552,
+          402
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Text Button",
+        "score_total": 515.860595703125,
+        "score_mean": 0.41006406653666533,
+        "bounds_image": [
+          0,
+          192,
+          74,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          480,
+          2392
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Image",
+        "score_total": 78.57876586914062,
+        "score_mean": 0.3851900287702972,
+        "bounds_image": [
+          7,
+          207,
+          109,
+          209
+        ],
+        "bounds_rico": [
+          47,
+          2375,
+          701,
+          2392
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Text",
+        "score_total": 82.80526733398438,
+        "score_mean": 0.3815910937049971,
+        "bounds_image": [
+          177,
+          28,
+          208,
+          35
+        ],
+        "bounds_rico": [
+          1140,
+          326,
+          1338,
+          402
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Text",
+        "score_total": 7.458275318145752,
+        "score_mean": 0.35515596753075007,
+        "bounds_image": [
+          221,
+          28,
+          224,
+          35
+        ],
+        "bounds_rico": [
+          1426,
+          326,
+          1440,
+          402
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Image",
+        "score_total": 122.66180419921875,
+        "score_mean": 0.30286865234375,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 32,
+        "component": "Text",
+        "score_total": 40.30171585083008,
+        "score_mean": 0.19191293262300038,
+        "bounds_image": [
+          0,
+          28,
+          30,
+          35
+        ],
+        "bounds_rico": [
+          0,
+          326,
+          199,
+          402
+        ]
+      },
+      {
+        "rank": 33,
+        "component": "Image",
+        "score_total": 121.43107604980469,
+        "score_mean": 0.16983367279692962,
+        "bounds_image": [
+          8,
+          10,
+          73,
+          21
+        ],
+        "bounds_rico": [
+          56,
+          122,
+          472,
+          241
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Icon, Image",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9979281425476074,
+        "p_img": 0.9907721281051636,
+        "delta_p_img": 0.007156014442443848,
+        "gradcam_mean": 0.5628758072853088,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.00029462575912475586,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.007836
+          ],
+          [
+            "not reason",
+            -0.007493
+          ],
+          [
+            "best",
+            0.005234
+          ],
+          [
+            "selection",
+            0.003354
+          ],
+          [
+            "greeting",
+            0.002184
+          ],
+          [
+            "outstanding",
+            0.002169
+          ],
+          [
+            "entire",
+            0.001981
+          ],
+          [
+            "work",
+            0.001833
+          ],
+          [
+            "keep",
+            0.001781
+          ],
+          [
+            "uploaded",
+            -0.001774
+          ],
+          [
+            "attention",
+            0.001678
+          ],
+          [
+            "new",
+            0.001552
+          ],
+          [
+            "good",
+            0.001243
+          ],
+          [
+            "friends",
+            0.001059
+          ],
+          [
+            "photos",
+            0.000926
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1925363391637802,
+          "max": 0.9999999403953552,
+          "std": 0.32619398832321167
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text, Icon",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.996258020401001,
+        "p_img": 0.9827237129211426,
+        "delta_p_img": 0.013534307479858398,
+        "gradcam_mean": 0.5426665544509888,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.0005916953086853027,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.007683
+          ],
+          [
+            "recommend",
+            0.003833
+          ],
+          [
+            "selection",
+            0.00367
+          ],
+          [
+            "big",
+            0.003261
+          ],
+          [
+            "want",
+            0.002461
+          ],
+          [
+            "card",
+            0.002425
+          ],
+          [
+            "send",
+            0.002196
+          ],
+          [
+            "thank",
+            0.001013
+          ],
+          [
+            "someone",
+            -0.000756
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19746437668800354,
+          "max": 0.9999999403953552,
+          "std": 0.32956039905548096
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Text",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9944883584976196,
+        "p_img": 0.9706407189369202,
+        "delta_p_img": 0.023847639560699463,
+        "gradcam_mean": 0.5417038798332214,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Text",
+        "delta_p_img_shap": 0.0002880096435546875,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.011975
+          ],
+          [
+            "express",
+            0.002894
+          ],
+          [
+            "want",
+            0.000169
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21591702103614807,
+          "max": 0.9999999403953552,
+          "std": 0.34644004702568054
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Icon, Image",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.9950418472290039,
+        "p_img": 0.9745115637779236,
+        "delta_p_img": 0.020530283451080322,
+        "gradcam_mean": 0.5584918260574341,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Text",
+        "delta_p_img_shap": 0.00027686357498168945,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.012607
+          ],
+          [
+            "haven't",
+            0.008797
+          ],
+          [
+            "greeting",
+            0.007906
+          ],
+          [
+            "quick",
+            0.005116
+          ],
+          [
+            "spell",
+            -0.004344
+          ],
+          [
+            "send",
+            0.001259
+          ],
+          [
+            "time",
+            0.000442
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21655549108982086,
+          "max": 0.9999999403953552,
+          "std": 0.351887971162796
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Icon, Image",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.994615375995636,
+        "p_img": 0.9750816822052002,
+        "delta_p_img": 0.01953369379043579,
+        "gradcam_mean": 0.547162652015686,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.0009031891822814941,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.008712
+          ],
+          [
+            "quirky",
+            0.007283
+          ],
+          [
+            "loads",
+            0.005204
+          ],
+          [
+            "cute",
+            0.005168
+          ],
+          [
+            "different",
+            0.004098
+          ],
+          [
+            "choose",
+            0.003648
+          ],
+          [
+            "perhaps",
+            -0.00324
+          ],
+          [
+            "stuff",
+            0.002145
+          ],
+          [
+            "maybe",
+            -0.001812
+          ],
+          [
+            "sediments",
+            0.001737
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20213748514652252,
+          "max": 0.9999999403953552,
+          "std": 0.3342551290988922
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 100% confidence.",
+      "simple": "This screen was labeled as good with 100% confidence. The model directed most attention to a small Text at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was labeled as good with 100% confidence (confidently). The model attended to a small Text at the top-left, a small Icon at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14416",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14416.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I liked this app so much, I installed it again on my new phone.",
+    "prediction": 0.9963588118553162,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9963588118553162,
+    "gradcam_stats": {
+      "mean": 0.6616580486297607,
+      "max": 1.0,
+      "std": 0.14888714253902435
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9963558912277222,
+      "p_img": 0.9962336421012878,
+      "delta_p_img": 0.00012224912643432617
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          145,
+          155,
+          153,
+          159
+        ],
+        "bounds_rico": [
+          935,
+          1777,
+          984,
+          1826
+        ],
+        "score_total": 31.369647979736328,
+        "score_mean": 0.9803014993667603
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          155,
+          154,
+          165,
+          161
+        ],
+        "bounds_rico": [
+          998,
+          1760,
+          1067,
+          1844
+        ],
+        "score_total": 66.62693786621094,
+        "score_mean": 0.9518133980887277
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          172,
+          155,
+          180,
+          159
+        ],
+        "bounds_rico": [
+          1109,
+          1777,
+          1158,
+          1826
+        ],
+        "score_total": 28.919971466064453,
+        "score_mean": 0.9037491083145142
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 31.369647979736328,
+        "score_mean": 0.9803014993667603,
+        "bounds_image": [
+          145,
+          155,
+          153,
+          159
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 66.62693786621094,
+        "score_mean": 0.9518133980887277,
+        "bounds_image": [
+          155,
+          154,
+          165,
+          161
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 28.919971466064453,
+        "score_mean": 0.9037491083145142,
+        "bounds_image": [
+          172,
+          155,
+          180,
+          159
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 31.369647979736328,
+        "score_mean": 0.9803014993667603,
+        "bounds_image": [
+          145,
+          155,
+          153,
+          159
+        ],
+        "bounds_rico": [
+          935,
+          1777,
+          984,
+          1826
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 66.62693786621094,
+        "score_mean": 0.9518133980887277,
+        "bounds_image": [
+          155,
+          154,
+          165,
+          161
+        ],
+        "bounds_rico": [
+          998,
+          1760,
+          1067,
+          1844
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 28.919971466064453,
+        "score_mean": 0.9037491083145142,
+        "bounds_image": [
+          172,
+          155,
+          180,
+          159
+        ],
+        "bounds_rico": [
+          1109,
+          1777,
+          1158,
+          1826
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 23.94659423828125,
+        "score_mean": 0.8552355085100446,
+        "bounds_image": [
+          73,
+          66,
+          77,
+          73
+        ],
+        "bounds_rico": [
+          472,
+          759,
+          495,
+          843
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 23.857925415039062,
+        "score_mean": 0.8520687648228237,
+        "bounds_image": [
+          182,
+          154,
+          186,
+          161
+        ],
+        "bounds_rico": [
+          1172,
+          1760,
+          1196,
+          1844
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 33.69221496582031,
+        "score_mean": 0.8423053741455078,
+        "bounds_image": [
+          63,
+          67,
+          71,
+          72
+        ],
+        "bounds_rico": [
+          409,
+          776,
+          458,
+          825
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 45.89014434814453,
+        "score_mean": 0.8194668633597237,
+        "bounds_image": [
+          49,
+          66,
+          57,
+          73
+        ],
+        "bounds_rico": [
+          316,
+          759,
+          367,
+          843
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 3300.646728515625,
+        "score_mean": 0.7704590869550946,
+        "bounds_image": [
+          114,
+          165,
+          216,
+          207
+        ],
+        "bounds_rico": [
+          739,
+          1888,
+          1393,
+          2371
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 26.784252166748047,
+        "score_mean": 0.7652643476213727,
+        "bounds_image": [
+          39,
+          67,
+          46,
+          72
+        ],
+        "bounds_rico": [
+          253,
+          776,
+          302,
+          825
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 6228.826171875,
+        "score_mean": 0.7633365406709559,
+        "bounds_image": [
+          114,
+          73,
+          216,
+          153
+        ],
+        "bounds_rico": [
+          739,
+          844,
+          1393,
+          1759
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Icon",
+        "score_total": 20.708032608032227,
+        "score_mean": 0.7395725931440081,
+        "bounds_image": [
+          145,
+          64,
+          152,
+          68
+        ],
+        "bounds_rico": [
+          933,
+          733,
+          982,
+          782
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 3074.498779296875,
+        "score_mean": 0.7176701165492239,
+        "bounds_image": [
+          7,
+          24,
+          109,
+          66
+        ],
+        "bounds_rico": [
+          47,
+          281,
+          701,
+          758
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 120.86569213867188,
+        "score_mean": 0.6906610979352679,
+        "bounds_image": [
+          99,
+          11,
+          124,
+          18
+        ],
+        "bounds_rico": [
+          640,
+          130,
+          800,
+          206
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 71.28103637695312,
+        "score_mean": 0.6853945805476263,
+        "bounds_image": [
+          105,
+          198,
+          118,
+          206
+        ],
+        "bounds_rico": [
+          678,
+          2273,
+          762,
+          2357
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 122.446533203125,
+        "score_mean": 0.6691067388148907,
+        "bounds_image": [
+          81,
+          206,
+          142,
+          209
+        ],
+        "bounds_rico": [
+          522,
+          2359,
+          918,
+          2392
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 37.345943450927734,
+        "score_mean": 0.6668918473379952,
+        "bounds_image": [
+          72,
+          175,
+          80,
+          182
+        ],
+        "bounds_rico": [
+          468,
+          2005,
+          515,
+          2089
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 63.975791931152344,
+        "score_mean": 0.6664144992828369,
+        "bounds_image": [
+          154,
+          62,
+          166,
+          70
+        ],
+        "bounds_rico": [
+          996,
+          716,
+          1068,
+          800
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text Button",
+        "score_total": 3905.75146484375,
+        "score_mean": 0.6642434464019983,
+        "bounds_image": [
+          5,
+          76,
+          110,
+          132
+        ],
+        "bounds_rico": [
+          35,
+          872,
+          713,
+          1518
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Image",
+        "score_total": 2649.9736328125,
+        "score_mean": 0.6495033413756127,
+        "bounds_image": [
+          7,
+          135,
+          109,
+          175
+        ],
+        "bounds_rico": [
+          47,
+          1547,
+          701,
+          2004
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 13.886322975158691,
+        "score_mean": 0.6311964988708496,
+        "bounds_image": [
+          153,
+          207,
+          164,
+          209
+        ],
+        "bounds_rico": [
+          984,
+          2372,
+          1057,
+          2392
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Icon",
+        "score_total": 21.93023109436035,
+        "score_mean": 0.6265780312674386,
+        "bounds_image": [
+          63,
+          176,
+          70,
+          181
+        ],
+        "bounds_rico": [
+          405,
+          2022,
+          454,
+          2071
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Image",
+        "score_total": 2393.424072265625,
+        "score_mean": 0.617498470656766,
+        "bounds_image": [
+          114,
+          24,
+          216,
+          62
+        ],
+        "bounds_rico": [
+          739,
+          281,
+          1393,
+          715
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 18.603649139404297,
+        "score_mean": 0.5813640356063843,
+        "bounds_image": [
+          182,
+          62,
+          186,
+          70
+        ],
+        "bounds_rico": [
+          1173,
+          716,
+          1199,
+          800
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Icon",
+        "score_total": 18.378021240234375,
+        "score_mean": 0.5743131637573242,
+        "bounds_image": [
+          172,
+          64,
+          180,
+          68
+        ],
+        "bounds_rico": [
+          1110,
+          733,
+          1159,
+          782
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text",
+        "score_total": 119.53994750976562,
+        "score_mean": 0.5692378452845982,
+        "bounds_image": [
+          55,
+          11,
+          85,
+          18
+        ],
+        "bounds_rico": [
+          354,
+          130,
+          552,
+          206
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Text Button",
+        "score_total": 546.0555419921875,
+        "score_mean": 0.5600569661458333,
+        "bounds_image": [
+          149,
+          196,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          960,
+          2245,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Text",
+        "score_total": 42.95250701904297,
+        "score_mean": 0.5578247664810775,
+        "bounds_image": [
+          45,
+          175,
+          56,
+          182
+        ],
+        "bounds_rico": [
+          295,
+          2005,
+          363,
+          2089
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Text",
+        "score_total": 73.09555053710938,
+        "score_mean": 0.5495906055421758,
+        "bounds_image": [
+          19,
+          11,
+          38,
+          18
+        ],
+        "bounds_rico": [
+          123,
+          130,
+          248,
+          206
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Image",
+        "score_total": 1277.3603515625,
+        "score_mean": 0.5444843783301364,
+        "bounds_image": [
+          7,
+          186,
+          109,
+          209
+        ],
+        "bounds_rico": [
+          47,
+          2133,
+          701,
+          2392
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Text",
+        "score_total": 8.090564727783203,
+        "score_mean": 0.5056602954864502,
+        "bounds_image": [
+          180,
+          207,
+          188,
+          209
+        ],
+        "bounds_rico": [
+          1162,
+          2372,
+          1210,
+          2392
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Text",
+        "score_total": 125.66419982910156,
+        "score_mean": 0.4851899607301219,
+        "bounds_image": [
+          138,
+          11,
+          175,
+          18
+        ],
+        "bounds_rico": [
+          888,
+          130,
+          1126,
+          206
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Icon",
+        "score_total": 16.928619384765625,
+        "score_mean": 0.4836748395647321,
+        "bounds_image": [
+          36,
+          176,
+          43,
+          181
+        ],
+        "bounds_rico": [
+          232,
+          2022,
+          281,
+          2071
+        ]
+      },
+      {
+        "rank": 32,
+        "component": "Text Button",
+        "score_total": 438.65631103515625,
+        "score_mean": 0.4559836913047362,
+        "bounds_image": [
+          0,
+          196,
+          74,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2245,
+          480,
+          2392
+        ]
+      },
+      {
+        "rank": 33,
+        "component": "Text",
+        "score_total": 79.38058471679688,
+        "score_mean": 0.39103736313693044,
+        "bounds_image": [
+          188,
+          11,
+          217,
+          18
+        ],
+        "bounds_rico": [
+          1210,
+          130,
+          1400,
+          206
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9963558912277222,
+        "p_img": 0.9962336421012878,
+        "delta_p_img": 0.00012224912643432617,
+        "gradcam_mean": 0.6616580486297607,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.0015015006065368652,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not reason",
+            -0.008404
+          ],
+          [
+            "great",
+            0.007056
+          ],
+          [
+            "best",
+            0.004593
+          ],
+          [
+            "selection",
+            0.003197
+          ],
+          [
+            "outstanding",
+            0.002058
+          ],
+          [
+            "keep",
+            0.001814
+          ],
+          [
+            "attention",
+            0.001693
+          ],
+          [
+            "work",
+            0.001661
+          ],
+          [
+            "entire",
+            0.001641
+          ],
+          [
+            "greeting",
+            0.00154
+          ],
+          [
+            "new",
+            0.001515
+          ],
+          [
+            "uploaded",
+            -0.001417
+          ],
+          [
+            "good",
+            0.00123
+          ],
+          [
+            "nice",
+            0.000997
+          ],
+          [
+            "photos",
+            0.00099
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17898108065128326,
+          "max": 0.9999999403953552,
+          "std": 0.3022453486919403
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Text",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9937500357627869,
+        "p_img": 0.993893563747406,
+        "delta_p_img": 0.00014352798461914062,
+        "gradcam_mean": 0.6456783413887024,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Text",
+        "delta_p_img_shap": 0.0019207000732421875,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.007312
+          ],
+          [
+            "recommend",
+            0.003391
+          ],
+          [
+            "selection",
+            0.003271
+          ],
+          [
+            "big",
+            0.002583
+          ],
+          [
+            "card",
+            0.002346
+          ],
+          [
+            "send",
+            0.002254
+          ],
+          [
+            "want",
+            0.002228
+          ],
+          [
+            "thank",
+            0.001084
+          ],
+          [
+            "someone",
+            -0.000645
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18191297352313995,
+          "max": 0.9999999403953552,
+          "std": 0.30532169342041016
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9913172721862793,
+        "p_img": 0.9913398623466492,
+        "delta_p_img": 2.2590160369873047e-05,
+        "gradcam_mean": 0.6347289085388184,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.0005651712417602539,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.010386
+          ],
+          [
+            "express",
+            0.00288
+          ],
+          [
+            "want",
+            0.000403
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2007071077823639,
+          "max": 0.9999998807907104,
+          "std": 0.3015844225883484
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Text",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.991578221321106,
+        "p_img": 0.9919060468673706,
+        "delta_p_img": 0.00032782554626464844,
+        "gradcam_mean": 0.6247282028198242,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Icon",
+        "delta_p_img_shap": 0.00034177303314208984,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.011291
+          ],
+          [
+            "haven't",
+            0.007769
+          ],
+          [
+            "greeting",
+            0.006856
+          ],
+          [
+            "quick",
+            0.005257
+          ],
+          [
+            "spell",
+            -0.004401
+          ],
+          [
+            "time",
+            0.000877
+          ],
+          [
+            "send",
+            0.000703
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20026980340480804,
+          "max": 0.9999999403953552,
+          "std": 0.30100536346435547
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Icon, Icon",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.991443932056427,
+        "p_img": 0.9913275837898254,
+        "delta_p_img": 0.0001163482666015625,
+        "gradcam_mean": 0.6595888137817383,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Icon",
+        "delta_p_img_shap": 0.0003464818000793457,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.00819
+          ],
+          [
+            "quirky",
+            0.006317
+          ],
+          [
+            "loads",
+            0.004999
+          ],
+          [
+            "cute",
+            0.004783
+          ],
+          [
+            "different",
+            0.00355
+          ],
+          [
+            "choose",
+            0.003339
+          ],
+          [
+            "perhaps",
+            -0.002838
+          ],
+          [
+            "maybe",
+            -0.001677
+          ],
+          [
+            "stuff",
+            0.001656
+          ],
+          [
+            "sediments",
+            0.001248
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18895523250102997,
+          "max": 0.9999999403953552,
+          "std": 0.2902737557888031
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 100% confidence.",
+      "simple": "This screen was classified as good with 100% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was classified as good with 100% confidence (with high confidence). The model focused on a small Icon at the top-left, a small Text at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14421",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14421.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I liked this app so much, I installed it again on my new phone.",
+    "prediction": 0.9898719191551208,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9898719191551208,
+    "gradcam_stats": {
+      "mean": 0.4813530147075653,
+      "max": 1.0,
+      "std": 0.22103704512119293
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9898462891578674,
+      "p_img": 0.9214301705360413,
+      "delta_p_img": 0.06841611862182617
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1804
+        ],
+        "score_total": 18237.3828125,
+        "score_mean": 0.5427792503720238
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          132,
+          167,
+          182,
+          175
+        ],
+        "bounds_rico": [
+          851,
+          1917,
+          1174,
+          2001
+        ],
+        "score_total": 201.91574096679688,
+        "score_mean": 0.5047893524169922
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          134,
+          175,
+          182,
+          179
+        ],
+        "bounds_rico": [
+          866,
+          2001,
+          1174,
+          2057
+        ],
+        "score_total": 93.19767761230469,
+        "score_mean": 0.48540457089742023
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 18237.3828125,
+        "score_mean": 0.5427792503720238,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 201.91574096679688,
+        "score_mean": 0.5047893524169922,
+        "bounds_image": [
+          132,
+          167,
+          182,
+          175
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 93.19767761230469,
+        "score_mean": 0.48540457089742023,
+        "bounds_image": [
+          134,
+          175,
+          182,
+          179
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 18237.3828125,
+        "score_mean": 0.5427792503720238,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1804
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 201.91574096679688,
+        "score_mean": 0.5047893524169922,
+        "bounds_image": [
+          132,
+          167,
+          182,
+          175
+        ],
+        "bounds_rico": [
+          851,
+          1917,
+          1174,
+          2001
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 93.19767761230469,
+        "score_mean": 0.48540457089742023,
+        "bounds_image": [
+          134,
+          175,
+          182,
+          179
+        ],
+        "bounds_rico": [
+          866,
+          2001,
+          1174,
+          2057
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 180.76763916015625,
+        "score_mean": 0.46350676707732374,
+        "bounds_image": [
+          189,
+          167,
+          215,
+          182
+        ],
+        "bounds_rico": [
+          1216,
+          1917,
+          1384,
+          2085
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 156.9136962890625,
+        "score_mean": 0.40234281099759617,
+        "bounds_image": [
+          145,
+          193,
+          171,
+          208
+        ],
+        "bounds_rico": [
+          936,
+          2210,
+          1104,
+          2378
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 147.37277221679688,
+        "score_mean": 0.3638833881896219,
+        "bounds_image": [
+          197,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          1272,
+          2210,
+          1440,
+          2378
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 176.61013793945312,
+        "score_mean": 0.34629438811657476,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 133.06796264648438,
+        "score_mean": 0.34119990422175484,
+        "bounds_image": [
+          171,
+          193,
+          197,
+          208
+        ],
+        "bounds_rico": [
+          1104,
+          2210,
+          1272,
+          2378
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 64.44050598144531,
+        "score_mean": 0.24409282568729285,
+        "bounds_image": [
+          8,
+          151,
+          30,
+          163
+        ],
+        "bounds_rico": [
+          56,
+          1734,
+          196,
+          1874
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text Button, Text Button",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9898462891578674,
+        "p_img": 0.9214301705360413,
+        "delta_p_img": 0.06841611862182617,
+        "gradcam_mean": 0.4813530147075653,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.1020205020904541,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.013935
+          ],
+          [
+            "not reason",
+            -0.009365
+          ],
+          [
+            "best",
+            0.007887
+          ],
+          [
+            "selection",
+            0.0062
+          ],
+          [
+            "outstanding",
+            0.004111
+          ],
+          [
+            "keep",
+            0.003635
+          ],
+          [
+            "good",
+            0.003187
+          ],
+          [
+            "work",
+            0.002804
+          ],
+          [
+            "nice",
+            0.002578
+          ],
+          [
+            "new",
+            0.002564
+          ],
+          [
+            "attention",
+            0.002429
+          ],
+          [
+            "entire",
+            0.002405
+          ],
+          [
+            "greeting",
+            0.002321
+          ],
+          [
+            "friends",
+            0.002294
+          ],
+          [
+            "colors",
+            0.001667
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14114253222942352,
+          "max": 0.9999999403953552,
+          "std": 0.26123079657554626
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text Button, Text Button",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9831086993217468,
+        "p_img": 0.820135235786438,
+        "delta_p_img": 0.16297346353530884,
+        "gradcam_mean": 0.4773632884025574,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Icon",
+        "delta_p_img_shap": 0.2083948850631714,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.014793
+          ],
+          [
+            "selection",
+            0.008044
+          ],
+          [
+            "recommend",
+            0.007379
+          ],
+          [
+            "big",
+            0.006696
+          ],
+          [
+            "card",
+            0.006297
+          ],
+          [
+            "send",
+            0.004929
+          ],
+          [
+            "want",
+            0.003241
+          ],
+          [
+            "thank",
+            0.001242
+          ],
+          [
+            "someone",
+            -0.000654
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1513599306344986,
+          "max": 0.9999999403953552,
+          "std": 0.267448753118515
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Text Button",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9725072383880615,
+        "p_img": 0.37228843569755554,
+        "delta_p_img": 0.600218802690506,
+        "gradcam_mean": 0.4603785574436188,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.4522870182991028,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.019074
+          ],
+          [
+            "express",
+            0.005444
+          ],
+          [
+            "want",
+            0.000439
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15980330109596252,
+          "max": 0.9999999403953552,
+          "std": 0.2717359960079193
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Icon, Text Button",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.9758273363113403,
+        "p_img": 0.43629947304725647,
+        "delta_p_img": 0.5395278632640839,
+        "gradcam_mean": 0.4516695439815521,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.3928440809249878,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.019587
+          ],
+          [
+            "greeting",
+            0.013879
+          ],
+          [
+            "haven't",
+            0.011156
+          ],
+          [
+            "quick",
+            0.008359
+          ],
+          [
+            "spell",
+            -0.004622
+          ],
+          [
+            "send",
+            0.003842
+          ],
+          [
+            "time",
+            0.00086
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1588146686553955,
+          "max": 0.9999999403953552,
+          "std": 0.2712562680244446
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text Button, Icon",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.9743075966835022,
+        "p_img": 0.5260362029075623,
+        "delta_p_img": 0.44827139377593994,
+        "gradcam_mean": 0.41461414098739624,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Image",
+        "delta_p_img_shap": 0.3036115765571594,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.013879
+          ],
+          [
+            "quirky",
+            0.011434
+          ],
+          [
+            "cute",
+            0.008117
+          ],
+          [
+            "loads",
+            0.007782
+          ],
+          [
+            "choose",
+            0.007117
+          ],
+          [
+            "different",
+            0.006644
+          ],
+          [
+            "perhaps",
+            -0.004799
+          ],
+          [
+            "stuff",
+            0.003577
+          ],
+          [
+            "maybe",
+            -0.00279
+          ],
+          [
+            "sediments",
+            0.002761
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15827031433582306,
+          "max": 0.9999999403953552,
+          "std": 0.27074772119522095
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 99% confidence.",
+      "simple": "This screen was classified as good with 99% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was classified as good with 99% confidence (with high confidence). The model focused on a small Image at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14420",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14420.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I liked this app so much, I installed it again on my new phone.",
+    "prediction": 0.9980522394180298,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9980522394180298,
+    "gradcam_stats": {
+      "mean": 0.4491202235221863,
+      "max": 1.0,
+      "std": 0.2635875940322876
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9980554580688477,
+      "p_img": 0.8951109051704407,
+      "delta_p_img": 0.10294455289840698
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          105,
+          99,
+          182,
+          107
+        ],
+        "bounds_rico": [
+          679,
+          1140,
+          1174,
+          1224
+        ],
+        "score_total": 435.71282958984375,
+        "score_mean": 0.7073260220614347
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          89
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1027
+        ],
+        "score_total": 12208.017578125,
+        "score_mean": 0.6646351033386868
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          142,
+          107,
+          182,
+          112
+        ],
+        "bounds_rico": [
+          919,
+          1224,
+          1174,
+          1280
+        ],
+        "score_total": 120.40241241455078,
+        "score_mean": 0.6020120620727539
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 435.71282958984375,
+        "score_mean": 0.7073260220614347,
+        "bounds_image": [
+          105,
+          99,
+          182,
+          107
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 12208.017578125,
+        "score_mean": 0.6646351033386868,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          89
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 120.40241241455078,
+        "score_mean": 0.6020120620727539,
+        "bounds_image": [
+          142,
+          107,
+          182,
+          112
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 435.71282958984375,
+        "score_mean": 0.7073260220614347,
+        "bounds_image": [
+          105,
+          99,
+          182,
+          107
+        ],
+        "bounds_rico": [
+          679,
+          1140,
+          1174,
+          1224
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 12208.017578125,
+        "score_mean": 0.6646351033386868,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          89
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1027
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 120.40241241455078,
+        "score_mean": 0.6020120620727539,
+        "bounds_image": [
+          142,
+          107,
+          182,
+          112
+        ],
+        "bounds_rico": [
+          919,
+          1224,
+          1174,
+          1280
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 128.73179626464844,
+        "score_mean": 0.48762044039639557,
+        "bounds_image": [
+          8,
+          83,
+          30,
+          95
+        ],
+        "bounds_rico": [
+          56,
+          957,
+          196,
+          1097
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 181.49082946777344,
+        "score_mean": 0.4653611011994191,
+        "bounds_image": [
+          189,
+          99,
+          215,
+          114
+        ],
+        "bounds_rico": [
+          1216,
+          1140,
+          1384,
+          1308
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 131.8447265625,
+        "score_mean": 0.31693443885216344,
+        "bounds_image": [
+          120,
+          134,
+          152,
+          147
+        ],
+        "bounds_rico": [
+          772,
+          1533,
+          980,
+          1683
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 120.70634460449219,
+        "score_mean": 0.2995194655198317,
+        "bounds_image": [
+          71,
+          134,
+          102,
+          147
+        ],
+        "bounds_rico": [
+          460,
+          1533,
+          660,
+          1683
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 63.844608306884766,
+        "score_mean": 0.15764100816514756,
+        "bounds_image": [
+          197,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          1272,
+          2210,
+          1440,
+          2378
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 61.440650939941406,
+        "score_mean": 0.15754013061523436,
+        "bounds_image": [
+          171,
+          193,
+          197,
+          208
+        ],
+        "bounds_rico": [
+          1104,
+          2210,
+          1272,
+          2378
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 71.62506103515625,
+        "score_mean": 0.1404412961473652,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Icon",
+        "score_total": 51.25272750854492,
+        "score_mean": 0.13141725002191004,
+        "bounds_image": [
+          145,
+          193,
+          171,
+          208
+        ],
+        "bounds_rico": [
+          936,
+          2210,
+          1104,
+          2378
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9980554580688477,
+        "p_img": 0.8951109051704407,
+        "delta_p_img": 0.10294455289840698,
+        "gradcam_mean": 0.4491202235221863,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Icon",
+        "delta_p_img_shap": 0.00016695261001586914,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.003263
+          ],
+          [
+            "not reason",
+            -0.002291
+          ],
+          [
+            "best",
+            0.001921
+          ],
+          [
+            "selection",
+            0.001475
+          ],
+          [
+            "outstanding",
+            0.000972
+          ],
+          [
+            "keep",
+            0.000847
+          ],
+          [
+            "greeting",
+            0.000752
+          ],
+          [
+            "work",
+            0.000707
+          ],
+          [
+            "good",
+            0.000677
+          ],
+          [
+            "attention",
+            0.000627
+          ],
+          [
+            "entire",
+            0.000626
+          ],
+          [
+            "new",
+            0.000623
+          ],
+          [
+            "nice",
+            0.000544
+          ],
+          [
+            "friends",
+            0.000534
+          ],
+          [
+            "photos",
+            0.000448
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19380183517932892,
+          "max": 0.9999999403953552,
+          "std": 0.3361584544181824
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9966188669204712,
+        "p_img": 0.80142742395401,
+        "delta_p_img": 0.19519144296646118,
+        "gradcam_mean": 0.4495980143547058,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.01066732406616211,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.003343
+          ],
+          [
+            "selection",
+            0.001782
+          ],
+          [
+            "recommend",
+            0.001741
+          ],
+          [
+            "big",
+            0.001495
+          ],
+          [
+            "card",
+            0.001189
+          ],
+          [
+            "send",
+            0.001044
+          ],
+          [
+            "want",
+            0.000749
+          ],
+          [
+            "thank",
+            0.000357
+          ],
+          [
+            "someone",
+            -0.000196
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13397979736328125,
+          "max": 0.9999999403953552,
+          "std": 0.2518700361251831
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9946317672729492,
+        "p_img": 0.6462274193763733,
+        "delta_p_img": 0.3484043478965759,
+        "gradcam_mean": 0.4387419819831848,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Icon",
+        "delta_p_img_shap": 0.010248303413391113,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.004629
+          ],
+          [
+            "express",
+            0.001281
+          ],
+          [
+            "want",
+            0.00012
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13885623216629028,
+          "max": 0.9999998807907104,
+          "std": 0.2451821118593216
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.9950495362281799,
+        "p_img": 0.7069359421730042,
+        "delta_p_img": 0.2881135940551758,
+        "gradcam_mean": 0.44113704562187195,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.01675337553024292,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.004833
+          ],
+          [
+            "haven't",
+            0.003386
+          ],
+          [
+            "greeting",
+            0.003319
+          ],
+          [
+            "quick",
+            0.001811
+          ],
+          [
+            "spell",
+            -0.001409
+          ],
+          [
+            "send",
+            0.000716
+          ],
+          [
+            "time",
+            0.000332
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1389925181865692,
+          "max": 0.9999998807907104,
+          "std": 0.24625740945339203
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.9947230815887451,
+        "p_img": 0.7268479466438293,
+        "delta_p_img": 0.26787513494491577,
+        "gradcam_mean": 0.4324650168418884,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.016710996627807617,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.003618
+          ],
+          [
+            "quirky",
+            0.002785
+          ],
+          [
+            "cute",
+            0.001983
+          ],
+          [
+            "loads",
+            0.001925
+          ],
+          [
+            "choose",
+            0.001577
+          ],
+          [
+            "different",
+            0.00156
+          ],
+          [
+            "perhaps",
+            -0.001259
+          ],
+          [
+            "stuff",
+            0.001047
+          ],
+          [
+            "sediments",
+            0.000704
+          ],
+          [
+            "maybe",
+            -0.000662
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13462786376476288,
+          "max": 0.9999998807907104,
+          "std": 0.24427193403244019
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 100% confidence.",
+      "simple": "This screen was classified as good with 100% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was classified as good with 100% confidence (with high confidence). The model focused on a small Text Button at the top-left, a small Image at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.megalol.muttertag",
+    "screen_id": "14418",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\14418.jpg",
+    "text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail! There's a wide range of beautiful congratulations. I love it! I liked this app so much, I installed it again on my new phone.",
+    "prediction": 0.9952192902565002,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9952192902565002,
+    "gradcam_stats": {
+      "mean": 0.5736511945724487,
+      "max": 1.0,
+      "std": 0.2005765587091446
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+      "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+      "This is my 'go to' application when I want to express myself in a special way.",
+      "Handy to send a quick greeting when you haven't time to spell out a message.",
+      "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!"
+    ],
+    "app_name": "Birthday Wishes & Greetings",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9952200055122375,
+      "p_img": 0.9856054186820984,
+      "delta_p_img": 0.00961458683013916
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          117,
+          167,
+          182,
+          175
+        ],
+        "bounds_rico": [
+          754,
+          1917,
+          1174,
+          2001
+        ],
+        "score_total": 358.370361328125,
+        "score_mean": 0.6891737717848557
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          134,
+          175,
+          182,
+          179
+        ],
+        "bounds_rico": [
+          865,
+          2001,
+          1174,
+          2057
+        ],
+        "score_total": 127.06503295898438,
+        "score_mean": 0.661797046661377
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          189,
+          167,
+          215,
+          182
+        ],
+        "bounds_rico": [
+          1216,
+          1917,
+          1384,
+          2085
+        ],
+        "score_total": 247.2510986328125,
+        "score_mean": 0.6339771759815706
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 358.370361328125,
+        "score_mean": 0.6891737717848557,
+        "bounds_image": [
+          117,
+          167,
+          182,
+          175
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 127.06503295898438,
+        "score_mean": 0.661797046661377,
+        "bounds_image": [
+          134,
+          175,
+          182,
+          179
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 247.2510986328125,
+        "score_mean": 0.6339771759815706,
+        "bounds_image": [
+          189,
+          167,
+          215,
+          182
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 358.370361328125,
+        "score_mean": 0.6891737717848557,
+        "bounds_image": [
+          117,
+          167,
+          182,
+          175
+        ],
+        "bounds_rico": [
+          754,
+          1917,
+          1174,
+          2001
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 127.06503295898438,
+        "score_mean": 0.661797046661377,
+        "bounds_image": [
+          134,
+          175,
+          182,
+          179
+        ],
+        "bounds_rico": [
+          865,
+          2001,
+          1174,
+          2057
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 247.2510986328125,
+        "score_mean": 0.6339771759815706,
+        "bounds_image": [
+          189,
+          167,
+          215,
+          182
+        ],
+        "bounds_rico": [
+          1216,
+          1917,
+          1384,
+          2085
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 20316.79296875,
+        "score_mean": 0.6046664574032738,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          157
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          1804
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 1800.1021728515625,
+        "score_mean": 0.568752661248519,
+        "bounds_image": [
+          6,
+          177,
+          217,
+          192
+        ],
+        "bounds_rico": [
+          42,
+          2032,
+          1398,
+          2196
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 142.60037231445312,
+        "score_mean": 0.5401529254335345,
+        "bounds_image": [
+          8,
+          151,
+          30,
+          163
+        ],
+        "bounds_rico": [
+          56,
+          1734,
+          196,
+          1874
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 207.89593505859375,
+        "score_mean": 0.5330665001502404,
+        "bounds_image": [
+          145,
+          193,
+          171,
+          208
+        ],
+        "bounds_rico": [
+          936,
+          2210,
+          1104,
+          2378
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 205.69839477539062,
+        "score_mean": 0.5274317814753606,
+        "bounds_image": [
+          171,
+          193,
+          197,
+          208
+        ],
+        "bounds_rico": [
+          1104,
+          2210,
+          1272,
+          2378
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 204.76686096191406,
+        "score_mean": 0.5055971875602816,
+        "bounds_image": [
+          197,
+          193,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          1272,
+          2210,
+          1440,
+          2378
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 178.05575561523438,
+        "score_mean": 0.34912893257889094,
+        "bounds_image": [
+          0,
+          192,
+          30,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2196,
+          196,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 32,
+        "token": "s"
+      },
+      {
+        "index": 1,
+        "token": "▁The"
+      },
+      {
+        "index": 61,
+        "token": "▁Keep"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "The best greeting app in the entire game store. Great selection and they can be uploaded to photos, which most apps will not do!!! That's the reason I keep installing on every new device AND tell my friends. Selection is very good, nice colors and print! Outstanding job developers. Keep adding more great wishes!! I commend your hard work and attention to detail!",
+        "word_count": 63,
+        "interface_pos": 0.991,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Image",
+        "top_k_tokens": "s, ▁The, ▁Keep",
+        "p_orig": 0.9952200055122375,
+        "p_img": 0.9856054186820984,
+        "delta_p_img": 0.00961458683013916,
+        "gradcam_mean": 0.5736511945724487,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text Button",
+        "delta_p_img_shap": 0.006234228610992432,
+        "word_attention_top15": [
+          [
+            "wishes",
+            0.07591
+          ],
+          [
+            "store",
+            0.071084
+          ],
+          [
+            "keep",
+            0.070824
+          ],
+          [
+            "selection",
+            0.05798
+          ],
+          [
+            "great",
+            0.053695
+          ],
+          [
+            "friends",
+            0.053227
+          ],
+          [
+            "good",
+            0.050073
+          ],
+          [
+            "photos",
+            0.044534
+          ],
+          [
+            "print",
+            0.036909
+          ],
+          [
+            "installing",
+            0.036789
+          ],
+          [
+            "adding",
+            0.036
+          ],
+          [
+            "tell",
+            0.034168
+          ],
+          [
+            "developers",
+            0.033064
+          ],
+          [
+            "not reason",
+            0.030289
+          ],
+          [
+            "outstanding",
+            0.026507
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not reason",
+            -0.012157
+          ],
+          [
+            "great",
+            0.011343
+          ],
+          [
+            "best",
+            0.007414
+          ],
+          [
+            "selection",
+            0.005233
+          ],
+          [
+            "outstanding",
+            0.003219
+          ],
+          [
+            "greeting",
+            0.003144
+          ],
+          [
+            "entire",
+            0.003085
+          ],
+          [
+            "keep",
+            0.002834
+          ],
+          [
+            "work",
+            0.002633
+          ],
+          [
+            "attention",
+            0.00238
+          ],
+          [
+            "uploaded",
+            -0.002312
+          ],
+          [
+            "new",
+            0.002271
+          ],
+          [
+            "good",
+            0.002029
+          ],
+          [
+            "friends",
+            0.001825
+          ],
+          [
+            "nice",
+            0.001524
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15615852177143097,
+          "max": 0.9999999403953552,
+          "std": 0.3173080384731293
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is a very good app if you got someone you want to send a card to it has a very big selection an I recommend it thank you developer",
+        "word_count": 30,
+        "interface_pos": 0.99,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Image",
+        "top_k_tokens": "▁to, ▁This, ▁very",
+        "p_orig": 0.9914249181747437,
+        "p_img": 0.97502601146698,
+        "delta_p_img": 0.016398906707763672,
+        "gradcam_mean": 0.5307460427284241,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Icon",
+        "delta_p_img_shap": 0.0023587942123413086,
+        "word_attention_top15": [
+          [
+            "big",
+            0.147524
+          ],
+          [
+            "card",
+            0.124851
+          ],
+          [
+            "selection",
+            0.123574
+          ],
+          [
+            "good",
+            0.119609
+          ],
+          [
+            "recommend",
+            0.117952
+          ],
+          [
+            "send",
+            0.106167
+          ],
+          [
+            "someone",
+            0.088729
+          ],
+          [
+            "want",
+            0.064852
+          ],
+          [
+            "thank",
+            0.058044
+          ],
+          [
+            "developer",
+            0.048698
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.011791
+          ],
+          [
+            "recommend",
+            0.006216
+          ],
+          [
+            "selection",
+            0.005855
+          ],
+          [
+            "big",
+            0.005169
+          ],
+          [
+            "card",
+            0.003966
+          ],
+          [
+            "send",
+            0.003401
+          ],
+          [
+            "want",
+            0.003233
+          ],
+          [
+            "thank",
+            0.001367
+          ],
+          [
+            "someone",
+            -0.00067
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1414676308631897,
+          "max": 0.9999998807907104,
+          "std": 0.299024373292923
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This is my 'go to' application when I want to express myself in a special way.",
+        "word_count": 16,
+        "interface_pos": 0.9816,
+        "interface_neg": 0.0045,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "▁This, ▁interface, ▁to",
+        "p_orig": 0.9871598482131958,
+        "p_img": 0.9543495178222656,
+        "delta_p_img": 0.032810330390930176,
+        "gradcam_mean": 0.5029465556144714,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.02095276117324829,
+        "word_attention_top15": [
+          [
+            "special",
+            0.441862
+          ],
+          [
+            "express",
+            0.300929
+          ],
+          [
+            "want",
+            0.257209
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "special",
+            0.017751
+          ],
+          [
+            "express",
+            0.003723
+          ],
+          [
+            "want",
+            0.000337
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13215728104114532,
+          "max": 0.9999998807907104,
+          "std": 0.2779664695262909
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Handy to send a quick greeting when you haven't time to spell out a message.",
+        "word_count": 15,
+        "interface_pos": 0.981,
+        "interface_neg": 0.0025,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Image",
+        "top_k_tokens": "▁Handy, ▁interface, ▁greeting",
+        "p_orig": 0.988088071346283,
+        "p_img": 0.960719645023346,
+        "delta_p_img": 0.02736842632293701,
+        "gradcam_mean": 0.5121963024139404,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.018420696258544922,
+        "word_attention_top15": [
+          [
+            "handy",
+            0.407322
+          ],
+          [
+            "haven't",
+            0.113774
+          ],
+          [
+            "greeting",
+            0.108708
+          ],
+          [
+            "message",
+            0.096337
+          ],
+          [
+            "time",
+            0.086609
+          ],
+          [
+            "send",
+            0.078334
+          ],
+          [
+            "quick",
+            0.070492
+          ],
+          [
+            "spell",
+            0.038424
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "handy",
+            0.017777
+          ],
+          [
+            "haven't",
+            0.012569
+          ],
+          [
+            "greeting",
+            0.011889
+          ],
+          [
+            "quick",
+            0.006656
+          ],
+          [
+            "spell",
+            -0.005749
+          ],
+          [
+            "send",
+            0.002757
+          ],
+          [
+            "time",
+            0.001083
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13302798569202423,
+          "max": 0.9999998807907104,
+          "std": 0.27863726019859314
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I like your stuff loads to choose from all different sediments from quirky to cute to funny perhaps maybe more funny ones!",
+        "word_count": 22,
+        "interface_pos": 0.782,
+        "interface_neg": 0.0604,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Image",
+        "top_k_tokens": "▁I, ▁like, ▁loads",
+        "p_orig": 0.9870588183403015,
+        "p_img": 0.9627695083618164,
+        "delta_p_img": 0.024289309978485107,
+        "gradcam_mean": 0.5235406160354614,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text Button",
+        "delta_p_img_shap": 0.017119884490966797,
+        "word_attention_top15": [
+          [
+            "loads",
+            0.161134
+          ],
+          [
+            "funny",
+            0.142212
+          ],
+          [
+            "choose",
+            0.112652
+          ],
+          [
+            "stuff",
+            0.100131
+          ],
+          [
+            "ones",
+            0.099417
+          ],
+          [
+            "perhaps",
+            0.096365
+          ],
+          [
+            "different",
+            0.083759
+          ],
+          [
+            "maybe",
+            0.083564
+          ],
+          [
+            "sediments",
+            0.055498
+          ],
+          [
+            "cute",
+            0.034708
+          ],
+          [
+            "quirky",
+            0.030558
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "funny",
+            0.013475
+          ],
+          [
+            "quirky",
+            0.010251
+          ],
+          [
+            "cute",
+            0.007477
+          ],
+          [
+            "loads",
+            0.007418
+          ],
+          [
+            "different",
+            0.005782
+          ],
+          [
+            "choose",
+            0.005635
+          ],
+          [
+            "perhaps",
+            -0.004432
+          ],
+          [
+            "stuff",
+            0.003458
+          ],
+          [
+            "sediments",
+            0.00283
+          ],
+          [
+            "maybe",
+            -0.002481
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1311485469341278,
+          "max": 0.9999998807907104,
+          "std": 0.2746502757072449
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 100% confidence.",
+      "simple": "This screen was classified as good with 100% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Birthday Wishes & Greetings (category: Books & Reference) was classified as good with 100% confidence (with high confidence). The model focused on a small Text Button at the top-left, a small Text Button at the top-left, and a small Image at the top-left."
+    }
+  }
+]

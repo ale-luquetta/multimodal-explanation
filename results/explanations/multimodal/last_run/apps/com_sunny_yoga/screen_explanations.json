@@ -1,0 +1,4468 @@
+[
+  {
+    "package_name": "com.sunny.yoga",
+    "screen_id": "18751",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\18751.jpg",
+    "text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day. I think this application is great. Update. It has been 4 years since i",
+    "prediction": 0.8920624256134033,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.8920624256134033,
+    "gradcam_stats": {
+      "mean": 0.4355510473251343,
+      "max": 1.0,
+      "std": 0.24081459641456604
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+      "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+      "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+      "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+      "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!"
+    ],
+    "app_name": "Yoga - Track Yoga",
+    "category": "Health & Fitness",
+    "faithfulness": {
+      "p_orig": 0.8922610878944397,
+      "p_img": 0.921212375164032,
+      "delta_p_img": 0.028951287269592285
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          19,
+          120,
+          81,
+          130
+        ],
+        "bounds_rico": [
+          126,
+          1376,
+          525,
+          1486
+        ],
+        "score_total": 454.71221923828125,
+        "score_mean": 0.7334068052230343
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ],
+        "bounds_rico": [
+          35,
+          2217,
+          720,
+          2357
+        ],
+        "score_total": 937.127197265625,
+        "score_mean": 0.673707546560478
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          773,
+          2217,
+          1405,
+          2357
+        ],
+        "score_total": 696.36279296875,
+        "score_mean": 0.5465955988765698
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 454.71221923828125,
+        "score_mean": 0.7334068052230343,
+        "bounds_image": [
+          19,
+          120,
+          81,
+          130
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 937.127197265625,
+        "score_mean": 0.673707546560478,
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 696.36279296875,
+        "score_mean": 0.5465955988765698,
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 454.71221923828125,
+        "score_mean": 0.7334068052230343,
+        "bounds_image": [
+          19,
+          120,
+          81,
+          130
+        ],
+        "bounds_rico": [
+          126,
+          1376,
+          525,
+          1486
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 937.127197265625,
+        "score_mean": 0.673707546560478,
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ],
+        "bounds_rico": [
+          35,
+          2217,
+          720,
+          2357
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 696.36279296875,
+        "score_mean": 0.5465955988765698,
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          773,
+          2217,
+          1405,
+          2357
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 226.72171020507812,
+        "score_mean": 0.5347210146346182,
+        "bounds_image": [
+          13,
+          3,
+          66,
+          11
+        ],
+        "bounds_rico": [
+          84,
+          42,
+          429,
+          134
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Pager Indicator",
+        "score_total": 571.81005859375,
+        "score_mean": 0.5105446951729911,
+        "bounds_image": [
+          0,
+          179,
+          224,
+          184
+        ],
+        "bounds_rico": [
+          0,
+          2048,
+          1440,
+          2112
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 341.8753662109375,
+        "score_mean": 0.5095012909253912,
+        "bounds_image": [
+          81,
+          136,
+          142,
+          147
+        ],
+        "bounds_rico": [
+          522,
+          1556,
+          917,
+          1684
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 156.17715454101562,
+        "score_mean": 0.5005678030160757,
+        "bounds_image": [
+          13,
+          11,
+          37,
+          24
+        ],
+        "bounds_rico": [
+          84,
+          126,
+          238,
+          280
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 312.4446105957031,
+        "score_mean": 0.49126511099953324,
+        "bounds_image": [
+          19,
+          114,
+          125,
+          120
+        ],
+        "bounds_rico": [
+          126,
+          1312,
+          807,
+          1376
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 546.79345703125,
+        "score_mean": 0.46260021745452623,
+        "bounds_image": [
+          13,
+          11,
+          210,
+          17
+        ],
+        "bounds_rico": [
+          84,
+          134,
+          1356,
+          198
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 1158.4764404296875,
+        "score_mean": 0.4523531590900771,
+        "bounds_image": [
+          13,
+          11,
+          210,
+          24
+        ],
+        "bounds_rico": [
+          84,
+          126,
+          1356,
+          280
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Background Image",
+        "score_total": 15872.025390625,
+        "score_mean": 0.39585059334160516,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          179
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2048
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 808.8786010742188,
+        "score_mean": 0.36435973021361207,
+        "bounds_image": [
+          19,
+          31,
+          204,
+          43
+        ],
+        "bounds_rico": [
+          126,
+          365,
+          1314,
+          492
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 120.77133178710938,
+        "score_mean": 0.35731163250624076,
+        "bounds_image": [
+          184,
+          11,
+          210,
+          24
+        ],
+        "bounds_rico": [
+          1186,
+          126,
+          1356,
+          280
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Input",
+        "score_total": 689.6590576171875,
+        "score_mean": 0.2867605229177495,
+        "bounds_image": [
+          19,
+          99,
+          204,
+          112
+        ],
+        "bounds_rico": [
+          126,
+          1136,
+          1314,
+          1280
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text Button",
+        "score_total": 688.5101928710938,
+        "score_mean": 0.28628282447862524,
+        "bounds_image": [
+          19,
+          50,
+          204,
+          63
+        ],
+        "bounds_rico": [
+          126,
+          576,
+          1314,
+          726
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Input",
+        "score_total": 545.4647216796875,
+        "score_mean": 0.24570482958544482,
+        "bounds_image": [
+          19,
+          84,
+          204,
+          96
+        ],
+        "bounds_rico": [
+          126,
+          960,
+          1314,
+          1104
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 4.053687572479248,
+        "score_mean": 0.03217212359110514,
+        "bounds_image": [
+          101,
+          70,
+          122,
+          76
+        ],
+        "bounds_rico": [
+          654,
+          810,
+          785,
+          876
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 87,
+        "token": "▁in"
+      },
+      {
+        "index": 86,
+        "token": "▁poses"
+      },
+      {
+        "index": 3,
+        "token": "m"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+        "word_count": 60,
+        "interface_pos": 0.9964,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁introduction, ▁keep, ▁start",
+        "p_orig": 0.8706470727920532,
+        "p_img": 0.9051439762115479,
+        "delta_p_img": 0.03449690341949463,
+        "gradcam_mean": 0.43054506182670593,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text Button",
+        "delta_p_img_shap": 0.33478403091430664,
+        "word_attention_top15": [
+          [
+            "pace",
+            0.077967
+          ],
+          [
+            "intuitive",
+            0.061499
+          ],
+          [
+            "peaceful",
+            0.060141
+          ],
+          [
+            "engaging",
+            0.055357
+          ],
+          [
+            "no pressure",
+            0.052476
+          ],
+          [
+            "schedule",
+            0.051393
+          ],
+          [
+            "introduction",
+            0.049872
+          ],
+          [
+            "keep",
+            0.047978
+          ],
+          [
+            "start",
+            0.047446
+          ],
+          [
+            "helps",
+            0.044846
+          ],
+          [
+            "private",
+            0.04437
+          ],
+          [
+            "awesome",
+            0.041946
+          ],
+          [
+            "blessing",
+            0.040618
+          ],
+          [
+            "yoga",
+            0.040395
+          ],
+          [
+            "place",
+            0.039806
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "ui",
+            -0.035904
+          ],
+          [
+            "awesome",
+            0.029556
+          ],
+          [
+            "engaging",
+            0.028422
+          ],
+          [
+            "peaceful",
+            0.02759
+          ],
+          [
+            "highly",
+            0.024404
+          ],
+          [
+            "blessing",
+            0.022102
+          ],
+          [
+            "helps",
+            0.02204
+          ],
+          [
+            "easy",
+            0.021445
+          ],
+          [
+            "great",
+            0.021398
+          ],
+          [
+            "place",
+            0.020215
+          ],
+          [
+            "excellent",
+            0.019817
+          ],
+          [
+            "private",
+            0.019191
+          ],
+          [
+            "pace",
+            0.019051
+          ],
+          [
+            "track",
+            0.017768
+          ],
+          [
+            "yoga",
+            0.016576
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13214540481567383,
+          "max": 0.9999997615814209,
+          "std": 0.29053574800491333
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+        "word_count": 84,
+        "interface_pos": 0.9931,
+        "interface_neg": 0.0012,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁in, ▁poses, m",
+        "p_orig": 0.8922610878944397,
+        "p_img": 0.921212375164032,
+        "delta_p_img": 0.028951287269592285,
+        "gradcam_mean": 0.4355510473251343,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text Button",
+        "delta_p_img_shap": 0.28691375255584717,
+        "word_attention_top15": [
+          [
+            "convenient",
+            0.126235
+          ],
+          [
+            "great",
+            0.083177
+          ],
+          [
+            "poses",
+            0.065128
+          ],
+          [
+            "accessible",
+            0.056621
+          ],
+          [
+            "far",
+            0.051363
+          ],
+          [
+            "level",
+            0.048276
+          ],
+          [
+            "day",
+            0.041417
+          ],
+          [
+            "grateful",
+            0.040042
+          ],
+          [
+            "yoga",
+            0.037839
+          ],
+          [
+            "enjoying",
+            0.036793
+          ],
+          [
+            "suits",
+            0.036484
+          ],
+          [
+            "routine",
+            0.033749
+          ],
+          [
+            "select",
+            0.032897
+          ],
+          [
+            "makes",
+            0.032358
+          ],
+          [
+            "energy",
+            0.031383
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "convenient",
+            0.069138
+          ],
+          [
+            "makes",
+            0.045688
+          ],
+          [
+            "great",
+            0.039218
+          ],
+          [
+            "enjoying",
+            0.034653
+          ],
+          [
+            "using",
+            0.01917
+          ],
+          [
+            "energy",
+            0.017027
+          ],
+          [
+            "yoga",
+            0.016993
+          ],
+          [
+            "grateful",
+            0.01517
+          ],
+          [
+            "routine",
+            0.014436
+          ],
+          [
+            "accessible",
+            0.011416
+          ],
+          [
+            "suits",
+            0.009618
+          ],
+          [
+            "select",
+            -0.008614
+          ],
+          [
+            "poses",
+            0.007737
+          ],
+          [
+            "new",
+            0.00608
+          ],
+          [
+            "routines",
+            0.00595
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12475421279668808,
+          "max": 0.9999997615814209,
+          "std": 0.27650341391563416
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+        "word_count": 83,
+        "interface_pos": 0.9881,
+        "interface_neg": 0.0017,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁Really, ▁or, ▁are",
+        "p_orig": 0.8857738375663757,
+        "p_img": 0.887391984462738,
+        "delta_p_img": 0.0016181468963623047,
+        "gradcam_mean": 0.43126675486564636,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text Button",
+        "delta_p_img_shap": 0.3079092502593994,
+        "word_attention_top15": [
+          [
+            "step-by-step",
+            0.096391
+          ],
+          [
+            "excercise",
+            0.072855
+          ],
+          [
+            "poses",
+            0.055219
+          ],
+          [
+            "techniques",
+            0.054103
+          ],
+          [
+            "everything",
+            0.050546
+          ],
+          [
+            "complete",
+            0.047861
+          ],
+          [
+            "instructions",
+            0.043647
+          ],
+          [
+            "pose",
+            0.039286
+          ],
+          [
+            "classes",
+            0.038322
+          ],
+          [
+            "advanced",
+            0.036119
+          ],
+          [
+            "stars",
+            0.032165
+          ],
+          [
+            "browse",
+            0.030226
+          ],
+          [
+            "class",
+            0.024678
+          ],
+          [
+            "cover",
+            0.024655
+          ],
+          [
+            "shouldn't",
+            0.024063
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tells",
+            0.037511
+          ],
+          [
+            "step-by-step",
+            0.033174
+          ],
+          [
+            "good",
+            0.032084
+          ],
+          [
+            "comes",
+            0.030314
+          ],
+          [
+            "complete",
+            0.023218
+          ],
+          [
+            "rounded",
+            0.022169
+          ],
+          [
+            "advanced",
+            0.016776
+          ],
+          [
+            "poses",
+            0.01663
+          ],
+          [
+            "techniques",
+            0.016492
+          ],
+          [
+            "instructions",
+            0.014793
+          ],
+          [
+            "everything",
+            0.014727
+          ],
+          [
+            "including",
+            0.012964
+          ],
+          [
+            "videos",
+            0.012623
+          ],
+          [
+            "individual",
+            0.008502
+          ],
+          [
+            "classes",
+            0.007618
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12322120368480682,
+          "max": 0.9999997615814209,
+          "std": 0.2747366726398468
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+        "word_count": 95,
+        "interface_pos": 0.9875,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁great, ▁workouts, ▁I",
+        "p_orig": 0.8913388252258301,
+        "p_img": 0.8942228555679321,
+        "delta_p_img": 0.0028840303421020508,
+        "gradcam_mean": 0.47635984420776367,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text Button",
+        "delta_p_img_shap": 0.25908488035202026,
+        "word_attention_top15": [
+          [
+            "great",
+            0.147724
+          ],
+          [
+            "years",
+            0.057339
+          ],
+          [
+            "love",
+            0.049341
+          ],
+          [
+            "update",
+            0.048905
+          ],
+          [
+            "workouts",
+            0.044643
+          ],
+          [
+            "available",
+            0.041025
+          ],
+          [
+            "6.5",
+            0.040411
+          ],
+          [
+            "yoga",
+            0.040221
+          ],
+          [
+            "new",
+            0.039657
+          ],
+          [
+            "levels",
+            0.038579
+          ],
+          [
+            "trainings",
+            0.036329
+          ],
+          [
+            "pay",
+            0.032931
+          ],
+          [
+            "idea",
+            0.032582
+          ],
+          [
+            "points",
+            0.029974
+          ],
+          [
+            "numerous",
+            0.025312
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.127055
+          ],
+          [
+            "love",
+            0.082443
+          ],
+          [
+            "allows",
+            0.039161
+          ],
+          [
+            "new",
+            0.028732
+          ],
+          [
+            "forward",
+            0.025023
+          ],
+          [
+            "years",
+            -0.023925
+          ],
+          [
+            "looking",
+            0.017452
+          ],
+          [
+            "idea",
+            0.0171
+          ],
+          [
+            "available",
+            0.012944
+          ],
+          [
+            "think",
+            0.012848
+          ],
+          [
+            "useful",
+            0.012258
+          ],
+          [
+            "workouts",
+            0.012025
+          ],
+          [
+            "learn",
+            0.010637
+          ],
+          [
+            "recommended",
+            0.010303
+          ],
+          [
+            "found",
+            0.009249
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12919680774211884,
+          "max": 0.9999997615814209,
+          "std": 0.28289610147476196
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!",
+        "word_count": 64,
+        "interface_pos": 0.9806,
+        "interface_neg": 0.0036,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁on, ▁I, ▁interface",
+        "p_orig": 0.8080180287361145,
+        "p_img": 0.8636005520820618,
+        "delta_p_img": 0.055582523345947266,
+        "gradcam_mean": 0.3732210397720337,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.3792721927165985,
+        "word_attention_top15": [
+          [
+            "flow'...vs",
+            0.088544
+          ],
+          [
+            "ever...even",
+            0.075923
+          ],
+          [
+            "place",
+            0.0746
+          ],
+          [
+            "books",
+            0.06835
+          ],
+          [
+            "great",
+            0.059498
+          ],
+          [
+            "pose",
+            0.055994
+          ],
+          [
+            "wife",
+            0.044978
+          ],
+          [
+            "feel",
+            0.043828
+          ],
+          [
+            "models",
+            0.043732
+          ],
+          [
+            "mostly",
+            0.04226
+          ],
+          [
+            "yoga",
+            0.042195
+          ],
+          [
+            "procrastinator",
+            0.03312
+          ],
+          [
+            "set",
+            0.031648
+          ],
+          [
+            "reminders",
+            0.030237
+          ],
+          [
+            "limber",
+            0.030126
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.068662
+          ],
+          [
+            "plenty",
+            0.056388
+          ],
+          [
+            "best",
+            0.052462
+          ],
+          [
+            "yoga",
+            0.041271
+          ],
+          [
+            "pose",
+            0.037671
+          ],
+          [
+            "motivated",
+            0.033976
+          ],
+          [
+            "feel",
+            0.032547
+          ],
+          [
+            "ever...even",
+            0.025159
+          ],
+          [
+            "set",
+            0.01655
+          ],
+          [
+            "reminders",
+            0.016519
+          ],
+          [
+            "flow'...vs",
+            0.015772
+          ],
+          [
+            "videos",
+            -0.014682
+          ],
+          [
+            "hold",
+            0.013868
+          ],
+          [
+            "place",
+            0.008917
+          ],
+          [
+            "books",
+            0.007631
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15318021178245544,
+          "max": 0.9999997615814209,
+          "std": 0.31345775723457336
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 89% confidence.",
+      "simple": "This screen was classified as good with 89% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of Yoga - Track Yoga (category: Health & Fitness) was classified as good with 89% confidence (with high confidence). The model focused on a small Text Button at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.sunny.yoga",
+    "screen_id": "18750",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\18750.jpg",
+    "text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day. Really good app. Comes with videos and step-by-step instructions on in",
+    "prediction": 0.9586614370346069,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9586614370346069,
+    "gradcam_stats": {
+      "mean": 0.5800918936729431,
+      "max": 1.0,
+      "std": 0.22680993378162384
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+      "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+      "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+      "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+      "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!"
+    ],
+    "app_name": "Yoga - Track Yoga",
+    "category": "Health & Fitness",
+    "faithfulness": {
+      "p_orig": 0.9587363004684448,
+      "p_img": 0.8450937867164612,
+      "delta_p_img": 0.11364251375198364
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          19,
+          120,
+          81,
+          130
+        ],
+        "bounds_rico": [
+          126,
+          1376,
+          525,
+          1486
+        ],
+        "score_total": 529.072998046875,
+        "score_mean": 0.8533435452368952
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          19,
+          50,
+          204,
+          63
+        ],
+        "bounds_rico": [
+          126,
+          576,
+          1314,
+          726
+        ],
+        "score_total": 1996.4954833984375,
+        "score_mean": 0.8301436521407225
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          19,
+          31,
+          204,
+          43
+        ],
+        "bounds_rico": [
+          126,
+          365,
+          1314,
+          492
+        ],
+        "score_total": 1706.7032470703125,
+        "score_mean": 0.7687852464280687
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 529.072998046875,
+        "score_mean": 0.8533435452368952,
+        "bounds_image": [
+          19,
+          120,
+          81,
+          130
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1996.4954833984375,
+        "score_mean": 0.8301436521407225,
+        "bounds_image": [
+          19,
+          50,
+          204,
+          63
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1706.7032470703125,
+        "score_mean": 0.7687852464280687,
+        "bounds_image": [
+          19,
+          31,
+          204,
+          43
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 529.072998046875,
+        "score_mean": 0.8533435452368952,
+        "bounds_image": [
+          19,
+          120,
+          81,
+          130
+        ],
+        "bounds_rico": [
+          126,
+          1376,
+          525,
+          1486
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 1996.4954833984375,
+        "score_mean": 0.8301436521407225,
+        "bounds_image": [
+          19,
+          50,
+          204,
+          63
+        ],
+        "bounds_rico": [
+          126,
+          576,
+          1314,
+          726
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 1706.7032470703125,
+        "score_mean": 0.7687852464280687,
+        "bounds_image": [
+          19,
+          31,
+          204,
+          43
+        ],
+        "bounds_rico": [
+          126,
+          365,
+          1314,
+          492
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Input",
+        "score_total": 1619.844970703125,
+        "score_mean": 0.7296598967131194,
+        "bounds_image": [
+          19,
+          84,
+          204,
+          96
+        ],
+        "bounds_rico": [
+          126,
+          960,
+          1314,
+          1104
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 445.5026550292969,
+        "score_mean": 0.7004758726875737,
+        "bounds_image": [
+          19,
+          114,
+          125,
+          120
+        ],
+        "bounds_rico": [
+          126,
+          1312,
+          807,
+          1376
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 225.06838989257812,
+        "score_mean": 0.6658828103330714,
+        "bounds_image": [
+          184,
+          11,
+          210,
+          24
+        ],
+        "bounds_rico": [
+          1186,
+          126,
+          1356,
+          280
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 438.0340270996094,
+        "score_mean": 0.652807790014321,
+        "bounds_image": [
+          81,
+          136,
+          142,
+          147
+        ],
+        "bounds_rico": [
+          522,
+          1556,
+          917,
+          1684
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 82.16967010498047,
+        "score_mean": 0.6521402389284164,
+        "bounds_image": [
+          101,
+          70,
+          122,
+          76
+        ],
+        "bounds_rico": [
+          654,
+          810,
+          785,
+          876
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Input",
+        "score_total": 1542.61083984375,
+        "score_mean": 0.6414182286252599,
+        "bounds_image": [
+          19,
+          99,
+          204,
+          112
+        ],
+        "bounds_rico": [
+          126,
+          1136,
+          1314,
+          1280
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Background Image",
+        "score_total": 25608.076171875,
+        "score_mean": 0.6386690984605696,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          179
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2048
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 1620.035888671875,
+        "score_mean": 0.6325794176774209,
+        "bounds_image": [
+          13,
+          11,
+          210,
+          24
+        ],
+        "bounds_rico": [
+          84,
+          126,
+          1356,
+          280
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Icon",
+        "score_total": 154.70904541015625,
+        "score_mean": 0.49586232503255206,
+        "bounds_image": [
+          13,
+          11,
+          37,
+          24
+        ],
+        "bounds_rico": [
+          84,
+          126,
+          238,
+          280
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 595.1203002929688,
+        "score_mean": 0.427836305027296,
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ],
+        "bounds_rico": [
+          35,
+          2217,
+          720,
+          2357
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Pager Indicator",
+        "score_total": 370.9521484375,
+        "score_mean": 0.331207275390625,
+        "bounds_image": [
+          0,
+          179,
+          224,
+          184
+        ],
+        "bounds_rico": [
+          0,
+          2048,
+          1440,
+          2112
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text Button",
+        "score_total": 358.3014221191406,
+        "score_mean": 0.28124130464610725,
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          773,
+          2217,
+          1405,
+          2357
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 87,
+        "token": "▁in"
+      },
+      {
+        "index": 86,
+        "token": "▁poses"
+      },
+      {
+        "index": 3,
+        "token": "m"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+        "word_count": 60,
+        "interface_pos": 0.9964,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁introduction, ▁keep, ▁start",
+        "p_orig": 0.9535677433013916,
+        "p_img": 0.8184100389480591,
+        "delta_p_img": 0.13515770435333252,
+        "gradcam_mean": 0.5763642191886902,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.1763332486152649,
+        "word_attention_top15": [
+          [
+            "pace",
+            0.077967
+          ],
+          [
+            "intuitive",
+            0.061499
+          ],
+          [
+            "peaceful",
+            0.060141
+          ],
+          [
+            "engaging",
+            0.055357
+          ],
+          [
+            "no pressure",
+            0.052476
+          ],
+          [
+            "schedule",
+            0.051393
+          ],
+          [
+            "introduction",
+            0.049872
+          ],
+          [
+            "keep",
+            0.047978
+          ],
+          [
+            "start",
+            0.047446
+          ],
+          [
+            "helps",
+            0.044846
+          ],
+          [
+            "private",
+            0.04437
+          ],
+          [
+            "awesome",
+            0.041946
+          ],
+          [
+            "blessing",
+            0.040618
+          ],
+          [
+            "yoga",
+            0.040395
+          ],
+          [
+            "place",
+            0.039806
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "highly",
+            0.017985
+          ],
+          [
+            "engaging",
+            0.016057
+          ],
+          [
+            "peaceful",
+            0.015755
+          ],
+          [
+            "easy",
+            0.015207
+          ],
+          [
+            "helps",
+            0.013646
+          ],
+          [
+            "private",
+            0.013356
+          ],
+          [
+            "great",
+            0.01247
+          ],
+          [
+            "awesome",
+            0.011561
+          ],
+          [
+            "place",
+            0.01125
+          ],
+          [
+            "pace",
+            0.010914
+          ],
+          [
+            "no pressure",
+            0.01078
+          ],
+          [
+            "recommended",
+            0.010582
+          ],
+          [
+            "blessing",
+            0.010564
+          ],
+          [
+            "excellent",
+            0.010532
+          ],
+          [
+            "schedule",
+            0.010115
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09616861492395401,
+          "max": 0.9999998807907104,
+          "std": 0.24221454560756683
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+        "word_count": 84,
+        "interface_pos": 0.9931,
+        "interface_neg": 0.0012,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁in, ▁poses, m",
+        "p_orig": 0.9587363004684448,
+        "p_img": 0.8450937867164612,
+        "delta_p_img": 0.11364251375198364,
+        "gradcam_mean": 0.5800918936729431,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.1462463140487671,
+        "word_attention_top15": [
+          [
+            "convenient",
+            0.126235
+          ],
+          [
+            "great",
+            0.083177
+          ],
+          [
+            "poses",
+            0.065128
+          ],
+          [
+            "accessible",
+            0.056621
+          ],
+          [
+            "far",
+            0.051363
+          ],
+          [
+            "level",
+            0.048276
+          ],
+          [
+            "day",
+            0.041417
+          ],
+          [
+            "grateful",
+            0.040042
+          ],
+          [
+            "yoga",
+            0.037839
+          ],
+          [
+            "enjoying",
+            0.036793
+          ],
+          [
+            "suits",
+            0.036484
+          ],
+          [
+            "routine",
+            0.033749
+          ],
+          [
+            "select",
+            0.032897
+          ],
+          [
+            "makes",
+            0.032358
+          ],
+          [
+            "energy",
+            0.031383
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "convenient",
+            0.049663
+          ],
+          [
+            "makes",
+            0.022803
+          ],
+          [
+            "great",
+            0.01883
+          ],
+          [
+            "enjoying",
+            0.01772
+          ],
+          [
+            "energy",
+            0.01178
+          ],
+          [
+            "habit",
+            0.01049
+          ],
+          [
+            "using",
+            0.009877
+          ],
+          [
+            "new",
+            0.008995
+          ],
+          [
+            "suits",
+            0.00774
+          ],
+          [
+            "grateful",
+            0.007322
+          ],
+          [
+            "yoga",
+            0.006748
+          ],
+          [
+            "routine",
+            0.006303
+          ],
+          [
+            "accessible",
+            0.006082
+          ],
+          [
+            "face",
+            -0.005952
+          ],
+          [
+            "select",
+            -0.004864
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09860353171825409,
+          "max": 0.9999998211860657,
+          "std": 0.245121568441391
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+        "word_count": 83,
+        "interface_pos": 0.9881,
+        "interface_neg": 0.0017,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁Really, ▁or, ▁are",
+        "p_orig": 0.9584515690803528,
+        "p_img": 0.8328803777694702,
+        "delta_p_img": 0.12557119131088257,
+        "gradcam_mean": 0.5628443956375122,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.05487978458404541,
+        "word_attention_top15": [
+          [
+            "step-by-step",
+            0.096391
+          ],
+          [
+            "excercise",
+            0.072855
+          ],
+          [
+            "poses",
+            0.055219
+          ],
+          [
+            "techniques",
+            0.054103
+          ],
+          [
+            "everything",
+            0.050546
+          ],
+          [
+            "complete",
+            0.047861
+          ],
+          [
+            "instructions",
+            0.043647
+          ],
+          [
+            "pose",
+            0.039286
+          ],
+          [
+            "classes",
+            0.038322
+          ],
+          [
+            "advanced",
+            0.036119
+          ],
+          [
+            "stars",
+            0.032165
+          ],
+          [
+            "browse",
+            0.030226
+          ],
+          [
+            "class",
+            0.024678
+          ],
+          [
+            "cover",
+            0.024655
+          ],
+          [
+            "shouldn't",
+            0.024063
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tells",
+            0.035804
+          ],
+          [
+            "step-by-step",
+            0.017159
+          ],
+          [
+            "comes",
+            0.016669
+          ],
+          [
+            "good",
+            0.014374
+          ],
+          [
+            "complete",
+            0.012024
+          ],
+          [
+            "poses",
+            0.010811
+          ],
+          [
+            "everything",
+            0.009602
+          ],
+          [
+            "rounded",
+            0.008583
+          ],
+          [
+            "advanced",
+            0.008109
+          ],
+          [
+            "instructions",
+            0.007989
+          ],
+          [
+            "techniques",
+            0.00767
+          ],
+          [
+            "videos",
+            0.007132
+          ],
+          [
+            "individual",
+            0.006461
+          ],
+          [
+            "certain",
+            0.006346
+          ],
+          [
+            "including",
+            0.00625
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11761252582073212,
+          "max": 0.9999998807907104,
+          "std": 0.2620224058628082
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+        "word_count": 95,
+        "interface_pos": 0.9875,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁great, ▁workouts, ▁I",
+        "p_orig": 0.9567111730575562,
+        "p_img": 0.8537798523902893,
+        "delta_p_img": 0.10293132066726685,
+        "gradcam_mean": 0.5654889941215515,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text, Text",
+        "delta_p_img_shap": 0.13638287782669067,
+        "word_attention_top15": [
+          [
+            "great",
+            0.147724
+          ],
+          [
+            "years",
+            0.057339
+          ],
+          [
+            "love",
+            0.049341
+          ],
+          [
+            "update",
+            0.048905
+          ],
+          [
+            "workouts",
+            0.044643
+          ],
+          [
+            "available",
+            0.041025
+          ],
+          [
+            "6.5",
+            0.040411
+          ],
+          [
+            "yoga",
+            0.040221
+          ],
+          [
+            "new",
+            0.039657
+          ],
+          [
+            "levels",
+            0.038579
+          ],
+          [
+            "trainings",
+            0.036329
+          ],
+          [
+            "pay",
+            0.032931
+          ],
+          [
+            "idea",
+            0.032582
+          ],
+          [
+            "points",
+            0.029974
+          ],
+          [
+            "numerous",
+            0.025312
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.087146
+          ],
+          [
+            "love",
+            0.048581
+          ],
+          [
+            "new",
+            0.025829
+          ],
+          [
+            "allows",
+            0.025626
+          ],
+          [
+            "years",
+            -0.023143
+          ],
+          [
+            "forward",
+            0.012164
+          ],
+          [
+            "idea",
+            0.008507
+          ],
+          [
+            "workouts",
+            0.007852
+          ],
+          [
+            "looking",
+            0.007004
+          ],
+          [
+            "useful",
+            0.006712
+          ],
+          [
+            "think",
+            0.006195
+          ],
+          [
+            "using",
+            0.005959
+          ],
+          [
+            "options",
+            0.005549
+          ],
+          [
+            "work",
+            0.005434
+          ],
+          [
+            "available",
+            0.005311
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10700821131467819,
+          "max": 0.9999998211860657,
+          "std": 0.25235220789909363
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!",
+        "word_count": 64,
+        "interface_pos": 0.9806,
+        "interface_neg": 0.0036,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Text",
+        "top_k_tokens": "▁on, ▁I, ▁interface",
+        "p_orig": 0.9340512752532959,
+        "p_img": 0.7648356556892395,
+        "delta_p_img": 0.1692156195640564,
+        "gradcam_mean": 0.5435705780982971,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.2383263111114502,
+        "word_attention_top15": [
+          [
+            "flow'...vs",
+            0.088544
+          ],
+          [
+            "ever...even",
+            0.075923
+          ],
+          [
+            "place",
+            0.0746
+          ],
+          [
+            "books",
+            0.06835
+          ],
+          [
+            "great",
+            0.059498
+          ],
+          [
+            "pose",
+            0.055994
+          ],
+          [
+            "wife",
+            0.044978
+          ],
+          [
+            "feel",
+            0.043828
+          ],
+          [
+            "models",
+            0.043732
+          ],
+          [
+            "mostly",
+            0.04226
+          ],
+          [
+            "yoga",
+            0.042195
+          ],
+          [
+            "procrastinator",
+            0.03312
+          ],
+          [
+            "set",
+            0.031648
+          ],
+          [
+            "reminders",
+            0.030237
+          ],
+          [
+            "limber",
+            0.030126
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.038113
+          ],
+          [
+            "feel",
+            0.033232
+          ],
+          [
+            "best",
+            0.031826
+          ],
+          [
+            "plenty",
+            0.031089
+          ],
+          [
+            "yoga",
+            0.02545
+          ],
+          [
+            "motivated",
+            0.023075
+          ],
+          [
+            "flow'...vs",
+            0.018675
+          ],
+          [
+            "ever...even",
+            0.015729
+          ],
+          [
+            "pose",
+            0.012885
+          ],
+          [
+            "reminders",
+            0.012654
+          ],
+          [
+            "videos",
+            -0.01119
+          ],
+          [
+            "set",
+            0.010088
+          ],
+          [
+            "always",
+            0.007094
+          ],
+          [
+            "limber",
+            0.006757
+          ],
+          [
+            "mostly",
+            0.006422
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09949976205825806,
+          "max": 0.9999999403953552,
+          "std": 0.2399304360151291
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 96% confidence.",
+      "simple": "This screen was predicted as good with 96% confidence. The model concentrated on a small Text Button at the top-left.",
+      "detailed": "This screen of Yoga - Track Yoga (category: Health & Fitness) was predicted as good with 96% confidence (with strong evidence). The model gave priority to a small Text Button at the top-left, a small Text Button at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.sunny.yoga",
+    "screen_id": "18753",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\18753.jpg",
+    "text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!! I'm",
+    "prediction": 0.9468376040458679,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9468376040458679,
+    "gradcam_stats": {
+      "mean": 0.5210862159729004,
+      "max": 1.0,
+      "std": 0.1337474137544632
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+      "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+      "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+      "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+      "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!"
+    ],
+    "app_name": "Yoga - Track Yoga",
+    "category": "Health & Fitness",
+    "faithfulness": {
+      "p_orig": 0.9468299150466919,
+      "p_img": 0.9733918309211731,
+      "delta_p_img": 0.0265619158744812
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          197,
+          67,
+          204,
+          73
+        ],
+        "bounds_rico": [
+          1272,
+          772,
+          1314,
+          835
+        ],
+        "score_total": 28.868511199951172,
+        "score_mean": 0.6873455047607422
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          197,
+          85,
+          204,
+          91
+        ],
+        "bounds_rico": [
+          1272,
+          982,
+          1314,
+          1045
+        ],
+        "score_total": 26.165210723876953,
+        "score_mean": 0.622981207711356
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          60,
+          85,
+          197,
+          92
+        ],
+        "bounds_rico": [
+          389,
+          973,
+          1272,
+          1055
+        ],
+        "score_total": 573.7161865234375,
+        "score_mean": 0.5982441986688608
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 28.868511199951172,
+        "score_mean": 0.6873455047607422,
+        "bounds_image": [
+          197,
+          67,
+          204,
+          73
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 26.165210723876953,
+        "score_mean": 0.622981207711356,
+        "bounds_image": [
+          197,
+          85,
+          204,
+          91
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 573.7161865234375,
+        "score_mean": 0.5982441986688608,
+        "bounds_image": [
+          60,
+          85,
+          197,
+          92
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 28.868511199951172,
+        "score_mean": 0.6873455047607422,
+        "bounds_image": [
+          197,
+          67,
+          204,
+          73
+        ],
+        "bounds_rico": [
+          1272,
+          772,
+          1314,
+          835
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 26.165210723876953,
+        "score_mean": 0.622981207711356,
+        "bounds_image": [
+          197,
+          85,
+          204,
+          91
+        ],
+        "bounds_rico": [
+          1272,
+          982,
+          1314,
+          1045
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 573.7161865234375,
+        "score_mean": 0.5982441986688608,
+        "bounds_image": [
+          60,
+          85,
+          197,
+          92
+        ],
+        "bounds_rico": [
+          389,
+          973,
+          1272,
+          1055
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 565.0221557617188,
+        "score_mean": 0.5891784731613334,
+        "bounds_image": [
+          60,
+          66,
+          197,
+          73
+        ],
+        "bounds_rico": [
+          389,
+          763,
+          1272,
+          845
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 1919.58056640625,
+        "score_mean": 0.5461111141980797,
+        "bounds_image": [
+          19,
+          97,
+          204,
+          116
+        ],
+        "bounds_rico": [
+          126,
+          1119,
+          1314,
+          1329
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Background Image",
+        "score_total": 21507.943359375,
+        "score_mean": 0.5364111971113079,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          179
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2048
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 1080.849365234375,
+        "score_mean": 0.531129909206081,
+        "bounds_image": [
+          19,
+          41,
+          204,
+          52
+        ],
+        "bounds_rico": [
+          126,
+          477,
+          1314,
+          604
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text Button",
+        "score_total": 643.1255493164062,
+        "score_mean": 0.5048081234822654,
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          773,
+          2217,
+          1405,
+          2357
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 728.0264282226562,
+        "score_mean": 0.49190974879909205,
+        "bounds_image": [
+          19,
+          31,
+          204,
+          39
+        ],
+        "bounds_rico": [
+          126,
+          365,
+          1314,
+          456
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 284.3314208984375,
+        "score_mean": 0.4786724257549453,
+        "bounds_image": [
+          19,
+          61,
+          52,
+          79
+        ],
+        "bounds_rico": [
+          126,
+          699,
+          336,
+          909
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 277.5711669921875,
+        "score_mean": 0.46729152692287457,
+        "bounds_image": [
+          19,
+          79,
+          52,
+          97
+        ],
+        "bounds_rico": [
+          126,
+          909,
+          336,
+          1119
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 1101.587158203125,
+        "score_mean": 0.43013946044635887,
+        "bounds_image": [
+          13,
+          11,
+          210,
+          24
+        ],
+        "bounds_rico": [
+          84,
+          126,
+          1356,
+          280
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 597.2547607421875,
+        "score_mean": 0.4293707841424784,
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ],
+        "bounds_rico": [
+          35,
+          2217,
+          720,
+          2357
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 122.40335083007812,
+        "score_mean": 0.3923184321476863,
+        "bounds_image": [
+          13,
+          11,
+          37,
+          24
+        ],
+        "bounds_rico": [
+          84,
+          126,
+          238,
+          280
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Pager Indicator",
+        "score_total": 431.88800048828125,
+        "score_mean": 0.3856142861502511,
+        "bounds_image": [
+          0,
+          179,
+          224,
+          184
+        ],
+        "bounds_rico": [
+          0,
+          2048,
+          1440,
+          2112
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 6,
+        "token": "▁great"
+      },
+      {
+        "index": 70,
+        "token": "▁workouts"
+      },
+      {
+        "index": 1,
+        "token": "▁I"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+        "word_count": 60,
+        "interface_pos": 0.9964,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁introduction, ▁keep, ▁start",
+        "p_orig": 0.9286335706710815,
+        "p_img": 0.9194197058677673,
+        "delta_p_img": 0.009213864803314209,
+        "gradcam_mean": 0.5614094138145447,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.04859882593154907,
+        "word_attention_top15": [
+          [
+            "pace",
+            0.077967
+          ],
+          [
+            "intuitive",
+            0.061499
+          ],
+          [
+            "peaceful",
+            0.060141
+          ],
+          [
+            "engaging",
+            0.055357
+          ],
+          [
+            "no pressure",
+            0.052476
+          ],
+          [
+            "schedule",
+            0.051393
+          ],
+          [
+            "introduction",
+            0.049872
+          ],
+          [
+            "keep",
+            0.047978
+          ],
+          [
+            "start",
+            0.047446
+          ],
+          [
+            "helps",
+            0.044846
+          ],
+          [
+            "private",
+            0.04437
+          ],
+          [
+            "awesome",
+            0.041946
+          ],
+          [
+            "blessing",
+            0.040618
+          ],
+          [
+            "yoga",
+            0.040395
+          ],
+          [
+            "place",
+            0.039806
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "ui",
+            -0.037386
+          ],
+          [
+            "awesome",
+            0.035207
+          ],
+          [
+            "blessing",
+            0.030748
+          ],
+          [
+            "great",
+            0.028918
+          ],
+          [
+            "engaging",
+            0.027741
+          ],
+          [
+            "peaceful",
+            0.026958
+          ],
+          [
+            "highly",
+            0.025566
+          ],
+          [
+            "yoga",
+            0.0251
+          ],
+          [
+            "easy",
+            0.024241
+          ],
+          [
+            "helps",
+            0.023068
+          ],
+          [
+            "excellent",
+            0.02284
+          ],
+          [
+            "place",
+            0.021948
+          ],
+          [
+            "private",
+            0.019533
+          ],
+          [
+            "super",
+            0.019357
+          ],
+          [
+            "pace",
+            0.019063
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13239791989326477,
+          "max": 0.9999997615814209,
+          "std": 0.27082425355911255
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+        "word_count": 84,
+        "interface_pos": 0.9931,
+        "interface_neg": 0.0012,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁in, ▁poses, m",
+        "p_orig": 0.9398518204689026,
+        "p_img": 0.9326260089874268,
+        "delta_p_img": 0.00722581148147583,
+        "gradcam_mean": 0.5731905102729797,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.04108458757400513,
+        "word_attention_top15": [
+          [
+            "convenient",
+            0.126235
+          ],
+          [
+            "great",
+            0.083177
+          ],
+          [
+            "poses",
+            0.065128
+          ],
+          [
+            "accessible",
+            0.056621
+          ],
+          [
+            "far",
+            0.051363
+          ],
+          [
+            "level",
+            0.048276
+          ],
+          [
+            "day",
+            0.041417
+          ],
+          [
+            "grateful",
+            0.040042
+          ],
+          [
+            "yoga",
+            0.037839
+          ],
+          [
+            "enjoying",
+            0.036793
+          ],
+          [
+            "suits",
+            0.036484
+          ],
+          [
+            "routine",
+            0.033749
+          ],
+          [
+            "select",
+            0.032897
+          ],
+          [
+            "makes",
+            0.032358
+          ],
+          [
+            "energy",
+            0.031383
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "convenient",
+            0.066207
+          ],
+          [
+            "makes",
+            0.054782
+          ],
+          [
+            "great",
+            0.052179
+          ],
+          [
+            "enjoying",
+            0.043774
+          ],
+          [
+            "using",
+            0.021906
+          ],
+          [
+            "grateful",
+            0.019066
+          ],
+          [
+            "yoga",
+            0.017255
+          ],
+          [
+            "accessible",
+            0.013869
+          ],
+          [
+            "energy",
+            0.013522
+          ],
+          [
+            "routine",
+            0.012987
+          ],
+          [
+            "level",
+            0.010652
+          ],
+          [
+            "suits",
+            0.010186
+          ],
+          [
+            "poses",
+            0.008288
+          ],
+          [
+            "select",
+            -0.007995
+          ],
+          [
+            "routines",
+            0.005013
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14158634841442108,
+          "max": 0.9999997019767761,
+          "std": 0.2896987497806549
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+        "word_count": 83,
+        "interface_pos": 0.9881,
+        "interface_neg": 0.0017,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁Really, ▁or, ▁are",
+        "p_orig": 0.9351435303688049,
+        "p_img": 0.9374653697013855,
+        "delta_p_img": 0.0023218393325805664,
+        "gradcam_mean": 0.5441262125968933,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.04278206825256348,
+        "word_attention_top15": [
+          [
+            "step-by-step",
+            0.096391
+          ],
+          [
+            "excercise",
+            0.072855
+          ],
+          [
+            "poses",
+            0.055219
+          ],
+          [
+            "techniques",
+            0.054103
+          ],
+          [
+            "everything",
+            0.050546
+          ],
+          [
+            "complete",
+            0.047861
+          ],
+          [
+            "instructions",
+            0.043647
+          ],
+          [
+            "pose",
+            0.039286
+          ],
+          [
+            "classes",
+            0.038322
+          ],
+          [
+            "advanced",
+            0.036119
+          ],
+          [
+            "stars",
+            0.032165
+          ],
+          [
+            "browse",
+            0.030226
+          ],
+          [
+            "class",
+            0.024678
+          ],
+          [
+            "cover",
+            0.024655
+          ],
+          [
+            "shouldn't",
+            0.024063
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "step-by-step",
+            0.049014
+          ],
+          [
+            "good",
+            0.042645
+          ],
+          [
+            "comes",
+            0.031219
+          ],
+          [
+            "tells",
+            0.029902
+          ],
+          [
+            "rounded",
+            0.028187
+          ],
+          [
+            "instructions",
+            0.023789
+          ],
+          [
+            "complete",
+            0.023318
+          ],
+          [
+            "advanced",
+            0.021237
+          ],
+          [
+            "techniques",
+            0.020728
+          ],
+          [
+            "poses",
+            0.017325
+          ],
+          [
+            "everything",
+            0.015423
+          ],
+          [
+            "including",
+            0.014909
+          ],
+          [
+            "classes",
+            0.012014
+          ],
+          [
+            "cover",
+            0.012014
+          ],
+          [
+            "videos",
+            0.009708
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14092151820659637,
+          "max": 0.9999997019767761,
+          "std": 0.2887270748615265
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+        "word_count": 95,
+        "interface_pos": 0.9875,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁great, ▁workouts, ▁I",
+        "p_orig": 0.9468299150466919,
+        "p_img": 0.9733918309211731,
+        "delta_p_img": 0.0265619158744812,
+        "gradcam_mean": 0.5210862159729004,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.03657037019729614,
+        "word_attention_top15": [
+          [
+            "great",
+            0.147724
+          ],
+          [
+            "years",
+            0.057339
+          ],
+          [
+            "love",
+            0.049341
+          ],
+          [
+            "update",
+            0.048905
+          ],
+          [
+            "workouts",
+            0.044643
+          ],
+          [
+            "available",
+            0.041025
+          ],
+          [
+            "6.5",
+            0.040411
+          ],
+          [
+            "yoga",
+            0.040221
+          ],
+          [
+            "new",
+            0.039657
+          ],
+          [
+            "levels",
+            0.038579
+          ],
+          [
+            "trainings",
+            0.036329
+          ],
+          [
+            "pay",
+            0.032931
+          ],
+          [
+            "idea",
+            0.032582
+          ],
+          [
+            "points",
+            0.029974
+          ],
+          [
+            "numerous",
+            0.025312
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.133478
+          ],
+          [
+            "love",
+            0.099671
+          ],
+          [
+            "years",
+            -0.041809
+          ],
+          [
+            "allows",
+            0.032763
+          ],
+          [
+            "looking",
+            0.027941
+          ],
+          [
+            "forward",
+            0.026879
+          ],
+          [
+            "new",
+            0.026122
+          ],
+          [
+            "idea",
+            0.018112
+          ],
+          [
+            "available",
+            0.018058
+          ],
+          [
+            "update",
+            -0.016852
+          ],
+          [
+            "think",
+            0.01612
+          ],
+          [
+            "useful",
+            0.015339
+          ],
+          [
+            "found",
+            0.013298
+          ],
+          [
+            "recommended",
+            0.013076
+          ],
+          [
+            "learn",
+            0.012436
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14038728177547455,
+          "max": 0.9999997615814209,
+          "std": 0.2874569892883301
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!",
+        "word_count": 64,
+        "interface_pos": 0.9806,
+        "interface_neg": 0.0036,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁on, ▁I, ▁interface",
+        "p_orig": 0.8527193069458008,
+        "p_img": 0.8341860175132751,
+        "delta_p_img": 0.018533289432525635,
+        "gradcam_mean": 0.46349453926086426,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.06170922517776489,
+        "word_attention_top15": [
+          [
+            "flow'...vs",
+            0.088544
+          ],
+          [
+            "ever...even",
+            0.075923
+          ],
+          [
+            "place",
+            0.0746
+          ],
+          [
+            "books",
+            0.06835
+          ],
+          [
+            "great",
+            0.059498
+          ],
+          [
+            "pose",
+            0.055994
+          ],
+          [
+            "wife",
+            0.044978
+          ],
+          [
+            "feel",
+            0.043828
+          ],
+          [
+            "models",
+            0.043732
+          ],
+          [
+            "mostly",
+            0.04226
+          ],
+          [
+            "yoga",
+            0.042195
+          ],
+          [
+            "procrastinator",
+            0.03312
+          ],
+          [
+            "set",
+            0.031648
+          ],
+          [
+            "reminders",
+            0.030237
+          ],
+          [
+            "limber",
+            0.030126
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.090272
+          ],
+          [
+            "pose",
+            0.063905
+          ],
+          [
+            "best",
+            0.063729
+          ],
+          [
+            "plenty",
+            0.057213
+          ],
+          [
+            "yoga",
+            0.05419
+          ],
+          [
+            "motivated",
+            0.039898
+          ],
+          [
+            "ever...even",
+            0.030987
+          ],
+          [
+            "videos",
+            -0.017551
+          ],
+          [
+            "feel",
+            0.01657
+          ],
+          [
+            "set",
+            0.016519
+          ],
+          [
+            "hold",
+            0.013868
+          ],
+          [
+            "place",
+            0.012189
+          ],
+          [
+            "take",
+            -0.011657
+          ],
+          [
+            "flow'...vs",
+            0.011602
+          ],
+          [
+            "books",
+            0.01004
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1254684329032898,
+          "max": 0.9999998211860657,
+          "std": 0.26327839493751526
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 95% confidence.",
+      "simple": "This screen was labeled as good with 95% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Yoga - Track Yoga (category: Health & Fitness) was labeled as good with 95% confidence (confidently). The model attended to a small Image at the top-left, a small Image at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.sunny.yoga",
+    "screen_id": "18752",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\18752.jpg",
+    "text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!! I'm",
+    "prediction": 0.9298058748245239,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9298058748245239,
+    "gradcam_stats": {
+      "mean": 0.5982840657234192,
+      "max": 1.0,
+      "std": 0.18256312608718872
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+      "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+      "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+      "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+      "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!"
+    ],
+    "app_name": "Yoga - Track Yoga",
+    "category": "Health & Fitness",
+    "faithfulness": {
+      "p_orig": 0.9296899437904358,
+      "p_img": 0.725304365158081,
+      "delta_p_img": 0.20438557863235474
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          773,
+          2217,
+          1405,
+          2357
+        ],
+        "score_total": 1041.330810546875,
+        "score_mean": 0.8173711228782379
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ],
+        "bounds_rico": [
+          35,
+          2217,
+          720,
+          2357
+        ],
+        "score_total": 935.7738647460938,
+        "score_mean": 0.6727346259856892
+      },
+      {
+        "rank": 2,
+        "component": "Pager Indicator",
+        "bounds_image": [
+          0,
+          179,
+          224,
+          184
+        ],
+        "bounds_rico": [
+          0,
+          2048,
+          1440,
+          2112
+        ],
+        "score_total": 749.9469604492188,
+        "score_mean": 0.6695955004010882
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 1041.330810546875,
+        "score_mean": 0.8173711228782379,
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 935.7738647460938,
+        "score_mean": 0.6727346259856892,
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ]
+      },
+      {
+        "component": "Pager Indicator",
+        "score_total": 749.9469604492188,
+        "score_mean": 0.6695955004010882,
+        "bounds_image": [
+          0,
+          179,
+          224,
+          184
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 1041.330810546875,
+        "score_mean": 0.8173711228782379,
+        "bounds_image": [
+          120,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          773,
+          2217,
+          1405,
+          2357
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 935.7738647460938,
+        "score_mean": 0.6727346259856892,
+        "bounds_image": [
+          5,
+          193,
+          112,
+          206
+        ],
+        "bounds_rico": [
+          35,
+          2217,
+          720,
+          2357
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Pager Indicator",
+        "score_total": 749.9469604492188,
+        "score_mean": 0.6695955004010882,
+        "bounds_image": [
+          0,
+          179,
+          224,
+          184
+        ],
+        "bounds_rico": [
+          0,
+          2048,
+          1440,
+          2112
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Background Image",
+        "score_total": 22681.80078125,
+        "score_mean": 0.5656873698436253,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          179
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2048
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 6,
+        "token": "▁great"
+      },
+      {
+        "index": 70,
+        "token": "▁workouts"
+      },
+      {
+        "index": 1,
+        "token": "▁I"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!",
+        "word_count": 60,
+        "interface_pos": 0.9964,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Pager Indicator",
+        "top_k_tokens": "▁introduction, ▁keep, ▁start",
+        "p_orig": 0.9085525870323181,
+        "p_img": 0.6249819993972778,
+        "delta_p_img": 0.2835705876350403,
+        "gradcam_mean": 0.6209002137184143,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Pager Indicator, Text Button",
+        "delta_p_img_shap": 0.2835705876350403,
+        "word_attention_top15": [
+          [
+            "pace",
+            0.077967
+          ],
+          [
+            "intuitive",
+            0.061499
+          ],
+          [
+            "peaceful",
+            0.060141
+          ],
+          [
+            "engaging",
+            0.055357
+          ],
+          [
+            "no pressure",
+            0.052476
+          ],
+          [
+            "schedule",
+            0.051393
+          ],
+          [
+            "introduction",
+            0.049872
+          ],
+          [
+            "keep",
+            0.047978
+          ],
+          [
+            "start",
+            0.047446
+          ],
+          [
+            "helps",
+            0.044846
+          ],
+          [
+            "private",
+            0.04437
+          ],
+          [
+            "awesome",
+            0.041946
+          ],
+          [
+            "blessing",
+            0.040618
+          ],
+          [
+            "yoga",
+            0.040395
+          ],
+          [
+            "place",
+            0.039806
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "ui",
+            -0.025723
+          ],
+          [
+            "easy",
+            0.024944
+          ],
+          [
+            "engaging",
+            0.023564
+          ],
+          [
+            "highly",
+            0.023069
+          ],
+          [
+            "peaceful",
+            0.022781
+          ],
+          [
+            "great",
+            0.018772
+          ],
+          [
+            "awesome",
+            0.018375
+          ],
+          [
+            "helps",
+            0.018057
+          ],
+          [
+            "excellent",
+            0.017638
+          ],
+          [
+            "blessing",
+            0.017549
+          ],
+          [
+            "super",
+            0.017531
+          ],
+          [
+            "private",
+            0.01656
+          ],
+          [
+            "place",
+            0.015439
+          ],
+          [
+            "pace",
+            0.014389
+          ],
+          [
+            "schedule",
+            0.013534
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0858062207698822,
+          "max": 0.9999998807907104,
+          "std": 0.21183021366596222
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day.",
+        "word_count": 84,
+        "interface_pos": 0.9931,
+        "interface_neg": 0.0012,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Pager Indicator",
+        "top_k_tokens": "▁in, ▁poses, m",
+        "p_orig": 0.9227190613746643,
+        "p_img": 0.6912403106689453,
+        "delta_p_img": 0.231478750705719,
+        "gradcam_mean": 0.5941035747528076,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Pager Indicator, Text Button",
+        "delta_p_img_shap": 0.231478750705719,
+        "word_attention_top15": [
+          [
+            "convenient",
+            0.126235
+          ],
+          [
+            "great",
+            0.083177
+          ],
+          [
+            "poses",
+            0.065128
+          ],
+          [
+            "accessible",
+            0.056621
+          ],
+          [
+            "far",
+            0.051363
+          ],
+          [
+            "level",
+            0.048276
+          ],
+          [
+            "day",
+            0.041417
+          ],
+          [
+            "grateful",
+            0.040042
+          ],
+          [
+            "yoga",
+            0.037839
+          ],
+          [
+            "enjoying",
+            0.036793
+          ],
+          [
+            "suits",
+            0.036484
+          ],
+          [
+            "routine",
+            0.033749
+          ],
+          [
+            "select",
+            0.032897
+          ],
+          [
+            "makes",
+            0.032358
+          ],
+          [
+            "energy",
+            0.031383
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "convenient",
+            0.063301
+          ],
+          [
+            "makes",
+            0.035546
+          ],
+          [
+            "enjoying",
+            0.031146
+          ],
+          [
+            "great",
+            0.029139
+          ],
+          [
+            "using",
+            0.019533
+          ],
+          [
+            "energy",
+            0.016653
+          ],
+          [
+            "grateful",
+            0.012047
+          ],
+          [
+            "routine",
+            0.01144
+          ],
+          [
+            "yoga",
+            0.010698
+          ],
+          [
+            "suits",
+            0.009582
+          ],
+          [
+            "accessible",
+            0.008804
+          ],
+          [
+            "poses",
+            0.006756
+          ],
+          [
+            "new",
+            0.006521
+          ],
+          [
+            "routines",
+            0.00597
+          ],
+          [
+            "level",
+            0.005895
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09118280559778214,
+          "max": 0.9999998807907104,
+          "std": 0.22003847360610962
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!",
+        "word_count": 83,
+        "interface_pos": 0.9881,
+        "interface_neg": 0.0017,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Pager Indicator",
+        "top_k_tokens": "▁Really, ▁or, ▁are",
+        "p_orig": 0.9207322001457214,
+        "p_img": 0.6800249814987183,
+        "delta_p_img": 0.24070721864700317,
+        "gradcam_mean": 0.5958112478256226,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Pager Indicator, Text Button",
+        "delta_p_img_shap": 0.24070721864700317,
+        "word_attention_top15": [
+          [
+            "step-by-step",
+            0.096391
+          ],
+          [
+            "excercise",
+            0.072855
+          ],
+          [
+            "poses",
+            0.055219
+          ],
+          [
+            "techniques",
+            0.054103
+          ],
+          [
+            "everything",
+            0.050546
+          ],
+          [
+            "complete",
+            0.047861
+          ],
+          [
+            "instructions",
+            0.043647
+          ],
+          [
+            "pose",
+            0.039286
+          ],
+          [
+            "classes",
+            0.038322
+          ],
+          [
+            "advanced",
+            0.036119
+          ],
+          [
+            "stars",
+            0.032165
+          ],
+          [
+            "browse",
+            0.030226
+          ],
+          [
+            "class",
+            0.024678
+          ],
+          [
+            "cover",
+            0.024655
+          ],
+          [
+            "shouldn't",
+            0.024063
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tells",
+            0.03764
+          ],
+          [
+            "good",
+            0.028738
+          ],
+          [
+            "step-by-step",
+            0.026875
+          ],
+          [
+            "comes",
+            0.022605
+          ],
+          [
+            "complete",
+            0.017706
+          ],
+          [
+            "rounded",
+            0.015527
+          ],
+          [
+            "poses",
+            0.014261
+          ],
+          [
+            "instructions",
+            0.013692
+          ],
+          [
+            "advanced",
+            0.013275
+          ],
+          [
+            "everything",
+            0.013224
+          ],
+          [
+            "techniques",
+            0.01197
+          ],
+          [
+            "including",
+            0.011005
+          ],
+          [
+            "videos",
+            0.010591
+          ],
+          [
+            "individual",
+            0.007592
+          ],
+          [
+            "recommend",
+            0.00646
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08991178870201111,
+          "max": 0.9999998807907104,
+          "std": 0.21956704556941986
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 14,
+        "review_source": "cache",
+        "review_text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!",
+        "word_count": 95,
+        "interface_pos": 0.9875,
+        "interface_neg": 0.0014,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Pager Indicator",
+        "top_k_tokens": "▁great, ▁workouts, ▁I",
+        "p_orig": 0.9296899437904358,
+        "p_img": 0.725304365158081,
+        "delta_p_img": 0.20438557863235474,
+        "gradcam_mean": 0.5982840657234192,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Pager Indicator, Text Button",
+        "delta_p_img_shap": 0.20438557863235474,
+        "word_attention_top15": [
+          [
+            "great",
+            0.147724
+          ],
+          [
+            "years",
+            0.057339
+          ],
+          [
+            "love",
+            0.049341
+          ],
+          [
+            "update",
+            0.048905
+          ],
+          [
+            "workouts",
+            0.044643
+          ],
+          [
+            "available",
+            0.041025
+          ],
+          [
+            "6.5",
+            0.040411
+          ],
+          [
+            "yoga",
+            0.040221
+          ],
+          [
+            "new",
+            0.039657
+          ],
+          [
+            "levels",
+            0.038579
+          ],
+          [
+            "trainings",
+            0.036329
+          ],
+          [
+            "pay",
+            0.032931
+          ],
+          [
+            "idea",
+            0.032582
+          ],
+          [
+            "points",
+            0.029974
+          ],
+          [
+            "numerous",
+            0.025312
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.115995
+          ],
+          [
+            "love",
+            0.066269
+          ],
+          [
+            "years",
+            -0.032496
+          ],
+          [
+            "new",
+            0.032363
+          ],
+          [
+            "allows",
+            0.029224
+          ],
+          [
+            "forward",
+            0.017371
+          ],
+          [
+            "looking",
+            0.013446
+          ],
+          [
+            "idea",
+            0.013167
+          ],
+          [
+            "think",
+            0.010251
+          ],
+          [
+            "available",
+            0.010151
+          ],
+          [
+            "workouts",
+            0.009842
+          ],
+          [
+            "useful",
+            0.009249
+          ],
+          [
+            "learn",
+            0.008436
+          ],
+          [
+            "trainings",
+            0.008211
+          ],
+          [
+            "found",
+            0.007696
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09288224577903748,
+          "max": 0.9999998807907104,
+          "std": 0.22151322662830353
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!",
+        "word_count": 64,
+        "interface_pos": 0.9806,
+        "interface_neg": 0.0036,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Background Image, Text Button",
+        "top_k_tokens": "▁on, ▁I, ▁interface",
+        "p_orig": 0.8527030944824219,
+        "p_img": 0.4845764636993408,
+        "delta_p_img": 0.36812663078308105,
+        "gradcam_mean": 0.4758632481098175,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Background Image, Text Button",
+        "delta_p_img_shap": 0.36812663078308105,
+        "word_attention_top15": [
+          [
+            "flow'...vs",
+            0.088544
+          ],
+          [
+            "ever...even",
+            0.075923
+          ],
+          [
+            "place",
+            0.0746
+          ],
+          [
+            "books",
+            0.06835
+          ],
+          [
+            "great",
+            0.059498
+          ],
+          [
+            "pose",
+            0.055994
+          ],
+          [
+            "wife",
+            0.044978
+          ],
+          [
+            "feel",
+            0.043828
+          ],
+          [
+            "models",
+            0.043732
+          ],
+          [
+            "mostly",
+            0.04226
+          ],
+          [
+            "yoga",
+            0.042195
+          ],
+          [
+            "procrastinator",
+            0.03312
+          ],
+          [
+            "set",
+            0.031648
+          ],
+          [
+            "reminders",
+            0.030237
+          ],
+          [
+            "limber",
+            0.030126
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.06211
+          ],
+          [
+            "best",
+            0.046834
+          ],
+          [
+            "plenty",
+            0.040469
+          ],
+          [
+            "yoga",
+            0.040235
+          ],
+          [
+            "motivated",
+            0.032342
+          ],
+          [
+            "feel",
+            0.031294
+          ],
+          [
+            "pose",
+            0.025651
+          ],
+          [
+            "ever...even",
+            0.022021
+          ],
+          [
+            "flow'...vs",
+            0.016273
+          ],
+          [
+            "set",
+            0.011789
+          ],
+          [
+            "reminders",
+            0.011229
+          ],
+          [
+            "videos",
+            -0.01001
+          ],
+          [
+            "books",
+            0.00886
+          ],
+          [
+            "hold",
+            0.008046
+          ],
+          [
+            "timing",
+            0.007569
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0716853067278862,
+          "max": 0.9999999403953552,
+          "std": 0.1991163045167923
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 93% confidence.",
+      "simple": "This screen was labeled as good with 93% confidence. The model directed most attention to a small Text Button at the top-left.",
+      "detailed": "This screen of Yoga - Track Yoga (category: Health & Fitness) was labeled as good with 93% confidence (confidently). The model attended to a small Text Button at the top-left, a small Text Button at the top-left, and a small Pager Indicator at the top-left."
+    }
+  }
+]

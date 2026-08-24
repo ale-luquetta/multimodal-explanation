@@ -1,0 +1,370 @@
+{
+  "package_name": "com.outfit7.talkingangelafree",
+  "num_screens": 8,
+  "app_score": 0.004596304846927524,
+  "app_prediction": "bad",
+  "app_confidence": 0.9954036951530725,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.002548875054344535,
+    0.002548875054344535,
+    0.002548875054344535,
+    0.008393889293074608,
+    0.0005614731344394386,
+    0.008903443813323975,
+    0.010506953112781048,
+    0.0007580542587675154
+  ],
+  "prediction_variance": 1.3937099677048207e-05,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_outfit7_talkingangelafree\\com_outfit7_talkingangelafree_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.outfit7.talkingangelafree was classified as bad with average confidence 100% across 8 screens.",
+    "simple": "com.outfit7.talkingangelafree was classified as bad with average confidence 100% across 8 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "com.outfit7.talkingangelafree was classified as bad with average confidence 100% across 8 screens. Across these screens, the model recurringly attended to Text components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text (8x), Image (6x), Text Button (4x). The most influential review words across screens were 'don't download', 'didn't help', 'don't wasting', 'fraustrating', and 'problem'. The app belongs to the Entertainment category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "44073",
+    "review_rank": 2,
+    "delta_p_img": 0.10331778787076473,
+    "confidence": 0.989493046887219,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44073.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "don't download",
+      1.873391
+    ],
+    [
+      "didn't help",
+      1.196528
+    ],
+    [
+      "don't wasting",
+      1.012562
+    ],
+    [
+      "fraustrating",
+      0.991306
+    ],
+    [
+      "problem",
+      0.895234
+    ],
+    [
+      "eyes",
+      0.84763
+    ],
+    [
+      "😭😭😭😔😔😔",
+      0.822855
+    ],
+    [
+      "game",
+      0.815065
+    ],
+    [
+      "don't believe",
+      0.789343
+    ],
+    [
+      "creepy",
+      0.707528
+    ],
+    [
+      "fast",
+      0.691489
+    ],
+    [
+      "can't turn",
+      0.683479
+    ],
+    [
+      "54mb,if",
+      0.632464
+    ],
+    [
+      "reinstalling",
+      0.602945
+    ],
+    [
+      "say",
+      0.579782
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "problem",
+      -0.011381
+    ],
+    [
+      "creepy",
+      -0.007082
+    ],
+    [
+      "don't wasting",
+      -0.005901
+    ],
+    [
+      "creeper",
+      -0.005841
+    ],
+    [
+      "weird",
+      -0.005265
+    ],
+    [
+      "down,this",
+      -0.004706
+    ],
+    [
+      "don't download",
+      -0.004566
+    ],
+    [
+      "terribly",
+      -0.004344
+    ],
+    [
+      "rubbish",
+      -0.003047
+    ],
+    [
+      "boring",
+      -0.002412
+    ],
+    [
+      "figured",
+      -0.00236
+    ],
+    [
+      "low",
+      -0.00233
+    ],
+    [
+      "disappeared",
+      -0.002327
+    ],
+    [
+      "wasting",
+      -0.002262
+    ],
+    [
+      "fast",
+      0.002251
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "problem",
+      "rrf_score": 0.031778,
+      "rank_bahdanau": 5,
+      "rank_shap": 1,
+      "shap_signed": -0.011381,
+      "in_both": true
+    },
+    {
+      "word": "don't wasting",
+      "rrf_score": 0.031746,
+      "rank_bahdanau": 3,
+      "rank_shap": 3,
+      "shap_signed": -0.005901,
+      "in_both": true
+    },
+    {
+      "word": "don't download",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 1,
+      "rank_shap": 7,
+      "shap_signed": -0.004566,
+      "in_both": true
+    },
+    {
+      "word": "creepy",
+      "rrf_score": 0.030415,
+      "rank_bahdanau": 10,
+      "rank_shap": 2,
+      "shap_signed": -0.007082,
+      "in_both": true
+    },
+    {
+      "word": "fast",
+      "rrf_score": 0.027418,
+      "rank_bahdanau": 11,
+      "rank_shap": 15,
+      "shap_signed": 0.002251,
+      "in_both": true
+    },
+    {
+      "word": "didn't help",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "creeper",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.005841,
+      "in_both": false
+    },
+    {
+      "word": "fraustrating",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "weird",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.005265,
+      "in_both": false
+    },
+    {
+      "word": "down,this",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": -0.004706,
+      "in_both": false
+    },
+    {
+      "word": "eyes",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "😭😭😭😔😔😔",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "terribly",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.004344,
+      "in_both": false
+    },
+    {
+      "word": "game",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "rubbish",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": -0.003047,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 6,
+      "text": "This game is very creepy because I wanna say to her hello she say what's your name I was shocked when I realise that in angelas eyes there is something moving around that time in USA a girl has gone anywhere and in the USA news that come very weird news. Don't download this app 😭😔 and I saw the reflection that was so very weird refraction so we just decided and my sister. Say that in her eyes there is a man so don't download this game that came very weird reflection 😭😭😭😔😔😔"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 8,
+      "text": "This game is darn rubbish and I think they should bring it down,this game is just like giving coat and it is very fraustrating and I don't like what they did, it's just wasting of data and time,I just wasted 54mb,if you have not download this, don't download it, it's wasting of data and time"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 0,
+      "text": "Half the buttons disappeared, could only give her a chocolate and have her feed the birds. Dog waiter is super creepy. With only those two buttons available, got very boring and pointless super fast. I tried uninstalling and reinstalling, but didn't help, had same problem. I really think this is some creeper app like so many people have said."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 11,
+      "text": "This game is absolutely terrifying but still mid. The graphics are terribly low and the problem with her eyes is still going on for me! I have been playing this for 3 years now and it's had bugs such as freezing every 5 seconds. And when I try to give her the chocolate heart everything freezes and I have to restart the app to unfreeze it. And when I talk into the mic she glitches and makes a horrifying broken robot screeching noise. And I can't turn the microphone off BC it freezes everything."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 13,
+      "text": "Omg I figured something about this app in TikTok they said this app have camera that is spy I don't believe so I downloaded the app when I was playing I felt something watching me so I went back to play store and I zoom this app profile picture to check her eyes 👁️ it look weird I do not how to explain but zoom the profile picture and check her eyes it look kind of creepy so I delete the app pls delete the app this app is spying on you guys check your little ones phone if they have the app"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "don't download",
+      1.873391
+    ],
+    [
+      "didn't help",
+      1.196528
+    ],
+    [
+      "don't wasting",
+      1.012562
+    ],
+    [
+      "fraustrating",
+      0.991306
+    ],
+    [
+      "problem",
+      0.895234
+    ],
+    [
+      "eyes",
+      0.84763
+    ],
+    [
+      "😭😭😭😔😔😔",
+      0.822855
+    ],
+    [
+      "game",
+      0.815065
+    ],
+    [
+      "don't believe",
+      0.789343
+    ],
+    [
+      "creepy",
+      0.707528
+    ],
+    [
+      "fast",
+      0.691489
+    ],
+    [
+      "can't turn",
+      0.683479
+    ],
+    [
+      "54mb,if",
+      0.632464
+    ],
+    [
+      "reinstalling",
+      0.602945
+    ],
+    [
+      "say",
+      0.579782
+    ]
+  ]
+}

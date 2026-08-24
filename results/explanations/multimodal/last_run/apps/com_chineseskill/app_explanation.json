@@ -1,0 +1,370 @@
+{
+  "package_name": "com.chineseskill",
+  "num_screens": 8,
+  "app_score": 0.9862971976399422,
+  "app_prediction": "good",
+  "app_confidence": 0.9862971976399422,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9823249578475952,
+    0.9555721879005432,
+    0.9994390606880188,
+    0.9707095623016357,
+    0.9981276392936707,
+    0.9988338351249695,
+    0.9871138334274292,
+    0.998256504535675
+  ],
+  "prediction_variance": 0.00022703829960718513,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_chineseskill\\com_chineseskill_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.chineseskill was predicted as good with average confidence 99% across 8 screens.",
+    "simple": "com.chineseskill was predicted as good with average confidence 99% across 8 screens. Across these screens, the model frequently emphasized Text components.",
+    "detailed": "com.chineseskill was predicted as good with average confidence 99% across 8 screens. Across these screens, the model frequently emphasized Text components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text (11x), Image (10x), Icon (3x). The most influential review words across screens were 'chinese', 'far', 'easy', 'littles', and 'vocab'. The app belongs to the Education category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "38196",
+    "review_rank": 1,
+    "delta_p_img": 0.2151455283164978,
+    "confidence": 0.9707095623016357,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\38196.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "chinese",
+      1.776109
+    ],
+    [
+      "far",
+      0.834271
+    ],
+    [
+      "easy",
+      0.831492
+    ],
+    [
+      "littles",
+      0.726967
+    ],
+    [
+      "vocab",
+      0.690376
+    ],
+    [
+      "well-structured",
+      0.589829
+    ],
+    [
+      "separately",
+      0.571637
+    ],
+    [
+      "cute",
+      0.560743
+    ],
+    [
+      "better",
+      0.5529
+    ],
+    [
+      "fun",
+      0.541166
+    ],
+    [
+      "grammar",
+      0.531245
+    ],
+    [
+      "learning",
+      0.525915
+    ],
+    [
+      "navigate",
+      0.525174
+    ],
+    [
+      "learn",
+      0.51915
+    ],
+    [
+      "typing",
+      0.495689
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "easy",
+      0.262273
+    ],
+    [
+      "awesome",
+      0.249976
+    ],
+    [
+      "good",
+      0.215523
+    ],
+    [
+      "free",
+      0.210147
+    ],
+    [
+      "better",
+      0.202295
+    ],
+    [
+      "fun",
+      0.18773
+    ],
+    [
+      "learning",
+      0.173259
+    ],
+    [
+      "recommend",
+      0.170866
+    ],
+    [
+      "provide",
+      0.168817
+    ],
+    [
+      "super",
+      0.165146
+    ],
+    [
+      "loving",
+      0.159478
+    ],
+    [
+      "fantastic",
+      0.1508
+    ],
+    [
+      "cute",
+      0.147143
+    ],
+    [
+      "forward",
+      0.146578
+    ],
+    [
+      "helpful",
+      0.143371
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "easy",
+      "rrf_score": 0.032266,
+      "rank_bahdanau": 3,
+      "rank_shap": 1,
+      "shap_signed": 0.262273,
+      "in_both": true
+    },
+    {
+      "word": "better",
+      "rrf_score": 0.029877,
+      "rank_bahdanau": 9,
+      "rank_shap": 5,
+      "shap_signed": 0.202295,
+      "in_both": true
+    },
+    {
+      "word": "fun",
+      "rrf_score": 0.029437,
+      "rank_bahdanau": 10,
+      "rank_shap": 6,
+      "shap_signed": 0.18773,
+      "in_both": true
+    },
+    {
+      "word": "learning",
+      "rrf_score": 0.028814,
+      "rank_bahdanau": 12,
+      "rank_shap": 7,
+      "shap_signed": 0.173259,
+      "in_both": true
+    },
+    {
+      "word": "cute",
+      "rrf_score": 0.028405,
+      "rank_bahdanau": 8,
+      "rank_shap": 13,
+      "shap_signed": 0.147143,
+      "in_both": true
+    },
+    {
+      "word": "chinese",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "far",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "awesome",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": 0.249976,
+      "in_both": false
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.215523,
+      "in_both": false
+    },
+    {
+      "word": "free",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.210147,
+      "in_both": false
+    },
+    {
+      "word": "littles",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "vocab",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "well-structured",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "separately",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "recommend",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.170866,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 18,
+      "text": "Wow! Very impressed by this totally free learning app. It's well-structured, easy to navigate, and quite intuitive. The graphics are fun and cute and attractive to even my 4 year old son, making him want to learn along with me! Because of the simple and easily navigated design, it loads quickly and easily and it downloads the lessons only when you go to use them, leaving your hard drive free of unnecessary content until you're actually ready to use it. Would definitely recommend this app to anyone beginning to learn Mandarin Chinese! And I'm looking forward to sharing in this learning experience with him! 👦‍👩💓"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 11,
+      "text": "Started learning with the kids at school when the Mandarin teacher came to teach them, and became genuinely interested in learning with my students. Taking it a step further to work on my own, this app is so awesome! Honestly came to work today after just starting this app and the teacher was shocked I was able to know it before she taught the Littles. Super fun, easy, and helpful app! Truly loving it so far!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 15,
+      "text": "[10/28/17] Excellent. Has everything. Very easy to use on a daily basis. Has tons of extra little games to build up all of your skills. [8/22/20] I'm using the app again after a long hiatus, and the updates have made it even better. You can review grammar and vocabulary separately, they have live speakers, full conversations to demonstrate, detailed explanations of grammar and pronunciation (which was already there, but is more thorough now), etc. Again, fantastic app. Thank you!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 5,
+      "text": "I just got through the first level and so far I love it! It helps with writing, reading, speaking, and listening in Chinese. I like that I can speed through when I want, or I can slow down and repeat things as many times as I like during the level. The app is very straight forward in it's way of teaching. I also like that for the writing part it shows you the proper stroke order of each character, which is very important in Chinese. However, if you are only trying to learn to speak and understand spoken Chinese you can fly through this part and only take a few seconds to write each character. It is good all around for any Chinese language learner... although I am a beginner, so I can't say how it is for advanced speakers yet."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 13,
+      "text": "I've had this app for a couple years and it was good when I got it, but over the years they have updated a lot and it's even better than before. They provide multiple ways of learning and practicing the words through visuals, audio, typing, and more while mixing up ways to produce or translate vocab and put it into context. You learn vocab, grammar and syntax and more for written and spoken Chinese. And it's cute. :) As a teacher of language, I am especially impressed and recommend this app!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "chinese",
+      1.776109
+    ],
+    [
+      "far",
+      0.834271
+    ],
+    [
+      "easy",
+      0.831492
+    ],
+    [
+      "littles",
+      0.726967
+    ],
+    [
+      "vocab",
+      0.690376
+    ],
+    [
+      "well-structured",
+      0.589829
+    ],
+    [
+      "separately",
+      0.571637
+    ],
+    [
+      "cute",
+      0.560743
+    ],
+    [
+      "better",
+      0.5529
+    ],
+    [
+      "fun",
+      0.541166
+    ],
+    [
+      "grammar",
+      0.531245
+    ],
+    [
+      "learning",
+      0.525915
+    ],
+    [
+      "navigate",
+      0.525174
+    ],
+    [
+      "learn",
+      0.51915
+    ],
+    [
+      "typing",
+      0.495689
+    ]
+  ]
+}

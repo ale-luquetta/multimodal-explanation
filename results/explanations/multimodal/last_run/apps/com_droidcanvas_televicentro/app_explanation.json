@@ -1,0 +1,368 @@
+{
+  "package_name": "com.droidcanvas.televicentro",
+  "num_screens": 6,
+  "app_score": 0.021458407922182232,
+  "app_prediction": "bad",
+  "app_confidence": 0.9785415920778178,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0003572654677554965,
+    0.026944033801555634,
+    0.0371352843940258,
+    0.022836139425635338,
+    0.03417808189988136,
+    0.0072996425442397594
+  ],
+  "prediction_variance": 0.0001808789412176817,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_droidcanvas_televicentro\\com_droidcanvas_televicentro_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.droidcanvas.televicentro was classified as bad with average confidence 98% across 6 screens.",
+    "simple": "com.droidcanvas.televicentro was classified as bad with average confidence 98% across 6 screens. Across these screens, the model recurringly attended to Image components.",
+    "detailed": "com.droidcanvas.televicentro was classified as bad with average confidence 98% across 6 screens. Across these screens, the model recurringly attended to Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (6x), Icon (5x), Text (4x). The most influential review words across screens were 'yo', 'la', 'no sirve', 'de', and 'gratis'. The app belongs to the Communication category and was analyzed across 6 screens."
+  },
+  "representative_screen": {
+    "screen_id": "61040",
+    "review_rank": 0,
+    "delta_p_img": 0.4312736950814724,
+    "confidence": 0.9658219181001186,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\61040.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "yo",
+      1.206685
+    ],
+    [
+      "la",
+      1.113405
+    ],
+    [
+      "no sirve",
+      1.067092
+    ],
+    [
+      "de",
+      1.046899
+    ],
+    [
+      "gratis",
+      0.977303
+    ],
+    [
+      "partidos",
+      0.964811
+    ],
+    [
+      "ver",
+      0.769755
+    ],
+    [
+      "cobrar",
+      0.758564
+    ],
+    [
+      "liga",
+      0.725293
+    ],
+    [
+      "inaceptable",
+      0.678307
+    ],
+    [
+      "pais",
+      0.660715
+    ],
+    [
+      "hondureña",
+      0.654805
+    ],
+    [
+      "que",
+      0.64118
+    ],
+    [
+      "🤦🤦🤦",
+      0.638314
+    ],
+    [
+      "patrocinadores",
+      0.587177
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "cobrar",
+      -0.265944
+    ],
+    [
+      "no sirve",
+      -0.188406
+    ],
+    [
+      "desepcion",
+      -0.184131
+    ],
+    [
+      "gratis",
+      0.174038
+    ],
+    [
+      "la",
+      0.150401
+    ],
+    [
+      "malo",
+      -0.120234
+    ],
+    [
+      "les",
+      -0.109118
+    ],
+    [
+      "malos",
+      -0.104363
+    ],
+    [
+      "completa",
+      0.090053
+    ],
+    [
+      "mal",
+      -0.084587
+    ],
+    [
+      "mala",
+      -0.081537
+    ],
+    [
+      "sirve",
+      0.074856
+    ],
+    [
+      "demasiado",
+      -0.064637
+    ],
+    [
+      "cualquier",
+      0.058617
+    ],
+    [
+      "no puedes",
+      -0.054421
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "no sirve",
+      "rrf_score": 0.032002,
+      "rank_bahdanau": 3,
+      "rank_shap": 2,
+      "shap_signed": -0.188406,
+      "in_both": true
+    },
+    {
+      "word": "la",
+      "rrf_score": 0.031514,
+      "rank_bahdanau": 2,
+      "rank_shap": 5,
+      "shap_signed": 0.150401,
+      "in_both": true
+    },
+    {
+      "word": "cobrar",
+      "rrf_score": 0.031099,
+      "rank_bahdanau": 8,
+      "rank_shap": 1,
+      "shap_signed": -0.265944,
+      "in_both": true
+    },
+    {
+      "word": "gratis",
+      "rrf_score": 0.03101,
+      "rank_bahdanau": 5,
+      "rank_shap": 4,
+      "shap_signed": 0.174038,
+      "in_both": true
+    },
+    {
+      "word": "yo",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "desepcion",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.184131,
+      "in_both": false
+    },
+    {
+      "word": "de",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "malo",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": -0.120234,
+      "in_both": false
+    },
+    {
+      "word": "partidos",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "ver",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "les",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": -0.109118,
+      "in_both": false
+    },
+    {
+      "word": "malos",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.104363,
+      "in_both": false
+    },
+    {
+      "word": "completa",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.090053,
+      "in_both": false
+    },
+    {
+      "word": "liga",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "inaceptable",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": 10,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 11,
+      "text": "Son tan malos que ni si quiera un program de cobro con tarjeta de debito les sirve en mi Pais! 🤦🤦🤦"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 16,
+      "text": "Muy mala App para los hondureños que residen afuera del país, tanto la app como el sitió web de este canal de televisión, están muy mal elaborados. Si no estas en Honduras no puedes tener acceso a los partidos de liga nacional y partidos de la selección nacional, con el muy alto índice de pobreza en Honduras me atrevo a decir que solo el 30 por ciento de la población tiene acceso a Internet y un dispositivo móvil para poder ver dichos partidos y contenido de dicho canal de televisión. Part.1"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 15,
+      "text": "No sirve y hasta quieren cobrar por ver partidos que en cualquier se pueden ver gratis hahaha"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 9,
+      "text": "Yo pago la liga y la app se friza demasiado es inaceptable que cobren por algo tan malo hagan algo para solucionarlo"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 19,
+      "text": "Es una desepcion completa esta app!! Quieren cobrar por algo tan malo como la liga Hondureña! Cuando antes a sido gratis?? Cobrenle a los patrocinadores!! La acabo de desistalar!!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "yo",
+      1.206685
+    ],
+    [
+      "la",
+      1.113405
+    ],
+    [
+      "no sirve",
+      1.067092
+    ],
+    [
+      "de",
+      1.046899
+    ],
+    [
+      "gratis",
+      0.977303
+    ],
+    [
+      "partidos",
+      0.964811
+    ],
+    [
+      "ver",
+      0.769755
+    ],
+    [
+      "cobrar",
+      0.758564
+    ],
+    [
+      "liga",
+      0.725293
+    ],
+    [
+      "inaceptable",
+      0.678307
+    ],
+    [
+      "pais",
+      0.660715
+    ],
+    [
+      "hondureña",
+      0.654805
+    ],
+    [
+      "que",
+      0.64118
+    ],
+    [
+      "🤦🤦🤦",
+      0.638314
+    ],
+    [
+      "patrocinadores",
+      0.587177
+    ]
+  ]
+}

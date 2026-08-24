@@ -1,0 +1,3990 @@
+[
+  {
+    "package_name": "com.pocoyo.house",
+    "screen_id": "3985",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\3985.jpg",
+    "text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title I",
+    "prediction": 0.0014035331550985575,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9985964668449014,
+    "gradcam_stats": {
+      "mean": 0.48047152161598206,
+      "max": 1.0,
+      "std": 0.2209502011537552
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+      "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+      "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+      "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+      "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way."
+    ],
+    "app_name": "P' House",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0013968127314001322,
+      "p_img": 0.0007828526431694627,
+      "delta_p_img": 0.0006139600882306695
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          87,
+          192,
+          136,
+          224
+        ],
+        "bounds_rico": [
+          561,
+          2199,
+          878,
+          2560
+        ],
+        "score_total": 556.4131469726562,
+        "score_mean": 0.3548553233243981
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          206,
+          0,
+          223,
+          44
+        ],
+        "bounds_rico": [
+          1329,
+          0,
+          1439,
+          512
+        ],
+        "score_total": 228.03123474121094,
+        "score_mean": 0.3048545919000146
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          0,
+          34,
+          33
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          221,
+          384
+        ],
+        "score_total": 313.95953369140625,
+        "score_mean": 0.27982133127576314
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 556.4131469726562,
+        "score_mean": 0.3548553233243981,
+        "bounds_image": [
+          87,
+          192,
+          136,
+          224
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 228.03123474121094,
+        "score_mean": 0.3048545919000146,
+        "bounds_image": [
+          206,
+          0,
+          223,
+          44
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 313.95953369140625,
+        "score_mean": 0.27982133127576314,
+        "bounds_image": [
+          0,
+          0,
+          34,
+          33
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 556.4131469726562,
+        "score_mean": 0.3548553233243981,
+        "bounds_image": [
+          87,
+          192,
+          136,
+          224
+        ],
+        "bounds_rico": [
+          561,
+          2199,
+          878,
+          2560
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 228.03123474121094,
+        "score_mean": 0.3048545919000146,
+        "bounds_image": [
+          206,
+          0,
+          223,
+          44
+        ],
+        "bounds_rico": [
+          1329,
+          0,
+          1439,
+          512
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 313.95953369140625,
+        "score_mean": 0.27982133127576314,
+        "bounds_image": [
+          0,
+          0,
+          34,
+          33
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          221,
+          384
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 1938.4027099609375,
+        "score_mean": 0.2791478556971396,
+        "bounds_image": [
+          0,
+          192,
+          224,
+          223
+        ],
+        "bounds_rico": [
+          0,
+          2204,
+          1440,
+          2554
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 72.33407592773438,
+        "score_mean": 0.14183152142693015,
+        "bounds_image": [
+          188,
+          204,
+          218,
+          221
+        ],
+        "bounds_rico": [
+          1212,
+          2339,
+          1405,
+          2532
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 78,
+        "token": "▁of"
+      },
+      {
+        "index": 77,
+        "token": "▁off"
+      },
+      {
+        "index": 76,
+        "token": "▁based"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+        "word_count": 26,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁content, ▁recommend, ▁dont",
+        "p_orig": 0.0018828886095434427,
+        "p_img": 0.0010182472178712487,
+        "delta_p_img": 0.000864641391672194,
+        "gradcam_mean": 0.47250428795814514,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.00118190364446491,
+        "word_attention_top15": [
+          [
+            "dont recommend",
+            0.289989
+          ],
+          [
+            "content",
+            0.142885
+          ],
+          [
+            "whats",
+            0.08768
+          ],
+          [
+            "idk",
+            0.068635
+          ],
+          [
+            "paywalls",
+            0.066564
+          ],
+          [
+            "definitely",
+            0.065921
+          ],
+          [
+            "horrible",
+            0.049278
+          ],
+          [
+            "kid",
+            0.04253
+          ],
+          [
+            "ads",
+            0.038424
+          ],
+          [
+            "stupid",
+            0.03666
+          ],
+          [
+            "corner",
+            0.033866
+          ],
+          [
+            "free",
+            0.031203
+          ],
+          [
+            "coded",
+            0.027564
+          ],
+          [
+            "paywall",
+            0.018798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.000561
+          ],
+          [
+            "free",
+            0.00038
+          ],
+          [
+            "dont recommend",
+            -0.000289
+          ],
+          [
+            "definitely",
+            0.000253
+          ],
+          [
+            "paywalls",
+            -0.000217
+          ],
+          [
+            "paywall",
+            -0.000186
+          ],
+          [
+            "kid",
+            0.000117
+          ],
+          [
+            "corner",
+            0.00011
+          ],
+          [
+            "idk",
+            6.6e-05
+          ],
+          [
+            "coded",
+            -4e-05
+          ],
+          [
+            "ads",
+            3.8e-05
+          ],
+          [
+            "content",
+            1.2e-05
+          ],
+          [
+            "whats",
+            -0.0
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14683237671852112,
+          "max": 0.9999993443489075,
+          "std": 0.29464736580848694
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+        "word_count": 79,
+        "interface_pos": 0.0058,
+        "interface_neg": 0.9698,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁and, ▁kind, ▁store",
+        "p_orig": 0.0022806536871939898,
+        "p_img": 0.0011918627424165606,
+        "delta_p_img": 0.001088790944777429,
+        "gradcam_mean": 0.44533059000968933,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0014378110063262284,
+        "word_attention_top15": [
+          [
+            "pocoyo",
+            0.137798
+          ],
+          [
+            "don't kind",
+            0.118903
+          ],
+          [
+            "logo",
+            0.082597
+          ],
+          [
+            "store",
+            0.07068
+          ],
+          [
+            "without pocoyo",
+            0.067636
+          ],
+          [
+            "year",
+            0.054861
+          ],
+          [
+            "house",
+            0.051056
+          ],
+          [
+            "samsung",
+            0.040063
+          ],
+          [
+            "old",
+            0.036756
+          ],
+          [
+            "run",
+            0.034435
+          ],
+          [
+            "done",
+            0.031038
+          ],
+          [
+            "series",
+            0.03064
+          ],
+          [
+            "device",
+            0.024408
+          ],
+          [
+            "fun",
+            0.024373
+          ],
+          [
+            "else",
+            0.023567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't kind",
+            -0.000496
+          ],
+          [
+            "fun",
+            0.000408
+          ],
+          [
+            "device",
+            0.000248
+          ],
+          [
+            "mad",
+            -0.000217
+          ],
+          [
+            "change",
+            -8.4e-05
+          ],
+          [
+            "done",
+            5.6e-05
+          ],
+          [
+            "house",
+            -4.9e-05
+          ],
+          [
+            "please",
+            -4.8e-05
+          ],
+          [
+            "talking",
+            -4.7e-05
+          ],
+          [
+            "without pocoyo",
+            3.9e-05
+          ],
+          [
+            "sons",
+            3.6e-05
+          ],
+          [
+            "samsung",
+            3.2e-05
+          ],
+          [
+            "logo",
+            2.7e-05
+          ],
+          [
+            "else",
+            -2.5e-05
+          ],
+          [
+            "old",
+            2.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13885588943958282,
+          "max": 0.9999995231628418,
+          "std": 0.2794819474220276
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+        "word_count": 93,
+        "interface_pos": 0.0082,
+        "interface_neg": 0.984,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁love, ▁the, ▁Fun",
+        "p_orig": 0.002472303342074156,
+        "p_img": 0.001404593582265079,
+        "delta_p_img": 0.0010677097598090768,
+        "gradcam_mean": 0.44386252760887146,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0015481722075492144,
+        "word_attention_top15": [
+          [
+            "love",
+            0.101917
+          ],
+          [
+            "fun",
+            0.087356
+          ],
+          [
+            "pocoyo",
+            0.073836
+          ],
+          [
+            "baby",
+            0.063767
+          ],
+          [
+            "terrible",
+            0.057093
+          ],
+          [
+            "not pocoyo",
+            0.056516
+          ],
+          [
+            "show",
+            0.044835
+          ],
+          [
+            "&",
+            0.040967
+          ],
+          [
+            "need",
+            0.040409
+          ],
+          [
+            "never install",
+            0.039166
+          ],
+          [
+            "subscription",
+            0.03871
+          ],
+          [
+            "watched",
+            0.038552
+          ],
+          [
+            "money",
+            0.035914
+          ],
+          [
+            "free",
+            0.035812
+          ],
+          [
+            "not terrible",
+            0.031828
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "never install",
+            -0.000401
+          ],
+          [
+            "terrible",
+            -0.000372
+          ],
+          [
+            "fun",
+            0.00018
+          ],
+          [
+            "love",
+            0.000148
+          ],
+          [
+            "watched",
+            0.000133
+          ],
+          [
+            "not terrible",
+            -0.000103
+          ],
+          [
+            "show",
+            8.3e-05
+          ],
+          [
+            "able",
+            7.4e-05
+          ],
+          [
+            "&",
+            -5.7e-05
+          ],
+          [
+            "not pocoyo",
+            3.3e-05
+          ],
+          [
+            "alphabet",
+            2.8e-05
+          ],
+          [
+            "pocoyo",
+            -2.6e-05
+          ],
+          [
+            "feature",
+            -2e-05
+          ],
+          [
+            "stars",
+            -1.9e-05
+          ],
+          [
+            "costs",
+            -1.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12874248623847961,
+          "max": 0.9999996423721313,
+          "std": 0.25443264842033386
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+        "word_count": 97,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9841,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁of, ▁off, ▁based",
+        "p_orig": 0.0013968127314001322,
+        "p_img": 0.0007828526431694627,
+        "delta_p_img": 0.0006139600882306695,
+        "gradcam_mean": 0.48047152161598206,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0008543092990294099,
+        "word_attention_top15": [
+          [
+            "don't graphics",
+            0.109128
+          ],
+          [
+            "149.99",
+            0.075013
+          ],
+          [
+            "scam",
+            0.047465
+          ],
+          [
+            "game",
+            0.043523
+          ],
+          [
+            "based",
+            0.042985
+          ],
+          [
+            "cost",
+            0.042329
+          ],
+          [
+            "poor",
+            0.041129
+          ],
+          [
+            "rest",
+            0.037996
+          ],
+          [
+            "little",
+            0.031578
+          ],
+          [
+            "especially",
+            0.031375
+          ],
+          [
+            "month",
+            0.031123
+          ],
+          [
+            "utterly",
+            0.028298
+          ],
+          [
+            "settings",
+            0.022016
+          ],
+          [
+            "r",
+            0.021901
+          ],
+          [
+            "plan",
+            0.02075
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "scam",
+            -0.000436
+          ],
+          [
+            "poor",
+            -0.000166
+          ],
+          [
+            "large",
+            0.000118
+          ],
+          [
+            "especially",
+            0.000112
+          ],
+          [
+            "getting",
+            6.9e-05
+          ],
+          [
+            "plan",
+            4.8e-05
+          ],
+          [
+            "extremely",
+            -4.6e-05
+          ],
+          [
+            "give",
+            2.9e-05
+          ],
+          [
+            "don't graphics",
+            -2.8e-05
+          ],
+          [
+            "cost",
+            -2.2e-05
+          ],
+          [
+            "little",
+            2e-05
+          ],
+          [
+            "month",
+            1.6e-05
+          ],
+          [
+            "images",
+            -1.4e-05
+          ],
+          [
+            "r",
+            -1e-05
+          ],
+          [
+            "149.99",
+            -1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14350320398807526,
+          "max": 0.9999991655349731,
+          "std": 0.2882060110569
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way.",
+        "word_count": 31,
+        "interface_pos": 0.0091,
+        "interface_neg": 0.9667,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁subscription, ▁experience, ▁hey",
+        "p_orig": 0.0021080863662064075,
+        "p_img": 0.0011287820525467396,
+        "delta_p_img": 0.000979304313659668,
+        "gradcam_mean": 0.4615040719509125,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0013296926626935601,
+        "word_attention_top15": [
+          [
+            "subscription",
+            0.15635
+          ],
+          [
+            "experience",
+            0.136314
+          ],
+          [
+            "marketing",
+            0.072924
+          ],
+          [
+            "hey",
+            0.072535
+          ],
+          [
+            "value",
+            0.06278
+          ],
+          [
+            "costly",
+            0.060122
+          ],
+          [
+            "pattern",
+            0.053133
+          ],
+          [
+            "beg",
+            0.049692
+          ],
+          [
+            "downloads",
+            0.046865
+          ],
+          [
+            "poor",
+            0.043218
+          ],
+          [
+            "talk",
+            0.042492
+          ],
+          [
+            "shockingly",
+            0.041402
+          ],
+          [
+            "module",
+            0.036328
+          ],
+          [
+            "bad",
+            0.034392
+          ],
+          [
+            "except",
+            0.027862
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000671
+          ],
+          [
+            "poor",
+            -0.000345
+          ],
+          [
+            "costly",
+            -0.000299
+          ],
+          [
+            "subscription",
+            0.000256
+          ],
+          [
+            "value",
+            0.000209
+          ],
+          [
+            "experience",
+            0.000184
+          ],
+          [
+            "talk",
+            0.000134
+          ],
+          [
+            "shockingly",
+            -0.000108
+          ],
+          [
+            "monthly",
+            9.5e-05
+          ],
+          [
+            "hey",
+            9.3e-05
+          ],
+          [
+            "marketing",
+            7.2e-05
+          ],
+          [
+            "downloads",
+            -5e-05
+          ],
+          [
+            "beg",
+            4.8e-05
+          ],
+          [
+            "pattern",
+            -3.1e-05
+          ],
+          [
+            "google",
+            2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1490081250667572,
+          "max": 0.9999994039535522,
+          "std": 0.29889392852783203
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of P' House (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.pocoyo.house",
+    "screen_id": "49921",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\49921.jpg",
+    "text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title I",
+    "prediction": 0.003311174688860774,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9966888253111392,
+    "gradcam_stats": {
+      "mean": 0.39682427048683167,
+      "max": 1.0,
+      "std": 0.2869972586631775
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+      "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+      "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+      "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+      "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way."
+    ],
+    "app_name": "P' House",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.003297732677310705,
+      "p_img": 0.05687645822763443,
+      "delta_p_img": 0.053578725550323725
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          31,
+          224,
+          62
+        ],
+        "bounds_rico": [
+          0,
+          360,
+          1440,
+          720
+        ],
+        "score_total": 4954.41845703125,
+        "score_mean": 0.7134819206554219
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          39,
+          62,
+          184,
+          109
+        ],
+        "bounds_rico": [
+          252,
+          720,
+          1187,
+          1250
+        ],
+        "score_total": 4589.50146484375,
+        "score_mean": 0.6734411540489729
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          31
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          360
+        ],
+        "score_total": 4240.4443359375,
+        "score_mean": 0.6106630668112759
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 4954.41845703125,
+        "score_mean": 0.7134819206554219,
+        "bounds_image": [
+          0,
+          31,
+          224,
+          62
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 4589.50146484375,
+        "score_mean": 0.6734411540489729,
+        "bounds_image": [
+          39,
+          62,
+          184,
+          109
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 4240.4443359375,
+        "score_mean": 0.6106630668112759,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          31
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 4954.41845703125,
+        "score_mean": 0.7134819206554219,
+        "bounds_image": [
+          0,
+          31,
+          224,
+          62
+        ],
+        "bounds_rico": [
+          0,
+          360,
+          1440,
+          720
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 4589.50146484375,
+        "score_mean": 0.6734411540489729,
+        "bounds_image": [
+          39,
+          62,
+          184,
+          109
+        ],
+        "bounds_rico": [
+          252,
+          720,
+          1187,
+          1250
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 4240.4443359375,
+        "score_mean": 0.6106630668112759,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          31
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          360
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Background Image",
+        "score_total": 19700.791015625,
+        "score_mean": 0.4208132052209715,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 2408.99609375,
+        "score_mean": 0.34691764022897464,
+        "bounds_image": [
+          0,
+          109,
+          224,
+          140
+        ],
+        "bounds_rico": [
+          0,
+          1250,
+          1440,
+          1610
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 91.88585662841797,
+        "score_mean": 0.088778605438085,
+        "bounds_image": [
+          89,
+          140,
+          134,
+          163
+        ],
+        "bounds_rico": [
+          576,
+          1610,
+          864,
+          1870
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 367.2475280761719,
+        "score_mean": 0.06305761127681522,
+        "bounds_image": [
+          0,
+          183,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2095,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 1.9343037605285645,
+        "score_mean": 0.03868607521057129,
+        "bounds_image": [
+          24,
+          176,
+          34,
+          181
+        ],
+        "bounds_rico": [
+          160,
+          2021,
+          220,
+          2070
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 78,
+        "token": "▁of"
+      },
+      {
+        "index": 77,
+        "token": "▁off"
+      },
+      {
+        "index": 76,
+        "token": "▁based"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+        "word_count": 26,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁content, ▁recommend, ▁dont",
+        "p_orig": 0.004134741611778736,
+        "p_img": 0.07111255824565887,
+        "delta_p_img": 0.06697781663388014,
+        "gradcam_mean": 0.40081217885017395,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Background Image",
+        "delta_p_img_shap": 0.09847474377602339,
+        "word_attention_top15": [
+          [
+            "dont recommend",
+            0.289989
+          ],
+          [
+            "content",
+            0.142885
+          ],
+          [
+            "whats",
+            0.08768
+          ],
+          [
+            "idk",
+            0.068635
+          ],
+          [
+            "paywalls",
+            0.066564
+          ],
+          [
+            "definitely",
+            0.065921
+          ],
+          [
+            "horrible",
+            0.049278
+          ],
+          [
+            "kid",
+            0.04253
+          ],
+          [
+            "ads",
+            0.038424
+          ],
+          [
+            "stupid",
+            0.03666
+          ],
+          [
+            "corner",
+            0.033866
+          ],
+          [
+            "free",
+            0.031203
+          ],
+          [
+            "coded",
+            0.027564
+          ],
+          [
+            "paywall",
+            0.018798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.001277
+          ],
+          [
+            "free",
+            0.000898
+          ],
+          [
+            "dont recommend",
+            -0.00074
+          ],
+          [
+            "definitely",
+            0.000571
+          ],
+          [
+            "paywall",
+            -0.000445
+          ],
+          [
+            "paywalls",
+            -0.000444
+          ],
+          [
+            "kid",
+            0.000298
+          ],
+          [
+            "corner",
+            0.000287
+          ],
+          [
+            "idk",
+            0.000216
+          ],
+          [
+            "ads",
+            0.000122
+          ],
+          [
+            "coded",
+            -9.4e-05
+          ],
+          [
+            "whats",
+            8.6e-05
+          ],
+          [
+            "content",
+            5.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12217900156974792,
+          "max": 0.9999997019767761,
+          "std": 0.24950917065143585
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+        "word_count": 79,
+        "interface_pos": 0.0058,
+        "interface_neg": 0.9698,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁and, ▁kind, ▁store",
+        "p_orig": 0.005387285724282265,
+        "p_img": 0.1132606789469719,
+        "delta_p_img": 0.10787339322268963,
+        "gradcam_mean": 0.3891538083553314,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Background Image",
+        "delta_p_img_shap": 0.11734510771930218,
+        "word_attention_top15": [
+          [
+            "pocoyo",
+            0.137798
+          ],
+          [
+            "don't kind",
+            0.118903
+          ],
+          [
+            "logo",
+            0.082597
+          ],
+          [
+            "store",
+            0.07068
+          ],
+          [
+            "without pocoyo",
+            0.067636
+          ],
+          [
+            "year",
+            0.054861
+          ],
+          [
+            "house",
+            0.051056
+          ],
+          [
+            "samsung",
+            0.040063
+          ],
+          [
+            "old",
+            0.036756
+          ],
+          [
+            "run",
+            0.034435
+          ],
+          [
+            "done",
+            0.031038
+          ],
+          [
+            "series",
+            0.03064
+          ],
+          [
+            "device",
+            0.024408
+          ],
+          [
+            "fun",
+            0.024373
+          ],
+          [
+            "else",
+            0.023567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't kind",
+            -0.001099
+          ],
+          [
+            "fun",
+            0.000933
+          ],
+          [
+            "device",
+            0.000545
+          ],
+          [
+            "mad",
+            -0.000417
+          ],
+          [
+            "without pocoyo",
+            0.000206
+          ],
+          [
+            "done",
+            0.000151
+          ],
+          [
+            "please",
+            -0.000142
+          ],
+          [
+            "house",
+            -0.000139
+          ],
+          [
+            "change",
+            -9.9e-05
+          ],
+          [
+            "samsung",
+            8.8e-05
+          ],
+          [
+            "talking",
+            -8.5e-05
+          ],
+          [
+            "sons",
+            8.1e-05
+          ],
+          [
+            "run",
+            8e-05
+          ],
+          [
+            "else",
+            -8e-05
+          ],
+          [
+            "team",
+            7.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12320686131715775,
+          "max": 0.9999997019767761,
+          "std": 0.2502806782722473
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+        "word_count": 93,
+        "interface_pos": 0.0082,
+        "interface_neg": 0.984,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁love, ▁the, ▁Fun",
+        "p_orig": 0.006001888774335384,
+        "p_img": 0.12562021613121033,
+        "delta_p_img": 0.11961832735687494,
+        "gradcam_mean": 0.3860032856464386,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Background Image",
+        "delta_p_img_shap": 0.1240086117759347,
+        "word_attention_top15": [
+          [
+            "love",
+            0.101917
+          ],
+          [
+            "fun",
+            0.087356
+          ],
+          [
+            "pocoyo",
+            0.073836
+          ],
+          [
+            "baby",
+            0.063767
+          ],
+          [
+            "terrible",
+            0.057093
+          ],
+          [
+            "not pocoyo",
+            0.056516
+          ],
+          [
+            "show",
+            0.044835
+          ],
+          [
+            "&",
+            0.040967
+          ],
+          [
+            "need",
+            0.040409
+          ],
+          [
+            "never install",
+            0.039166
+          ],
+          [
+            "subscription",
+            0.03871
+          ],
+          [
+            "watched",
+            0.038552
+          ],
+          [
+            "money",
+            0.035914
+          ],
+          [
+            "free",
+            0.035812
+          ],
+          [
+            "not terrible",
+            0.031828
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "terrible",
+            -0.000828
+          ],
+          [
+            "never install",
+            -0.000826
+          ],
+          [
+            "love",
+            0.000466
+          ],
+          [
+            "fun",
+            0.00046
+          ],
+          [
+            "watched",
+            0.000307
+          ],
+          [
+            "show",
+            0.000231
+          ],
+          [
+            "not terrible",
+            -0.000217
+          ],
+          [
+            "able",
+            0.000155
+          ],
+          [
+            "not pocoyo",
+            0.000117
+          ],
+          [
+            "&",
+            -0.000103
+          ],
+          [
+            "alphabet",
+            9.9e-05
+          ],
+          [
+            "stars",
+            -6.4e-05
+          ],
+          [
+            "monthly",
+            6.2e-05
+          ],
+          [
+            "paid",
+            5e-05
+          ],
+          [
+            "run",
+            -4.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12360986322164536,
+          "max": 0.9999997019767761,
+          "std": 0.2508332431316376
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+        "word_count": 97,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9841,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁of, ▁off, ▁based",
+        "p_orig": 0.003297732677310705,
+        "p_img": 0.05687645822763443,
+        "delta_p_img": 0.053578725550323725,
+        "gradcam_mean": 0.39682427048683167,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Background Image",
+        "delta_p_img_shap": 0.09175440529361367,
+        "word_attention_top15": [
+          [
+            "don't graphics",
+            0.109128
+          ],
+          [
+            "149.99",
+            0.075013
+          ],
+          [
+            "scam",
+            0.047465
+          ],
+          [
+            "game",
+            0.043523
+          ],
+          [
+            "based",
+            0.042985
+          ],
+          [
+            "cost",
+            0.042329
+          ],
+          [
+            "poor",
+            0.041129
+          ],
+          [
+            "rest",
+            0.037996
+          ],
+          [
+            "little",
+            0.031578
+          ],
+          [
+            "especially",
+            0.031375
+          ],
+          [
+            "month",
+            0.031123
+          ],
+          [
+            "utterly",
+            0.028298
+          ],
+          [
+            "settings",
+            0.022016
+          ],
+          [
+            "r",
+            0.021901
+          ],
+          [
+            "plan",
+            0.02075
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "scam",
+            -0.001101
+          ],
+          [
+            "poor",
+            -0.000448
+          ],
+          [
+            "especially",
+            0.000255
+          ],
+          [
+            "large",
+            0.0002
+          ],
+          [
+            "gives",
+            0.000191
+          ],
+          [
+            "getting",
+            0.000168
+          ],
+          [
+            "utterly",
+            0.000162
+          ],
+          [
+            "extremely",
+            -0.00014
+          ],
+          [
+            "cost",
+            -0.00013
+          ],
+          [
+            "free",
+            0.000128
+          ],
+          [
+            "month",
+            0.000127
+          ],
+          [
+            "plan",
+            0.000112
+          ],
+          [
+            "give",
+            9.4e-05
+          ],
+          [
+            "three",
+            7.8e-05
+          ],
+          [
+            "poorly",
+            -6.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12201344221830368,
+          "max": 0.9999995827674866,
+          "std": 0.24921022355556488
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way.",
+        "word_count": 31,
+        "interface_pos": 0.0091,
+        "interface_neg": 0.9667,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁subscription, ▁experience, ▁hey",
+        "p_orig": 0.004629962146282196,
+        "p_img": 0.08368974179029465,
+        "delta_p_img": 0.07905977964401245,
+        "gradcam_mean": 0.39365121722221375,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Background Image",
+        "delta_p_img_shap": 0.1070355474948883,
+        "word_attention_top15": [
+          [
+            "subscription",
+            0.15635
+          ],
+          [
+            "experience",
+            0.136314
+          ],
+          [
+            "marketing",
+            0.072924
+          ],
+          [
+            "hey",
+            0.072535
+          ],
+          [
+            "value",
+            0.06278
+          ],
+          [
+            "costly",
+            0.060122
+          ],
+          [
+            "pattern",
+            0.053133
+          ],
+          [
+            "beg",
+            0.049692
+          ],
+          [
+            "downloads",
+            0.046865
+          ],
+          [
+            "poor",
+            0.043218
+          ],
+          [
+            "talk",
+            0.042492
+          ],
+          [
+            "shockingly",
+            0.041402
+          ],
+          [
+            "module",
+            0.036328
+          ],
+          [
+            "bad",
+            0.034392
+          ],
+          [
+            "except",
+            0.027862
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.001487
+          ],
+          [
+            "poor",
+            -0.000779
+          ],
+          [
+            "costly",
+            -0.000657
+          ],
+          [
+            "subscription",
+            0.000598
+          ],
+          [
+            "value",
+            0.000456
+          ],
+          [
+            "experience",
+            0.000439
+          ],
+          [
+            "talk",
+            0.000297
+          ],
+          [
+            "shockingly",
+            -0.00022
+          ],
+          [
+            "monthly",
+            0.000215
+          ],
+          [
+            "hey",
+            0.000207
+          ],
+          [
+            "marketing",
+            0.000171
+          ],
+          [
+            "downloads",
+            -0.000141
+          ],
+          [
+            "beg",
+            0.000108
+          ],
+          [
+            "dark",
+            6.1e-05
+          ],
+          [
+            "pattern",
+            -4.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12324555218219757,
+          "max": 0.9999996423721313,
+          "std": 0.25034958124160767
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of P' House (category: Entertainment) was classified as bad with 100% confidence (with high confidence). The model focused on a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.pocoyo.house",
+    "screen_id": "49922",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\49922.jpg",
+    "text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title I",
+    "prediction": 0.0030664969235658646,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9969335030764341,
+    "gradcam_stats": {
+      "mean": 0.3995237648487091,
+      "max": 1.0,
+      "std": 0.20875808596611023
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+      "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+      "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+      "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+      "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way."
+    ],
+    "app_name": "P' House",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0030661311466246843,
+      "p_img": 0.05413225665688515,
+      "delta_p_img": 0.05106612551026046
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ],
+        "score_total": 18885.02734375,
+        "score_mean": 0.4173671177455357
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          202,
+          13,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2318,
+          88,
+          2392
+        ],
+        "score_total": 8.641645431518555,
+        "score_mean": 0.094963136610094
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 18885.02734375,
+        "score_mean": 0.4173671177455357,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 8.641645431518555,
+        "score_mean": 0.094963136610094,
+        "bounds_image": [
+          0,
+          202,
+          13,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 18885.02734375,
+        "score_mean": 0.4173671177455357,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 8.641645431518555,
+        "score_mean": 0.094963136610094,
+        "bounds_image": [
+          0,
+          202,
+          13,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2318,
+          88,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 78,
+        "token": "▁of"
+      },
+      {
+        "index": 77,
+        "token": "▁off"
+      },
+      {
+        "index": 76,
+        "token": "▁based"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+        "word_count": 26,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁content, ▁recommend, ▁dont",
+        "p_orig": 0.0036834648344665766,
+        "p_img": 0.06428215652704239,
+        "delta_p_img": 0.06059869169257581,
+        "gradcam_mean": 0.3995353877544403,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.06059869169257581,
+        "word_attention_top15": [
+          [
+            "dont recommend",
+            0.289989
+          ],
+          [
+            "content",
+            0.142885
+          ],
+          [
+            "whats",
+            0.08768
+          ],
+          [
+            "idk",
+            0.068635
+          ],
+          [
+            "paywalls",
+            0.066564
+          ],
+          [
+            "definitely",
+            0.065921
+          ],
+          [
+            "horrible",
+            0.049278
+          ],
+          [
+            "kid",
+            0.04253
+          ],
+          [
+            "ads",
+            0.038424
+          ],
+          [
+            "stupid",
+            0.03666
+          ],
+          [
+            "corner",
+            0.033866
+          ],
+          [
+            "free",
+            0.031203
+          ],
+          [
+            "coded",
+            0.027564
+          ],
+          [
+            "paywall",
+            0.018798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.001441
+          ],
+          [
+            "free",
+            0.001398
+          ],
+          [
+            "dont recommend",
+            -0.001213
+          ],
+          [
+            "definitely",
+            0.00083
+          ],
+          [
+            "paywall",
+            -0.000658
+          ],
+          [
+            "paywalls",
+            -0.000524
+          ],
+          [
+            "corner",
+            0.000374
+          ],
+          [
+            "kid",
+            0.000321
+          ],
+          [
+            "idk",
+            0.000186
+          ],
+          [
+            "ads",
+            8.9e-05
+          ],
+          [
+            "coded",
+            -8.5e-05
+          ],
+          [
+            "whats",
+            4.5e-05
+          ],
+          [
+            "content",
+            -2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13723334670066833,
+          "max": 0.9999997019767761,
+          "std": 0.2820374667644501
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+        "word_count": 79,
+        "interface_pos": 0.0058,
+        "interface_neg": 0.9698,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁and, ▁kind, ▁store",
+        "p_orig": 0.005164694506675005,
+        "p_img": 0.08455726504325867,
+        "delta_p_img": 0.07939257053658366,
+        "gradcam_mean": 0.37814536690711975,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.07939257053658366,
+        "word_attention_top15": [
+          [
+            "pocoyo",
+            0.137798
+          ],
+          [
+            "don't kind",
+            0.118903
+          ],
+          [
+            "logo",
+            0.082597
+          ],
+          [
+            "store",
+            0.07068
+          ],
+          [
+            "without pocoyo",
+            0.067636
+          ],
+          [
+            "year",
+            0.054861
+          ],
+          [
+            "house",
+            0.051056
+          ],
+          [
+            "samsung",
+            0.040063
+          ],
+          [
+            "old",
+            0.036756
+          ],
+          [
+            "run",
+            0.034435
+          ],
+          [
+            "done",
+            0.031038
+          ],
+          [
+            "series",
+            0.03064
+          ],
+          [
+            "device",
+            0.024408
+          ],
+          [
+            "fun",
+            0.024373
+          ],
+          [
+            "else",
+            0.023567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't kind",
+            -0.002027
+          ],
+          [
+            "fun",
+            0.001593
+          ],
+          [
+            "device",
+            0.001148
+          ],
+          [
+            "mad",
+            -0.00055
+          ],
+          [
+            "talking",
+            -0.000275
+          ],
+          [
+            "house",
+            -0.00027
+          ],
+          [
+            "pocoyo",
+            -0.000266
+          ],
+          [
+            "done",
+            0.000241
+          ],
+          [
+            "sons",
+            0.000134
+          ],
+          [
+            "without pocoyo",
+            0.000128
+          ],
+          [
+            "series",
+            0.000103
+          ],
+          [
+            "old",
+            9.3e-05
+          ],
+          [
+            "else",
+            -8.3e-05
+          ],
+          [
+            "please",
+            -8e-05
+          ],
+          [
+            "samsung",
+            8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13971824944019318,
+          "max": 0.9999997019767761,
+          "std": 0.28794893622398376
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+        "word_count": 93,
+        "interface_pos": 0.0082,
+        "interface_neg": 0.984,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁love, ▁the, ▁Fun",
+        "p_orig": 0.005923786666244268,
+        "p_img": 0.08753376454114914,
+        "delta_p_img": 0.08160997787490487,
+        "gradcam_mean": 0.37304943799972534,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.08160997787490487,
+        "word_attention_top15": [
+          [
+            "love",
+            0.101917
+          ],
+          [
+            "fun",
+            0.087356
+          ],
+          [
+            "pocoyo",
+            0.073836
+          ],
+          [
+            "baby",
+            0.063767
+          ],
+          [
+            "terrible",
+            0.057093
+          ],
+          [
+            "not pocoyo",
+            0.056516
+          ],
+          [
+            "show",
+            0.044835
+          ],
+          [
+            "&",
+            0.040967
+          ],
+          [
+            "need",
+            0.040409
+          ],
+          [
+            "never install",
+            0.039166
+          ],
+          [
+            "subscription",
+            0.03871
+          ],
+          [
+            "watched",
+            0.038552
+          ],
+          [
+            "money",
+            0.035914
+          ],
+          [
+            "free",
+            0.035812
+          ],
+          [
+            "not terrible",
+            0.031828
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "terrible",
+            -0.001469
+          ],
+          [
+            "fun",
+            0.000703
+          ],
+          [
+            "love",
+            0.000579
+          ],
+          [
+            "watched",
+            0.000518
+          ],
+          [
+            "not terrible",
+            -0.000327
+          ],
+          [
+            "show",
+            0.000278
+          ],
+          [
+            "&",
+            -0.000236
+          ],
+          [
+            "not pocoyo",
+            0.000189
+          ],
+          [
+            "pocoyo",
+            -0.00014
+          ],
+          [
+            "alphabet",
+            0.000109
+          ],
+          [
+            "run",
+            -7.5e-05
+          ],
+          [
+            "monthly",
+            6.5e-05
+          ],
+          [
+            "either",
+            -5.4e-05
+          ],
+          [
+            "baby",
+            -4.7e-05
+          ],
+          [
+            "subscription",
+            4.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1395765095949173,
+          "max": 0.9999997019767761,
+          "std": 0.28823205828666687
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+        "word_count": 97,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9841,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁of, ▁off, ▁based",
+        "p_orig": 0.0030661311466246843,
+        "p_img": 0.05413225665688515,
+        "delta_p_img": 0.05106612551026046,
+        "gradcam_mean": 0.3995237648487091,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.05106612551026046,
+        "word_attention_top15": [
+          [
+            "don't graphics",
+            0.109128
+          ],
+          [
+            "149.99",
+            0.075013
+          ],
+          [
+            "scam",
+            0.047465
+          ],
+          [
+            "game",
+            0.043523
+          ],
+          [
+            "based",
+            0.042985
+          ],
+          [
+            "cost",
+            0.042329
+          ],
+          [
+            "poor",
+            0.041129
+          ],
+          [
+            "rest",
+            0.037996
+          ],
+          [
+            "little",
+            0.031578
+          ],
+          [
+            "especially",
+            0.031375
+          ],
+          [
+            "month",
+            0.031123
+          ],
+          [
+            "utterly",
+            0.028298
+          ],
+          [
+            "settings",
+            0.022016
+          ],
+          [
+            "r",
+            0.021901
+          ],
+          [
+            "plan",
+            0.02075
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "scam",
+            -0.001379
+          ],
+          [
+            "especially",
+            0.000548
+          ],
+          [
+            "large",
+            0.000444
+          ],
+          [
+            "poor",
+            -0.000366
+          ],
+          [
+            "getting",
+            0.000246
+          ],
+          [
+            "gives",
+            0.000235
+          ],
+          [
+            "free",
+            0.000211
+          ],
+          [
+            "utterly",
+            0.000147
+          ],
+          [
+            "extremely",
+            -0.000142
+          ],
+          [
+            "plan",
+            0.000125
+          ],
+          [
+            "poorly",
+            -0.000124
+          ],
+          [
+            "give",
+            9.8e-05
+          ],
+          [
+            "pocoyo",
+            9.3e-05
+          ],
+          [
+            "rendered",
+            -8.7e-05
+          ],
+          [
+            "images",
+            -8.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16181406378746033,
+          "max": 0.9999996423721313,
+          "std": 0.3178240656852722
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way.",
+        "word_count": 31,
+        "interface_pos": 0.0091,
+        "interface_neg": 0.9667,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Icon",
+        "top_k_tokens": "▁subscription, ▁experience, ▁hey",
+        "p_orig": 0.0042566098272800446,
+        "p_img": 0.07386711984872818,
+        "delta_p_img": 0.06961051002144814,
+        "gradcam_mean": 0.3928653597831726,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.06961051002144814,
+        "word_attention_top15": [
+          [
+            "subscription",
+            0.15635
+          ],
+          [
+            "experience",
+            0.136314
+          ],
+          [
+            "marketing",
+            0.072924
+          ],
+          [
+            "hey",
+            0.072535
+          ],
+          [
+            "value",
+            0.06278
+          ],
+          [
+            "costly",
+            0.060122
+          ],
+          [
+            "pattern",
+            0.053133
+          ],
+          [
+            "beg",
+            0.049692
+          ],
+          [
+            "downloads",
+            0.046865
+          ],
+          [
+            "poor",
+            0.043218
+          ],
+          [
+            "talk",
+            0.042492
+          ],
+          [
+            "shockingly",
+            0.041402
+          ],
+          [
+            "module",
+            0.036328
+          ],
+          [
+            "bad",
+            0.034392
+          ],
+          [
+            "except",
+            0.027862
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.002002
+          ],
+          [
+            "poor",
+            -0.001248
+          ],
+          [
+            "costly",
+            -0.001102
+          ],
+          [
+            "value",
+            0.000877
+          ],
+          [
+            "subscription",
+            0.000705
+          ],
+          [
+            "experience",
+            0.000649
+          ],
+          [
+            "talk",
+            0.00038
+          ],
+          [
+            "monthly",
+            0.000355
+          ],
+          [
+            "hey",
+            0.000268
+          ],
+          [
+            "shockingly",
+            -0.000252
+          ],
+          [
+            "marketing",
+            0.000208
+          ],
+          [
+            "except",
+            0.000102
+          ],
+          [
+            "pattern",
+            -9.7e-05
+          ],
+          [
+            "module",
+            8.3e-05
+          ],
+          [
+            "beg",
+            3.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1368621587753296,
+          "max": 0.9999997019767761,
+          "std": 0.28169044852256775
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Web View at the top-left.",
+      "detailed": "This screen of P' House (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Web View at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.pocoyo.house",
+    "screen_id": "49923",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\49923.jpg",
+    "text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title I",
+    "prediction": 0.008409827016294003,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.991590172983706,
+    "gradcam_stats": {
+      "mean": 0.3775041997432709,
+      "max": 1.0,
+      "std": 0.22008129954338074
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+      "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+      "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+      "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+      "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way."
+    ],
+    "app_name": "P' House",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.008477901108562946,
+      "p_img": 0.004195393528789282,
+      "delta_p_img": 0.0042825075797736645
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          21,
+          139,
+          47,
+          154
+        ],
+        "bounds_rico": [
+          138,
+          1598,
+          306,
+          1766
+        ],
+        "score_total": 158.87741088867188,
+        "score_mean": 0.4073779766376202
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          72,
+          157,
+          100,
+          167
+        ],
+        "bounds_rico": [
+          463,
+          1805,
+          645,
+          1911
+        ],
+        "score_total": 108.36690521240234,
+        "score_mean": 0.3870246614728655
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ],
+        "bounds_rico": [
+          142,
+          1805,
+          302,
+          1911
+        ],
+        "score_total": 86.21836853027344,
+        "score_mean": 0.35924320220947265
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 158.87741088867188,
+        "score_mean": 0.4073779766376202,
+        "bounds_image": [
+          21,
+          139,
+          47,
+          154
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 108.36690521240234,
+        "score_mean": 0.3870246614728655,
+        "bounds_image": [
+          72,
+          157,
+          100,
+          167
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 86.21836853027344,
+        "score_mean": 0.35924320220947265,
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 158.87741088867188,
+        "score_mean": 0.4073779766376202,
+        "bounds_image": [
+          21,
+          139,
+          47,
+          154
+        ],
+        "bounds_rico": [
+          138,
+          1598,
+          306,
+          1766
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 108.36690521240234,
+        "score_mean": 0.3870246614728655,
+        "bounds_image": [
+          72,
+          157,
+          100,
+          167
+        ],
+        "bounds_rico": [
+          463,
+          1805,
+          645,
+          1911
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 86.21836853027344,
+        "score_mean": 0.35924320220947265,
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ],
+        "bounds_rico": [
+          142,
+          1805,
+          302,
+          1911
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 139.45664978027344,
+        "score_mean": 0.3575811532827524,
+        "bounds_image": [
+          124,
+          139,
+          150,
+          154
+        ],
+        "bounds_rico": [
+          802,
+          1598,
+          970,
+          1766
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 125.84620666503906,
+        "score_mean": 0.34012488287848397,
+        "bounds_image": [
+          119,
+          157,
+          156,
+          167
+        ],
+        "bounds_rico": [
+          768,
+          1805,
+          1003,
+          1911
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 132.0731964111328,
+        "score_mean": 0.3386492215670072,
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ],
+        "bounds_rico": [
+          470,
+          1598,
+          638,
+          1766
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 122.25225067138672,
+        "score_mean": 0.3358578315147987,
+        "bounds_image": [
+          73,
+          177,
+          99,
+          191
+        ],
+        "bounds_rico": [
+          470,
+          2023,
+          638,
+          2191
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 89.72822570800781,
+        "score_mean": 0.24650611458243904,
+        "bounds_image": [
+          21,
+          177,
+          47,
+          191
+        ],
+        "bounds_rico": [
+          138,
+          2023,
+          306,
+          2191
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 61.334007263183594,
+        "score_mean": 0.15726668529021434,
+        "bounds_image": [
+          176,
+          139,
+          202,
+          154
+        ],
+        "bounds_rico": [
+          1134,
+          1598,
+          1302,
+          1766
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 35.75652313232422,
+        "score_mean": 0.1489855130513509,
+        "bounds_image": [
+          177,
+          157,
+          201,
+          167
+        ],
+        "bounds_rico": [
+          1138,
+          1805,
+          1297,
+          1911
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 58.06452941894531,
+        "score_mean": 0.13726839106133643,
+        "bounds_image": [
+          62,
+          195,
+          109,
+          204
+        ],
+        "bounds_rico": [
+          402,
+          2230,
+          706,
+          2336
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 13.595726013183594,
+        "score_mean": 0.107902587406219,
+        "bounds_image": [
+          27,
+          195,
+          41,
+          204
+        ],
+        "bounds_rico": [
+          175,
+          2230,
+          268,
+          2336
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 78,
+        "token": "▁of"
+      },
+      {
+        "index": 77,
+        "token": "▁off"
+      },
+      {
+        "index": 76,
+        "token": "▁based"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+        "word_count": 26,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9852,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Text",
+        "top_k_tokens": "▁content, ▁recommend, ▁dont",
+        "p_orig": 0.010546363890171051,
+        "p_img": 0.0054021780379116535,
+        "delta_p_img": 0.0051441858522593975,
+        "gradcam_mean": 0.36386656761169434,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text",
+        "delta_p_img_shap": 0.007179607637226582,
+        "word_attention_top15": [
+          [
+            "dont recommend",
+            0.289989
+          ],
+          [
+            "content",
+            0.142885
+          ],
+          [
+            "whats",
+            0.08768
+          ],
+          [
+            "idk",
+            0.068635
+          ],
+          [
+            "paywalls",
+            0.066564
+          ],
+          [
+            "definitely",
+            0.065921
+          ],
+          [
+            "horrible",
+            0.049278
+          ],
+          [
+            "kid",
+            0.04253
+          ],
+          [
+            "ads",
+            0.038424
+          ],
+          [
+            "stupid",
+            0.03666
+          ],
+          [
+            "corner",
+            0.033866
+          ],
+          [
+            "free",
+            0.031203
+          ],
+          [
+            "coded",
+            0.027564
+          ],
+          [
+            "paywall",
+            0.018798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "dont recommend",
+            -0.004213
+          ],
+          [
+            "horrible",
+            -0.004165
+          ],
+          [
+            "free",
+            0.003758
+          ],
+          [
+            "definitely",
+            0.002661
+          ],
+          [
+            "paywall",
+            -0.00174
+          ],
+          [
+            "paywalls",
+            -0.001385
+          ],
+          [
+            "corner",
+            0.001134
+          ],
+          [
+            "kid",
+            0.00099
+          ],
+          [
+            "whats",
+            -0.000442
+          ],
+          [
+            "coded",
+            -0.000295
+          ],
+          [
+            "content",
+            -0.000241
+          ],
+          [
+            "ads",
+            0.000165
+          ],
+          [
+            "idk",
+            5.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1876423954963684,
+          "max": 0.9999988079071045,
+          "std": 0.3215425908565521
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "I don't like these kind of series. Because, my 5 and 2 year old sons are mad at you of what you've been done. I am on an Samsung device and on the Talking Pocoyo 2 and run and fun, it has a Pocoyo House logo and it says to download the Pocoyo House from Play store. Please change it to be normal app without the Pocoyo House logo. Or else, You and the Pocoyo team Will be grounded.",
+        "word_count": 79,
+        "interface_pos": 0.0058,
+        "interface_neg": 0.9698,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Image",
+        "top_k_tokens": "▁and, ▁kind, ▁store",
+        "p_orig": 0.01400994136929512,
+        "p_img": 0.0064615183509886265,
+        "delta_p_img": 0.007548423018306494,
+        "gradcam_mean": 0.33015555143356323,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text",
+        "delta_p_img_shap": 0.00991947716102004,
+        "word_attention_top15": [
+          [
+            "pocoyo",
+            0.137798
+          ],
+          [
+            "don't kind",
+            0.118903
+          ],
+          [
+            "logo",
+            0.082597
+          ],
+          [
+            "store",
+            0.07068
+          ],
+          [
+            "without pocoyo",
+            0.067636
+          ],
+          [
+            "year",
+            0.054861
+          ],
+          [
+            "house",
+            0.051056
+          ],
+          [
+            "samsung",
+            0.040063
+          ],
+          [
+            "old",
+            0.036756
+          ],
+          [
+            "run",
+            0.034435
+          ],
+          [
+            "done",
+            0.031038
+          ],
+          [
+            "series",
+            0.03064
+          ],
+          [
+            "device",
+            0.024408
+          ],
+          [
+            "fun",
+            0.024373
+          ],
+          [
+            "else",
+            0.023567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't kind",
+            -0.006903
+          ],
+          [
+            "fun",
+            0.006309
+          ],
+          [
+            "device",
+            0.003624
+          ],
+          [
+            "mad",
+            -0.002256
+          ],
+          [
+            "pocoyo",
+            -0.001161
+          ],
+          [
+            "house",
+            -0.000811
+          ],
+          [
+            "talking",
+            -0.000777
+          ],
+          [
+            "please",
+            -0.000622
+          ],
+          [
+            "change",
+            -0.000575
+          ],
+          [
+            "done",
+            0.000533
+          ],
+          [
+            "sons",
+            0.000374
+          ],
+          [
+            "says",
+            -0.00032
+          ],
+          [
+            "else",
+            -0.000312
+          ],
+          [
+            "logo",
+            0.000242
+          ],
+          [
+            "without pocoyo",
+            0.000229
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1852751523256302,
+          "max": 0.9999991655349731,
+          "std": 0.3174619674682617
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "The app is terrible. While I do love the show so much because I watched it when I was a baby, I do not like this app. Its terrible because every feature costs money. And not only that but some other Pocoyo apps such as Pocoyo Alphabet & Pocoyo Run & Fun, need to be paid as a monthly subscription in order to use them, So either make some of the features free, or I will never install this app again. If I was able to give this app 0 stars, I would.",
+        "word_count": 93,
+        "interface_pos": 0.0082,
+        "interface_neg": 0.984,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Image",
+        "top_k_tokens": "▁love, ▁the, ▁Fun",
+        "p_orig": 0.015505584888160229,
+        "p_img": 0.007065868936479092,
+        "delta_p_img": 0.008439715951681137,
+        "gradcam_mean": 0.3255070149898529,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text",
+        "delta_p_img_shap": 0.010956142097711563,
+        "word_attention_top15": [
+          [
+            "love",
+            0.101917
+          ],
+          [
+            "fun",
+            0.087356
+          ],
+          [
+            "pocoyo",
+            0.073836
+          ],
+          [
+            "baby",
+            0.063767
+          ],
+          [
+            "terrible",
+            0.057093
+          ],
+          [
+            "not pocoyo",
+            0.056516
+          ],
+          [
+            "show",
+            0.044835
+          ],
+          [
+            "&",
+            0.040967
+          ],
+          [
+            "need",
+            0.040409
+          ],
+          [
+            "never install",
+            0.039166
+          ],
+          [
+            "subscription",
+            0.03871
+          ],
+          [
+            "watched",
+            0.038552
+          ],
+          [
+            "money",
+            0.035914
+          ],
+          [
+            "free",
+            0.035812
+          ],
+          [
+            "not terrible",
+            0.031828
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "terrible",
+            -0.005178
+          ],
+          [
+            "never install",
+            -0.004701
+          ],
+          [
+            "watched",
+            0.002005
+          ],
+          [
+            "not terrible",
+            -0.00131
+          ],
+          [
+            "love",
+            0.000751
+          ],
+          [
+            "able",
+            0.000732
+          ],
+          [
+            "show",
+            0.000521
+          ],
+          [
+            "costs",
+            -0.000365
+          ],
+          [
+            "stars",
+            -0.000351
+          ],
+          [
+            "baby",
+            -0.000179
+          ],
+          [
+            "money",
+            -0.000148
+          ],
+          [
+            "feature",
+            -7.2e-05
+          ],
+          [
+            "pocoyo",
+            6.8e-05
+          ],
+          [
+            "paid",
+            6.3e-05
+          ],
+          [
+            "monthly",
+            6.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18654821813106537,
+          "max": 0.9999992251396179,
+          "std": 0.3184959292411804
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+        "word_count": 97,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9841,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Text",
+        "top_k_tokens": "▁of, ▁off, ▁based",
+        "p_orig": 0.008477901108562946,
+        "p_img": 0.004195393528789282,
+        "delta_p_img": 0.0042825075797736645,
+        "gradcam_mean": 0.3775041997432709,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text",
+        "delta_p_img_shap": 0.005863979691639543,
+        "word_attention_top15": [
+          [
+            "don't graphics",
+            0.109128
+          ],
+          [
+            "149.99",
+            0.075013
+          ],
+          [
+            "scam",
+            0.047465
+          ],
+          [
+            "game",
+            0.043523
+          ],
+          [
+            "based",
+            0.042985
+          ],
+          [
+            "cost",
+            0.042329
+          ],
+          [
+            "poor",
+            0.041129
+          ],
+          [
+            "rest",
+            0.037996
+          ],
+          [
+            "little",
+            0.031578
+          ],
+          [
+            "especially",
+            0.031375
+          ],
+          [
+            "month",
+            0.031123
+          ],
+          [
+            "utterly",
+            0.028298
+          ],
+          [
+            "settings",
+            0.022016
+          ],
+          [
+            "r",
+            0.021901
+          ],
+          [
+            "plan",
+            0.02075
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "scam",
+            -0.005142
+          ],
+          [
+            "poor",
+            -0.002129
+          ],
+          [
+            "especially",
+            0.001171
+          ],
+          [
+            "large",
+            0.000905
+          ],
+          [
+            "getting",
+            0.000755
+          ],
+          [
+            "poorly",
+            -0.000689
+          ],
+          [
+            "free",
+            0.000674
+          ],
+          [
+            "utterly",
+            0.000455
+          ],
+          [
+            "stars",
+            0.00044
+          ],
+          [
+            "cost",
+            -0.000404
+          ],
+          [
+            "plan",
+            0.000397
+          ],
+          [
+            "options",
+            -0.000397
+          ],
+          [
+            "extremely",
+            -0.000375
+          ],
+          [
+            "month",
+            0.000362
+          ],
+          [
+            "pocoyo",
+            0.000308
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18499347567558289,
+          "max": 0.9999986290931702,
+          "std": 0.3159315884113312
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Shockingly bad experience. App and module downloads do nothing except to beg for a costly (but poor value) monthly subscription. Talk about dark pattern marketing! But hey it's the Google way.",
+        "word_count": 31,
+        "interface_pos": 0.0091,
+        "interface_neg": 0.9667,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Image",
+        "top_k_tokens": "▁subscription, ▁experience, ▁hey",
+        "p_orig": 0.012383019551634789,
+        "p_img": 0.005725033115595579,
+        "delta_p_img": 0.006657986436039209,
+        "gradcam_mean": 0.3187251091003418,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Icon, Text",
+        "delta_p_img_shap": 0.008582948707044125,
+        "word_attention_top15": [
+          [
+            "subscription",
+            0.15635
+          ],
+          [
+            "experience",
+            0.136314
+          ],
+          [
+            "marketing",
+            0.072924
+          ],
+          [
+            "hey",
+            0.072535
+          ],
+          [
+            "value",
+            0.06278
+          ],
+          [
+            "costly",
+            0.060122
+          ],
+          [
+            "pattern",
+            0.053133
+          ],
+          [
+            "beg",
+            0.049692
+          ],
+          [
+            "downloads",
+            0.046865
+          ],
+          [
+            "poor",
+            0.043218
+          ],
+          [
+            "talk",
+            0.042492
+          ],
+          [
+            "shockingly",
+            0.041402
+          ],
+          [
+            "module",
+            0.036328
+          ],
+          [
+            "bad",
+            0.034392
+          ],
+          [
+            "except",
+            0.027862
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.006001
+          ],
+          [
+            "costly",
+            -0.00401
+          ],
+          [
+            "poor",
+            -0.003535
+          ],
+          [
+            "value",
+            0.002769
+          ],
+          [
+            "subscription",
+            0.002494
+          ],
+          [
+            "experience",
+            0.001902
+          ],
+          [
+            "talk",
+            0.001174
+          ],
+          [
+            "monthly",
+            0.00111
+          ],
+          [
+            "shockingly",
+            -0.000632
+          ],
+          [
+            "downloads",
+            -0.000602
+          ],
+          [
+            "marketing",
+            0.000578
+          ],
+          [
+            "hey",
+            0.000357
+          ],
+          [
+            "beg",
+            0.000346
+          ],
+          [
+            "module",
+            -0.000197
+          ],
+          [
+            "pattern",
+            -0.000195
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19047017395496368,
+          "max": 0.999998927116394,
+          "std": 0.32510027289390564
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 99% confidence.",
+      "simple": "This screen was classified as bad with 99% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of P' House (category: Entertainment) was classified as bad with 99% confidence (with high confidence). The model focused on a small Icon at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.pocoyo.house",
+    "screen_id": "65668",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\65668.jpg",
+    "text": "I Could't even do anything there was Nothing to do and im not old btw lol This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could g",
+    "prediction": 0.0019230482866987586,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9980769517133012,
+    "gradcam_stats": {
+      "mean": 0.43566784262657166,
+      "max": 1.0,
+      "std": 0.2575015127658844
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I Could't even do anything there was Nothing to do and im not old btw lol",
+      "This game is such a scam if you plan on getting it for your little one don't its graphics are extremely poor most images or backgrounds are of poorly rendered copy pictures off of Google most of the game cost money it gives you three options that are free and the rest including parental settings cost you to pay for premium which cost R 149.99 a month which is a scam based off of how utterly poor the game looks if I could give this 0 stars I would Especially because pocoyo is such a large title",
+      "Horrible coded app, paywall at every corner for free content, definitely dont recommend. Idk whats up with all these kid apps with paywalls and ads. Stupid.",
+      "Why does.everything cost money except show draw and stickers. If you want more people downloading your app then maybe you should make stuff for not moneys I had a sandbox once and everything was locked on it too so I deleted it and honestly I forgot what it was called please fix",
+      "Problem with payments, each time my payment gets accepted and after few days it tells me i have a refund and it stops opening all the videos. I cant open an account because it simply wont let me. We have almost apps witg pocoyo but this one is frustrating so far"
+    ],
+    "app_name": "P' House",
+    "category": "Entertainment",
+    "faithfulness": {},
+    "top_components_ablated": [],
+    "top_components": [],
+    "components_full_ranked": []
+  }
+]

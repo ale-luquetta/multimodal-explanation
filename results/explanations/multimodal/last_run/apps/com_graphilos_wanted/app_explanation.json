@@ -1,0 +1,368 @@
+{
+  "package_name": "com.graphilos.wanted",
+  "num_screens": 6,
+  "app_score": 0.02967352295915286,
+  "app_prediction": "bad",
+  "app_confidence": 0.9703264770408472,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0015397369861602783,
+    0.0017848671413958073,
+    0.10857144743204117,
+    0.05688675493001938,
+    0.003586172591894865,
+    0.005672158673405647
+  ],
+  "prediction_variance": 0.0016318908089477443,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_graphilos_wanted\\com_graphilos_wanted_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.graphilos.wanted was predicted as bad with average confidence 97% across 6 screens.",
+    "simple": "com.graphilos.wanted was predicted as bad with average confidence 97% across 6 screens. Across these screens, the model frequently emphasized Icon components.",
+    "detailed": "com.graphilos.wanted was predicted as bad with average confidence 97% across 6 screens. Across these screens, the model frequently emphasized Icon components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Icon (7x), Text (5x), Background Image (2x). The most influential review words across screens were 'picture', 'don't time', 'take', 'another', and 'can't tell'. The app belongs to the Entertainment category and was analyzed across 6 screens."
+  },
+  "representative_screen": {
+    "screen_id": "19560",
+    "review_rank": 0,
+    "delta_p_img": 0.23949870467185974,
+    "confidence": 0.8914285525679588,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19560.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "picture",
+      4.889497
+    ],
+    [
+      "don't time",
+      2.228783
+    ],
+    [
+      "take",
+      1.882963
+    ],
+    [
+      "another",
+      1.516347
+    ],
+    [
+      "can't tell",
+      1.380048
+    ],
+    [
+      "upside",
+      1.336
+    ],
+    [
+      "not let",
+      1.259439
+    ],
+    [
+      "modify",
+      1.084486
+    ],
+    [
+      "picked",
+      0.968708
+    ],
+    [
+      "facing",
+      0.909683
+    ],
+    [
+      "cant",
+      0.865314
+    ],
+    [
+      "galery",
+      0.838082
+    ],
+    [
+      "always",
+      0.75977
+    ],
+    [
+      "zooms",
+      0.744959
+    ],
+    [
+      "whenever",
+      0.69367
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "don't time",
+      -0.161456
+    ],
+    [
+      "always",
+      0.107347
+    ],
+    [
+      "cant",
+      -0.090694
+    ],
+    [
+      "bad",
+      -0.084392
+    ],
+    [
+      "not let",
+      -0.078834
+    ],
+    [
+      "right",
+      0.073954
+    ],
+    [
+      "whenever",
+      -0.045324
+    ],
+    [
+      "position",
+      -0.042896
+    ],
+    [
+      "looked",
+      -0.040537
+    ],
+    [
+      "facing",
+      -0.039723
+    ],
+    [
+      "crashed",
+      -0.036342
+    ],
+    [
+      "comes",
+      -0.035969
+    ],
+    [
+      "picture",
+      -0.035624
+    ],
+    [
+      "try",
+      0.033632
+    ],
+    [
+      "crashing",
+      -0.027938
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "don't time",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": -0.161456,
+      "in_both": true
+    },
+    {
+      "word": "not let",
+      "rrf_score": 0.03031,
+      "rank_bahdanau": 7,
+      "rank_shap": 5,
+      "shap_signed": -0.078834,
+      "in_both": true
+    },
+    {
+      "word": "picture",
+      "rrf_score": 0.030092,
+      "rank_bahdanau": 1,
+      "rank_shap": 13,
+      "shap_signed": -0.035624,
+      "in_both": true
+    },
+    {
+      "word": "cant",
+      "rrf_score": 0.029958,
+      "rank_bahdanau": 11,
+      "rank_shap": 3,
+      "shap_signed": -0.090694,
+      "in_both": true
+    },
+    {
+      "word": "always",
+      "rrf_score": 0.029828,
+      "rank_bahdanau": 13,
+      "rank_shap": 2,
+      "shap_signed": 0.107347,
+      "in_both": true
+    },
+    {
+      "word": "facing",
+      "rrf_score": 0.028571,
+      "rank_bahdanau": 10,
+      "rank_shap": 10,
+      "shap_signed": -0.039723,
+      "in_both": true
+    },
+    {
+      "word": "whenever",
+      "rrf_score": 0.028259,
+      "rank_bahdanau": 15,
+      "rank_shap": 7,
+      "shap_signed": -0.045324,
+      "in_both": true
+    },
+    {
+      "word": "take",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "bad",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.084392,
+      "in_both": false
+    },
+    {
+      "word": "another",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "can't tell",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "right",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.073954,
+      "in_both": false
+    },
+    {
+      "word": "upside",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "position",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.042896,
+      "in_both": false
+    },
+    {
+      "word": "modify",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 0,
+      "text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 7,
+      "text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 8,
+      "text": "It sucked when I took a picture it rotated and it did not let me take another one"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 4,
+      "text": "The app crashed and we cant modify the size and the position of a picture picked in the galery"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 2,
+      "text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "picture",
+      4.889497
+    ],
+    [
+      "don't time",
+      2.228783
+    ],
+    [
+      "take",
+      1.882963
+    ],
+    [
+      "another",
+      1.516347
+    ],
+    [
+      "can't tell",
+      1.380048
+    ],
+    [
+      "upside",
+      1.336
+    ],
+    [
+      "not let",
+      1.259439
+    ],
+    [
+      "modify",
+      1.084486
+    ],
+    [
+      "picked",
+      0.968708
+    ],
+    [
+      "facing",
+      0.909683
+    ],
+    [
+      "cant",
+      0.865314
+    ],
+    [
+      "galery",
+      0.838082
+    ],
+    [
+      "always",
+      0.75977
+    ],
+    [
+      "zooms",
+      0.744959
+    ],
+    [
+      "whenever",
+      0.69367
+    ]
+  ]
+}

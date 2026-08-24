@@ -1,0 +1,370 @@
+{
+  "package_name": "com.kauf.sticker.funfacechangerphotostudio",
+  "num_screens": 8,
+  "app_score": 0.012528079449111829,
+  "app_prediction": "bad",
+  "app_confidence": 0.9874719205508882,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0018675518222153187,
+    0.026847127825021744,
+    0.006011500488966703,
+    0.023480724543333054,
+    0.02995568886399269,
+    0.009336053393781185,
+    0.00024642611970193684,
+    0.002479562535881996
+  ],
+  "prediction_variance": 0.0001308538165617589,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_kauf_sticker_funfacechangerphotostudio\\com_kauf_sticker_funfacechangerphotostudio_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.kauf.sticker.funfacechangerphotostudio was labeled as bad with average confidence 99% across 8 screens.",
+    "simple": "com.kauf.sticker.funfacechangerphotostudio was labeled as bad with average confidence 99% across 8 screens. Across these screens, the model consistently focused on Image components.",
+    "detailed": "com.kauf.sticker.funfacechangerphotostudio was labeled as bad with average confidence 99% across 8 screens. Across these screens, the model consistently focused on Image components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Image (8x), Text Button (6x), Icon (5x). The most influential review words across screens were 'rubbish', 'stupid', 'don't download', 'can't play', and 'doesn't say'. The app belongs to the Entertainment category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "67317",
+    "review_rank": 1,
+    "delta_p_img": 0.03034464828670025,
+    "confidence": 0.9906639466062188,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67317.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "rubbish",
+      2.797502
+    ],
+    [
+      "stupid",
+      2.573426
+    ],
+    [
+      "don't download",
+      2.531537
+    ],
+    [
+      "can't play",
+      1.976894
+    ],
+    [
+      "doesn't say",
+      1.651668
+    ],
+    [
+      "can't skip",
+      1.553881
+    ],
+    [
+      "game",
+      1.517416
+    ],
+    [
+      "dont makers",
+      1.138788
+    ],
+    [
+      "broadband",
+      0.93008
+    ],
+    [
+      "downlowd",
+      0.867208
+    ],
+    [
+      "forse",
+      0.844396
+    ],
+    [
+      "cant",
+      0.834368
+    ],
+    [
+      "want",
+      0.809697
+    ],
+    [
+      "dont",
+      0.808376
+    ],
+    [
+      "open",
+      0.805988
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "rubbish",
+      -0.187246
+    ],
+    [
+      "can't skip",
+      0.171497
+    ],
+    [
+      "ad",
+      -0.07805
+    ],
+    [
+      "infested",
+      -0.076651
+    ],
+    [
+      "broadband",
+      0.070994
+    ],
+    [
+      "can't play",
+      -0.07019
+    ],
+    [
+      "avoid",
+      -0.069489
+    ],
+    [
+      "wont",
+      -0.067983
+    ],
+    [
+      "dont makers",
+      -0.060753
+    ],
+    [
+      "virgin",
+      0.051543
+    ],
+    [
+      "stupid",
+      -0.04234
+    ],
+    [
+      "don't download",
+      -0.036768
+    ],
+    [
+      "can't adjust",
+      -0.028526
+    ],
+    [
+      "able",
+      0.027788
+    ],
+    [
+      "advert",
+      -0.025084
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "rubbish",
+      "rrf_score": 0.032787,
+      "rank_bahdanau": 1,
+      "rank_shap": 1,
+      "shap_signed": -0.187246,
+      "in_both": true
+    },
+    {
+      "word": "can't skip",
+      "rrf_score": 0.031281,
+      "rank_bahdanau": 6,
+      "rank_shap": 2,
+      "shap_signed": 0.171497,
+      "in_both": true
+    },
+    {
+      "word": "can't play",
+      "rrf_score": 0.030777,
+      "rank_bahdanau": 4,
+      "rank_shap": 6,
+      "shap_signed": -0.07019,
+      "in_both": true
+    },
+    {
+      "word": "stupid",
+      "rrf_score": 0.030214,
+      "rank_bahdanau": 2,
+      "rank_shap": 11,
+      "shap_signed": -0.04234,
+      "in_both": true
+    },
+    {
+      "word": "broadband",
+      "rrf_score": 0.029877,
+      "rank_bahdanau": 9,
+      "rank_shap": 5,
+      "shap_signed": 0.070994,
+      "in_both": true
+    },
+    {
+      "word": "don't download",
+      "rrf_score": 0.029762,
+      "rank_bahdanau": 3,
+      "rank_shap": 12,
+      "shap_signed": -0.036768,
+      "in_both": true
+    },
+    {
+      "word": "dont makers",
+      "rrf_score": 0.029199,
+      "rank_bahdanau": 8,
+      "rank_shap": 9,
+      "shap_signed": -0.060753,
+      "in_both": true
+    },
+    {
+      "word": "ad",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.07805,
+      "in_both": false
+    },
+    {
+      "word": "infested",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.076651,
+      "in_both": false
+    },
+    {
+      "word": "doesn't say",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "avoid",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": -0.069489,
+      "in_both": false
+    },
+    {
+      "word": "game",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "wont",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.067983,
+      "in_both": false
+    },
+    {
+      "word": "downlowd",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": 10,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "virgin",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": null,
+      "rank_shap": 10,
+      "shap_signed": 0.051543,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 0,
+      "text": "This application Bad horrible app fun face changer I can't even adjust the face nose 👃 on To the face parts it's is not easy for Me it's a challenge it's hard to manage this accurate for me sorry 😔😔😐 Don't install badass mean application keep messing screwing things up For me.sorry this application is not available Androids devices it's not Fun for us I give it a 2-1🌟🌟🌟 not expecting What I exactly what I un expected Right items on to the face"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": -1,
+      "text": "Ad infested rubbish. There's even a video advert for virgin media broadband that you can't skip. Avoid like the plague."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": -1,
+      "text": "This app is stupid don't download it!  It has way way to many adds! U cant even tell what is the app dont get it the makers are stupid!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": -1,
+      "text": "I download this game and then it says install and I can't even play the game because it doesn't say open. It is just a  STUPID STUPID STUPID STUPID GAME."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "rubbish because it keeps forse closing if you want to downlowd this app, then dont! it will forse close all the time and wont be able to do what you want listen to me okay! its RUBBISH"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "rubbish",
+      2.797502
+    ],
+    [
+      "stupid",
+      2.573426
+    ],
+    [
+      "don't download",
+      2.531537
+    ],
+    [
+      "can't play",
+      1.976894
+    ],
+    [
+      "doesn't say",
+      1.651668
+    ],
+    [
+      "can't skip",
+      1.553881
+    ],
+    [
+      "game",
+      1.517416
+    ],
+    [
+      "dont makers",
+      1.138788
+    ],
+    [
+      "broadband",
+      0.93008
+    ],
+    [
+      "downlowd",
+      0.867208
+    ],
+    [
+      "forse",
+      0.844396
+    ],
+    [
+      "cant",
+      0.834368
+    ],
+    [
+      "want",
+      0.809697
+    ],
+    [
+      "dont",
+      0.808376
+    ],
+    [
+      "open",
+      0.805988
+    ]
+  ]
+}

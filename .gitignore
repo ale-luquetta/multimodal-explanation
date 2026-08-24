@@ -47,11 +47,6 @@ models/**/*.ckpt
 # Results 
 results/**/*.png
 results/**/*.jpg
-results/**/*.npy
-results/**/*.pkl
-results/**/*.csv
-results/**/*.json
-results/**/*.log
 !results/**/.gitkeep
 
 # Logs

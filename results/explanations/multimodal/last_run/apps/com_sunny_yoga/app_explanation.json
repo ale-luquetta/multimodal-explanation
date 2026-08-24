@@ -1,0 +1,366 @@
+{
+  "package_name": "com.sunny.yoga",
+  "num_screens": 4,
+  "app_score": 0.9318418353796005,
+  "app_prediction": "good",
+  "app_confidence": 0.9318418353796005,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.8920624256134033,
+    0.9586614370346069,
+    0.9468376040458679,
+    0.9298058748245239
+  ],
+  "prediction_variance": 0.0006326776718885707,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_sunny_yoga\\com_sunny_yoga_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.sunny.yoga was classified as good with average confidence 93% across 4 screens.",
+    "simple": "com.sunny.yoga was classified as good with average confidence 93% across 4 screens. Across these screens, the model recurringly attended to Text Button components.",
+    "detailed": "com.sunny.yoga was classified as good with average confidence 93% across 4 screens. Across these screens, the model recurringly attended to Text Button components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text Button (7x), Text (2x), Image (2x). The most influential review words across screens were 'great', 'yoga', 'convenient', 'poses', and 'place'. The app belongs to the Health & Fitness category and was analyzed across 4 screens."
+  },
+  "representative_screen": {
+    "screen_id": "18752",
+    "review_rank": 4,
+    "delta_p_img": 0.36812663078308105,
+    "confidence": 0.9298058748245239,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\18752.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "great",
+      1.299745
+    ],
+    [
+      "yoga",
+      0.642599
+    ],
+    [
+      "convenient",
+      0.504938
+    ],
+    [
+      "poses",
+      0.481389
+    ],
+    [
+      "place",
+      0.457623
+    ],
+    [
+      "step-by-step",
+      0.385564
+    ],
+    [
+      "pose",
+      0.381118
+    ],
+    [
+      "flow'...vs",
+      0.354176
+    ],
+    [
+      "pace",
+      0.311867
+    ],
+    [
+      "ever...even",
+      0.303693
+    ],
+    [
+      "years",
+      0.296247
+    ],
+    [
+      "excercise",
+      0.291421
+    ],
+    [
+      "books",
+      0.2734
+    ],
+    [
+      "intuitive",
+      0.245997
+    ],
+    [
+      "new",
+      0.242067
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "great",
+      0.943755
+    ],
+    [
+      "yoga",
+      0.305447
+    ],
+    [
+      "love",
+      0.296964
+    ],
+    [
+      "convenient",
+      0.24831
+    ],
+    [
+      "best",
+      0.194851
+    ],
+    [
+      "plenty",
+      0.18516
+    ],
+    [
+      "makes",
+      0.15882
+    ],
+    [
+      "pose",
+      0.156874
+    ],
+    [
+      "tells",
+      0.140857
+    ],
+    [
+      "new",
+      0.139236
+    ],
+    [
+      "motivated",
+      0.129291
+    ],
+    [
+      "enjoying",
+      0.127293
+    ],
+    [
+      "allows",
+      0.126774
+    ],
+    [
+      "step-by-step",
+      0.126221
+    ],
+    [
+      "years",
+      -0.123638
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "great",
+      "rrf_score": 0.032787,
+      "rank_bahdanau": 1,
+      "rank_shap": 1,
+      "shap_signed": 0.943755,
+      "in_both": true
+    },
+    {
+      "word": "yoga",
+      "rrf_score": 0.032258,
+      "rank_bahdanau": 2,
+      "rank_shap": 2,
+      "shap_signed": 0.305447,
+      "in_both": true
+    },
+    {
+      "word": "convenient",
+      "rrf_score": 0.031498,
+      "rank_bahdanau": 3,
+      "rank_shap": 4,
+      "shap_signed": 0.24831,
+      "in_both": true
+    },
+    {
+      "word": "pose",
+      "rrf_score": 0.029631,
+      "rank_bahdanau": 7,
+      "rank_shap": 8,
+      "shap_signed": 0.156874,
+      "in_both": true
+    },
+    {
+      "word": "step-by-step",
+      "rrf_score": 0.028665,
+      "rank_bahdanau": 6,
+      "rank_shap": 14,
+      "shap_signed": 0.126221,
+      "in_both": true
+    },
+    {
+      "word": "new",
+      "rrf_score": 0.027619,
+      "rank_bahdanau": 15,
+      "rank_shap": 10,
+      "shap_signed": 0.139236,
+      "in_both": true
+    },
+    {
+      "word": "years",
+      "rrf_score": 0.027418,
+      "rank_bahdanau": 11,
+      "rank_shap": 15,
+      "shap_signed": -0.123638,
+      "in_both": true
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.296964,
+      "in_both": false
+    },
+    {
+      "word": "poses",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "place",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.194851,
+      "in_both": false
+    },
+    {
+      "word": "plenty",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.18516,
+      "in_both": false
+    },
+    {
+      "word": "makes",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.15882,
+      "in_both": false
+    },
+    {
+      "word": "flow'...vs",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "tells",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.140857,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 13,
+      "text": "Excellent app! This has been an awesome introduction to yoga for me, it's private, at your own pace, peaceful, engaging! The UI is super easy and intuitive, really a blessing! For anyone wanting to get into yoga it's a great no pressure place to start that also helps to keep you on track with a schedule. I HIGHLY recommended it!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 1,
+      "text": "I'm really enjoying using this app. It makes doing yoga very convenient, and let's face it, it's way more likely that you'll form a new habit if you make out convenient. The routines that I've tried so far are great. It's been a few months and I am so grateful for this app! It really makes yoga accessible. I like that I can look over the poses in each routine and select what I feel suits my needs and energy level for the day."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 12,
+      "text": "Really good app. Comes with videos and step-by-step instructions on individual poses, including advanced techniques, and it even tells you when you shouldn't do certain poses (which a doctor will probably recommend studying before doing the complete excercise), and you can see all of this just by tapping on whatever pose after picking a class to either browse or are interested in doing it. I'd say this is a well rounded and complete app as the classes cover just about everything. 5 stars!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 14,
+      "text": "I think this application is great. Update. It has been 4 years since i downloaded this app and i still love it. I have recommended this app to numerous of my friends who have found it useful to learn or practice yoga. I am looking forward to any new trainings that they put out . It allows you to kearn the new pay workouts through earning points by using the options available! Such a great idea! And the routines are great for all levels! Work you way up. Update 6.5 years. Love it even more!!!"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 7,
+      "text": "I've been doing yoga on and off for 15 years or so. I've always used videos and books. This app can take their place! Mostly I like the timing on each pose, plenty to get set, 'hold feel, flow'...vs \"flip flop criss cross too fast' by many way more limber models than I. Reminders are great! Best yoga app ever...even motivated my procrastinator wife!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "great",
+      1.299745
+    ],
+    [
+      "yoga",
+      0.642599
+    ],
+    [
+      "convenient",
+      0.504938
+    ],
+    [
+      "poses",
+      0.481389
+    ],
+    [
+      "place",
+      0.457623
+    ],
+    [
+      "step-by-step",
+      0.385564
+    ],
+    [
+      "pose",
+      0.381118
+    ],
+    [
+      "flow'...vs",
+      0.354176
+    ],
+    [
+      "pace",
+      0.311867
+    ],
+    [
+      "ever...even",
+      0.303693
+    ],
+    [
+      "years",
+      0.296247
+    ],
+    [
+      "excercise",
+      0.291421
+    ],
+    [
+      "books",
+      0.2734
+    ],
+    [
+      "intuitive",
+      0.245997
+    ],
+    [
+      "new",
+      0.242067
+    ]
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "package_name": "com.collectorz.javamobile.android.comics",
+  "num_screens": 8,
+  "app_score": 0.9778883382678032,
+  "app_prediction": "good",
+  "app_confidence": 0.9778883382678032,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9822676777839661,
+    0.9756485819816589,
+    0.9898335933685303,
+    0.9525049328804016,
+    0.9803792238235474,
+    0.9843899607658386,
+    0.9842020273208618,
+    0.9738807082176208
+  ],
+  "prediction_variance": 0.00011445011066729682,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_collectorz_javamobile_android_comics\\com_collectorz_javamobile_android_comics_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.collectorz.javamobile.android.comics was predicted as good with average confidence 98% across 8 screens.",
+    "simple": "com.collectorz.javamobile.android.comics was predicted as good with average confidence 98% across 8 screens. Across these screens, the model frequently emphasized Text components.",
+    "detailed": "com.collectorz.javamobile.android.comics was predicted as good with average confidence 98% across 8 screens. Across these screens, the model frequently emphasized Text components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text (10x), Icon (4x), Text Button (4x). The most influential review words across screens were 'comics', 'great', 'clz', 'collection', and 'covers'. The app belongs to the Comics category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "3933",
+    "review_rank": 4,
+    "delta_p_img": 0.6341554224491119,
+    "confidence": 0.9756485819816589,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\3933.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "comics",
+      1.343926
+    ],
+    [
+      "great",
+      1.102546
+    ],
+    [
+      "clz",
+      1.028872
+    ],
+    [
+      "collection",
+      0.8257
+    ],
+    [
+      "covers",
+      0.784732
+    ],
+    [
+      "not clz",
+      0.762647
+    ],
+    [
+      "omnibus",
+      0.733538
+    ],
+    [
+      "read",
+      0.711692
+    ],
+    [
+      "worth",
+      0.701507
+    ],
+    [
+      "overall",
+      0.645819
+    ],
+    [
+      "collections",
+      0.626047
+    ],
+    [
+      "support",
+      0.61956
+    ],
+    [
+      "perfect",
+      0.594969
+    ],
+    [
+      "charge",
+      0.59369
+    ],
+    [
+      "must",
+      0.5882
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "great",
+      0.946788
+    ],
+    [
+      "highly",
+      0.832247
+    ],
+    [
+      "worth",
+      0.486849
+    ],
+    [
+      "prompt",
+      0.369407
+    ],
+    [
+      "safe",
+      0.32846
+    ],
+    [
+      "amazing",
+      0.326471
+    ],
+    [
+      "provides",
+      0.322804
+    ],
+    [
+      "tons",
+      0.314998
+    ],
+    [
+      "love",
+      0.290027
+    ],
+    [
+      "overall",
+      0.280396
+    ],
+    [
+      "collection",
+      0.273855
+    ],
+    [
+      "thanks",
+      0.262673
+    ],
+    [
+      "must",
+      0.250373
+    ],
+    [
+      "better",
+      0.225557
+    ],
+    [
+      "perfect",
+      0.219496
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "great",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": 0.946788,
+      "in_both": true
+    },
+    {
+      "word": "worth",
+      "rrf_score": 0.030366,
+      "rank_bahdanau": 9,
+      "rank_shap": 3,
+      "shap_signed": 0.486849,
+      "in_both": true
+    },
+    {
+      "word": "collection",
+      "rrf_score": 0.02971,
+      "rank_bahdanau": 4,
+      "rank_shap": 11,
+      "shap_signed": 0.273855,
+      "in_both": true
+    },
+    {
+      "word": "overall",
+      "rrf_score": 0.028571,
+      "rank_bahdanau": 10,
+      "rank_shap": 10,
+      "shap_signed": 0.280396,
+      "in_both": true
+    },
+    {
+      "word": "must",
+      "rrf_score": 0.027032,
+      "rank_bahdanau": 15,
+      "rank_shap": 13,
+      "shap_signed": 0.250373,
+      "in_both": true
+    },
+    {
+      "word": "perfect",
+      "rrf_score": 0.027032,
+      "rank_bahdanau": 13,
+      "rank_shap": 15,
+      "shap_signed": 0.219496,
+      "in_both": true
+    },
+    {
+      "word": "comics",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "highly",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": 0.832247,
+      "in_both": false
+    },
+    {
+      "word": "clz",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "prompt",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.369407,
+      "in_both": false
+    },
+    {
+      "word": "safe",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.32846,
+      "in_both": false
+    },
+    {
+      "word": "covers",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not clz",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "amazing",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.326471,
+      "in_both": false
+    },
+    {
+      "word": "provides",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.322804,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 5,
+      "text": "Great app and even better customer support. I have been using the app to catalog my close to 1500 comics for the last 3 years and it makes it simple when I am out to be able to know what I have and what I am looking for. I just recently signed up for Covrprice which works in conjunction with CLZ to give you values of your raw and graded comics. It also gives you pricing if you are looking at comics out in the wild. Customer support is very prompt at resolving any issues or questions u may ha"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 2,
+      "text": "I love it. I've been an annual member for 3.5 years now and plan on continuing to use it. The updates we get are great! Thanks to CLZ, my comic book (and graphic novel / Omnibus) collection is so easy to catalog! I can keep track of everything I've got on order and have sold, as well as make a Wish List! The features just keep growing. I gladly paid the $4 annual charge increase, knowing that my collection is in safe hands. Thanks again CLZ!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 8,
+      "text": "You would be foolish not to use CLZ. This app is perfect for keeping track of your collection and what you have read, and the customization options are countless. Using CLZ has been an absolute game changer for me (not an overstatement, I promise), and it has been years since I ended up with a dreaded duplicate book or anything like that. Highly recommend!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 9,
+      "text": "This app is Amazing! If you are a comic collector this app is a must have. The annual charge is completely worth it. You can have your entire collection saved in the app along with pictures of the covers. It also shows ALL of the variants so you can pick and choose the ones you want to collect. You can when add comics or variants that might not be on the app due to their rarity or newness."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 16,
+      "text": "Overall great app, worth the price (especially for larger collections)! I love that I no longer have to maintain my own spreadsheet. Provides tons of information, saving me weeks of research to prepare for cons. However, I'd like to see more consistency of the \"Contributor\" information to prevent duplicate entries (i.e. Jon vs Jonathan). Also, I don't like how all the variant artists are being listed in each variant instead of just their cover. Overall great app, worth the price."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "comics",
+      1.343926
+    ],
+    [
+      "great",
+      1.102546
+    ],
+    [
+      "clz",
+      1.028872
+    ],
+    [
+      "collection",
+      0.8257
+    ],
+    [
+      "covers",
+      0.784732
+    ],
+    [
+      "not clz",
+      0.762647
+    ],
+    [
+      "omnibus",
+      0.733538
+    ],
+    [
+      "read",
+      0.711692
+    ],
+    [
+      "worth",
+      0.701507
+    ],
+    [
+      "overall",
+      0.645819
+    ],
+    [
+      "collections",
+      0.626047
+    ],
+    [
+      "support",
+      0.61956
+    ],
+    [
+      "perfect",
+      0.594969
+    ],
+    [
+      "charge",
+      0.59369
+    ],
+    [
+      "must",
+      0.5882
+    ]
+  ]
+}

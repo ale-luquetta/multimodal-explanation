@@ -1,0 +1,5249 @@
+[
+  {
+    "package_name": "com.dbd.ghosttalk",
+    "screen_id": "32983",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\32983.jpg",
+    "text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app! This is horrible ,it was just my voice slowed down",
+    "prediction": 0.0031563923694193363,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9968436076305807,
+    "gradcam_stats": {
+      "mean": 0.4248344898223877,
+      "max": 1.0,
+      "std": 0.19711820781230927
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+      "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+      "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+      "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+      "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good."
+    ],
+    "app_name": "Ghost Talk",
+    "category": "Music & Audio",
+    "faithfulness": {
+      "p_orig": 0.0031535911839455366,
+      "p_img": 0.0054254247806966305,
+      "delta_p_img": 0.002271833596751094
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          36,
+          109,
+          67,
+          116
+        ],
+        "bounds_rico": [
+          237,
+          1253,
+          436,
+          1329
+        ],
+        "score_total": 179.15638732910156,
+        "score_mean": 0.82560547156268
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          11,
+          93,
+          73,
+          99
+        ],
+        "bounds_rico": [
+          71,
+          1070,
+          472,
+          1132
+        ],
+        "score_total": 276.28094482421875,
+        "score_mean": 0.7426907118930611
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          36,
+          81,
+          64,
+          88
+        ],
+        "bounds_rico": [
+          237,
+          935,
+          414,
+          1011
+        ],
+        "score_total": 142.78851318359375,
+        "score_mean": 0.7285128223652743
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 179.15638732910156,
+        "score_mean": 0.82560547156268,
+        "bounds_image": [
+          36,
+          109,
+          67,
+          116
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 276.28094482421875,
+        "score_mean": 0.7426907118930611,
+        "bounds_image": [
+          11,
+          93,
+          73,
+          99
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 142.78851318359375,
+        "score_mean": 0.7285128223652743,
+        "bounds_image": [
+          36,
+          81,
+          64,
+          88
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 179.15638732910156,
+        "score_mean": 0.82560547156268,
+        "bounds_image": [
+          36,
+          109,
+          67,
+          116
+        ],
+        "bounds_rico": [
+          237,
+          1253,
+          436,
+          1329
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 276.28094482421875,
+        "score_mean": 0.7426907118930611,
+        "bounds_image": [
+          11,
+          93,
+          73,
+          99
+        ],
+        "bounds_rico": [
+          71,
+          1070,
+          472,
+          1132
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 142.78851318359375,
+        "score_mean": 0.7285128223652743,
+        "bounds_image": [
+          36,
+          81,
+          64,
+          88
+        ],
+        "bounds_rico": [
+          237,
+          935,
+          414,
+          1011
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Slider",
+        "score_total": 383.4456787109375,
+        "score_mean": 0.6971739612926137,
+        "bounds_image": [
+          2,
+          71,
+          112,
+          76
+        ],
+        "bounds_rico": [
+          18,
+          814,
+          720,
+          877
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 217.760009765625,
+        "score_mean": 0.6847799049233491,
+        "bounds_image": [
+          11,
+          65,
+          64,
+          71
+        ],
+        "bounds_rico": [
+          71,
+          752,
+          417,
+          814
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Input",
+        "score_total": 141.12509155273438,
+        "score_mean": 0.6784860170804538,
+        "bounds_image": [
+          5,
+          81,
+          31,
+          89
+        ],
+        "bounds_rico": [
+          36,
+          926,
+          202,
+          1021
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 131.63868713378906,
+        "score_mean": 0.6484664390827047,
+        "bounds_image": [
+          36,
+          42,
+          65,
+          49
+        ],
+        "bounds_rico": [
+          237,
+          484,
+          424,
+          560
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Input",
+        "score_total": 144.5532684326172,
+        "score_mean": 0.6177490103958,
+        "bounds_image": [
+          5,
+          108,
+          31,
+          117
+        ],
+        "bounds_rico": [
+          36,
+          1244,
+          202,
+          1339
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Slider",
+        "score_total": 656.6390991210938,
+        "score_mean": 0.59967041015625,
+        "bounds_image": [
+          2,
+          99,
+          221,
+          104
+        ],
+        "bounds_rico": [
+          18,
+          1132,
+          1422,
+          1195
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Input",
+        "score_total": 122.74311828613281,
+        "score_mean": 0.5901111456064078,
+        "bounds_image": [
+          5,
+          41,
+          31,
+          49
+        ],
+        "bounds_rico": [
+          36,
+          475,
+          202,
+          570
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text Button",
+        "score_total": 700.9366455078125,
+        "score_mean": 0.56164795313126,
+        "bounds_image": [
+          5,
+          132,
+          109,
+          144
+        ],
+        "bounds_rico": [
+          36,
+          1512,
+          702,
+          1652
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 142.89004516601562,
+        "score_mean": 0.5371806209248707,
+        "bounds_image": [
+          36,
+          31,
+          74,
+          38
+        ],
+        "bounds_rico": [
+          237,
+          361,
+          481,
+          437
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 51.682167053222656,
+        "score_mean": 0.5273690515634964,
+        "bounds_image": [
+          11,
+          120,
+          25,
+          127
+        ],
+        "bounds_rico": [
+          71,
+          1376,
+          162,
+          1452
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 198.7237548828125,
+        "score_mean": 0.48706802667356003,
+        "bounds_image": [
+          120,
+          65,
+          188,
+          71
+        ],
+        "bounds_rico": [
+          773,
+          752,
+          1209,
+          814
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Input",
+        "score_total": 111.904296875,
+        "score_mean": 0.4782234909188034,
+        "bounds_image": [
+          5,
+          30,
+          31,
+          39
+        ],
+        "bounds_rico": [
+          36,
+          352,
+          202,
+          447
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text Button",
+        "score_total": 590.3460693359375,
+        "score_mean": 0.4730337094037961,
+        "bounds_image": [
+          5,
+          147,
+          109,
+          159
+        ],
+        "bounds_rico": [
+          36,
+          1688,
+          702,
+          1828
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 47.28678512573242,
+        "score_mean": 0.42987986477938567,
+        "bounds_image": [
+          36,
+          22,
+          58,
+          27
+        ],
+        "bounds_rico": [
+          237,
+          259,
+          376,
+          314
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Slider",
+        "score_total": 230.54974365234375,
+        "score_mean": 0.4230270525731078,
+        "bounds_image": [
+          112,
+          71,
+          221,
+          76
+        ],
+        "bounds_rico": [
+          720,
+          814,
+          1422,
+          877
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text Button",
+        "score_total": 524.3668212890625,
+        "score_mean": 0.4201657221867488,
+        "bounds_image": [
+          5,
+          163,
+          109,
+          175
+        ],
+        "bounds_rico": [
+          36,
+          1864,
+          702,
+          2004
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Input",
+        "score_total": 58.55413818359375,
+        "score_mean": 0.3753470396384215,
+        "bounds_image": [
+          5,
+          22,
+          31,
+          28
+        ],
+        "bounds_rico": [
+          36,
+          259,
+          202,
+          324
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text Button",
+        "score_total": 452.83935546875,
+        "score_mean": 0.36285204765124196,
+        "bounds_image": [
+          5,
+          178,
+          109,
+          190
+        ],
+        "bounds_rico": [
+          36,
+          2040,
+          702,
+          2180
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text Button",
+        "score_total": 447.3302307128906,
+        "score_mean": 0.3584376848660983,
+        "bounds_image": [
+          114,
+          132,
+          218,
+          144
+        ],
+        "bounds_rico": [
+          738,
+          1512,
+          1404,
+          1652
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text Button",
+        "score_total": 442.3719482421875,
+        "score_mean": 0.35446470211713743,
+        "bounds_image": [
+          114,
+          163,
+          218,
+          175
+        ],
+        "bounds_rico": [
+          738,
+          1864,
+          1404,
+          2004
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text Button",
+        "score_total": 436.4117431640625,
+        "score_mean": 0.34968889676607573,
+        "bounds_image": [
+          114,
+          147,
+          218,
+          159
+        ],
+        "bounds_rico": [
+          738,
+          1688,
+          1404,
+          1828
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text Button",
+        "score_total": 397.0931701660156,
+        "score_mean": 0.31818362994071764,
+        "bounds_image": [
+          114,
+          178,
+          218,
+          190
+        ],
+        "bounds_rico": [
+          738,
+          2040,
+          1404,
+          2180
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Web View",
+        "score_total": 1020.6582641601562,
+        "score_mean": 0.303767340523856,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          259
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Text Button",
+        "score_total": 400.9993591308594,
+        "score_mean": 0.29659715912045814,
+        "bounds_image": [
+          5,
+          193,
+          109,
+          206
+        ],
+        "bounds_rico": [
+          36,
+          2216,
+          702,
+          2356
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Icon",
+        "score_total": 56.01079559326172,
+        "score_mean": 0.2679942372883336,
+        "bounds_image": [
+          202,
+          118,
+          221,
+          129
+        ],
+        "bounds_rico": [
+          1299,
+          1353,
+          1422,
+          1476
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Text Button",
+        "score_total": 329.42547607421875,
+        "score_mean": 0.24365789650459968,
+        "bounds_image": [
+          114,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          738,
+          2216,
+          1404,
+          2356
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Icon",
+        "score_total": 43.39421844482422,
+        "score_mean": 0.20762783944891972,
+        "bounds_image": [
+          202,
+          79,
+          221,
+          90
+        ],
+        "bounds_rico": [
+          1299,
+          912,
+          1422,
+          1035
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Image",
+        "score_total": 82.04007720947266,
+        "score_mean": 0.16086289648916208,
+        "bounds_image": [
+          185,
+          187,
+          215,
+          204
+        ],
+        "bounds_rico": [
+          1191,
+          2143,
+          1387,
+          2339
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Icon",
+        "score_total": 2.343794345855713,
+        "score_mean": 0.017622513878614382,
+        "bounds_image": [
+          202,
+          22,
+          221,
+          29
+        ],
+        "bounds_rico": [
+          1299,
+          259,
+          1422,
+          338
+        ]
+      },
+      {
+        "rank": 32,
+        "component": "Icon",
+        "score_total": 2.985358715057373,
+        "score_mean": 0.014284012990705135,
+        "bounds_image": [
+          202,
+          29,
+          221,
+          40
+        ],
+        "bounds_rico": [
+          1299,
+          338,
+          1422,
+          461
+        ]
+      },
+      {
+        "rank": 33,
+        "component": "Icon",
+        "score_total": 2.848494529724121,
+        "score_mean": 0.013629160429302015,
+        "bounds_image": [
+          202,
+          40,
+          221,
+          51
+        ],
+        "bounds_rico": [
+          1299,
+          461,
+          1422,
+          584
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "t"
+      },
+      {
+        "index": 12,
+        "token": "▁doesn"
+      },
+      {
+        "index": 1,
+        "token": "▁This"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+        "word_count": 53,
+        "interface_pos": 0.0017,
+        "interface_neg": 0.9954,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "t, ▁doesn, ▁This",
+        "p_orig": 0.0031535911839455366,
+        "p_img": 0.0054254247806966305,
+        "delta_p_img": 0.002271833596751094,
+        "gradcam_mean": 0.4248344898223877,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0020307183731347322,
+        "word_attention_top15": [
+          [
+            "don't download",
+            0.181412
+          ],
+          [
+            "doesn't speak",
+            0.148993
+          ],
+          [
+            "doesn't say",
+            0.140638
+          ],
+          [
+            "doesn't hear",
+            0.135209
+          ],
+          [
+            "didn't",
+            0.115465
+          ],
+          [
+            "building",
+            0.052815
+          ],
+          [
+            "ghosts",
+            0.049477
+          ],
+          [
+            "bad",
+            0.034989
+          ],
+          [
+            "haunted",
+            0.034461
+          ],
+          [
+            "downloaded",
+            0.03401
+          ],
+          [
+            "literally",
+            0.029198
+          ],
+          [
+            "want",
+            0.015486
+          ],
+          [
+            "today",
+            0.014262
+          ],
+          [
+            "girls",
+            0.013584
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "didn't",
+            -0.003488
+          ],
+          [
+            "doesn't hear",
+            -0.003406
+          ],
+          [
+            "want",
+            0.002786
+          ],
+          [
+            "downloaded",
+            0.001101
+          ],
+          [
+            "bad",
+            -0.000999
+          ],
+          [
+            "literally",
+            0.000853
+          ],
+          [
+            "girls",
+            0.000841
+          ],
+          [
+            "ghosts",
+            0.000821
+          ],
+          [
+            "don't download",
+            -0.000726
+          ],
+          [
+            "today",
+            0.000638
+          ],
+          [
+            "building",
+            -0.000623
+          ],
+          [
+            "doesn't speak",
+            -0.00062
+          ],
+          [
+            "haunted",
+            -0.000615
+          ],
+          [
+            "doesn't say",
+            -0.000284
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13157792389392853,
+          "max": 0.9999983906745911,
+          "std": 0.28199225664138794
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+        "word_count": 19,
+        "interface_pos": 0.0025,
+        "interface_neg": 0.9834,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁talking, ▁all, ▁just",
+        "p_orig": 0.006961401551961899,
+        "p_img": 0.01300194300711155,
+        "delta_p_img": 0.006040541455149651,
+        "gradcam_mean": 0.3804680109024048,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0063174450770020485,
+        "word_attention_top15": [
+          [
+            "talking",
+            0.269222
+          ],
+          [
+            "say",
+            0.180033
+          ],
+          [
+            "us",
+            0.147129
+          ],
+          [
+            "scared",
+            0.135615
+          ],
+          [
+            "turned",
+            0.094738
+          ],
+          [
+            "kept",
+            0.087069
+          ],
+          [
+            "real",
+            0.047992
+          ],
+          [
+            "omg",
+            0.038202
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "talking",
+            -0.004898
+          ],
+          [
+            "scared",
+            -0.003002
+          ],
+          [
+            "kept",
+            0.002004
+          ],
+          [
+            "omg",
+            0.001997
+          ],
+          [
+            "say",
+            -0.001338
+          ],
+          [
+            "turned",
+            0.000826
+          ],
+          [
+            "us",
+            -5.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1327187567949295,
+          "max": 0.999999463558197,
+          "std": 0.27301129698753357
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+        "word_count": 29,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9687,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁waste, t, ▁time",
+        "p_orig": 0.003759676357731223,
+        "p_img": 0.006518143694847822,
+        "delta_p_img": 0.002758467337116599,
+        "gradcam_mean": 0.41597479581832886,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.0024139510933309793,
+        "word_attention_top15": [
+          [
+            "don't waste",
+            0.295283
+          ],
+          [
+            "time",
+            0.179965
+          ],
+          [
+            "can't hear",
+            0.164849
+          ],
+          [
+            "🙄🙄",
+            0.082176
+          ],
+          [
+            "terrible",
+            0.055763
+          ],
+          [
+            "give",
+            0.048329
+          ],
+          [
+            "hate",
+            0.042428
+          ],
+          [
+            "-",
+            0.040577
+          ],
+          [
+            "lie",
+            0.036232
+          ],
+          [
+            "⭐",
+            0.034375
+          ],
+          [
+            "u",
+            0.020023
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "hate",
+            -0.004721
+          ],
+          [
+            "⭐",
+            0.002699
+          ],
+          [
+            "don't waste",
+            -0.001603
+          ],
+          [
+            "terrible",
+            -0.001478
+          ],
+          [
+            "-",
+            -0.00062
+          ],
+          [
+            "can't hear",
+            -0.000563
+          ],
+          [
+            "time",
+            0.000555
+          ],
+          [
+            "🙄🙄",
+            -0.000476
+          ],
+          [
+            "lie",
+            -0.000383
+          ],
+          [
+            "give",
+            0.000306
+          ],
+          [
+            "u",
+            7.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13089101016521454,
+          "max": 0.9999986886978149,
+          "std": 0.2816730737686157
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+        "word_count": 30,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9581,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁voice, ▁supposed, s",
+        "p_orig": 0.007697594817727804,
+        "p_img": 0.014017604291439056,
+        "delta_p_img": 0.006320009473711252,
+        "gradcam_mean": 0.3879063129425049,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text Button",
+        "delta_p_img_shap": 0.006027003284543753,
+        "word_attention_top15": [
+          [
+            "voice..that's",
+            0.496449
+          ],
+          [
+            "ing",
+            0.085142
+          ],
+          [
+            "ghost",
+            0.080916
+          ],
+          [
+            "supposed",
+            0.067207
+          ],
+          [
+            "keeps",
+            0.05759
+          ],
+          [
+            "say",
+            0.055586
+          ],
+          [
+            "everyone",
+            0.039763
+          ],
+          [
+            "bad",
+            0.02617
+          ],
+          [
+            "sound",
+            0.022412
+          ],
+          [
+            "description",
+            0.018777
+          ],
+          [
+            "voice",
+            0.01398
+          ],
+          [
+            "record",
+            0.013357
+          ],
+          [
+            "says",
+            0.012836
+          ],
+          [
+            "makes",
+            0.009816
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.012409
+          ],
+          [
+            "voice..that's",
+            0.005898
+          ],
+          [
+            "voice",
+            0.004481
+          ],
+          [
+            "record",
+            -0.003702
+          ],
+          [
+            "makes",
+            0.003308
+          ],
+          [
+            "say",
+            -0.002986
+          ],
+          [
+            "supposed",
+            -0.00233
+          ],
+          [
+            "everyone",
+            0.002223
+          ],
+          [
+            "description",
+            0.002181
+          ],
+          [
+            "ing",
+            -0.001911
+          ],
+          [
+            "sound",
+            -0.001088
+          ],
+          [
+            "says",
+            0.000987
+          ],
+          [
+            "keeps",
+            0.000441
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12038370966911316,
+          "max": 0.9999995231628418,
+          "std": 0.2628994584083557
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good.",
+        "word_count": 22,
+        "interface_pos": 0.0182,
+        "interface_neg": 0.762,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁that, ▁game, ▁want",
+        "p_orig": 0.015548858791589737,
+        "p_img": 0.031099101528525352,
+        "delta_p_img": 0.015550242736935616,
+        "gradcam_mean": 0.36036136746406555,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.017994474619627,
+        "word_attention_top15": [
+          [
+            "phone",
+            0.189972
+          ],
+          [
+            "game",
+            0.144234
+          ],
+          [
+            "want",
+            0.141676
+          ],
+          [
+            "good",
+            0.128369
+          ],
+          [
+            "ghost",
+            0.115123
+          ],
+          [
+            "nans",
+            0.085405
+          ],
+          [
+            "free",
+            0.053566
+          ],
+          [
+            "old",
+            0.040493
+          ],
+          [
+            "year",
+            0.039857
+          ],
+          [
+            "bloody",
+            0.029222
+          ],
+          [
+            "hard",
+            0.020509
+          ],
+          [
+            "boy",
+            0.011575
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "want",
+            0.00859
+          ],
+          [
+            "ghost",
+            -0.003359
+          ],
+          [
+            "free",
+            0.003344
+          ],
+          [
+            "hard",
+            -0.00297
+          ],
+          [
+            "boy",
+            0.002806
+          ],
+          [
+            "phone",
+            0.0019
+          ],
+          [
+            "game",
+            0.001803
+          ],
+          [
+            "old",
+            -0.001676
+          ],
+          [
+            "bloody",
+            -0.000793
+          ],
+          [
+            "nans",
+            -0.000284
+          ],
+          [
+            "year",
+            -0.000156
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13698317110538483,
+          "max": 0.9999996423721313,
+          "std": 0.27884167432785034
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Ghost Talk (category: Music & Audio) was classified as bad with 100% confidence (with high confidence). The model focused on a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.dbd.ghosttalk",
+    "screen_id": "32984",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\32984.jpg",
+    "text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app! This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing This is horrible ,it was just my voice slowed down",
+    "prediction": 0.0002179638104280457,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.999782036189572,
+    "gradcam_stats": {
+      "mean": 0.480724036693573,
+      "max": 1.0,
+      "std": 0.1851733922958374
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+      "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+      "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+      "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+      "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good."
+    ],
+    "app_name": "Ghost Talk",
+    "category": "Music & Audio",
+    "faithfulness": {
+      "p_orig": 0.00021938933059573174,
+      "p_img": 0.0005204137996770442,
+      "delta_p_img": 0.0003010244690813124
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ],
+        "bounds_rico": [
+          216,
+          315,
+          1224,
+          2329
+        ],
+        "score_total": 15945.580078125,
+        "score_mean": 0.5770693427231108
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ],
+        "bounds_rico": [
+          234,
+          140,
+          409,
+          315
+        ],
+        "score_total": 183.691650390625,
+        "score_mean": 0.4535596305941358
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ],
+        "bounds_rico": [
+          759,
+          140,
+          934,
+          315
+        ],
+        "score_total": 180.9702911376953,
+        "score_mean": 0.44684022503134646
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 15945.580078125,
+        "score_mean": 0.5770693427231108,
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 183.691650390625,
+        "score_mean": 0.4535596305941358,
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 180.9702911376953,
+        "score_mean": 0.44684022503134646,
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 15945.580078125,
+        "score_mean": 0.5770693427231108,
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ],
+        "bounds_rico": [
+          216,
+          315,
+          1224,
+          2329
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 183.691650390625,
+        "score_mean": 0.4535596305941358,
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ],
+        "bounds_rico": [
+          234,
+          140,
+          409,
+          315
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 180.9702911376953,
+        "score_mean": 0.44684022503134646,
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ],
+        "bounds_rico": [
+          759,
+          140,
+          934,
+          315
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 178.19517517089844,
+        "score_mean": 0.42427422659737724,
+        "bounds_image": [
+          90,
+          12,
+          118,
+          27
+        ],
+        "bounds_rico": [
+          584,
+          140,
+          759,
+          315
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 168.83444213867188,
+        "score_mean": 0.41687516577449846,
+        "bounds_image": [
+          63,
+          12,
+          90,
+          27
+        ],
+        "bounds_rico": [
+          409,
+          140,
+          584,
+          315
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 147.72897338867188,
+        "score_mean": 0.36476289725597993,
+        "bounds_image": [
+          163,
+          12,
+          190,
+          27
+        ],
+        "bounds_rico": [
+          1049,
+          140,
+          1224,
+          315
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 23,
+        "token": "▁waste"
+      },
+      {
+        "index": 16,
+        "token": "t"
+      },
+      {
+        "index": 25,
+        "token": "▁time"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+        "word_count": 53,
+        "interface_pos": 0.0017,
+        "interface_neg": 0.9954,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "t, ▁doesn, ▁This",
+        "p_orig": 0.00018353380437474698,
+        "p_img": 0.0004382095066830516,
+        "delta_p_img": 0.0002546757023083046,
+        "gradcam_mean": 0.4862510859966278,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 3.201387880835682e-05,
+        "word_attention_top15": [
+          [
+            "don't download",
+            0.181412
+          ],
+          [
+            "doesn't speak",
+            0.148993
+          ],
+          [
+            "doesn't say",
+            0.140638
+          ],
+          [
+            "doesn't hear",
+            0.135209
+          ],
+          [
+            "didn't",
+            0.115465
+          ],
+          [
+            "building",
+            0.052815
+          ],
+          [
+            "ghosts",
+            0.049477
+          ],
+          [
+            "bad",
+            0.034989
+          ],
+          [
+            "haunted",
+            0.034461
+          ],
+          [
+            "downloaded",
+            0.03401
+          ],
+          [
+            "literally",
+            0.029198
+          ],
+          [
+            "want",
+            0.015486
+          ],
+          [
+            "today",
+            0.014262
+          ],
+          [
+            "girls",
+            0.013584
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't hear",
+            -0.000214
+          ],
+          [
+            "didn't",
+            -0.000202
+          ],
+          [
+            "want",
+            0.000152
+          ],
+          [
+            "bad",
+            -6.2e-05
+          ],
+          [
+            "literally",
+            5.6e-05
+          ],
+          [
+            "girls",
+            5.2e-05
+          ],
+          [
+            "downloaded",
+            5e-05
+          ],
+          [
+            "don't download",
+            -4.1e-05
+          ],
+          [
+            "ghosts",
+            4.1e-05
+          ],
+          [
+            "doesn't speak",
+            -3.7e-05
+          ],
+          [
+            "today",
+            3.5e-05
+          ],
+          [
+            "haunted",
+            -3.3e-05
+          ],
+          [
+            "building",
+            -3.3e-05
+          ],
+          [
+            "doesn't say",
+            -2.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10744965076446533,
+          "max": 0.9999887943267822,
+          "std": 0.22592128813266754
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+        "word_count": 19,
+        "interface_pos": 0.0025,
+        "interface_neg": 0.9834,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁talking, ▁all, ▁just",
+        "p_orig": 0.00041260707075707614,
+        "p_img": 0.001102257752791047,
+        "delta_p_img": 0.000689650682033971,
+        "gradcam_mean": 0.44831809401512146,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 6.494077388197184e-05,
+        "word_attention_top15": [
+          [
+            "talking",
+            0.269222
+          ],
+          [
+            "say",
+            0.180033
+          ],
+          [
+            "us",
+            0.147129
+          ],
+          [
+            "scared",
+            0.135615
+          ],
+          [
+            "turned",
+            0.094738
+          ],
+          [
+            "kept",
+            0.087069
+          ],
+          [
+            "real",
+            0.047992
+          ],
+          [
+            "omg",
+            0.038202
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "talking",
+            -0.000272
+          ],
+          [
+            "scared",
+            -0.000166
+          ],
+          [
+            "omg",
+            0.000119
+          ],
+          [
+            "kept",
+            0.000116
+          ],
+          [
+            "say",
+            -7.5e-05
+          ],
+          [
+            "turned",
+            5e-05
+          ],
+          [
+            "us",
+            -4e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1294625848531723,
+          "max": 0.9999950528144836,
+          "std": 0.25869908928871155
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+        "word_count": 29,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9687,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁waste, t, ▁time",
+        "p_orig": 0.00021938933059573174,
+        "p_img": 0.0005204137996770442,
+        "delta_p_img": 0.0003010244690813124,
+        "gradcam_mean": 0.480724036693573,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 3.50711343344301e-05,
+        "word_attention_top15": [
+          [
+            "don't waste",
+            0.295283
+          ],
+          [
+            "time",
+            0.179965
+          ],
+          [
+            "can't hear",
+            0.164849
+          ],
+          [
+            "🙄🙄",
+            0.082176
+          ],
+          [
+            "terrible",
+            0.055763
+          ],
+          [
+            "give",
+            0.048329
+          ],
+          [
+            "hate",
+            0.042428
+          ],
+          [
+            "-",
+            0.040577
+          ],
+          [
+            "lie",
+            0.036232
+          ],
+          [
+            "⭐",
+            0.034375
+          ],
+          [
+            "u",
+            0.020023
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "hate",
+            -0.000276
+          ],
+          [
+            "⭐",
+            0.000153
+          ],
+          [
+            "don't waste",
+            -9.7e-05
+          ],
+          [
+            "terrible",
+            -9e-05
+          ],
+          [
+            "-",
+            -3.9e-05
+          ],
+          [
+            "can't hear",
+            -3.7e-05
+          ],
+          [
+            "time",
+            3.7e-05
+          ],
+          [
+            "🙄🙄",
+            -2.5e-05
+          ],
+          [
+            "lie",
+            -2.3e-05
+          ],
+          [
+            "give",
+            1.7e-05
+          ],
+          [
+            "u",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11207835376262665,
+          "max": 0.9999903440475464,
+          "std": 0.23171599209308624
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+        "word_count": 30,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9581,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁voice, ▁supposed, s",
+        "p_orig": 0.0004750229127239436,
+        "p_img": 0.0012437967816367745,
+        "delta_p_img": 0.000768773868912831,
+        "gradcam_mean": 0.45541855692863464,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 5.639376468025148e-05,
+        "word_attention_top15": [
+          [
+            "voice..that's",
+            0.496449
+          ],
+          [
+            "ing",
+            0.085142
+          ],
+          [
+            "ghost",
+            0.080916
+          ],
+          [
+            "supposed",
+            0.067207
+          ],
+          [
+            "keeps",
+            0.05759
+          ],
+          [
+            "say",
+            0.055586
+          ],
+          [
+            "everyone",
+            0.039763
+          ],
+          [
+            "bad",
+            0.02617
+          ],
+          [
+            "sound",
+            0.022412
+          ],
+          [
+            "description",
+            0.018777
+          ],
+          [
+            "voice",
+            0.01398
+          ],
+          [
+            "record",
+            0.013357
+          ],
+          [
+            "says",
+            0.012836
+          ],
+          [
+            "makes",
+            0.009816
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000704
+          ],
+          [
+            "voice..that's",
+            0.000325
+          ],
+          [
+            "record",
+            -0.000223
+          ],
+          [
+            "voice",
+            0.000201
+          ],
+          [
+            "say",
+            -0.000193
+          ],
+          [
+            "makes",
+            0.000189
+          ],
+          [
+            "supposed",
+            -0.000129
+          ],
+          [
+            "description",
+            0.000123
+          ],
+          [
+            "everyone",
+            0.000106
+          ],
+          [
+            "sound",
+            -9.5e-05
+          ],
+          [
+            "ing",
+            -8.5e-05
+          ],
+          [
+            "says",
+            5.5e-05
+          ],
+          [
+            "keeps",
+            3.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12936633825302124,
+          "max": 0.9999953508377075,
+          "std": 0.2586892247200012
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good.",
+        "word_count": 22,
+        "interface_pos": 0.0182,
+        "interface_neg": 0.762,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁that, ▁game, ▁want",
+        "p_orig": 0.0009369922918267548,
+        "p_img": 0.003493797965347767,
+        "delta_p_img": 0.002556805673521012,
+        "gradcam_mean": 0.4302107095718384,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.00011026154970750213,
+        "word_attention_top15": [
+          [
+            "phone",
+            0.189972
+          ],
+          [
+            "game",
+            0.144234
+          ],
+          [
+            "want",
+            0.141676
+          ],
+          [
+            "good",
+            0.128369
+          ],
+          [
+            "ghost",
+            0.115123
+          ],
+          [
+            "nans",
+            0.085405
+          ],
+          [
+            "free",
+            0.053566
+          ],
+          [
+            "old",
+            0.040493
+          ],
+          [
+            "year",
+            0.039857
+          ],
+          [
+            "bloody",
+            0.029222
+          ],
+          [
+            "hard",
+            0.020509
+          ],
+          [
+            "boy",
+            0.011575
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "want",
+            0.000495
+          ],
+          [
+            "free",
+            0.000206
+          ],
+          [
+            "ghost",
+            -0.000195
+          ],
+          [
+            "hard",
+            -0.000176
+          ],
+          [
+            "boy",
+            0.000163
+          ],
+          [
+            "game",
+            0.000113
+          ],
+          [
+            "phone",
+            0.000113
+          ],
+          [
+            "old",
+            -8.4e-05
+          ],
+          [
+            "bloody",
+            -4.2e-05
+          ],
+          [
+            "nans",
+            -1.4e-05
+          ],
+          [
+            "year",
+            -9e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12406791001558304,
+          "max": 0.9999982118606567,
+          "std": 0.2501269280910492
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Ghost Talk (category: Music & Audio) was labeled as bad with 100% confidence (confidently). The model attended to a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.dbd.ghosttalk",
+    "screen_id": "32985",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\32985.jpg",
+    "text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app! This is horrible ,it was just my voice slowed down",
+    "prediction": 0.00015420389536302537,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.999845796104637,
+    "gradcam_stats": {
+      "mean": 0.49658605456352234,
+      "max": 1.0,
+      "std": 0.189361572265625
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+      "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+      "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+      "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+      "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good."
+    ],
+    "app_name": "Ghost Talk",
+    "category": "Music & Audio",
+    "faithfulness": {
+      "p_orig": 0.00015510551747865975,
+      "p_img": 0.0005336226313374937,
+      "delta_p_img": 0.0003785171138588339
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ],
+        "bounds_rico": [
+          216,
+          315,
+          1224,
+          2329
+        ],
+        "score_total": 16472.509765625,
+        "score_mean": 0.5961388884490808
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ],
+        "bounds_rico": [
+          759,
+          140,
+          934,
+          315
+        ],
+        "score_total": 199.4716796875,
+        "score_mean": 0.4925226658950617
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ],
+        "bounds_rico": [
+          234,
+          140,
+          409,
+          315
+        ],
+        "score_total": 198.54632568359375,
+        "score_mean": 0.49023784119405867
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 16472.509765625,
+        "score_mean": 0.5961388884490808,
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 199.4716796875,
+        "score_mean": 0.4925226658950617,
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 198.54632568359375,
+        "score_mean": 0.49023784119405867,
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 16472.509765625,
+        "score_mean": 0.5961388884490808,
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ],
+        "bounds_rico": [
+          216,
+          315,
+          1224,
+          2329
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 199.4716796875,
+        "score_mean": 0.4925226658950617,
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ],
+        "bounds_rico": [
+          759,
+          140,
+          934,
+          315
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 198.54632568359375,
+        "score_mean": 0.49023784119405867,
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ],
+        "bounds_rico": [
+          234,
+          140,
+          409,
+          315
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 202.9779815673828,
+        "score_mean": 0.4832809084937686,
+        "bounds_image": [
+          90,
+          12,
+          118,
+          27
+        ],
+        "bounds_rico": [
+          584,
+          140,
+          759,
+          315
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 189.62672424316406,
+        "score_mean": 0.46821413393373845,
+        "bounds_image": [
+          63,
+          12,
+          90,
+          27
+        ],
+        "bounds_rico": [
+          409,
+          140,
+          584,
+          315
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 154.13865661621094,
+        "score_mean": 0.3805892755955826,
+        "bounds_image": [
+          163,
+          12,
+          190,
+          27
+        ],
+        "bounds_rico": [
+          1049,
+          140,
+          1224,
+          315
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "t"
+      },
+      {
+        "index": 12,
+        "token": "▁doesn"
+      },
+      {
+        "index": 1,
+        "token": "▁This"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+        "word_count": 53,
+        "interface_pos": 0.0017,
+        "interface_neg": 0.9954,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "t, ▁doesn, ▁This",
+        "p_orig": 0.00015510551747865975,
+        "p_img": 0.0005336226313374937,
+        "delta_p_img": 0.0003785171138588339,
+        "gradcam_mean": 0.49658605456352234,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 6.075107376091182e-05,
+        "word_attention_top15": [
+          [
+            "don't download",
+            0.181412
+          ],
+          [
+            "doesn't speak",
+            0.148993
+          ],
+          [
+            "doesn't say",
+            0.140638
+          ],
+          [
+            "doesn't hear",
+            0.135209
+          ],
+          [
+            "didn't",
+            0.115465
+          ],
+          [
+            "building",
+            0.052815
+          ],
+          [
+            "ghosts",
+            0.049477
+          ],
+          [
+            "bad",
+            0.034989
+          ],
+          [
+            "haunted",
+            0.034461
+          ],
+          [
+            "downloaded",
+            0.03401
+          ],
+          [
+            "literally",
+            0.029198
+          ],
+          [
+            "want",
+            0.015486
+          ],
+          [
+            "today",
+            0.014262
+          ],
+          [
+            "girls",
+            0.013584
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't hear",
+            -0.00018
+          ],
+          [
+            "didn't",
+            -0.00017
+          ],
+          [
+            "want",
+            0.000127
+          ],
+          [
+            "bad",
+            -5e-05
+          ],
+          [
+            "literally",
+            4.7e-05
+          ],
+          [
+            "girls",
+            4.4e-05
+          ],
+          [
+            "downloaded",
+            4.2e-05
+          ],
+          [
+            "don't download",
+            -3.5e-05
+          ],
+          [
+            "ghosts",
+            3.5e-05
+          ],
+          [
+            "doesn't speak",
+            -3.1e-05
+          ],
+          [
+            "today",
+            3e-05
+          ],
+          [
+            "doesn't say",
+            -2.9e-05
+          ],
+          [
+            "haunted",
+            -2.6e-05
+          ],
+          [
+            "building",
+            -2.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12125609070062637,
+          "max": 0.9999870657920837,
+          "std": 0.24479620158672333
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+        "word_count": 19,
+        "interface_pos": 0.0025,
+        "interface_neg": 0.9834,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁talking, ▁all, ▁just",
+        "p_orig": 0.00034640447120182216,
+        "p_img": 0.0013288732152432203,
+        "delta_p_img": 0.0009824687440413982,
+        "gradcam_mean": 0.47483763098716736,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0001318544673267752,
+        "word_attention_top15": [
+          [
+            "talking",
+            0.269222
+          ],
+          [
+            "say",
+            0.180033
+          ],
+          [
+            "us",
+            0.147129
+          ],
+          [
+            "scared",
+            0.135615
+          ],
+          [
+            "turned",
+            0.094738
+          ],
+          [
+            "kept",
+            0.087069
+          ],
+          [
+            "real",
+            0.047992
+          ],
+          [
+            "omg",
+            0.038202
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "talking",
+            -0.000228
+          ],
+          [
+            "scared",
+            -0.000139
+          ],
+          [
+            "omg",
+            0.000101
+          ],
+          [
+            "kept",
+            9.7e-05
+          ],
+          [
+            "say",
+            -6.3e-05
+          ],
+          [
+            "turned",
+            4.2e-05
+          ],
+          [
+            "us",
+            -3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1275917887687683,
+          "max": 0.999994695186615,
+          "std": 0.25745081901550293
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+        "word_count": 29,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9687,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁waste, t, ▁time",
+        "p_orig": 0.00018478668062016368,
+        "p_img": 0.0006307930452749133,
+        "delta_p_img": 0.00044600636465474963,
+        "gradcam_mean": 0.4913618564605713,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 7.005399675108492e-05,
+        "word_attention_top15": [
+          [
+            "don't waste",
+            0.295283
+          ],
+          [
+            "time",
+            0.179965
+          ],
+          [
+            "can't hear",
+            0.164849
+          ],
+          [
+            "🙄🙄",
+            0.082176
+          ],
+          [
+            "terrible",
+            0.055763
+          ],
+          [
+            "give",
+            0.048329
+          ],
+          [
+            "hate",
+            0.042428
+          ],
+          [
+            "-",
+            0.040577
+          ],
+          [
+            "lie",
+            0.036232
+          ],
+          [
+            "⭐",
+            0.034375
+          ],
+          [
+            "u",
+            0.020023
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "hate",
+            -0.000232
+          ],
+          [
+            "⭐",
+            0.000129
+          ],
+          [
+            "don't waste",
+            -8e-05
+          ],
+          [
+            "terrible",
+            -7.6e-05
+          ],
+          [
+            "-",
+            -3.3e-05
+          ],
+          [
+            "time",
+            3.1e-05
+          ],
+          [
+            "can't hear",
+            -3.1e-05
+          ],
+          [
+            "🙄🙄",
+            -2.1e-05
+          ],
+          [
+            "lie",
+            -1.9e-05
+          ],
+          [
+            "give",
+            1.5e-05
+          ],
+          [
+            "u",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12361783534288406,
+          "max": 0.9999890327453613,
+          "std": 0.2488449662923813
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+        "word_count": 30,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9581,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁voice, ▁supposed, s",
+        "p_orig": 0.00040095782605931163,
+        "p_img": 0.001498592784628272,
+        "delta_p_img": 0.0010976349585689604,
+        "gradcam_mean": 0.4670291841030121,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.0001310330699197948,
+        "word_attention_top15": [
+          [
+            "voice..that's",
+            0.496449
+          ],
+          [
+            "ing",
+            0.085142
+          ],
+          [
+            "ghost",
+            0.080916
+          ],
+          [
+            "supposed",
+            0.067207
+          ],
+          [
+            "keeps",
+            0.05759
+          ],
+          [
+            "say",
+            0.055586
+          ],
+          [
+            "everyone",
+            0.039763
+          ],
+          [
+            "bad",
+            0.02617
+          ],
+          [
+            "sound",
+            0.022412
+          ],
+          [
+            "description",
+            0.018777
+          ],
+          [
+            "voice",
+            0.01398
+          ],
+          [
+            "record",
+            0.013357
+          ],
+          [
+            "says",
+            0.012836
+          ],
+          [
+            "makes",
+            0.009816
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000592
+          ],
+          [
+            "voice..that's",
+            0.000275
+          ],
+          [
+            "record",
+            -0.000188
+          ],
+          [
+            "voice",
+            0.000168
+          ],
+          [
+            "say",
+            -0.000162
+          ],
+          [
+            "makes",
+            0.000158
+          ],
+          [
+            "supposed",
+            -0.000109
+          ],
+          [
+            "description",
+            0.000103
+          ],
+          [
+            "everyone",
+            9e-05
+          ],
+          [
+            "sound",
+            -8e-05
+          ],
+          [
+            "ing",
+            -7.1e-05
+          ],
+          [
+            "says",
+            4.6e-05
+          ],
+          [
+            "keeps",
+            3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12794478237628937,
+          "max": 0.9999950528144836,
+          "std": 0.25786730647087097
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good.",
+        "word_count": 22,
+        "interface_pos": 0.0182,
+        "interface_neg": 0.762,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁that, ▁game, ▁want",
+        "p_orig": 0.0007914010784588754,
+        "p_img": 0.014751972630620003,
+        "delta_p_img": 0.013960571552161127,
+        "gradcam_mean": 0.4418250620365143,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.00025759130949154496,
+        "word_attention_top15": [
+          [
+            "phone",
+            0.189972
+          ],
+          [
+            "game",
+            0.144234
+          ],
+          [
+            "want",
+            0.141676
+          ],
+          [
+            "good",
+            0.128369
+          ],
+          [
+            "ghost",
+            0.115123
+          ],
+          [
+            "nans",
+            0.085405
+          ],
+          [
+            "free",
+            0.053566
+          ],
+          [
+            "old",
+            0.040493
+          ],
+          [
+            "year",
+            0.039857
+          ],
+          [
+            "bloody",
+            0.029222
+          ],
+          [
+            "hard",
+            0.020509
+          ],
+          [
+            "boy",
+            0.011575
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "want",
+            0.000417
+          ],
+          [
+            "free",
+            0.000174
+          ],
+          [
+            "ghost",
+            -0.000164
+          ],
+          [
+            "hard",
+            -0.000149
+          ],
+          [
+            "boy",
+            0.000137
+          ],
+          [
+            "game",
+            9.7e-05
+          ],
+          [
+            "phone",
+            9.7e-05
+          ],
+          [
+            "old",
+            -7.3e-05
+          ],
+          [
+            "bloody",
+            -3.5e-05
+          ],
+          [
+            "nans",
+            -1.2e-05
+          ],
+          [
+            "year",
+            -7e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12503460049629211,
+          "max": 0.9999980330467224,
+          "std": 0.25563347339630127
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Ghost Talk (category: Music & Audio) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.dbd.ghosttalk",
+    "screen_id": "32986",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\32986.jpg",
+    "text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app! This is horrible ,it was just my voice slowed down",
+    "prediction": 0.0032986453734338284,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9967013546265662,
+    "gradcam_stats": {
+      "mean": 0.4910731911659241,
+      "max": 1.0,
+      "std": 0.20373958349227905
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+      "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+      "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+      "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+      "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good."
+    ],
+    "app_name": "Ghost Talk",
+    "category": "Music & Audio",
+    "faithfulness": {
+      "p_orig": 0.0033089187927544117,
+      "p_img": 0.0028439925517886877,
+      "delta_p_img": 0.000464926240965724
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          36,
+          92,
+          67,
+          99
+        ],
+        "bounds_rico": [
+          237,
+          1058,
+          436,
+          1134
+        ],
+        "score_total": 157.1397247314453,
+        "score_mean": 0.7241461969191029
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          11,
+          115,
+          63,
+          120
+        ],
+        "bounds_rico": [
+          71,
+          1316,
+          408,
+          1378
+        ],
+        "score_total": 180.57577514648438,
+        "score_mean": 0.6945222121018629
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          11,
+          48,
+          64,
+          54
+        ],
+        "bounds_rico": [
+          71,
+          557,
+          417,
+          619
+        ],
+        "score_total": 219.77780151367188,
+        "score_mean": 0.6911251619926788
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 157.1397247314453,
+        "score_mean": 0.7241461969191029,
+        "bounds_image": [
+          36,
+          92,
+          67,
+          99
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 180.57577514648438,
+        "score_mean": 0.6945222121018629,
+        "bounds_image": [
+          11,
+          115,
+          63,
+          120
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 219.77780151367188,
+        "score_mean": 0.6911251619926788,
+        "bounds_image": [
+          11,
+          48,
+          64,
+          54
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 157.1397247314453,
+        "score_mean": 0.7241461969191029,
+        "bounds_image": [
+          36,
+          92,
+          67,
+          99
+        ],
+        "bounds_rico": [
+          237,
+          1058,
+          436,
+          1134
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 180.57577514648438,
+        "score_mean": 0.6945222121018629,
+        "bounds_image": [
+          11,
+          115,
+          63,
+          120
+        ],
+        "bounds_rico": [
+          71,
+          1316,
+          408,
+          1378
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 219.77780151367188,
+        "score_mean": 0.6911251619926788,
+        "bounds_image": [
+          11,
+          48,
+          64,
+          54
+        ],
+        "bounds_rico": [
+          71,
+          557,
+          417,
+          619
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Slider",
+        "score_total": 375.4842834472656,
+        "score_mean": 0.6826986971768466,
+        "bounds_image": [
+          2,
+          54,
+          112,
+          59
+        ],
+        "bounds_rico": [
+          18,
+          619,
+          720,
+          682
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 132.8740234375,
+        "score_mean": 0.6779286910076531,
+        "bounds_image": [
+          36,
+          64,
+          64,
+          71
+        ],
+        "bounds_rico": [
+          237,
+          740,
+          414,
+          816
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 209.20611572265625,
+        "score_mean": 0.6748584378150202,
+        "bounds_image": [
+          11,
+          76,
+          73,
+          81
+        ],
+        "bounds_rico": [
+          71,
+          875,
+          472,
+          937
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 835.3780517578125,
+        "score_mean": 0.6693734389085036,
+        "bounds_image": [
+          5,
+          132,
+          109,
+          144
+        ],
+        "bounds_rico": [
+          36,
+          1512,
+          702,
+          1652
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Input",
+        "score_total": 156.58175659179688,
+        "score_mean": 0.6691528059478499,
+        "bounds_image": [
+          5,
+          63,
+          31,
+          72
+        ],
+        "bounds_rico": [
+          36,
+          731,
+          202,
+          826
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Input",
+        "score_total": 153.4072265625,
+        "score_mean": 0.655586438301282,
+        "bounds_image": [
+          5,
+          91,
+          31,
+          100
+        ],
+        "bounds_rico": [
+          36,
+          1049,
+          202,
+          1144
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Slider",
+        "score_total": 858.6845703125,
+        "score_mean": 0.6534890185026636,
+        "bounds_image": [
+          2,
+          81,
+          221,
+          87
+        ],
+        "bounds_rico": [
+          18,
+          937,
+          1422,
+          1000
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 54.39141845703125,
+        "score_mean": 0.6475168863932291,
+        "bounds_image": [
+          11,
+          103,
+          25,
+          109
+        ],
+        "bounds_rico": [
+          71,
+          1181,
+          162,
+          1257
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Slider",
+        "score_total": 830.517333984375,
+        "score_mean": 0.6320527655893264,
+        "bounds_image": [
+          2,
+          120,
+          221,
+          126
+        ],
+        "bounds_rico": [
+          18,
+          1378,
+          1422,
+          1441
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 764.37646484375,
+        "score_mean": 0.6124811417017227,
+        "bounds_image": [
+          5,
+          147,
+          109,
+          159
+        ],
+        "bounds_rico": [
+          36,
+          1688,
+          702,
+          1828
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text Button",
+        "score_total": 495.1421203613281,
+        "score_mean": 0.5784370564968786,
+        "bounds_image": [
+          7,
+          34,
+          114,
+          42
+        ],
+        "bounds_rico": [
+          46,
+          389,
+          734,
+          487
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text Button",
+        "score_total": 715.9315795898438,
+        "score_mean": 0.5736631246713492,
+        "bounds_image": [
+          5,
+          163,
+          109,
+          175
+        ],
+        "bounds_rico": [
+          36,
+          1864,
+          702,
+          2004
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 88.39030456542969,
+        "score_mean": 0.5079902561231592,
+        "bounds_image": [
+          36,
+          25,
+          65,
+          31
+        ],
+        "bounds_rico": [
+          237,
+          289,
+          424,
+          365
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text Button",
+        "score_total": 633.015625,
+        "score_mean": 0.5072240584935898,
+        "bounds_image": [
+          5,
+          178,
+          109,
+          190
+        ],
+        "bounds_rico": [
+          36,
+          2040,
+          702,
+          2180
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Input",
+        "score_total": 101.97117614746094,
+        "score_mean": 0.49024603917048526,
+        "bounds_image": [
+          5,
+          24,
+          31,
+          32
+        ],
+        "bounds_rico": [
+          36,
+          280,
+          202,
+          375
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text Button",
+        "score_total": 552.3271484375,
+        "score_mean": 0.442569830478766,
+        "bounds_image": [
+          114,
+          163,
+          218,
+          175
+        ],
+        "bounds_rico": [
+          738,
+          1864,
+          1404,
+          2004
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text Button",
+        "score_total": 531.092529296875,
+        "score_mean": 0.42555491129557294,
+        "bounds_image": [
+          114,
+          132,
+          218,
+          144
+        ],
+        "bounds_rico": [
+          738,
+          1512,
+          1404,
+          1652
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Icon",
+        "score_total": 86.76373291015625,
+        "score_mean": 0.4151374780390251,
+        "bounds_image": [
+          202,
+          101,
+          221,
+          112
+        ],
+        "bounds_rico": [
+          1299,
+          1158,
+          1422,
+          1281
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text Button",
+        "score_total": 556.0484008789062,
+        "score_mean": 0.4112784030169425,
+        "bounds_image": [
+          5,
+          193,
+          109,
+          206
+        ],
+        "bounds_rico": [
+          36,
+          2216,
+          702,
+          2356
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text Button",
+        "score_total": 511.8351745605469,
+        "score_mean": 0.41012433859018177,
+        "bounds_image": [
+          114,
+          147,
+          218,
+          159
+        ],
+        "bounds_rico": [
+          738,
+          1688,
+          1404,
+          1828
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text",
+        "score_total": 167.1409912109375,
+        "score_mean": 0.40965929218367036,
+        "bounds_image": [
+          120,
+          48,
+          188,
+          54
+        ],
+        "bounds_rico": [
+          773,
+          557,
+          1209,
+          619
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text Button",
+        "score_total": 495.4412536621094,
+        "score_mean": 0.3969881840241261,
+        "bounds_image": [
+          114,
+          178,
+          218,
+          190
+        ],
+        "bounds_rico": [
+          738,
+          2040,
+          1404,
+          2180
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Slider",
+        "score_total": 201.85919189453125,
+        "score_mean": 0.37038383833858946,
+        "bounds_image": [
+          112,
+          54,
+          221,
+          59
+        ],
+        "bounds_rico": [
+          720,
+          619,
+          1422,
+          682
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Web View",
+        "score_total": 1139.135986328125,
+        "score_mean": 0.339028567359561,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          259
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Text Button",
+        "score_total": 379.67083740234375,
+        "score_mean": 0.2808216252975915,
+        "bounds_image": [
+          114,
+          193,
+          218,
+          206
+        ],
+        "bounds_rico": [
+          738,
+          2216,
+          1404,
+          2356
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Icon",
+        "score_total": 52.93012237548828,
+        "score_mean": 0.25325417404539846,
+        "bounds_image": [
+          202,
+          62,
+          221,
+          73
+        ],
+        "bounds_rico": [
+          1299,
+          717,
+          1422,
+          840
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Image",
+        "score_total": 83.06004333496094,
+        "score_mean": 0.16286283006855085,
+        "bounds_image": [
+          185,
+          187,
+          215,
+          204
+        ],
+        "bounds_rico": [
+          1191,
+          2143,
+          1387,
+          2339
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Image",
+        "score_total": 1.085585594177246,
+        "score_mean": 0.057136083904065584,
+        "bounds_image": [
+          202,
+          22,
+          221,
+          23
+        ],
+        "bounds_rico": [
+          1299,
+          259,
+          1422,
+          266
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Icon",
+        "score_total": 9.981167793273926,
+        "score_mean": 0.047756783699875245,
+        "bounds_image": [
+          202,
+          23,
+          221,
+          34
+        ],
+        "bounds_rico": [
+          1299,
+          266,
+          1422,
+          389
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 9,
+        "token": "t"
+      },
+      {
+        "index": 12,
+        "token": "▁doesn"
+      },
+      {
+        "index": 1,
+        "token": "▁This"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+        "word_count": 53,
+        "interface_pos": 0.0017,
+        "interface_neg": 0.9954,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "t, ▁doesn, ▁This",
+        "p_orig": 0.0033089187927544117,
+        "p_img": 0.0028439925517886877,
+        "delta_p_img": 0.000464926240965724,
+        "gradcam_mean": 0.4910731911659241,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Input, Text, Slider",
+        "delta_p_img_shap": 0.0018695215694606304,
+        "word_attention_top15": [
+          [
+            "don't download",
+            0.181412
+          ],
+          [
+            "doesn't speak",
+            0.148993
+          ],
+          [
+            "doesn't say",
+            0.140638
+          ],
+          [
+            "doesn't hear",
+            0.135209
+          ],
+          [
+            "didn't",
+            0.115465
+          ],
+          [
+            "building",
+            0.052815
+          ],
+          [
+            "ghosts",
+            0.049477
+          ],
+          [
+            "bad",
+            0.034989
+          ],
+          [
+            "haunted",
+            0.034461
+          ],
+          [
+            "downloaded",
+            0.03401
+          ],
+          [
+            "literally",
+            0.029198
+          ],
+          [
+            "want",
+            0.015486
+          ],
+          [
+            "today",
+            0.014262
+          ],
+          [
+            "girls",
+            0.013584
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't hear",
+            -0.004368
+          ],
+          [
+            "didn't",
+            -0.004202
+          ],
+          [
+            "want",
+            0.003388
+          ],
+          [
+            "downloaded",
+            0.001353
+          ],
+          [
+            "bad",
+            -0.001196
+          ],
+          [
+            "literally",
+            0.001113
+          ],
+          [
+            "girls",
+            0.001081
+          ],
+          [
+            "ghosts",
+            0.001005
+          ],
+          [
+            "today",
+            0.000835
+          ],
+          [
+            "don't download",
+            -0.00079
+          ],
+          [
+            "building",
+            -0.000741
+          ],
+          [
+            "haunted",
+            -0.000737
+          ],
+          [
+            "doesn't speak",
+            -0.000681
+          ],
+          [
+            "doesn't say",
+            -0.000309
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16531936824321747,
+          "max": 0.9999982714653015,
+          "std": 0.2996772229671478
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+        "word_count": 19,
+        "interface_pos": 0.0025,
+        "interface_neg": 0.9834,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁talking, ▁all, ▁just",
+        "p_orig": 0.007452229969203472,
+        "p_img": 0.006283482536673546,
+        "delta_p_img": 0.0011687474325299263,
+        "gradcam_mean": 0.4715607166290283,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Input, Text",
+        "delta_p_img_shap": 0.0003779744729399681,
+        "word_attention_top15": [
+          [
+            "talking",
+            0.269222
+          ],
+          [
+            "say",
+            0.180033
+          ],
+          [
+            "us",
+            0.147129
+          ],
+          [
+            "scared",
+            0.135615
+          ],
+          [
+            "turned",
+            0.094738
+          ],
+          [
+            "kept",
+            0.087069
+          ],
+          [
+            "real",
+            0.047992
+          ],
+          [
+            "omg",
+            0.038202
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "talking",
+            -0.005704
+          ],
+          [
+            "scared",
+            -0.003403
+          ],
+          [
+            "kept",
+            0.002317
+          ],
+          [
+            "omg",
+            0.002289
+          ],
+          [
+            "say",
+            -0.001544
+          ],
+          [
+            "turned",
+            0.001024
+          ],
+          [
+            "us",
+            -6.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2080506533384323,
+          "max": 0.9999992847442627,
+          "std": 0.3549049496650696
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+        "word_count": 29,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9687,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Slider",
+        "top_k_tokens": "▁waste, t, ▁time",
+        "p_orig": 0.004005247261375189,
+        "p_img": 0.003275255672633648,
+        "delta_p_img": 0.0007299915887415409,
+        "gradcam_mean": 0.49463653564453125,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Input, Text Button",
+        "delta_p_img_shap": 0.002223892603069544,
+        "word_attention_top15": [
+          [
+            "don't waste",
+            0.295283
+          ],
+          [
+            "time",
+            0.179965
+          ],
+          [
+            "can't hear",
+            0.164849
+          ],
+          [
+            "🙄🙄",
+            0.082176
+          ],
+          [
+            "terrible",
+            0.055763
+          ],
+          [
+            "give",
+            0.048329
+          ],
+          [
+            "hate",
+            0.042428
+          ],
+          [
+            "-",
+            0.040577
+          ],
+          [
+            "lie",
+            0.036232
+          ],
+          [
+            "⭐",
+            0.034375
+          ],
+          [
+            "u",
+            0.020023
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "hate",
+            -0.005419
+          ],
+          [
+            "⭐",
+            0.00311
+          ],
+          [
+            "don't waste",
+            -0.002059
+          ],
+          [
+            "terrible",
+            -0.001611
+          ],
+          [
+            "-",
+            -0.000729
+          ],
+          [
+            "time",
+            0.000669
+          ],
+          [
+            "can't hear",
+            -0.000619
+          ],
+          [
+            "🙄🙄",
+            -0.000556
+          ],
+          [
+            "lie",
+            -0.000436
+          ],
+          [
+            "give",
+            0.000344
+          ],
+          [
+            "u",
+            0.00012
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15903331339359283,
+          "max": 0.9999986886978149,
+          "std": 0.28725308179855347
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+        "word_count": 30,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9581,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Input",
+        "top_k_tokens": "▁voice, ▁supposed, s",
+        "p_orig": 0.008315904065966606,
+        "p_img": 0.006287866737693548,
+        "delta_p_img": 0.002028037328273058,
+        "gradcam_mean": 0.4560129940509796,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Input, Text",
+        "delta_p_img_shap": 0.0005106767639517784,
+        "word_attention_top15": [
+          [
+            "voice..that's",
+            0.496449
+          ],
+          [
+            "ing",
+            0.085142
+          ],
+          [
+            "ghost",
+            0.080916
+          ],
+          [
+            "supposed",
+            0.067207
+          ],
+          [
+            "keeps",
+            0.05759
+          ],
+          [
+            "say",
+            0.055586
+          ],
+          [
+            "everyone",
+            0.039763
+          ],
+          [
+            "bad",
+            0.02617
+          ],
+          [
+            "sound",
+            0.022412
+          ],
+          [
+            "description",
+            0.018777
+          ],
+          [
+            "voice",
+            0.01398
+          ],
+          [
+            "record",
+            0.013357
+          ],
+          [
+            "says",
+            0.012836
+          ],
+          [
+            "makes",
+            0.009816
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.016115
+          ],
+          [
+            "voice..that's",
+            0.007091
+          ],
+          [
+            "voice",
+            0.005286
+          ],
+          [
+            "record",
+            -0.004376
+          ],
+          [
+            "say",
+            -0.004125
+          ],
+          [
+            "makes",
+            0.003903
+          ],
+          [
+            "supposed",
+            -0.002804
+          ],
+          [
+            "everyone",
+            0.002711
+          ],
+          [
+            "description",
+            0.002616
+          ],
+          [
+            "ing",
+            -0.001948
+          ],
+          [
+            "sound",
+            -0.001253
+          ],
+          [
+            "says",
+            0.00116
+          ],
+          [
+            "keeps",
+            0.000797
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19534824788570404,
+          "max": 0.9999993443489075,
+          "std": 0.3365595042705536
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good.",
+        "word_count": 22,
+        "interface_pos": 0.0182,
+        "interface_neg": 0.762,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Input",
+        "top_k_tokens": "▁that, ▁game, ▁want",
+        "p_orig": 0.018136071041226387,
+        "p_img": 0.013984894379973412,
+        "delta_p_img": 0.0041511766612529755,
+        "gradcam_mean": 0.4123437702655792,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Input, Text, Text Button",
+        "delta_p_img_shap": 0.011622440069913864,
+        "word_attention_top15": [
+          [
+            "phone",
+            0.189972
+          ],
+          [
+            "game",
+            0.144234
+          ],
+          [
+            "want",
+            0.141676
+          ],
+          [
+            "good",
+            0.128369
+          ],
+          [
+            "ghost",
+            0.115123
+          ],
+          [
+            "nans",
+            0.085405
+          ],
+          [
+            "free",
+            0.053566
+          ],
+          [
+            "old",
+            0.040493
+          ],
+          [
+            "year",
+            0.039857
+          ],
+          [
+            "bloody",
+            0.029222
+          ],
+          [
+            "hard",
+            0.020509
+          ],
+          [
+            "boy",
+            0.011575
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "want",
+            0.010413
+          ],
+          [
+            "free",
+            0.004022
+          ],
+          [
+            "ghost",
+            -0.003973
+          ],
+          [
+            "hard",
+            -0.003576
+          ],
+          [
+            "boy",
+            0.003421
+          ],
+          [
+            "phone",
+            0.002364
+          ],
+          [
+            "game",
+            0.002352
+          ],
+          [
+            "old",
+            -0.001975
+          ],
+          [
+            "bloody",
+            -0.000962
+          ],
+          [
+            "nans",
+            -0.000282
+          ],
+          [
+            "year",
+            -0.000176
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1964024007320404,
+          "max": 0.9999996423721313,
+          "std": 0.3464517891407013
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Ghost Talk (category: Music & Audio) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.dbd.ghosttalk",
+    "screen_id": "32987",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\32987.jpg",
+    "text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app! This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing This is horrible ,it was just my voice slowed down",
+    "prediction": 0.0002179638104280457,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.999782036189572,
+    "gradcam_stats": {
+      "mean": 0.480724036693573,
+      "max": 1.0,
+      "std": 0.1851733922958374
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+      "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+      "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+      "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+      "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good."
+    ],
+    "app_name": "Ghost Talk",
+    "category": "Music & Audio",
+    "faithfulness": {
+      "p_orig": 0.00021938933059573174,
+      "p_img": 0.0005204137996770442,
+      "delta_p_img": 0.0003010244690813124
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ],
+        "bounds_rico": [
+          216,
+          315,
+          1224,
+          2329
+        ],
+        "score_total": 15945.580078125,
+        "score_mean": 0.5770693427231108
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ],
+        "bounds_rico": [
+          234,
+          140,
+          409,
+          315
+        ],
+        "score_total": 183.691650390625,
+        "score_mean": 0.4535596305941358
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ],
+        "bounds_rico": [
+          759,
+          140,
+          934,
+          315
+        ],
+        "score_total": 180.9702911376953,
+        "score_mean": 0.44684022503134646
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 15945.580078125,
+        "score_mean": 0.5770693427231108,
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 183.691650390625,
+        "score_mean": 0.4535596305941358,
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 180.9702911376953,
+        "score_mean": 0.44684022503134646,
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 15945.580078125,
+        "score_mean": 0.5770693427231108,
+        "bounds_image": [
+          33,
+          27,
+          190,
+          203
+        ],
+        "bounds_rico": [
+          216,
+          315,
+          1224,
+          2329
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 183.691650390625,
+        "score_mean": 0.4535596305941358,
+        "bounds_image": [
+          36,
+          12,
+          63,
+          27
+        ],
+        "bounds_rico": [
+          234,
+          140,
+          409,
+          315
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 180.9702911376953,
+        "score_mean": 0.44684022503134646,
+        "bounds_image": [
+          118,
+          12,
+          145,
+          27
+        ],
+        "bounds_rico": [
+          759,
+          140,
+          934,
+          315
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 178.19517517089844,
+        "score_mean": 0.42427422659737724,
+        "bounds_image": [
+          90,
+          12,
+          118,
+          27
+        ],
+        "bounds_rico": [
+          584,
+          140,
+          759,
+          315
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 168.83444213867188,
+        "score_mean": 0.41687516577449846,
+        "bounds_image": [
+          63,
+          12,
+          90,
+          27
+        ],
+        "bounds_rico": [
+          409,
+          140,
+          584,
+          315
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 147.72897338867188,
+        "score_mean": 0.36476289725597993,
+        "bounds_image": [
+          163,
+          12,
+          190,
+          27
+        ],
+        "bounds_rico": [
+          1049,
+          140,
+          1224,
+          315
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 23,
+        "token": "▁waste"
+      },
+      {
+        "index": 16,
+        "token": "t"
+      },
+      {
+        "index": 25,
+        "token": "▁time"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "This is a really bad app Don't download it doesn't even do anything it only speak from you it doesn't say anything about ghosts and it doesn't hear anything about girls nothing about ghosts today I want to downloaded the app I went to a haunted building and literally it didn't do nothing",
+        "word_count": 53,
+        "interface_pos": 0.0017,
+        "interface_neg": 0.9954,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "t, ▁doesn, ▁This",
+        "p_orig": 0.00018353380437474698,
+        "p_img": 0.0004382095066830516,
+        "delta_p_img": 0.0002546757023083046,
+        "gradcam_mean": 0.4862510859966278,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 3.201387880835682e-05,
+        "word_attention_top15": [
+          [
+            "don't download",
+            0.181412
+          ],
+          [
+            "doesn't speak",
+            0.148993
+          ],
+          [
+            "doesn't say",
+            0.140638
+          ],
+          [
+            "doesn't hear",
+            0.135209
+          ],
+          [
+            "didn't",
+            0.115465
+          ],
+          [
+            "building",
+            0.052815
+          ],
+          [
+            "ghosts",
+            0.049477
+          ],
+          [
+            "bad",
+            0.034989
+          ],
+          [
+            "haunted",
+            0.034461
+          ],
+          [
+            "downloaded",
+            0.03401
+          ],
+          [
+            "literally",
+            0.029198
+          ],
+          [
+            "want",
+            0.015486
+          ],
+          [
+            "today",
+            0.014262
+          ],
+          [
+            "girls",
+            0.013584
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't hear",
+            -0.000214
+          ],
+          [
+            "didn't",
+            -0.000202
+          ],
+          [
+            "want",
+            0.000152
+          ],
+          [
+            "bad",
+            -6.2e-05
+          ],
+          [
+            "literally",
+            5.6e-05
+          ],
+          [
+            "girls",
+            5.2e-05
+          ],
+          [
+            "downloaded",
+            5e-05
+          ],
+          [
+            "don't download",
+            -4.1e-05
+          ],
+          [
+            "ghosts",
+            4.1e-05
+          ],
+          [
+            "doesn't speak",
+            -3.7e-05
+          ],
+          [
+            "today",
+            3.5e-05
+          ],
+          [
+            "haunted",
+            -3.3e-05
+          ],
+          [
+            "building",
+            -3.3e-05
+          ],
+          [
+            "doesn't say",
+            -2.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10744965076446533,
+          "max": 0.9999887943267822,
+          "std": 0.22592128813266754
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "it scared all of us omg I turned it off and it kept talking let's just say it's real",
+        "word_count": 19,
+        "interface_pos": 0.0025,
+        "interface_neg": 0.9834,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁talking, ▁all, ▁just",
+        "p_orig": 0.00041260707075707614,
+        "p_img": 0.001102257752791047,
+        "delta_p_img": 0.000689650682033971,
+        "gradcam_mean": 0.44831809401512146,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 6.494077388197184e-05,
+        "word_attention_top15": [
+          [
+            "talking",
+            0.269222
+          ],
+          [
+            "say",
+            0.180033
+          ],
+          [
+            "us",
+            0.147129
+          ],
+          [
+            "scared",
+            0.135615
+          ],
+          [
+            "turned",
+            0.094738
+          ],
+          [
+            "kept",
+            0.087069
+          ],
+          [
+            "real",
+            0.047992
+          ],
+          [
+            "omg",
+            0.038202
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "talking",
+            -0.000272
+          ],
+          [
+            "scared",
+            -0.000166
+          ],
+          [
+            "omg",
+            0.000119
+          ],
+          [
+            "kept",
+            0.000116
+          ],
+          [
+            "say",
+            -7.5e-05
+          ],
+          [
+            "turned",
+            5e-05
+          ],
+          [
+            "us",
+            -4e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1294625848531723,
+          "max": 0.9999950528144836,
+          "std": 0.25869908928871155
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "terrible u can't even hear anything it's a lie don't get it it's a waste of time!!!! 🙄🙄 if I could I would give - ⭐ Hate this app!",
+        "word_count": 29,
+        "interface_pos": 0.0088,
+        "interface_neg": 0.9687,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁waste, t, ▁time",
+        "p_orig": 0.00021938933059573174,
+        "p_img": 0.0005204137996770442,
+        "delta_p_img": 0.0003010244690813124,
+        "gradcam_mean": 0.480724036693573,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 3.50711343344301e-05,
+        "word_attention_top15": [
+          [
+            "don't waste",
+            0.295283
+          ],
+          [
+            "time",
+            0.179965
+          ],
+          [
+            "can't hear",
+            0.164849
+          ],
+          [
+            "🙄🙄",
+            0.082176
+          ],
+          [
+            "terrible",
+            0.055763
+          ],
+          [
+            "give",
+            0.048329
+          ],
+          [
+            "hate",
+            0.042428
+          ],
+          [
+            "-",
+            0.040577
+          ],
+          [
+            "lie",
+            0.036232
+          ],
+          [
+            "⭐",
+            0.034375
+          ],
+          [
+            "u",
+            0.020023
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "hate",
+            -0.000276
+          ],
+          [
+            "⭐",
+            0.000153
+          ],
+          [
+            "don't waste",
+            -9.7e-05
+          ],
+          [
+            "terrible",
+            -9e-05
+          ],
+          [
+            "-",
+            -3.9e-05
+          ],
+          [
+            "can't hear",
+            -3.7e-05
+          ],
+          [
+            "time",
+            3.7e-05
+          ],
+          [
+            "🙄🙄",
+            -2.5e-05
+          ],
+          [
+            "lie",
+            -2.3e-05
+          ],
+          [
+            "give",
+            1.7e-05
+          ],
+          [
+            "u",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11207835376262665,
+          "max": 0.9999903440475464,
+          "std": 0.23171599209308624
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "For everyone who keeps say ing it bad because it record your own voice..that's what its supposed to do. The description says it makes your voice sound like a ghost..",
+        "word_count": 30,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9581,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁voice, ▁supposed, s",
+        "p_orig": 0.0004750229127239436,
+        "p_img": 0.0012437967816367745,
+        "delta_p_img": 0.000768773868912831,
+        "gradcam_mean": 0.45541855692863464,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 5.639376468025148e-05,
+        "word_attention_top15": [
+          [
+            "voice..that's",
+            0.496449
+          ],
+          [
+            "ing",
+            0.085142
+          ],
+          [
+            "ghost",
+            0.080916
+          ],
+          [
+            "supposed",
+            0.067207
+          ],
+          [
+            "keeps",
+            0.05759
+          ],
+          [
+            "say",
+            0.055586
+          ],
+          [
+            "everyone",
+            0.039763
+          ],
+          [
+            "bad",
+            0.02617
+          ],
+          [
+            "sound",
+            0.022412
+          ],
+          [
+            "description",
+            0.018777
+          ],
+          [
+            "voice",
+            0.01398
+          ],
+          [
+            "record",
+            0.013357
+          ],
+          [
+            "says",
+            0.012836
+          ],
+          [
+            "makes",
+            0.009816
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000704
+          ],
+          [
+            "voice..that's",
+            0.000325
+          ],
+          [
+            "record",
+            -0.000223
+          ],
+          [
+            "voice",
+            0.000201
+          ],
+          [
+            "say",
+            -0.000193
+          ],
+          [
+            "makes",
+            0.000189
+          ],
+          [
+            "supposed",
+            -0.000129
+          ],
+          [
+            "description",
+            0.000123
+          ],
+          [
+            "everyone",
+            0.000106
+          ],
+          [
+            "sound",
+            -9.5e-05
+          ],
+          [
+            "ing",
+            -8.5e-05
+          ],
+          [
+            "says",
+            5.5e-05
+          ],
+          [
+            "keeps",
+            3.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12936633825302124,
+          "max": 0.9999953508377075,
+          "std": 0.2586892247200012
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "So bloody hard for a 10 year old boy on their nans phone. I just want a free ghost game that's good.",
+        "word_count": 22,
+        "interface_pos": 0.0182,
+        "interface_neg": 0.762,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁that, ▁game, ▁want",
+        "p_orig": 0.0009369922918267548,
+        "p_img": 0.003493797965347767,
+        "delta_p_img": 0.002556805673521012,
+        "gradcam_mean": 0.4302107095718384,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.00011026154970750213,
+        "word_attention_top15": [
+          [
+            "phone",
+            0.189972
+          ],
+          [
+            "game",
+            0.144234
+          ],
+          [
+            "want",
+            0.141676
+          ],
+          [
+            "good",
+            0.128369
+          ],
+          [
+            "ghost",
+            0.115123
+          ],
+          [
+            "nans",
+            0.085405
+          ],
+          [
+            "free",
+            0.053566
+          ],
+          [
+            "old",
+            0.040493
+          ],
+          [
+            "year",
+            0.039857
+          ],
+          [
+            "bloody",
+            0.029222
+          ],
+          [
+            "hard",
+            0.020509
+          ],
+          [
+            "boy",
+            0.011575
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "want",
+            0.000495
+          ],
+          [
+            "free",
+            0.000206
+          ],
+          [
+            "ghost",
+            -0.000195
+          ],
+          [
+            "hard",
+            -0.000176
+          ],
+          [
+            "boy",
+            0.000163
+          ],
+          [
+            "game",
+            0.000113
+          ],
+          [
+            "phone",
+            0.000113
+          ],
+          [
+            "old",
+            -8.4e-05
+          ],
+          [
+            "bloody",
+            -4.2e-05
+          ],
+          [
+            "nans",
+            -1.4e-05
+          ],
+          [
+            "year",
+            -9e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12406791001558304,
+          "max": 0.9999982118606567,
+          "std": 0.2501269280910492
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of Ghost Talk (category: Music & Audio) was labeled as bad with 100% confidence (confidently). The model attended to a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  }
+]

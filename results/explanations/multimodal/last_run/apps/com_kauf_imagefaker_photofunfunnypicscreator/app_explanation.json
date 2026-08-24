@@ -1,0 +1,370 @@
+{
+  "package_name": "com.kauf.imagefaker.photofunfunnypicscreator",
+  "num_screens": 8,
+  "app_score": 0.012966678117663832,
+  "app_prediction": "bad",
+  "app_confidence": 0.9870333218823362,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.00013020067126490176,
+    0.0014244818594306707,
+    0.003621697425842285,
+    0.002972312504425645,
+    0.053594715893268585,
+    0.013954266905784607,
+    0.006861110217869282,
+    0.021174639463424683
+  ],
+  "prediction_variance": 0.0002801843537224963,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_kauf_imagefaker_photofunfunnypicscreator\\com_kauf_imagefaker_photofunfunnypicscreator_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.kauf.imagefaker.photofunfunnypicscreator was classified as bad with average confidence 99% across 8 screens.",
+    "simple": "com.kauf.imagefaker.photofunfunnypicscreator was classified as bad with average confidence 99% across 8 screens. Across these screens, the model recurringly attended to Icon components.",
+    "detailed": "com.kauf.imagefaker.photofunfunnypicscreator was classified as bad with average confidence 99% across 8 screens. Across these screens, the model recurringly attended to Icon components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Icon (10x), Background Image (4x), Web View (2x). The most influential review words across screens were 'ads', 'didn't letting', 'adds', 'point', and 'can't talking'. The app belongs to the Comics category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "12688",
+    "review_rank": 4,
+    "delta_p_img": 0.1892896150238812,
+    "confidence": 0.9985755181405693,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\12688.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "ads",
+      3.938884
+    ],
+    [
+      "didn't letting",
+      3.678849
+    ],
+    [
+      "adds",
+      3.421565
+    ],
+    [
+      "point",
+      3.408822
+    ],
+    [
+      "can't talking",
+      2.986706
+    ],
+    [
+      "decent",
+      2.185423
+    ],
+    [
+      "againa",
+      2.038535
+    ],
+    [
+      "without 20sec",
+      2.034362
+    ],
+    [
+      "videos",
+      1.672769
+    ],
+    [
+      "play",
+      1.432362
+    ],
+    [
+      "pop",
+      1.407516
+    ],
+    [
+      "watch",
+      1.39917
+    ],
+    [
+      "surveys",
+      1.373042
+    ],
+    [
+      "tried",
+      1.286234
+    ],
+    [
+      "popping",
+      1.236058
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "fun",
+      0.069408
+    ],
+    [
+      "play",
+      0.053449
+    ],
+    [
+      "watch",
+      0.043541
+    ],
+    [
+      "decent",
+      0.042269
+    ],
+    [
+      "can't talking",
+      -0.033808
+    ],
+    [
+      "without 20sec",
+      0.020045
+    ],
+    [
+      "videos",
+      0.019137
+    ],
+    [
+      "didn't letting",
+      -0.017828
+    ],
+    [
+      "function",
+      -0.015377
+    ],
+    [
+      "secs",
+      -0.015191
+    ],
+    [
+      "uninstall",
+      -0.01484
+    ],
+    [
+      "point",
+      -0.011414
+    ],
+    [
+      "any",
+      -0.010767
+    ],
+    [
+      "ads",
+      0.006374
+    ],
+    [
+      "video",
+      0.005701
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "didn't letting",
+      "rrf_score": 0.030835,
+      "rank_bahdanau": 2,
+      "rank_shap": 8,
+      "shap_signed": -0.017828,
+      "in_both": true
+    },
+    {
+      "word": "decent",
+      "rrf_score": 0.030777,
+      "rank_bahdanau": 6,
+      "rank_shap": 4,
+      "shap_signed": 0.042269,
+      "in_both": true
+    },
+    {
+      "word": "can't talking",
+      "rrf_score": 0.030769,
+      "rank_bahdanau": 5,
+      "rank_shap": 5,
+      "shap_signed": -0.033808,
+      "in_both": true
+    },
+    {
+      "word": "play",
+      "rrf_score": 0.030415,
+      "rank_bahdanau": 10,
+      "rank_shap": 2,
+      "shap_signed": 0.053449,
+      "in_both": true
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.029907,
+      "rank_bahdanau": 1,
+      "rank_shap": 14,
+      "shap_signed": 0.006374,
+      "in_both": true
+    },
+    {
+      "word": "without 20sec",
+      "rrf_score": 0.029857,
+      "rank_bahdanau": 8,
+      "rank_shap": 6,
+      "shap_signed": 0.020045,
+      "in_both": true
+    },
+    {
+      "word": "watch",
+      "rrf_score": 0.029762,
+      "rank_bahdanau": 12,
+      "rank_shap": 3,
+      "shap_signed": 0.043541,
+      "in_both": true
+    },
+    {
+      "word": "point",
+      "rrf_score": 0.029514,
+      "rank_bahdanau": 4,
+      "rank_shap": 12,
+      "shap_signed": -0.011414,
+      "in_both": true
+    },
+    {
+      "word": "videos",
+      "rrf_score": 0.029418,
+      "rank_bahdanau": 9,
+      "rank_shap": 7,
+      "shap_signed": 0.019137,
+      "in_both": true
+    },
+    {
+      "word": "fun",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": null,
+      "rank_shap": 1,
+      "shap_signed": 0.069408,
+      "in_both": false
+    },
+    {
+      "word": "adds",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "againa",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "function",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": -0.015377,
+      "in_both": false
+    },
+    {
+      "word": "secs",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": null,
+      "rank_shap": 10,
+      "shap_signed": -0.015191,
+      "in_both": false
+    },
+    {
+      "word": "uninstall",
+      "rrf_score": 0.014085,
+      "rank_bahdanau": null,
+      "rank_shap": 11,
+      "shap_signed": -0.01484,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 7,
+      "text": "With ads popping up every 7 secs you can't even use it... And we are talking 15 sec video ads."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 9,
+      "text": "But, tried it againa and too many videos you have to watch and pop up surveys"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 0,
+      "text": "This was a decent app at one point, but now there way too many adds."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 6,
+      "text": "Didn't even use the app, before letting me do any of the apps function it made me watch 20'' adds and videos,  uninstall for sure"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 8,
+      "text": "It would be a fun app if u could play it without 20sec ads every 5 seconds"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "ads",
+      3.938884
+    ],
+    [
+      "didn't letting",
+      3.678849
+    ],
+    [
+      "adds",
+      3.421565
+    ],
+    [
+      "point",
+      3.408822
+    ],
+    [
+      "can't talking",
+      2.986706
+    ],
+    [
+      "decent",
+      2.185423
+    ],
+    [
+      "againa",
+      2.038535
+    ],
+    [
+      "without 20sec",
+      2.034362
+    ],
+    [
+      "videos",
+      1.672769
+    ],
+    [
+      "play",
+      1.432362
+    ],
+    [
+      "pop",
+      1.407516
+    ],
+    [
+      "watch",
+      1.39917
+    ],
+    [
+      "surveys",
+      1.373042
+    ],
+    [
+      "tried",
+      1.286234
+    ],
+    [
+      "popping",
+      1.236058
+    ]
+  ]
+}

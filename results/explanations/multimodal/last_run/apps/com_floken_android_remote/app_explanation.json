@@ -1,0 +1,366 @@
+{
+  "package_name": "com.floken.android.remote",
+  "num_screens": 4,
+  "app_score": 0.017010952540658764,
+  "app_prediction": "bad",
+  "app_confidence": 0.9829890474593412,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0004367007641121745,
+    7.842233026167378e-05,
+    0.0659969374537468,
+    0.0015317496145144105
+  ],
+  "prediction_variance": 0.000800162210603103,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_floken_android_remote\\com_floken_android_remote_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.floken.android.remote was classified as bad with average confidence 98% across 4 screens.",
+    "simple": "com.floken.android.remote was classified as bad with average confidence 98% across 4 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "com.floken.android.remote was classified as bad with average confidence 98% across 4 screens. Across these screens, the model recurringly attended to Text components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text (5x), Text Button (3x), Image (3x). The most influential review words across screens were 'not television', 'not download', 'great', 'hour', and 'seen'. The app belongs to the Entertainment category and was analyzed across 4 screens."
+  },
+  "representative_screen": {
+    "screen_id": "59625",
+    "review_rank": 3,
+    "delta_p_img": 0.14253275841474533,
+    "confidence": 0.9984682503854856,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\59625.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "not television",
+      1.967686
+    ],
+    [
+      "not download",
+      1.46439
+    ],
+    [
+      "great",
+      1.284112
+    ],
+    [
+      "hour",
+      1.0924
+    ],
+    [
+      "seen",
+      0.892273
+    ],
+    [
+      "please",
+      0.704271
+    ],
+    [
+      "able",
+      0.703601
+    ],
+    [
+      "perfectly",
+      0.694872
+    ],
+    [
+      "comando",
+      0.676183
+    ],
+    [
+      "work",
+      0.622718
+    ],
+    [
+      "meo",
+      0.611814
+    ],
+    [
+      "worst",
+      0.567924
+    ],
+    [
+      "change",
+      0.565722
+    ],
+    [
+      "fix",
+      0.543213
+    ],
+    [
+      "aren't channel",
+      0.53732
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "best",
+      0.343605
+    ],
+    [
+      "perfectly",
+      0.26577
+    ],
+    [
+      "keep",
+      0.09135
+    ],
+    [
+      "aren't channel",
+      -0.088994
+    ],
+    [
+      "great",
+      0.088416
+    ],
+    [
+      "able",
+      0.079965
+    ],
+    [
+      "not",
+      -0.071101
+    ],
+    [
+      "recommend",
+      0.070192
+    ],
+    [
+      "worst",
+      -0.05371
+    ],
+    [
+      "works",
+      0.049659
+    ],
+    [
+      "ever",
+      0.043884
+    ],
+    [
+      "work",
+      0.040516
+    ],
+    [
+      "say",
+      -0.035008
+    ],
+    [
+      "remote",
+      0.032898
+    ],
+    [
+      "meo",
+      0.031968
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "great",
+      "rrf_score": 0.031258,
+      "rank_bahdanau": 3,
+      "rank_shap": 5,
+      "shap_signed": 0.088416,
+      "in_both": true
+    },
+    {
+      "word": "perfectly",
+      "rrf_score": 0.030835,
+      "rank_bahdanau": 8,
+      "rank_shap": 2,
+      "shap_signed": 0.26577,
+      "in_both": true
+    },
+    {
+      "word": "able",
+      "rrf_score": 0.030077,
+      "rank_bahdanau": 7,
+      "rank_shap": 6,
+      "shap_signed": 0.079965,
+      "in_both": true
+    },
+    {
+      "word": "aren't channel",
+      "rrf_score": 0.028958,
+      "rank_bahdanau": 15,
+      "rank_shap": 4,
+      "shap_signed": -0.088994,
+      "in_both": true
+    },
+    {
+      "word": "worst",
+      "rrf_score": 0.028382,
+      "rank_bahdanau": 12,
+      "rank_shap": 9,
+      "shap_signed": -0.05371,
+      "in_both": true
+    },
+    {
+      "word": "work",
+      "rrf_score": 0.028175,
+      "rank_bahdanau": 10,
+      "rank_shap": 12,
+      "shap_signed": 0.040516,
+      "in_both": true
+    },
+    {
+      "word": "meo",
+      "rrf_score": 0.027418,
+      "rank_bahdanau": 11,
+      "rank_shap": 15,
+      "shap_signed": 0.031968,
+      "in_both": true
+    },
+    {
+      "word": "not television",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": null,
+      "rank_shap": 1,
+      "shap_signed": 0.343605,
+      "in_both": false
+    },
+    {
+      "word": "not download",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "keep",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.09135,
+      "in_both": false
+    },
+    {
+      "word": "hour",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "seen",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "please",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": -0.071101,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 2,
+      "text": "This app is very worst not download this app. This app is not use to all television"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 16,
+      "text": "Was able to change the channel at work perfectly but the channels on this need to be updated. Many channels aren't on that channel number anymore"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 15,
+      "text": "This is the best remote control app I've ever seen... Sometimes I need to restart the app in order for it to connect again if the screen turns off but it's great."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 0,
+      "text": "This app works perfectly. Better the the original ones that say meo comando. I recommend this one for all meo. Keep up the great work"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "It sucks it just said connecting I waited like an hour and nothing happened fix it please."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "not television",
+      1.967686
+    ],
+    [
+      "not download",
+      1.46439
+    ],
+    [
+      "great",
+      1.284112
+    ],
+    [
+      "hour",
+      1.0924
+    ],
+    [
+      "seen",
+      0.892273
+    ],
+    [
+      "please",
+      0.704271
+    ],
+    [
+      "able",
+      0.703601
+    ],
+    [
+      "perfectly",
+      0.694872
+    ],
+    [
+      "comando",
+      0.676183
+    ],
+    [
+      "work",
+      0.622718
+    ],
+    [
+      "meo",
+      0.611814
+    ],
+    [
+      "worst",
+      0.567924
+    ],
+    [
+      "change",
+      0.565722
+    ],
+    [
+      "fix",
+      0.543213
+    ],
+    [
+      "aren't channel",
+      0.53732
+    ]
+  ]
+}

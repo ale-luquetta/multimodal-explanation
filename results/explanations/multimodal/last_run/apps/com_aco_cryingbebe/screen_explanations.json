@@ -1,0 +1,3494 @@
+[
+  {
+    "package_name": "com.aco.cryingbebe",
+    "screen_id": "7933",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\7933.jpg",
+    "text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0 Need to register to use. When registering. All language in korean. 미국에서 사는데 핸드폰 인증이 안되네요.",
+    "prediction": 0.7800872325897217,
+    "predicted_class": "good",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": false,
+    "confidence": 0.7800872325897217,
+    "gradcam_stats": {
+      "mean": 0.23785169422626495,
+      "max": 1.0,
+      "std": 0.21976785361766815
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+      "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+      "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+      "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+      "Poorly designed app. This app is in foreign language and should only be available to Japanese region."
+    ],
+    "app_name": "CryingBeBe - Cry analyzer",
+    "category": "Parenting",
+    "faithfulness": {
+      "p_orig": 0.7797762751579285,
+      "p_img": 0.7772852182388306,
+      "delta_p_img": 0.0024910569190979004
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          34,
+          119,
+          189,
+          130
+        ],
+        "bounds_rico": [
+          221,
+          1364,
+          1219,
+          1495
+        ],
+        "score_total": 605.6680297851562,
+        "score_mean": 0.3552305160030242
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          68,
+          109,
+          155,
+          116
+        ],
+        "bounds_rico": [
+          443,
+          1255,
+          997,
+          1326
+        ],
+        "score_total": 191.4497528076172,
+        "score_mean": 0.3143674101931317
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 605.6680297851562,
+        "score_mean": 0.3552305160030242,
+        "bounds_image": [
+          34,
+          119,
+          189,
+          130
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 191.4497528076172,
+        "score_mean": 0.3143674101931317,
+        "bounds_image": [
+          68,
+          109,
+          155,
+          116
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 605.6680297851562,
+        "score_mean": 0.3552305160030242,
+        "bounds_image": [
+          34,
+          119,
+          189,
+          130
+        ],
+        "bounds_rico": [
+          221,
+          1364,
+          1219,
+          1495
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 191.4497528076172,
+        "score_mean": 0.3143674101931317,
+        "bounds_image": [
+          68,
+          109,
+          155,
+          116
+        ],
+        "bounds_rico": [
+          443,
+          1255,
+          997,
+          1326
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 72,
+        "token": "▁analysis"
+      },
+      {
+        "index": 71,
+        "token": "▁crying"
+      },
+      {
+        "index": 1,
+        "token": "▁한국"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+        "word_count": 21,
+        "interface_pos": 0.0028,
+        "interface_neg": 0.9825,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text",
+        "top_k_tokens": "▁Korean, ▁it, ▁and",
+        "p_orig": 0.6105063557624817,
+        "p_img": 0.5485880374908447,
+        "delta_p_img": 0.06191831827163696,
+        "gradcam_mean": 0.2222200334072113,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text",
+        "delta_p_img_shap": 0.06191831827163696,
+        "word_attention_top15": [
+          [
+            "can't korean",
+            0.46778
+          ],
+          [
+            "not worth",
+            0.174513
+          ],
+          [
+            "access",
+            0.170741
+          ],
+          [
+            "kind",
+            0.112725
+          ],
+          [
+            "permission",
+            0.038012
+          ],
+          [
+            "asking",
+            0.036228
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not worth",
+            -0.097735
+          ],
+          [
+            "can't korean",
+            -0.069694
+          ],
+          [
+            "kind",
+            0.050533
+          ],
+          [
+            "permission",
+            -0.032387
+          ],
+          [
+            "asking",
+            0.010399
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.19873046875,
+          "max": 0.9999999403953552,
+          "std": 0.3554403781890869
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+        "word_count": 31,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9783,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text",
+        "top_k_tokens": "▁speakers, ▁instructions, 번",
+        "p_orig": 0.6734977960586548,
+        "p_img": 0.641268789768219,
+        "delta_p_img": 0.03222900629043579,
+        "gradcam_mean": 0.22378084063529968,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text",
+        "delta_p_img_shap": 0.03222900629043579,
+        "word_attention_top15": [
+          [
+            "국가번호란도",
+            0.117043
+          ],
+          [
+            "안돼네요",
+            0.108205
+          ],
+          [
+            "핸드폰번호",
+            0.097834
+          ],
+          [
+            "해외인데",
+            0.076491
+          ],
+          [
+            "한국번호야만",
+            0.07306
+          ],
+          [
+            "가능한지",
+            0.065664
+          ],
+          [
+            "인증이",
+            0.060707
+          ],
+          [
+            "verification",
+            0.056511
+          ],
+          [
+            "t&c",
+            0.053845
+          ],
+          [
+            "speakers",
+            0.052506
+          ],
+          [
+            "can't mobile",
+            0.041058
+          ],
+          [
+            "없고",
+            0.035229
+          ],
+          [
+            "instructions",
+            0.03479
+          ],
+          [
+            "plus",
+            0.033602
+          ],
+          [
+            "non-korean",
+            0.02942
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "핸드폰번호",
+            0.036875
+          ],
+          [
+            "안돼네요",
+            -0.031773
+          ],
+          [
+            "not comprehensible",
+            0.024816
+          ],
+          [
+            "가능한지",
+            -0.02423
+          ],
+          [
+            "없고",
+            -0.022286
+          ],
+          [
+            "verification",
+            -0.014504
+          ],
+          [
+            "plus",
+            0.01325
+          ],
+          [
+            "한국번호야만",
+            0.011924
+          ],
+          [
+            "korean",
+            0.011054
+          ],
+          [
+            "number",
+            -0.011022
+          ],
+          [
+            "인증이",
+            0.008579
+          ],
+          [
+            "해외인데",
+            -0.008198
+          ],
+          [
+            "can't mobile",
+            -0.00728
+          ],
+          [
+            "t&c",
+            -0.007107
+          ],
+          [
+            "instructions",
+            -0.002144
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20105591416358948,
+          "max": 0.9999999403953552,
+          "std": 0.33987516164779663
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+        "word_count": 23,
+        "interface_pos": 0.009,
+        "interface_neg": 0.5966,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text",
+        "top_k_tokens": "▁to, ▁it, ▁interface",
+        "p_orig": 0.6514015197753906,
+        "p_img": 0.616014301776886,
+        "delta_p_img": 0.03538721799850464,
+        "gradcam_mean": 0.23056752979755402,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text",
+        "delta_p_img_shap": 0.03538721799850464,
+        "word_attention_top15": [
+          [
+            "without membership",
+            0.188354
+          ],
+          [
+            "didn't receive",
+            0.143521
+          ],
+          [
+            "number",
+            0.131848
+          ],
+          [
+            "membership",
+            0.126997
+          ],
+          [
+            "not moving",
+            0.108647
+          ],
+          [
+            "code",
+            0.058563
+          ],
+          [
+            "step",
+            0.057057
+          ],
+          [
+            "registration",
+            0.050416
+          ],
+          [
+            "next",
+            0.042723
+          ],
+          [
+            "any",
+            0.034627
+          ],
+          [
+            "verify",
+            0.034513
+          ],
+          [
+            "mobile",
+            0.022735
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not moving",
+            -0.031018
+          ],
+          [
+            "didn't receive",
+            -0.029493
+          ],
+          [
+            "membership",
+            0.021125
+          ],
+          [
+            "registration",
+            -0.015558
+          ],
+          [
+            "code",
+            -0.013252
+          ],
+          [
+            "mobile",
+            0.011526
+          ],
+          [
+            "without membership",
+            -0.009873
+          ],
+          [
+            "step",
+            -0.007596
+          ],
+          [
+            "verify",
+            -0.004217
+          ],
+          [
+            "next",
+            -0.001687
+          ],
+          [
+            "any",
+            0.000716
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20126178860664368,
+          "max": 0.9999999403953552,
+          "std": 0.35774263739585876
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+        "word_count": 53,
+        "interface_pos": 0.1056,
+        "interface_neg": 0.6566,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text",
+        "top_k_tokens": "▁analysis, ▁crying, ▁한국",
+        "p_orig": 0.7797762751579285,
+        "p_img": 0.7772852182388306,
+        "delta_p_img": 0.0024910569190979004,
+        "gradcam_mean": 0.23785169422626495,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text",
+        "delta_p_img_shap": 0.0024910569190979004,
+        "word_attention_top15": [
+          [
+            "한국사람이어도",
+            0.097357
+          ],
+          [
+            "못하네요",
+            0.071209
+          ],
+          [
+            "analysis",
+            0.067785
+          ],
+          [
+            "해놓은거죠",
+            0.061677
+          ],
+          [
+            "crying",
+            0.053574
+          ],
+          [
+            "해외에",
+            0.052596
+          ],
+          [
+            "work.0",
+            0.052129
+          ],
+          [
+            "살아서",
+            0.044507
+          ],
+          [
+            "해외계정에서",
+            0.043847
+          ],
+          [
+            "dont waste",
+            0.039244
+          ],
+          [
+            "못해서",
+            0.037598
+          ],
+          [
+            "그럴꺼면",
+            0.036747
+          ],
+          [
+            "다운받을",
+            0.031833
+          ],
+          [
+            "downloading",
+            0.027829
+          ],
+          [
+            "있게",
+            0.027498
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "못하네요",
+            -0.030225
+          ],
+          [
+            "dont waste",
+            0.028017
+          ],
+          [
+            "waste",
+            -0.022649
+          ],
+          [
+            "있게",
+            0.017427
+          ],
+          [
+            "핸드폰",
+            0.016483
+          ],
+          [
+            "살아서",
+            0.015842
+          ],
+          [
+            "없으면",
+            0.014853
+          ],
+          [
+            "사용",
+            -0.012796
+          ],
+          [
+            "해외에",
+            -0.012066
+          ],
+          [
+            "해놓은거죠",
+            -0.00809
+          ],
+          [
+            "need",
+            0.008026
+          ],
+          [
+            "mobile",
+            0.007871
+          ],
+          [
+            "다운받을",
+            0.007194
+          ],
+          [
+            "왜",
+            -0.006883
+          ],
+          [
+            "수",
+            0.006591
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21616077423095703,
+          "max": 0.9999999403953552,
+          "std": 0.3496146500110626
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Poorly designed app. This app is in foreign language and should only be available to Japanese region.",
+        "word_count": 17,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.9958,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text",
+        "top_k_tokens": "▁Poorly, ▁interface, ▁region",
+        "p_orig": 0.5928584337234497,
+        "p_img": 0.5048462748527527,
+        "delta_p_img": 0.08801215887069702,
+        "gradcam_mean": 0.2119665890932083,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text",
+        "delta_p_img_shap": 0.08801215887069702,
+        "word_attention_top15": [
+          [
+            "poorly",
+            0.263532
+          ],
+          [
+            "region",
+            0.248436
+          ],
+          [
+            "available",
+            0.118349
+          ],
+          [
+            "japanese",
+            0.106458
+          ],
+          [
+            "language",
+            0.097528
+          ],
+          [
+            "designed",
+            0.091103
+          ],
+          [
+            "foreign",
+            0.074595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "poorly",
+            -0.14672
+          ],
+          [
+            "designed",
+            0.060566
+          ],
+          [
+            "foreign",
+            -0.030318
+          ],
+          [
+            "japanese",
+            0.022309
+          ],
+          [
+            "language",
+            -0.014064
+          ],
+          [
+            "available",
+            0.01219
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1957576721906662,
+          "max": 0.9999999403953552,
+          "std": 0.3523999750614166
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 78% confidence.",
+      "simple": "This screen was labeled as good with 78% confidence. The model directed most attention to a small Text Button at the top-left.",
+      "detailed": "This screen of CryingBeBe - Cry analyzer (category: Parenting) was labeled as good with 78% confidence (fairly confidently). The model attended to a small Text Button at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.aco.cryingbebe",
+    "screen_id": "7934",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\7934.jpg",
+    "text": "Very bad why should phone number while you cannot registrat only for Korean ! I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access. Can't proceed when all is in Korean. N can't register.",
+    "prediction": 0.03057243302464485,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9694275669753551,
+    "gradcam_stats": {
+      "mean": 0.307809442281723,
+      "max": 1.0,
+      "std": 0.27638599276542664
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+      "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+      "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+      "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+      "Poorly designed app. This app is in foreign language and should only be available to Japanese region."
+    ],
+    "app_name": "CryingBeBe - Cry analyzer",
+    "category": "Parenting",
+    "faithfulness": {
+      "p_orig": 0.030541010200977325,
+      "p_img": 0.034553162753582,
+      "delta_p_img": 0.004012152552604675
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          91,
+          9,
+          107,
+          18
+        ],
+        "bounds_rico": [
+          591,
+          109,
+          689,
+          207
+        ],
+        "score_total": 117.09950256347656,
+        "score_mean": 0.8131909900241427
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          2,
+          22,
+          179,
+          31
+        ],
+        "bounds_rico": [
+          18,
+          260,
+          1153,
+          364
+        ],
+        "score_total": 1032.2569580078125,
+        "score_mean": 0.6479955794148227
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "bounds_image": [
+          5,
+          34,
+          218,
+          63
+        ],
+        "bounds_rico": [
+          33,
+          397,
+          1407,
+          728
+        ],
+        "score_total": 3818.53173828125,
+        "score_mean": 0.6181854845849523
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 117.09950256347656,
+        "score_mean": 0.8131909900241427,
+        "bounds_image": [
+          91,
+          9,
+          107,
+          18
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1032.2569580078125,
+        "score_mean": 0.6479955794148227,
+        "bounds_image": [
+          2,
+          22,
+          179,
+          31
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 3818.53173828125,
+        "score_mean": 0.6181854845849523,
+        "bounds_image": [
+          5,
+          34,
+          218,
+          63
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 117.09950256347656,
+        "score_mean": 0.8131909900241427,
+        "bounds_image": [
+          91,
+          9,
+          107,
+          18
+        ],
+        "bounds_rico": [
+          591,
+          109,
+          689,
+          207
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1032.2569580078125,
+        "score_mean": 0.6479955794148227,
+        "bounds_image": [
+          2,
+          22,
+          179,
+          31
+        ],
+        "bounds_rico": [
+          18,
+          260,
+          1153,
+          364
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "score_total": 3818.53173828125,
+        "score_mean": 0.6181854845849523,
+        "bounds_image": [
+          5,
+          34,
+          218,
+          63
+        ],
+        "bounds_rico": [
+          33,
+          397,
+          1407,
+          728
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 1450.288330078125,
+        "score_mean": 0.5953564573391318,
+        "bounds_image": [
+          2,
+          65,
+          176,
+          79
+        ],
+        "bounds_rico": [
+          18,
+          743,
+          1135,
+          911
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 527.1817016601562,
+        "score_mean": 0.5705429671646712,
+        "bounds_image": [
+          24,
+          7,
+          90,
+          21
+        ],
+        "bounds_rico": [
+          158,
+          84,
+          580,
+          242
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 567.321044921875,
+        "score_mean": 0.35861001575339757,
+        "bounds_image": [
+          2,
+          115,
+          115,
+          129
+        ],
+        "bounds_rico": [
+          18,
+          1316,
+          740,
+          1484
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 347.04266357421875,
+        "score_mean": 0.3473900536278466,
+        "bounds_image": [
+          2,
+          132,
+          113,
+          141
+        ],
+        "bounds_rico": [
+          18,
+          1510,
+          730,
+          1614
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Web View",
+        "score_total": 1882.901611328125,
+        "score_mean": 0.3048246092485227,
+        "bounds_image": [
+          5,
+          84,
+          218,
+          113
+        ],
+        "bounds_rico": [
+          33,
+          970,
+          1407,
+          1301
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Web View",
+        "score_total": 1065.424560546875,
+        "score_mean": 0.17248252558634855,
+        "bounds_image": [
+          5,
+          144,
+          218,
+          173
+        ],
+        "bounds_rico": [
+          33,
+          1647,
+          1407,
+          1979
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text Button",
+        "score_total": 387.9197998046875,
+        "score_mean": 0.17240879991319444,
+        "bounds_image": [
+          2,
+          174,
+          152,
+          189
+        ],
+        "bounds_rico": [
+          18,
+          1994,
+          983,
+          2162
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text Button",
+        "score_total": 202.3050537109375,
+        "score_mean": 0.08815035020084423,
+        "bounds_image": [
+          2,
+          191,
+          155,
+          206
+        ],
+        "bounds_rico": [
+          18,
+          2188,
+          1002,
+          2356
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text Button",
+        "score_total": 10.405393600463867,
+        "score_mean": 0.01576574787949071,
+        "bounds_image": [
+          155,
+          193,
+          221,
+          203
+        ],
+        "bounds_rico": [
+          1002,
+          2214,
+          1422,
+          2330
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 17,
+        "token": "▁interface"
+      },
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 5,
+        "token": "▁phone"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+        "word_count": 21,
+        "interface_pos": 0.0028,
+        "interface_neg": 0.9825,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Web View",
+        "top_k_tokens": "▁Korean, ▁it, ▁and",
+        "p_orig": 0.03354432061314583,
+        "p_img": 0.040038321167230606,
+        "delta_p_img": 0.006494000554084778,
+        "gradcam_mean": 0.2713465094566345,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Web View",
+        "delta_p_img_shap": 0.012117240577936172,
+        "word_attention_top15": [
+          [
+            "can't korean",
+            0.46778
+          ],
+          [
+            "not worth",
+            0.174513
+          ],
+          [
+            "access",
+            0.170741
+          ],
+          [
+            "kind",
+            0.112725
+          ],
+          [
+            "permission",
+            0.038012
+          ],
+          [
+            "asking",
+            0.036228
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't korean",
+            -0.031101
+          ],
+          [
+            "permission",
+            -0.026329
+          ],
+          [
+            "not worth",
+            -0.024596
+          ],
+          [
+            "kind",
+            0.021608
+          ],
+          [
+            "asking",
+            -0.001121
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16811327636241913,
+          "max": 0.9999995827674866,
+          "std": 0.291560560464859
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+        "word_count": 31,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9783,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁speakers, ▁instructions, 번",
+        "p_orig": 0.04254667088389397,
+        "p_img": 0.07832184433937073,
+        "delta_p_img": 0.03577517345547676,
+        "gradcam_mean": 0.27600109577178955,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Web View",
+        "delta_p_img_shap": 0.011110741645097733,
+        "word_attention_top15": [
+          [
+            "국가번호란도",
+            0.117043
+          ],
+          [
+            "안돼네요",
+            0.108205
+          ],
+          [
+            "핸드폰번호",
+            0.097834
+          ],
+          [
+            "해외인데",
+            0.076491
+          ],
+          [
+            "한국번호야만",
+            0.07306
+          ],
+          [
+            "가능한지",
+            0.065664
+          ],
+          [
+            "인증이",
+            0.060707
+          ],
+          [
+            "verification",
+            0.056511
+          ],
+          [
+            "t&c",
+            0.053845
+          ],
+          [
+            "speakers",
+            0.052506
+          ],
+          [
+            "can't mobile",
+            0.041058
+          ],
+          [
+            "없고",
+            0.035229
+          ],
+          [
+            "instructions",
+            0.03479
+          ],
+          [
+            "plus",
+            0.033602
+          ],
+          [
+            "non-korean",
+            0.02942
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "verification",
+            -0.005542
+          ],
+          [
+            "not comprehensible",
+            0.005403
+          ],
+          [
+            "안돼네요",
+            -0.005101
+          ],
+          [
+            "plus",
+            0.004803
+          ],
+          [
+            "핸드폰번호",
+            0.003704
+          ],
+          [
+            "t&c",
+            -0.003505
+          ],
+          [
+            "korean",
+            0.003397
+          ],
+          [
+            "없고",
+            -0.002668
+          ],
+          [
+            "가능한지",
+            -0.00265
+          ],
+          [
+            "인증이",
+            0.00239
+          ],
+          [
+            "can't mobile",
+            -0.001657
+          ],
+          [
+            "number",
+            -0.001281
+          ],
+          [
+            "한국번호야만",
+            0.001171
+          ],
+          [
+            "해외인데",
+            -0.00111
+          ],
+          [
+            "contents",
+            -0.000752
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1632958948612213,
+          "max": 0.9999996423721313,
+          "std": 0.2875708341598511
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+        "word_count": 23,
+        "interface_pos": 0.009,
+        "interface_neg": 0.5966,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Web View",
+        "top_k_tokens": "▁to, ▁it, ▁interface",
+        "p_orig": 0.03840372711420059,
+        "p_img": 0.05137642100453377,
+        "delta_p_img": 0.012972693890333176,
+        "gradcam_mean": 0.3031604290008545,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Web View",
+        "delta_p_img_shap": 0.012397604063153267,
+        "word_attention_top15": [
+          [
+            "without membership",
+            0.188354
+          ],
+          [
+            "didn't receive",
+            0.143521
+          ],
+          [
+            "number",
+            0.131848
+          ],
+          [
+            "membership",
+            0.126997
+          ],
+          [
+            "not moving",
+            0.108647
+          ],
+          [
+            "code",
+            0.058563
+          ],
+          [
+            "step",
+            0.057057
+          ],
+          [
+            "registration",
+            0.050416
+          ],
+          [
+            "next",
+            0.042723
+          ],
+          [
+            "any",
+            0.034627
+          ],
+          [
+            "verify",
+            0.034513
+          ],
+          [
+            "mobile",
+            0.022735
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not moving",
+            -0.009405
+          ],
+          [
+            "didn't receive",
+            -0.005226
+          ],
+          [
+            "membership",
+            0.003308
+          ],
+          [
+            "registration",
+            -0.002888
+          ],
+          [
+            "mobile",
+            0.002444
+          ],
+          [
+            "code",
+            -0.001852
+          ],
+          [
+            "without membership",
+            -0.001505
+          ],
+          [
+            "step",
+            -0.001055
+          ],
+          [
+            "verify",
+            -0.00036
+          ],
+          [
+            "next",
+            -0.000321
+          ],
+          [
+            "any",
+            -0.000224
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17105458676815033,
+          "max": 0.9999996423721313,
+          "std": 0.2964640259742737
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+        "word_count": 53,
+        "interface_pos": 0.1056,
+        "interface_neg": 0.6566,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Text",
+        "top_k_tokens": "▁analysis, ▁crying, ▁한국",
+        "p_orig": 0.05672759562730789,
+        "p_img": 0.1168222576379776,
+        "delta_p_img": 0.06009466201066971,
+        "gradcam_mean": 0.24889829754829407,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Text Button",
+        "delta_p_img_shap": 0.04897297918796539,
+        "word_attention_top15": [
+          [
+            "한국사람이어도",
+            0.097357
+          ],
+          [
+            "못하네요",
+            0.071209
+          ],
+          [
+            "analysis",
+            0.067785
+          ],
+          [
+            "해놓은거죠",
+            0.061677
+          ],
+          [
+            "crying",
+            0.053574
+          ],
+          [
+            "해외에",
+            0.052596
+          ],
+          [
+            "work.0",
+            0.052129
+          ],
+          [
+            "살아서",
+            0.044507
+          ],
+          [
+            "해외계정에서",
+            0.043847
+          ],
+          [
+            "dont waste",
+            0.039244
+          ],
+          [
+            "못해서",
+            0.037598
+          ],
+          [
+            "그럴꺼면",
+            0.036747
+          ],
+          [
+            "다운받을",
+            0.031833
+          ],
+          [
+            "downloading",
+            0.027829
+          ],
+          [
+            "있게",
+            0.027498
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "못하네요",
+            -0.010065
+          ],
+          [
+            "waste",
+            -0.007845
+          ],
+          [
+            "있게",
+            0.006291
+          ],
+          [
+            "왜",
+            -0.00477
+          ],
+          [
+            "해놓은거죠",
+            -0.003174
+          ],
+          [
+            "다운받을",
+            0.002895
+          ],
+          [
+            "수",
+            0.002275
+          ],
+          [
+            "핸드폰",
+            0.002159
+          ],
+          [
+            "time",
+            -0.002049
+          ],
+          [
+            "baby",
+            0.001991
+          ],
+          [
+            "dont waste",
+            0.001948
+          ],
+          [
+            "사용",
+            -0.001865
+          ],
+          [
+            "없으면",
+            0.001377
+          ],
+          [
+            "해외계정에서",
+            0.001374
+          ],
+          [
+            "mobile",
+            0.001364
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13455937802791595,
+          "max": 0.9999997615814209,
+          "std": 0.24521435797214508
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Poorly designed app. This app is in foreign language and should only be available to Japanese region.",
+        "word_count": 17,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.9958,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Web View",
+        "top_k_tokens": "▁Poorly, ▁interface, ▁region",
+        "p_orig": 0.032370973378419876,
+        "p_img": 0.03758054971694946,
+        "delta_p_img": 0.005209576338529587,
+        "gradcam_mean": 0.30190014839172363,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Web View",
+        "delta_p_img_shap": 0.012685958296060562,
+        "word_attention_top15": [
+          [
+            "poorly",
+            0.263532
+          ],
+          [
+            "region",
+            0.248436
+          ],
+          [
+            "available",
+            0.118349
+          ],
+          [
+            "japanese",
+            0.106458
+          ],
+          [
+            "language",
+            0.097528
+          ],
+          [
+            "designed",
+            0.091103
+          ],
+          [
+            "foreign",
+            0.074595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "poorly",
+            -0.035026
+          ],
+          [
+            "designed",
+            0.021931
+          ],
+          [
+            "available",
+            0.006202
+          ],
+          [
+            "foreign",
+            -0.005432
+          ],
+          [
+            "japanese",
+            0.00526
+          ],
+          [
+            "language",
+            -0.002375
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16430875658988953,
+          "max": 0.9999995827674866,
+          "std": 0.28532952070236206
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 97% confidence.",
+      "simple": "This screen was predicted as bad with 97% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of CryingBeBe - Cry analyzer (category: Parenting) was predicted as bad with 97% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Text at the top-left, and a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.aco.cryingbebe",
+    "screen_id": "7935",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\7935.jpg",
+    "text": "Very bad why should phone number while you cannot registrat only for Korean ! Very stupid app, don't download it requires all you personal info I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+    "prediction": 0.11895797401666641,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.8810420259833336,
+    "gradcam_stats": {
+      "mean": 0.20418687164783478,
+      "max": 1.0,
+      "std": 0.2658608555793762
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very bad why should phone number while you cannot registrat only for Korean !",
+      "Very stupid app, don't download it requires all you personal info",
+      "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+      "Can't proceed when all is in Korean. N can't register.",
+      "Registration is very confusing as everything is in Korean. Couldn't go beyond registration page"
+    ],
+    "app_name": "CryingBeBe - Cry analyzer",
+    "category": "Parenting",
+    "faithfulness": {},
+    "top_components_ablated": [],
+    "top_components": [],
+    "components_full_ranked": []
+  },
+  {
+    "package_name": "com.aco.cryingbebe",
+    "screen_id": "7936",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\7936.jpg",
+    "text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0 Need to register to use. When registering. All language in korean. 미국에서 사는데 핸드폰 인증이 안되네요.",
+    "prediction": 0.6671966910362244,
+    "predicted_class": "good",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": false,
+    "confidence": 0.6671966910362244,
+    "gradcam_stats": {
+      "mean": 0.27870529890060425,
+      "max": 1.0,
+      "std": 0.2841402590274811
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+      "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+      "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+      "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+      "Poorly designed app. This app is in foreign language and should only be available to Japanese region."
+    ],
+    "app_name": "CryingBeBe - Cry analyzer",
+    "category": "Parenting",
+    "faithfulness": {
+      "p_orig": 0.6682329773902893,
+      "p_img": 0.6301198601722717,
+      "delta_p_img": 0.03811311721801758
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Input",
+        "bounds_image": [
+          54,
+          136,
+          218,
+          149
+        ],
+        "bounds_rico": [
+          351,
+          1557,
+          1404,
+          1707
+        ],
+        "score_total": 1363.447265625,
+        "score_mean": 0.6395156030136022
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          5,
+          154,
+          218,
+          166
+        ],
+        "bounds_rico": [
+          35,
+          1760,
+          1405,
+          1901
+        ],
+        "score_total": 1461.3297119140625,
+        "score_mean": 0.5717252394029978
+      },
+      {
+        "rank": 2,
+        "component": "Input",
+        "bounds_image": [
+          54,
+          119,
+          218,
+          133
+        ],
+        "bounds_rico": [
+          351,
+          1371,
+          1404,
+          1521
+        ],
+        "score_total": 1302.4290771484375,
+        "score_mean": 0.5672600510228386
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Input",
+        "score_total": 1363.447265625,
+        "score_mean": 0.6395156030136022,
+        "bounds_image": [
+          54,
+          136,
+          218,
+          149
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1461.3297119140625,
+        "score_mean": 0.5717252394029978,
+        "bounds_image": [
+          5,
+          154,
+          218,
+          166
+        ]
+      },
+      {
+        "component": "Input",
+        "score_total": 1302.4290771484375,
+        "score_mean": 0.5672600510228386,
+        "bounds_image": [
+          54,
+          119,
+          218,
+          133
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Input",
+        "score_total": 1363.447265625,
+        "score_mean": 0.6395156030136022,
+        "bounds_image": [
+          54,
+          136,
+          218,
+          149
+        ],
+        "bounds_rico": [
+          351,
+          1557,
+          1404,
+          1707
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 1461.3297119140625,
+        "score_mean": 0.5717252394029978,
+        "bounds_image": [
+          5,
+          154,
+          218,
+          166
+        ],
+        "bounds_rico": [
+          35,
+          1760,
+          1405,
+          1901
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Input",
+        "score_total": 1302.4290771484375,
+        "score_mean": 0.5672600510228386,
+        "bounds_image": [
+          54,
+          119,
+          218,
+          133
+        ],
+        "bounds_rico": [
+          351,
+          1371,
+          1404,
+          1521
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Input",
+        "score_total": 1002.218505859375,
+        "score_mean": 0.4700837269509264,
+        "bounds_image": [
+          54,
+          103,
+          218,
+          116
+        ],
+        "bounds_rico": [
+          351,
+          1185,
+          1404,
+          1335
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 86.62313079833984,
+        "score_mean": 0.20624554951985677,
+        "bounds_image": [
+          9,
+          137,
+          51,
+          147
+        ],
+        "bounds_rico": [
+          63,
+          1574,
+          333,
+          1690
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 0.29881536960601807,
+        "score_mean": 0.14940768480300903,
+        "bounds_image": [
+          5,
+          142,
+          7,
+          143
+        ],
+        "bounds_rico": [
+          36,
+          1627,
+          45,
+          1636
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 25.330833435058594,
+        "score_mean": 0.13193142414093018,
+        "bounds_image": [
+          9,
+          123,
+          41,
+          129
+        ],
+        "bounds_rico": [
+          63,
+          1415,
+          269,
+          1477
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Web View",
+        "score_total": 1308.41650390625,
+        "score_mean": 0.12776257239588418,
+        "bounds_image": [
+          7,
+          48,
+          216,
+          97
+        ],
+        "bounds_rico": [
+          50,
+          554,
+          1390,
+          1117
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 4.239039897918701,
+        "score_mean": 0.04037180855160668,
+        "bounds_image": [
+          9,
+          107,
+          30,
+          112
+        ],
+        "bounds_rico": [
+          63,
+          1229,
+          196,
+          1291
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 51.118534088134766,
+        "score_mean": 0.023999311778467026,
+        "bounds_image": [
+          5,
+          35,
+          218,
+          45
+        ],
+        "bounds_rico": [
+          35,
+          409,
+          1405,
+          521
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 33.807411193847656,
+        "score_mean": 0.013720540257243367,
+        "bounds_image": [
+          0,
+          21,
+          224,
+          32
+        ],
+        "bounds_rico": [
+          0,
+          242,
+          1440,
+          374
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Icon",
+        "score_total": 0.0004827764932997525,
+        "score_mean": 0.00024138824664987624,
+        "bounds_image": [
+          5,
+          109,
+          7,
+          110
+        ],
+        "bounds_rico": [
+          36,
+          1255,
+          45,
+          1264
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Icon",
+        "score_total": 0.018360722810029984,
+        "score_mean": 0.0001275050195140971,
+        "bounds_image": [
+          64,
+          9,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          417,
+          109,
+          515,
+          207
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 0.022340990602970123,
+        "score_mean": 4.091756520690499e-05,
+        "bounds_image": [
+          24,
+          7,
+          63,
+          21
+        ],
+        "bounds_rico": [
+          158,
+          84,
+          406,
+          242
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 72,
+        "token": "▁analysis"
+      },
+      {
+        "index": 71,
+        "token": "▁crying"
+      },
+      {
+        "index": 1,
+        "token": "▁한국"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+        "word_count": 21,
+        "interface_pos": 0.0028,
+        "interface_neg": 0.9825,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Icon",
+        "top_k_tokens": "▁Korean, ▁it, ▁and",
+        "p_orig": 0.4664387106895447,
+        "p_img": 0.37212899327278137,
+        "delta_p_img": 0.0943097174167633,
+        "gradcam_mean": 0.21471372246742249,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Input, Input, Web View",
+        "delta_p_img_shap": 0.1640847623348236,
+        "word_attention_top15": [
+          [
+            "can't korean",
+            0.46778
+          ],
+          [
+            "not worth",
+            0.174513
+          ],
+          [
+            "access",
+            0.170741
+          ],
+          [
+            "kind",
+            0.112725
+          ],
+          [
+            "permission",
+            0.038012
+          ],
+          [
+            "asking",
+            0.036228
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not worth",
+            -0.125899
+          ],
+          [
+            "can't korean",
+            -0.098074
+          ],
+          [
+            "kind",
+            0.062749
+          ],
+          [
+            "permission",
+            -0.043176
+          ],
+          [
+            "asking",
+            0.007992
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20034945011138916,
+          "max": 0.9999998211860657,
+          "std": 0.3387041687965393
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+        "word_count": 31,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9783,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Input, Text Button",
+        "top_k_tokens": "▁speakers, ▁instructions, 번",
+        "p_orig": 0.5372517704963684,
+        "p_img": 0.5229291319847107,
+        "delta_p_img": 0.014322638511657715,
+        "gradcam_mean": 0.2695605754852295,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Input, Text",
+        "delta_p_img_shap": 0.15525275468826294,
+        "word_attention_top15": [
+          [
+            "국가번호란도",
+            0.117043
+          ],
+          [
+            "안돼네요",
+            0.108205
+          ],
+          [
+            "핸드폰번호",
+            0.097834
+          ],
+          [
+            "해외인데",
+            0.076491
+          ],
+          [
+            "한국번호야만",
+            0.07306
+          ],
+          [
+            "가능한지",
+            0.065664
+          ],
+          [
+            "인증이",
+            0.060707
+          ],
+          [
+            "verification",
+            0.056511
+          ],
+          [
+            "t&c",
+            0.053845
+          ],
+          [
+            "speakers",
+            0.052506
+          ],
+          [
+            "can't mobile",
+            0.041058
+          ],
+          [
+            "없고",
+            0.035229
+          ],
+          [
+            "instructions",
+            0.03479
+          ],
+          [
+            "plus",
+            0.033602
+          ],
+          [
+            "non-korean",
+            0.02942
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "안돼네요",
+            -0.043551
+          ],
+          [
+            "핸드폰번호",
+            0.03245
+          ],
+          [
+            "없고",
+            -0.024526
+          ],
+          [
+            "verification",
+            -0.023851
+          ],
+          [
+            "가능한지",
+            -0.021
+          ],
+          [
+            "plus",
+            0.016461
+          ],
+          [
+            "not comprehensible",
+            0.0147
+          ],
+          [
+            "인증이",
+            0.014472
+          ],
+          [
+            "korean",
+            0.014442
+          ],
+          [
+            "number",
+            -0.012866
+          ],
+          [
+            "t&c",
+            -0.011656
+          ],
+          [
+            "해외인데",
+            -0.009035
+          ],
+          [
+            "can't mobile",
+            -0.005745
+          ],
+          [
+            "한국번호야만",
+            0.003003
+          ],
+          [
+            "국가번호란도",
+            0.001798
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2142159342765808,
+          "max": 0.9999998211860657,
+          "std": 0.36040425300598145
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+        "word_count": 23,
+        "interface_pos": 0.009,
+        "interface_neg": 0.5966,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Input, Text Button",
+        "top_k_tokens": "▁to, ▁it, ▁interface",
+        "p_orig": 0.5207684636116028,
+        "p_img": 0.48566028475761414,
+        "delta_p_img": 0.03510817885398865,
+        "gradcam_mean": 0.21513351798057556,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Input, Input, Web View",
+        "delta_p_img_shap": 0.14192357659339905,
+        "word_attention_top15": [
+          [
+            "without membership",
+            0.188354
+          ],
+          [
+            "didn't receive",
+            0.143521
+          ],
+          [
+            "number",
+            0.131848
+          ],
+          [
+            "membership",
+            0.126997
+          ],
+          [
+            "not moving",
+            0.108647
+          ],
+          [
+            "code",
+            0.058563
+          ],
+          [
+            "step",
+            0.057057
+          ],
+          [
+            "registration",
+            0.050416
+          ],
+          [
+            "next",
+            0.042723
+          ],
+          [
+            "any",
+            0.034627
+          ],
+          [
+            "verify",
+            0.034513
+          ],
+          [
+            "mobile",
+            0.022735
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not moving",
+            -0.044398
+          ],
+          [
+            "didn't receive",
+            -0.041848
+          ],
+          [
+            "membership",
+            0.026346
+          ],
+          [
+            "registration",
+            -0.019925
+          ],
+          [
+            "code",
+            -0.014172
+          ],
+          [
+            "mobile",
+            0.014015
+          ],
+          [
+            "without membership",
+            -0.011832
+          ],
+          [
+            "step",
+            -0.006286
+          ],
+          [
+            "next",
+            -0.004874
+          ],
+          [
+            "verify",
+            -0.00436
+          ],
+          [
+            "any",
+            -0.000524
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20147372782230377,
+          "max": 0.9999998211860657,
+          "std": 0.3407779633998871
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+        "word_count": 53,
+        "interface_pos": 0.1056,
+        "interface_neg": 0.6566,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Text Button, Input",
+        "top_k_tokens": "▁analysis, ▁crying, ▁한국",
+        "p_orig": 0.6682329773902893,
+        "p_img": 0.6301198601722717,
+        "delta_p_img": 0.03811311721801758,
+        "gradcam_mean": 0.27870529890060425,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Input",
+        "delta_p_img_shap": 0.122966468334198,
+        "word_attention_top15": [
+          [
+            "한국사람이어도",
+            0.097357
+          ],
+          [
+            "못하네요",
+            0.071209
+          ],
+          [
+            "analysis",
+            0.067785
+          ],
+          [
+            "해놓은거죠",
+            0.061677
+          ],
+          [
+            "crying",
+            0.053574
+          ],
+          [
+            "해외에",
+            0.052596
+          ],
+          [
+            "work.0",
+            0.052129
+          ],
+          [
+            "살아서",
+            0.044507
+          ],
+          [
+            "해외계정에서",
+            0.043847
+          ],
+          [
+            "dont waste",
+            0.039244
+          ],
+          [
+            "못해서",
+            0.037598
+          ],
+          [
+            "그럴꺼면",
+            0.036747
+          ],
+          [
+            "다운받을",
+            0.031833
+          ],
+          [
+            "downloading",
+            0.027829
+          ],
+          [
+            "있게",
+            0.027498
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "waste",
+            -0.032803
+          ],
+          [
+            "못하네요",
+            -0.028427
+          ],
+          [
+            "dont waste",
+            0.02324
+          ],
+          [
+            "있게",
+            0.020283
+          ],
+          [
+            "살아서",
+            0.016583
+          ],
+          [
+            "해놓은거죠",
+            -0.014652
+          ],
+          [
+            "왜",
+            -0.014264
+          ],
+          [
+            "해외에",
+            -0.013463
+          ],
+          [
+            "trying",
+            -0.011728
+          ],
+          [
+            "mobile",
+            0.010711
+          ],
+          [
+            "핸드폰",
+            0.01036
+          ],
+          [
+            "need",
+            0.0103
+          ],
+          [
+            "다운받을",
+            0.007421
+          ],
+          [
+            "수",
+            0.005847
+          ],
+          [
+            "analysis",
+            0.005701
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21533271670341492,
+          "max": 0.9999998807907104,
+          "std": 0.36639705300331116
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Poorly designed app. This app is in foreign language and should only be available to Japanese region.",
+        "word_count": 17,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.9958,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Icon",
+        "top_k_tokens": "▁Poorly, ▁interface, ▁region",
+        "p_orig": 0.4606809616088867,
+        "p_img": 0.36677032709121704,
+        "delta_p_img": 0.09391063451766968,
+        "gradcam_mean": 0.21422390639781952,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Input, Input, Web View",
+        "delta_p_img_shap": 0.1997644603252411,
+        "word_attention_top15": [
+          [
+            "poorly",
+            0.263532
+          ],
+          [
+            "region",
+            0.248436
+          ],
+          [
+            "available",
+            0.118349
+          ],
+          [
+            "japanese",
+            0.106458
+          ],
+          [
+            "language",
+            0.097528
+          ],
+          [
+            "designed",
+            0.091103
+          ],
+          [
+            "foreign",
+            0.074595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "poorly",
+            -0.173984
+          ],
+          [
+            "designed",
+            0.073166
+          ],
+          [
+            "foreign",
+            -0.035307
+          ],
+          [
+            "japanese",
+            0.024251
+          ],
+          [
+            "available",
+            0.019497
+          ],
+          [
+            "language",
+            -0.013963
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1928790956735611,
+          "max": 0.9999998211860657,
+          "std": 0.32648172974586487
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 67% confidence.",
+      "simple": "This screen was labeled as good with 67% confidence. The model directed most attention to a small Input at the top-left.",
+      "detailed": "This screen of CryingBeBe - Cry analyzer (category: Parenting) was labeled as good with 67% confidence (with moderate confidence). The model attended to a small Input at the top-left, a small Text Button at the top-left, and a small Input at the top-left."
+    }
+  },
+  {
+    "package_name": "com.aco.cryingbebe",
+    "screen_id": "7937",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\7937.jpg",
+    "text": "Very bad why should phone number while you cannot registrat only for Korean ! Can't proceed when all is in Korean. N can't register. Very stupid app, don't download it requires all you personal info",
+    "prediction": 0.07849545776844025,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9215045422315598,
+    "gradcam_stats": {
+      "mean": 0.18061871826648712,
+      "max": 1.0,
+      "std": 0.2522987425327301
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+      "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+      "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+      "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+      "Poorly designed app. This app is in foreign language and should only be available to Japanese region."
+    ],
+    "app_name": "CryingBeBe - Cry analyzer",
+    "category": "Parenting",
+    "faithfulness": {
+      "p_orig": 0.07840689271688461,
+      "p_img": 0.9101393818855286,
+      "delta_p_img": 0.831732489168644
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          110,
+          83,
+          179,
+          114
+        ],
+        "bounds_rico": [
+          713,
+          956,
+          1151,
+          1309
+        ],
+        "score_total": 1610.342041015625,
+        "score_mean": 0.7528480790161874
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          44,
+          83,
+          106,
+          114
+        ],
+        "bounds_rico": [
+          288,
+          956,
+          685,
+          1309
+        ],
+        "score_total": 676.35791015625,
+        "score_mean": 0.35190317906152446
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          10,
+          57,
+          213,
+          71
+        ],
+        "bounds_rico": [
+          65,
+          659,
+          1375,
+          818
+        ],
+        "score_total": 847.6563110351562,
+        "score_mean": 0.29826048945642375
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 1610.342041015625,
+        "score_mean": 0.7528480790161874,
+        "bounds_image": [
+          110,
+          83,
+          179,
+          114
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 676.35791015625,
+        "score_mean": 0.35190317906152446,
+        "bounds_image": [
+          44,
+          83,
+          106,
+          114
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 847.6563110351562,
+        "score_mean": 0.29826048945642375,
+        "bounds_image": [
+          10,
+          57,
+          213,
+          71
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 1610.342041015625,
+        "score_mean": 0.7528480790161874,
+        "bounds_image": [
+          110,
+          83,
+          179,
+          114
+        ],
+        "bounds_rico": [
+          713,
+          956,
+          1151,
+          1309
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 676.35791015625,
+        "score_mean": 0.35190317906152446,
+        "bounds_image": [
+          44,
+          83,
+          106,
+          114
+        ],
+        "bounds_rico": [
+          288,
+          956,
+          685,
+          1309
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 847.6563110351562,
+        "score_mean": 0.29826048945642375,
+        "bounds_image": [
+          10,
+          57,
+          213,
+          71
+        ],
+        "bounds_rico": [
+          65,
+          659,
+          1375,
+          818
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Input",
+        "score_total": 514.9132080078125,
+        "score_mean": 0.18117987614630982,
+        "bounds_image": [
+          10,
+          41,
+          213,
+          55
+        ],
+        "bounds_rico": [
+          65,
+          479,
+          1375,
+          629
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Input",
+        "score_total": 422.3951721191406,
+        "score_mean": 0.16005879959042843,
+        "bounds_image": [
+          10,
+          27,
+          213,
+          40
+        ],
+        "bounds_rico": [
+          65,
+          310,
+          1375,
+          460
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 4.025487899780273,
+        "score_mean": 0.029818428887261286,
+        "bounds_image": [
+          56,
+          9,
+          71,
+          18
+        ],
+        "bounds_rico": [
+          362,
+          109,
+          460,
+          207
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 1.3617135286331177,
+        "score_mean": 0.0032421750681740896,
+        "bounds_image": [
+          24,
+          7,
+          54,
+          21
+        ],
+        "bounds_rico": [
+          158,
+          84,
+          351,
+          242
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 17,
+        "token": "▁interface"
+      },
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 5,
+        "token": "▁phone"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access.",
+        "word_count": 21,
+        "interface_pos": 0.0028,
+        "interface_neg": 0.9825,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁Korean, ▁it, ▁and",
+        "p_orig": 0.09096980839967728,
+        "p_img": 0.9200723767280579,
+        "delta_p_img": 0.8291025683283806,
+        "gradcam_mean": 0.16045597195625305,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Image",
+        "delta_p_img_shap": 0.14686163514852524,
+        "word_attention_top15": [
+          [
+            "can't korean",
+            0.46778
+          ],
+          [
+            "not worth",
+            0.174513
+          ],
+          [
+            "access",
+            0.170741
+          ],
+          [
+            "kind",
+            0.112725
+          ],
+          [
+            "permission",
+            0.038012
+          ],
+          [
+            "asking",
+            0.036228
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "can't korean",
+            -0.051723
+          ],
+          [
+            "not worth",
+            -0.051292
+          ],
+          [
+            "kind",
+            0.041613
+          ],
+          [
+            "permission",
+            -0.041276
+          ],
+          [
+            "asking",
+            -0.001389
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13484565913677216,
+          "max": 0.9999999403953552,
+          "std": 0.2678915858268738
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers.",
+        "word_count": 31,
+        "interface_pos": 0.0085,
+        "interface_neg": 0.9783,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁speakers, ▁instructions, 번",
+        "p_orig": 0.12997856736183167,
+        "p_img": 0.9347653985023499,
+        "delta_p_img": 0.8047868311405182,
+        "gradcam_mean": 0.14320431649684906,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Image",
+        "delta_p_img_shap": 0.21627220511436462,
+        "word_attention_top15": [
+          [
+            "국가번호란도",
+            0.117043
+          ],
+          [
+            "안돼네요",
+            0.108205
+          ],
+          [
+            "핸드폰번호",
+            0.097834
+          ],
+          [
+            "해외인데",
+            0.076491
+          ],
+          [
+            "한국번호야만",
+            0.07306
+          ],
+          [
+            "가능한지",
+            0.065664
+          ],
+          [
+            "인증이",
+            0.060707
+          ],
+          [
+            "verification",
+            0.056511
+          ],
+          [
+            "t&c",
+            0.053845
+          ],
+          [
+            "speakers",
+            0.052506
+          ],
+          [
+            "can't mobile",
+            0.041058
+          ],
+          [
+            "없고",
+            0.035229
+          ],
+          [
+            "instructions",
+            0.03479
+          ],
+          [
+            "plus",
+            0.033602
+          ],
+          [
+            "non-korean",
+            0.02942
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "핸드폰번호",
+            0.014407
+          ],
+          [
+            "not comprehensible",
+            0.013549
+          ],
+          [
+            "verification",
+            -0.011362
+          ],
+          [
+            "plus",
+            0.010117
+          ],
+          [
+            "korean",
+            0.008573
+          ],
+          [
+            "안돼네요",
+            -0.007512
+          ],
+          [
+            "없고",
+            -0.006938
+          ],
+          [
+            "가능한지",
+            -0.005879
+          ],
+          [
+            "number",
+            -0.005646
+          ],
+          [
+            "한국번호야만",
+            0.004946
+          ],
+          [
+            "인증이",
+            0.004583
+          ],
+          [
+            "t&c",
+            -0.004166
+          ],
+          [
+            "can't mobile",
+            -0.003608
+          ],
+          [
+            "국가번호란도",
+            0.003387
+          ],
+          [
+            "contents",
+            0.001627
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1382259875535965,
+          "max": 0.9999999403953552,
+          "std": 0.26589271426200867
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number.",
+        "word_count": 23,
+        "interface_pos": 0.009,
+        "interface_neg": 0.5966,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁to, ▁it, ▁interface",
+        "p_orig": 0.10917749255895615,
+        "p_img": 0.927528977394104,
+        "delta_p_img": 0.8183514848351479,
+        "gradcam_mean": 0.16239871084690094,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Image",
+        "delta_p_img_shap": 0.18303636461496353,
+        "word_attention_top15": [
+          [
+            "without membership",
+            0.188354
+          ],
+          [
+            "didn't receive",
+            0.143521
+          ],
+          [
+            "number",
+            0.131848
+          ],
+          [
+            "membership",
+            0.126997
+          ],
+          [
+            "not moving",
+            0.108647
+          ],
+          [
+            "code",
+            0.058563
+          ],
+          [
+            "step",
+            0.057057
+          ],
+          [
+            "registration",
+            0.050416
+          ],
+          [
+            "next",
+            0.042723
+          ],
+          [
+            "any",
+            0.034627
+          ],
+          [
+            "verify",
+            0.034513
+          ],
+          [
+            "mobile",
+            0.022735
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not moving",
+            -0.018621
+          ],
+          [
+            "didn't receive",
+            -0.011733
+          ],
+          [
+            "membership",
+            0.011413
+          ],
+          [
+            "mobile",
+            0.007284
+          ],
+          [
+            "registration",
+            -0.006448
+          ],
+          [
+            "code",
+            -0.003915
+          ],
+          [
+            "without membership",
+            -0.002507
+          ],
+          [
+            "step",
+            -0.002307
+          ],
+          [
+            "any",
+            0.001389
+          ],
+          [
+            "verify",
+            -0.000702
+          ],
+          [
+            "next",
+            0.000692
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13677313923835754,
+          "max": 0.9999999403953552,
+          "std": 0.26680001616477966
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0",
+        "word_count": 53,
+        "interface_pos": 0.1056,
+        "interface_neg": 0.6566,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁analysis, ▁crying, ▁한국",
+        "p_orig": 0.17788921296596527,
+        "p_img": 0.9441890716552734,
+        "delta_p_img": 0.7662998586893082,
+        "gradcam_mean": 0.12446936964988708,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Image",
+        "delta_p_img_shap": 0.26801206171512604,
+        "word_attention_top15": [
+          [
+            "한국사람이어도",
+            0.097357
+          ],
+          [
+            "못하네요",
+            0.071209
+          ],
+          [
+            "analysis",
+            0.067785
+          ],
+          [
+            "해놓은거죠",
+            0.061677
+          ],
+          [
+            "crying",
+            0.053574
+          ],
+          [
+            "해외에",
+            0.052596
+          ],
+          [
+            "work.0",
+            0.052129
+          ],
+          [
+            "살아서",
+            0.044507
+          ],
+          [
+            "해외계정에서",
+            0.043847
+          ],
+          [
+            "dont waste",
+            0.039244
+          ],
+          [
+            "못해서",
+            0.037598
+          ],
+          [
+            "그럴꺼면",
+            0.036747
+          ],
+          [
+            "다운받을",
+            0.031833
+          ],
+          [
+            "downloading",
+            0.027829
+          ],
+          [
+            "있게",
+            0.027498
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "dont waste",
+            0.014415
+          ],
+          [
+            "waste",
+            -0.013754
+          ],
+          [
+            "못하네요",
+            -0.012022
+          ],
+          [
+            "있게",
+            0.011986
+          ],
+          [
+            "살아서",
+            0.008856
+          ],
+          [
+            "왜",
+            -0.006028
+          ],
+          [
+            "핸드폰",
+            0.005859
+          ],
+          [
+            "해외에",
+            -0.005389
+          ],
+          [
+            "mobile",
+            0.005038
+          ],
+          [
+            "다운받을",
+            0.004932
+          ],
+          [
+            "해놓은거죠",
+            -0.004619
+          ],
+          [
+            "수",
+            0.004024
+          ],
+          [
+            "해외계정에서",
+            0.0036
+          ],
+          [
+            "baby",
+            0.003404
+          ],
+          [
+            "trying",
+            -0.003399
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1278991550207138,
+          "max": 0.9999999403953552,
+          "std": 0.26695048809051514
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Poorly designed app. This app is in foreign language and should only be available to Japanese region.",
+        "word_count": 17,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.9958,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁Poorly, ▁interface, ▁region",
+        "p_orig": 0.08265579491853714,
+        "p_img": 0.9138619899749756,
+        "delta_p_img": 0.8312061950564384,
+        "gradcam_mean": 0.18073341250419617,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text Button, Image",
+        "delta_p_img_shap": 0.1224030926823616,
+        "word_attention_top15": [
+          [
+            "poorly",
+            0.263532
+          ],
+          [
+            "region",
+            0.248436
+          ],
+          [
+            "available",
+            0.118349
+          ],
+          [
+            "japanese",
+            0.106458
+          ],
+          [
+            "language",
+            0.097528
+          ],
+          [
+            "designed",
+            0.091103
+          ],
+          [
+            "foreign",
+            0.074595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "poorly",
+            -0.078231
+          ],
+          [
+            "designed",
+            0.048296
+          ],
+          [
+            "foreign",
+            -0.013603
+          ],
+          [
+            "japanese",
+            0.012839
+          ],
+          [
+            "available",
+            0.01255
+          ],
+          [
+            "language",
+            -0.004794
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12873755395412445,
+          "max": 0.9999998807907104,
+          "std": 0.27702391147613525
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 92% confidence.",
+      "simple": "This screen was classified as bad with 92% confidence. The model focused primarily on a small Text Button at the top-left.",
+      "detailed": "This screen of CryingBeBe - Cry analyzer (category: Parenting) was classified as bad with 92% confidence (with high confidence). The model focused on a small Text Button at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  }
+]

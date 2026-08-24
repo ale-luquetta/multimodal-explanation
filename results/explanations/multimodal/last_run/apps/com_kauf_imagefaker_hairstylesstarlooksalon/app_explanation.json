@@ -1,0 +1,367 @@
+{
+  "package_name": "com.kauf.imagefaker.hairstylesstarlooksalon",
+  "num_screens": 5,
+  "app_score": 0.057696032291278246,
+  "app_prediction": "bad",
+  "app_confidence": 0.9423039677087217,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.1699792593717575,
+    0.003715529339388013,
+    0.007644351106137037,
+    0.018154960125684738,
+    0.08898606151342392
+  ],
+  "prediction_variance": 0.004113830177746384,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_kauf_imagefaker_hairstylesstarlooksalon\\com_kauf_imagefaker_hairstylesstarlooksalon_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.kauf.imagefaker.hairstylesstarlooksalon was labeled as bad with average confidence 94% across 5 screens.",
+    "simple": "com.kauf.imagefaker.hairstylesstarlooksalon was labeled as bad with average confidence 94% across 5 screens. Across these screens, the model consistently focused on Icon components.",
+    "detailed": "com.kauf.imagefaker.hairstylesstarlooksalon was labeled as bad with average confidence 94% across 5 screens. Across these screens, the model consistently focused on Icon components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Icon (5x), Web View (3x), Text Button (2x). The most influential review words across screens were 'else's', 'doesn't deserve', 'hairstyles', 'review', and 'horrible'. The app belongs to the Lifestyle category and was analyzed across 5 screens."
+  },
+  "representative_screen": {
+    "screen_id": "22164",
+    "review_rank": 3,
+    "delta_p_img": 0.17466755211353302,
+    "confidence": 0.8300207406282425,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\22164.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "else's",
+      1.261635
+    ],
+    [
+      "doesn't deserve",
+      1.235452
+    ],
+    [
+      "hairstyles",
+      1.223354
+    ],
+    [
+      "review",
+      1.203419
+    ],
+    [
+      "horrible",
+      1.015591
+    ],
+    [
+      "ridiculous",
+      0.895414
+    ],
+    [
+      "installed",
+      0.702308
+    ],
+    [
+      "can't choose",
+      0.701553
+    ],
+    [
+      "not work",
+      0.6662
+    ],
+    [
+      "don't download",
+      0.627735
+    ],
+    [
+      "never download",
+      0.616536
+    ],
+    [
+      "yuck",
+      0.606937
+    ],
+    [
+      "doesn't match",
+      0.567377
+    ],
+    [
+      "can't finishes",
+      0.559888
+    ],
+    [
+      "body",
+      0.533341
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "worst",
+      -0.267922
+    ],
+    [
+      "don't download",
+      -0.14873
+    ],
+    [
+      "doesn't match",
+      -0.135909
+    ],
+    [
+      "never download",
+      -0.117883
+    ],
+    [
+      "awful",
+      -0.093055
+    ],
+    [
+      "horrible",
+      -0.086979
+    ],
+    [
+      "hairstyles",
+      0.071148
+    ],
+    [
+      "tone",
+      0.058227
+    ],
+    [
+      "not work",
+      -0.05778
+    ],
+    [
+      "can't choose",
+      -0.054925
+    ],
+    [
+      "trust",
+      0.054228
+    ],
+    [
+      "free",
+      0.045037
+    ],
+    [
+      "don't want",
+      0.037031
+    ],
+    [
+      "big",
+      0.036889
+    ],
+    [
+      "blows",
+      -0.035564
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "hairstyles",
+      "rrf_score": 0.030798,
+      "rank_bahdanau": 3,
+      "rank_shap": 7,
+      "shap_signed": 0.071148,
+      "in_both": true
+    },
+    {
+      "word": "horrible",
+      "rrf_score": 0.030536,
+      "rank_bahdanau": 5,
+      "rank_shap": 6,
+      "shap_signed": -0.086979,
+      "in_both": true
+    },
+    {
+      "word": "don't download",
+      "rrf_score": 0.030415,
+      "rank_bahdanau": 10,
+      "rank_shap": 2,
+      "shap_signed": -0.14873,
+      "in_both": true
+    },
+    {
+      "word": "never download",
+      "rrf_score": 0.02971,
+      "rank_bahdanau": 11,
+      "rank_shap": 4,
+      "shap_signed": -0.117883,
+      "in_both": true
+    },
+    {
+      "word": "doesn't match",
+      "rrf_score": 0.029572,
+      "rank_bahdanau": 13,
+      "rank_shap": 3,
+      "shap_signed": -0.135909,
+      "in_both": true
+    },
+    {
+      "word": "can't choose",
+      "rrf_score": 0.028992,
+      "rank_bahdanau": 8,
+      "rank_shap": 10,
+      "shap_signed": -0.054925,
+      "in_both": true
+    },
+    {
+      "word": "not work",
+      "rrf_score": 0.028986,
+      "rank_bahdanau": 9,
+      "rank_shap": 9,
+      "shap_signed": -0.05778,
+      "in_both": true
+    },
+    {
+      "word": "else's",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "worst",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": null,
+      "rank_shap": 1,
+      "shap_signed": -0.267922,
+      "in_both": false
+    },
+    {
+      "word": "doesn't deserve",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "review",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "awful",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.093055,
+      "in_both": false
+    },
+    {
+      "word": "ridiculous",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "installed",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "tone",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.058227,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 1,
+      "text": "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 0,
+      "text": "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 8,
+      "text": "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 7,
+      "text": "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 3,
+      "text": "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "else's",
+      1.261635
+    ],
+    [
+      "doesn't deserve",
+      1.235452
+    ],
+    [
+      "hairstyles",
+      1.223354
+    ],
+    [
+      "review",
+      1.203419
+    ],
+    [
+      "horrible",
+      1.015591
+    ],
+    [
+      "ridiculous",
+      0.895414
+    ],
+    [
+      "installed",
+      0.702308
+    ],
+    [
+      "can't choose",
+      0.701553
+    ],
+    [
+      "not work",
+      0.6662
+    ],
+    [
+      "don't download",
+      0.627735
+    ],
+    [
+      "never download",
+      0.616536
+    ],
+    [
+      "yuck",
+      0.606937
+    ],
+    [
+      "doesn't match",
+      0.567377
+    ],
+    [
+      "can't finishes",
+      0.559888
+    ],
+    [
+      "body",
+      0.533341
+    ]
+  ]
+}

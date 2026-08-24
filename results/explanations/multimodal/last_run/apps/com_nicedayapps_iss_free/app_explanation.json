@@ -1,0 +1,365 @@
+{
+  "package_name": "com.nicedayapps.iss_free",
+  "num_screens": 3,
+  "app_score": 0.9850947459538778,
+  "app_prediction": "good",
+  "app_confidence": 0.9850947459538778,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9882190227508545,
+    0.9738207459449768,
+    0.993244469165802
+  ],
+  "prediction_variance": 6.776072337860089e-05,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_nicedayapps_iss_free\\com_nicedayapps_iss_free_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.nicedayapps.iss_free was classified as good with average confidence 99% across 3 screens.",
+    "simple": "com.nicedayapps.iss_free was classified as good with average confidence 99% across 3 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "com.nicedayapps.iss_free was classified as good with average confidence 99% across 3 screens. Across these screens, the model recurringly attended to Text components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text (4x), Image (3x), Text Button (1x). The most influential review words across screens were 'absolutely', 'love', 'iss', 'stars', and 'space'. The app belongs to the Education category and was analyzed across 3 screens."
+  },
+  "representative_screen": {
+    "screen_id": "5537",
+    "review_rank": 1,
+    "delta_p_img": 0.14559561014175415,
+    "confidence": 0.993244469165802,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5537.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "absolutely",
+      0.529307
+    ],
+    [
+      "love",
+      0.486524
+    ],
+    [
+      "iss",
+      0.374673
+    ],
+    [
+      "stars",
+      0.358417
+    ],
+    [
+      "space",
+      0.316948
+    ],
+    [
+      "live",
+      0.310654
+    ],
+    [
+      "station",
+      0.294235
+    ],
+    [
+      "fascinating",
+      0.272793
+    ],
+    [
+      "awesome",
+      0.271212
+    ],
+    [
+      "earth",
+      0.269771
+    ],
+    [
+      "map",
+      0.236724
+    ],
+    [
+      "beautiful",
+      0.221858
+    ],
+    [
+      "none",
+      0.207815
+    ],
+    [
+      "sunrise",
+      0.206114
+    ],
+    [
+      "&",
+      0.204139
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "love",
+      0.311235
+    ],
+    [
+      "awesome",
+      0.138718
+    ],
+    [
+      "enjoy",
+      0.106074
+    ],
+    [
+      "absolutely",
+      0.075855
+    ],
+    [
+      "unique",
+      0.064925
+    ],
+    [
+      "beautiful",
+      0.064735
+    ],
+    [
+      "fascinating",
+      0.057964
+    ],
+    [
+      "live",
+      0.05588
+    ],
+    [
+      "lovely",
+      0.051363
+    ],
+    [
+      "best",
+      0.049437
+    ],
+    [
+      "suggest",
+      0.048347
+    ],
+    [
+      "none",
+      0.045271
+    ],
+    [
+      "any",
+      0.041763
+    ],
+    [
+      "amazing",
+      0.041733
+    ],
+    [
+      "clear",
+      0.041319
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "love",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": 0.311235,
+      "in_both": true
+    },
+    {
+      "word": "absolutely",
+      "rrf_score": 0.032018,
+      "rank_bahdanau": 1,
+      "rank_shap": 4,
+      "shap_signed": 0.075855,
+      "in_both": true
+    },
+    {
+      "word": "awesome",
+      "rrf_score": 0.030622,
+      "rank_bahdanau": 9,
+      "rank_shap": 2,
+      "shap_signed": 0.138718,
+      "in_both": true
+    },
+    {
+      "word": "live",
+      "rrf_score": 0.029857,
+      "rank_bahdanau": 6,
+      "rank_shap": 8,
+      "shap_signed": 0.05588,
+      "in_both": true
+    },
+    {
+      "word": "fascinating",
+      "rrf_score": 0.029631,
+      "rank_bahdanau": 8,
+      "rank_shap": 7,
+      "shap_signed": 0.057964,
+      "in_both": true
+    },
+    {
+      "word": "beautiful",
+      "rrf_score": 0.02904,
+      "rank_bahdanau": 12,
+      "rank_shap": 6,
+      "shap_signed": 0.064735,
+      "in_both": true
+    },
+    {
+      "word": "none",
+      "rrf_score": 0.027588,
+      "rank_bahdanau": 13,
+      "rank_shap": 12,
+      "shap_signed": 0.045271,
+      "in_both": true
+    },
+    {
+      "word": "enjoy",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.106074,
+      "in_both": false
+    },
+    {
+      "word": "iss",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "stars",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "unique",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.064925,
+      "in_both": false
+    },
+    {
+      "word": "space",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "station",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "lovely",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.051363,
+      "in_both": false
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": null,
+      "rank_shap": 10,
+      "shap_signed": 0.049437,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 18,
+      "text": "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 5,
+      "text": "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 12,
+      "text": "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 16,
+      "text": "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 4,
+      "text": "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "absolutely",
+      0.529307
+    ],
+    [
+      "love",
+      0.486524
+    ],
+    [
+      "iss",
+      0.374673
+    ],
+    [
+      "stars",
+      0.358417
+    ],
+    [
+      "space",
+      0.316948
+    ],
+    [
+      "live",
+      0.310654
+    ],
+    [
+      "station",
+      0.294235
+    ],
+    [
+      "fascinating",
+      0.272793
+    ],
+    [
+      "awesome",
+      0.271212
+    ],
+    [
+      "earth",
+      0.269771
+    ],
+    [
+      "map",
+      0.236724
+    ],
+    [
+      "beautiful",
+      0.221858
+    ],
+    [
+      "none",
+      0.207815
+    ],
+    [
+      "sunrise",
+      0.206114
+    ],
+    [
+      "&",
+      0.204139
+    ]
+  ]
+}

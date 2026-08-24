@@ -1,0 +1,367 @@
+{
+  "package_name": "spurgeon.morning_and_evening.devotional.AOUWQEJPCEQPQPTU",
+  "num_screens": 5,
+  "app_score": 0.9720627307891846,
+  "app_prediction": "good",
+  "app_confidence": 0.9720627307891846,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9978888630867004,
+    0.9280745387077332,
+    0.9821891188621521,
+    0.9837623834609985,
+    0.9683987498283386
+  ],
+  "prediction_variance": 0.0005709601033140644,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\spurgeon_morning_and_evening_devotional_AOUWQEJPCEQPQPTU\\spurgeon_morning_and_evening_devotional_AOUWQEJPCEQPQPTU_app_explanation.png",
+  "text_explanation": {
+    "caption": "spurgeon.morning_and_evening.devotional.AOUWQEJPCEQPQPTU was classified as good with average confidence 97% across 5 screens.",
+    "simple": "spurgeon.morning_and_evening.devotional.AOUWQEJPCEQPQPTU was classified as good with average confidence 97% across 5 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "spurgeon.morning_and_evening.devotional.AOUWQEJPCEQPQPTU was classified as good with average confidence 97% across 5 screens. Across these screens, the model recurringly attended to Text components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text (8x), Icon (4x), Text Button (2x). The most influential review words across screens were 'devotional', 'bible', 'etc)....i', 'font', and 'luggage'. The app belongs to the Books & Reference category and was analyzed across 5 screens."
+  },
+  "representative_screen": {
+    "screen_id": "64534",
+    "review_rank": 2,
+    "delta_p_img": 0.6625704318284988,
+    "confidence": 0.9280745387077332,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\64534.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "devotional",
+      0.821905
+    ],
+    [
+      "bible",
+      0.770201
+    ],
+    [
+      "etc)....i",
+      0.669778
+    ],
+    [
+      "font",
+      0.600978
+    ],
+    [
+      "luggage",
+      0.575582
+    ],
+    [
+      "easy",
+      0.563233
+    ],
+    [
+      "excellent",
+      0.448791
+    ],
+    [
+      "companion",
+      0.444287
+    ],
+    [
+      "menu",
+      0.427498
+    ],
+    [
+      "material",
+      0.411743
+    ],
+    [
+      "free",
+      0.410348
+    ],
+    [
+      "great",
+      0.391006
+    ],
+    [
+      "passages",
+      0.382016
+    ],
+    [
+      "always",
+      0.380013
+    ],
+    [
+      "chapters",
+      0.374419
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "easy",
+      0.39816
+    ],
+    [
+      "excellent",
+      0.357438
+    ],
+    [
+      "good",
+      0.329815
+    ],
+    [
+      "wonderful",
+      0.274119
+    ],
+    [
+      "great",
+      0.265065
+    ],
+    [
+      "bible",
+      0.234125
+    ],
+    [
+      "devotional",
+      0.232549
+    ],
+    [
+      "must",
+      0.199713
+    ],
+    [
+      "appreciate",
+      0.1971
+    ],
+    [
+      "without back",
+      0.186331
+    ],
+    [
+      "quickly",
+      0.177601
+    ],
+    [
+      "free",
+      0.173672
+    ],
+    [
+      "reading",
+      0.157415
+    ],
+    [
+      "satisfied",
+      0.157199
+    ],
+    [
+      "thanks",
+      0.142941
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "easy",
+      "rrf_score": 0.031545,
+      "rank_bahdanau": 6,
+      "rank_shap": 1,
+      "shap_signed": 0.39816,
+      "in_both": true
+    },
+    {
+      "word": "devotional",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 1,
+      "rank_shap": 7,
+      "shap_signed": 0.232549,
+      "in_both": true
+    },
+    {
+      "word": "bible",
+      "rrf_score": 0.031281,
+      "rank_bahdanau": 2,
+      "rank_shap": 6,
+      "shap_signed": 0.234125,
+      "in_both": true
+    },
+    {
+      "word": "excellent",
+      "rrf_score": 0.031054,
+      "rank_bahdanau": 7,
+      "rank_shap": 2,
+      "shap_signed": 0.357438,
+      "in_both": true
+    },
+    {
+      "word": "great",
+      "rrf_score": 0.029274,
+      "rank_bahdanau": 12,
+      "rank_shap": 5,
+      "shap_signed": 0.265065,
+      "in_both": true
+    },
+    {
+      "word": "free",
+      "rrf_score": 0.027973,
+      "rank_bahdanau": 11,
+      "rank_shap": 12,
+      "shap_signed": 0.173672,
+      "in_both": true
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.329815,
+      "in_both": false
+    },
+    {
+      "word": "etc)....i",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "font",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "wonderful",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.274119,
+      "in_both": false
+    },
+    {
+      "word": "luggage",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "must",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.199713,
+      "in_both": false
+    },
+    {
+      "word": "companion",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "menu",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "appreciate",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.1971,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 8,
+      "text": "Great App. Extremely easy to navigate between Bible books, chapters, and verses. Font and line spacing can be quickly enlarged for those who may have difficulty reading small font. App allows one to highlight passages, and it reads passages for the reader. Information is for the ad free version."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 16,
+      "text": "The app is my every day companion, makes bible reading and study easy. I also take a lot of notes with is t. I am on a journey presently and I didn't have to add the weight of a physical bible to my already overweight luggage. I am totally satisfied with it. Thanks for an excellent resource"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 18,
+      "text": "I am blessed to find this devotional app. It really elaborate more insight to each scripture used each day.Also an amazing thing I have noticed personally is that every scriptures used daily, truthful speaks to me and fit the moment (eg. Let say what I am going through at that point in time that I'm led to read or what I read may pop up sometime through the day etc)....I don't know how but it happens often. I really appreciate and enjoy reading this devotional messages always. God bless you."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 5,
+      "text": "This is a \"must have\" app for Christian's who want a serious devotional life that will nurture them towards the direction of Christian maturity. I've been reading these devotional for a good three years before I ever downloaded this app. Although the language might be a bit difficult for some, with a little struggle, the benefits reaped far outweigh the time it takes to understand the days entry. A wonderful app and I highly recommend it!"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 3,
+      "text": "The app is excellent; just needs one thing, a method to get from the devotional material to the Bible without having to go back to the Books of the Bible menu each time. 12/30/2020 - I'm still pleased with this app. It always appears to speak to my heart the areas that the Spirit of God is currently directing me. Also, I found the button to go from the devotional to the Bible Reference without having to go the Books of the Bible menu. Keep up the good work in publishing The Good News"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "devotional",
+      0.821905
+    ],
+    [
+      "bible",
+      0.770201
+    ],
+    [
+      "etc)....i",
+      0.669778
+    ],
+    [
+      "font",
+      0.600978
+    ],
+    [
+      "luggage",
+      0.575582
+    ],
+    [
+      "easy",
+      0.563233
+    ],
+    [
+      "excellent",
+      0.448791
+    ],
+    [
+      "companion",
+      0.444287
+    ],
+    [
+      "menu",
+      0.427498
+    ],
+    [
+      "material",
+      0.411743
+    ],
+    [
+      "free",
+      0.410348
+    ],
+    [
+      "great",
+      0.391006
+    ],
+    [
+      "passages",
+      0.382016
+    ],
+    [
+      "always",
+      0.380013
+    ],
+    [
+      "chapters",
+      0.374419
+    ]
+  ]
+}

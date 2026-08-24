@@ -1,0 +1,370 @@
+{
+  "package_name": "com.hp.pregnancy.lite",
+  "num_screens": 8,
+  "app_score": 0.9793391898274422,
+  "app_prediction": "good",
+  "app_confidence": 0.9793391898274422,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9154822826385498,
+    0.9996393918991089,
+    0.9916681051254272,
+    0.9911288022994995,
+    0.9643132090568542,
+    0.9848507642745972,
+    0.9953333735466003,
+    0.9922975897789001
+  ],
+  "prediction_variance": 0.0006825864384620295,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_hp_pregnancy_lite\\com_hp_pregnancy_lite_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.hp.pregnancy.lite was labeled as good with average confidence 98% across 8 screens.",
+    "simple": "com.hp.pregnancy.lite was labeled as good with average confidence 98% across 8 screens. Across these screens, the model consistently focused on Text components.",
+    "detailed": "com.hp.pregnancy.lite was labeled as good with average confidence 98% across 8 screens. Across these screens, the model consistently focused on Text components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text (14x), Text Button (4x), Input (2x). The most influential review words across screens were 'pregnancy', 'week', 'friendly', 'articles', and 'baby's'. The app belongs to the Medical category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "46565",
+    "review_rank": 3,
+    "delta_p_img": 0.4823032021522522,
+    "confidence": 0.9911288022994995,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\46565.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "pregnancy",
+      1.802946
+    ],
+    [
+      "week",
+      1.715184
+    ],
+    [
+      "friendly",
+      1.360697
+    ],
+    [
+      "articles",
+      1.244821
+    ],
+    [
+      "baby's",
+      1.109397
+    ],
+    [
+      "time",
+      1.062874
+    ],
+    [
+      "helpful",
+      0.994543
+    ],
+    [
+      "fruit",
+      0.757362
+    ],
+    [
+      "accurate",
+      0.736119
+    ],
+    [
+      "love",
+      0.726012
+    ],
+    [
+      "great",
+      0.704114
+    ],
+    [
+      "list",
+      0.688267
+    ],
+    [
+      "photos",
+      0.675037
+    ],
+    [
+      "book",
+      0.614228
+    ],
+    [
+      "best",
+      0.600267
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "great",
+      0.352826
+    ],
+    [
+      "love",
+      0.313082
+    ],
+    [
+      "helpful",
+      0.270524
+    ],
+    [
+      "favorite",
+      0.205642
+    ],
+    [
+      "articles",
+      0.173679
+    ],
+    [
+      "best",
+      0.171718
+    ],
+    [
+      "week",
+      0.171658
+    ],
+    [
+      "friendly",
+      0.149244
+    ],
+    [
+      "development",
+      0.110007
+    ],
+    [
+      "ads",
+      -0.108482
+    ],
+    [
+      "accurate",
+      0.105166
+    ],
+    [
+      "3d",
+      0.100753
+    ],
+    [
+      "experience",
+      0.100736
+    ],
+    [
+      "baby's",
+      0.099488
+    ],
+    [
+      "amazing",
+      0.091472
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "week",
+      "rrf_score": 0.031054,
+      "rank_bahdanau": 2,
+      "rank_shap": 7,
+      "shap_signed": 0.171658,
+      "in_both": true
+    },
+    {
+      "word": "articles",
+      "rrf_score": 0.03101,
+      "rank_bahdanau": 4,
+      "rank_shap": 5,
+      "shap_signed": 0.173679,
+      "in_both": true
+    },
+    {
+      "word": "helpful",
+      "rrf_score": 0.030798,
+      "rank_bahdanau": 7,
+      "rank_shap": 3,
+      "shap_signed": 0.270524,
+      "in_both": true
+    },
+    {
+      "word": "friendly",
+      "rrf_score": 0.030579,
+      "rank_bahdanau": 3,
+      "rank_shap": 8,
+      "shap_signed": 0.149244,
+      "in_both": true
+    },
+    {
+      "word": "great",
+      "rrf_score": 0.030478,
+      "rank_bahdanau": 11,
+      "rank_shap": 1,
+      "shap_signed": 0.352826,
+      "in_both": true
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.030415,
+      "rank_bahdanau": 10,
+      "rank_shap": 2,
+      "shap_signed": 0.313082,
+      "in_both": true
+    },
+    {
+      "word": "baby's",
+      "rrf_score": 0.028898,
+      "rank_bahdanau": 5,
+      "rank_shap": 14,
+      "shap_signed": 0.099488,
+      "in_both": true
+    },
+    {
+      "word": "accurate",
+      "rrf_score": 0.028577,
+      "rank_bahdanau": 9,
+      "rank_shap": 11,
+      "shap_signed": 0.105166,
+      "in_both": true
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.028485,
+      "rank_bahdanau": 15,
+      "rank_shap": 6,
+      "shap_signed": 0.171718,
+      "in_both": true
+    },
+    {
+      "word": "pregnancy",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "favorite",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.205642,
+      "in_both": false
+    },
+    {
+      "word": "time",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "fruit",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "development",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.110007,
+      "in_both": false
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": null,
+      "rank_shap": 10,
+      "shap_signed": -0.108482,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 7,
+      "text": "very informative and user friendly. makes your pregnancy feel more personal and in tune with your body, emotions, baby needs, and spousal support. I love it and check it every day while uploading photos every week! It's a great addition to the best seller book, \"What to expect when you're expecting \". the app reminders are also great talking points for discussions with your doctor."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 12,
+      "text": "This app is amazing! not only does it have helpful articles, but also has week by week 2D and 3D scans, measures your baby in fun ways like by fruit, sweets and animals . You can also track your weight as well as doctor appointments , the list goes on and on it even has tips and articles for your other half! I would highly recommend this app, as I've tried others before this and none were as great as this!!!!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 13,
+      "text": "This app is the best! You get lifelike images of baby's development every week. There are so many helpful blog topics that are especially helpful for new moms. And I love that the app is also designed for partners and it gives them tips and insight into what the woman's body is going through also at every stage (fatigue, nausea, etc). Me and my husband have the app so we can both keep track of baby's development. We both love it!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 19,
+      "text": "one of my all time favorite pregnancy apps, let's face it.... there are way too many to choose from and many are full of ads or just entirely 😑 a waste of precious time. This app (for me) seems to be one of the most accurate, user friendly, and seamless pregnancy app! Just download it.... you'll truly enjoy your experience! It is quite comprehensive!"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 14,
+      "text": "It's been very helpful, and it was worth the 1.99 upgrade to premium because it allows me a kick counter, contraction timer, hospital bag list of what to pack, and birth plans all right in one place. Along with what comes with the free version of tracking the size of the baby and photos of your bump. It also has helpful articles on each day of your pregnancy. It also had articles that describes what is going on that week during pregnancy. Definitely recommend!!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "pregnancy",
+      1.802946
+    ],
+    [
+      "week",
+      1.715184
+    ],
+    [
+      "friendly",
+      1.360697
+    ],
+    [
+      "articles",
+      1.244821
+    ],
+    [
+      "baby's",
+      1.109397
+    ],
+    [
+      "time",
+      1.062874
+    ],
+    [
+      "helpful",
+      0.994543
+    ],
+    [
+      "fruit",
+      0.757362
+    ],
+    [
+      "accurate",
+      0.736119
+    ],
+    [
+      "love",
+      0.726012
+    ],
+    [
+      "great",
+      0.704114
+    ],
+    [
+      "list",
+      0.688267
+    ],
+    [
+      "photos",
+      0.675037
+    ],
+    [
+      "book",
+      0.614228
+    ],
+    [
+      "best",
+      0.600267
+    ]
+  ]
+}

@@ -1,0 +1,7358 @@
+[
+  {
+    "package_name": "com.omead.bible.kjv",
+    "screen_id": "5231",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5231.jpg",
+    "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word! I love that you can check off chapters as you read them and it keeps track of the last chapter you read. This makes it easy when reading through the Bible in a year. The options for highlighting, bookmarking and marking fa",
+    "prediction": 0.9660137891769409,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9660137891769409,
+    "gradcam_stats": {
+      "mean": 0.48353311419487,
+      "max": 1.0,
+      "std": 0.24444380402565002
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+      "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+      "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+      "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+      "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    ],
+    "app_name": "King James Bible (KJV) - free",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9660564064979553,
+      "p_img": 0.929855227470398,
+      "delta_p_img": 0.03620117902755737
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          0,
+          129,
+          152,
+          144
+        ],
+        "bounds_rico": [
+          0,
+          1478,
+          980,
+          1646
+        ],
+        "score_total": 1799.664306640625,
+        "score_mean": 0.7893264502809759
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          0,
+          109,
+          152,
+          124
+        ],
+        "bounds_rico": [
+          0,
+          1250,
+          980,
+          1418
+        ],
+        "score_total": 1776.145263671875,
+        "score_mean": 0.77901108055784
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          5,
+          151,
+          76,
+          165
+        ],
+        "bounds_rico": [
+          35,
+          1734,
+          491,
+          1888
+        ],
+        "score_total": 773.40869140625,
+        "score_mean": 0.7780771543322434
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 1799.664306640625,
+        "score_mean": 0.7893264502809759,
+        "bounds_image": [
+          0,
+          129,
+          152,
+          144
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1776.145263671875,
+        "score_mean": 0.77901108055784,
+        "bounds_image": [
+          0,
+          109,
+          152,
+          124
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 773.40869140625,
+        "score_mean": 0.7780771543322434,
+        "bounds_image": [
+          5,
+          151,
+          76,
+          165
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 1799.664306640625,
+        "score_mean": 0.7893264502809759,
+        "bounds_image": [
+          0,
+          129,
+          152,
+          144
+        ],
+        "bounds_rico": [
+          0,
+          1478,
+          980,
+          1646
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 1776.145263671875,
+        "score_mean": 0.77901108055784,
+        "bounds_image": [
+          0,
+          109,
+          152,
+          124
+        ],
+        "bounds_rico": [
+          0,
+          1250,
+          980,
+          1418
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 773.40869140625,
+        "score_mean": 0.7780771543322434,
+        "bounds_image": [
+          5,
+          151,
+          76,
+          165
+        ],
+        "bounds_rico": [
+          35,
+          1734,
+          491,
+          1888
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 1651.056640625,
+        "score_mean": 0.7758724814967105,
+        "bounds_image": [
+          0,
+          144,
+          152,
+          158
+        ],
+        "bounds_rico": [
+          0,
+          1646,
+          980,
+          1814
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 765.507568359375,
+        "score_mean": 0.7701283383897133,
+        "bounds_image": [
+          76,
+          151,
+          147,
+          165
+        ],
+        "bounds_rico": [
+          491,
+          1734,
+          948,
+          1888
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 1669.749755859375,
+        "score_mean": 0.7323463841488487,
+        "bounds_image": [
+          0,
+          163,
+          152,
+          178
+        ],
+        "bounds_rico": [
+          0,
+          1874,
+          980,
+          2042
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text Button",
+        "score_total": 1476.440185546875,
+        "score_mean": 0.6475614848889802,
+        "bounds_image": [
+          0,
+          94,
+          152,
+          109
+        ],
+        "bounds_rico": [
+          0,
+          1082,
+          980,
+          1250
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Web View",
+        "score_total": 1851.6478271484375,
+        "score_mean": 0.5166428089141846,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 500.6653747558594,
+        "score_mean": 0.5036874997543856,
+        "bounds_image": [
+          147,
+          151,
+          218,
+          165
+        ],
+        "bounds_rico": [
+          948,
+          1734,
+          1405,
+          1888
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text Button",
+        "score_total": 1038.5924072265625,
+        "score_mean": 0.45552298562568533,
+        "bounds_image": [
+          0,
+          79,
+          152,
+          94
+        ],
+        "bounds_rico": [
+          0,
+          914,
+          980,
+          1082
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 4074.345947265625,
+        "score_mean": 0.41813895189507644,
+        "bounds_image": [
+          10,
+          49,
+          213,
+          97
+        ],
+        "bounds_rico": [
+          70,
+          562,
+          1370,
+          1115
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text Button",
+        "score_total": 725.6205444335938,
+        "score_mean": 0.3409870979481174,
+        "bounds_image": [
+          0,
+          65,
+          152,
+          79
+        ],
+        "bounds_rico": [
+          0,
+          746,
+          980,
+          914
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 652.9818115234375,
+        "score_mean": 0.28639553136992874,
+        "bounds_image": [
+          0,
+          50,
+          152,
+          65
+        ],
+        "bounds_rico": [
+          0,
+          578,
+          980,
+          746
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 142.275634765625,
+        "score_mean": 0.25406363351004463,
+        "bounds_image": [
+          32,
+          38,
+          112,
+          45
+        ],
+        "bounds_rico": [
+          211,
+          444,
+          726,
+          520
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 80.21813201904297,
+        "score_mean": 0.2005453300476074,
+        "bounds_image": [
+          32,
+          30,
+          82,
+          38
+        ],
+        "bounds_rico": [
+          211,
+          351,
+          530,
+          444
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text Button",
+        "score_total": 450.71612548828125,
+        "score_mean": 0.19768251117907074,
+        "bounds_image": [
+          0,
+          30,
+          152,
+          45
+        ],
+        "bounds_rico": [
+          0,
+          350,
+          980,
+          518
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Icon",
+        "score_total": 63.63774490356445,
+        "score_mean": 0.15713023432978876,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 47.68262481689453,
+        "score_mean": 0.14191257385980516,
+        "bounds_image": [
+          39,
+          11,
+          81,
+          19
+        ],
+        "bounds_rico": [
+          252,
+          135,
+          526,
+          228
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text",
+        "score_total": 93.39199829101562,
+        "score_mean": 0.11529876332224151,
+        "bounds_image": [
+          8,
+          17,
+          143,
+          23
+        ],
+        "bounds_rico": [
+          56,
+          200,
+          924,
+          266
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 103.66033935546875,
+        "score_mean": 0.0959817956995081,
+        "bounds_image": [
+          8,
+          9,
+          143,
+          17
+        ],
+        "bounds_rico": [
+          56,
+          107,
+          924,
+          200
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Icon",
+        "score_total": 7.09785270690918,
+        "score_mean": 0.02688580570798932,
+        "bounds_image": [
+          8,
+          31,
+          30,
+          43
+        ],
+        "bounds_rico": [
+          53,
+          360,
+          193,
+          500
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Image",
+        "score_total": 9.892139434814453,
+        "score_mean": 0.019396351832969515,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 21,
+        "token": "▁to"
+      },
+      {
+        "index": 16,
+        "token": "▁reminders"
+      },
+      {
+        "index": 33,
+        "token": "▁reading"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+        "word_count": 72,
+        "interface_pos": 0.9924,
+        "interface_neg": 0.0016,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Image, Text Button",
+        "top_k_tokens": "▁I, ▁features, ▁reading",
+        "p_orig": 0.9444559812545776,
+        "p_img": 0.91029292345047,
+        "delta_p_img": 0.034163057804107666,
+        "gradcam_mean": 0.46903589367866516,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Text Button",
+        "delta_p_img_shap": 0.049586474895477295,
+        "word_attention_top15": [
+          [
+            "little\"how",
+            0.112827
+          ],
+          [
+            "alone",
+            0.089467
+          ],
+          [
+            "features",
+            0.06368
+          ],
+          [
+            "guide",
+            0.058306
+          ],
+          [
+            "reading",
+            0.058143
+          ],
+          [
+            "font",
+            0.053757
+          ],
+          [
+            "glasses",
+            0.053477
+          ],
+          [
+            "subject",
+            0.051541
+          ],
+          [
+            "progress",
+            0.047218
+          ],
+          [
+            "easy",
+            0.042502
+          ],
+          [
+            "ability",
+            0.039652
+          ],
+          [
+            "helpful",
+            0.034737
+          ],
+          [
+            "verses",
+            0.033399
+          ],
+          [
+            "favorite",
+            0.033213
+          ],
+          [
+            "love",
+            0.032634
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "easy",
+            0.076408
+          ],
+          [
+            "love",
+            0.074309
+          ],
+          [
+            "favorite",
+            0.062715
+          ],
+          [
+            "favourite",
+            0.061934
+          ],
+          [
+            "guide",
+            0.028322
+          ],
+          [
+            "forget",
+            -0.019667
+          ],
+          [
+            "ability",
+            0.015729
+          ],
+          [
+            "features",
+            0.013924
+          ],
+          [
+            "read",
+            0.011787
+          ],
+          [
+            "alone",
+            0.010998
+          ],
+          [
+            "helpful",
+            0.010254
+          ],
+          [
+            "little\"how",
+            0.009957
+          ],
+          [
+            "progress",
+            0.008721
+          ],
+          [
+            "new",
+            0.008022
+          ],
+          [
+            "subject",
+            0.00618
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12729881703853607,
+          "max": 0.9999998807907104,
+          "std": 0.25436100363731384
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+        "word_count": 58,
+        "interface_pos": 0.9919,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text Button, Text Button",
+        "top_k_tokens": "▁easy, ▁easy, ▁I",
+        "p_orig": 0.9533992409706116,
+        "p_img": 0.9154669046401978,
+        "delta_p_img": 0.03793233633041382,
+        "gradcam_mean": 0.47087329626083374,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Text Button",
+        "delta_p_img_shap": 0.03976404666900635,
+        "word_attention_top15": [
+          [
+            "easy",
+            0.139432
+          ],
+          [
+            "need",
+            0.114126
+          ],
+          [
+            "enjoyed",
+            0.092001
+          ],
+          [
+            "reading",
+            0.084957
+          ],
+          [
+            "adjust",
+            0.081402
+          ],
+          [
+            "read",
+            0.07665
+          ],
+          [
+            "text",
+            0.074409
+          ],
+          [
+            "bible",
+            0.074388
+          ],
+          [
+            "size",
+            0.057239
+          ],
+          [
+            "far",
+            0.052618
+          ],
+          [
+            "begun",
+            0.035904
+          ],
+          [
+            "installed",
+            0.034782
+          ],
+          [
+            "good",
+            0.033509
+          ],
+          [
+            "print",
+            0.032914
+          ],
+          [
+            "anyone",
+            0.010441
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoyed",
+            0.12036
+          ],
+          [
+            "good",
+            0.050469
+          ],
+          [
+            "easy",
+            0.047826
+          ],
+          [
+            "reading",
+            0.033894
+          ],
+          [
+            "begun",
+            0.015221
+          ],
+          [
+            "interested",
+            0.013536
+          ],
+          [
+            "installed",
+            0.01288
+          ],
+          [
+            "far",
+            0.012084
+          ],
+          [
+            "read",
+            0.010891
+          ],
+          [
+            "bible",
+            0.009551
+          ],
+          [
+            "print",
+            0.007221
+          ],
+          [
+            "size",
+            0.006107
+          ],
+          [
+            "adjust",
+            -0.004603
+          ],
+          [
+            "text",
+            0.002536
+          ],
+          [
+            "anyone",
+            0.001978
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12402193248271942,
+          "max": 0.9999998807907104,
+          "std": 0.2494981586933136
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+        "word_count": 49,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0015,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Image",
+        "top_k_tokens": "▁as, ▁nice, ▁progress",
+        "p_orig": 0.9191792607307434,
+        "p_img": 0.8343878984451294,
+        "delta_p_img": 0.08479136228561401,
+        "gradcam_mean": 0.4385627806186676,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Text Button",
+        "delta_p_img_shap": 0.09034734964370728,
+        "word_attention_top15": [
+          [
+            "verse's",
+            0.128387
+          ],
+          [
+            "features",
+            0.099992
+          ],
+          [
+            "nice",
+            0.096292
+          ],
+          [
+            "progress",
+            0.090526
+          ],
+          [
+            "daily",
+            0.069431
+          ],
+          [
+            "highlighting",
+            0.065522
+          ],
+          [
+            "reading",
+            0.056642
+          ],
+          [
+            "friendly",
+            0.051915
+          ],
+          [
+            "user",
+            0.047879
+          ],
+          [
+            "track",
+            0.037802
+          ],
+          [
+            "bible",
+            0.03329
+          ],
+          [
+            "seven",
+            0.030693
+          ],
+          [
+            "since",
+            0.026397
+          ],
+          [
+            "found",
+            0.026067
+          ],
+          [
+            "plus",
+            0.024127
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.109248
+          ],
+          [
+            "friendly",
+            0.070194
+          ],
+          [
+            "features",
+            0.0609
+          ],
+          [
+            "plus",
+            0.048141
+          ],
+          [
+            "years",
+            -0.027403
+          ],
+          [
+            "keeps",
+            0.024137
+          ],
+          [
+            "progress",
+            0.01948
+          ],
+          [
+            "think",
+            -0.018923
+          ],
+          [
+            "user",
+            0.015015
+          ],
+          [
+            "highlighting",
+            0.014206
+          ],
+          [
+            "reading",
+            0.011609
+          ],
+          [
+            "found",
+            0.010217
+          ],
+          [
+            "honestly",
+            -0.009052
+          ],
+          [
+            "noticed",
+            -0.007584
+          ],
+          [
+            "track",
+            0.007226
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1243201345205307,
+          "max": 0.9999998807907104,
+          "std": 0.24814537167549133
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+        "word_count": 57,
+        "interface_pos": 0.9889,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text Button, Image",
+        "top_k_tokens": "▁to, ▁reminders, ▁reading",
+        "p_orig": 0.9660564064979553,
+        "p_img": 0.929855227470398,
+        "delta_p_img": 0.03620117902755737,
+        "gradcam_mean": 0.48353311419487,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Image",
+        "delta_p_img_shap": 0.0024051666259765625,
+        "word_attention_top15": [
+          [
+            "reminders",
+            0.073612
+          ],
+          [
+            "reading",
+            0.069661
+          ],
+          [
+            "10-",
+            0.062864
+          ],
+          [
+            "verses",
+            0.062799
+          ],
+          [
+            "saving",
+            0.062415
+          ],
+          [
+            "godsend",
+            0.062261
+          ],
+          [
+            "day",
+            0.058388
+          ],
+          [
+            "true",
+            0.052883
+          ],
+          [
+            "easy",
+            0.052303
+          ],
+          [
+            "bible",
+            0.050206
+          ],
+          [
+            "star",
+            0.044247
+          ],
+          [
+            "books",
+            0.03958
+          ],
+          [
+            "keep",
+            0.038465
+          ],
+          [
+            "word",
+            0.036851
+          ],
+          [
+            "blessing",
+            0.035924
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "godsend",
+            0.054825
+          ],
+          [
+            "favorite",
+            0.046238
+          ],
+          [
+            "star",
+            0.033902
+          ],
+          [
+            "10-",
+            0.027619
+          ],
+          [
+            "desire",
+            0.027452
+          ],
+          [
+            "easy",
+            0.026161
+          ],
+          [
+            "blessing",
+            0.025192
+          ],
+          [
+            "true",
+            0.021755
+          ],
+          [
+            "helps",
+            0.02079
+          ],
+          [
+            "bible",
+            0.018139
+          ],
+          [
+            "read",
+            0.017729
+          ],
+          [
+            "&",
+            0.017501
+          ],
+          [
+            "day",
+            0.017398
+          ],
+          [
+            "saving",
+            0.015848
+          ],
+          [
+            "reminders",
+            0.013449
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11974732577800751,
+          "max": 0.9999998807907104,
+          "std": 0.24213410913944244
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting.",
+        "word_count": 63,
+        "interface_pos": 0.9844,
+        "interface_neg": 0.0067,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Text Button, Text Button",
+        "top_k_tokens": "▁bible, ▁for, ▁supporting",
+        "p_orig": 0.8965784907341003,
+        "p_img": 0.7757821083068848,
+        "delta_p_img": 0.12079638242721558,
+        "gradcam_mean": 0.4214518368244171,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text Button, Text Button",
+        "delta_p_img_shap": 0.12262260913848877,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.116138
+          ],
+          [
+            "great",
+            0.086507
+          ],
+          [
+            "readable",
+            0.074486
+          ],
+          [
+            "phone",
+            0.071612
+          ],
+          [
+            "supporting",
+            0.063307
+          ],
+          [
+            "bible",
+            0.057504
+          ],
+          [
+            "features",
+            0.047659
+          ],
+          [
+            "money",
+            0.047454
+          ],
+          [
+            "budget",
+            0.047312
+          ],
+          [
+            "obviously",
+            0.044291
+          ],
+          [
+            "format",
+            0.042823
+          ],
+          [
+            "worth",
+            0.036943
+          ],
+          [
+            "highly",
+            0.036689
+          ],
+          [
+            "not often",
+            0.025691
+          ],
+          [
+            "free",
+            0.022504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.179694
+          ],
+          [
+            "readable",
+            0.06979
+          ],
+          [
+            "free",
+            0.040185
+          ],
+          [
+            "worth",
+            0.032381
+          ],
+          [
+            "highly",
+            0.030734
+          ],
+          [
+            "features",
+            0.023154
+          ],
+          [
+            "budget",
+            0.022465
+          ],
+          [
+            "ads",
+            -0.017734
+          ],
+          [
+            "format",
+            0.012175
+          ],
+          [
+            "prevent",
+            0.01183
+          ],
+          [
+            "not often",
+            0.009116
+          ],
+          [
+            "phone",
+            0.008286
+          ],
+          [
+            "workaround",
+            -0.007897
+          ],
+          [
+            "bible",
+            0.007032
+          ],
+          [
+            "open",
+            0.006241
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13584062457084656,
+          "max": 0.9999998807907104,
+          "std": 0.2590292990207672
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 97% confidence.",
+      "simple": "This screen was labeled as good with 97% confidence. The model directed most attention to a small Text Button at the top-left.",
+      "detailed": "This screen of King James Bible (KJV) - free (category: Books & Reference) was labeled as good with 97% confidence (confidently). The model attended to a small Text Button at the top-left, a small Text Button at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.omead.bible.kjv",
+    "screen_id": "5232",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5232.jpg",
+    "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word! I love that you can check off chapters as you read them and it keeps track of the last chapter you read. This makes it easy when reading through the Bible in a year. The options for highlighting, bookmarking and marking fa",
+    "prediction": 0.9899175763130188,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9899175763130188,
+    "gradcam_stats": {
+      "mean": 0.48604899644851685,
+      "max": 1.0,
+      "std": 0.20336394011974335
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+      "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+      "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+      "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+      "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    ],
+    "app_name": "King James Bible (KJV) - free",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9899054169654846,
+      "p_img": 0.954751193523407,
+      "delta_p_img": 0.03515422344207764
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          32,
+          112,
+          69,
+          120
+        ],
+        "bounds_rico": [
+          208,
+          1288,
+          444,
+          1374
+        ],
+        "score_total": 277.9963684082031,
+        "score_mean": 0.9391769202979835
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          71,
+          113,
+          80,
+          120
+        ],
+        "bounds_rico": [
+          462,
+          1296,
+          519,
+          1372
+        ],
+        "score_total": 56.95392990112305,
+        "score_mean": 0.9040306333511595
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          18,
+          101,
+          121,
+          111
+        ],
+        "bounds_rico": [
+          120,
+          1165,
+          783,
+          1270
+        ],
+        "score_total": 788.2115478515625,
+        "score_mean": 0.7652539299529733
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 277.9963684082031,
+        "score_mean": 0.9391769202979835,
+        "bounds_image": [
+          32,
+          112,
+          69,
+          120
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 56.95392990112305,
+        "score_mean": 0.9040306333511595,
+        "bounds_image": [
+          71,
+          113,
+          80,
+          120
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 788.2115478515625,
+        "score_mean": 0.7652539299529733,
+        "bounds_image": [
+          18,
+          101,
+          121,
+          111
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 277.9963684082031,
+        "score_mean": 0.9391769202979835,
+        "bounds_image": [
+          32,
+          112,
+          69,
+          120
+        ],
+        "bounds_rico": [
+          208,
+          1288,
+          444,
+          1374
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 56.95392990112305,
+        "score_mean": 0.9040306333511595,
+        "bounds_image": [
+          71,
+          113,
+          80,
+          120
+        ],
+        "bounds_rico": [
+          462,
+          1296,
+          519,
+          1372
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 788.2115478515625,
+        "score_mean": 0.7652539299529733,
+        "bounds_image": [
+          18,
+          101,
+          121,
+          111
+        ],
+        "bounds_rico": [
+          120,
+          1165,
+          783,
+          1270
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 1683.4681396484375,
+        "score_mean": 0.7383632191440516,
+        "bounds_image": [
+          0,
+          109,
+          152,
+          124
+        ],
+        "bounds_rico": [
+          0,
+          1250,
+          980,
+          1418
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 1648.1578369140625,
+        "score_mean": 0.7228762442605537,
+        "bounds_image": [
+          0,
+          129,
+          152,
+          144
+        ],
+        "bounds_rico": [
+          0,
+          1478,
+          980,
+          1646
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 1906.736328125,
+        "score_mean": 0.7168181684680451,
+        "bounds_image": [
+          18,
+          121,
+          208,
+          135
+        ],
+        "bounds_rico": [
+          120,
+          1394,
+          1338,
+          1544
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 702.0897827148438,
+        "score_mean": 0.7156878519009621,
+        "bounds_image": [
+          18,
+          150,
+          127,
+          159
+        ],
+        "bounds_rico": [
+          120,
+          1719,
+          819,
+          1824
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 78.98706817626953,
+        "score_mean": 0.7052416801452637,
+        "bounds_image": [
+          15,
+          112,
+          29,
+          120
+        ],
+        "bounds_rico": [
+          102,
+          1288,
+          190,
+          1376
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text Button",
+        "score_total": 1437.184326171875,
+        "score_mean": 0.6753685743288886,
+        "bounds_image": [
+          0,
+          144,
+          152,
+          158
+        ],
+        "bounds_rico": [
+          0,
+          1646,
+          980,
+          1814
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text Button",
+        "score_total": 1525.964111328125,
+        "score_mean": 0.6692825049684759,
+        "bounds_image": [
+          0,
+          94,
+          152,
+          109
+        ],
+        "bounds_rico": [
+          0,
+          1082,
+          980,
+          1250
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 1499.9271240234375,
+        "score_mean": 0.6087366574770444,
+        "bounds_image": [
+          32,
+          161,
+          208,
+          175
+        ],
+        "bounds_rico": [
+          208,
+          1842,
+          1338,
+          2011
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text Button",
+        "score_total": 1284.14111328125,
+        "score_mean": 0.563219786526864,
+        "bounds_image": [
+          0,
+          163,
+          152,
+          178
+        ],
+        "bounds_rico": [
+          0,
+          1874,
+          980,
+          2042
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 698.3089599609375,
+        "score_mean": 0.5604405778177669,
+        "bounds_image": [
+          38,
+          84,
+          216,
+          91
+        ],
+        "bounds_rico": [
+          247,
+          963,
+          1394,
+          1049
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text Button",
+        "score_total": 1277.2550048828125,
+        "score_mean": 0.5601995635450931,
+        "bounds_image": [
+          0,
+          79,
+          152,
+          94
+        ],
+        "bounds_rico": [
+          0,
+          914,
+          980,
+          1082
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 478.3186950683594,
+        "score_mean": 0.5368335522652743,
+        "bounds_image": [
+          38,
+          75,
+          137,
+          84
+        ],
+        "bounds_rico": [
+          247,
+          858,
+          882,
+          963
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Image",
+        "score_total": 52.930213928222656,
+        "score_mean": 0.4725911957877023,
+        "bounds_image": [
+          15,
+          164,
+          29,
+          172
+        ],
+        "bounds_rico": [
+          102,
+          1882,
+          190,
+          1970
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text Button",
+        "score_total": 985.16162109375,
+        "score_mean": 0.4629518896117246,
+        "bounds_image": [
+          0,
+          65,
+          152,
+          79
+        ],
+        "bounds_rico": [
+          0,
+          746,
+          980,
+          914
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Web View",
+        "score_total": 1653.4320068359375,
+        "score_mean": 0.4613370554787772,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text Button",
+        "score_total": 849.5709228515625,
+        "score_mean": 0.3726188258120888,
+        "bounds_image": [
+          0,
+          50,
+          152,
+          65
+        ],
+        "bounds_rico": [
+          0,
+          578,
+          980,
+          746
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 1309.45458984375,
+        "score_mean": 0.36272980328081716,
+        "bounds_image": [
+          18,
+          41,
+          208,
+          60
+        ],
+        "bounds_rico": [
+          120,
+          469,
+          1338,
+          693
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text",
+        "score_total": 42.54835510253906,
+        "score_mean": 0.28944459253427934,
+        "bounds_image": [
+          51,
+          32,
+          72,
+          39
+        ],
+        "bounds_rico": [
+          333,
+          371,
+          467,
+          447
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text",
+        "score_total": 35.3503303527832,
+        "score_mean": 0.2599288996528177,
+        "bounds_image": [
+          32,
+          31,
+          49,
+          39
+        ],
+        "bounds_rico": [
+          208,
+          363,
+          315,
+          449
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text Button",
+        "score_total": 556.7982177734375,
+        "score_mean": 0.24420974463747258,
+        "bounds_image": [
+          0,
+          30,
+          152,
+          45
+        ],
+        "bounds_rico": [
+          0,
+          350,
+          980,
+          518
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Icon",
+        "score_total": 97.47930908203125,
+        "score_mean": 0.24068965205439816,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text",
+        "score_total": 58.202980041503906,
+        "score_mean": 0.1979693198690609,
+        "bounds_image": [
+          18,
+          24,
+          67,
+          30
+        ],
+        "bounds_rico": [
+          120,
+          280,
+          437,
+          345
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Image",
+        "score_total": 20.20060920715332,
+        "score_mean": 0.18036258220672607,
+        "bounds_image": [
+          15,
+          31,
+          29,
+          39
+        ],
+        "bounds_rico": [
+          102,
+          363,
+          190,
+          451
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Image",
+        "score_total": 548.419677734375,
+        "score_mean": 0.14401777251427914,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          280
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Text",
+        "score_total": 106.46604919433594,
+        "score_mean": 0.1314395669065876,
+        "bounds_image": [
+          8,
+          17,
+          143,
+          23
+        ],
+        "bounds_rico": [
+          56,
+          200,
+          924,
+          266
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Text",
+        "score_total": 113.70533752441406,
+        "score_mean": 0.10528271993001302,
+        "bounds_image": [
+          8,
+          9,
+          143,
+          17
+        ],
+        "bounds_rico": [
+          56,
+          107,
+          924,
+          200
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Image",
+        "score_total": 49.86136245727539,
+        "score_mean": 0.09776737736720664,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 21,
+        "token": "▁to"
+      },
+      {
+        "index": 16,
+        "token": "▁reminders"
+      },
+      {
+        "index": 33,
+        "token": "▁reading"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+        "word_count": 72,
+        "interface_pos": 0.9924,
+        "interface_neg": 0.0016,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁I, ▁features, ▁reading",
+        "p_orig": 0.9829224348068237,
+        "p_img": 0.9313039779663086,
+        "delta_p_img": 0.05161845684051514,
+        "gradcam_mean": 0.45989570021629333,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.003634929656982422,
+        "word_attention_top15": [
+          [
+            "little\"how",
+            0.112827
+          ],
+          [
+            "alone",
+            0.089467
+          ],
+          [
+            "features",
+            0.06368
+          ],
+          [
+            "guide",
+            0.058306
+          ],
+          [
+            "reading",
+            0.058143
+          ],
+          [
+            "font",
+            0.053757
+          ],
+          [
+            "glasses",
+            0.053477
+          ],
+          [
+            "subject",
+            0.051541
+          ],
+          [
+            "progress",
+            0.047218
+          ],
+          [
+            "easy",
+            0.042502
+          ],
+          [
+            "ability",
+            0.039652
+          ],
+          [
+            "helpful",
+            0.034737
+          ],
+          [
+            "verses",
+            0.033399
+          ],
+          [
+            "favorite",
+            0.033213
+          ],
+          [
+            "love",
+            0.032634
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "favourite",
+            0.039988
+          ],
+          [
+            "love",
+            0.035931
+          ],
+          [
+            "easy",
+            0.030971
+          ],
+          [
+            "favorite",
+            0.028107
+          ],
+          [
+            "forget",
+            -0.021353
+          ],
+          [
+            "guide",
+            0.016273
+          ],
+          [
+            "ability",
+            0.013085
+          ],
+          [
+            "helpful",
+            0.009782
+          ],
+          [
+            "read",
+            0.009397
+          ],
+          [
+            "features",
+            0.007648
+          ],
+          [
+            "progress",
+            0.007452
+          ],
+          [
+            "new",
+            0.00704
+          ],
+          [
+            "little\"how",
+            0.005925
+          ],
+          [
+            "glasses",
+            -0.004859
+          ],
+          [
+            "alone",
+            0.00433
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10222413390874863,
+          "max": 0.9999998807907104,
+          "std": 0.22094616293907166
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+        "word_count": 58,
+        "interface_pos": 0.9919,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁easy, ▁easy, ▁I",
+        "p_orig": 0.9851589798927307,
+        "p_img": 0.9378756284713745,
+        "delta_p_img": 0.0472833514213562,
+        "gradcam_mean": 0.4696747958660126,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.0034130215644836426,
+        "word_attention_top15": [
+          [
+            "easy",
+            0.139432
+          ],
+          [
+            "need",
+            0.114126
+          ],
+          [
+            "enjoyed",
+            0.092001
+          ],
+          [
+            "reading",
+            0.084957
+          ],
+          [
+            "adjust",
+            0.081402
+          ],
+          [
+            "read",
+            0.07665
+          ],
+          [
+            "text",
+            0.074409
+          ],
+          [
+            "bible",
+            0.074388
+          ],
+          [
+            "size",
+            0.057239
+          ],
+          [
+            "far",
+            0.052618
+          ],
+          [
+            "begun",
+            0.035904
+          ],
+          [
+            "installed",
+            0.034782
+          ],
+          [
+            "good",
+            0.033509
+          ],
+          [
+            "print",
+            0.032914
+          ],
+          [
+            "anyone",
+            0.010441
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoyed",
+            0.045509
+          ],
+          [
+            "good",
+            0.032474
+          ],
+          [
+            "easy",
+            0.024457
+          ],
+          [
+            "reading",
+            0.020167
+          ],
+          [
+            "installed",
+            0.012378
+          ],
+          [
+            "bible",
+            0.009064
+          ],
+          [
+            "begun",
+            0.00821
+          ],
+          [
+            "far",
+            0.007266
+          ],
+          [
+            "read",
+            0.007058
+          ],
+          [
+            "interested",
+            0.006107
+          ],
+          [
+            "print",
+            0.003881
+          ],
+          [
+            "size",
+            0.002919
+          ],
+          [
+            "adjust",
+            -0.001834
+          ],
+          [
+            "anyone",
+            0.001737
+          ],
+          [
+            "text",
+            0.000254
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10138148814439774,
+          "max": 0.9999999403953552,
+          "std": 0.21887631714344025
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+        "word_count": 49,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0015,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁as, ▁nice, ▁progress",
+        "p_orig": 0.9743510484695435,
+        "p_img": 0.8939980268478394,
+        "delta_p_img": 0.0803530216217041,
+        "gradcam_mean": 0.43484675884246826,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.00494074821472168,
+        "word_attention_top15": [
+          [
+            "verse's",
+            0.128387
+          ],
+          [
+            "features",
+            0.099992
+          ],
+          [
+            "nice",
+            0.096292
+          ],
+          [
+            "progress",
+            0.090526
+          ],
+          [
+            "daily",
+            0.069431
+          ],
+          [
+            "highlighting",
+            0.065522
+          ],
+          [
+            "reading",
+            0.056642
+          ],
+          [
+            "friendly",
+            0.051915
+          ],
+          [
+            "user",
+            0.047879
+          ],
+          [
+            "track",
+            0.037802
+          ],
+          [
+            "bible",
+            0.03329
+          ],
+          [
+            "seven",
+            0.030693
+          ],
+          [
+            "since",
+            0.026397
+          ],
+          [
+            "found",
+            0.026067
+          ],
+          [
+            "plus",
+            0.024127
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.052624
+          ],
+          [
+            "features",
+            0.032079
+          ],
+          [
+            "friendly",
+            0.027036
+          ],
+          [
+            "plus",
+            0.02314
+          ],
+          [
+            "keeps",
+            0.014698
+          ],
+          [
+            "years",
+            -0.014624
+          ],
+          [
+            "highlighting",
+            0.010625
+          ],
+          [
+            "think",
+            -0.009567
+          ],
+          [
+            "found",
+            0.009426
+          ],
+          [
+            "progress",
+            0.008151
+          ],
+          [
+            "reading",
+            0.00741
+          ],
+          [
+            "seven",
+            -0.005657
+          ],
+          [
+            "user",
+            0.005174
+          ],
+          [
+            "first",
+            0.003894
+          ],
+          [
+            "noticed",
+            -0.003427
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09851326048374176,
+          "max": 0.9999998807907104,
+          "std": 0.21808230876922607
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+        "word_count": 57,
+        "interface_pos": 0.9889,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁to, ▁reminders, ▁reading",
+        "p_orig": 0.9899054169654846,
+        "p_img": 0.954751193523407,
+        "delta_p_img": 0.03515422344207764,
+        "gradcam_mean": 0.48604899644851685,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text Button",
+        "delta_p_img_shap": 0.0026282072067260742,
+        "word_attention_top15": [
+          [
+            "reminders",
+            0.073612
+          ],
+          [
+            "reading",
+            0.069661
+          ],
+          [
+            "10-",
+            0.062864
+          ],
+          [
+            "verses",
+            0.062799
+          ],
+          [
+            "saving",
+            0.062415
+          ],
+          [
+            "godsend",
+            0.062261
+          ],
+          [
+            "day",
+            0.058388
+          ],
+          [
+            "true",
+            0.052883
+          ],
+          [
+            "easy",
+            0.052303
+          ],
+          [
+            "bible",
+            0.050206
+          ],
+          [
+            "star",
+            0.044247
+          ],
+          [
+            "books",
+            0.03958
+          ],
+          [
+            "keep",
+            0.038465
+          ],
+          [
+            "word",
+            0.036851
+          ],
+          [
+            "blessing",
+            0.035924
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "godsend",
+            0.026382
+          ],
+          [
+            "desire",
+            0.02283
+          ],
+          [
+            "favorite",
+            0.020178
+          ],
+          [
+            "star",
+            0.016961
+          ],
+          [
+            "easy",
+            0.016594
+          ],
+          [
+            "blessing",
+            0.01466
+          ],
+          [
+            "helps",
+            0.012794
+          ],
+          [
+            "day",
+            0.011947
+          ],
+          [
+            "true",
+            0.011166
+          ],
+          [
+            "10-",
+            0.011027
+          ],
+          [
+            "reminders",
+            0.009762
+          ],
+          [
+            "&",
+            0.009113
+          ],
+          [
+            "entire",
+            0.007605
+          ],
+          [
+            "read",
+            0.006872
+          ],
+          [
+            "study",
+            0.005366
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10257090628147125,
+          "max": 0.9999999403953552,
+          "std": 0.21985381841659546
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting.",
+        "word_count": 63,
+        "interface_pos": 0.9844,
+        "interface_neg": 0.0067,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁bible, ▁for, ▁supporting",
+        "p_orig": 0.9685361981391907,
+        "p_img": 0.8686837553977966,
+        "delta_p_img": 0.09985244274139404,
+        "gradcam_mean": 0.4361385107040405,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Image",
+        "delta_p_img_shap": 0.04087728261947632,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.116138
+          ],
+          [
+            "great",
+            0.086507
+          ],
+          [
+            "readable",
+            0.074486
+          ],
+          [
+            "phone",
+            0.071612
+          ],
+          [
+            "supporting",
+            0.063307
+          ],
+          [
+            "bible",
+            0.057504
+          ],
+          [
+            "features",
+            0.047659
+          ],
+          [
+            "money",
+            0.047454
+          ],
+          [
+            "budget",
+            0.047312
+          ],
+          [
+            "obviously",
+            0.044291
+          ],
+          [
+            "format",
+            0.042823
+          ],
+          [
+            "worth",
+            0.036943
+          ],
+          [
+            "highly",
+            0.036689
+          ],
+          [
+            "not often",
+            0.025691
+          ],
+          [
+            "free",
+            0.022504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.079961
+          ],
+          [
+            "readable",
+            0.043323
+          ],
+          [
+            "ads",
+            -0.021918
+          ],
+          [
+            "free",
+            0.021719
+          ],
+          [
+            "highly",
+            0.01604
+          ],
+          [
+            "worth",
+            0.014321
+          ],
+          [
+            "budget",
+            0.014233
+          ],
+          [
+            "features",
+            0.013253
+          ],
+          [
+            "prevent",
+            0.010871
+          ],
+          [
+            "not often",
+            0.010446
+          ],
+          [
+            "format",
+            0.007963
+          ],
+          [
+            "turn",
+            0.005843
+          ],
+          [
+            "remove",
+            -0.005567
+          ],
+          [
+            "purchase",
+            0.005197
+          ],
+          [
+            "open",
+            0.005126
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10420271754264832,
+          "max": 0.9999998807907104,
+          "std": 0.22721947729587555
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 99% confidence.",
+      "simple": "This screen was predicted as good with 99% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of King James Bible (KJV) - free (category: Books & Reference) was predicted as good with 99% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.omead.bible.kjv",
+    "screen_id": "5229",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5229.jpg",
+    "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word! I love that you can check off chapters as you read them and it keeps track of the last chapter you read. This makes it easy when reading through the Bible in a year. The options for highlighting, bookmarking and marking fa",
+    "prediction": 0.9893546104431152,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9893546104431152,
+    "gradcam_stats": {
+      "mean": 0.5211986899375916,
+      "max": 1.0,
+      "std": 0.16943824291229248
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+      "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+      "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+      "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+      "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    ],
+    "app_name": "King James Bible (KJV) - free",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9893801212310791,
+      "p_img": 0.9827733039855957,
+      "delta_p_img": 0.0066068172454833984
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          29,
+          73,
+          125,
+          81
+        ],
+        "bounds_rico": [
+          192,
+          842,
+          807,
+          928
+        ],
+        "score_total": 581.8114013671875,
+        "score_mean": 0.7575669288635254
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          29,
+          86,
+          81,
+          95
+        ],
+        "bounds_rico": [
+          192,
+          986,
+          527,
+          1091
+        ],
+        "score_total": 347.083740234375,
+        "score_mean": 0.7416319235777243
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          29,
+          108,
+          82,
+          117
+        ],
+        "bounds_rico": [
+          192,
+          1235,
+          528,
+          1340
+        ],
+        "score_total": 353.174072265625,
+        "score_mean": 0.7404068600956499
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 581.8114013671875,
+        "score_mean": 0.7575669288635254,
+        "bounds_image": [
+          29,
+          73,
+          125,
+          81
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 347.083740234375,
+        "score_mean": 0.7416319235777243,
+        "bounds_image": [
+          29,
+          86,
+          81,
+          95
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 353.174072265625,
+        "score_mean": 0.7404068600956499,
+        "bounds_image": [
+          29,
+          108,
+          82,
+          117
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 581.8114013671875,
+        "score_mean": 0.7575669288635254,
+        "bounds_image": [
+          29,
+          73,
+          125,
+          81
+        ],
+        "bounds_rico": [
+          192,
+          842,
+          807,
+          928
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 347.083740234375,
+        "score_mean": 0.7416319235777243,
+        "bounds_image": [
+          29,
+          86,
+          81,
+          95
+        ],
+        "bounds_rico": [
+          192,
+          986,
+          527,
+          1091
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 353.174072265625,
+        "score_mean": 0.7404068600956499,
+        "bounds_image": [
+          29,
+          108,
+          82,
+          117
+        ],
+        "bounds_rico": [
+          192,
+          1235,
+          528,
+          1340
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 493.90167236328125,
+        "score_mean": 0.7349727267310733,
+        "bounds_image": [
+          29,
+          95,
+          125,
+          102
+        ],
+        "bounds_rico": [
+          192,
+          1091,
+          804,
+          1177
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 527.85107421875,
+        "score_mean": 0.6945408871299342,
+        "bounds_image": [
+          29,
+          51,
+          124,
+          59
+        ],
+        "bounds_rico": [
+          192,
+          593,
+          803,
+          679
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 442.8860778808594,
+        "score_mean": 0.6659941020764802,
+        "bounds_image": [
+          29,
+          117,
+          124,
+          124
+        ],
+        "bounds_rico": [
+          192,
+          1340,
+          803,
+          1426
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 251.58033752441406,
+        "score_mean": 0.6655564484772859,
+        "bounds_image": [
+          29,
+          64,
+          71,
+          73
+        ],
+        "bounds_rico": [
+          192,
+          737,
+          460,
+          842
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 500.31549072265625,
+        "score_mean": 0.6497603775618912,
+        "bounds_image": [
+          29,
+          129,
+          106,
+          139
+        ],
+        "bounds_rico": [
+          192,
+          1484,
+          685,
+          1589
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 248.70947265625,
+        "score_mean": 0.6140974633487655,
+        "bounds_image": [
+          29,
+          42,
+          74,
+          51
+        ],
+        "bounds_rico": [
+          192,
+          488,
+          478,
+          593
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 227.60479736328125,
+        "score_mean": 0.6021290935536541,
+        "bounds_image": [
+          29,
+          151,
+          71,
+          160
+        ],
+        "bounds_rico": [
+          192,
+          1733,
+          457,
+          1838
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text Button",
+        "score_total": 583.3468627929688,
+        "score_mean": 0.5555684407552083,
+        "bounds_image": [
+          149,
+          24,
+          224,
+          38
+        ],
+        "bounds_rico": [
+          960,
+          280,
+          1440,
+          444
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 364.50738525390625,
+        "score_mean": 0.5424217042468843,
+        "bounds_image": [
+          29,
+          139,
+          125,
+          146
+        ],
+        "bounds_rico": [
+          192,
+          1589,
+          805,
+          1675
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text Button",
+        "score_total": 528.96484375,
+        "score_mean": 0.5037760416666667,
+        "bounds_image": [
+          74,
+          24,
+          149,
+          38
+        ],
+        "bounds_rico": [
+          480,
+          280,
+          960,
+          444
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 228.2555389404297,
+        "score_mean": 0.500560392413223,
+        "bounds_image": [
+          39,
+          11,
+          96,
+          19
+        ],
+        "bounds_rico": [
+          252,
+          135,
+          623,
+          228
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 382.69439697265625,
+        "score_mean": 0.4982999960581462,
+        "bounds_image": [
+          29,
+          160,
+          125,
+          168
+        ],
+        "bounds_rico": [
+          192,
+          1838,
+          806,
+          1924
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Text",
+        "score_total": 180.67617797851562,
+        "score_mean": 0.4896373386951643,
+        "bounds_image": [
+          29,
+          173,
+          70,
+          182
+        ],
+        "bounds_rico": [
+          192,
+          1982,
+          453,
+          2087
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text Button",
+        "score_total": 492.7232666015625,
+        "score_mean": 0.4756016086887669,
+        "bounds_image": [
+          0,
+          24,
+          74,
+          38
+        ],
+        "bounds_rico": [
+          0,
+          280,
+          480,
+          444
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 325.9498596191406,
+        "score_mean": 0.4334439622594955,
+        "bounds_image": [
+          29,
+          182,
+          123,
+          190
+        ],
+        "bounds_rico": [
+          192,
+          2087,
+          795,
+          2173
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Icon",
+        "score_total": 105.47443389892578,
+        "score_mean": 0.38354339599609377,
+        "bounds_image": [
+          2,
+          46,
+          27,
+          57
+        ],
+        "bounds_rico": [
+          18,
+          531,
+          174,
+          654
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Web View",
+        "score_total": 1331.825927734375,
+        "score_mean": 0.371603216443743,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Image",
+        "score_total": 100.35525512695312,
+        "score_mean": 0.3649282004616477,
+        "bounds_image": [
+          2,
+          133,
+          27,
+          144
+        ],
+        "bounds_rico": [
+          18,
+          1527,
+          174,
+          1650
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Icon",
+        "score_total": 146.03402709960938,
+        "score_mean": 0.3605778446903935,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Image",
+        "score_total": 98.68584442138672,
+        "score_mean": 0.3588576160777699,
+        "bounds_image": [
+          2,
+          68,
+          27,
+          79
+        ],
+        "bounds_rico": [
+          18,
+          780,
+          174,
+          903
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Image",
+        "score_total": 84.59523010253906,
+        "score_mean": 0.33838092041015627,
+        "bounds_image": [
+          2,
+          90,
+          27,
+          100
+        ],
+        "bounds_rico": [
+          18,
+          1029,
+          174,
+          1152
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Image",
+        "score_total": 91.09646606445312,
+        "score_mean": 0.33125987659801137,
+        "bounds_image": [
+          2,
+          111,
+          27,
+          122
+        ],
+        "bounds_rico": [
+          18,
+          1278,
+          174,
+          1401
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Icon",
+        "score_total": 91.0138931274414,
+        "score_mean": 0.33095961137251423,
+        "bounds_image": [
+          2,
+          155,
+          27,
+          166
+        ],
+        "bounds_rico": [
+          18,
+          1776,
+          174,
+          1899
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Icon",
+        "score_total": 154.49063110351562,
+        "score_mean": 0.30292280608532474,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Icon",
+        "score_total": 72.8961410522461,
+        "score_mean": 0.2915845642089844,
+        "bounds_image": [
+          2,
+          177,
+          27,
+          187
+        ],
+        "bounds_rico": [
+          18,
+          2025,
+          174,
+          2148
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 21,
+        "token": "▁to"
+      },
+      {
+        "index": 16,
+        "token": "▁reminders"
+      },
+      {
+        "index": 33,
+        "token": "▁reading"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+        "word_count": 72,
+        "interface_pos": 0.9924,
+        "interface_neg": 0.0016,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁I, ▁features, ▁reading",
+        "p_orig": 0.9806987643241882,
+        "p_img": 0.961336612701416,
+        "delta_p_img": 0.019362151622772217,
+        "gradcam_mean": 0.48266440629959106,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Text",
+        "delta_p_img_shap": 0.00860661268234253,
+        "word_attention_top15": [
+          [
+            "little\"how",
+            0.112827
+          ],
+          [
+            "alone",
+            0.089467
+          ],
+          [
+            "features",
+            0.06368
+          ],
+          [
+            "guide",
+            0.058306
+          ],
+          [
+            "reading",
+            0.058143
+          ],
+          [
+            "font",
+            0.053757
+          ],
+          [
+            "glasses",
+            0.053477
+          ],
+          [
+            "subject",
+            0.051541
+          ],
+          [
+            "progress",
+            0.047218
+          ],
+          [
+            "easy",
+            0.042502
+          ],
+          [
+            "ability",
+            0.039652
+          ],
+          [
+            "helpful",
+            0.034737
+          ],
+          [
+            "verses",
+            0.033399
+          ],
+          [
+            "favorite",
+            0.033213
+          ],
+          [
+            "love",
+            0.032634
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "easy",
+            0.05585
+          ],
+          [
+            "favourite",
+            0.055644
+          ],
+          [
+            "love",
+            0.052581
+          ],
+          [
+            "favorite",
+            0.043556
+          ],
+          [
+            "forget",
+            -0.026603
+          ],
+          [
+            "guide",
+            0.024203
+          ],
+          [
+            "ability",
+            0.016754
+          ],
+          [
+            "helpful",
+            0.011657
+          ],
+          [
+            "read",
+            0.011643
+          ],
+          [
+            "features",
+            0.009389
+          ],
+          [
+            "new",
+            0.007958
+          ],
+          [
+            "progress",
+            0.007738
+          ],
+          [
+            "little\"how",
+            0.007658
+          ],
+          [
+            "subject",
+            0.005954
+          ],
+          [
+            "glasses",
+            -0.005889
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1850064992904663,
+          "max": 0.9999999403953552,
+          "std": 0.34682416915893555
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+        "word_count": 58,
+        "interface_pos": 0.9919,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁easy, ▁easy, ▁I",
+        "p_orig": 0.9848286509513855,
+        "p_img": 0.9686471223831177,
+        "delta_p_img": 0.016181528568267822,
+        "gradcam_mean": 0.5014473795890808,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Text",
+        "delta_p_img_shap": 0.006059825420379639,
+        "word_attention_top15": [
+          [
+            "easy",
+            0.139432
+          ],
+          [
+            "need",
+            0.114126
+          ],
+          [
+            "enjoyed",
+            0.092001
+          ],
+          [
+            "reading",
+            0.084957
+          ],
+          [
+            "adjust",
+            0.081402
+          ],
+          [
+            "read",
+            0.07665
+          ],
+          [
+            "text",
+            0.074409
+          ],
+          [
+            "bible",
+            0.074388
+          ],
+          [
+            "size",
+            0.057239
+          ],
+          [
+            "far",
+            0.052618
+          ],
+          [
+            "begun",
+            0.035904
+          ],
+          [
+            "installed",
+            0.034782
+          ],
+          [
+            "good",
+            0.033509
+          ],
+          [
+            "print",
+            0.032914
+          ],
+          [
+            "anyone",
+            0.010441
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoyed",
+            0.07004
+          ],
+          [
+            "good",
+            0.042011
+          ],
+          [
+            "easy",
+            0.033334
+          ],
+          [
+            "reading",
+            0.028637
+          ],
+          [
+            "installed",
+            0.017166
+          ],
+          [
+            "bible",
+            0.014092
+          ],
+          [
+            "begun",
+            0.01079
+          ],
+          [
+            "far",
+            0.00994
+          ],
+          [
+            "interested",
+            0.008853
+          ],
+          [
+            "adjust",
+            -0.007838
+          ],
+          [
+            "read",
+            0.007756
+          ],
+          [
+            "print",
+            0.004798
+          ],
+          [
+            "size",
+            0.003718
+          ],
+          [
+            "anyone",
+            0.001128
+          ],
+          [
+            "text",
+            -0.000148
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1752513200044632,
+          "max": 0.9999999403953552,
+          "std": 0.3304571211338043
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+        "word_count": 49,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0015,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁as, ▁nice, ▁progress",
+        "p_orig": 0.9721072316169739,
+        "p_img": 0.9454357028007507,
+        "delta_p_img": 0.026671528816223145,
+        "gradcam_mean": 0.4452784061431885,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.0009306073188781738,
+        "word_attention_top15": [
+          [
+            "verse's",
+            0.128387
+          ],
+          [
+            "features",
+            0.099992
+          ],
+          [
+            "nice",
+            0.096292
+          ],
+          [
+            "progress",
+            0.090526
+          ],
+          [
+            "daily",
+            0.069431
+          ],
+          [
+            "highlighting",
+            0.065522
+          ],
+          [
+            "reading",
+            0.056642
+          ],
+          [
+            "friendly",
+            0.051915
+          ],
+          [
+            "user",
+            0.047879
+          ],
+          [
+            "track",
+            0.037802
+          ],
+          [
+            "bible",
+            0.03329
+          ],
+          [
+            "seven",
+            0.030693
+          ],
+          [
+            "since",
+            0.026397
+          ],
+          [
+            "found",
+            0.026067
+          ],
+          [
+            "plus",
+            0.024127
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.082064
+          ],
+          [
+            "features",
+            0.047289
+          ],
+          [
+            "friendly",
+            0.042201
+          ],
+          [
+            "plus",
+            0.033489
+          ],
+          [
+            "keeps",
+            0.020406
+          ],
+          [
+            "years",
+            -0.018853
+          ],
+          [
+            "think",
+            -0.016357
+          ],
+          [
+            "highlighting",
+            0.013792
+          ],
+          [
+            "progress",
+            0.012508
+          ],
+          [
+            "found",
+            0.012302
+          ],
+          [
+            "reading",
+            0.009436
+          ],
+          [
+            "user",
+            0.008089
+          ],
+          [
+            "since",
+            -0.007677
+          ],
+          [
+            "honestly",
+            -0.007269
+          ],
+          [
+            "first",
+            0.00509
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1681434065103531,
+          "max": 0.9999998807907104,
+          "std": 0.3116168975830078
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+        "word_count": 57,
+        "interface_pos": 0.9889,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁to, ▁reminders, ▁reading",
+        "p_orig": 0.9893801212310791,
+        "p_img": 0.9827733039855957,
+        "delta_p_img": 0.0066068172454833984,
+        "gradcam_mean": 0.5211986899375916,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.004961609840393066,
+        "word_attention_top15": [
+          [
+            "reminders",
+            0.073612
+          ],
+          [
+            "reading",
+            0.069661
+          ],
+          [
+            "10-",
+            0.062864
+          ],
+          [
+            "verses",
+            0.062799
+          ],
+          [
+            "saving",
+            0.062415
+          ],
+          [
+            "godsend",
+            0.062261
+          ],
+          [
+            "day",
+            0.058388
+          ],
+          [
+            "true",
+            0.052883
+          ],
+          [
+            "easy",
+            0.052303
+          ],
+          [
+            "bible",
+            0.050206
+          ],
+          [
+            "star",
+            0.044247
+          ],
+          [
+            "books",
+            0.03958
+          ],
+          [
+            "keep",
+            0.038465
+          ],
+          [
+            "word",
+            0.036851
+          ],
+          [
+            "blessing",
+            0.035924
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "godsend",
+            0.037537
+          ],
+          [
+            "favorite",
+            0.028876
+          ],
+          [
+            "desire",
+            0.028685
+          ],
+          [
+            "star",
+            0.023493
+          ],
+          [
+            "easy",
+            0.022937
+          ],
+          [
+            "blessing",
+            0.019503
+          ],
+          [
+            "helps",
+            0.017002
+          ],
+          [
+            "day",
+            0.0161
+          ],
+          [
+            "10-",
+            0.015509
+          ],
+          [
+            "true",
+            0.014362
+          ],
+          [
+            "&",
+            0.012528
+          ],
+          [
+            "reminders",
+            0.012026
+          ],
+          [
+            "entire",
+            0.009622
+          ],
+          [
+            "read",
+            0.009216
+          ],
+          [
+            "saving",
+            0.007431
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1703113317489624,
+          "max": 0.9999998807907104,
+          "std": 0.3177221119403839
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting.",
+        "word_count": 63,
+        "interface_pos": 0.9844,
+        "interface_neg": 0.0067,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁bible, ▁for, ▁supporting",
+        "p_orig": 0.9584176540374756,
+        "p_img": 0.9287301301956177,
+        "delta_p_img": 0.02968752384185791,
+        "gradcam_mean": 0.3787044882774353,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Icon",
+        "delta_p_img_shap": 0.0013096928596496582,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.116138
+          ],
+          [
+            "great",
+            0.086507
+          ],
+          [
+            "readable",
+            0.074486
+          ],
+          [
+            "phone",
+            0.071612
+          ],
+          [
+            "supporting",
+            0.063307
+          ],
+          [
+            "bible",
+            0.057504
+          ],
+          [
+            "features",
+            0.047659
+          ],
+          [
+            "money",
+            0.047454
+          ],
+          [
+            "budget",
+            0.047312
+          ],
+          [
+            "obviously",
+            0.044291
+          ],
+          [
+            "format",
+            0.042823
+          ],
+          [
+            "worth",
+            0.036943
+          ],
+          [
+            "highly",
+            0.036689
+          ],
+          [
+            "not often",
+            0.025691
+          ],
+          [
+            "free",
+            0.022504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.131943
+          ],
+          [
+            "readable",
+            0.062401
+          ],
+          [
+            "free",
+            0.036506
+          ],
+          [
+            "ads",
+            -0.029284
+          ],
+          [
+            "highly",
+            0.023629
+          ],
+          [
+            "worth",
+            0.021574
+          ],
+          [
+            "budget",
+            0.018151
+          ],
+          [
+            "features",
+            0.017629
+          ],
+          [
+            "not often",
+            0.011823
+          ],
+          [
+            "format",
+            0.01036
+          ],
+          [
+            "remove",
+            -0.008843
+          ],
+          [
+            "turn",
+            0.007413
+          ],
+          [
+            "workaround",
+            -0.006913
+          ],
+          [
+            "open",
+            0.006449
+          ],
+          [
+            "bible",
+            0.005304
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14975477755069733,
+          "max": 0.9999998807907104,
+          "std": 0.2798774838447571
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 99% confidence.",
+      "simple": "This screen was classified as good with 99% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of King James Bible (KJV) - free (category: Books & Reference) was classified as good with 99% confidence (with high confidence). The model focused on a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.omead.bible.kjv",
+    "screen_id": "5233",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5233.jpg",
+    "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word! I love that you can check off chapters as you read them and it keeps track of the last chapter you read. This makes it easy when reading through the Bible in a year. The options for highlighting, bookmarking and marking fa",
+    "prediction": 0.9804710149765015,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9804710149765015,
+    "gradcam_stats": {
+      "mean": 0.6206271648406982,
+      "max": 1.0,
+      "std": 0.1377253532409668
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+      "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+      "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+      "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+      "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    ],
+    "app_name": "King James Bible (KJV) - free",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9805254340171814,
+      "p_img": 0.9729955196380615,
+      "delta_p_img": 0.007529914379119873
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ],
+        "score_total": 2324.64208984375,
+        "score_mean": 0.6486166545322963
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          171,
+          8,
+          197,
+          23
+        ],
+        "bounds_rico": [
+          1104,
+          98,
+          1272,
+          266
+        ],
+        "score_total": 207.4617919921875,
+        "score_mean": 0.5319533128004807
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ],
+        "score_total": 184.22805786132812,
+        "score_mean": 0.4548840934847608
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 2324.64208984375,
+        "score_mean": 0.6486166545322963,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 207.4617919921875,
+        "score_mean": 0.5319533128004807,
+        "bounds_image": [
+          171,
+          8,
+          197,
+          23
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 184.22805786132812,
+        "score_mean": 0.4548840934847608,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 2324.64208984375,
+        "score_mean": 0.6486166545322963,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 207.4617919921875,
+        "score_mean": 0.5319533128004807,
+        "bounds_image": [
+          171,
+          8,
+          197,
+          23
+        ],
+        "bounds_rico": [
+          1104,
+          98,
+          1272,
+          266
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 184.22805786132812,
+        "score_mean": 0.4548840934847608,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 161.742919921875,
+        "score_mean": 0.449285888671875,
+        "bounds_image": [
+          39,
+          11,
+          84,
+          19
+        ],
+        "bounds_rico": [
+          252,
+          135,
+          540,
+          228
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Icon",
+        "score_total": 162.7024383544922,
+        "score_mean": 0.3190243889303768,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 21,
+        "token": "▁to"
+      },
+      {
+        "index": 16,
+        "token": "▁reminders"
+      },
+      {
+        "index": 33,
+        "token": "▁reading"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+        "word_count": 72,
+        "interface_pos": 0.9924,
+        "interface_neg": 0.0016,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Icon, Icon",
+        "top_k_tokens": "▁I, ▁features, ▁reading",
+        "p_orig": 0.9708073139190674,
+        "p_img": 0.9594252705574036,
+        "delta_p_img": 0.011382043361663818,
+        "gradcam_mean": 0.5701122879981995,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View, Icon",
+        "delta_p_img_shap": 0.011382043361663818,
+        "word_attention_top15": [
+          [
+            "little\"how",
+            0.112827
+          ],
+          [
+            "alone",
+            0.089467
+          ],
+          [
+            "features",
+            0.06368
+          ],
+          [
+            "guide",
+            0.058306
+          ],
+          [
+            "reading",
+            0.058143
+          ],
+          [
+            "font",
+            0.053757
+          ],
+          [
+            "glasses",
+            0.053477
+          ],
+          [
+            "subject",
+            0.051541
+          ],
+          [
+            "progress",
+            0.047218
+          ],
+          [
+            "easy",
+            0.042502
+          ],
+          [
+            "ability",
+            0.039652
+          ],
+          [
+            "helpful",
+            0.034737
+          ],
+          [
+            "verses",
+            0.033399
+          ],
+          [
+            "favorite",
+            0.033213
+          ],
+          [
+            "love",
+            0.032634
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.033962
+          ],
+          [
+            "favourite",
+            0.031965
+          ],
+          [
+            "favorite",
+            0.026812
+          ],
+          [
+            "easy",
+            0.025767
+          ],
+          [
+            "forget",
+            -0.013303
+          ],
+          [
+            "guide",
+            0.012404
+          ],
+          [
+            "ability",
+            0.010626
+          ],
+          [
+            "features",
+            0.007983
+          ],
+          [
+            "read",
+            0.007426
+          ],
+          [
+            "little\"how",
+            0.006401
+          ],
+          [
+            "progress",
+            0.005937
+          ],
+          [
+            "helpful",
+            0.005514
+          ],
+          [
+            "new",
+            0.005317
+          ],
+          [
+            "glasses",
+            -0.004344
+          ],
+          [
+            "subject",
+            0.003678
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12070437520742416,
+          "max": 0.9999999403953552,
+          "std": 0.2654007375240326
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+        "word_count": 58,
+        "interface_pos": 0.9919,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Icon, Text",
+        "top_k_tokens": "▁easy, ▁easy, ▁I",
+        "p_orig": 0.975044846534729,
+        "p_img": 0.9496332406997681,
+        "delta_p_img": 0.025411605834960938,
+        "gradcam_mean": 0.6077788472175598,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View, Icon",
+        "delta_p_img_shap": 0.009921371936798096,
+        "word_attention_top15": [
+          [
+            "easy",
+            0.139432
+          ],
+          [
+            "need",
+            0.114126
+          ],
+          [
+            "enjoyed",
+            0.092001
+          ],
+          [
+            "reading",
+            0.084957
+          ],
+          [
+            "adjust",
+            0.081402
+          ],
+          [
+            "read",
+            0.07665
+          ],
+          [
+            "text",
+            0.074409
+          ],
+          [
+            "bible",
+            0.074388
+          ],
+          [
+            "size",
+            0.057239
+          ],
+          [
+            "far",
+            0.052618
+          ],
+          [
+            "begun",
+            0.035904
+          ],
+          [
+            "installed",
+            0.034782
+          ],
+          [
+            "good",
+            0.033509
+          ],
+          [
+            "print",
+            0.032914
+          ],
+          [
+            "anyone",
+            0.010441
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoyed",
+            0.045094
+          ],
+          [
+            "good",
+            0.026494
+          ],
+          [
+            "easy",
+            0.022816
+          ],
+          [
+            "reading",
+            0.017719
+          ],
+          [
+            "installed",
+            0.01133
+          ],
+          [
+            "bible",
+            0.008486
+          ],
+          [
+            "begun",
+            0.007265
+          ],
+          [
+            "interested",
+            0.006019
+          ],
+          [
+            "far",
+            0.00579
+          ],
+          [
+            "read",
+            0.004912
+          ],
+          [
+            "print",
+            0.003622
+          ],
+          [
+            "size",
+            0.003094
+          ],
+          [
+            "adjust",
+            -0.00153
+          ],
+          [
+            "anyone",
+            0.000947
+          ],
+          [
+            "text",
+            0.000751
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12871696054935455,
+          "max": 0.9999998807907104,
+          "std": 0.28193506598472595
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+        "word_count": 49,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0015,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Icon, Icon",
+        "top_k_tokens": "▁as, ▁nice, ▁progress",
+        "p_orig": 0.9586876630783081,
+        "p_img": 0.9410275220870972,
+        "delta_p_img": 0.017660140991210938,
+        "gradcam_mean": 0.5204441547393799,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View, Icon",
+        "delta_p_img_shap": 0.017660140991210938,
+        "word_attention_top15": [
+          [
+            "verse's",
+            0.128387
+          ],
+          [
+            "features",
+            0.099992
+          ],
+          [
+            "nice",
+            0.096292
+          ],
+          [
+            "progress",
+            0.090526
+          ],
+          [
+            "daily",
+            0.069431
+          ],
+          [
+            "highlighting",
+            0.065522
+          ],
+          [
+            "reading",
+            0.056642
+          ],
+          [
+            "friendly",
+            0.051915
+          ],
+          [
+            "user",
+            0.047879
+          ],
+          [
+            "track",
+            0.037802
+          ],
+          [
+            "bible",
+            0.03329
+          ],
+          [
+            "seven",
+            0.030693
+          ],
+          [
+            "since",
+            0.026397
+          ],
+          [
+            "found",
+            0.026067
+          ],
+          [
+            "plus",
+            0.024127
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.04466
+          ],
+          [
+            "friendly",
+            0.030868
+          ],
+          [
+            "features",
+            0.027692
+          ],
+          [
+            "plus",
+            0.021795
+          ],
+          [
+            "keeps",
+            0.013398
+          ],
+          [
+            "years",
+            -0.012852
+          ],
+          [
+            "highlighting",
+            0.008117
+          ],
+          [
+            "progress",
+            0.008085
+          ],
+          [
+            "reading",
+            0.007327
+          ],
+          [
+            "found",
+            0.007027
+          ],
+          [
+            "think",
+            -0.006887
+          ],
+          [
+            "user",
+            0.006276
+          ],
+          [
+            "seven",
+            -0.004758
+          ],
+          [
+            "first",
+            0.002942
+          ],
+          [
+            "honestly",
+            -0.002876
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10681960731744766,
+          "max": 0.9999999403953552,
+          "std": 0.2370164841413498
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+        "word_count": 57,
+        "interface_pos": 0.9889,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Icon, Icon",
+        "top_k_tokens": "▁to, ▁reminders, ▁reading",
+        "p_orig": 0.9805254340171814,
+        "p_img": 0.9729955196380615,
+        "delta_p_img": 0.007529914379119873,
+        "gradcam_mean": 0.6206271648406982,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View, Icon",
+        "delta_p_img_shap": 0.007529914379119873,
+        "word_attention_top15": [
+          [
+            "reminders",
+            0.073612
+          ],
+          [
+            "reading",
+            0.069661
+          ],
+          [
+            "10-",
+            0.062864
+          ],
+          [
+            "verses",
+            0.062799
+          ],
+          [
+            "saving",
+            0.062415
+          ],
+          [
+            "godsend",
+            0.062261
+          ],
+          [
+            "day",
+            0.058388
+          ],
+          [
+            "true",
+            0.052883
+          ],
+          [
+            "easy",
+            0.052303
+          ],
+          [
+            "bible",
+            0.050206
+          ],
+          [
+            "star",
+            0.044247
+          ],
+          [
+            "books",
+            0.03958
+          ],
+          [
+            "keep",
+            0.038465
+          ],
+          [
+            "word",
+            0.036851
+          ],
+          [
+            "blessing",
+            0.035924
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "godsend",
+            0.024089
+          ],
+          [
+            "favorite",
+            0.018918
+          ],
+          [
+            "desire",
+            0.017304
+          ],
+          [
+            "star",
+            0.01565
+          ],
+          [
+            "easy",
+            0.014403
+          ],
+          [
+            "blessing",
+            0.011836
+          ],
+          [
+            "true",
+            0.011197
+          ],
+          [
+            "10-",
+            0.01105
+          ],
+          [
+            "helps",
+            0.010969
+          ],
+          [
+            "day",
+            0.009459
+          ],
+          [
+            "&",
+            0.009009
+          ],
+          [
+            "reminders",
+            0.00842
+          ],
+          [
+            "read",
+            0.006349
+          ],
+          [
+            "entire",
+            0.005987
+          ],
+          [
+            "study",
+            0.00476
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13420000672340393,
+          "max": 0.9999998211860657,
+          "std": 0.2938186824321747
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting.",
+        "word_count": 63,
+        "interface_pos": 0.9844,
+        "interface_neg": 0.0067,
+        "interface_sentiment": "positive",
+        "top_components": "Web View, Icon, Icon",
+        "top_k_tokens": "▁bible, ▁for, ▁supporting",
+        "p_orig": 0.9479411244392395,
+        "p_img": 0.9234216809272766,
+        "delta_p_img": 0.02451944351196289,
+        "gradcam_mean": 0.4838966131210327,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View, Icon",
+        "delta_p_img_shap": 0.02451944351196289,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.116138
+          ],
+          [
+            "great",
+            0.086507
+          ],
+          [
+            "readable",
+            0.074486
+          ],
+          [
+            "phone",
+            0.071612
+          ],
+          [
+            "supporting",
+            0.063307
+          ],
+          [
+            "bible",
+            0.057504
+          ],
+          [
+            "features",
+            0.047659
+          ],
+          [
+            "money",
+            0.047454
+          ],
+          [
+            "budget",
+            0.047312
+          ],
+          [
+            "obviously",
+            0.044291
+          ],
+          [
+            "format",
+            0.042823
+          ],
+          [
+            "worth",
+            0.036943
+          ],
+          [
+            "highly",
+            0.036689
+          ],
+          [
+            "not often",
+            0.025691
+          ],
+          [
+            "free",
+            0.022504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.066618
+          ],
+          [
+            "readable",
+            0.03291
+          ],
+          [
+            "free",
+            0.01948
+          ],
+          [
+            "highly",
+            0.012692
+          ],
+          [
+            "ads",
+            -0.012624
+          ],
+          [
+            "worth",
+            0.011993
+          ],
+          [
+            "budget",
+            0.011742
+          ],
+          [
+            "features",
+            0.010746
+          ],
+          [
+            "prevent",
+            0.008003
+          ],
+          [
+            "not often",
+            0.007569
+          ],
+          [
+            "format",
+            0.006955
+          ],
+          [
+            "turn",
+            0.005595
+          ],
+          [
+            "bible",
+            0.004347
+          ],
+          [
+            "wifi",
+            -0.004238
+          ],
+          [
+            "open",
+            0.003616
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09597625583410263,
+          "max": 0.9999999403953552,
+          "std": 0.21523578464984894
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 98% confidence.",
+      "simple": "This screen was predicted as good with 98% confidence. The model concentrated on a small Web View at the top-left.",
+      "detailed": "This screen of King James Bible (KJV) - free (category: Books & Reference) was predicted as good with 98% confidence (with strong evidence). The model gave priority to a small Web View at the top-left, a small Icon at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.omead.bible.kjv",
+    "screen_id": "5228",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5228.jpg",
+    "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word! Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyo",
+    "prediction": 0.9482963681221008,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9482963681221008,
+    "gradcam_stats": {
+      "mean": 0.5647777915000916,
+      "max": 1.0,
+      "std": 0.1843242049217224
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+      "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+      "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+      "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+      "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    ],
+    "app_name": "King James Bible (KJV) - free",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9482645392417908,
+      "p_img": 0.9263836741447449,
+      "delta_p_img": 0.0218808650970459
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          147,
+          151,
+          218,
+          165
+        ],
+        "bounds_rico": [
+          948,
+          1734,
+          1405,
+          1888
+        ],
+        "score_total": 780.7410888671875,
+        "score_mean": 0.7854538117376132
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          76,
+          151,
+          147,
+          165
+        ],
+        "bounds_rico": [
+          491,
+          1734,
+          948,
+          1888
+        ],
+        "score_total": 649.3002319335938,
+        "score_mean": 0.6532195492289675
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          10,
+          49,
+          213,
+          97
+        ],
+        "bounds_rico": [
+          70,
+          562,
+          1370,
+          1115
+        ],
+        "score_total": 6218.9140625,
+        "score_mean": 0.6382300967261905
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 780.7410888671875,
+        "score_mean": 0.7854538117376132,
+        "bounds_image": [
+          147,
+          151,
+          218,
+          165
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 649.3002319335938,
+        "score_mean": 0.6532195492289675,
+        "bounds_image": [
+          76,
+          151,
+          147,
+          165
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 6218.9140625,
+        "score_mean": 0.6382300967261905,
+        "bounds_image": [
+          10,
+          49,
+          213,
+          97
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 780.7410888671875,
+        "score_mean": 0.7854538117376132,
+        "bounds_image": [
+          147,
+          151,
+          218,
+          165
+        ],
+        "bounds_rico": [
+          948,
+          1734,
+          1405,
+          1888
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 649.3002319335938,
+        "score_mean": 0.6532195492289675,
+        "bounds_image": [
+          76,
+          151,
+          147,
+          165
+        ],
+        "bounds_rico": [
+          491,
+          1734,
+          948,
+          1888
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 6218.9140625,
+        "score_mean": 0.6382300967261905,
+        "bounds_image": [
+          10,
+          49,
+          213,
+          97
+        ],
+        "bounds_rico": [
+          70,
+          562,
+          1370,
+          1115
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 335.4793701171875,
+        "score_mean": 0.5990703037806919,
+        "bounds_image": [
+          32,
+          38,
+          112,
+          45
+        ],
+        "bounds_rico": [
+          211,
+          444,
+          726,
+          520
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 553.6681518554688,
+        "score_mean": 0.5570102131342743,
+        "bounds_image": [
+          5,
+          151,
+          76,
+          165
+        ],
+        "bounds_rico": [
+          35,
+          1734,
+          491,
+          1888
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Web View",
+        "score_total": 1670.441162109375,
+        "score_mean": 0.4660829135349819,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 181.17337036132812,
+        "score_mean": 0.4529334259033203,
+        "bounds_image": [
+          32,
+          30,
+          82,
+          38
+        ],
+        "bounds_rico": [
+          211,
+          351,
+          530,
+          444
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 147.12100219726562,
+        "score_mean": 0.36326173382040894,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 90.6988525390625,
+        "score_mean": 0.343556259617661,
+        "bounds_image": [
+          8,
+          31,
+          30,
+          43
+        ],
+        "bounds_rico": [
+          53,
+          360,
+          193,
+          500
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 125.1946029663086,
+        "score_mean": 0.2454796136594286,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 69.23466491699219,
+        "score_mean": 0.20605555034819104,
+        "bounds_image": [
+          39,
+          11,
+          81,
+          19
+        ],
+        "bounds_rico": [
+          252,
+          135,
+          526,
+          228
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 21,
+        "token": "▁to"
+      },
+      {
+        "index": 16,
+        "token": "▁reminders"
+      },
+      {
+        "index": 33,
+        "token": "▁reading"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+        "word_count": 72,
+        "interface_pos": 0.9924,
+        "interface_neg": 0.0016,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Icon, Text",
+        "top_k_tokens": "▁I, ▁features, ▁reading",
+        "p_orig": 0.9280810356140137,
+        "p_img": 0.8844887614250183,
+        "delta_p_img": 0.04359227418899536,
+        "gradcam_mean": 0.5407219529151917,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.02739536762237549,
+        "word_attention_top15": [
+          [
+            "little\"how",
+            0.112827
+          ],
+          [
+            "alone",
+            0.089467
+          ],
+          [
+            "features",
+            0.06368
+          ],
+          [
+            "guide",
+            0.058306
+          ],
+          [
+            "reading",
+            0.058143
+          ],
+          [
+            "font",
+            0.053757
+          ],
+          [
+            "glasses",
+            0.053477
+          ],
+          [
+            "subject",
+            0.051541
+          ],
+          [
+            "progress",
+            0.047218
+          ],
+          [
+            "easy",
+            0.042502
+          ],
+          [
+            "ability",
+            0.039652
+          ],
+          [
+            "helpful",
+            0.034737
+          ],
+          [
+            "verses",
+            0.033399
+          ],
+          [
+            "favorite",
+            0.033213
+          ],
+          [
+            "love",
+            0.032634
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.063267
+          ],
+          [
+            "easy",
+            0.059349
+          ],
+          [
+            "favorite",
+            0.05357
+          ],
+          [
+            "favourite",
+            0.046464
+          ],
+          [
+            "guide",
+            0.020215
+          ],
+          [
+            "forget",
+            -0.017086
+          ],
+          [
+            "ability",
+            0.014817
+          ],
+          [
+            "features",
+            0.013735
+          ],
+          [
+            "read",
+            0.010905
+          ],
+          [
+            "helpful",
+            0.008771
+          ],
+          [
+            "new",
+            0.008441
+          ],
+          [
+            "alone",
+            0.007873
+          ],
+          [
+            "little\"how",
+            0.007552
+          ],
+          [
+            "progress",
+            0.006911
+          ],
+          [
+            "subject",
+            0.005216
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07941964268684387,
+          "max": 0.9999998807907104,
+          "std": 0.1977676898241043
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+        "word_count": 58,
+        "interface_pos": 0.9919,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁easy, ▁easy, ▁I",
+        "p_orig": 0.9381319284439087,
+        "p_img": 0.9083601832389832,
+        "delta_p_img": 0.029771745204925537,
+        "gradcam_mean": 0.5635616779327393,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.021696925163269043,
+        "word_attention_top15": [
+          [
+            "easy",
+            0.139432
+          ],
+          [
+            "need",
+            0.114126
+          ],
+          [
+            "enjoyed",
+            0.092001
+          ],
+          [
+            "reading",
+            0.084957
+          ],
+          [
+            "adjust",
+            0.081402
+          ],
+          [
+            "read",
+            0.07665
+          ],
+          [
+            "text",
+            0.074409
+          ],
+          [
+            "bible",
+            0.074388
+          ],
+          [
+            "size",
+            0.057239
+          ],
+          [
+            "far",
+            0.052618
+          ],
+          [
+            "begun",
+            0.035904
+          ],
+          [
+            "installed",
+            0.034782
+          ],
+          [
+            "good",
+            0.033509
+          ],
+          [
+            "print",
+            0.032914
+          ],
+          [
+            "anyone",
+            0.010441
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoyed",
+            0.104637
+          ],
+          [
+            "easy",
+            0.042056
+          ],
+          [
+            "good",
+            0.038741
+          ],
+          [
+            "reading",
+            0.025968
+          ],
+          [
+            "installed",
+            0.013508
+          ],
+          [
+            "begun",
+            0.012726
+          ],
+          [
+            "interested",
+            0.011143
+          ],
+          [
+            "bible",
+            0.010907
+          ],
+          [
+            "far",
+            0.01023
+          ],
+          [
+            "read",
+            0.007146
+          ],
+          [
+            "size",
+            0.005928
+          ],
+          [
+            "print",
+            0.005342
+          ],
+          [
+            "adjust",
+            -0.00257
+          ],
+          [
+            "text",
+            0.00249
+          ],
+          [
+            "anyone",
+            -0.000614
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07553038001060486,
+          "max": 0.9999998807907104,
+          "std": 0.19022057950496674
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+        "word_count": 49,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0015,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Image, Icon",
+        "top_k_tokens": "▁as, ▁nice, ▁progress",
+        "p_orig": 0.9003007411956787,
+        "p_img": 0.8516396284103394,
+        "delta_p_img": 0.048661112785339355,
+        "gradcam_mean": 0.5248923301696777,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.048661112785339355,
+        "word_attention_top15": [
+          [
+            "verse's",
+            0.128387
+          ],
+          [
+            "features",
+            0.099992
+          ],
+          [
+            "nice",
+            0.096292
+          ],
+          [
+            "progress",
+            0.090526
+          ],
+          [
+            "daily",
+            0.069431
+          ],
+          [
+            "highlighting",
+            0.065522
+          ],
+          [
+            "reading",
+            0.056642
+          ],
+          [
+            "friendly",
+            0.051915
+          ],
+          [
+            "user",
+            0.047879
+          ],
+          [
+            "track",
+            0.037802
+          ],
+          [
+            "bible",
+            0.03329
+          ],
+          [
+            "seven",
+            0.030693
+          ],
+          [
+            "since",
+            0.026397
+          ],
+          [
+            "found",
+            0.026067
+          ],
+          [
+            "plus",
+            0.024127
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.083711
+          ],
+          [
+            "friendly",
+            0.067493
+          ],
+          [
+            "features",
+            0.050279
+          ],
+          [
+            "plus",
+            0.039873
+          ],
+          [
+            "years",
+            -0.022001
+          ],
+          [
+            "keeps",
+            0.01924
+          ],
+          [
+            "progress",
+            0.017
+          ],
+          [
+            "user",
+            0.013976
+          ],
+          [
+            "think",
+            -0.013393
+          ],
+          [
+            "highlighting",
+            0.011123
+          ],
+          [
+            "reading",
+            0.010162
+          ],
+          [
+            "found",
+            0.008901
+          ],
+          [
+            "seven",
+            -0.006266
+          ],
+          [
+            "honestly",
+            -0.005893
+          ],
+          [
+            "track",
+            0.005624
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07103478908538818,
+          "max": 0.9999999403953552,
+          "std": 0.17561228573322296
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+        "word_count": 57,
+        "interface_pos": 0.9889,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Icon, Text",
+        "top_k_tokens": "▁to, ▁reminders, ▁reading",
+        "p_orig": 0.9482645392417908,
+        "p_img": 0.9263836741447449,
+        "delta_p_img": 0.0218808650970459,
+        "gradcam_mean": 0.5647777915000916,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.017168641090393066,
+        "word_attention_top15": [
+          [
+            "reminders",
+            0.073612
+          ],
+          [
+            "reading",
+            0.069661
+          ],
+          [
+            "10-",
+            0.062864
+          ],
+          [
+            "verses",
+            0.062799
+          ],
+          [
+            "saving",
+            0.062415
+          ],
+          [
+            "godsend",
+            0.062261
+          ],
+          [
+            "day",
+            0.058388
+          ],
+          [
+            "true",
+            0.052883
+          ],
+          [
+            "easy",
+            0.052303
+          ],
+          [
+            "bible",
+            0.050206
+          ],
+          [
+            "star",
+            0.044247
+          ],
+          [
+            "books",
+            0.03958
+          ],
+          [
+            "keep",
+            0.038465
+          ],
+          [
+            "word",
+            0.036851
+          ],
+          [
+            "blessing",
+            0.035924
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "godsend",
+            0.048847
+          ],
+          [
+            "favorite",
+            0.040502
+          ],
+          [
+            "star",
+            0.029802
+          ],
+          [
+            "10-",
+            0.024543
+          ],
+          [
+            "desire",
+            0.02277
+          ],
+          [
+            "easy",
+            0.020524
+          ],
+          [
+            "blessing",
+            0.020381
+          ],
+          [
+            "true",
+            0.019387
+          ],
+          [
+            "helps",
+            0.018188
+          ],
+          [
+            "day",
+            0.014615
+          ],
+          [
+            "&",
+            0.01413
+          ],
+          [
+            "read",
+            0.013883
+          ],
+          [
+            "bible",
+            0.012192
+          ],
+          [
+            "saving",
+            0.011218
+          ],
+          [
+            "reminders",
+            0.010861
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.06811206787824631,
+          "max": 0.9999998807907104,
+          "std": 0.17840950191020966
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting.",
+        "word_count": 63,
+        "interface_pos": 0.9844,
+        "interface_neg": 0.0067,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Image, Text",
+        "top_k_tokens": "▁bible, ▁for, ▁supporting",
+        "p_orig": 0.8701050281524658,
+        "p_img": 0.7514488101005554,
+        "delta_p_img": 0.1186562180519104,
+        "gradcam_mean": 0.499558687210083,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.02931731939315796,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.116138
+          ],
+          [
+            "great",
+            0.086507
+          ],
+          [
+            "readable",
+            0.074486
+          ],
+          [
+            "phone",
+            0.071612
+          ],
+          [
+            "supporting",
+            0.063307
+          ],
+          [
+            "bible",
+            0.057504
+          ],
+          [
+            "features",
+            0.047659
+          ],
+          [
+            "money",
+            0.047454
+          ],
+          [
+            "budget",
+            0.047312
+          ],
+          [
+            "obviously",
+            0.044291
+          ],
+          [
+            "format",
+            0.042823
+          ],
+          [
+            "worth",
+            0.036943
+          ],
+          [
+            "highly",
+            0.036689
+          ],
+          [
+            "not often",
+            0.025691
+          ],
+          [
+            "free",
+            0.022504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.145488
+          ],
+          [
+            "readable",
+            0.055697
+          ],
+          [
+            "free",
+            0.032092
+          ],
+          [
+            "highly",
+            0.023583
+          ],
+          [
+            "worth",
+            0.022515
+          ],
+          [
+            "budget",
+            0.018235
+          ],
+          [
+            "features",
+            0.01623
+          ],
+          [
+            "ads",
+            -0.013508
+          ],
+          [
+            "format",
+            0.011872
+          ],
+          [
+            "prevent",
+            0.009134
+          ],
+          [
+            "not often",
+            0.00808
+          ],
+          [
+            "phone",
+            0.007156
+          ],
+          [
+            "bible",
+            0.005289
+          ],
+          [
+            "open",
+            0.004478
+          ],
+          [
+            "workaround",
+            -0.004223
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07032456994056702,
+          "max": 0.9999999403953552,
+          "std": 0.17548656463623047
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 95% confidence.",
+      "simple": "This screen was labeled as good with 95% confidence. The model directed most attention to a small Icon at the top-left.",
+      "detailed": "This screen of King James Bible (KJV) - free (category: Books & Reference) was labeled as good with 95% confidence (confidently). The model attended to a small Icon at the top-left, a small Icon at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.omead.bible.kjv",
+    "screen_id": "5230",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5230.jpg",
+    "text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word! I love that you can check off chapters as you read them and it keeps track of the last chapter you read. This makes it easy when reading through the Bible in a year. The options for highlighting, bookmarking and marking fa",
+    "prediction": 0.9614661931991577,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9614661931991577,
+    "gradcam_stats": {
+      "mean": 0.3939119875431061,
+      "max": 1.0,
+      "std": 0.1511964052915573
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+      "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+      "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+      "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+      "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting."
+    ],
+    "app_name": "King James Bible (KJV) - free",
+    "category": "Books & Reference",
+    "faithfulness": {
+      "p_orig": 0.9615545868873596,
+      "p_img": 0.9427700042724609,
+      "delta_p_img": 0.01878458261489868
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          187,
+          66,
+          217,
+          83
+        ],
+        "bounds_rico": [
+          1205,
+          761,
+          1401,
+          957
+        ],
+        "score_total": 267.0286560058594,
+        "score_mean": 0.523585600011489
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          15,
+          132,
+          29,
+          140
+        ],
+        "bounds_rico": [
+          102,
+          1512,
+          190,
+          1600
+        ],
+        "score_total": 49.96392059326172,
+        "score_mean": 0.4461064338684082
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          32,
+          132,
+          49,
+          139
+        ],
+        "bounds_rico": [
+          208,
+          1512,
+          315,
+          1598
+        ],
+        "score_total": 52.60107421875,
+        "score_mean": 0.4420258337710084
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 267.0286560058594,
+        "score_mean": 0.523585600011489,
+        "bounds_image": [
+          187,
+          66,
+          217,
+          83
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 49.96392059326172,
+        "score_mean": 0.4461064338684082,
+        "bounds_image": [
+          15,
+          132,
+          29,
+          140
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 52.60107421875,
+        "score_mean": 0.4420258337710084,
+        "bounds_image": [
+          32,
+          132,
+          49,
+          139
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 267.0286560058594,
+        "score_mean": 0.523585600011489,
+        "bounds_image": [
+          187,
+          66,
+          217,
+          83
+        ],
+        "bounds_rico": [
+          1205,
+          761,
+          1401,
+          957
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 49.96392059326172,
+        "score_mean": 0.4461064338684082,
+        "bounds_image": [
+          15,
+          132,
+          29,
+          140
+        ],
+        "bounds_rico": [
+          102,
+          1512,
+          190,
+          1600
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 52.60107421875,
+        "score_mean": 0.4420258337710084,
+        "bounds_image": [
+          32,
+          132,
+          49,
+          139
+        ],
+        "bounds_rico": [
+          208,
+          1512,
+          315,
+          1598
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 5480.66015625,
+        "score_mean": 0.4292496989544173,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          64
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          736
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 188.6845703125,
+        "score_mean": 0.42785616850907027,
+        "bounds_image": [
+          18,
+          121,
+          67,
+          130
+        ],
+        "bounds_rico": [
+          120,
+          1389,
+          437,
+          1494
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 1135.5137939453125,
+        "score_mean": 0.4268848849418468,
+        "bounds_image": [
+          18,
+          93,
+          208,
+          107
+        ],
+        "bounds_rico": [
+          120,
+          1074,
+          1338,
+          1224
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 115.86637115478516,
+        "score_mean": 0.3914404430904904,
+        "bounds_image": [
+          32,
+          84,
+          69,
+          92
+        ],
+        "bounds_rico": [
+          208,
+          968,
+          444,
+          1054
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 47.57760238647461,
+        "score_mean": 0.3776000189402747,
+        "bounds_image": [
+          51,
+          133,
+          72,
+          139
+        ],
+        "bounds_rico": [
+          333,
+          1520,
+          467,
+          1596
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 370.3890380859375,
+        "score_mean": 0.3703890380859375,
+        "bounds_image": [
+          18,
+          73,
+          118,
+          83
+        ],
+        "bounds_rico": [
+          120,
+          845,
+          760,
+          950
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 311.3395080566406,
+        "score_mean": 0.34942705730262696,
+        "bounds_image": [
+          38,
+          175,
+          137,
+          184
+        ],
+        "bounds_rico": [
+          247,
+          2007,
+          882,
+          2112
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 496.4344787597656,
+        "score_mean": 0.3486197182301725,
+        "bounds_image": [
+          38,
+          184,
+          216,
+          192
+        ],
+        "bounds_rico": [
+          247,
+          2112,
+          1394,
+          2198
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 38.21308135986328,
+        "score_mean": 0.34118822642735075,
+        "bounds_image": [
+          15,
+          84,
+          29,
+          92
+        ],
+        "bounds_rico": [
+          102,
+          968,
+          190,
+          1056
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 26.790882110595703,
+        "score_mean": 0.3348860263824463,
+        "bounds_image": [
+          71,
+          84,
+          81,
+          92
+        ],
+        "bounds_rico": [
+          462,
+          968,
+          527,
+          1054
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 1270.112548828125,
+        "score_mean": 0.33424014442845396,
+        "bounds_image": [
+          18,
+          141,
+          208,
+          161
+        ],
+        "bounds_rico": [
+          120,
+          1618,
+          1338,
+          1842
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Icon",
+        "score_total": 130.6920623779297,
+        "score_mean": 0.3226964503158758,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Web View",
+        "score_total": 993.50830078125,
+        "score_mean": 0.27720655713762554,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Icon",
+        "score_total": 118.7432861328125,
+        "score_mean": 0.23282997280943626,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 21,
+        "token": "▁to"
+      },
+      {
+        "index": 16,
+        "token": "▁reminders"
+      },
+      {
+        "index": 33,
+        "token": "▁reading"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "I love this app. It's new to me but my favorite features are the ability to change font so I can read it even if I forget my reading glasses and how it tracks my progress. I am still trying to figure out how to add my favourite verses so a little\"how to use guide\" would be helpful in that subject alone, the rest of the app. is very easy to use.",
+        "word_count": 72,
+        "interface_pos": 0.9924,
+        "interface_neg": 0.0016,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Image, Icon",
+        "top_k_tokens": "▁I, ▁features, ▁reading",
+        "p_orig": 0.9350996613502502,
+        "p_img": 0.7814500331878662,
+        "delta_p_img": 0.15364962816238403,
+        "gradcam_mean": 0.41439351439476013,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.02635955810546875,
+        "word_attention_top15": [
+          [
+            "little\"how",
+            0.112827
+          ],
+          [
+            "alone",
+            0.089467
+          ],
+          [
+            "features",
+            0.06368
+          ],
+          [
+            "guide",
+            0.058306
+          ],
+          [
+            "reading",
+            0.058143
+          ],
+          [
+            "font",
+            0.053757
+          ],
+          [
+            "glasses",
+            0.053477
+          ],
+          [
+            "subject",
+            0.051541
+          ],
+          [
+            "progress",
+            0.047218
+          ],
+          [
+            "easy",
+            0.042502
+          ],
+          [
+            "ability",
+            0.039652
+          ],
+          [
+            "helpful",
+            0.034737
+          ],
+          [
+            "verses",
+            0.033399
+          ],
+          [
+            "favorite",
+            0.033213
+          ],
+          [
+            "love",
+            0.032634
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "easy",
+            0.077899
+          ],
+          [
+            "love",
+            0.074743
+          ],
+          [
+            "favorite",
+            0.063266
+          ],
+          [
+            "favourite",
+            0.062037
+          ],
+          [
+            "guide",
+            0.029244
+          ],
+          [
+            "forget",
+            -0.021142
+          ],
+          [
+            "ability",
+            0.016305
+          ],
+          [
+            "features",
+            0.015237
+          ],
+          [
+            "read",
+            0.012479
+          ],
+          [
+            "progress",
+            0.009351
+          ],
+          [
+            "alone",
+            0.008389
+          ],
+          [
+            "little\"how",
+            0.00733
+          ],
+          [
+            "new",
+            0.006925
+          ],
+          [
+            "subject",
+            0.006567
+          ],
+          [
+            "verses",
+            0.005771
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14877887070178986,
+          "max": 0.9999997615814209,
+          "std": 0.2940390110015869
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Have installed your app and just begun to read. So far I have enjoyed reading the text. The app has been easy to use. The print size was easy to adjust. Over all I have really enjoyed reading the bible on your app. If anyone is interested in a good bible app, this is the one you need!!!",
+        "word_count": 58,
+        "interface_pos": 0.9919,
+        "interface_neg": 0.0009,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Image, Image",
+        "top_k_tokens": "▁easy, ▁easy, ▁I",
+        "p_orig": 0.9463696479797363,
+        "p_img": 0.8393524885177612,
+        "delta_p_img": 0.1070171594619751,
+        "gradcam_mean": 0.3815872371196747,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.0034752488136291504,
+        "word_attention_top15": [
+          [
+            "easy",
+            0.139432
+          ],
+          [
+            "need",
+            0.114126
+          ],
+          [
+            "enjoyed",
+            0.092001
+          ],
+          [
+            "reading",
+            0.084957
+          ],
+          [
+            "adjust",
+            0.081402
+          ],
+          [
+            "read",
+            0.07665
+          ],
+          [
+            "text",
+            0.074409
+          ],
+          [
+            "bible",
+            0.074388
+          ],
+          [
+            "size",
+            0.057239
+          ],
+          [
+            "far",
+            0.052618
+          ],
+          [
+            "begun",
+            0.035904
+          ],
+          [
+            "installed",
+            0.034782
+          ],
+          [
+            "good",
+            0.033509
+          ],
+          [
+            "print",
+            0.032914
+          ],
+          [
+            "anyone",
+            0.010441
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoyed",
+            0.121367
+          ],
+          [
+            "easy",
+            0.048733
+          ],
+          [
+            "good",
+            0.046461
+          ],
+          [
+            "reading",
+            0.032578
+          ],
+          [
+            "begun",
+            0.014116
+          ],
+          [
+            "installed",
+            0.014047
+          ],
+          [
+            "bible",
+            0.013282
+          ],
+          [
+            "far",
+            0.012204
+          ],
+          [
+            "interested",
+            0.011611
+          ],
+          [
+            "read",
+            0.010333
+          ],
+          [
+            "print",
+            0.006979
+          ],
+          [
+            "adjust",
+            -0.006478
+          ],
+          [
+            "size",
+            0.005347
+          ],
+          [
+            "text",
+            0.00259
+          ],
+          [
+            "anyone",
+            0.00161
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14789198338985443,
+          "max": 0.9999997615814209,
+          "std": 0.29035142064094543
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "Since I first found this app. I noticed that it's user friendly and features for highlighting for verse's. It keeps track of Your bible reading progress as well. Plus there's other nice features. I honestly think I've had this app. For seven years and I still use it daily.",
+        "word_count": 49,
+        "interface_pos": 0.9903,
+        "interface_neg": 0.0015,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Icon, Image",
+        "top_k_tokens": "▁as, ▁nice, ▁progress",
+        "p_orig": 0.9103848338127136,
+        "p_img": 0.6550928354263306,
+        "delta_p_img": 0.25529199838638306,
+        "gradcam_mean": 0.31748515367507935,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.06423205137252808,
+        "word_attention_top15": [
+          [
+            "verse's",
+            0.128387
+          ],
+          [
+            "features",
+            0.099992
+          ],
+          [
+            "nice",
+            0.096292
+          ],
+          [
+            "progress",
+            0.090526
+          ],
+          [
+            "daily",
+            0.069431
+          ],
+          [
+            "highlighting",
+            0.065522
+          ],
+          [
+            "reading",
+            0.056642
+          ],
+          [
+            "friendly",
+            0.051915
+          ],
+          [
+            "user",
+            0.047879
+          ],
+          [
+            "track",
+            0.037802
+          ],
+          [
+            "bible",
+            0.03329
+          ],
+          [
+            "seven",
+            0.030693
+          ],
+          [
+            "since",
+            0.026397
+          ],
+          [
+            "found",
+            0.026067
+          ],
+          [
+            "plus",
+            0.024127
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "nice",
+            0.10715
+          ],
+          [
+            "friendly",
+            0.081192
+          ],
+          [
+            "features",
+            0.057401
+          ],
+          [
+            "plus",
+            0.049586
+          ],
+          [
+            "years",
+            -0.02788
+          ],
+          [
+            "keeps",
+            0.023769
+          ],
+          [
+            "think",
+            -0.020846
+          ],
+          [
+            "progress",
+            0.019142
+          ],
+          [
+            "user",
+            0.016103
+          ],
+          [
+            "highlighting",
+            0.013493
+          ],
+          [
+            "found",
+            0.011606
+          ],
+          [
+            "honestly",
+            -0.008707
+          ],
+          [
+            "noticed",
+            -0.007184
+          ],
+          [
+            "track",
+            0.006325
+          ],
+          [
+            "reading",
+            0.005997
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15131761133670807,
+          "max": 0.9999997615814209,
+          "std": 0.29867684841156006
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 15,
+        "review_source": "cache",
+        "review_text": "This Bible app is a Godsend to me with the books of the Bible reminders to read each day to saving my favorite verses. It helps you keep track of reading through the entire Bible should you desire to do so. It's a 10- star app and a true blessing & Very easy to study the Word!",
+        "word_count": 57,
+        "interface_pos": 0.9889,
+        "interface_neg": 0.001,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Image, Text",
+        "top_k_tokens": "▁to, ▁reminders, ▁reading",
+        "p_orig": 0.9615545868873596,
+        "p_img": 0.9427700042724609,
+        "delta_p_img": 0.01878458261489868,
+        "gradcam_mean": 0.3939119875431061,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.01708012819290161,
+        "word_attention_top15": [
+          [
+            "reminders",
+            0.073612
+          ],
+          [
+            "reading",
+            0.069661
+          ],
+          [
+            "10-",
+            0.062864
+          ],
+          [
+            "verses",
+            0.062799
+          ],
+          [
+            "saving",
+            0.062415
+          ],
+          [
+            "godsend",
+            0.062261
+          ],
+          [
+            "day",
+            0.058388
+          ],
+          [
+            "true",
+            0.052883
+          ],
+          [
+            "easy",
+            0.052303
+          ],
+          [
+            "bible",
+            0.050206
+          ],
+          [
+            "star",
+            0.044247
+          ],
+          [
+            "books",
+            0.03958
+          ],
+          [
+            "keep",
+            0.038465
+          ],
+          [
+            "word",
+            0.036851
+          ],
+          [
+            "blessing",
+            0.035924
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "godsend",
+            0.05686
+          ],
+          [
+            "favorite",
+            0.046066
+          ],
+          [
+            "star",
+            0.033049
+          ],
+          [
+            "desire",
+            0.028687
+          ],
+          [
+            "bible",
+            0.026997
+          ],
+          [
+            "10-",
+            0.025629
+          ],
+          [
+            "easy",
+            0.025486
+          ],
+          [
+            "blessing",
+            0.024452
+          ],
+          [
+            "helps",
+            0.021292
+          ],
+          [
+            "true",
+            0.020266
+          ],
+          [
+            "day",
+            0.017383
+          ],
+          [
+            "read",
+            0.01624
+          ],
+          [
+            "saving",
+            0.015867
+          ],
+          [
+            "&",
+            0.015049
+          ],
+          [
+            "reminders",
+            0.012634
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1433723419904709,
+          "max": 0.9999997019767761,
+          "std": 0.2822731137275696
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "Great format and features. Free bible for those on a budget. There are ads that play but not often. You can purchase to remove ads... or just turn wifi off before you open the app which will prevent ads being sent thru to your phone. Readable offline obviously. A workaround to save money. But it is a great app and highly worth supporting.",
+        "word_count": 63,
+        "interface_pos": 0.9844,
+        "interface_neg": 0.0067,
+        "interface_sentiment": "positive",
+        "top_components": "Icon, Image, Icon",
+        "top_k_tokens": "▁bible, ▁for, ▁supporting",
+        "p_orig": 0.8773093819618225,
+        "p_img": 0.49943095445632935,
+        "delta_p_img": 0.37787842750549316,
+        "gradcam_mean": 0.31141069531440735,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.08975046873092651,
+        "word_attention_top15": [
+          [
+            "ads",
+            0.116138
+          ],
+          [
+            "great",
+            0.086507
+          ],
+          [
+            "readable",
+            0.074486
+          ],
+          [
+            "phone",
+            0.071612
+          ],
+          [
+            "supporting",
+            0.063307
+          ],
+          [
+            "bible",
+            0.057504
+          ],
+          [
+            "features",
+            0.047659
+          ],
+          [
+            "money",
+            0.047454
+          ],
+          [
+            "budget",
+            0.047312
+          ],
+          [
+            "obviously",
+            0.044291
+          ],
+          [
+            "format",
+            0.042823
+          ],
+          [
+            "worth",
+            0.036943
+          ],
+          [
+            "highly",
+            0.036689
+          ],
+          [
+            "not often",
+            0.025691
+          ],
+          [
+            "free",
+            0.022504
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "great",
+            0.181114
+          ],
+          [
+            "readable",
+            0.074188
+          ],
+          [
+            "free",
+            0.040359
+          ],
+          [
+            "highly",
+            0.030386
+          ],
+          [
+            "ads",
+            -0.029952
+          ],
+          [
+            "worth",
+            0.029113
+          ],
+          [
+            "features",
+            0.022803
+          ],
+          [
+            "budget",
+            0.021703
+          ],
+          [
+            "remove",
+            -0.013758
+          ],
+          [
+            "format",
+            0.013553
+          ],
+          [
+            "phone",
+            0.009135
+          ],
+          [
+            "workaround",
+            -0.008527
+          ],
+          [
+            "not often",
+            0.008365
+          ],
+          [
+            "bible",
+            0.006187
+          ],
+          [
+            "offline",
+            -0.005393
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1584421545267105,
+          "max": 0.9999998211860657,
+          "std": 0.312845379114151
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 96% confidence.",
+      "simple": "This screen was classified as good with 96% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of King James Bible (KJV) - free (category: Books & Reference) was classified as good with 96% confidence (with high confidence). The model focused on a small Icon at the top-left, a small Image at the top-left, and a small Text at the top-left."
+    }
+  }
+]

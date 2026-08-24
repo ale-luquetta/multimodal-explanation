@@ -1,0 +1,4895 @@
+[
+  {
+    "package_name": "com.nicedayapps.iss_free",
+    "screen_id": "63954",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\63954.jpg",
+    "text": "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV. It's so bea",
+    "prediction": 0.9882190227508545,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9882190227508545,
+    "gradcam_stats": {
+      "mean": 0.6322495341300964,
+      "max": 1.0,
+      "std": 0.17505720257759094
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!",
+      "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******",
+      "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV.",
+      "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!",
+      "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE"
+    ],
+    "app_name": "ISS HD Live: View Earth Live",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.9882633090019226,
+      "p_img": 0.9881939888000488,
+      "delta_p_img": 6.93202018737793e-05
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          173,
+          180,
+          200,
+          193
+        ],
+        "bounds_rico": [
+          1118,
+          2063,
+          1286,
+          2217
+        ],
+        "score_total": 279.4252014160156,
+        "score_mean": 0.7960831949174234
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          74,
+          126,
+          149,
+          132
+        ],
+        "bounds_rico": [
+          477,
+          1451,
+          963,
+          1517
+        ],
+        "score_total": 353.22943115234375,
+        "score_mean": 0.7849542914496528
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          207,
+          184,
+          216,
+          189
+        ],
+        "bounds_rico": [
+          1335,
+          2112,
+          1391,
+          2168
+        ],
+        "score_total": 32.767059326171875,
+        "score_mean": 0.7281568739149306
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 279.4252014160156,
+        "score_mean": 0.7960831949174234,
+        "bounds_image": [
+          173,
+          180,
+          200,
+          193
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 353.22943115234375,
+        "score_mean": 0.7849542914496528,
+        "bounds_image": [
+          74,
+          126,
+          149,
+          132
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 32.767059326171875,
+        "score_mean": 0.7281568739149306,
+        "bounds_image": [
+          207,
+          184,
+          216,
+          189
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 279.4252014160156,
+        "score_mean": 0.7960831949174234,
+        "bounds_image": [
+          173,
+          180,
+          200,
+          193
+        ],
+        "bounds_rico": [
+          1118,
+          2063,
+          1286,
+          2217
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 353.22943115234375,
+        "score_mean": 0.7849542914496528,
+        "bounds_image": [
+          74,
+          126,
+          149,
+          132
+        ],
+        "bounds_rico": [
+          477,
+          1451,
+          963,
+          1517
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 32.767059326171875,
+        "score_mean": 0.7281568739149306,
+        "bounds_image": [
+          207,
+          184,
+          216,
+          189
+        ],
+        "bounds_rico": [
+          1335,
+          2112,
+          1391,
+          2168
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 107.71266174316406,
+        "score_mean": 0.626236405483512,
+        "bounds_image": [
+          171,
+          116,
+          214,
+          120
+        ],
+        "bounds_rico": [
+          1105,
+          1332,
+          1382,
+          1379
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 90.97129821777344,
+        "score_mean": 0.5984953830116674,
+        "bounds_image": [
+          171,
+          100,
+          209,
+          104
+        ],
+        "bounds_rico": [
+          1105,
+          1144,
+          1348,
+          1191
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Web View",
+        "score_total": 2132.498046875,
+        "score_mean": 0.5950050354003906,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 113.99810791015625,
+        "score_mean": 0.5937401453653971,
+        "bounds_image": [
+          171,
+          112,
+          219,
+          116
+        ],
+        "bounds_rico": [
+          1105,
+          1285,
+          1412,
+          1332
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 101.2088851928711,
+        "score_mean": 0.5884237511213436,
+        "bounds_image": [
+          171,
+          104,
+          214,
+          108
+        ],
+        "bounds_rico": [
+          1105,
+          1191,
+          1377,
+          1238
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 111.58174133300781,
+        "score_mean": 0.5811549027760824,
+        "bounds_image": [
+          171,
+          108,
+          219,
+          112
+        ],
+        "bounds_rico": [
+          1105,
+          1238,
+          1410,
+          1285
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 115.89922332763672,
+        "score_mean": 0.5017282395135789,
+        "bounds_image": [
+          2,
+          114,
+          35,
+          121
+        ],
+        "bounds_rico": [
+          18,
+          1312,
+          228,
+          1389
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Icon",
+        "score_total": 140.6583251953125,
+        "score_mean": 0.47042918125522576,
+        "bounds_image": [
+          0,
+          180,
+          23,
+          193
+        ],
+        "bounds_rico": [
+          0,
+          2063,
+          154,
+          2217
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Icon",
+        "score_total": 135.29949951171875,
+        "score_mean": 0.34692179361979164,
+        "bounds_image": [
+          171,
+          8,
+          197,
+          23
+        ],
+        "bounds_rico": [
+          1104,
+          98,
+          1272,
+          266
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 101.58059692382812,
+        "score_mean": 0.32980713286957186,
+        "bounds_image": [
+          39,
+          16,
+          83,
+          23
+        ],
+        "bounds_rico": [
+          252,
+          191,
+          536,
+          266
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Icon",
+        "score_total": 124.16322326660156,
+        "score_mean": 0.3065758599175347,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 133.37869262695312,
+        "score_mean": 0.2977202960423061,
+        "bounds_image": [
+          39,
+          8,
+          95,
+          16
+        ],
+        "bounds_rico": [
+          252,
+          98,
+          615,
+          191
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Icon",
+        "score_total": 149.41116333007812,
+        "score_mean": 0.29296306535309435,
+        "bounds_image": [
+          0,
+          7,
+          30,
+          24
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          196,
+          280
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 74,
+        "token": "▁much"
+      },
+      {
+        "index": 75,
+        "token": "▁more"
+      },
+      {
+        "index": 67,
+        "token": "▁guide"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!",
+        "word_count": 68,
+        "interface_pos": 0.99192375,
+        "interface_neg": 0.0012706956,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text, Icon",
+        "top_k_tokens": "▁to, ▁points, ▁I",
+        "p_orig": 0.9844978451728821,
+        "p_img": 0.9843173027038574,
+        "delta_p_img": 0.0001805424690246582,
+        "gradcam_mean": 0.6406315565109253,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.03408855199813843,
+        "word_attention_top15": [
+          [
+            "work",
+            0.066974
+          ],
+          [
+            "awesome",
+            0.066453
+          ],
+          [
+            "perfectly",
+            0.057655
+          ],
+          [
+            "guys",
+            0.056732
+          ],
+          [
+            "iss",
+            0.048123
+          ],
+          [
+            "fascinating",
+            0.045407
+          ],
+          [
+            "stuff",
+            0.040985
+          ],
+          [
+            "equipment",
+            0.040579
+          ],
+          [
+            "points",
+            0.039175
+          ],
+          [
+            "ca",
+            0.038312
+          ],
+          [
+            "good",
+            0.035912
+          ],
+          [
+            "amazed",
+            0.034314
+          ],
+          [
+            "everything",
+            0.029913
+          ],
+          [
+            "props",
+            0.029628
+          ],
+          [
+            "flyover",
+            0.028054
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awesome",
+            0.05067
+          ],
+          [
+            "props",
+            0.01714
+          ],
+          [
+            "everything",
+            0.013896
+          ],
+          [
+            "check",
+            0.013409
+          ],
+          [
+            "keep",
+            0.011706
+          ],
+          [
+            "technology",
+            0.011464
+          ],
+          [
+            "work",
+            0.010487
+          ],
+          [
+            "give",
+            0.009806
+          ],
+          [
+            "stuff",
+            0.009104
+          ],
+          [
+            "great",
+            0.008549
+          ],
+          [
+            "worked",
+            0.007541
+          ],
+          [
+            "guys",
+            0.007001
+          ],
+          [
+            "shows",
+            0.006682
+          ],
+          [
+            "perfectly",
+            0.00667
+          ],
+          [
+            "good",
+            0.006338
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0907215029001236,
+          "max": 0.9999999403953552,
+          "std": 0.20580442249774933
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******",
+        "word_count": 62,
+        "interface_pos": 0.9886234,
+        "interface_neg": 0.00292348,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text, Icon",
+        "top_k_tokens": "▁Absolutely, ▁the, ▁interface",
+        "p_orig": 0.9656227231025696,
+        "p_img": 0.9700462818145752,
+        "delta_p_img": 0.004423558712005615,
+        "gradcam_mean": 0.5924506783485413,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.04093283414840698,
+        "word_attention_top15": [
+          [
+            "absolutely",
+            0.176436
+          ],
+          [
+            "stars",
+            0.119472
+          ],
+          [
+            "love",
+            0.092718
+          ],
+          [
+            "none",
+            0.069272
+          ],
+          [
+            "******",
+            0.061855
+          ],
+          [
+            "tracker",
+            0.05966
+          ],
+          [
+            "overhead",
+            0.051515
+          ],
+          [
+            "notification",
+            0.042051
+          ],
+          [
+            "adding",
+            0.034671
+          ],
+          [
+            "hands",
+            0.033675
+          ],
+          [
+            "clear",
+            0.032201
+          ],
+          [
+            "maybe",
+            0.029667
+          ],
+          [
+            "bar",
+            0.028671
+          ],
+          [
+            "see",
+            0.026965
+          ],
+          [
+            "iss",
+            0.020459
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.077402
+          ],
+          [
+            "absolutely",
+            0.03194
+          ],
+          [
+            "best",
+            0.021451
+          ],
+          [
+            "none",
+            0.019825
+          ],
+          [
+            "suggest",
+            0.018672
+          ],
+          [
+            "hands",
+            0.015777
+          ],
+          [
+            "stars",
+            0.015497
+          ],
+          [
+            "clear",
+            0.013111
+          ],
+          [
+            "bar",
+            0.008881
+          ],
+          [
+            "notification",
+            0.008857
+          ],
+          [
+            "see",
+            0.007763
+          ],
+          [
+            "maybe",
+            -0.006715
+          ],
+          [
+            "wanted",
+            0.006664
+          ],
+          [
+            "fly",
+            0.00466
+          ],
+          [
+            "adding",
+            0.004536
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0936572477221489,
+          "max": 0.9999999403953552,
+          "std": 0.21256963908672333
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV.",
+        "word_count": 89,
+        "interface_pos": 0.9864813,
+        "interface_neg": 0.0016355078,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text, Icon",
+        "top_k_tokens": "▁much, ▁more, ▁guide",
+        "p_orig": 0.9882633090019226,
+        "p_img": 0.9881939888000488,
+        "delta_p_img": 6.93202018737793e-05,
+        "gradcam_mean": 0.6322495341300964,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.021694064140319824,
+        "word_attention_top15": [
+          [
+            "space",
+            0.090552
+          ],
+          [
+            "earth",
+            0.0794
+          ],
+          [
+            "perfect",
+            0.064713
+          ],
+          [
+            "super",
+            0.056225
+          ],
+          [
+            "love",
+            0.053282
+          ],
+          [
+            "learning",
+            0.0455
+          ],
+          [
+            "guide",
+            0.041782
+          ],
+          [
+            "tv",
+            0.039209
+          ],
+          [
+            "great",
+            0.038142
+          ],
+          [
+            "teaching",
+            0.03437
+          ],
+          [
+            "live",
+            0.032175
+          ],
+          [
+            "viewing",
+            0.029353
+          ],
+          [
+            "special",
+            0.02621
+          ],
+          [
+            "moment",
+            0.025963
+          ],
+          [
+            "awesome",
+            0.023952
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.044855
+          ],
+          [
+            "unique",
+            0.028007
+          ],
+          [
+            "wonderful",
+            0.014606
+          ],
+          [
+            "iss",
+            -0.012793
+          ],
+          [
+            "earth",
+            0.011927
+          ],
+          [
+            "perfect",
+            0.011464
+          ],
+          [
+            "live",
+            0.010401
+          ],
+          [
+            "learning",
+            0.009845
+          ],
+          [
+            "super",
+            0.009666
+          ],
+          [
+            "space",
+            0.009127
+          ],
+          [
+            "great",
+            0.007514
+          ],
+          [
+            "teaching",
+            0.007257
+          ],
+          [
+            "viewing",
+            0.006869
+          ],
+          [
+            "awesome",
+            0.00658
+          ],
+          [
+            "experience",
+            0.00628
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09026021510362625,
+          "max": 0.9999999403953552,
+          "std": 0.20462146401405334
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!",
+        "word_count": 95,
+        "interface_pos": 0.9864456,
+        "interface_neg": 0.002091989,
+        "interface_sentiment": "positive",
+        "top_components": "Text Button, Text, Icon",
+        "top_k_tokens": "▁sunset, ▁This, ▁enjoy",
+        "p_orig": 0.9841948747634888,
+        "p_img": 0.983737051486969,
+        "delta_p_img": 0.0004578232765197754,
+        "gradcam_mean": 0.645165205001831,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.03827589750289917,
+        "word_attention_top15": [
+          [
+            "station",
+            0.080214
+          ],
+          [
+            "sunrise",
+            0.068705
+          ],
+          [
+            "&",
+            0.068046
+          ],
+          [
+            "sunset",
+            0.061815
+          ],
+          [
+            "not earth",
+            0.059343
+          ],
+          [
+            "events",
+            0.056182
+          ],
+          [
+            "don't any",
+            0.054652
+          ],
+          [
+            "watching",
+            0.050572
+          ],
+          [
+            "enjoy",
+            0.045972
+          ],
+          [
+            "fascinating",
+            0.045524
+          ],
+          [
+            "tracking",
+            0.038436
+          ],
+          [
+            "interviews",
+            0.032982
+          ],
+          [
+            "amazing",
+            0.031334
+          ],
+          [
+            "sleep",
+            0.028923
+          ],
+          [
+            "spacewalks",
+            0.028763
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoy",
+            0.043929
+          ],
+          [
+            "fascinating",
+            0.021108
+          ],
+          [
+            "lovely",
+            0.018434
+          ],
+          [
+            "watching",
+            0.016985
+          ],
+          [
+            "amazing",
+            0.015134
+          ],
+          [
+            "feel",
+            0.014557
+          ],
+          [
+            "don't any",
+            0.012336
+          ],
+          [
+            "negative",
+            0.010788
+          ],
+          [
+            "&",
+            0.006961
+          ],
+          [
+            "not earth",
+            -0.006926
+          ],
+          [
+            "sunrise",
+            0.005978
+          ],
+          [
+            "notifications",
+            0.005973
+          ],
+          [
+            "seeing",
+            0.005592
+          ],
+          [
+            "sleep",
+            0.00467
+          ],
+          [
+            "flying",
+            0.003311
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0905064195394516,
+          "max": 0.9999999403953552,
+          "std": 0.2054346650838852
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE",
+        "word_count": 82,
+        "interface_pos": 0.986068,
+        "interface_neg": 0.0016166964,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁map, ▁either, ▁in",
+        "p_orig": 0.9846823215484619,
+        "p_img": 0.9840919971466064,
+        "delta_p_img": 0.0005903244018554688,
+        "gradcam_mean": 0.6288748979568481,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.035919249057769775,
+        "word_attention_top15": [
+          [
+            "map",
+            0.078908
+          ],
+          [
+            "live",
+            0.071376
+          ],
+          [
+            "oceans",
+            0.053431
+          ],
+          [
+            "either",
+            0.052685
+          ],
+          [
+            "beautiful",
+            0.051589
+          ],
+          [
+            "location",
+            0.051395
+          ],
+          [
+            "catch",
+            0.051173
+          ],
+          [
+            "pictures",
+            0.046141
+          ],
+          [
+            "you'd",
+            0.042829
+          ],
+          [
+            "iss",
+            0.037801
+          ],
+          [
+            "recommend",
+            0.037712
+          ],
+          [
+            "gallery",
+            0.037309
+          ],
+          [
+            "world",
+            0.02885
+          ],
+          [
+            "notifications",
+            0.02782
+          ],
+          [
+            "landscapes",
+            0.025966
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.020528
+          ],
+          [
+            "any",
+            0.013285
+          ],
+          [
+            "recommend",
+            0.010916
+          ],
+          [
+            "live",
+            0.010552
+          ],
+          [
+            "catch",
+            0.010288
+          ],
+          [
+            "cities",
+            0.008147
+          ],
+          [
+            "world",
+            0.007807
+          ],
+          [
+            "landscapes",
+            0.00753
+          ],
+          [
+            "watch",
+            0.007136
+          ],
+          [
+            "oceans",
+            0.006712
+          ],
+          [
+            "location",
+            0.006703
+          ],
+          [
+            "cameras",
+            0.006425
+          ],
+          [
+            "integrated",
+            0.005697
+          ],
+          [
+            "notifications",
+            0.004964
+          ],
+          [
+            "seemlessly",
+            0.004676
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09026050567626953,
+          "max": 0.9999999403953552,
+          "std": 0.2050698846578598
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 99% confidence.",
+      "simple": "This screen was predicted as good with 99% confidence. The model concentrated on a small Text Button at the top-left.",
+      "detailed": "This screen of ISS HD Live: View Earth Live (category: Education) was predicted as good with 99% confidence (with strong evidence). The model gave priority to a small Text Button at the top-left, a small Text at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.nicedayapps.iss_free",
+    "screen_id": "5536",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5536.jpg",
+    "text": "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!! It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it'",
+    "prediction": 0.9738207459449768,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.9738207459449768,
+    "gradcam_stats": {
+      "mean": 0.39390891790390015,
+      "max": 1.0,
+      "std": 0.2562699019908905
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!",
+      "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******",
+      "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV.",
+      "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!",
+      "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE"
+    ],
+    "app_name": "ISS HD Live: View Earth Live",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.9737399220466614,
+      "p_img": 0.9694418907165527,
+      "delta_p_img": 0.004298031330108643
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          129,
+          22,
+          175,
+          31
+        ],
+        "bounds_rico": [
+          832,
+          252,
+          1128,
+          359
+        ],
+        "score_total": 316.0159912109375,
+        "score_mean": 0.763323650267965
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          200,
+          171,
+          215,
+          184
+        ],
+        "bounds_rico": [
+          1286,
+          1958,
+          1384,
+          2105
+        ],
+        "score_total": 146.89707946777344,
+        "score_mean": 0.753318356244992
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          190,
+          159,
+          212,
+          171
+        ],
+        "bounds_rico": [
+          1225,
+          1825,
+          1365,
+          1965
+        ],
+        "score_total": 193.46896362304688,
+        "score_mean": 0.7328369834206321
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 316.0159912109375,
+        "score_mean": 0.763323650267965,
+        "bounds_image": [
+          129,
+          22,
+          175,
+          31
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 146.89707946777344,
+        "score_mean": 0.753318356244992,
+        "bounds_image": [
+          200,
+          171,
+          215,
+          184
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 193.46896362304688,
+        "score_mean": 0.7328369834206321,
+        "bounds_image": [
+          190,
+          159,
+          212,
+          171
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 316.0159912109375,
+        "score_mean": 0.763323650267965,
+        "bounds_image": [
+          129,
+          22,
+          175,
+          31
+        ],
+        "bounds_rico": [
+          832,
+          252,
+          1128,
+          359
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 146.89707946777344,
+        "score_mean": 0.753318356244992,
+        "bounds_image": [
+          200,
+          171,
+          215,
+          184
+        ],
+        "bounds_rico": [
+          1286,
+          1958,
+          1384,
+          2105
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 193.46896362304688,
+        "score_mean": 0.7328369834206321,
+        "bounds_image": [
+          190,
+          159,
+          212,
+          171
+        ],
+        "bounds_rico": [
+          1225,
+          1825,
+          1365,
+          1965
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 864.3131103515625,
+        "score_mean": 0.729994181040171,
+        "bounds_image": [
+          192,
+          159,
+          224,
+          196
+        ],
+        "bounds_rico": [
+          1239,
+          1825,
+          1440,
+          2245
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 63.056884765625,
+        "score_mean": 0.7006320529513889,
+        "bounds_image": [
+          200,
+          187,
+          210,
+          196
+        ],
+        "bounds_rico": [
+          1286,
+          2145,
+          1356,
+          2247
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 217.25588989257812,
+        "score_mean": 0.6963329804249299,
+        "bounds_image": [
+          193,
+          185,
+          217,
+          198
+        ],
+        "bounds_rico": [
+          1244,
+          2119,
+          1398,
+          2273
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 217.25588989257812,
+        "score_mean": 0.6963329804249299,
+        "bounds_image": [
+          193,
+          185,
+          217,
+          198
+        ],
+        "bounds_rico": [
+          1244,
+          2119,
+          1398,
+          2273
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Icon",
+        "score_total": 106.57270812988281,
+        "score_mean": 0.6660794258117676,
+        "bounds_image": [
+          200,
+          146,
+          216,
+          156
+        ],
+        "bounds_rico": [
+          1286,
+          1678,
+          1391,
+          1783
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 2166.4794921875,
+        "score_mean": 0.6629374211100061,
+        "bounds_image": [
+          142,
+          26,
+          218,
+          69
+        ],
+        "bounds_rico": [
+          917,
+          307,
+          1404,
+          794
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Icon",
+        "score_total": 39.76811599731445,
+        "score_mean": 0.6628019332885742,
+        "bounds_image": [
+          119,
+          23,
+          129,
+          29
+        ],
+        "bounds_rico": [
+          769,
+          274,
+          832,
+          337
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 199.23394775390625,
+        "score_mean": 0.6510913325291053,
+        "bounds_image": [
+          190,
+          196,
+          224,
+          205
+        ],
+        "bounds_rico": [
+          1225,
+          2245,
+          1440,
+          2351
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 2115.15576171875,
+        "score_mean": 0.6472324852260557,
+        "bounds_image": [
+          142,
+          70,
+          218,
+          113
+        ],
+        "bounds_rico": [
+          917,
+          805,
+          1404,
+          1292
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 1028.098876953125,
+        "score_mean": 0.6461966542760057,
+        "bounds_image": [
+          145,
+          159,
+          188,
+          196
+        ],
+        "bounds_rico": [
+          938,
+          1825,
+          1211,
+          2245
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 155.5170135498047,
+        "score_mean": 0.5890795967795632,
+        "bounds_image": [
+          143,
+          159,
+          165,
+          171
+        ],
+        "bounds_rico": [
+          924,
+          1825,
+          1064,
+          1965
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Icon",
+        "score_total": 113.09166717529297,
+        "score_mean": 0.579957267565605,
+        "bounds_image": [
+          200,
+          113,
+          215,
+          126
+        ],
+        "bounds_rico": [
+          1286,
+          1300,
+          1384,
+          1447
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Icon",
+        "score_total": 28.149215698242188,
+        "score_mean": 0.5212817721896701,
+        "bounds_image": [
+          184,
+          23,
+          193,
+          29
+        ],
+        "bounds_rico": [
+          1184,
+          274,
+          1247,
+          337
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 181.20993041992188,
+        "score_mean": 0.468242714263364,
+        "bounds_image": [
+          90,
+          10,
+          133,
+          19
+        ],
+        "bounds_rico": [
+          582,
+          115,
+          858,
+          221
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 100.86203002929688,
+        "score_mean": 0.43103431636451656,
+        "bounds_image": [
+          193,
+          22,
+          219,
+          31
+        ],
+        "bounds_rico": [
+          1247,
+          252,
+          1412,
+          359
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text",
+        "score_total": 173.1651611328125,
+        "score_mean": 0.4275682990933642,
+        "bounds_image": [
+          143,
+          196,
+          188,
+          205
+        ],
+        "bounds_rico": [
+          924,
+          2245,
+          1211,
+          2351
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 1736.203857421875,
+        "score_mean": 0.4075595909441021,
+        "bounds_image": [
+          5,
+          148,
+          218,
+          168
+        ],
+        "bounds_rico": [
+          35,
+          1693,
+          1405,
+          1930
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text",
+        "score_total": 584.1575317382812,
+        "score_mean": 0.39178908902634557,
+        "bounds_image": [
+          5,
+          141,
+          218,
+          148
+        ],
+        "bounds_rico": [
+          35,
+          1617,
+          1405,
+          1693
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text",
+        "score_total": 249.44496154785156,
+        "score_mean": 0.39036770195281933,
+        "bounds_image": [
+          5,
+          22,
+          218,
+          25
+        ],
+        "bounds_rico": [
+          35,
+          252,
+          1405,
+          286
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 140.29953002929688,
+        "score_mean": 0.3897209167480469,
+        "bounds_image": [
+          70,
+          22,
+          110,
+          31
+        ],
+        "bounds_rico": [
+          453,
+          252,
+          713,
+          359
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text",
+        "score_total": 20.14239501953125,
+        "score_mean": 0.3596856253487723,
+        "bounds_image": [
+          205,
+          16,
+          219,
+          20
+        ],
+        "bounds_rico": [
+          1321,
+          192,
+          1412,
+          239
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text Button",
+        "score_total": 742.6366577148438,
+        "score_mean": 0.3591086352586285,
+        "bounds_image": [
+          4,
+          146,
+          192,
+          157
+        ],
+        "bounds_rico": [
+          28,
+          1678,
+          1237,
+          1797
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Image",
+        "score_total": 5222.83984375,
+        "score_mean": 0.3587115277300824,
+        "bounds_image": [
+          0,
+          144,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1650,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Icon",
+        "score_total": 39.03563690185547,
+        "score_mean": 0.3485324723379953,
+        "bounds_image": [
+          205,
+          9,
+          219,
+          17
+        ],
+        "bounds_rico": [
+          1321,
+          110,
+          1412,
+          198
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Image",
+        "score_total": 540.9913940429688,
+        "score_mean": 0.3481283101949606,
+        "bounds_image": [
+          99,
+          159,
+          141,
+          196
+        ],
+        "bounds_rico": [
+          637,
+          1825,
+          910,
+          2245
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Image",
+        "score_total": 3933.75048828125,
+        "score_mean": 0.3349297989170924,
+        "bounds_image": [
+          5,
+          26,
+          140,
+          113
+        ],
+        "bounds_rico": [
+          35,
+          307,
+          906,
+          1293
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Image",
+        "score_total": 83.21025085449219,
+        "score_mean": 0.3151903441458037,
+        "bounds_image": [
+          96,
+          159,
+          118,
+          171
+        ],
+        "bounds_rico": [
+          623,
+          1825,
+          763,
+          1965
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Icon",
+        "score_total": 52.87635040283203,
+        "score_mean": 0.31103735531077664,
+        "bounds_image": [
+          5,
+          130,
+          22,
+          140
+        ],
+        "bounds_rico": [
+          35,
+          1491,
+          147,
+          1603
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Image",
+        "score_total": 2.7200047969818115,
+        "score_mean": 0.30222275522020126,
+        "bounds_image": [
+          152,
+          204,
+          155,
+          207
+        ],
+        "bounds_rico": [
+          982,
+          2339,
+          1000,
+          2367
+        ]
+      },
+      {
+        "rank": 32,
+        "component": "Text",
+        "score_total": 3.5910801887512207,
+        "score_mean": 0.29925668239593506,
+        "bounds_image": [
+          0,
+          151,
+          3,
+          155
+        ],
+        "bounds_rico": [
+          0,
+          1729,
+          25,
+          1778
+        ]
+      },
+      {
+        "rank": 33,
+        "component": "Icon",
+        "score_total": 41.819923400878906,
+        "score_mean": 0.2904161347283257,
+        "bounds_image": [
+          42,
+          115,
+          58,
+          124
+        ],
+        "bounds_rico": [
+          273,
+          1321,
+          378,
+          1426
+        ]
+      },
+      {
+        "rank": 34,
+        "component": "Text",
+        "score_total": 73.55088806152344,
+        "score_mean": 0.28843485514322914,
+        "bounds_image": [
+          28,
+          130,
+          79,
+          135
+        ],
+        "bounds_rico": [
+          182,
+          1491,
+          508,
+          1553
+        ]
+      },
+      {
+        "rank": 35,
+        "component": "Text",
+        "score_total": 56.56597137451172,
+        "score_mean": 0.2693617684500558,
+        "bounds_image": [
+          28,
+          135,
+          70,
+          140
+        ],
+        "bounds_rico": [
+          182,
+          1553,
+          452,
+          1603
+        ]
+      },
+      {
+        "rank": 36,
+        "component": "Text Button",
+        "score_total": 98.98873901367188,
+        "score_mean": 0.2175576681619162,
+        "bounds_image": [
+          5,
+          113,
+          40,
+          126
+        ],
+        "bounds_rico": [
+          35,
+          1300,
+          259,
+          1447
+        ]
+      },
+      {
+        "rank": 37,
+        "component": "Image",
+        "score_total": 327.46563720703125,
+        "score_mean": 0.21072434826707287,
+        "bounds_image": [
+          52,
+          159,
+          94,
+          196
+        ],
+        "bounds_rico": [
+          336,
+          1825,
+          609,
+          2245
+        ]
+      },
+      {
+        "rank": 38,
+        "component": "Icon",
+        "score_total": 52.24747848510742,
+        "score_mean": 0.20733126382979136,
+        "bounds_image": [
+          50,
+          159,
+          71,
+          171
+        ],
+        "bounds_rico": [
+          322,
+          1825,
+          462,
+          1965
+        ]
+      },
+      {
+        "rank": 39,
+        "component": "Image",
+        "score_total": 50.459693908691406,
+        "score_mean": 0.19113520419958865,
+        "bounds_image": [
+          3,
+          159,
+          25,
+          171
+        ],
+        "bounds_rico": [
+          21,
+          1825,
+          161,
+          1965
+        ]
+      },
+      {
+        "rank": 40,
+        "component": "Icon",
+        "score_total": 10.46304702758789,
+        "score_mean": 0.17438411712646484,
+        "bounds_image": [
+          60,
+          23,
+          70,
+          29
+        ],
+        "bounds_rico": [
+          390,
+          274,
+          453,
+          337
+        ]
+      },
+      {
+        "rank": 41,
+        "component": "Image",
+        "score_total": 27.400026321411133,
+        "score_mean": 0.15054959517258865,
+        "bounds_image": [
+          66,
+          200,
+          157,
+          202
+        ],
+        "bounds_rico": [
+          426,
+          2289,
+          1014,
+          2315
+        ]
+      },
+      {
+        "rank": 42,
+        "component": "Text",
+        "score_total": 60.78468704223633,
+        "score_mean": 0.15008564701786747,
+        "bounds_image": [
+          96,
+          196,
+          141,
+          205
+        ],
+        "bounds_rico": [
+          623,
+          2245,
+          910,
+          2351
+        ]
+      },
+      {
+        "rank": 43,
+        "component": "Icon",
+        "score_total": 19.09988784790039,
+        "score_mean": 0.1326381100548638,
+        "bounds_image": [
+          42,
+          173,
+          58,
+          182
+        ],
+        "bounds_rico": [
+          273,
+          1979,
+          378,
+          2084
+        ]
+      },
+      {
+        "rank": 44,
+        "component": "Image",
+        "score_total": 178.51141357421875,
+        "score_mean": 0.11487220950721927,
+        "bounds_image": [
+          5,
+          159,
+          47,
+          196
+        ],
+        "bounds_rico": [
+          35,
+          1825,
+          308,
+          2245
+        ]
+      },
+      {
+        "rank": 45,
+        "component": "Text Button",
+        "score_total": 46.45341491699219,
+        "score_mean": 0.10209541739998283,
+        "bounds_image": [
+          5,
+          171,
+          40,
+          184
+        ],
+        "bounds_rico": [
+          35,
+          1958,
+          259,
+          2105
+        ]
+      },
+      {
+        "rank": 46,
+        "component": "Text",
+        "score_total": 34.52033996582031,
+        "score_mean": 0.09457627387895975,
+        "bounds_image": [
+          76,
+          203,
+          149,
+          208
+        ],
+        "bounds_rico": [
+          489,
+          2325,
+          961,
+          2382
+        ]
+      },
+      {
+        "rank": 47,
+        "component": "Text",
+        "score_total": 10.879459381103516,
+        "score_mean": 0.07019006052324848,
+        "bounds_image": [
+          28,
+          188,
+          59,
+          193
+        ],
+        "bounds_rico": [
+          182,
+          2149,
+          385,
+          2211
+        ]
+      },
+      {
+        "rank": 48,
+        "component": "Text",
+        "score_total": 10.382284164428711,
+        "score_mean": 0.06179931050255185,
+        "bounds_image": [
+          28,
+          193,
+          70,
+          197
+        ],
+        "bounds_rico": [
+          182,
+          2211,
+          452,
+          2261
+        ]
+      },
+      {
+        "rank": 49,
+        "component": "Text",
+        "score_total": 23.634876251220703,
+        "score_mean": 0.05968403093742602,
+        "bounds_image": [
+          50,
+          196,
+          94,
+          205
+        ],
+        "bounds_rico": [
+          322,
+          2245,
+          609,
+          2351
+        ]
+      },
+      {
+        "rank": 50,
+        "component": "Image",
+        "score_total": 7.136041641235352,
+        "score_mean": 0.046640795040753934,
+        "bounds_image": [
+          5,
+          188,
+          22,
+          197
+        ],
+        "bounds_rico": [
+          35,
+          2149,
+          147,
+          2261
+        ]
+      },
+      {
+        "rank": 51,
+        "component": "Text",
+        "score_total": 9.69970703125,
+        "score_mean": 0.024494209674873736,
+        "bounds_image": [
+          3,
+          196,
+          47,
+          205
+        ],
+        "bounds_rico": [
+          21,
+          2245,
+          308,
+          2351
+        ]
+      },
+      {
+        "rank": 52,
+        "component": "Text Button",
+        "score_total": 3.0883984565734863,
+        "score_mean": 0.006127774715423584,
+        "bounds_image": [
+          0,
+          22,
+          56,
+          31
+        ],
+        "bounds_rico": [
+          0,
+          252,
+          362,
+          359
+        ]
+      },
+      {
+        "rank": 53,
+        "component": "Icon",
+        "score_total": 0.0,
+        "score_mean": 0.0,
+        "bounds_image": [
+          4,
+          9,
+          21,
+          19
+        ],
+        "bounds_rico": [
+          28,
+          112,
+          140,
+          224
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 3,
+        "token": "▁to"
+      },
+      {
+        "index": 85,
+        "token": "▁points"
+      },
+      {
+        "index": 1,
+        "token": "▁I"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!",
+        "word_count": 68,
+        "interface_pos": 0.99192375,
+        "interface_neg": 0.0012706956,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁to, ▁points, ▁I",
+        "p_orig": 0.9737399220466614,
+        "p_img": 0.9694418907165527,
+        "delta_p_img": 0.004298031330108643,
+        "gradcam_mean": 0.39390891790390015,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Text",
+        "delta_p_img_shap": 0.008248329162597656,
+        "word_attention_top15": [
+          [
+            "work",
+            0.066974
+          ],
+          [
+            "awesome",
+            0.066453
+          ],
+          [
+            "perfectly",
+            0.057655
+          ],
+          [
+            "guys",
+            0.056732
+          ],
+          [
+            "iss",
+            0.048123
+          ],
+          [
+            "fascinating",
+            0.045407
+          ],
+          [
+            "stuff",
+            0.040985
+          ],
+          [
+            "equipment",
+            0.040579
+          ],
+          [
+            "points",
+            0.039175
+          ],
+          [
+            "ca",
+            0.038312
+          ],
+          [
+            "good",
+            0.035912
+          ],
+          [
+            "amazed",
+            0.034314
+          ],
+          [
+            "everything",
+            0.029913
+          ],
+          [
+            "props",
+            0.029628
+          ],
+          [
+            "flyover",
+            0.028054
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awesome",
+            0.064122
+          ],
+          [
+            "check",
+            0.019224
+          ],
+          [
+            "props",
+            0.018883
+          ],
+          [
+            "everything",
+            0.01776
+          ],
+          [
+            "keep",
+            0.016921
+          ],
+          [
+            "technology",
+            0.015149
+          ],
+          [
+            "work",
+            0.013883
+          ],
+          [
+            "stuff",
+            0.0119
+          ],
+          [
+            "great",
+            0.010735
+          ],
+          [
+            "guys",
+            0.009827
+          ],
+          [
+            "behind",
+            0.009768
+          ],
+          [
+            "good",
+            0.00921
+          ],
+          [
+            "shows",
+            0.009048
+          ],
+          [
+            "love",
+            0.008908
+          ],
+          [
+            "perfectly",
+            0.008468
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17326611280441284,
+          "max": 0.9999998807907104,
+          "std": 0.3019659221172333
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******",
+        "word_count": 62,
+        "interface_pos": 0.9886234,
+        "interface_neg": 0.00292348,
+        "interface_sentiment": "positive",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁Absolutely, ▁the, ▁interface",
+        "p_orig": 0.9361346364021301,
+        "p_img": 0.888715922832489,
+        "delta_p_img": 0.04741871356964111,
+        "gradcam_mean": 0.36899083852767944,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text, Image",
+        "delta_p_img_shap": 0.008101880550384521,
+        "word_attention_top15": [
+          [
+            "absolutely",
+            0.176436
+          ],
+          [
+            "stars",
+            0.119472
+          ],
+          [
+            "love",
+            0.092718
+          ],
+          [
+            "none",
+            0.069272
+          ],
+          [
+            "******",
+            0.061855
+          ],
+          [
+            "tracker",
+            0.05966
+          ],
+          [
+            "overhead",
+            0.051515
+          ],
+          [
+            "notification",
+            0.042051
+          ],
+          [
+            "adding",
+            0.034671
+          ],
+          [
+            "hands",
+            0.033675
+          ],
+          [
+            "clear",
+            0.032201
+          ],
+          [
+            "maybe",
+            0.029667
+          ],
+          [
+            "bar",
+            0.028671
+          ],
+          [
+            "see",
+            0.026965
+          ],
+          [
+            "iss",
+            0.020459
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.099985
+          ],
+          [
+            "absolutely",
+            0.039476
+          ],
+          [
+            "suggest",
+            0.025952
+          ],
+          [
+            "clear",
+            0.024478
+          ],
+          [
+            "best",
+            0.024096
+          ],
+          [
+            "none",
+            0.022326
+          ],
+          [
+            "stars",
+            0.019707
+          ],
+          [
+            "hands",
+            0.017915
+          ],
+          [
+            "bar",
+            0.011627
+          ],
+          [
+            "notification",
+            0.008929
+          ],
+          [
+            "see",
+            0.008363
+          ],
+          [
+            "wanted",
+            0.006985
+          ],
+          [
+            "tracker",
+            0.00632
+          ],
+          [
+            "maybe",
+            -0.006251
+          ],
+          [
+            "night",
+            0.005938
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16491302847862244,
+          "max": 0.9999998807907104,
+          "std": 0.28716182708740234
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV.",
+        "word_count": 89,
+        "interface_pos": 0.9864813,
+        "interface_neg": 0.0016355078,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁much, ▁more, ▁guide",
+        "p_orig": 0.982379138469696,
+        "p_img": 0.9795188307762146,
+        "delta_p_img": 0.0028603076934814453,
+        "gradcam_mean": 0.4071527123451233,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.007017016410827637,
+        "word_attention_top15": [
+          [
+            "space",
+            0.090552
+          ],
+          [
+            "earth",
+            0.0794
+          ],
+          [
+            "perfect",
+            0.064713
+          ],
+          [
+            "super",
+            0.056225
+          ],
+          [
+            "love",
+            0.053282
+          ],
+          [
+            "learning",
+            0.0455
+          ],
+          [
+            "guide",
+            0.041782
+          ],
+          [
+            "tv",
+            0.039209
+          ],
+          [
+            "great",
+            0.038142
+          ],
+          [
+            "teaching",
+            0.03437
+          ],
+          [
+            "live",
+            0.032175
+          ],
+          [
+            "viewing",
+            0.029353
+          ],
+          [
+            "special",
+            0.02621
+          ],
+          [
+            "moment",
+            0.025963
+          ],
+          [
+            "awesome",
+            0.023952
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.056208
+          ],
+          [
+            "unique",
+            0.031717
+          ],
+          [
+            "wonderful",
+            0.018462
+          ],
+          [
+            "earth",
+            0.01786
+          ],
+          [
+            "perfect",
+            0.016262
+          ],
+          [
+            "live",
+            0.013687
+          ],
+          [
+            "learning",
+            0.013017
+          ],
+          [
+            "super",
+            0.012868
+          ],
+          [
+            "space",
+            0.012803
+          ],
+          [
+            "iss",
+            -0.011299
+          ],
+          [
+            "teaching",
+            0.010266
+          ],
+          [
+            "great",
+            0.009664
+          ],
+          [
+            "viewing",
+            0.008657
+          ],
+          [
+            "awesome",
+            0.008339
+          ],
+          [
+            "spontaneous",
+            0.007733
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17495448887348175,
+          "max": 0.9999998807907104,
+          "std": 0.3119784891605377
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!",
+        "word_count": 95,
+        "interface_pos": 0.9864456,
+        "interface_neg": 0.002091989,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁sunset, ▁This, ▁enjoy",
+        "p_orig": 0.9716089367866516,
+        "p_img": 0.9669969081878662,
+        "delta_p_img": 0.0046120285987854,
+        "gradcam_mean": 0.3683936893939972,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Text",
+        "delta_p_img_shap": 0.006993412971496582,
+        "word_attention_top15": [
+          [
+            "station",
+            0.080214
+          ],
+          [
+            "sunrise",
+            0.068705
+          ],
+          [
+            "&",
+            0.068046
+          ],
+          [
+            "sunset",
+            0.061815
+          ],
+          [
+            "not earth",
+            0.059343
+          ],
+          [
+            "events",
+            0.056182
+          ],
+          [
+            "don't any",
+            0.054652
+          ],
+          [
+            "watching",
+            0.050572
+          ],
+          [
+            "enjoy",
+            0.045972
+          ],
+          [
+            "fascinating",
+            0.045524
+          ],
+          [
+            "tracking",
+            0.038436
+          ],
+          [
+            "interviews",
+            0.032982
+          ],
+          [
+            "amazing",
+            0.031334
+          ],
+          [
+            "sleep",
+            0.028923
+          ],
+          [
+            "spacewalks",
+            0.028763
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoy",
+            0.055721
+          ],
+          [
+            "fascinating",
+            0.033242
+          ],
+          [
+            "lovely",
+            0.029604
+          ],
+          [
+            "amazing",
+            0.023768
+          ],
+          [
+            "watching",
+            0.019432
+          ],
+          [
+            "negative",
+            0.018744
+          ],
+          [
+            "feel",
+            0.015465
+          ],
+          [
+            "don't any",
+            0.009948
+          ],
+          [
+            "sleep",
+            0.007968
+          ],
+          [
+            "&",
+            0.007888
+          ],
+          [
+            "sunrise",
+            0.007495
+          ],
+          [
+            "don't miss",
+            0.006808
+          ],
+          [
+            "notifications",
+            0.005852
+          ],
+          [
+            "seeing",
+            0.004875
+          ],
+          [
+            "problems",
+            0.004625
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1723395437002182,
+          "max": 0.9999998807907104,
+          "std": 0.30044281482696533
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE",
+        "word_count": 82,
+        "interface_pos": 0.986068,
+        "interface_neg": 0.0016166964,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁map, ▁either, ▁in",
+        "p_orig": 0.9727610945701599,
+        "p_img": 0.9684703350067139,
+        "delta_p_img": 0.004290759563446045,
+        "gradcam_mean": 0.3750239908695221,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Icon, Text",
+        "delta_p_img_shap": 0.0066414475440979,
+        "word_attention_top15": [
+          [
+            "map",
+            0.078908
+          ],
+          [
+            "live",
+            0.071376
+          ],
+          [
+            "oceans",
+            0.053431
+          ],
+          [
+            "either",
+            0.052685
+          ],
+          [
+            "beautiful",
+            0.051589
+          ],
+          [
+            "location",
+            0.051395
+          ],
+          [
+            "catch",
+            0.051173
+          ],
+          [
+            "pictures",
+            0.046141
+          ],
+          [
+            "you'd",
+            0.042829
+          ],
+          [
+            "iss",
+            0.037801
+          ],
+          [
+            "recommend",
+            0.037712
+          ],
+          [
+            "gallery",
+            0.037309
+          ],
+          [
+            "world",
+            0.02885
+          ],
+          [
+            "notifications",
+            0.02782
+          ],
+          [
+            "landscapes",
+            0.025966
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.029123
+          ],
+          [
+            "any",
+            0.017935
+          ],
+          [
+            "live",
+            0.016889
+          ],
+          [
+            "catch",
+            0.013182
+          ],
+          [
+            "recommend",
+            0.012392
+          ],
+          [
+            "location",
+            0.01177
+          ],
+          [
+            "world",
+            0.01061
+          ],
+          [
+            "landscapes",
+            0.010097
+          ],
+          [
+            "cities",
+            0.0097
+          ],
+          [
+            "cameras",
+            0.008916
+          ],
+          [
+            "oceans",
+            0.008895
+          ],
+          [
+            "watch",
+            0.007814
+          ],
+          [
+            "integrated",
+            0.006281
+          ],
+          [
+            "seemlessly",
+            0.005694
+          ],
+          [
+            "you'd",
+            0.005616
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17303863167762756,
+          "max": 0.9999998807907104,
+          "std": 0.3016393780708313
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as good with 97% confidence.",
+      "simple": "This screen was classified as good with 97% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of ISS HD Live: View Earth Live (category: Education) was classified as good with 97% confidence (with high confidence). The model focused on a small Text at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.nicedayapps.iss_free",
+    "screen_id": "5537",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\5537.jpg",
+    "text": "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV. I have to g",
+    "prediction": 0.993244469165802,
+    "predicted_class": "good",
+    "true_label": 1,
+    "true_class": "good",
+    "is_correct": true,
+    "confidence": 0.993244469165802,
+    "gradcam_stats": {
+      "mean": 0.3278898596763611,
+      "max": 1.0,
+      "std": 0.2646447718143463
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!",
+      "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******",
+      "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV.",
+      "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!",
+      "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE"
+    ],
+    "app_name": "ISS HD Live: View Earth Live",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.9932150840759277,
+      "p_img": 0.9545771479606628,
+      "delta_p_img": 0.03863793611526489
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          66,
+          114,
+          157,
+          122
+        ],
+        "bounds_rico": [
+          426,
+          1310,
+          1014,
+          1401
+        ],
+        "score_total": 627.173583984375,
+        "score_mean": 0.8615021758027129
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          66,
+          60,
+          157,
+          114
+        ],
+        "bounds_rico": [
+          426,
+          694,
+          1014,
+          1310
+        ],
+        "score_total": 3467.1796875,
+        "score_mean": 0.705571771978022
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          28,
+          139,
+          83,
+          145
+        ],
+        "bounds_rico": [
+          182,
+          1599,
+          538,
+          1661
+        ],
+        "score_total": 221.61929321289062,
+        "score_mean": 0.6715736157966382
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 627.173583984375,
+        "score_mean": 0.8615021758027129,
+        "bounds_image": [
+          66,
+          114,
+          157,
+          122
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 3467.1796875,
+        "score_mean": 0.705571771978022,
+        "bounds_image": [
+          66,
+          60,
+          157,
+          114
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 221.61929321289062,
+        "score_mean": 0.6715736157966382,
+        "bounds_image": [
+          28,
+          139,
+          83,
+          145
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 627.173583984375,
+        "score_mean": 0.8615021758027129,
+        "bounds_image": [
+          66,
+          114,
+          157,
+          122
+        ],
+        "bounds_rico": [
+          426,
+          1310,
+          1014,
+          1401
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 3467.1796875,
+        "score_mean": 0.705571771978022,
+        "bounds_image": [
+          66,
+          60,
+          157,
+          114
+        ],
+        "bounds_rico": [
+          426,
+          694,
+          1014,
+          1310
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 221.61929321289062,
+        "score_mean": 0.6715736157966382,
+        "bounds_image": [
+          28,
+          139,
+          83,
+          145
+        ],
+        "bounds_rico": [
+          182,
+          1599,
+          538,
+          1661
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 160.53329467773438,
+        "score_mean": 0.6080806616580847,
+        "bounds_image": [
+          96,
+          159,
+          118,
+          171
+        ],
+        "bounds_rico": [
+          623,
+          1825,
+          763,
+          1965
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 1240.5753173828125,
+        "score_mean": 0.5998913526996192,
+        "bounds_image": [
+          4,
+          146,
+          192,
+          157
+        ],
+        "bounds_rico": [
+          28,
+          1678,
+          1237,
+          1797
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 85.74372863769531,
+        "score_mean": 0.5954425599839952,
+        "bounds_image": [
+          42,
+          125,
+          58,
+          134
+        ],
+        "bounds_rico": [
+          273,
+          1429,
+          378,
+          1534
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 98.6606216430664,
+        "score_mean": 0.5872656050182524,
+        "bounds_image": [
+          28,
+          145,
+          70,
+          149
+        ],
+        "bounds_rico": [
+          182,
+          1661,
+          452,
+          1711
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 834.1322021484375,
+        "score_mean": 0.5594448035871479,
+        "bounds_image": [
+          5,
+          150,
+          218,
+          157
+        ],
+        "bounds_rico": [
+          35,
+          1725,
+          1405,
+          1801
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 129.626708984375,
+        "score_mean": 0.49101026130445075,
+        "bounds_image": [
+          143,
+          159,
+          165,
+          171
+        ],
+        "bounds_rico": [
+          924,
+          1825,
+          1064,
+          1965
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 1090.4500732421875,
+        "score_mean": 0.46540762835774113,
+        "bounds_image": [
+          5,
+          157,
+          218,
+          168
+        ],
+        "bounds_rico": [
+          35,
+          1801,
+          1405,
+          1924
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 109.89559936523438,
+        "score_mean": 0.43609364827473956,
+        "bounds_image": [
+          50,
+          159,
+          71,
+          171
+        ],
+        "bounds_rico": [
+          322,
+          1825,
+          462,
+          1965
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 112.10041046142578,
+        "score_mean": 0.4246227668993401,
+        "bounds_image": [
+          190,
+          159,
+          212,
+          171
+        ],
+        "bounds_rico": [
+          1225,
+          1825,
+          1365,
+          1965
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 645.967529296875,
+        "score_mean": 0.41568052078305984,
+        "bounds_image": [
+          99,
+          159,
+          141,
+          196
+        ],
+        "bounds_rico": [
+          637,
+          1825,
+          910,
+          2245
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Icon",
+        "score_total": 64.75993347167969,
+        "score_mean": 0.40474958419799806,
+        "bounds_image": [
+          200,
+          146,
+          216,
+          156
+        ],
+        "bounds_rico": [
+          1286,
+          1678,
+          1391,
+          1783
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Image",
+        "score_total": 474.0121154785156,
+        "score_mean": 0.4003480705055031,
+        "bounds_image": [
+          192,
+          159,
+          224,
+          196
+        ],
+        "bounds_rico": [
+          1239,
+          1825,
+          1440,
+          2245
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Image",
+        "score_total": 636.1207275390625,
+        "score_mean": 0.39982446734070554,
+        "bounds_image": [
+          145,
+          159,
+          188,
+          196
+        ],
+        "bounds_rico": [
+          938,
+          1825,
+          1211,
+          2245
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Icon",
+        "score_total": 34.62314987182617,
+        "score_mean": 0.38470166524251304,
+        "bounds_image": [
+          200,
+          187,
+          210,
+          196
+        ],
+        "bounds_rico": [
+          1286,
+          2145,
+          1356,
+          2247
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Image",
+        "score_total": 119.38569641113281,
+        "score_mean": 0.3826464628561949,
+        "bounds_image": [
+          193,
+          185,
+          217,
+          198
+        ],
+        "bounds_rico": [
+          1244,
+          2119,
+          1398,
+          2273
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Image",
+        "score_total": 119.38569641113281,
+        "score_mean": 0.3826464628561949,
+        "bounds_image": [
+          193,
+          185,
+          217,
+          198
+        ],
+        "bounds_rico": [
+          1244,
+          2119,
+          1398,
+          2273
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 112.5126953125,
+        "score_mean": 0.3676885467728758,
+        "bounds_image": [
+          190,
+          196,
+          224,
+          205
+        ],
+        "bounds_rico": [
+          1225,
+          2245,
+          1440,
+          2351
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Image",
+        "score_total": 859.928466796875,
+        "score_mean": 0.3535890077289782,
+        "bounds_image": [
+          142,
+          170,
+          218,
+          202
+        ],
+        "bounds_rico": [
+          917,
+          1945,
+          1404,
+          2315
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Image",
+        "score_total": 5015.61962890625,
+        "score_mean": 0.3444793701171875,
+        "bounds_image": [
+          0,
+          144,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1650,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Image",
+        "score_total": 498.207275390625,
+        "score_mean": 0.3205967023105695,
+        "bounds_image": [
+          52,
+          159,
+          94,
+          196
+        ],
+        "bounds_rico": [
+          336,
+          1825,
+          609,
+          2245
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Image",
+        "score_total": 62.50503158569336,
+        "score_mean": 0.3205386235163762,
+        "bounds_image": [
+          200,
+          123,
+          215,
+          136
+        ],
+        "bounds_rico": [
+          1286,
+          1408,
+          1384,
+          1555
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text Button",
+        "score_total": 144.63327026367188,
+        "score_mean": 0.3178753192608173,
+        "bounds_image": [
+          5,
+          123,
+          40,
+          136
+        ],
+        "bounds_rico": [
+          35,
+          1408,
+          259,
+          1555
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Image",
+        "score_total": 40.9869270324707,
+        "score_mean": 0.24109957077923944,
+        "bounds_image": [
+          5,
+          139,
+          22,
+          149
+        ],
+        "bounds_rico": [
+          35,
+          1599,
+          147,
+          1711
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Text",
+        "score_total": 92.53622436523438,
+        "score_mean": 0.22848450460551697,
+        "bounds_image": [
+          143,
+          196,
+          188,
+          205
+        ],
+        "bounds_rico": [
+          924,
+          2245,
+          1211,
+          2351
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Image",
+        "score_total": 885.9434814453125,
+        "score_mean": 0.20507950959382235,
+        "bounds_image": [
+          5,
+          170,
+          140,
+          202
+        ],
+        "bounds_rico": [
+          35,
+          1945,
+          906,
+          2315
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Text",
+        "score_total": 79.84767150878906,
+        "score_mean": 0.19286877176036005,
+        "bounds_image": [
+          129,
+          22,
+          175,
+          31
+        ],
+        "bounds_rico": [
+          832,
+          252,
+          1128,
+          359
+        ]
+      },
+      {
+        "rank": 29,
+        "component": "Icon",
+        "score_total": 11.315133094787598,
+        "score_mean": 0.1885855515797933,
+        "bounds_image": [
+          119,
+          23,
+          129,
+          29
+        ],
+        "bounds_rico": [
+          769,
+          274,
+          832,
+          337
+        ]
+      },
+      {
+        "rank": 30,
+        "component": "Text",
+        "score_total": 2.077244758605957,
+        "score_mean": 0.17310372988382974,
+        "bounds_image": [
+          0,
+          151,
+          3,
+          155
+        ],
+        "bounds_rico": [
+          0,
+          1729,
+          25,
+          1778
+        ]
+      },
+      {
+        "rank": 31,
+        "component": "Text",
+        "score_total": 36.217529296875,
+        "score_mean": 0.17246442522321428,
+        "bounds_image": [
+          28,
+          53,
+          70,
+          58
+        ],
+        "bounds_rico": [
+          182,
+          616,
+          452,
+          666
+        ]
+      },
+      {
+        "rank": 32,
+        "component": "Image",
+        "score_total": 1.2720916271209717,
+        "score_mean": 0.1413435141245524,
+        "bounds_image": [
+          152,
+          204,
+          155,
+          207
+        ],
+        "bounds_rico": [
+          982,
+          2339,
+          1000,
+          2367
+        ]
+      },
+      {
+        "rank": 33,
+        "component": "Icon",
+        "score_total": 15.253703117370605,
+        "score_mean": 0.13619377783366612,
+        "bounds_image": [
+          205,
+          9,
+          219,
+          17
+        ],
+        "bounds_rico": [
+          1321,
+          110,
+          1412,
+          198
+        ]
+      },
+      {
+        "rank": 34,
+        "component": "Text",
+        "score_total": 53.688995361328125,
+        "score_mean": 0.13256542064525462,
+        "bounds_image": [
+          96,
+          196,
+          141,
+          205
+        ],
+        "bounds_rico": [
+          623,
+          2245,
+          910,
+          2351
+        ]
+      },
+      {
+        "rank": 35,
+        "component": "Icon",
+        "score_total": 7.0474042892456055,
+        "score_mean": 0.13050748683788158,
+        "bounds_image": [
+          184,
+          23,
+          193,
+          29
+        ],
+        "bounds_rico": [
+          1184,
+          274,
+          1247,
+          337
+        ]
+      },
+      {
+        "rank": 36,
+        "component": "Text",
+        "score_total": 7.1635541915893555,
+        "score_mean": 0.12792061056409562,
+        "bounds_image": [
+          205,
+          16,
+          219,
+          20
+        ],
+        "bounds_rico": [
+          1321,
+          192,
+          1412,
+          239
+        ]
+      },
+      {
+        "rank": 37,
+        "component": "Image",
+        "score_total": 185.7286376953125,
+        "score_mean": 0.11951649787343147,
+        "bounds_image": [
+          5,
+          159,
+          47,
+          196
+        ],
+        "bounds_rico": [
+          35,
+          1825,
+          308,
+          2245
+        ]
+      },
+      {
+        "rank": 38,
+        "component": "Text",
+        "score_total": 17.171356201171875,
+        "score_mean": 0.11078294323336693,
+        "bounds_image": [
+          28,
+          48,
+          59,
+          53
+        ],
+        "bounds_rico": [
+          182,
+          554,
+          385,
+          616
+        ]
+      },
+      {
+        "rank": 39,
+        "component": "Text",
+        "score_total": 41.88465881347656,
+        "score_mean": 0.10576934043807212,
+        "bounds_image": [
+          50,
+          196,
+          94,
+          205
+        ],
+        "bounds_rico": [
+          322,
+          2245,
+          609,
+          2351
+        ]
+      },
+      {
+        "rank": 40,
+        "component": "Text",
+        "score_total": 156.76007080078125,
+        "score_mean": 0.1051375391017983,
+        "bounds_image": [
+          5,
+          22,
+          218,
+          29
+        ],
+        "bounds_rico": [
+          35,
+          252,
+          1405,
+          335
+        ]
+      },
+      {
+        "rank": 41,
+        "component": "Image",
+        "score_total": 27.687280654907227,
+        "score_mean": 0.10487606308676979,
+        "bounds_image": [
+          3,
+          159,
+          25,
+          171
+        ],
+        "bounds_rico": [
+          21,
+          1825,
+          161,
+          1965
+        ]
+      },
+      {
+        "rank": 42,
+        "component": "Text",
+        "score_total": 23.5418758392334,
+        "score_mean": 0.10060630700527093,
+        "bounds_image": [
+          193,
+          22,
+          219,
+          31
+        ],
+        "bounds_rico": [
+          1247,
+          252,
+          1412,
+          359
+        ]
+      },
+      {
+        "rank": 43,
+        "component": "Text",
+        "score_total": 35.502166748046875,
+        "score_mean": 0.09861712985568577,
+        "bounds_image": [
+          70,
+          22,
+          110,
+          31
+        ],
+        "bounds_rico": [
+          453,
+          252,
+          713,
+          359
+        ]
+      },
+      {
+        "rank": 44,
+        "component": "Text",
+        "score_total": 37.762672424316406,
+        "score_mean": 0.09757796492071423,
+        "bounds_image": [
+          90,
+          10,
+          133,
+          19
+        ],
+        "bounds_rico": [
+          582,
+          115,
+          858,
+          221
+        ]
+      },
+      {
+        "rank": 45,
+        "component": "Text",
+        "score_total": 29.194236755371094,
+        "score_mean": 0.07998421028868793,
+        "bounds_image": [
+          76,
+          203,
+          149,
+          208
+        ],
+        "bounds_rico": [
+          489,
+          2325,
+          961,
+          2382
+        ]
+      },
+      {
+        "rank": 46,
+        "component": "Icon",
+        "score_total": 10.708125114440918,
+        "score_mean": 0.07436197996139526,
+        "bounds_image": [
+          42,
+          33,
+          58,
+          42
+        ],
+        "bounds_rico": [
+          273,
+          384,
+          378,
+          489
+        ]
+      },
+      {
+        "rank": 47,
+        "component": "Icon",
+        "score_total": 10.462488174438477,
+        "score_mean": 0.053653785509940904,
+        "bounds_image": [
+          200,
+          31,
+          215,
+          44
+        ],
+        "bounds_rico": [
+          1286,
+          363,
+          1384,
+          510
+        ]
+      },
+      {
+        "rank": 48,
+        "component": "Icon",
+        "score_total": 2.7210702896118164,
+        "score_mean": 0.045351171493530275,
+        "bounds_image": [
+          60,
+          23,
+          70,
+          29
+        ],
+        "bounds_rico": [
+          390,
+          274,
+          453,
+          337
+        ]
+      },
+      {
+        "rank": 49,
+        "component": "Text",
+        "score_total": 10.035543441772461,
+        "score_mean": 0.025342281418617326,
+        "bounds_image": [
+          3,
+          196,
+          47,
+          205
+        ],
+        "bounds_rico": [
+          21,
+          2245,
+          308,
+          2351
+        ]
+      },
+      {
+        "rank": 50,
+        "component": "Image",
+        "score_total": 4.213035583496094,
+        "score_mean": 0.024782562255859376,
+        "bounds_image": [
+          5,
+          48,
+          22,
+          58
+        ],
+        "bounds_rico": [
+          35,
+          554,
+          147,
+          666
+        ]
+      },
+      {
+        "rank": 51,
+        "component": "Text Button",
+        "score_total": 9.511484146118164,
+        "score_mean": 0.02090436076069926,
+        "bounds_image": [
+          5,
+          31,
+          40,
+          44
+        ],
+        "bounds_rico": [
+          35,
+          363,
+          259,
+          510
+        ]
+      },
+      {
+        "rank": 52,
+        "component": "Text Button",
+        "score_total": 8.337519645690918,
+        "score_mean": 0.016542697709704204,
+        "bounds_image": [
+          0,
+          22,
+          56,
+          31
+        ],
+        "bounds_rico": [
+          0,
+          252,
+          362,
+          359
+        ]
+      },
+      {
+        "rank": 53,
+        "component": "Icon",
+        "score_total": 0.019779834896326065,
+        "score_mean": 0.00011635196997838862,
+        "bounds_image": [
+          4,
+          9,
+          21,
+          19
+        ],
+        "bounds_rico": [
+          28,
+          112,
+          140,
+          224
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 74,
+        "token": "▁much"
+      },
+      {
+        "index": 75,
+        "token": "▁more"
+      },
+      {
+        "index": 67,
+        "token": "▁guide"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "I have to give these guys props for the effort and technology behind this app. This is really awesome stuff!!! Check it out!!! You'll be amazed!!! Great job guys!!! Keep up the good work!!! Just watched ISS flyover Concord CA. Awesome! Radar worked perfectly. I love this app! Check out street view of ISS. It shows everything, and has key points of all the modules and equipment. Fascinating!!!",
+        "word_count": 68,
+        "interface_pos": 0.99192375,
+        "interface_neg": 0.0012706956,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁to, ▁points, ▁I",
+        "p_orig": 0.9909920692443848,
+        "p_img": 0.9374339580535889,
+        "delta_p_img": 0.0535581111907959,
+        "gradcam_mean": 0.30878108739852905,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.0027747750282287598,
+        "word_attention_top15": [
+          [
+            "work",
+            0.066974
+          ],
+          [
+            "awesome",
+            0.066453
+          ],
+          [
+            "perfectly",
+            0.057655
+          ],
+          [
+            "guys",
+            0.056732
+          ],
+          [
+            "iss",
+            0.048123
+          ],
+          [
+            "fascinating",
+            0.045407
+          ],
+          [
+            "stuff",
+            0.040985
+          ],
+          [
+            "equipment",
+            0.040579
+          ],
+          [
+            "points",
+            0.039175
+          ],
+          [
+            "ca",
+            0.038312
+          ],
+          [
+            "good",
+            0.035912
+          ],
+          [
+            "amazed",
+            0.034314
+          ],
+          [
+            "everything",
+            0.029913
+          ],
+          [
+            "props",
+            0.029628
+          ],
+          [
+            "flyover",
+            0.028054
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awesome",
+            0.00797
+          ],
+          [
+            "check",
+            0.002559
+          ],
+          [
+            "props",
+            0.002444
+          ],
+          [
+            "technology",
+            0.002306
+          ],
+          [
+            "keep",
+            0.002262
+          ],
+          [
+            "everything",
+            0.002062
+          ],
+          [
+            "work",
+            0.001722
+          ],
+          [
+            "guys",
+            0.001564
+          ],
+          [
+            "give",
+            0.00145
+          ],
+          [
+            "stuff",
+            0.001437
+          ],
+          [
+            "good",
+            0.001227
+          ],
+          [
+            "great",
+            0.001213
+          ],
+          [
+            "love",
+            0.001156
+          ],
+          [
+            "shows",
+            0.001155
+          ],
+          [
+            "perfectly",
+            0.001071
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15163134038448334,
+          "max": 0.9999999403953552,
+          "std": 0.3008679449558258
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 5,
+        "review_source": "cache",
+        "review_text": "Absolutely love the app, the only thing I would suggest is maybe adding a notification when the International Space Station is about to fly overhead, so one can see it on a clear night if they wanted to... Other than that absolutely love this application!! 5 stars... and they added it.. hands down best ISS tracker out there!! bar none!! 6 ******",
+        "word_count": 62,
+        "interface_pos": 0.9886234,
+        "interface_neg": 0.00292348,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁Absolutely, ▁the, ▁interface",
+        "p_orig": 0.9843282699584961,
+        "p_img": 0.8387326598167419,
+        "delta_p_img": 0.14559561014175415,
+        "gradcam_mean": 0.3046233057975769,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.0032076239585876465,
+        "word_attention_top15": [
+          [
+            "absolutely",
+            0.176436
+          ],
+          [
+            "stars",
+            0.119472
+          ],
+          [
+            "love",
+            0.092718
+          ],
+          [
+            "none",
+            0.069272
+          ],
+          [
+            "******",
+            0.061855
+          ],
+          [
+            "tracker",
+            0.05966
+          ],
+          [
+            "overhead",
+            0.051515
+          ],
+          [
+            "notification",
+            0.042051
+          ],
+          [
+            "adding",
+            0.034671
+          ],
+          [
+            "hands",
+            0.033675
+          ],
+          [
+            "clear",
+            0.032201
+          ],
+          [
+            "maybe",
+            0.029667
+          ],
+          [
+            "bar",
+            0.028671
+          ],
+          [
+            "see",
+            0.026965
+          ],
+          [
+            "iss",
+            0.020459
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.010108
+          ],
+          [
+            "absolutely",
+            0.004439
+          ],
+          [
+            "best",
+            0.00389
+          ],
+          [
+            "clear",
+            0.00373
+          ],
+          [
+            "suggest",
+            0.003724
+          ],
+          [
+            "none",
+            0.00312
+          ],
+          [
+            "stars",
+            0.002626
+          ],
+          [
+            "hands",
+            0.002061
+          ],
+          [
+            "bar",
+            0.001618
+          ],
+          [
+            "notification",
+            0.001522
+          ],
+          [
+            "see",
+            0.001223
+          ],
+          [
+            "tracker",
+            0.00108
+          ],
+          [
+            "night",
+            0.001033
+          ],
+          [
+            "fly",
+            0.001019
+          ],
+          [
+            "maybe",
+            -0.000978
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16180752217769623,
+          "max": 0.9999999403953552,
+          "std": 0.3196096420288086
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 12,
+        "review_source": "cache",
+        "review_text": "ISS LIVE is very unique and super special. It's beautiful that anyone can have access to a wonderful tool and get a wide range of knowledgeable information and an awesome view of live Earth at any given moment, and have a super great experience of what ISS IS LIKE. It's perfect for ones who love geology and the study guide of Earth, space, and much more. It's perfect for just spontaneous viewing, teaching, and learning. I love this app. I love seeing Earth from space and the NASA TV.",
+        "word_count": 89,
+        "interface_pos": 0.9864813,
+        "interface_neg": 0.0016355078,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁much, ▁more, ▁guide",
+        "p_orig": 0.9932150840759277,
+        "p_img": 0.9545771479606628,
+        "delta_p_img": 0.03863793611526489,
+        "gradcam_mean": 0.3278898596763611,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.002367377281188965,
+        "word_attention_top15": [
+          [
+            "space",
+            0.090552
+          ],
+          [
+            "earth",
+            0.0794
+          ],
+          [
+            "perfect",
+            0.064713
+          ],
+          [
+            "super",
+            0.056225
+          ],
+          [
+            "love",
+            0.053282
+          ],
+          [
+            "learning",
+            0.0455
+          ],
+          [
+            "guide",
+            0.041782
+          ],
+          [
+            "tv",
+            0.039209
+          ],
+          [
+            "great",
+            0.038142
+          ],
+          [
+            "teaching",
+            0.03437
+          ],
+          [
+            "live",
+            0.032175
+          ],
+          [
+            "viewing",
+            0.029353
+          ],
+          [
+            "special",
+            0.02621
+          ],
+          [
+            "moment",
+            0.025963
+          ],
+          [
+            "awesome",
+            0.023952
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "love",
+            0.006799
+          ],
+          [
+            "unique",
+            0.005201
+          ],
+          [
+            "iss",
+            -0.002461
+          ],
+          [
+            "earth",
+            0.002323
+          ],
+          [
+            "wonderful",
+            0.002178
+          ],
+          [
+            "live",
+            0.002131
+          ],
+          [
+            "perfect",
+            0.002014
+          ],
+          [
+            "space",
+            0.001923
+          ],
+          [
+            "learning",
+            0.001613
+          ],
+          [
+            "super",
+            0.001521
+          ],
+          [
+            "teaching",
+            0.001362
+          ],
+          [
+            "experience",
+            0.001281
+          ],
+          [
+            "great",
+            0.001149
+          ],
+          [
+            "viewing",
+            0.001125
+          ],
+          [
+            "awesome",
+            0.001036
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13863472640514374,
+          "max": 0.9999999403953552,
+          "std": 0.2810268700122833
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 16,
+        "review_source": "cache",
+        "review_text": "This is an amazing app! NOTHING negative here! It's lovely actually seeing what they do up there & watching the interviews with the astronauts at the space station. I also enjoy tracking what continent the station is flying over. Watching the earth & sunrise, sunset is very fascinating! I feel as if I am there at the station, Not on the earth! I get notifications from this app so that I don't miss out on spacewalks & events. I also use this app to go to sleep to! I don't have any problems @ all!",
+        "word_count": 95,
+        "interface_pos": 0.9864456,
+        "interface_neg": 0.002091989,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁sunset, ▁This, ▁enjoy",
+        "p_orig": 0.9902428984642029,
+        "p_img": 0.9303910136222839,
+        "delta_p_img": 0.059851884841918945,
+        "gradcam_mean": 0.3118034601211548,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.0028391480445861816,
+        "word_attention_top15": [
+          [
+            "station",
+            0.080214
+          ],
+          [
+            "sunrise",
+            0.068705
+          ],
+          [
+            "&",
+            0.068046
+          ],
+          [
+            "sunset",
+            0.061815
+          ],
+          [
+            "not earth",
+            0.059343
+          ],
+          [
+            "events",
+            0.056182
+          ],
+          [
+            "don't any",
+            0.054652
+          ],
+          [
+            "watching",
+            0.050572
+          ],
+          [
+            "enjoy",
+            0.045972
+          ],
+          [
+            "fascinating",
+            0.045524
+          ],
+          [
+            "tracking",
+            0.038436
+          ],
+          [
+            "interviews",
+            0.032982
+          ],
+          [
+            "amazing",
+            0.031334
+          ],
+          [
+            "sleep",
+            0.028923
+          ],
+          [
+            "spacewalks",
+            0.028763
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoy",
+            0.006424
+          ],
+          [
+            "fascinating",
+            0.003613
+          ],
+          [
+            "lovely",
+            0.003326
+          ],
+          [
+            "watching",
+            0.003275
+          ],
+          [
+            "feel",
+            0.002884
+          ],
+          [
+            "amazing",
+            0.002831
+          ],
+          [
+            "negative",
+            0.002213
+          ],
+          [
+            "don't any",
+            0.001897
+          ],
+          [
+            "&",
+            0.001214
+          ],
+          [
+            "sunrise",
+            0.0012
+          ],
+          [
+            "notifications",
+            0.000968
+          ],
+          [
+            "not earth",
+            -0.000944
+          ],
+          [
+            "flying",
+            0.000941
+          ],
+          [
+            "seeing",
+            0.000851
+          ],
+          [
+            "don't miss",
+            0.000687
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15152321755886078,
+          "max": 0.9999999403953552,
+          "std": 0.3012419641017914
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "It's so beautiful, you see what the ISS cameras catch, live and you can take pictures in the app and it's auto saved to your gallery. You can set notifications for when it's going by your location as well as ANY location you'd like. It's seemlessly integrated with a map of the ISS and the world, you can zoom in on either live or map and watch as it goes over cities and landscapes along with the oceans. I recommend to EVERYONE",
+        "word_count": 82,
+        "interface_pos": 0.986068,
+        "interface_neg": 0.0016166964,
+        "interface_sentiment": "positive",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁map, ▁either, ▁in",
+        "p_orig": 0.9906189441680908,
+        "p_img": 0.935255765914917,
+        "delta_p_img": 0.05536317825317383,
+        "gradcam_mean": 0.31300899386405945,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.002928495407104492,
+        "word_attention_top15": [
+          [
+            "map",
+            0.078908
+          ],
+          [
+            "live",
+            0.071376
+          ],
+          [
+            "oceans",
+            0.053431
+          ],
+          [
+            "either",
+            0.052685
+          ],
+          [
+            "beautiful",
+            0.051589
+          ],
+          [
+            "location",
+            0.051395
+          ],
+          [
+            "catch",
+            0.051173
+          ],
+          [
+            "pictures",
+            0.046141
+          ],
+          [
+            "you'd",
+            0.042829
+          ],
+          [
+            "iss",
+            0.037801
+          ],
+          [
+            "recommend",
+            0.037712
+          ],
+          [
+            "gallery",
+            0.037309
+          ],
+          [
+            "world",
+            0.02885
+          ],
+          [
+            "notifications",
+            0.02782
+          ],
+          [
+            "landscapes",
+            0.025966
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "beautiful",
+            0.003104
+          ],
+          [
+            "live",
+            0.00222
+          ],
+          [
+            "any",
+            0.002045
+          ],
+          [
+            "recommend",
+            0.001813
+          ],
+          [
+            "catch",
+            0.00155
+          ],
+          [
+            "world",
+            0.001413
+          ],
+          [
+            "landscapes",
+            0.001379
+          ],
+          [
+            "cities",
+            0.001261
+          ],
+          [
+            "location",
+            0.00123
+          ],
+          [
+            "cameras",
+            0.001219
+          ],
+          [
+            "oceans",
+            0.001165
+          ],
+          [
+            "watch",
+            0.001143
+          ],
+          [
+            "notifications",
+            0.000909
+          ],
+          [
+            "integrated",
+            0.000888
+          ],
+          [
+            "gallery",
+            0.000818
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14961253106594086,
+          "max": 0.9999999403953552,
+          "std": 0.29819977283477783
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as good with 99% confidence.",
+      "simple": "This screen was predicted as good with 99% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of ISS HD Live: View Earth Live (category: Education) was predicted as good with 99% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Image at the top-left, and a small Text at the top-left."
+    }
+  }
+]

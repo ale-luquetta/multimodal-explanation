@@ -1,0 +1,370 @@
+{
+  "package_name": "fr.recettetek",
+  "num_screens": 8,
+  "app_score": 0.9673791825771332,
+  "app_prediction": "good",
+  "app_confidence": 0.9673791825771332,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9106853008270264,
+    0.9871193170547485,
+    0.995718777179718,
+    0.9899790287017822,
+    0.9810386300086975,
+    0.9732301235198975,
+    0.9652687311172485,
+    0.9359935522079468
+  ],
+  "prediction_variance": 0.0007660100771591516,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\fr_recettetek\\fr_recettetek_app_explanation.png",
+  "text_explanation": {
+    "caption": "fr.recettetek was predicted as good with average confidence 97% across 8 screens.",
+    "simple": "fr.recettetek was predicted as good with average confidence 97% across 8 screens. Across these screens, the model frequently emphasized Icon components.",
+    "detailed": "fr.recettetek was predicted as good with average confidence 97% across 8 screens. Across these screens, the model frequently emphasized Icon components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Icon (8x), Text (7x), Text Button (5x). The most influential review words across screens were 'recipes', 'recipe', 'ingredients', 'sites', and 'easy'. The app belongs to the Food & Drink category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "23372",
+    "review_rank": 0,
+    "delta_p_img": 0.13011032342910767,
+    "confidence": 0.995718777179718,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\23372.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "recipes",
+      3.607568
+    ],
+    [
+      "recipe",
+      1.444118
+    ],
+    [
+      "ingredients",
+      0.961321
+    ],
+    [
+      "sites",
+      0.746872
+    ],
+    [
+      "easy",
+      0.727527
+    ],
+    [
+      "love",
+      0.722811
+    ],
+    [
+      "doesn't keep",
+      0.709781
+    ],
+    [
+      "loves",
+      0.657364
+    ],
+    [
+      "button",
+      0.611784
+    ],
+    [
+      "black",
+      0.598753
+    ],
+    [
+      "ad",
+      0.588283
+    ],
+    [
+      "fantastic",
+      0.585292
+    ],
+    [
+      "phone",
+      0.569319
+    ],
+    [
+      "store",
+      0.555495
+    ],
+    [
+      "rateing",
+      0.542356
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "love",
+      1.340448
+    ],
+    [
+      "recipes",
+      0.892165
+    ],
+    [
+      "good",
+      0.606152
+    ],
+    [
+      "easy",
+      0.581874
+    ],
+    [
+      "recipe",
+      0.516005
+    ],
+    [
+      "best",
+      0.400747
+    ],
+    [
+      "perfectly",
+      0.336349
+    ],
+    [
+      "recommend",
+      0.332422
+    ],
+    [
+      "highly",
+      0.317093
+    ],
+    [
+      "everything",
+      0.266556
+    ],
+    [
+      "fantastic",
+      0.245528
+    ],
+    [
+      "custom",
+      0.24512
+    ],
+    [
+      "no hunting",
+      0.206061
+    ],
+    [
+      "ad-free",
+      0.179754
+    ],
+    [
+      "stays",
+      0.174869
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "recipes",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 1,
+      "rank_shap": 2,
+      "shap_signed": 0.892165,
+      "in_both": true
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.031545,
+      "rank_bahdanau": 6,
+      "rank_shap": 1,
+      "shap_signed": 1.340448,
+      "in_both": true
+    },
+    {
+      "word": "recipe",
+      "rrf_score": 0.031514,
+      "rank_bahdanau": 2,
+      "rank_shap": 5,
+      "shap_signed": 0.516005,
+      "in_both": true
+    },
+    {
+      "word": "easy",
+      "rrf_score": 0.03101,
+      "rank_bahdanau": 5,
+      "rank_shap": 4,
+      "shap_signed": 0.581874,
+      "in_both": true
+    },
+    {
+      "word": "fantastic",
+      "rrf_score": 0.027973,
+      "rank_bahdanau": 12,
+      "rank_shap": 11,
+      "shap_signed": 0.245528,
+      "in_both": true
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.606152,
+      "in_both": false
+    },
+    {
+      "word": "ingredients",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "sites",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.400747,
+      "in_both": false
+    },
+    {
+      "word": "perfectly",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.336349,
+      "in_both": false
+    },
+    {
+      "word": "doesn't keep",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "recommend",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.332422,
+      "in_both": false
+    },
+    {
+      "word": "loves",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "highly",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.317093,
+      "in_both": false
+    },
+    {
+      "word": "button",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 12,
+      "text": "I love this app! Does what I need it to and easy to use. I have it on my phone, and use it at the grocery store when shopping for ingredients for my recipes! Good interface with cooking sites, will grab recipes from almost anywhere thru the Share button. From some sites, after download, you may have to edit the recipe, though that's probably not this apps fault. I would highly recommend it."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 18,
+      "text": "Love this app. They thought of everything needed to find, file, and use recipes. I'm now in process of getting all my recipes from books, binders, filing cabinets, kitchen drawers, folders, etc., into My Recipe Box. No more hunting for them. I especially like the feature that allows for changing quantities of ingredients. Love this app!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 9,
+      "text": "So far this is fantastic! It is so easy to search for a recipe or copy and paste one from the web and you can also add recipes of your own. It also stays open while I am using a recipe and the screen doesn't keep going black! I haven't yet run into the issue of only being able to have so many recipes, so I am hoping that I can add as many as I like. If that is the case, this is definitely a 5 star app!"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 15,
+      "text": "This is the best app I've had! It features recipe scaling, grocery list generation, nutrition capture, and custom naming structure. This means I can scale my recipe servings up and down, and it adjusts the ingredients automatically. The custom naming feature allows me to sort new untried recipes from the ones I've made. It also has a simple heart rateing so you can note the recipes you family loves. All in all, it is perfect for me in all ways."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 1,
+      "text": "So glad I found this app! Easy to import recipes from various sources & they import perfectly - measurements, directions, even pictures. You have the ability to categorize the type of recipe and the best part is the app stays open which is great when cooking! The free version has a video ad for stupid games after each upload but that's the only time you have to suffer through an ad. The app is so good though, I'm considering upgrading to the paid, ad-free version."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "recipes",
+      3.607568
+    ],
+    [
+      "recipe",
+      1.444118
+    ],
+    [
+      "ingredients",
+      0.961321
+    ],
+    [
+      "sites",
+      0.746872
+    ],
+    [
+      "easy",
+      0.727527
+    ],
+    [
+      "love",
+      0.722811
+    ],
+    [
+      "doesn't keep",
+      0.709781
+    ],
+    [
+      "loves",
+      0.657364
+    ],
+    [
+      "button",
+      0.611784
+    ],
+    [
+      "black",
+      0.598753
+    ],
+    [
+      "ad",
+      0.588283
+    ],
+    [
+      "fantastic",
+      0.585292
+    ],
+    [
+      "phone",
+      0.569319
+    ],
+    [
+      "store",
+      0.555495
+    ],
+    [
+      "rateing",
+      0.542356
+    ]
+  ]
+}

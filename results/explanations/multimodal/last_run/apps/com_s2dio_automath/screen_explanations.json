@@ -1,0 +1,6591 @@
+[
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69158",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69158.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters Worst math app ever!!!! It just shows some random never before seen comma and colon as answer",
+    "prediction": 0.01238875463604927,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9876112453639507,
+    "gradcam_stats": {
+      "mean": 0.4335348904132843,
+      "max": 1.0,
+      "std": 0.18111997842788696
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.012380484491586685,
+      "p_img": 0.15613366663455963,
+      "delta_p_img": 0.14375318214297295
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ],
+        "score_total": 19598.59765625,
+        "score_mean": 0.4331373244397542
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 19598.59765625,
+        "score_mean": 0.4331373244397542,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 19598.59765625,
+        "score_mean": 0.4331373244397542,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.012380484491586685,
+        "p_img": 0.15613366663455963,
+        "delta_p_img": 0.14375318214297295,
+        "gradcam_mean": 0.4335348904132843,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.14375318214297295,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.015681
+          ],
+          [
+            "always",
+            0.00447
+          ],
+          [
+            "bug",
+            -0.004328
+          ],
+          [
+            "problems",
+            -0.002694
+          ],
+          [
+            "not solutions",
+            -0.002366
+          ],
+          [
+            "change",
+            -0.001128
+          ],
+          [
+            "believe",
+            0.001015
+          ],
+          [
+            "please",
+            -0.000549
+          ],
+          [
+            "result",
+            3.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14877638220787048,
+          "max": 0.9999997019767761,
+          "std": 0.2819545269012451
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.016957387328147888,
+        "p_img": 0.18725892901420593,
+        "delta_p_img": 0.17030154168605804,
+        "gradcam_mean": 0.3861873745918274,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.17030154168605804,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tryed",
+            -0.005481
+          ],
+          [
+            "problem",
+            -0.004351
+          ],
+          [
+            "bad",
+            -0.004287
+          ],
+          [
+            "using",
+            0.002638
+          ],
+          [
+            "error",
+            -0.002507
+          ],
+          [
+            "not",
+            -0.001233
+          ],
+          [
+            "pop",
+            0.000642
+          ],
+          [
+            "random",
+            -0.00026
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14579208195209503,
+          "max": 0.9999997615814209,
+          "std": 0.2782764732837677
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.016002396121621132,
+        "p_img": 0.18773233890533447,
+        "delta_p_img": 0.17172994278371334,
+        "gradcam_mean": 0.3939013183116913,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.17172994278371334,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "zero",
+            -0.008817
+          ],
+          [
+            "horrible",
+            -0.007922
+          ],
+          [
+            "letters",
+            -0.004438
+          ],
+          [
+            "not recommend",
+            -0.003449
+          ],
+          [
+            "give",
+            0.003345
+          ],
+          [
+            "random",
+            -0.000999
+          ],
+          [
+            "stars",
+            -0.000572
+          ],
+          [
+            "anyone",
+            0.000312
+          ],
+          [
+            "numbers",
+            0.000309
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14878366887569427,
+          "max": 0.9999997615814209,
+          "std": 0.2831118404865265
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.020312150940299034,
+        "p_img": 0.20514096319675446,
+        "delta_p_img": 0.18482881225645542,
+        "gradcam_mean": 0.3773437440395355,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.18482881225645542,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.022398
+          ],
+          [
+            "don't know",
+            -0.008883
+          ],
+          [
+            "wasting",
+            -0.006181
+          ],
+          [
+            "download",
+            0.002318
+          ],
+          [
+            "sounds",
+            0.002235
+          ],
+          [
+            "middle",
+            -0.00218
+          ],
+          [
+            "press",
+            0.001032
+          ],
+          [
+            "back",
+            -0.000614
+          ],
+          [
+            "downloaded",
+            -0.000401
+          ],
+          [
+            "goes",
+            6.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1502494215965271,
+          "max": 0.9999997615814209,
+          "std": 0.2887330949306488
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Web View",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.03091924637556076,
+        "p_img": 0.2511235475540161,
+        "delta_p_img": 0.22020430117845535,
+        "gradcam_mean": 0.35641127824783325,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View",
+        "delta_p_img_shap": 0.22020430117845535,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.020379
+          ],
+          [
+            "didn't help",
+            -0.012848
+          ],
+          [
+            "kinds",
+            0.006397
+          ],
+          [
+            "help",
+            0.003492
+          ],
+          [
+            "not algebra",
+            0.002926
+          ],
+          [
+            "paper",
+            -0.002598
+          ],
+          [
+            "gave",
+            0.001724
+          ],
+          [
+            "please",
+            0.001718
+          ],
+          [
+            "math",
+            0.000726
+          ],
+          [
+            "multiplication",
+            0.000385
+          ],
+          [
+            "kind",
+            0.000356
+          ],
+          [
+            "whatever",
+            0.000348
+          ],
+          [
+            "different",
+            -9.2e-05
+          ],
+          [
+            "answer",
+            -8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14472676813602448,
+          "max": 0.9999998211860657,
+          "std": 0.2829854488372803
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 99% confidence.",
+      "simple": "This screen was labeled as bad with 99% confidence. The model directed most attention to a small Web View at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was labeled as bad with 99% confidence (confidently). The model attended to a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69160",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69160.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This app is useless and cannot even work out simple additions. It is such a waste of time to download and it is nothing like the ads",
+    "prediction": 0.00041773845441639423,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9995822615455836,
+    "gradcam_stats": {
+      "mean": 0.4638274908065796,
+      "max": 1.0,
+      "std": 0.280472069978714
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.0004191804910078645,
+      "p_img": 0.0003608168044593185,
+      "delta_p_img": 5.8363686548545957e-05
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          28,
+          100,
+          195,
+          195
+        ],
+        "bounds_rico": [
+          182,
+          1154,
+          1258,
+          2237
+        ],
+        "score_total": 12236.486328125,
+        "score_mean": 0.771288139182162
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          8,
+          192,
+          21,
+          203
+        ],
+        "bounds_rico": [
+          53,
+          2196,
+          137,
+          2322
+        ],
+        "score_total": 68.34580993652344,
+        "score_mean": 0.4779427268288352
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          41,
+          80,
+          112,
+          93
+        ],
+        "bounds_rico": [
+          265,
+          924,
+          720,
+          1066
+        ],
+        "score_total": 362.6433410644531,
+        "score_mean": 0.39289636084989504
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 12236.486328125,
+        "score_mean": 0.771288139182162,
+        "bounds_image": [
+          28,
+          100,
+          195,
+          195
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 68.34580993652344,
+        "score_mean": 0.4779427268288352,
+        "bounds_image": [
+          8,
+          192,
+          21,
+          203
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 362.6433410644531,
+        "score_mean": 0.39289636084989504,
+        "bounds_image": [
+          41,
+          80,
+          112,
+          93
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 12236.486328125,
+        "score_mean": 0.771288139182162,
+        "bounds_image": [
+          28,
+          100,
+          195,
+          195
+        ],
+        "bounds_rico": [
+          182,
+          1154,
+          1258,
+          2237
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 68.34580993652344,
+        "score_mean": 0.4779427268288352,
+        "bounds_image": [
+          8,
+          192,
+          21,
+          203
+        ],
+        "bounds_rico": [
+          53,
+          2196,
+          137,
+          2322
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 362.6433410644531,
+        "score_mean": 0.39289636084989504,
+        "bounds_image": [
+          41,
+          80,
+          112,
+          93
+        ],
+        "bounds_rico": [
+          265,
+          924,
+          720,
+          1066
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 315.7601013183594,
+        "score_mean": 0.34698912232786744,
+        "bounds_image": [
+          112,
+          80,
+          182,
+          93
+        ],
+        "bounds_rico": [
+          720,
+          924,
+          1175,
+          1066
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 242.07736206054688,
+        "score_mean": 0.284128359225994,
+        "bounds_image": [
+          41,
+          65,
+          112,
+          77
+        ],
+        "bounds_rico": [
+          265,
+          747,
+          720,
+          889
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 217.48068237304688,
+        "score_mean": 0.25890557425362726,
+        "bounds_image": [
+          112,
+          65,
+          182,
+          77
+        ],
+        "bounds_rico": [
+          720,
+          747,
+          1175,
+          889
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 35.96327590942383,
+        "score_mean": 0.2514914399260408,
+        "bounds_image": [
+          202,
+          192,
+          215,
+          203
+        ],
+        "bounds_rico": [
+          1303,
+          2196,
+          1387,
+          2322
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 115.81700134277344,
+        "score_mean": 0.23303219586071114,
+        "bounds_image": [
+          41,
+          55,
+          112,
+          62
+        ],
+        "bounds_rico": [
+          265,
+          636,
+          720,
+          712
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 104.46247863769531,
+        "score_mean": 0.21318873191366391,
+        "bounds_image": [
+          112,
+          55,
+          182,
+          62
+        ],
+        "bounds_rico": [
+          720,
+          636,
+          1175,
+          712
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 96.1920166015625,
+        "score_mean": 0.19354530503332495,
+        "bounds_image": [
+          41,
+          45,
+          112,
+          52
+        ],
+        "bounds_rico": [
+          265,
+          525,
+          720,
+          601
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 86.829833984375,
+        "score_mean": 0.1772037428252551,
+        "bounds_image": [
+          112,
+          45,
+          182,
+          52
+        ],
+        "bounds_rico": [
+          720,
+          525,
+          1175,
+          601
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 210.92503356933594,
+        "score_mean": 0.15066073826381138,
+        "bounds_image": [
+          24,
+          33,
+          199,
+          41
+        ],
+        "bounds_rico": [
+          160,
+          379,
+          1280,
+          472
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.0004191804910078645,
+        "p_img": 0.0003608168044593185,
+        "delta_p_img": 5.8363686548545957e-05,
+        "gradcam_mean": 0.4638274908065796,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 0.0002155783586204052,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.00026
+          ],
+          [
+            "bug",
+            -8e-05
+          ],
+          [
+            "always",
+            5.2e-05
+          ],
+          [
+            "problems",
+            -4.5e-05
+          ],
+          [
+            "not solutions",
+            -3.9e-05
+          ],
+          [
+            "change",
+            -1e-05
+          ],
+          [
+            "result",
+            9e-06
+          ],
+          [
+            "believe",
+            9e-06
+          ],
+          [
+            "please",
+            3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13157503306865692,
+          "max": 0.9999863505363464,
+          "std": 0.2522313594818115
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.0005252988776192069,
+        "p_img": 0.0004726741462945938,
+        "delta_p_img": 5.2624731324613094e-05,
+        "gradcam_mean": 0.4590185582637787,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 0.00030322582460939884,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -7.6e-05
+          ],
+          [
+            "problem",
+            -7.4e-05
+          ],
+          [
+            "tryed",
+            -6.9e-05
+          ],
+          [
+            "error",
+            -4.8e-05
+          ],
+          [
+            "using",
+            4.3e-05
+          ],
+          [
+            "not",
+            -2.1e-05
+          ],
+          [
+            "pop",
+            1.9e-05
+          ],
+          [
+            "random",
+            -3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13198602199554443,
+          "max": 0.9999900460243225,
+          "std": 0.25277289748191833
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.0005033751367591321,
+        "p_img": 0.0004721108125522733,
+        "delta_p_img": 3.126432420685887e-05,
+        "gradcam_mean": 0.4613184928894043,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 0.00032599508995190263,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.000143
+          ],
+          [
+            "zero",
+            -0.000109
+          ],
+          [
+            "letters",
+            -6.3e-05
+          ],
+          [
+            "give",
+            6.2e-05
+          ],
+          [
+            "not recommend",
+            -3.3e-05
+          ],
+          [
+            "random",
+            -2.7e-05
+          ],
+          [
+            "stars",
+            -1.6e-05
+          ],
+          [
+            "numbers",
+            7e-06
+          ],
+          [
+            "anyone",
+            6e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13223424553871155,
+          "max": 0.9999894499778748,
+          "std": 0.25320854783058167
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.0005519308033399284,
+        "p_img": 0.0005315605667419732,
+        "delta_p_img": 2.0370236597955227e-05,
+        "gradcam_mean": 0.4593612551689148,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 0.00038265238981693983,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.000232
+          ],
+          [
+            "wasting",
+            -0.000103
+          ],
+          [
+            "don't know",
+            -7.3e-05
+          ],
+          [
+            "middle",
+            -3e-05
+          ],
+          [
+            "press",
+            2.8e-05
+          ],
+          [
+            "sounds",
+            2.4e-05
+          ],
+          [
+            "download",
+            2.3e-05
+          ],
+          [
+            "downloaded",
+            -1.1e-05
+          ],
+          [
+            "back",
+            -5e-06
+          ],
+          [
+            "goes",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13184723258018494,
+          "max": 0.999990701675415,
+          "std": 0.2524969279766083
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Text",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.0008311372948810458,
+        "p_img": 0.0008618264691904187,
+        "delta_p_img": 3.06891743093729e-05,
+        "gradcam_mean": 0.4505293071269989,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Image",
+        "delta_p_img_shap": 0.0007000538753345609,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "didn't help",
+            -0.000176
+          ],
+          [
+            "fix",
+            -0.00015
+          ],
+          [
+            "kinds",
+            6.5e-05
+          ],
+          [
+            "not algebra",
+            4.6e-05
+          ],
+          [
+            "help",
+            4.1e-05
+          ],
+          [
+            "answer",
+            -1.6e-05
+          ],
+          [
+            "different",
+            1.6e-05
+          ],
+          [
+            "math",
+            1.4e-05
+          ],
+          [
+            "whatever",
+            1.1e-05
+          ],
+          [
+            "paper",
+            -1e-05
+          ],
+          [
+            "gave",
+            1e-05
+          ],
+          [
+            "kind",
+            8e-06
+          ],
+          [
+            "please",
+            5e-06
+          ],
+          [
+            "multiplication",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13242769241333008,
+          "max": 0.9999939799308777,
+          "std": 0.2532983422279358
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was labeled as bad with 100% confidence (confidently). The model attended to a small Image at the top-left, a small Image at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69161",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69161.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+    "prediction": 0.031871624290943146,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9681283757090569,
+    "gradcam_stats": {
+      "mean": 0.29115912318229675,
+      "max": 1.0,
+      "std": 0.24854420125484467
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.031844042241573334,
+      "p_img": 0.10373283177614212,
+      "delta_p_img": 0.07188878953456879
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          0,
+          17,
+          9
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          112,
+          112
+        ],
+        "score_total": 50.59918212890625,
+        "score_mean": 0.33071360868566174
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 14590.2822265625,
+        "score_mean": 0.3116516196719604
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 50.59918212890625,
+        "score_mean": 0.33071360868566174,
+        "bounds_image": [
+          0,
+          0,
+          17,
+          9
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 14590.2822265625,
+        "score_mean": 0.3116516196719604,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 50.59918212890625,
+        "score_mean": 0.33071360868566174,
+        "bounds_image": [
+          0,
+          0,
+          17,
+          9
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          112,
+          112
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "score_total": 14590.2822265625,
+        "score_mean": 0.3116516196719604,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.031844042241573334,
+        "p_img": 0.10373283177614212,
+        "delta_p_img": 0.07188878953456879,
+        "gradcam_mean": 0.29115912318229675,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View",
+        "delta_p_img_shap": 0.07188878953456879,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.084652
+          ],
+          [
+            "always",
+            0.023563
+          ],
+          [
+            "bug",
+            -0.020138
+          ],
+          [
+            "problems",
+            -0.014695
+          ],
+          [
+            "not solutions",
+            -0.011065
+          ],
+          [
+            "believe",
+            0.00871
+          ],
+          [
+            "change",
+            -0.005246
+          ],
+          [
+            "please",
+            -0.004612
+          ],
+          [
+            "result",
+            0.002294
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0757509171962738,
+          "max": 0.9999997019767761,
+          "std": 0.18384550511837006
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.0457862913608551,
+        "p_img": 0.12104995548725128,
+        "delta_p_img": 0.07526366412639618,
+        "gradcam_mean": 0.28057312965393066,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View",
+        "delta_p_img_shap": 0.07526366412639618,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tryed",
+            -0.028035
+          ],
+          [
+            "problem",
+            -0.023581
+          ],
+          [
+            "bad",
+            -0.019535
+          ],
+          [
+            "using",
+            0.012155
+          ],
+          [
+            "error",
+            -0.011805
+          ],
+          [
+            "not",
+            -0.00738
+          ],
+          [
+            "pop",
+            0.003612
+          ],
+          [
+            "random",
+            -0.001134
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07781631499528885,
+          "max": 0.9999997019767761,
+          "std": 0.1870787888765335
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.044244419783353806,
+        "p_img": 0.11711271852254868,
+        "delta_p_img": 0.07286829873919487,
+        "gradcam_mean": 0.27547183632850647,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View",
+        "delta_p_img_shap": 0.07286829873919487,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "zero",
+            -0.040914
+          ],
+          [
+            "horrible",
+            -0.039128
+          ],
+          [
+            "letters",
+            -0.02107
+          ],
+          [
+            "not recommend",
+            -0.017008
+          ],
+          [
+            "give",
+            0.015973
+          ],
+          [
+            "random",
+            -0.008297
+          ],
+          [
+            "stars",
+            -0.002846
+          ],
+          [
+            "numbers",
+            0.001612
+          ],
+          [
+            "anyone",
+            -0.000382
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07894615083932877,
+          "max": 0.9999997019767761,
+          "std": 0.18930193781852722
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.05683575198054314,
+        "p_img": 0.13109450042247772,
+        "delta_p_img": 0.07425874844193459,
+        "gradcam_mean": 0.27139919996261597,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View",
+        "delta_p_img_shap": 0.07425874844193459,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.08457
+          ],
+          [
+            "don't know",
+            -0.03975
+          ],
+          [
+            "wasting",
+            -0.027492
+          ],
+          [
+            "middle",
+            -0.011223
+          ],
+          [
+            "download",
+            0.010085
+          ],
+          [
+            "sounds",
+            0.009819
+          ],
+          [
+            "back",
+            -0.0032
+          ],
+          [
+            "press",
+            0.00247
+          ],
+          [
+            "goes",
+            0.001299
+          ],
+          [
+            "downloaded",
+            -0.00116
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08154875040054321,
+          "max": 0.9999997615814209,
+          "std": 0.19352947175502777
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.09337250143289566,
+        "p_img": 0.1614457070827484,
+        "delta_p_img": 0.06807320564985275,
+        "gradcam_mean": 0.24870267510414124,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Web View",
+        "delta_p_img_shap": 0.06807320564985275,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.074583
+          ],
+          [
+            "didn't help",
+            -0.058156
+          ],
+          [
+            "kinds",
+            0.025179
+          ],
+          [
+            "help",
+            0.014415
+          ],
+          [
+            "paper",
+            -0.013406
+          ],
+          [
+            "not algebra",
+            0.0066
+          ],
+          [
+            "gave",
+            0.006281
+          ],
+          [
+            "whatever",
+            0.002545
+          ],
+          [
+            "math",
+            -0.002394
+          ],
+          [
+            "kind",
+            0.001408
+          ],
+          [
+            "multiplication",
+            0.000979
+          ],
+          [
+            "please",
+            -0.000344
+          ],
+          [
+            "different",
+            -4.5e-05
+          ],
+          [
+            "answer",
+            -4.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08904629200696945,
+          "max": 0.9999998211860657,
+          "std": 0.21085432171821594
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 97% confidence.",
+      "simple": "This screen was classified as bad with 97% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was classified as bad with 97% confidence (with high confidence). The model focused on a small Icon at the top-left, and a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69162",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69162.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+    "prediction": 0.004152132663875818,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9958478673361242,
+    "gradcam_stats": {
+      "mean": 0.45405709743499756,
+      "max": 1.0,
+      "std": 0.25376027822494507
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.004159772302955389,
+      "p_img": 0.04985222592949867,
+      "delta_p_img": 0.04569245362654328
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          24,
+          135,
+          199,
+          144
+        ],
+        "bounds_rico": [
+          160,
+          1554,
+          1280,
+          1657
+        ],
+        "score_total": 1256.593505859375,
+        "score_mean": 0.7978371465773809
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          52,
+          89,
+          171,
+          128
+        ],
+        "bounds_rico": [
+          340,
+          1028,
+          1100,
+          1466
+        ],
+        "score_total": 3216.78759765625,
+        "score_mean": 0.6931238090187998
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          53,
+          144,
+          170,
+          183
+        ],
+        "bounds_rico": [
+          341,
+          1657,
+          1099,
+          2096
+        ],
+        "score_total": 2932.240234375,
+        "score_mean": 0.6426123678227044
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 1256.593505859375,
+        "score_mean": 0.7978371465773809,
+        "bounds_image": [
+          24,
+          135,
+          199,
+          144
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 3216.78759765625,
+        "score_mean": 0.6931238090187998,
+        "bounds_image": [
+          52,
+          89,
+          171,
+          128
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 2932.240234375,
+        "score_mean": 0.6426123678227044,
+        "bounds_image": [
+          53,
+          144,
+          170,
+          183
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 1256.593505859375,
+        "score_mean": 0.7978371465773809,
+        "bounds_image": [
+          24,
+          135,
+          199,
+          144
+        ],
+        "bounds_rico": [
+          160,
+          1554,
+          1280,
+          1657
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 3216.78759765625,
+        "score_mean": 0.6931238090187998,
+        "bounds_image": [
+          52,
+          89,
+          171,
+          128
+        ],
+        "bounds_rico": [
+          340,
+          1028,
+          1100,
+          1466
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 2932.240234375,
+        "score_mean": 0.6426123678227044,
+        "bounds_image": [
+          53,
+          144,
+          170,
+          183
+        ],
+        "bounds_rico": [
+          341,
+          1657,
+          1099,
+          2096
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 650.236328125,
+        "score_mean": 0.4128484623015873,
+        "bounds_image": [
+          24,
+          80,
+          199,
+          89
+        ],
+        "bounds_rico": [
+          160,
+          925,
+          1280,
+          1028
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 931.4859619140625,
+        "score_mean": 0.3044071770960989,
+        "bounds_image": [
+          35,
+          53,
+          188,
+          73
+        ],
+        "bounds_rico": [
+          230,
+          606,
+          1210,
+          837
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 387.2913818359375,
+        "score_mean": 0.24589929005456349,
+        "bounds_image": [
+          24,
+          39,
+          199,
+          48
+        ],
+        "bounds_rico": [
+          160,
+          450,
+          1280,
+          553
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 26.579574584960938,
+        "score_mean": 0.1858711509437828,
+        "bounds_image": [
+          202,
+          192,
+          215,
+          203
+        ],
+        "bounds_rico": [
+          1303,
+          2196,
+          1387,
+          2322
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.004159772302955389,
+        "p_img": 0.04985222592949867,
+        "delta_p_img": 0.04569245362654328,
+        "gradcam_mean": 0.45405709743499756,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.04569245362654328,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.004146
+          ],
+          [
+            "bug",
+            -0.001332
+          ],
+          [
+            "always",
+            0.000927
+          ],
+          [
+            "problems",
+            -0.000825
+          ],
+          [
+            "not solutions",
+            -0.000592
+          ],
+          [
+            "believe",
+            0.00028
+          ],
+          [
+            "change",
+            -0.000221
+          ],
+          [
+            "result",
+            8.2e-05
+          ],
+          [
+            "please",
+            -7.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1482030749320984,
+          "max": 0.9999998807907104,
+          "std": 0.27204057574272156
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.005498779006302357,
+        "p_img": 0.07089606672525406,
+        "delta_p_img": 0.0653972877189517,
+        "gradcam_mean": 0.4470292627811432,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.0653972877189517,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.001338
+          ],
+          [
+            "problem",
+            -0.001335
+          ],
+          [
+            "tryed",
+            -0.00125
+          ],
+          [
+            "error",
+            -0.000797
+          ],
+          [
+            "using",
+            0.000677
+          ],
+          [
+            "not",
+            -0.000394
+          ],
+          [
+            "pop",
+            0.000243
+          ],
+          [
+            "random",
+            -5.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15111668407917023,
+          "max": 0.9999999403953552,
+          "std": 0.27705398201942444
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.005313583184033632,
+        "p_img": 0.06469323486089706,
+        "delta_p_img": 0.05937965167686343,
+        "gradcam_mean": 0.4494532644748688,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.05937965167686343,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.002344
+          ],
+          [
+            "zero",
+            -0.002049
+          ],
+          [
+            "letters",
+            -0.00108
+          ],
+          [
+            "give",
+            0.001015
+          ],
+          [
+            "not recommend",
+            -0.000921
+          ],
+          [
+            "random",
+            -0.000385
+          ],
+          [
+            "numbers",
+            0.000172
+          ],
+          [
+            "anyone",
+            0.000111
+          ],
+          [
+            "stars",
+            -0.000104
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14974217116832733,
+          "max": 0.9999999403953552,
+          "std": 0.2752414643764496
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.006509704515337944,
+        "p_img": 0.08141002058982849,
+        "delta_p_img": 0.07490031607449055,
+        "gradcam_mean": 0.44529440999031067,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.07490031607449055,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.004534
+          ],
+          [
+            "don't know",
+            -0.001923
+          ],
+          [
+            "wasting",
+            -0.00136
+          ],
+          [
+            "sounds",
+            0.000514
+          ],
+          [
+            "press",
+            0.00047
+          ],
+          [
+            "download",
+            0.000455
+          ],
+          [
+            "middle",
+            -0.000432
+          ],
+          [
+            "back",
+            -0.000146
+          ],
+          [
+            "downloaded",
+            0.000116
+          ],
+          [
+            "goes",
+            2.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15056025981903076,
+          "max": 0.9999999403953552,
+          "std": 0.27715733647346497
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.01016176026314497,
+        "p_img": 0.1366988718509674,
+        "delta_p_img": 0.12653711158782244,
+        "gradcam_mean": 0.4019719660282135,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.07632232923060656,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.003592
+          ],
+          [
+            "didn't help",
+            -0.003039
+          ],
+          [
+            "kinds",
+            0.001178
+          ],
+          [
+            "not algebra",
+            0.001006
+          ],
+          [
+            "help",
+            0.000882
+          ],
+          [
+            "kind",
+            0.000465
+          ],
+          [
+            "paper",
+            -0.000451
+          ],
+          [
+            "gave",
+            0.00018
+          ],
+          [
+            "math",
+            0.00018
+          ],
+          [
+            "please",
+            0.000115
+          ],
+          [
+            "whatever",
+            9.5e-05
+          ],
+          [
+            "multiplication",
+            7.6e-05
+          ],
+          [
+            "different",
+            2e-06
+          ],
+          [
+            "answer",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15630142390727997,
+          "max": 0.9999999403953552,
+          "std": 0.2739991545677185
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Text at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was labeled as bad with 100% confidence (confidently). The model attended to a small Text at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69164",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69164.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This app is useless and cannot even work out simple additions. It is such a waste of time to download and it is nothing like the ads",
+    "prediction": 0.0004244801530148834,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9995755198469851,
+    "gradcam_stats": {
+      "mean": 0.4277016520500183,
+      "max": 1.0,
+      "std": 0.22643285989761353
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.0004267841577529907,
+      "p_img": 0.0016433772398158908,
+      "delta_p_img": 0.0012165930820629
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "bounds_image": [
+          3,
+          44,
+          220,
+          163
+        ],
+        "bounds_rico": [
+          21,
+          504,
+          1419,
+          1867
+        ],
+        "score_total": 14338.583984375,
+        "score_mean": 0.5552640663120086
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          3,
+          164,
+          220,
+          176
+        ],
+        "bounds_rico": [
+          21,
+          1881,
+          1419,
+          2021
+        ],
+        "score_total": 1441.52685546875,
+        "score_mean": 0.5535817417314708
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          113,
+          178,
+          220,
+          192
+        ],
+        "bounds_rico": [
+          727,
+          2035,
+          1419,
+          2196
+        ],
+        "score_total": 716.031494140625,
+        "score_mean": 0.47799165162925566
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Web View",
+        "score_total": 14338.583984375,
+        "score_mean": 0.5552640663120086,
+        "bounds_image": [
+          3,
+          44,
+          220,
+          163
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1441.52685546875,
+        "score_mean": 0.5535817417314708,
+        "bounds_image": [
+          3,
+          164,
+          220,
+          176
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 716.031494140625,
+        "score_mean": 0.47799165162925566,
+        "bounds_image": [
+          113,
+          178,
+          220,
+          192
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Web View",
+        "score_total": 14338.583984375,
+        "score_mean": 0.5552640663120086,
+        "bounds_image": [
+          3,
+          44,
+          220,
+          163
+        ],
+        "bounds_rico": [
+          21,
+          504,
+          1419,
+          1867
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1441.52685546875,
+        "score_mean": 0.5535817417314708,
+        "bounds_image": [
+          3,
+          164,
+          220,
+          176
+        ],
+        "bounds_rico": [
+          21,
+          1881,
+          1419,
+          2021
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 716.031494140625,
+        "score_mean": 0.47799165162925566,
+        "bounds_image": [
+          113,
+          178,
+          220,
+          192
+        ],
+        "bounds_rico": [
+          727,
+          2035,
+          1419,
+          2196
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 636.9820556640625,
+        "score_mean": 0.4252216659973715,
+        "bounds_image": [
+          3,
+          178,
+          110,
+          192
+        ],
+        "bounds_rico": [
+          21,
+          2035,
+          713,
+          2196
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text Button",
+        "score_total": 516.9534912109375,
+        "score_mean": 0.3450957885253254,
+        "bounds_image": [
+          113,
+          193,
+          220,
+          207
+        ],
+        "bounds_rico": [
+          727,
+          2210,
+          1419,
+          2371
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text Button",
+        "score_total": 515.346435546875,
+        "score_mean": 0.344022987681492,
+        "bounds_image": [
+          3,
+          193,
+          110,
+          207
+        ],
+        "bounds_rico": [
+          21,
+          2210,
+          713,
+          2371
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Web View",
+        "score_total": 501.52630615234375,
+        "score_mean": 0.1910576404389881,
+        "bounds_image": [
+          24,
+          28,
+          199,
+          43
+        ],
+        "bounds_rico": [
+          160,
+          322,
+          1280,
+          497
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 408.123046875,
+        "score_mean": 0.10448618711597542,
+        "bounds_image": [
+          3,
+          9,
+          220,
+          27
+        ],
+        "bounds_rico": [
+          21,
+          105,
+          1419,
+          315
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Web View, Text, Text Button",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.0004267841577529907,
+        "p_img": 0.0016433772398158908,
+        "delta_p_img": 0.0012165930820629,
+        "gradcam_mean": 0.4277016520500183,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.00039423627094947733,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.000389
+          ],
+          [
+            "bug",
+            -0.000121
+          ],
+          [
+            "always",
+            8.8e-05
+          ],
+          [
+            "problems",
+            -7.6e-05
+          ],
+          [
+            "not solutions",
+            -6e-05
+          ],
+          [
+            "change",
+            -2.4e-05
+          ],
+          [
+            "believe",
+            1.9e-05
+          ],
+          [
+            "result",
+            2e-06
+          ],
+          [
+            "please",
+            0.0
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09203453361988068,
+          "max": 0.9999984502792358,
+          "std": 0.20655855536460876
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Web View, Text Button",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.0005821138620376587,
+        "p_img": 0.0023392087314277887,
+        "delta_p_img": 0.00175709486939013,
+        "gradcam_mean": 0.4129289984703064,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.0005379122776503209,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000121
+          ],
+          [
+            "problem",
+            -0.000118
+          ],
+          [
+            "tryed",
+            -0.000109
+          ],
+          [
+            "error",
+            -7.2e-05
+          ],
+          [
+            "using",
+            7e-05
+          ],
+          [
+            "not",
+            -3.2e-05
+          ],
+          [
+            "pop",
+            2.4e-05
+          ],
+          [
+            "random",
+            -5e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09049345552921295,
+          "max": 0.9999988675117493,
+          "std": 0.2052503377199173
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Web View, Text Button",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.0005721085472032428,
+        "p_img": 0.002269773045554757,
+        "delta_p_img": 0.0016976644983515143,
+        "gradcam_mean": 0.41937053203582764,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.000528493503225036,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.000199
+          ],
+          [
+            "zero",
+            -0.000172
+          ],
+          [
+            "letters",
+            -0.000104
+          ],
+          [
+            "give",
+            7.2e-05
+          ],
+          [
+            "not recommend",
+            -6.5e-05
+          ],
+          [
+            "stars",
+            -2.2e-05
+          ],
+          [
+            "random",
+            -1.8e-05
+          ],
+          [
+            "numbers",
+            1.2e-05
+          ],
+          [
+            "anyone",
+            -3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08882290869951248,
+          "max": 0.9999988079071045,
+          "std": 0.20467843115329742
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Web View, Text Button",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.0006422026781365275,
+        "p_img": 0.0026812406722456217,
+        "delta_p_img": 0.002039037994109094,
+        "gradcam_mean": 0.42313307523727417,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.0005928902937739622,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.000457
+          ],
+          [
+            "don't know",
+            -0.000151
+          ],
+          [
+            "wasting",
+            -0.000136
+          ],
+          [
+            "sounds",
+            5.5e-05
+          ],
+          [
+            "middle",
+            -4.1e-05
+          ],
+          [
+            "download",
+            4e-05
+          ],
+          [
+            "press",
+            3e-05
+          ],
+          [
+            "back",
+            -1.3e-05
+          ],
+          [
+            "downloaded",
+            -7e-06
+          ],
+          [
+            "goes",
+            4e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08814696967601776,
+          "max": 0.9999990463256836,
+          "std": 0.2033728063106537
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Web View, Text Button",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.0010523649398237467,
+        "p_img": 0.004699842073023319,
+        "delta_p_img": 0.0036474771331995726,
+        "gradcam_mean": 0.4016403555870056,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.0009721059104776941,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "didn't help",
+            -0.00027
+          ],
+          [
+            "fix",
+            -0.000267
+          ],
+          [
+            "kinds",
+            0.000109
+          ],
+          [
+            "not algebra",
+            7.5e-05
+          ],
+          [
+            "help",
+            7.3e-05
+          ],
+          [
+            "math",
+            2.8e-05
+          ],
+          [
+            "answer",
+            -2.6e-05
+          ],
+          [
+            "different",
+            2.6e-05
+          ],
+          [
+            "paper",
+            -2.5e-05
+          ],
+          [
+            "whatever",
+            2e-05
+          ],
+          [
+            "kind",
+            1.7e-05
+          ],
+          [
+            "please",
+            1.5e-05
+          ],
+          [
+            "gave",
+            1.3e-05
+          ],
+          [
+            "multiplication",
+            7e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08649612218141556,
+          "max": 0.999999463558197,
+          "std": 0.2028837352991104
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Web View at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Web View at the top-left, a small Text at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69165",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69165.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This app is useless and cannot even work out simple additions. It is such a waste of time to download and it is nothing like the ads",
+    "prediction": 0.00041773845441639423,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9995822615455836,
+    "gradcam_stats": {
+      "mean": 0.4638274908065796,
+      "max": 1.0,
+      "std": 0.280472069978714
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.0004191804910078645,
+      "p_img": 0.0003998072352260351,
+      "delta_p_img": 1.9373255781829357e-05
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          102,
+          151,
+          121,
+          164
+        ],
+        "bounds_rico": [
+          657,
+          1728,
+          782,
+          1883
+        ],
+        "score_total": 228.6593017578125,
+        "score_mean": 0.9257461609628036
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          35,
+          141,
+          188,
+          149
+        ],
+        "bounds_rico": [
+          230,
+          1622,
+          1210,
+          1707
+        ],
+        "score_total": 1082.5933837890625,
+        "score_mean": 0.8844717187819138
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          10,
+          166,
+          213,
+          180
+        ],
+        "bounds_rico": [
+          70,
+          1904,
+          1370,
+          2062
+        ],
+        "score_total": 2313.11767578125,
+        "score_mean": 0.8139048824001583
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 228.6593017578125,
+        "score_mean": 0.9257461609628036,
+        "bounds_image": [
+          102,
+          151,
+          121,
+          164
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1082.5933837890625,
+        "score_mean": 0.8844717187819138,
+        "bounds_image": [
+          35,
+          141,
+          188,
+          149
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 2313.11767578125,
+        "score_mean": 0.8139048824001583,
+        "bounds_image": [
+          10,
+          166,
+          213,
+          180
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 228.6593017578125,
+        "score_mean": 0.9257461609628036,
+        "bounds_image": [
+          102,
+          151,
+          121,
+          164
+        ],
+        "bounds_rico": [
+          657,
+          1728,
+          782,
+          1883
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1082.5933837890625,
+        "score_mean": 0.8844717187819138,
+        "bounds_image": [
+          35,
+          141,
+          188,
+          149
+        ],
+        "bounds_rico": [
+          230,
+          1622,
+          1210,
+          1707
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 2313.11767578125,
+        "score_mean": 0.8139048824001583,
+        "bounds_image": [
+          10,
+          166,
+          213,
+          180
+        ],
+        "bounds_rico": [
+          70,
+          1904,
+          1370,
+          2062
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 2150.0087890625,
+        "score_mean": 0.7207538682743883,
+        "bounds_image": [
+          33,
+          115,
+          190,
+          134
+        ],
+        "bounds_rico": [
+          217,
+          1322,
+          1222,
+          1534
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 928.7474975585938,
+        "score_mean": 0.5896809508308531,
+        "bounds_image": [
+          24,
+          106,
+          199,
+          115
+        ],
+        "bounds_rico": [
+          160,
+          1219,
+          1280,
+          1322
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 68.34580993652344,
+        "score_mean": 0.4779427268288352,
+        "bounds_image": [
+          8,
+          192,
+          21,
+          203
+        ],
+        "bounds_rico": [
+          53,
+          2196,
+          137,
+          2322
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 1119.7034912109375,
+        "score_mean": 0.3962149650427946,
+        "bounds_image": [
+          33,
+          80,
+          190,
+          98
+        ],
+        "bounds_rico": [
+          217,
+          919,
+          1222,
+          1131
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 462.69012451171875,
+        "score_mean": 0.29377150762648807,
+        "bounds_image": [
+          24,
+          71,
+          199,
+          80
+        ],
+        "bounds_rico": [
+          160,
+          816,
+          1280,
+          919
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Icon",
+        "score_total": 35.96327590942383,
+        "score_mean": 0.2514914399260408,
+        "bounds_image": [
+          202,
+          192,
+          215,
+          203
+        ],
+        "bounds_rico": [
+          1303,
+          2196,
+          1387,
+          2322
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 460.03790283203125,
+        "score_mean": 0.21477026276005193,
+        "bounds_image": [
+          35,
+          49,
+          188,
+          63
+        ],
+        "bounds_rico": [
+          230,
+          570,
+          1210,
+          728
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 253.14915466308594,
+        "score_mean": 0.16072962200830854,
+        "bounds_image": [
+          24,
+          36,
+          199,
+          45
+        ],
+        "bounds_rico": [
+          160,
+          414,
+          1280,
+          517
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.0004191804910078645,
+        "p_img": 0.0003998072352260351,
+        "delta_p_img": 1.9373255781829357e-05,
+        "gradcam_mean": 0.4638274908065796,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Text",
+        "delta_p_img_shap": 0.0001338465081062168,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.00026
+          ],
+          [
+            "bug",
+            -8e-05
+          ],
+          [
+            "always",
+            5.2e-05
+          ],
+          [
+            "problems",
+            -4.5e-05
+          ],
+          [
+            "not solutions",
+            -3.9e-05
+          ],
+          [
+            "change",
+            -1e-05
+          ],
+          [
+            "result",
+            9e-06
+          ],
+          [
+            "believe",
+            9e-06
+          ],
+          [
+            "please",
+            3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13157503306865692,
+          "max": 0.9999863505363464,
+          "std": 0.2522313594818115
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.0005252988776192069,
+        "p_img": 0.0005073557840660214,
+        "delta_p_img": 1.7943093553185463e-05,
+        "gradcam_mean": 0.4590185582637787,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Text",
+        "delta_p_img_shap": 0.0001564777921885252,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -7.6e-05
+          ],
+          [
+            "problem",
+            -7.4e-05
+          ],
+          [
+            "tryed",
+            -6.9e-05
+          ],
+          [
+            "error",
+            -4.8e-05
+          ],
+          [
+            "using",
+            4.3e-05
+          ],
+          [
+            "not",
+            -2.1e-05
+          ],
+          [
+            "pop",
+            1.9e-05
+          ],
+          [
+            "random",
+            -3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13198602199554443,
+          "max": 0.9999900460243225,
+          "std": 0.25277289748191833
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.0005033751367591321,
+        "p_img": 0.0004918287741020322,
+        "delta_p_img": 1.1546362657099962e-05,
+        "gradcam_mean": 0.4613184928894043,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Text",
+        "delta_p_img_shap": 0.00015240191714838147,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.000143
+          ],
+          [
+            "zero",
+            -0.000109
+          ],
+          [
+            "letters",
+            -6.3e-05
+          ],
+          [
+            "give",
+            6.2e-05
+          ],
+          [
+            "not recommend",
+            -3.3e-05
+          ],
+          [
+            "random",
+            -2.7e-05
+          ],
+          [
+            "stars",
+            -1.6e-05
+          ],
+          [
+            "numbers",
+            7e-06
+          ],
+          [
+            "anyone",
+            6e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13223424553871155,
+          "max": 0.9999894499778748,
+          "std": 0.25320854783058167
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.0005519308033399284,
+        "p_img": 0.0005412782193161547,
+        "delta_p_img": 1.065258402377367e-05,
+        "gradcam_mean": 0.4593612551689148,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Text",
+        "delta_p_img_shap": 0.00016912759747356176,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.000232
+          ],
+          [
+            "wasting",
+            -0.000103
+          ],
+          [
+            "don't know",
+            -7.3e-05
+          ],
+          [
+            "middle",
+            -3e-05
+          ],
+          [
+            "press",
+            2.8e-05
+          ],
+          [
+            "sounds",
+            2.4e-05
+          ],
+          [
+            "download",
+            2.3e-05
+          ],
+          [
+            "downloaded",
+            -1.1e-05
+          ],
+          [
+            "back",
+            -5e-06
+          ],
+          [
+            "goes",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13184723258018494,
+          "max": 0.999990701675415,
+          "std": 0.2524969279766083
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.0008311372948810458,
+        "p_img": 0.0008302751812152565,
+        "delta_p_img": 8.621136657893658e-07,
+        "gradcam_mean": 0.4505293071269989,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Image, Text",
+        "delta_p_img_shap": 0.0002547986223362386,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "didn't help",
+            -0.000176
+          ],
+          [
+            "fix",
+            -0.00015
+          ],
+          [
+            "kinds",
+            6.5e-05
+          ],
+          [
+            "not algebra",
+            4.6e-05
+          ],
+          [
+            "help",
+            4.1e-05
+          ],
+          [
+            "answer",
+            -1.6e-05
+          ],
+          [
+            "different",
+            1.6e-05
+          ],
+          [
+            "math",
+            1.4e-05
+          ],
+          [
+            "whatever",
+            1.1e-05
+          ],
+          [
+            "paper",
+            -1e-05
+          ],
+          [
+            "gave",
+            1e-05
+          ],
+          [
+            "kind",
+            8e-06
+          ],
+          [
+            "please",
+            5e-06
+          ],
+          [
+            "multiplication",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13242769241333008,
+          "max": 0.9999939799308777,
+          "std": 0.2532983422279358
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69166",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69166.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+    "prediction": 0.003273461712524295,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9967265382874757,
+    "gradcam_stats": {
+      "mean": 0.4394999146461487,
+      "max": 1.0,
+      "std": 0.20041149854660034
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.0032708176877349615,
+      "p_img": 0.05623666197061539,
+      "delta_p_img": 0.052965844282880425
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          49,
+          149,
+          174,
+          183
+        ],
+        "bounds_rico": [
+          320,
+          1708,
+          1120,
+          2098
+        ],
+        "score_total": 3270.08251953125,
+        "score_mean": 0.7694311810661765
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          35,
+          127,
+          188,
+          141
+        ],
+        "bounds_rico": [
+          230,
+          1462,
+          1210,
+          1620
+        ],
+        "score_total": 1374.2357177734375,
+        "score_mean": 0.6415666282789158
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          42,
+          74,
+          181,
+          120
+        ],
+        "bounds_rico": [
+          274,
+          849,
+          1165,
+          1374
+        ],
+        "score_total": 2769.82763671875,
+        "score_mean": 0.43319168544240694
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 3270.08251953125,
+        "score_mean": 0.7694311810661765,
+        "bounds_image": [
+          49,
+          149,
+          174,
+          183
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1374.2357177734375,
+        "score_mean": 0.6415666282789158,
+        "bounds_image": [
+          35,
+          127,
+          188,
+          141
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 2769.82763671875,
+        "score_mean": 0.43319168544240694,
+        "bounds_image": [
+          42,
+          74,
+          181,
+          120
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 3270.08251953125,
+        "score_mean": 0.7694311810661765,
+        "bounds_image": [
+          49,
+          149,
+          174,
+          183
+        ],
+        "bounds_rico": [
+          320,
+          1708,
+          1120,
+          2098
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1374.2357177734375,
+        "score_mean": 0.6415666282789158,
+        "bounds_image": [
+          35,
+          127,
+          188,
+          141
+        ],
+        "bounds_rico": [
+          230,
+          1462,
+          1210,
+          1620
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 2769.82763671875,
+        "score_mean": 0.43319168544240694,
+        "bounds_image": [
+          42,
+          74,
+          181,
+          120
+        ],
+        "bounds_rico": [
+          274,
+          849,
+          1165,
+          1374
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 734.55078125,
+        "score_mean": 0.3429275355975724,
+        "bounds_image": [
+          35,
+          52,
+          188,
+          66
+        ],
+        "bounds_rico": [
+          230,
+          603,
+          1210,
+          761
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 514.9884033203125,
+        "score_mean": 0.3269767640128968,
+        "bounds_image": [
+          24,
+          39,
+          199,
+          48
+        ],
+        "bounds_rico": [
+          160,
+          447,
+          1280,
+          550
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 40.658668518066406,
+        "score_mean": 0.28432635327319167,
+        "bounds_image": [
+          202,
+          192,
+          215,
+          203
+        ],
+        "bounds_rico": [
+          1303,
+          2196,
+          1387,
+          2322
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 27.739784240722656,
+        "score_mean": 0.19398450517987872,
+        "bounds_image": [
+          8,
+          192,
+          21,
+          203
+        ],
+        "bounds_rico": [
+          53,
+          2196,
+          137,
+          2322
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.0032708176877349615,
+        "p_img": 0.05623666197061539,
+        "delta_p_img": 0.052965844282880425,
+        "gradcam_mean": 0.4394999146461487,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.052965844282880425,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.003435
+          ],
+          [
+            "bug",
+            -0.001076
+          ],
+          [
+            "always",
+            0.000804
+          ],
+          [
+            "problems",
+            -0.000703
+          ],
+          [
+            "not solutions",
+            -0.000512
+          ],
+          [
+            "change",
+            -0.000234
+          ],
+          [
+            "believe",
+            0.000224
+          ],
+          [
+            "please",
+            -9.8e-05
+          ],
+          [
+            "result",
+            4.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15625527501106262,
+          "max": 0.9999993443489075,
+          "std": 0.2504194974899292
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.004358148667961359,
+        "p_img": 0.08543052524328232,
+        "delta_p_img": 0.08107237657532096,
+        "gradcam_mean": 0.4621511995792389,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.08107237657532096,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "tryed",
+            -0.001087
+          ],
+          [
+            "bad",
+            -0.001006
+          ],
+          [
+            "problem",
+            -0.00099
+          ],
+          [
+            "error",
+            -0.000625
+          ],
+          [
+            "using",
+            0.000542
+          ],
+          [
+            "not",
+            -0.000299
+          ],
+          [
+            "pop",
+            0.000106
+          ],
+          [
+            "random",
+            -6.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15690547227859497,
+          "max": 0.9999995231628418,
+          "std": 0.2519906461238861
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.004137938842177391,
+        "p_img": 0.0784291923046112,
+        "delta_p_img": 0.07429125346243382,
+        "gradcam_mean": 0.43774908781051636,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.07429125346243382,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.001804
+          ],
+          [
+            "zero",
+            -0.001667
+          ],
+          [
+            "letters",
+            -0.000885
+          ],
+          [
+            "not recommend",
+            -0.000707
+          ],
+          [
+            "give",
+            0.000598
+          ],
+          [
+            "random",
+            -0.000335
+          ],
+          [
+            "stars",
+            -0.000169
+          ],
+          [
+            "numbers",
+            5.2e-05
+          ],
+          [
+            "anyone",
+            2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15695945918560028,
+          "max": 0.9999995231628418,
+          "std": 0.25202006101608276
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.004826660733669996,
+        "p_img": 0.09963317215442657,
+        "delta_p_img": 0.09480651142075658,
+        "gradcam_mean": 0.45414191484451294,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.09480651142075658,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.003529
+          ],
+          [
+            "don't know",
+            -0.001505
+          ],
+          [
+            "wasting",
+            -0.001348
+          ],
+          [
+            "middle",
+            -0.000387
+          ],
+          [
+            "sounds",
+            0.000383
+          ],
+          [
+            "download",
+            0.000366
+          ],
+          [
+            "press",
+            0.00025
+          ],
+          [
+            "back",
+            -0.000116
+          ],
+          [
+            "downloaded",
+            -6.5e-05
+          ],
+          [
+            "goes",
+            7e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15696224570274353,
+          "max": 0.9999995827674866,
+          "std": 0.2525591254234314
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Text, Image",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.007496302947402,
+        "p_img": 0.17692022025585175,
+        "delta_p_img": 0.16942391730844975,
+        "gradcam_mean": 0.44221702218055725,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Text",
+        "delta_p_img_shap": 0.35972549952566624,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.003254
+          ],
+          [
+            "didn't help",
+            -0.002419
+          ],
+          [
+            "kinds",
+            0.000997
+          ],
+          [
+            "not algebra",
+            0.000655
+          ],
+          [
+            "help",
+            0.000577
+          ],
+          [
+            "paper",
+            -0.000362
+          ],
+          [
+            "answer",
+            -0.000254
+          ],
+          [
+            "different",
+            0.000215
+          ],
+          [
+            "gave",
+            0.000157
+          ],
+          [
+            "math",
+            0.000123
+          ],
+          [
+            "whatever",
+            0.000105
+          ],
+          [
+            "kind",
+            7e-05
+          ],
+          [
+            "please",
+            -3.2e-05
+          ],
+          [
+            "multiplication",
+            2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16031256318092346,
+          "max": 0.9999996423721313,
+          "std": 0.25562143325805664
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Image at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was labeled as bad with 100% confidence (confidently). The model attended to a small Image at the top-left, a small Text at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.s2dio.automath",
+    "screen_id": "69167",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\69167.jpg",
+    "text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼 It doesn't work at all it just shows random numbers and letters This app is useless and cannot even work out simple additions. It is such a waste of time to download and it is nothing like the ads",
+    "prediction": 0.00041773845441639423,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9995822615455836,
+    "gradcam_stats": {
+      "mean": 0.4638274908065796,
+      "max": 1.0,
+      "std": 0.280472069978714
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+      "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+      "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+      "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+      "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was"
+    ],
+    "app_name": "AutoMath Photo Calculator",
+    "category": "Education",
+    "faithfulness": {
+      "p_orig": 0.0004191804910078645,
+      "p_img": 0.0005883984849788249,
+      "delta_p_img": 0.00016921799397096038
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          60,
+          147,
+          154,
+          154
+        ],
+        "bounds_rico": [
+          387,
+          1690,
+          994,
+          1766
+        ],
+        "score_total": 615.3211669921875,
+        "score_mean": 0.9351385516598594
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          60,
+          138,
+          146,
+          145
+        ],
+        "bounds_rico": [
+          387,
+          1586,
+          943,
+          1662
+        ],
+        "score_total": 551.8724365234375,
+        "score_mean": 0.916731622131956
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          24,
+          163,
+          199,
+          170
+        ],
+        "bounds_rico": [
+          160,
+          1864,
+          1280,
+          1949
+        ],
+        "score_total": 1057.134033203125,
+        "score_mean": 0.8629665577168367
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 615.3211669921875,
+        "score_mean": 0.9351385516598594,
+        "bounds_image": [
+          60,
+          147,
+          154,
+          154
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 551.8724365234375,
+        "score_mean": 0.916731622131956,
+        "bounds_image": [
+          60,
+          138,
+          146,
+          145
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1057.134033203125,
+        "score_mean": 0.8629665577168367,
+        "bounds_image": [
+          24,
+          163,
+          199,
+          170
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 615.3211669921875,
+        "score_mean": 0.9351385516598594,
+        "bounds_image": [
+          60,
+          147,
+          154,
+          154
+        ],
+        "bounds_rico": [
+          387,
+          1690,
+          994,
+          1766
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 551.8724365234375,
+        "score_mean": 0.916731622131956,
+        "bounds_image": [
+          60,
+          138,
+          146,
+          145
+        ],
+        "bounds_rico": [
+          387,
+          1586,
+          943,
+          1662
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 1057.134033203125,
+        "score_mean": 0.8629665577168367,
+        "bounds_image": [
+          24,
+          163,
+          199,
+          170
+        ],
+        "bounds_rico": [
+          160,
+          1864,
+          1280,
+          1949
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 1752.896484375,
+        "score_mean": 0.8347126116071428,
+        "bounds_image": [
+          24,
+          172,
+          199,
+          184
+        ],
+        "bounds_rico": [
+          160,
+          1970,
+          1280,
+          2112
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 524.8676147460938,
+        "score_mean": 0.8239679980315443,
+        "bounds_image": [
+          60,
+          129,
+          151,
+          136
+        ],
+        "bounds_rico": [
+          387,
+          1482,
+          972,
+          1558
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 471.7818908691406,
+        "score_mean": 0.7325805758837587,
+        "bounds_image": [
+          60,
+          120,
+          152,
+          127
+        ],
+        "bounds_rico": [
+          387,
+          1378,
+          980,
+          1454
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 445.7430725097656,
+        "score_mean": 0.6367758178710937,
+        "bounds_image": [
+          60,
+          111,
+          160,
+          118
+        ],
+        "bounds_rico": [
+          387,
+          1274,
+          1032,
+          1350
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 286.5504150390625,
+        "score_mean": 0.560764021602862,
+        "bounds_image": [
+          60,
+          102,
+          133,
+          109
+        ],
+        "bounds_rico": [
+          387,
+          1170,
+          858,
+          1246
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 68.34580993652344,
+        "score_mean": 0.4779427268288352,
+        "bounds_image": [
+          8,
+          192,
+          21,
+          203
+        ],
+        "bounds_rico": [
+          53,
+          2196,
+          137,
+          2322
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 240.96482849121094,
+        "score_mean": 0.4512449971745523,
+        "bounds_image": [
+          60,
+          93,
+          149,
+          99
+        ],
+        "bounds_rico": [
+          387,
+          1066,
+          964,
+          1142
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 432.23046875,
+        "score_mean": 0.3528411989795918,
+        "bounds_image": [
+          24,
+          81,
+          199,
+          88
+        ],
+        "bounds_rico": [
+          160,
+          928,
+          1280,
+          1013
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 285.9744873046875,
+        "score_mean": 0.2524046666413835,
+        "bounds_image": [
+          60,
+          65,
+          163,
+          76
+        ],
+        "bounds_rico": [
+          389,
+          749,
+          1050,
+          875
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 499.2532958984375,
+        "score_mean": 0.16878069502989773,
+        "bounds_image": [
+          68,
+          28,
+          155,
+          62
+        ],
+        "bounds_rico": [
+          439,
+          329,
+          1001,
+          714
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Image",
+        "score_total": 35.2830810546875,
+        "score_mean": 0.0669508179405835,
+        "bounds_image": [
+          193,
+          7,
+          224,
+          24
+        ],
+        "bounds_rico": [
+          1247,
+          84,
+          1440,
+          277
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Very"
+      },
+      {
+        "index": 36,
+        "token": "▁interface"
+      },
+      {
+        "index": 34,
+        "token": "🏼"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 18,
+        "review_source": "cache",
+        "review_text": "Very inaccurate result always and not have solutions for many problems... PLEASE BELIEVE ME... CHANGE THIS BUG.. 🙏🏼🙏🏼🙏🏼🙏🏼",
+        "word_count": 18,
+        "interface_pos": 0.002,
+        "interface_neg": 0.9926,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁Very, ▁interface, 🏼",
+        "p_orig": 0.0004191804910078645,
+        "p_img": 0.0005883984849788249,
+        "delta_p_img": 0.00016921799397096038,
+        "gradcam_mean": 0.4638274908065796,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.00015739232185296714,
+        "word_attention_top15": [
+          [
+            "🙏🏼🙏🏼🙏🏼🙏🏼",
+            0.288324
+          ],
+          [
+            "bug",
+            0.182061
+          ],
+          [
+            "problems",
+            0.158511
+          ],
+          [
+            "not solutions",
+            0.091275
+          ],
+          [
+            "inaccurate",
+            0.067332
+          ],
+          [
+            "please",
+            0.057485
+          ],
+          [
+            "change",
+            0.046314
+          ],
+          [
+            "result",
+            0.043639
+          ],
+          [
+            "always",
+            0.035453
+          ],
+          [
+            "believe",
+            0.029605
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "inaccurate",
+            -0.00026
+          ],
+          [
+            "bug",
+            -8e-05
+          ],
+          [
+            "always",
+            5.2e-05
+          ],
+          [
+            "problems",
+            -4.5e-05
+          ],
+          [
+            "not solutions",
+            -3.9e-05
+          ],
+          [
+            "change",
+            -1e-05
+          ],
+          [
+            "result",
+            9e-06
+          ],
+          [
+            "believe",
+            9e-06
+          ],
+          [
+            "please",
+            3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13157503306865692,
+          "max": 0.9999863505363464,
+          "std": 0.2522313594818115
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "it was so bad i tryed using it on a problem i made myself and then random error pop up which was not the answer.",
+        "word_count": 25,
+        "interface_pos": 0.0021,
+        "interface_neg": 0.9946,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁up, ▁it, ▁pop",
+        "p_orig": 0.0005252988776192069,
+        "p_img": 0.0007489134441129863,
+        "delta_p_img": 0.00022361456649377942,
+        "gradcam_mean": 0.4590185582637787,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.00019291113130748272,
+        "word_attention_top15": [
+          [
+            "not answer",
+            0.242055
+          ],
+          [
+            "pop",
+            0.150356
+          ],
+          [
+            "tryed",
+            0.137904
+          ],
+          [
+            "random",
+            0.107569
+          ],
+          [
+            "error",
+            0.103284
+          ],
+          [
+            "problem",
+            0.101826
+          ],
+          [
+            "bad",
+            0.081622
+          ],
+          [
+            "using",
+            0.075384
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -7.6e-05
+          ],
+          [
+            "problem",
+            -7.4e-05
+          ],
+          [
+            "tryed",
+            -6.9e-05
+          ],
+          [
+            "error",
+            -4.8e-05
+          ],
+          [
+            "using",
+            4.3e-05
+          ],
+          [
+            "not",
+            -2.1e-05
+          ],
+          [
+            "pop",
+            1.9e-05
+          ],
+          [
+            "random",
+            -3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13198602199554443,
+          "max": 0.9999900460243225,
+          "std": 0.25277289748191833
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This is a horrible app it will just give you random letters and numbers, would not recommend this to anyone, I would give this app zero stars if I could.",
+        "word_count": 30,
+        "interface_pos": 0.0036,
+        "interface_neg": 0.9868,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁not, ▁would, ▁numbers",
+        "p_orig": 0.0005033751367591321,
+        "p_img": 0.0007216325611807406,
+        "delta_p_img": 0.00021825742442160845,
+        "gradcam_mean": 0.4613184928894043,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.00018401481793262064,
+        "word_attention_top15": [
+          [
+            "not recommend",
+            0.272695
+          ],
+          [
+            "numbers",
+            0.139298
+          ],
+          [
+            "give",
+            0.115273
+          ],
+          [
+            "letters",
+            0.088208
+          ],
+          [
+            "zero",
+            0.085805
+          ],
+          [
+            "horrible",
+            0.082812
+          ],
+          [
+            "anyone",
+            0.079905
+          ],
+          [
+            "stars",
+            0.073469
+          ],
+          [
+            "random",
+            0.062535
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "horrible",
+            -0.000143
+          ],
+          [
+            "zero",
+            -0.000109
+          ],
+          [
+            "letters",
+            -6.3e-05
+          ],
+          [
+            "give",
+            6.2e-05
+          ],
+          [
+            "not recommend",
+            -3.3e-05
+          ],
+          [
+            "random",
+            -2.7e-05
+          ],
+          [
+            "stars",
+            -1.6e-05
+          ],
+          [
+            "numbers",
+            7e-06
+          ],
+          [
+            "anyone",
+            6e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13223424553871155,
+          "max": 0.9999894499778748,
+          "std": 0.25320854783058167
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 17,
+        "review_source": "cache",
+        "review_text": "why when I press in the middle then it sounds and it goes back to where I downloaded it then I don't know what's good about this app why did I download it it's just wasting my time",
+        "word_count": 38,
+        "interface_pos": 0.0069,
+        "interface_neg": 0.9278,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁it, ▁wasting, ▁don",
+        "p_orig": 0.0005519308033399284,
+        "p_img": 0.0007895548478700221,
+        "delta_p_img": 0.00023762404453009367,
+        "gradcam_mean": 0.4593612551689148,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.00020154850790277123,
+        "word_attention_top15": [
+          [
+            "don't know",
+            0.405049
+          ],
+          [
+            "wasting",
+            0.13983
+          ],
+          [
+            "time",
+            0.07187
+          ],
+          [
+            "press",
+            0.067049
+          ],
+          [
+            "sounds",
+            0.063316
+          ],
+          [
+            "good",
+            0.056028
+          ],
+          [
+            "download",
+            0.046268
+          ],
+          [
+            "goes",
+            0.043121
+          ],
+          [
+            "middle",
+            0.043081
+          ],
+          [
+            "downloaded",
+            0.034788
+          ],
+          [
+            "back",
+            0.029598
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "good",
+            0.000232
+          ],
+          [
+            "wasting",
+            -0.000103
+          ],
+          [
+            "don't know",
+            -7.3e-05
+          ],
+          [
+            "middle",
+            -3e-05
+          ],
+          [
+            "press",
+            2.8e-05
+          ],
+          [
+            "sounds",
+            2.4e-05
+          ],
+          [
+            "download",
+            2.3e-05
+          ],
+          [
+            "downloaded",
+            -1.1e-05
+          ],
+          [
+            "back",
+            -5e-06
+          ],
+          [
+            "goes",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13184723258018494,
+          "max": 0.999990701675415,
+          "std": 0.2524969279766083
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "This app didn't help me, it gave me a way different answer than the Multiplication on the paper I have, please fix this app to help with all kinds of math and not just Algebra, or whatever kind of math that was",
+        "word_count": 42,
+        "interface_pos": 0.0072,
+        "interface_neg": 0.9824,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁kinds, ▁and, ▁Algebra",
+        "p_orig": 0.0008311372948810458,
+        "p_img": 0.0012315958738327026,
+        "delta_p_img": 0.0004004585789516568,
+        "gradcam_mean": 0.4505293071269989,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Text",
+        "delta_p_img_shap": 0.00029337109299376607,
+        "word_attention_top15": [
+          [
+            "kinds",
+            0.252132
+          ],
+          [
+            "not algebra",
+            0.200986
+          ],
+          [
+            "didn't help",
+            0.139874
+          ],
+          [
+            "math",
+            0.137443
+          ],
+          [
+            "kind",
+            0.066024
+          ],
+          [
+            "paper",
+            0.038223
+          ],
+          [
+            "help",
+            0.033628
+          ],
+          [
+            "whatever",
+            0.028393
+          ],
+          [
+            "fix",
+            0.020852
+          ],
+          [
+            "multiplication",
+            0.018976
+          ],
+          [
+            "different",
+            0.018853
+          ],
+          [
+            "gave",
+            0.018413
+          ],
+          [
+            "please",
+            0.016196
+          ],
+          [
+            "answer",
+            0.010006
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "didn't help",
+            -0.000176
+          ],
+          [
+            "fix",
+            -0.00015
+          ],
+          [
+            "kinds",
+            6.5e-05
+          ],
+          [
+            "not algebra",
+            4.6e-05
+          ],
+          [
+            "help",
+            4.1e-05
+          ],
+          [
+            "answer",
+            -1.6e-05
+          ],
+          [
+            "different",
+            1.6e-05
+          ],
+          [
+            "math",
+            1.4e-05
+          ],
+          [
+            "whatever",
+            1.1e-05
+          ],
+          [
+            "paper",
+            -1e-05
+          ],
+          [
+            "gave",
+            1e-05
+          ],
+          [
+            "kind",
+            8e-06
+          ],
+          [
+            "please",
+            5e-06
+          ],
+          [
+            "multiplication",
+            1e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.13242769241333008,
+          "max": 0.9999939799308777,
+          "std": 0.2532983422279358
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of AutoMath Photo Calculator (category: Education) was classified as bad with 100% confidence (with high confidence). The model focused on a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  }
+]

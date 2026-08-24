@@ -1,0 +1,366 @@
+{
+  "package_name": "com.digit64.vehicle.rto",
+  "num_screens": 4,
+  "app_score": 0.2725236073893029,
+  "app_prediction": "bad",
+  "app_confidence": 0.7274763926106971,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0812787115573883,
+    0.0699051097035408,
+    0.001260404591448605,
+    0.937650203704834
+  ],
+  "prediction_variance": 0.14840149502615707,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_digit64_vehicle_rto\\com_digit64_vehicle_rto_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.digit64.vehicle.rto was predicted as bad with average confidence 73% across 4 screens.",
+    "simple": "com.digit64.vehicle.rto was predicted as bad with average confidence 73% across 4 screens. Across these screens, the model frequently emphasized Text components.",
+    "detailed": "com.digit64.vehicle.rto was predicted as bad with average confidence 73% across 4 screens. Across these screens, the model frequently emphasized Text components. Per-screen predictions varied substantially (variance 0.15), suggesting the app shows mixed visual or textual signals. The most recurring salient components were: Text (5x), Text Button (2x), Input (1x). The most influential review words across screens were 'connectivity', 'ads..!!.this', 'connection', 'fcuk', and 'blowfish'. The app belongs to the Auto & Vehicles category and was analyzed across 4 screens."
+  },
+  "representative_screen": {
+    "screen_id": "35409",
+    "review_rank": 2,
+    "delta_p_img": 0.42088577151298523,
+    "confidence": 0.937650203704834,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\35409.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "connectivity",
+      1.367615
+    ],
+    [
+      "ads..!!.this",
+      1.256639
+    ],
+    [
+      "connection",
+      0.985905
+    ],
+    [
+      "fcuk",
+      0.891106
+    ],
+    [
+      "blowfish",
+      0.852281
+    ],
+    [
+      "but......now....it's",
+      0.719507
+    ],
+    [
+      "wrong",
+      0.716311
+    ],
+    [
+      "thanks",
+      0.640726
+    ],
+    [
+      "hi",
+      0.630723
+    ],
+    [
+      "rego",
+      0.575446
+    ],
+    [
+      "blows",
+      0.561262
+    ],
+    [
+      "no",
+      0.530157
+    ],
+    [
+      "ads",
+      0.472654
+    ],
+    [
+      "no owners",
+      0.471379
+    ],
+    [
+      "chucky",
+      0.460866
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "but......now....it's",
+      -0.323247
+    ],
+    [
+      "fcuk",
+      -0.295036
+    ],
+    [
+      "not real",
+      -0.261878
+    ],
+    [
+      "thanks",
+      0.250987
+    ],
+    [
+      "works",
+      0.228588
+    ],
+    [
+      "------error",
+      -0.218284
+    ],
+    [
+      "instant",
+      0.214397
+    ],
+    [
+      "not opening",
+      -0.114536
+    ],
+    [
+      "couldnt",
+      -0.099896
+    ],
+    [
+      "garbage",
+      -0.089334
+    ],
+    [
+      "bad",
+      -0.087091
+    ],
+    [
+      "rubbish",
+      -0.086992
+    ],
+    [
+      "wrong",
+      0.083854
+    ],
+    [
+      "mentioned",
+      -0.078193
+    ],
+    [
+      "ads..!!.this",
+      0.060811
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "fcuk",
+      "rrf_score": 0.031754,
+      "rank_bahdanau": 4,
+      "rank_shap": 2,
+      "shap_signed": -0.295036,
+      "in_both": true
+    },
+    {
+      "word": "but......now....it's",
+      "rrf_score": 0.031545,
+      "rank_bahdanau": 6,
+      "rank_shap": 1,
+      "shap_signed": -0.323247,
+      "in_both": true
+    },
+    {
+      "word": "thanks",
+      "rrf_score": 0.030331,
+      "rank_bahdanau": 8,
+      "rank_shap": 4,
+      "shap_signed": 0.250987,
+      "in_both": true
+    },
+    {
+      "word": "ads..!!.this",
+      "rrf_score": 0.029462,
+      "rank_bahdanau": 2,
+      "rank_shap": 15,
+      "shap_signed": 0.060811,
+      "in_both": true
+    },
+    {
+      "word": "wrong",
+      "rrf_score": 0.028624,
+      "rank_bahdanau": 7,
+      "rank_shap": 13,
+      "shap_signed": 0.083854,
+      "in_both": true
+    },
+    {
+      "word": "connectivity",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not real",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.261878,
+      "in_both": false
+    },
+    {
+      "word": "connection",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "works",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.228588,
+      "in_both": false
+    },
+    {
+      "word": "blowfish",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "------error",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": -0.218284,
+      "in_both": false
+    },
+    {
+      "word": "instant",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": 0.214397,
+      "in_both": false
+    },
+    {
+      "word": "not opening",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.114536,
+      "in_both": false
+    },
+    {
+      "word": "couldnt",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": -0.099896,
+      "in_both": false
+    },
+    {
+      "word": "hi",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 0,
+      "text": "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name ."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 2,
+      "text": "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 1,
+      "text": "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 9,
+      "text": "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "connectivity",
+      1.367615
+    ],
+    [
+      "ads..!!.this",
+      1.256639
+    ],
+    [
+      "connection",
+      0.985905
+    ],
+    [
+      "fcuk",
+      0.891106
+    ],
+    [
+      "blowfish",
+      0.852281
+    ],
+    [
+      "but......now....it's",
+      0.719507
+    ],
+    [
+      "wrong",
+      0.716311
+    ],
+    [
+      "thanks",
+      0.640726
+    ],
+    [
+      "hi",
+      0.630723
+    ],
+    [
+      "rego",
+      0.575446
+    ],
+    [
+      "blows",
+      0.561262
+    ],
+    [
+      "no",
+      0.530157
+    ],
+    [
+      "ads",
+      0.472654
+    ],
+    [
+      "no owners",
+      0.471379
+    ],
+    [
+      "chucky",
+      0.460866
+    ]
+  ]
+}

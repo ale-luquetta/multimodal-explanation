@@ -1,0 +1,365 @@
+{
+  "package_name": "com.kauf.particle.virtualmatch",
+  "num_screens": 3,
+  "app_score": 0.0036423565664639077,
+  "app_prediction": "bad",
+  "app_confidence": 0.996357643433536,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0018460697028785944,
+    0.0025894897989928722,
+    0.006491510197520256
+  ],
+  "prediction_variance": 4.150950446565215e-06,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_kauf_particle_virtualmatch\\com_kauf_particle_virtualmatch_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.kauf.particle.virtualmatch was labeled as bad with average confidence 100% across 3 screens.",
+    "simple": "com.kauf.particle.virtualmatch was labeled as bad with average confidence 100% across 3 screens. Across these screens, the model consistently focused on Image components.",
+    "detailed": "com.kauf.particle.virtualmatch was labeled as bad with average confidence 100% across 3 screens. Across these screens, the model consistently focused on Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (2x), Text (2x), Web View (1x). The most influential review words across screens were 'ads', 'game', 'work.....plus', 'impressed', and 'adverts.....the'. The app belongs to the Lifestyle category and was analyzed across 3 screens."
+  },
+  "representative_screen": {
+    "screen_id": "44085",
+    "review_rank": 2,
+    "delta_p_img": 0.1591448299586773,
+    "confidence": 0.9935084898024797,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44085.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "ads",
+      2.532464
+    ],
+    [
+      "game",
+      1.242411
+    ],
+    [
+      "work.....plus",
+      1.107024
+    ],
+    [
+      "impressed",
+      0.915389
+    ],
+    [
+      "adverts.....the",
+      0.869144
+    ],
+    [
+      "fire",
+      0.558679
+    ],
+    [
+      "playing",
+      0.545595
+    ],
+    [
+      "sights",
+      0.409505
+    ],
+    [
+      "not able",
+      0.381243
+    ],
+    [
+      "frère",
+      0.34491
+    ],
+    [
+      "d'agneau",
+      0.310717
+    ],
+    [
+      "grace",
+      0.306681
+    ],
+    [
+      "squirrel",
+      0.288041
+    ],
+    [
+      "brought",
+      0.271149
+    ],
+    [
+      "yet",
+      0.269644
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "playing",
+      0.010577
+    ],
+    [
+      "wanted",
+      -0.010019
+    ],
+    [
+      "wish",
+      -0.008821
+    ],
+    [
+      "délicieux",
+      0.007773
+    ],
+    [
+      "doesnt",
+      -0.006543
+    ],
+    [
+      "merci",
+      0.005992
+    ],
+    [
+      "j'ai",
+      -0.005985
+    ],
+    [
+      "rid",
+      -0.005961
+    ],
+    [
+      "pecho",
+      0.005603
+    ],
+    [
+      "fire",
+      -0.005596
+    ],
+    [
+      "pu",
+      0.004979
+    ],
+    [
+      "manger",
+      0.004782
+    ],
+    [
+      "et",
+      0.004656
+    ],
+    [
+      "pay",
+      0.00462
+    ],
+    [
+      "free",
+      0.004545
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "playing",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 7,
+      "rank_shap": 1,
+      "shap_signed": 0.010577,
+      "in_both": true
+    },
+    {
+      "word": "fire",
+      "rrf_score": 0.029437,
+      "rank_bahdanau": 6,
+      "rank_shap": 10,
+      "shap_signed": -0.005596,
+      "in_both": true
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "wanted",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": -0.010019,
+      "in_both": false
+    },
+    {
+      "word": "game",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "wish",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.008821,
+      "in_both": false
+    },
+    {
+      "word": "work.....plus",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "impressed",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "délicieux",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.007773,
+      "in_both": false
+    },
+    {
+      "word": "adverts.....the",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "doesnt",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.006543,
+      "in_both": false
+    },
+    {
+      "word": "merci",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.005992,
+      "in_both": false
+    },
+    {
+      "word": "j'ai",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": -0.005985,
+      "in_both": false
+    },
+    {
+      "word": "sights",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "rid",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.005961,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 14,
+      "text": "Grace a la chandelle j'ai pu manger un délicieux gigot d'agneau et pecho mon frère, merci beaucoup ❤"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 0,
+      "text": "I like it. I wish there was a way to pay to get rid of ads... or you could make it free :)"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 2,
+      "text": "I just wanted a fire game and got so much more! I have been playing it and have been impressed."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": -1,
+      "text": "This game is full of adverts and when you finally get all the adverts.....the game doesnt work.....plus it only works once and never again"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "I was not able to use the app yet because of all the ads. I clicked on the ad for the squirrel game and was brought to some pretty nasty porn sights. This is crazy!"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "ads",
+      2.532464
+    ],
+    [
+      "game",
+      1.242411
+    ],
+    [
+      "work.....plus",
+      1.107024
+    ],
+    [
+      "impressed",
+      0.915389
+    ],
+    [
+      "adverts.....the",
+      0.869144
+    ],
+    [
+      "fire",
+      0.558679
+    ],
+    [
+      "playing",
+      0.545595
+    ],
+    [
+      "sights",
+      0.409505
+    ],
+    [
+      "not able",
+      0.381243
+    ],
+    [
+      "frère",
+      0.34491
+    ],
+    [
+      "d'agneau",
+      0.310717
+    ],
+    [
+      "grace",
+      0.306681
+    ],
+    [
+      "squirrel",
+      0.288041
+    ],
+    [
+      "brought",
+      0.271149
+    ],
+    [
+      "yet",
+      0.269644
+    ]
+  ]
+}

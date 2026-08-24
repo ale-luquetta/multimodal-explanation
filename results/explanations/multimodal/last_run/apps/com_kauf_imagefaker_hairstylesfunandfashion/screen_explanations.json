@@ -1,0 +1,3219 @@
+[
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesfunandfashion",
+    "screen_id": "4470",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\4470.jpg",
+    "text": "It kept not working and it wouldn't even let me do anything!!!!!!! It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app Awful Cuts your face off. Trash.",
+    "prediction": 0.0022740145213901997,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9977259854786098,
+    "gradcam_stats": {
+      "mean": 0.3872363567352295,
+      "max": 1.0,
+      "std": 0.2509348690509796
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not very good. Not realistic and no control of what styles I wanted to try.",
+      "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+      "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+      "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+      "This game is soooôooooo annoying every time I got on the game ads popped up"
+    ],
+    "app_name": "Hairstyles - Fun and Fashion",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.0022730182390660048,
+      "p_img": 0.17950968444347382,
+      "delta_p_img": 0.1772366662044078
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          113,
+          58,
+          154
+        ],
+        "bounds_rico": [
+          0,
+          1293,
+          374,
+          1767
+        ],
+        "score_total": 1497.84033203125,
+        "score_mean": 0.6298739831922834
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          58,
+          133,
+          224,
+          154
+        ],
+        "bounds_rico": [
+          374,
+          1530,
+          1440,
+          1767
+        ],
+        "score_total": 2015.5650634765625,
+        "score_mean": 0.5781884863673443
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          161,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1844,
+          1440,
+          2392
+        ],
+        "score_total": 5969.83203125,
+        "score_mean": 0.5552299136207217
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 1497.84033203125,
+        "score_mean": 0.6298739831922834,
+        "bounds_image": [
+          0,
+          113,
+          58,
+          154
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 2015.5650634765625,
+        "score_mean": 0.5781884863673443,
+        "bounds_image": [
+          58,
+          133,
+          224,
+          154
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 5969.83203125,
+        "score_mean": 0.5552299136207217,
+        "bounds_image": [
+          0,
+          161,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 1497.84033203125,
+        "score_mean": 0.6298739831922834,
+        "bounds_image": [
+          0,
+          113,
+          58,
+          154
+        ],
+        "bounds_rico": [
+          0,
+          1293,
+          374,
+          1767
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 2015.5650634765625,
+        "score_mean": 0.5781884863673443,
+        "bounds_image": [
+          58,
+          133,
+          224,
+          154
+        ],
+        "bounds_rico": [
+          374,
+          1530,
+          1440,
+          1767
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "score_total": 5969.83203125,
+        "score_mean": 0.5552299136207217,
+        "bounds_image": [
+          0,
+          161,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1844,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 1495.016845703125,
+        "score_mean": 0.45030627882624247,
+        "bounds_image": [
+          58,
+          113,
+          224,
+          133
+        ],
+        "bounds_rico": [
+          374,
+          1293,
+          1440,
+          1530
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 11841.9189453125,
+        "score_mean": 0.3645911005330203,
+        "bounds_image": [
+          0,
+          16,
+          224,
+          161
+        ],
+        "bounds_rico": [
+          0,
+          189,
+          1440,
+          1844
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 5833.5625,
+        "score_mean": 0.2684813374447717,
+        "bounds_image": [
+          0,
+          16,
+          224,
+          113
+        ],
+        "bounds_rico": [
+          0,
+          189,
+          1440,
+          1293
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Web View",
+        "score_total": 342.41259765625,
+        "score_mean": 0.10190851120721726,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          7,
+          1440,
+          182
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁It"
+      },
+      {
+        "index": 23,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁kept"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not very good. Not realistic and no control of what styles I wanted to try.",
+        "word_count": 15,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.969,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁good, ▁Not, ▁interface",
+        "p_orig": 0.002890483709052205,
+        "p_img": 0.23294714093208313,
+        "delta_p_img": 0.23005665722303092,
+        "gradcam_mean": 0.37339359521865845,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Web View, Image",
+        "delta_p_img_shap": 0.0068536370526999235,
+        "word_attention_top15": [
+          [
+            "not good",
+            0.587378
+          ],
+          [
+            "try",
+            0.163457
+          ],
+          [
+            "not realistic",
+            0.116194
+          ],
+          [
+            "no control",
+            0.079103
+          ],
+          [
+            "styles",
+            0.032032
+          ],
+          [
+            "wanted",
+            0.021838
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no control",
+            -0.00066
+          ],
+          [
+            "not realistic",
+            -0.00063
+          ],
+          [
+            "styles",
+            0.000357
+          ],
+          [
+            "not good",
+            -8.6e-05
+          ],
+          [
+            "wanted",
+            -2.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21122366189956665,
+          "max": 0.9999997019767761,
+          "std": 0.3458593487739563
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+        "word_count": 24,
+        "interface_pos": 0.0148,
+        "interface_neg": 0.9336,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁interface, ▁not, ▁up",
+        "p_orig": 0.0023996648378670216,
+        "p_img": 0.19855818152427673,
+        "delta_p_img": 0.1961585166864097,
+        "gradcam_mean": 0.3854280710220337,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Web View, Image",
+        "delta_p_img_shap": 0.0056726629845798016,
+        "word_attention_top15": [
+          [
+            "not match",
+            0.310296
+          ],
+          [
+            "not good",
+            0.211304
+          ],
+          [
+            "eyes",
+            0.089791
+          ],
+          [
+            "dont",
+            0.081068
+          ],
+          [
+            "ads",
+            0.075402
+          ],
+          [
+            "picture",
+            0.072798
+          ],
+          [
+            "ur",
+            0.064115
+          ],
+          [
+            "put",
+            0.055658
+          ],
+          [
+            "u",
+            0.039567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not good",
+            -0.000516
+          ],
+          [
+            "not match",
+            -0.000403
+          ],
+          [
+            "ads",
+            -0.000336
+          ],
+          [
+            "dont",
+            -0.000285
+          ],
+          [
+            "picture",
+            -0.000177
+          ],
+          [
+            "put",
+            -0.000115
+          ],
+          [
+            "eyes",
+            0.000108
+          ],
+          [
+            "ur",
+            -8.7e-05
+          ],
+          [
+            "u",
+            7.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2070373296737671,
+          "max": 0.9999997019767761,
+          "std": 0.3240557909011841
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+        "word_count": 52,
+        "interface_pos": 0.0395,
+        "interface_neg": 0.9223,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "t, ▁live, ▁it",
+        "p_orig": 0.00260474206879735,
+        "p_img": 0.2139468491077423,
+        "delta_p_img": 0.21134210703894496,
+        "gradcam_mean": 0.37740185856819153,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Web View",
+        "delta_p_img_shap": 0.007796551566570997,
+        "word_attention_top15": [
+          [
+            "didn't live",
+            0.157213
+          ],
+          [
+            "1m+",
+            0.083105
+          ],
+          [
+            "doestn",
+            0.074035
+          ],
+          [
+            "don't think",
+            0.073154
+          ],
+          [
+            "didn't expect",
+            0.070564
+          ],
+          [
+            "not recommend",
+            0.069894
+          ],
+          [
+            "ups",
+            0.058375
+          ],
+          [
+            "installs",
+            0.056598
+          ],
+          [
+            "pop",
+            0.04276
+          ],
+          [
+            "seen",
+            0.040623
+          ],
+          [
+            "right",
+            0.03698
+          ],
+          [
+            "seconds",
+            0.035805
+          ],
+          [
+            "million",
+            0.034229
+          ],
+          [
+            "try",
+            0.033849
+          ],
+          [
+            "cartoon",
+            0.031005
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recommend",
+            -0.000494
+          ],
+          [
+            "didn't live",
+            -0.000215
+          ],
+          [
+            "worst",
+            -0.000137
+          ],
+          [
+            "installs",
+            0.000101
+          ],
+          [
+            "1m+",
+            -7e-05
+          ],
+          [
+            "right",
+            6e-05
+          ],
+          [
+            "ups",
+            -5.7e-05
+          ],
+          [
+            "pop",
+            -5.1e-05
+          ],
+          [
+            "doestn",
+            -4.4e-05
+          ],
+          [
+            "seconds",
+            -4.1e-05
+          ],
+          [
+            "looks",
+            -4.1e-05
+          ],
+          [
+            "try",
+            3.8e-05
+          ],
+          [
+            "didn't expect",
+            3.8e-05
+          ],
+          [
+            "fit",
+            3.7e-05
+          ],
+          [
+            "cartoon",
+            -3.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23406021296977997,
+          "max": 0.9999997019767761,
+          "std": 0.3695114850997925
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+        "word_count": 18,
+        "interface_pos": 0.0014,
+        "interface_neg": 0.9879,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁interface, ▁all, ▁It",
+        "p_orig": 0.0022698985412716866,
+        "p_img": 0.17982861399650574,
+        "delta_p_img": 0.17755871545523405,
+        "gradcam_mean": 0.3874627649784088,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Web View, Image",
+        "delta_p_img_shap": 0.004803003277629614,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.491699
+          ],
+          [
+            "select",
+            0.129832
+          ],
+          [
+            "picture",
+            0.110744
+          ],
+          [
+            "keeps",
+            0.09002
+          ],
+          [
+            "done",
+            0.07053
+          ],
+          [
+            "time",
+            0.055317
+          ],
+          [
+            "telling",
+            0.051858
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "select",
+            -0.000891
+          ],
+          [
+            "telling",
+            -0.000675
+          ],
+          [
+            "keeps",
+            0.000537
+          ],
+          [
+            "time",
+            -0.000325
+          ],
+          [
+            "picture",
+            -0.000192
+          ],
+          [
+            "doesn't",
+            -0.00018
+          ],
+          [
+            "done",
+            4.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.20769265294075012,
+          "max": 0.9999996423721313,
+          "std": 0.3260205388069153
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is soooôooooo annoying every time I got on the game ads popped up",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9951,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁interface, ô, ▁ads",
+        "p_orig": 0.0024236342869699,
+        "p_img": 0.1906464397907257,
+        "delta_p_img": 0.1882228055037558,
+        "gradcam_mean": 0.3839299976825714,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Web View, Image",
+        "delta_p_img_shap": 0.005240790080279112,
+        "word_attention_top15": [
+          [
+            "soooôooooo",
+            0.337622
+          ],
+          [
+            "game",
+            0.19497
+          ],
+          [
+            "ads",
+            0.154791
+          ],
+          [
+            "annoying",
+            0.123831
+          ],
+          [
+            "popped",
+            0.116568
+          ],
+          [
+            "time",
+            0.072218
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "annoying",
+            -0.002163
+          ],
+          [
+            "soooôooooo",
+            0.000629
+          ],
+          [
+            "popped",
+            -0.000433
+          ],
+          [
+            "game",
+            0.000418
+          ],
+          [
+            "ads",
+            -0.000338
+          ],
+          [
+            "time",
+            -0.000235
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.208358496427536,
+          "max": 0.9999996423721313,
+          "std": 0.3269211947917938
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Hairstyles - Fun and Fashion (category: Lifestyle) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Image at the top-left, and a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesfunandfashion",
+    "screen_id": "4471",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\4471.jpg",
+    "text": "Awful Cuts your face off. Trash. It is awful the worst game that I had never seen",
+    "prediction": 0.0013966270489618182,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9986033729510382,
+    "gradcam_stats": {
+      "mean": 0.3704499304294586,
+      "max": 1.0,
+      "std": 0.23388029634952545
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not very good. Not realistic and no control of what styles I wanted to try.",
+      "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+      "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+      "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+      "This game is soooôooooo annoying every time I got on the game ads popped up"
+    ],
+    "app_name": "Hairstyles - Fun and Fashion",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.001394282910041511,
+      "p_img": 0.10655578225851059,
+      "delta_p_img": 0.10516149934846908
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 18328.841796875,
+        "score_mean": 0.391508069823885
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ],
+        "score_total": 21.86998176574707,
+        "score_mean": 0.22316307924231704
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 18328.841796875,
+        "score_mean": 0.391508069823885,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 21.86998176574707,
+        "score_mean": 0.22316307924231704,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 18328.841796875,
+        "score_mean": 0.391508069823885,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 21.86998176574707,
+        "score_mean": 0.22316307924231704,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Awful"
+      },
+      {
+        "index": 5,
+        "token": "▁off"
+      },
+      {
+        "index": 2,
+        "token": "▁Cuts"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not very good. Not realistic and no control of what styles I wanted to try.",
+        "word_count": 15,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.969,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁good, ▁Not, ▁interface",
+        "p_orig": 0.001859027543105185,
+        "p_img": 0.12335221469402313,
+        "delta_p_img": 0.12149318715091795,
+        "gradcam_mean": 0.3662381172180176,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.12149318715091795,
+        "word_attention_top15": [
+          [
+            "not good",
+            0.587378
+          ],
+          [
+            "try",
+            0.163457
+          ],
+          [
+            "not realistic",
+            0.116194
+          ],
+          [
+            "no control",
+            0.079103
+          ],
+          [
+            "styles",
+            0.032032
+          ],
+          [
+            "wanted",
+            0.021838
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no control",
+            -0.000427
+          ],
+          [
+            "not realistic",
+            -0.000426
+          ],
+          [
+            "styles",
+            0.000293
+          ],
+          [
+            "not good",
+            -3e-05
+          ],
+          [
+            "wanted",
+            2.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.125502347946167,
+          "max": 0.9999999403953552,
+          "std": 0.23346489667892456
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+        "word_count": 24,
+        "interface_pos": 0.0148,
+        "interface_neg": 0.9336,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁interface, ▁not, ▁up",
+        "p_orig": 0.0016249686013907194,
+        "p_img": 0.11257968842983246,
+        "delta_p_img": 0.11095471982844174,
+        "gradcam_mean": 0.3659729063510895,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.11095471982844174,
+        "word_attention_top15": [
+          [
+            "not match",
+            0.310296
+          ],
+          [
+            "not good",
+            0.211304
+          ],
+          [
+            "eyes",
+            0.089791
+          ],
+          [
+            "dont",
+            0.081068
+          ],
+          [
+            "ads",
+            0.075402
+          ],
+          [
+            "picture",
+            0.072798
+          ],
+          [
+            "ur",
+            0.064115
+          ],
+          [
+            "put",
+            0.055658
+          ],
+          [
+            "u",
+            0.039567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not good",
+            -0.000326
+          ],
+          [
+            "not match",
+            -0.000217
+          ],
+          [
+            "ads",
+            -0.000214
+          ],
+          [
+            "dont",
+            -0.000154
+          ],
+          [
+            "ur",
+            -7.6e-05
+          ],
+          [
+            "picture",
+            -7.3e-05
+          ],
+          [
+            "u",
+            6.5e-05
+          ],
+          [
+            "eyes",
+            6.4e-05
+          ],
+          [
+            "put",
+            -4.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1279412806034088,
+          "max": 0.9999999403953552,
+          "std": 0.2372770607471466
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+        "word_count": 52,
+        "interface_pos": 0.0395,
+        "interface_neg": 0.9223,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "t, ▁live, ▁it",
+        "p_orig": 0.0020790928974747658,
+        "p_img": 0.12962330877780914,
+        "delta_p_img": 0.12754421588033438,
+        "gradcam_mean": 0.35382336378097534,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.12754421588033438,
+        "word_attention_top15": [
+          [
+            "didn't live",
+            0.157213
+          ],
+          [
+            "1m+",
+            0.083105
+          ],
+          [
+            "doestn",
+            0.074035
+          ],
+          [
+            "don't think",
+            0.073154
+          ],
+          [
+            "didn't expect",
+            0.070564
+          ],
+          [
+            "not recommend",
+            0.069894
+          ],
+          [
+            "ups",
+            0.058375
+          ],
+          [
+            "installs",
+            0.056598
+          ],
+          [
+            "pop",
+            0.04276
+          ],
+          [
+            "seen",
+            0.040623
+          ],
+          [
+            "right",
+            0.03698
+          ],
+          [
+            "seconds",
+            0.035805
+          ],
+          [
+            "million",
+            0.034229
+          ],
+          [
+            "try",
+            0.033849
+          ],
+          [
+            "cartoon",
+            0.031005
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recommend",
+            -0.000287
+          ],
+          [
+            "didn't live",
+            -0.00014
+          ],
+          [
+            "right",
+            7.2e-05
+          ],
+          [
+            "don't think",
+            4.8e-05
+          ],
+          [
+            "seen",
+            3.4e-05
+          ],
+          [
+            "try",
+            3.4e-05
+          ],
+          [
+            "worst",
+            -3.1e-05
+          ],
+          [
+            "pop",
+            -2.8e-05
+          ],
+          [
+            "looks",
+            -2.6e-05
+          ],
+          [
+            "1m+",
+            -2.5e-05
+          ],
+          [
+            "installs",
+            2.3e-05
+          ],
+          [
+            "fit",
+            2.2e-05
+          ],
+          [
+            "ups",
+            -1.9e-05
+          ],
+          [
+            "seconds",
+            -1.5e-05
+          ],
+          [
+            "doestn",
+            1.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12467651069164276,
+          "max": 0.9999999403953552,
+          "std": 0.23325766623020172
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+        "word_count": 18,
+        "interface_pos": 0.0014,
+        "interface_neg": 0.9879,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁interface, ▁all, ▁It",
+        "p_orig": 0.001423098030500114,
+        "p_img": 0.10319584608078003,
+        "delta_p_img": 0.10177274805027992,
+        "gradcam_mean": 0.37028488516807556,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.10177274805027992,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.491699
+          ],
+          [
+            "select",
+            0.129832
+          ],
+          [
+            "picture",
+            0.110744
+          ],
+          [
+            "keeps",
+            0.09002
+          ],
+          [
+            "done",
+            0.07053
+          ],
+          [
+            "time",
+            0.055317
+          ],
+          [
+            "telling",
+            0.051858
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "select",
+            -0.000664
+          ],
+          [
+            "telling",
+            -0.000387
+          ],
+          [
+            "keeps",
+            0.000352
+          ],
+          [
+            "time",
+            -0.000213
+          ],
+          [
+            "doesn't",
+            -0.000135
+          ],
+          [
+            "picture",
+            -0.000122
+          ],
+          [
+            "done",
+            6.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12853866815567017,
+          "max": 0.9999999403953552,
+          "std": 0.23878444731235504
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is soooôooooo annoying every time I got on the game ads popped up",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9951,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁interface, ô, ▁ads",
+        "p_orig": 0.0015220744535326958,
+        "p_img": 0.10973048955202103,
+        "delta_p_img": 0.10820841509848833,
+        "gradcam_mean": 0.367340624332428,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image",
+        "delta_p_img_shap": 0.10820841509848833,
+        "word_attention_top15": [
+          [
+            "soooôooooo",
+            0.337622
+          ],
+          [
+            "game",
+            0.19497
+          ],
+          [
+            "ads",
+            0.154791
+          ],
+          [
+            "annoying",
+            0.123831
+          ],
+          [
+            "popped",
+            0.116568
+          ],
+          [
+            "time",
+            0.072218
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "annoying",
+            -0.001419
+          ],
+          [
+            "soooôooooo",
+            0.000516
+          ],
+          [
+            "game",
+            0.000302
+          ],
+          [
+            "popped",
+            -0.000256
+          ],
+          [
+            "ads",
+            -0.000213
+          ],
+          [
+            "time",
+            -0.000133
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1278901845216751,
+          "max": 0.9999999403953552,
+          "std": 0.23743873834609985
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Background Image at the top-left.",
+      "detailed": "This screen of Hairstyles - Fun and Fashion (category: Lifestyle) was classified as bad with 100% confidence (with high confidence). The model focused on a small Background Image at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesfunandfashion",
+    "screen_id": "4472",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\4472.jpg",
+    "text": "It kept not working and it wouldn't even let me do anything!!!!!!! Awful Cuts your face off. Trash. It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+    "prediction": 0.025346409529447556,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9746535904705524,
+    "gradcam_stats": {
+      "mean": 0.4164943993091583,
+      "max": 1.0,
+      "std": 0.22501727938652039
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not very good. Not realistic and no control of what styles I wanted to try.",
+      "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+      "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+      "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+      "This game is soooôooooo annoying every time I got on the game ads popped up"
+    ],
+    "app_name": "Hairstyles - Fun and Fashion",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.025335820391774178,
+      "p_img": 0.02759641222655773,
+      "delta_p_img": 0.002260591834783554
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ],
+        "score_total": 188.16143798828125,
+        "score_mean": 0.4355588842321325
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 61.961910247802734,
+        "score_mean": 0.3442328347100152
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 71.20298767089844,
+        "score_mean": 0.13961370131548714
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 188.16143798828125,
+        "score_mean": 0.4355588842321325,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 61.961910247802734,
+        "score_mean": 0.3442328347100152,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 71.20298767089844,
+        "score_mean": 0.13961370131548714,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 188.16143798828125,
+        "score_mean": 0.4355588842321325,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 61.961910247802734,
+        "score_mean": 0.3442328347100152,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 71.20298767089844,
+        "score_mean": 0.13961370131548714,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁It"
+      },
+      {
+        "index": 23,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁kept"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not very good. Not realistic and no control of what styles I wanted to try.",
+        "word_count": 15,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.969,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁good, ▁Not, ▁interface",
+        "p_orig": 0.032238759100437164,
+        "p_img": 0.034892164170742035,
+        "delta_p_img": 0.0026534050703048706,
+        "gradcam_mean": 0.39300820231437683,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.0026534050703048706,
+        "word_attention_top15": [
+          [
+            "not good",
+            0.587378
+          ],
+          [
+            "try",
+            0.163457
+          ],
+          [
+            "not realistic",
+            0.116194
+          ],
+          [
+            "no control",
+            0.079103
+          ],
+          [
+            "styles",
+            0.032032
+          ],
+          [
+            "wanted",
+            0.021838
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no control",
+            -0.007439
+          ],
+          [
+            "not realistic",
+            -0.006388
+          ],
+          [
+            "styles",
+            0.003722
+          ],
+          [
+            "not good",
+            -0.00096
+          ],
+          [
+            "wanted",
+            -0.000189
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08884719014167786,
+          "max": 0.999998927116394,
+          "std": 0.21173034608364105
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+        "word_count": 24,
+        "interface_pos": 0.0148,
+        "interface_neg": 0.9336,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁not, ▁up",
+        "p_orig": 0.02848300337791443,
+        "p_img": 0.030941905453801155,
+        "delta_p_img": 0.0024589020758867264,
+        "gradcam_mean": 0.41500571370124817,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.0024589020758867264,
+        "word_attention_top15": [
+          [
+            "not match",
+            0.310296
+          ],
+          [
+            "not good",
+            0.211304
+          ],
+          [
+            "eyes",
+            0.089791
+          ],
+          [
+            "dont",
+            0.081068
+          ],
+          [
+            "ads",
+            0.075402
+          ],
+          [
+            "picture",
+            0.072798
+          ],
+          [
+            "ur",
+            0.064115
+          ],
+          [
+            "put",
+            0.055658
+          ],
+          [
+            "u",
+            0.039567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not good",
+            -0.005342
+          ],
+          [
+            "not match",
+            -0.004237
+          ],
+          [
+            "ads",
+            -0.003395
+          ],
+          [
+            "dont",
+            -0.003006
+          ],
+          [
+            "picture",
+            -0.001984
+          ],
+          [
+            "eyes",
+            0.001272
+          ],
+          [
+            "ur",
+            -0.001205
+          ],
+          [
+            "put",
+            -0.001083
+          ],
+          [
+            "u",
+            0.000777
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08614768087863922,
+          "max": 0.9999988675117493,
+          "std": 0.20848974585533142
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+        "word_count": 52,
+        "interface_pos": 0.0395,
+        "interface_neg": 0.9223,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "t, ▁live, ▁it",
+        "p_orig": 0.02913781814277172,
+        "p_img": 0.03139650821685791,
+        "delta_p_img": 0.0022586900740861893,
+        "gradcam_mean": 0.3605879843235016,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.0022586900740861893,
+        "word_attention_top15": [
+          [
+            "didn't live",
+            0.157213
+          ],
+          [
+            "1m+",
+            0.083105
+          ],
+          [
+            "doestn",
+            0.074035
+          ],
+          [
+            "don't think",
+            0.073154
+          ],
+          [
+            "didn't expect",
+            0.070564
+          ],
+          [
+            "not recommend",
+            0.069894
+          ],
+          [
+            "ups",
+            0.058375
+          ],
+          [
+            "installs",
+            0.056598
+          ],
+          [
+            "pop",
+            0.04276
+          ],
+          [
+            "seen",
+            0.040623
+          ],
+          [
+            "right",
+            0.03698
+          ],
+          [
+            "seconds",
+            0.035805
+          ],
+          [
+            "million",
+            0.034229
+          ],
+          [
+            "try",
+            0.033849
+          ],
+          [
+            "cartoon",
+            0.031005
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recommend",
+            -0.005815
+          ],
+          [
+            "didn't live",
+            -0.002786
+          ],
+          [
+            "worst",
+            -0.002331
+          ],
+          [
+            "looks",
+            -0.001596
+          ],
+          [
+            "right",
+            0.000825
+          ],
+          [
+            "installs",
+            0.000544
+          ],
+          [
+            "try",
+            0.000466
+          ],
+          [
+            "fit",
+            0.000236
+          ],
+          [
+            "1m+",
+            -0.000194
+          ],
+          [
+            "doestn",
+            -0.000185
+          ],
+          [
+            "seen",
+            0.000176
+          ],
+          [
+            "ups",
+            -0.000115
+          ],
+          [
+            "don't think",
+            -0.000106
+          ],
+          [
+            "seconds",
+            -0.000102
+          ],
+          [
+            "pop",
+            -0.000102
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11006786674261093,
+          "max": 0.9999991655349731,
+          "std": 0.2356162667274475
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+        "word_count": 18,
+        "interface_pos": 0.0014,
+        "interface_neg": 0.9879,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁all, ▁It",
+        "p_orig": 0.026436805725097656,
+        "p_img": 0.028702663257718086,
+        "delta_p_img": 0.00226585753262043,
+        "gradcam_mean": 0.41081440448760986,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.00226585753262043,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.491699
+          ],
+          [
+            "select",
+            0.129832
+          ],
+          [
+            "picture",
+            0.110744
+          ],
+          [
+            "keeps",
+            0.09002
+          ],
+          [
+            "done",
+            0.07053
+          ],
+          [
+            "time",
+            0.055317
+          ],
+          [
+            "telling",
+            0.051858
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "select",
+            -0.009552
+          ],
+          [
+            "telling",
+            -0.005776
+          ],
+          [
+            "keeps",
+            0.005136
+          ],
+          [
+            "time",
+            -0.002871
+          ],
+          [
+            "picture",
+            -0.001916
+          ],
+          [
+            "doesn't",
+            -0.001837
+          ],
+          [
+            "done",
+            0.001191
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0896262377500534,
+          "max": 0.9999986886978149,
+          "std": 0.2115255892276764
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is soooôooooo annoying every time I got on the game ads popped up",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9951,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ô, ▁ads",
+        "p_orig": 0.02721579745411873,
+        "p_img": 0.029582643881440163,
+        "delta_p_img": 0.002366846427321434,
+        "gradcam_mean": 0.4178936183452606,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Text",
+        "delta_p_img_shap": 0.002366846427321434,
+        "word_attention_top15": [
+          [
+            "soooôooooo",
+            0.337622
+          ],
+          [
+            "game",
+            0.19497
+          ],
+          [
+            "ads",
+            0.154791
+          ],
+          [
+            "annoying",
+            0.123831
+          ],
+          [
+            "popped",
+            0.116568
+          ],
+          [
+            "time",
+            0.072218
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "annoying",
+            -0.020844
+          ],
+          [
+            "soooôooooo",
+            0.006247
+          ],
+          [
+            "popped",
+            -0.004316
+          ],
+          [
+            "game",
+            0.00381
+          ],
+          [
+            "ads",
+            -0.003492
+          ],
+          [
+            "time",
+            -0.001674
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08748813718557358,
+          "max": 0.9999987483024597,
+          "std": 0.20949992537498474
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 97% confidence.",
+      "simple": "This screen was predicted as bad with 97% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Hairstyles - Fun and Fashion (category: Lifestyle) was predicted as bad with 97% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesfunandfashion",
+    "screen_id": "4473",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\4473.jpg",
+    "text": "It kept not working and it wouldn't even let me do anything!!!!!!! It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app Awful Cuts your face off. Trash.",
+    "prediction": 0.0021879265550523996,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9978120734449476,
+    "gradcam_stats": {
+      "mean": 0.3877156376838684,
+      "max": 1.0,
+      "std": 0.25196996331214905
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not very good. Not realistic and no control of what styles I wanted to try.",
+      "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+      "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+      "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+      "This game is soooôooooo annoying every time I got on the game ads popped up"
+    ],
+    "app_name": "Hairstyles - Fun and Fashion",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.002182762138545513,
+      "p_img": 0.010378348641097546,
+      "delta_p_img": 0.008195586502552032
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ],
+        "bounds_rico": [
+          145,
+          1840,
+          514,
+          1906
+        ],
+        "score_total": 254.5602569580078,
+        "score_mean": 0.8931938840631853
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ],
+        "bounds_rico": [
+          145,
+          1517,
+          514,
+          1840
+        ],
+        "score_total": 1399.911865234375,
+        "score_mean": 0.8468916305108136
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          22,
+          168,
+          79,
+          196
+        ],
+        "bounds_rico": [
+          145,
+          1928,
+          514,
+          2242
+        ],
+        "score_total": 1327.229736328125,
+        "score_mean": 0.8315975791529605
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 254.5602569580078,
+        "score_mean": 0.8931938840631853,
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1399.911865234375,
+        "score_mean": 0.8468916305108136,
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1327.229736328125,
+        "score_mean": 0.8315975791529605,
+        "bounds_image": [
+          22,
+          168,
+          79,
+          196
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 254.5602569580078,
+        "score_mean": 0.8931938840631853,
+        "bounds_image": [
+          22,
+          161,
+          79,
+          166
+        ],
+        "bounds_rico": [
+          145,
+          1840,
+          514,
+          1906
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 1399.911865234375,
+        "score_mean": 0.8468916305108136,
+        "bounds_image": [
+          22,
+          132,
+          79,
+          161
+        ],
+        "bounds_rico": [
+          145,
+          1517,
+          514,
+          1840
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1327.229736328125,
+        "score_mean": 0.8315975791529605,
+        "bounds_image": [
+          22,
+          168,
+          79,
+          196
+        ],
+        "bounds_rico": [
+          145,
+          1928,
+          514,
+          2242
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 228.43833923339844,
+        "score_mean": 0.8015380323978892,
+        "bounds_image": [
+          83,
+          161,
+          140,
+          166
+        ],
+        "bounds_rico": [
+          536,
+          1840,
+          905,
+          1906
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 1265.7261962890625,
+        "score_mean": 0.7657145773073578,
+        "bounds_image": [
+          83,
+          132,
+          140,
+          161
+        ],
+        "bounds_rico": [
+          536,
+          1517,
+          905,
+          1840
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 1175.17626953125,
+        "score_mean": 0.7363259834155702,
+        "bounds_image": [
+          83,
+          168,
+          140,
+          196
+        ],
+        "bounds_rico": [
+          536,
+          1928,
+          905,
+          2242
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 207.35455322265625,
+        "score_mean": 0.7275598358689693,
+        "bounds_image": [
+          22,
+          125,
+          79,
+          130
+        ],
+        "bounds_rico": [
+          145,
+          1429,
+          514,
+          1495
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 184.23695373535156,
+        "score_mean": 0.646445451702988,
+        "bounds_image": [
+          83,
+          125,
+          140,
+          130
+        ],
+        "bounds_rico": [
+          536,
+          1429,
+          905,
+          1495
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 1007.5409545898438,
+        "score_mean": 0.6095226585540494,
+        "bounds_image": [
+          22,
+          96,
+          79,
+          125
+        ],
+        "bounds_rico": [
+          145,
+          1106,
+          514,
+          1429
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 872.76025390625,
+        "score_mean": 0.5279856345470357,
+        "bounds_image": [
+          83,
+          96,
+          140,
+          125
+        ],
+        "bounds_rico": [
+          536,
+          1106,
+          905,
+          1429
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 147.43614196777344,
+        "score_mean": 0.5173197963781524,
+        "bounds_image": [
+          22,
+          89,
+          79,
+          94
+        ],
+        "bounds_rico": [
+          145,
+          1018,
+          514,
+          1084
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 759.8914794921875,
+        "score_mean": 0.45970446430259376,
+        "bounds_image": [
+          22,
+          60,
+          79,
+          89
+        ],
+        "bounds_rico": [
+          145,
+          695,
+          514,
+          1018
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 127.0478515625,
+        "score_mean": 0.44578193530701754,
+        "bounds_image": [
+          83,
+          89,
+          140,
+          94
+        ],
+        "bounds_rico": [
+          536,
+          1018,
+          905,
+          1084
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 125.29678344726562,
+        "score_mean": 0.43963783665707235,
+        "bounds_image": [
+          144,
+          161,
+          201,
+          166
+        ],
+        "bounds_rico": [
+          927,
+          1840,
+          1296,
+          1906
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 118.83879089355469,
+        "score_mean": 0.4169782136615954,
+        "bounds_image": [
+          22,
+          53,
+          79,
+          58
+        ],
+        "bounds_rico": [
+          145,
+          607,
+          514,
+          673
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Image",
+        "score_total": 643.8714599609375,
+        "score_mean": 0.4034282330582315,
+        "bounds_image": [
+          144,
+          168,
+          201,
+          196
+        ],
+        "bounds_rico": [
+          927,
+          1928,
+          1296,
+          2242
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Image",
+        "score_total": 664.55615234375,
+        "score_mean": 0.40203034019585604,
+        "bounds_image": [
+          144,
+          132,
+          201,
+          161
+        ],
+        "bounds_rico": [
+          927,
+          1517,
+          1296,
+          1840
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Image",
+        "score_total": 602.7972412109375,
+        "score_mean": 0.36466862747183154,
+        "bounds_image": [
+          83,
+          60,
+          140,
+          89
+        ],
+        "bounds_rico": [
+          536,
+          695,
+          905,
+          1018
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Image",
+        "score_total": 540.5223388671875,
+        "score_mean": 0.32699476035522534,
+        "bounds_image": [
+          22,
+          24,
+          79,
+          53
+        ],
+        "bounds_rico": [
+          145,
+          284,
+          514,
+          607
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 88.13851928710938,
+        "score_mean": 0.3092579624109101,
+        "bounds_image": [
+          144,
+          125,
+          201,
+          130
+        ],
+        "bounds_rico": [
+          927,
+          1429,
+          1296,
+          1495
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Text",
+        "score_total": 70.21621704101562,
+        "score_mean": 0.24637269137198464,
+        "bounds_image": [
+          83,
+          53,
+          140,
+          58
+        ],
+        "bounds_rico": [
+          536,
+          607,
+          905,
+          673
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Image",
+        "score_total": 384.6001892089844,
+        "score_mean": 0.23266799105201716,
+        "bounds_image": [
+          144,
+          96,
+          201,
+          125
+        ],
+        "bounds_rico": [
+          927,
+          1106,
+          1296,
+          1429
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Text",
+        "score_total": 60.91735076904297,
+        "score_mean": 0.21374509041769463,
+        "bounds_image": [
+          144,
+          89,
+          201,
+          94
+        ],
+        "bounds_rico": [
+          927,
+          1018,
+          1296,
+          1084
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Image",
+        "score_total": 301.05059814453125,
+        "score_mean": 0.18212377383214232,
+        "bounds_image": [
+          144,
+          60,
+          201,
+          89
+        ],
+        "bounds_rico": [
+          927,
+          695,
+          1296,
+          1018
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Image",
+        "score_total": 264.41900634765625,
+        "score_mean": 0.15996310123875151,
+        "bounds_image": [
+          83,
+          24,
+          140,
+          53
+        ],
+        "bounds_rico": [
+          536,
+          284,
+          905,
+          607
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Text",
+        "score_total": 191.36436462402344,
+        "score_mean": 0.10457069105137892,
+        "bounds_image": [
+          20,
+          13,
+          203,
+          23
+        ],
+        "bounds_rico": [
+          134,
+          152,
+          1307,
+          273
+        ]
+      },
+      {
+        "rank": 26,
+        "component": "Text",
+        "score_total": 29.501428604125977,
+        "score_mean": 0.10351378457588062,
+        "bounds_image": [
+          144,
+          53,
+          201,
+          58
+        ],
+        "bounds_rico": [
+          927,
+          607,
+          1296,
+          673
+        ]
+      },
+      {
+        "rank": 27,
+        "component": "Image",
+        "score_total": 114.01355743408203,
+        "score_mean": 0.0689737189558875,
+        "bounds_image": [
+          144,
+          24,
+          201,
+          53
+        ],
+        "bounds_rico": [
+          927,
+          284,
+          1296,
+          607
+        ]
+      },
+      {
+        "rank": 28,
+        "component": "Icon",
+        "score_total": 48.301109313964844,
+        "score_mean": 0.06653045360050254,
+        "bounds_image": [
+          191,
+          0,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1231,
+          0,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁It"
+      },
+      {
+        "index": 23,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁kept"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "Not very good. Not realistic and no control of what styles I wanted to try.",
+        "word_count": 15,
+        "interface_pos": 0.0147,
+        "interface_neg": 0.969,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁good, ▁Not, ▁interface",
+        "p_orig": 0.002783441450446844,
+        "p_img": 0.013795820064842701,
+        "delta_p_img": 0.011012378614395857,
+        "gradcam_mean": 0.3728760778903961,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.007031004410237074,
+        "word_attention_top15": [
+          [
+            "not good",
+            0.587378
+          ],
+          [
+            "try",
+            0.163457
+          ],
+          [
+            "not realistic",
+            0.116194
+          ],
+          [
+            "no control",
+            0.079103
+          ],
+          [
+            "styles",
+            0.032032
+          ],
+          [
+            "wanted",
+            0.021838
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "no control",
+            -0.000645
+          ],
+          [
+            "not realistic",
+            -0.000612
+          ],
+          [
+            "styles",
+            0.00035
+          ],
+          [
+            "not good",
+            -8.7e-05
+          ],
+          [
+            "wanted",
+            -2.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23060251772403717,
+          "max": 0.9999997019767761,
+          "std": 0.3664027154445648
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It was only ads when u put ur picture in the eyes did not match up it was not good dont get the app",
+        "word_count": 24,
+        "interface_pos": 0.0148,
+        "interface_neg": 0.9336,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁interface, ▁not, ▁up",
+        "p_orig": 0.0023041516542434692,
+        "p_img": 0.011105929501354694,
+        "delta_p_img": 0.008801777847111225,
+        "gradcam_mean": 0.38038191199302673,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.005620420910418034,
+        "word_attention_top15": [
+          [
+            "not match",
+            0.310296
+          ],
+          [
+            "not good",
+            0.211304
+          ],
+          [
+            "eyes",
+            0.089791
+          ],
+          [
+            "dont",
+            0.081068
+          ],
+          [
+            "ads",
+            0.075402
+          ],
+          [
+            "picture",
+            0.072798
+          ],
+          [
+            "ur",
+            0.064115
+          ],
+          [
+            "put",
+            0.055658
+          ],
+          [
+            "u",
+            0.039567
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not good",
+            -0.000504
+          ],
+          [
+            "not match",
+            -0.000395
+          ],
+          [
+            "ads",
+            -0.00033
+          ],
+          [
+            "dont",
+            -0.000277
+          ],
+          [
+            "picture",
+            -0.000171
+          ],
+          [
+            "put",
+            -0.000113
+          ],
+          [
+            "eyes",
+            0.000104
+          ],
+          [
+            "ur",
+            -8.4e-05
+          ],
+          [
+            "u",
+            7.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2350025624036789,
+          "max": 0.9999997019767761,
+          "std": 0.3727138042449951
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "I didn't expect much, and still it didn't live up to it. Worst app i have seen, a million pop ups every few seconds, looks like a cartoon and doestn even try to fit it right, would NOT recommend anybody installs this app. Also don't think they got to 1M+ installs legit",
+        "word_count": 52,
+        "interface_pos": 0.0395,
+        "interface_neg": 0.9223,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "t, ▁live, ▁it",
+        "p_orig": 0.002516908338293433,
+        "p_img": 0.011415239423513412,
+        "delta_p_img": 0.00889833108521998,
+        "gradcam_mean": 0.3774194121360779,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.007332595298066735,
+        "word_attention_top15": [
+          [
+            "didn't live",
+            0.157213
+          ],
+          [
+            "1m+",
+            0.083105
+          ],
+          [
+            "doestn",
+            0.074035
+          ],
+          [
+            "don't think",
+            0.073154
+          ],
+          [
+            "didn't expect",
+            0.070564
+          ],
+          [
+            "not recommend",
+            0.069894
+          ],
+          [
+            "ups",
+            0.058375
+          ],
+          [
+            "installs",
+            0.056598
+          ],
+          [
+            "pop",
+            0.04276
+          ],
+          [
+            "seen",
+            0.040623
+          ],
+          [
+            "right",
+            0.03698
+          ],
+          [
+            "seconds",
+            0.035805
+          ],
+          [
+            "million",
+            0.034229
+          ],
+          [
+            "try",
+            0.033849
+          ],
+          [
+            "cartoon",
+            0.031005
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not recommend",
+            -0.00048
+          ],
+          [
+            "didn't live",
+            -0.000183
+          ],
+          [
+            "worst",
+            -0.000133
+          ],
+          [
+            "installs",
+            9.8e-05
+          ],
+          [
+            "1m+",
+            -6.9e-05
+          ],
+          [
+            "right",
+            5.8e-05
+          ],
+          [
+            "ups",
+            -5.6e-05
+          ],
+          [
+            "pop",
+            -5e-05
+          ],
+          [
+            "doestn",
+            -4.3e-05
+          ],
+          [
+            "looks",
+            -4.1e-05
+          ],
+          [
+            "seconds",
+            -4e-05
+          ],
+          [
+            "try",
+            3.8e-05
+          ],
+          [
+            "didn't expect",
+            3.7e-05
+          ],
+          [
+            "fit",
+            3.5e-05
+          ],
+          [
+            "cartoon",
+            -3.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23287257552146912,
+          "max": 0.9999996423721313,
+          "std": 0.3689587712287903
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "It keeps telling me to select picture all the time and I've done it ! Doesn't even work",
+        "word_count": 18,
+        "interface_pos": 0.0014,
+        "interface_neg": 0.9879,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁interface, ▁all, ▁It",
+        "p_orig": 0.0021779804956167936,
+        "p_img": 0.010527804493904114,
+        "delta_p_img": 0.00834982399828732,
+        "gradcam_mean": 0.3829779326915741,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.0052452359814196825,
+        "word_attention_top15": [
+          [
+            "doesn't work",
+            0.491699
+          ],
+          [
+            "select",
+            0.129832
+          ],
+          [
+            "picture",
+            0.110744
+          ],
+          [
+            "keeps",
+            0.09002
+          ],
+          [
+            "done",
+            0.07053
+          ],
+          [
+            "time",
+            0.055317
+          ],
+          [
+            "telling",
+            0.051858
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "select",
+            -0.00087
+          ],
+          [
+            "telling",
+            -0.000651
+          ],
+          [
+            "keeps",
+            0.000521
+          ],
+          [
+            "time",
+            -0.000319
+          ],
+          [
+            "picture",
+            -0.000189
+          ],
+          [
+            "doesn't",
+            -0.000176
+          ],
+          [
+            "done",
+            4.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23503653705120087,
+          "max": 0.9999997019767761,
+          "std": 0.3731266260147095
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "This game is soooôooooo annoying every time I got on the game ads popped up",
+        "word_count": 15,
+        "interface_pos": 0.0015,
+        "interface_neg": 0.9951,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁interface, ô, ▁ads",
+        "p_orig": 0.0023314328864216805,
+        "p_img": 0.011221162974834442,
+        "delta_p_img": 0.008889730088412762,
+        "gradcam_mean": 0.378353476524353,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Image, Image",
+        "delta_p_img_shap": 0.005601849406957626,
+        "word_attention_top15": [
+          [
+            "soooôooooo",
+            0.337622
+          ],
+          [
+            "game",
+            0.19497
+          ],
+          [
+            "ads",
+            0.154791
+          ],
+          [
+            "annoying",
+            0.123831
+          ],
+          [
+            "popped",
+            0.116568
+          ],
+          [
+            "time",
+            0.072218
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "annoying",
+            -0.002101
+          ],
+          [
+            "soooôooooo",
+            0.000616
+          ],
+          [
+            "popped",
+            -0.000423
+          ],
+          [
+            "game",
+            0.000408
+          ],
+          [
+            "ads",
+            -0.000329
+          ],
+          [
+            "time",
+            -0.000224
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23485144972801208,
+          "max": 0.9999997019767761,
+          "std": 0.3729080259799957
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Hairstyles - Fun and Fashion (category: Lifestyle) was classified as bad with 100% confidence (with high confidence). The model focused on a small Text at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  }
+]

@@ -1,0 +1,3491 @@
+[
+  {
+    "package_name": "com.fli.android.newsmaxapp",
+    "screen_id": "52596",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\52596.jpg",
+    "text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back? T",
+    "prediction": 0.0011552282376214862,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9988447717623785,
+    "gradcam_stats": {
+      "mean": 0.3716903626918793,
+      "max": 1.0,
+      "std": 0.19341149926185608
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!",
+      "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete.",
+      "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?",
+      "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing.",
+      "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con"
+    ],
+    "app_name": "Newsmax TV & Web",
+    "category": "News & Magazines",
+    "faithfulness": {
+      "p_orig": 0.0011615365510806441,
+      "p_img": 0.0012976540019735694,
+      "delta_p_img": 0.00013611745089292526
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          115,
+          71,
+          141,
+          78
+        ],
+        "bounds_rico": [
+          741,
+          812,
+          909,
+          896
+        ],
+        "score_total": 158.79254150390625,
+        "score_mean": 0.8724864917797047
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          115,
+          85,
+          141,
+          93
+        ],
+        "bounds_rico": [
+          741,
+          980,
+          909,
+          1064
+        ],
+        "score_total": 177.87576293945312,
+        "score_mean": 0.8551719372089093
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          115,
+          56,
+          141,
+          63
+        ],
+        "bounds_rico": [
+          741,
+          644,
+          909,
+          728
+        ],
+        "score_total": 142.89974975585938,
+        "score_mean": 0.7851634601970295
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 158.79254150390625,
+        "score_mean": 0.8724864917797047,
+        "bounds_image": [
+          115,
+          71,
+          141,
+          78
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 177.87576293945312,
+        "score_mean": 0.8551719372089093,
+        "bounds_image": [
+          115,
+          85,
+          141,
+          93
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 142.89974975585938,
+        "score_mean": 0.7851634601970295,
+        "bounds_image": [
+          115,
+          56,
+          141,
+          63
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 158.79254150390625,
+        "score_mean": 0.8724864917797047,
+        "bounds_image": [
+          115,
+          71,
+          141,
+          78
+        ],
+        "bounds_rico": [
+          741,
+          812,
+          909,
+          896
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 177.87576293945312,
+        "score_mean": 0.8551719372089093,
+        "bounds_image": [
+          115,
+          85,
+          141,
+          93
+        ],
+        "bounds_rico": [
+          741,
+          980,
+          909,
+          1064
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 142.89974975585938,
+        "score_mean": 0.7851634601970295,
+        "bounds_image": [
+          115,
+          56,
+          141,
+          63
+        ],
+        "bounds_rico": [
+          741,
+          644,
+          909,
+          728
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 141.13909912109375,
+        "score_mean": 0.7754895556104052,
+        "bounds_image": [
+          115,
+          100,
+          141,
+          107
+        ],
+        "bounds_rico": [
+          741,
+          1148,
+          909,
+          1232
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 142.48690795898438,
+        "score_mean": 0.685033211341271,
+        "bounds_image": [
+          115,
+          41,
+          141,
+          49
+        ],
+        "bounds_rico": [
+          741,
+          476,
+          909,
+          560
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 122.34091186523438,
+        "score_mean": 0.6722028124463427,
+        "bounds_image": [
+          115,
+          115,
+          141,
+          122
+        ],
+        "bounds_rico": [
+          741,
+          1316,
+          909,
+          1400
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 329.2974853515625,
+        "score_mean": 0.6720356843909439,
+        "bounds_image": [
+          145,
+          71,
+          215,
+          78
+        ],
+        "bounds_rico": [
+          938,
+          816,
+          1384,
+          892
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 320.55084228515625,
+        "score_mean": 0.6541853924186862,
+        "bounds_image": [
+          145,
+          56,
+          215,
+          63
+        ],
+        "bounds_rico": [
+          938,
+          648,
+          1384,
+          724
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 269.9732360839844,
+        "score_mean": 0.6427934192475818,
+        "bounds_image": [
+          145,
+          86,
+          215,
+          92
+        ],
+        "bounds_rico": [
+          938,
+          984,
+          1384,
+          1060
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 254.2154998779297,
+        "score_mean": 0.6052749997093564,
+        "bounds_image": [
+          145,
+          42,
+          215,
+          48
+        ],
+        "bounds_rico": [
+          938,
+          480,
+          1384,
+          556
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 286.6715087890625,
+        "score_mean": 0.5850438954878826,
+        "bounds_image": [
+          145,
+          100,
+          215,
+          107
+        ],
+        "bounds_rico": [
+          938,
+          1152,
+          1384,
+          1228
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 113.5691146850586,
+        "score_mean": 0.5460053590627817,
+        "bounds_image": [
+          115,
+          129,
+          141,
+          137
+        ],
+        "bounds_rico": [
+          741,
+          1484,
+          909,
+          1568
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 109.30072784423828,
+        "score_mean": 0.5254842684819148,
+        "bounds_image": [
+          115,
+          26,
+          141,
+          34
+        ],
+        "bounds_rico": [
+          741,
+          308,
+          909,
+          392
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 241.54635620117188,
+        "score_mean": 0.49295174734933034,
+        "bounds_image": [
+          145,
+          115,
+          215,
+          122
+        ],
+        "bounds_rico": [
+          938,
+          1320,
+          1384,
+          1396
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text",
+        "score_total": 183.24102783203125,
+        "score_mean": 0.4362881615048363,
+        "bounds_image": [
+          145,
+          27,
+          215,
+          33
+        ],
+        "bounds_rico": [
+          938,
+          312,
+          1384,
+          388
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Image",
+        "score_total": 78.39928436279297,
+        "score_mean": 0.4307652986966647,
+        "bounds_image": [
+          115,
+          144,
+          141,
+          151
+        ],
+        "bounds_rico": [
+          741,
+          1652,
+          909,
+          1736
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Image",
+        "score_total": 69.99858856201172,
+        "score_mean": 0.3846076294616029,
+        "bounds_image": [
+          115,
+          12,
+          141,
+          19
+        ],
+        "bounds_rico": [
+          741,
+          140,
+          909,
+          224
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Text",
+        "score_total": 152.48182678222656,
+        "score_mean": 0.36305196852911087,
+        "bounds_image": [
+          145,
+          130,
+          215,
+          136
+        ],
+        "bounds_rico": [
+          938,
+          1488,
+          1384,
+          1564
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Image",
+        "score_total": 62.90041732788086,
+        "score_mean": 0.34560668861473,
+        "bounds_image": [
+          115,
+          159,
+          141,
+          166
+        ],
+        "bounds_rico": [
+          741,
+          1820,
+          909,
+          1904
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text",
+        "score_total": 140.62472534179688,
+        "score_mean": 0.2869892353914222,
+        "bounds_image": [
+          145,
+          12,
+          215,
+          19
+        ],
+        "bounds_rico": [
+          938,
+          144,
+          1384,
+          220
+        ]
+      },
+      {
+        "rank": 20,
+        "component": "Image",
+        "score_total": 55.74222946166992,
+        "score_mean": 0.26799148779649,
+        "bounds_image": [
+          115,
+          173,
+          141,
+          181
+        ],
+        "bounds_rico": [
+          741,
+          1988,
+          909,
+          2072
+        ]
+      },
+      {
+        "rank": 21,
+        "component": "Text",
+        "score_total": 123.35303497314453,
+        "score_mean": 0.25174088770029496,
+        "bounds_image": [
+          145,
+          144,
+          215,
+          151
+        ],
+        "bounds_rico": [
+          938,
+          1656,
+          1384,
+          1732
+        ]
+      },
+      {
+        "rank": 22,
+        "component": "Image",
+        "score_total": 34.723175048828125,
+        "score_mean": 0.22258445544120592,
+        "bounds_image": [
+          115,
+          188,
+          141,
+          194
+        ],
+        "bounds_rico": [
+          741,
+          2156,
+          909,
+          2224
+        ]
+      },
+      {
+        "rank": 23,
+        "component": "Text",
+        "score_total": 95.23775482177734,
+        "score_mean": 0.19436276494240273,
+        "bounds_image": [
+          145,
+          159,
+          215,
+          166
+        ],
+        "bounds_rico": [
+          938,
+          1824,
+          1384,
+          1900
+        ]
+      },
+      {
+        "rank": 24,
+        "component": "Text",
+        "score_total": 60.63919448852539,
+        "score_mean": 0.14437903449648903,
+        "bounds_image": [
+          145,
+          174,
+          215,
+          180
+        ],
+        "bounds_rico": [
+          938,
+          1992,
+          1384,
+          2068
+        ]
+      },
+      {
+        "rank": 25,
+        "component": "Text",
+        "score_total": 46.97918701171875,
+        "score_mean": 0.13422624860491073,
+        "bounds_image": [
+          145,
+          189,
+          215,
+          194
+        ],
+        "bounds_rico": [
+          938,
+          2160,
+          1384,
+          2224
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 73,
+        "token": "▁content"
+      },
+      {
+        "index": 77,
+        "token": "▁lost"
+      },
+      {
+        "index": 45,
+        "token": "▁continues"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!",
+        "word_count": 77,
+        "interface_pos": 0.0029,
+        "interface_neg": 0.9916,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁early, ▁the, ▁in",
+        "p_orig": 0.0012777524534612894,
+        "p_img": 0.001446730108000338,
+        "delta_p_img": 0.00016897765453904867,
+        "gradcam_mean": 0.3692300319671631,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Icon",
+        "delta_p_img_shap": 0.0008050418109633029,
+        "word_attention_top15": [
+          [
+            "early",
+            0.107307
+          ],
+          [
+            "netflix",
+            0.084146
+          ],
+          [
+            "no commercials",
+            0.073171
+          ],
+          [
+            "not happy",
+            0.055918
+          ],
+          [
+            "far",
+            0.055006
+          ],
+          [
+            "que",
+            0.052948
+          ],
+          [
+            "btw",
+            0.049115
+          ],
+          [
+            "subtitles",
+            0.047992
+          ],
+          [
+            "no greta",
+            0.040903
+          ],
+          [
+            "site",
+            0.034343
+          ],
+          [
+            "episodes",
+            0.034061
+          ],
+          [
+            "cannot",
+            0.030185
+          ],
+          [
+            "ridiculous",
+            0.02833
+          ],
+          [
+            "programs",
+            0.028284
+          ],
+          [
+            "disappointed",
+            0.028135
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cannot",
+            -0.000504
+          ],
+          [
+            "ridiculous",
+            -0.000468
+          ],
+          [
+            "not happy",
+            -0.000463
+          ],
+          [
+            "subtitles",
+            0.00027
+          ],
+          [
+            "advance",
+            -0.000166
+          ],
+          [
+            "watch",
+            0.000163
+          ],
+          [
+            "episodes",
+            0.000159
+          ],
+          [
+            "bed",
+            0.000158
+          ],
+          [
+            "selection",
+            0.000139
+          ],
+          [
+            "easily",
+            0.000119
+          ],
+          [
+            "turn",
+            6.1e-05
+          ],
+          [
+            "evening",
+            -5.6e-05
+          ],
+          [
+            "early",
+            3.9e-05
+          ],
+          [
+            "commercials",
+            3.6e-05
+          ],
+          [
+            "programs",
+            -2.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1429014503955841,
+          "max": 0.9999995827674866,
+          "std": 0.26359957456588745
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete.",
+        "word_count": 92,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.977,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁part, ▁I, ▁enjoy",
+        "p_orig": 0.001470270217396319,
+        "p_img": 0.0016809512162581086,
+        "delta_p_img": 0.0002106809988617897,
+        "gradcam_mean": 0.36544835567474365,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Icon",
+        "delta_p_img_shap": 0.0009180692140944302,
+        "word_attention_top15": [
+          [
+            "part",
+            0.22306
+          ],
+          [
+            "enjoy",
+            0.095764
+          ],
+          [
+            "can't stand",
+            0.068391
+          ],
+          [
+            "american",
+            0.035672
+          ],
+          [
+            "play",
+            0.035078
+          ],
+          [
+            "news",
+            0.032657
+          ],
+          [
+            "annoying",
+            0.031731
+          ],
+          [
+            "watching",
+            0.031229
+          ],
+          [
+            "breaks",
+            0.027275
+          ],
+          [
+            "ads",
+            0.026164
+          ],
+          [
+            "stopped",
+            0.024327
+          ],
+          [
+            "life",
+            0.020976
+          ],
+          [
+            "kamala",
+            0.020967
+          ],
+          [
+            "fing",
+            0.020667
+          ],
+          [
+            "delete",
+            0.020189
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoy",
+            0.001227
+          ],
+          [
+            "part",
+            -0.000306
+          ],
+          [
+            "old",
+            -0.000101
+          ],
+          [
+            "annoying",
+            -8.5e-05
+          ],
+          [
+            "can't stand",
+            -6.7e-05
+          ],
+          [
+            "play",
+            4.3e-05
+          ],
+          [
+            "news",
+            3.9e-05
+          ],
+          [
+            "times",
+            3.7e-05
+          ],
+          [
+            "video",
+            3.7e-05
+          ],
+          [
+            "clips",
+            -2.6e-05
+          ],
+          [
+            "stupid",
+            -1.9e-05
+          ],
+          [
+            "not playing",
+            -1.8e-05
+          ],
+          [
+            "ads",
+            -1.6e-05
+          ],
+          [
+            "videos",
+            -1.4e-05
+          ],
+          [
+            "hallmark",
+            -1.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14631657302379608,
+          "max": 0.9999996423721313,
+          "std": 0.26940420269966125
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?",
+        "word_count": 91,
+        "interface_pos": 0.0079,
+        "interface_neg": 0.9837,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁content, ▁lost, ▁continues",
+        "p_orig": 0.0011615365510806441,
+        "p_img": 0.0012976540019735694,
+        "delta_p_img": 0.00013611745089292526,
+        "gradcam_mean": 0.3716903626918793,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Icon",
+        "delta_p_img_shap": 0.0007373207481577992,
+        "word_attention_top15": [
+          [
+            "lag-loop",
+            0.069478
+          ],
+          [
+            "lost",
+            0.066482
+          ],
+          [
+            "don't enough",
+            0.05612
+          ],
+          [
+            "content",
+            0.0561
+          ],
+          [
+            "freezes",
+            0.053053
+          ],
+          [
+            "continues",
+            0.052866
+          ],
+          [
+            "horrible",
+            0.051054
+          ],
+          [
+            "where's",
+            0.048392
+          ],
+          [
+            "begins",
+            0.048385
+          ],
+          [
+            "seconds",
+            0.047215
+          ],
+          [
+            "hell",
+            0.037467
+          ],
+          [
+            "back",
+            0.03215
+          ],
+          [
+            "continuously",
+            0.027983
+          ],
+          [
+            "point",
+            0.026946
+          ],
+          [
+            "people",
+            0.024725
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "lost",
+            -0.000243
+          ],
+          [
+            "horrible",
+            -0.000142
+          ],
+          [
+            "fix",
+            -7.6e-05
+          ],
+          [
+            "program",
+            4.6e-05
+          ],
+          [
+            "next",
+            4e-05
+          ],
+          [
+            "content",
+            3.8e-05
+          ],
+          [
+            "freezes",
+            -3.1e-05
+          ],
+          [
+            "video",
+            2.6e-05
+          ],
+          [
+            "problems",
+            -2.5e-05
+          ],
+          [
+            "begins",
+            -2.2e-05
+          ],
+          [
+            "$50",
+            2.2e-05
+          ],
+          [
+            "option",
+            2.1e-05
+          ],
+          [
+            "freeze",
+            -2e-05
+          ],
+          [
+            "hell",
+            -1.3e-05
+          ],
+          [
+            "reaches",
+            1.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1430753916501999,
+          "max": 0.9999995827674866,
+          "std": 0.26367267966270447
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing.",
+        "word_count": 82,
+        "interface_pos": 0.0137,
+        "interface_neg": 0.9699,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁customer, ▁in, ▁work",
+        "p_orig": 0.0014362219953909516,
+        "p_img": 0.001618812559172511,
+        "delta_p_img": 0.00018259056378155947,
+        "gradcam_mean": 0.36841121315956116,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Icon",
+        "delta_p_img_shap": 0.0009042217279784381,
+        "word_attention_top15": [
+          [
+            "don't issue",
+            0.098571
+          ],
+          [
+            "customer",
+            0.073364
+          ],
+          [
+            "work",
+            0.073303
+          ],
+          [
+            "years",
+            0.067325
+          ],
+          [
+            "newsmax+",
+            0.059898
+          ],
+          [
+            "soon",
+            0.051724
+          ],
+          [
+            "gyrations",
+            0.043639
+          ],
+          [
+            "disappointing",
+            0.043368
+          ],
+          [
+            "quality",
+            0.041395
+          ],
+          [
+            "time",
+            0.034807
+          ],
+          [
+            "fix",
+            0.032651
+          ],
+          [
+            "newsmax",
+            0.032614
+          ],
+          [
+            "change",
+            0.031282
+          ],
+          [
+            "buffers",
+            0.030912
+          ],
+          [
+            "back",
+            0.030268
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.000387
+          ],
+          [
+            "highest",
+            0.000267
+          ],
+          [
+            "don't issue",
+            0.00017
+          ],
+          [
+            "quality",
+            0.000163
+          ],
+          [
+            "customer",
+            0.000109
+          ],
+          [
+            "work",
+            6.1e-05
+          ],
+          [
+            "time",
+            -3.7e-05
+          ],
+          [
+            "newsmax+",
+            -3.5e-05
+          ],
+          [
+            "hope",
+            3.4e-05
+          ],
+          [
+            "cost",
+            -3.2e-05
+          ],
+          [
+            "soon",
+            3.1e-05
+          ],
+          [
+            "years",
+            2.7e-05
+          ],
+          [
+            "buffers",
+            -2.4e-05
+          ],
+          [
+            "-",
+            -2e-05
+          ],
+          [
+            "show",
+            1.9e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14336071908473969,
+          "max": 0.9999996423721313,
+          "std": 0.26425114274024963
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con",
+        "word_count": 98,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9747,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Image",
+        "top_k_tokens": "▁is, ▁free, stick",
+        "p_orig": 0.001408864976838231,
+        "p_img": 0.001600657938979566,
+        "delta_p_img": 0.000191792962141335,
+        "gradcam_mean": 0.3685702383518219,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Icon",
+        "delta_p_img_shap": 0.0008880402310751379,
+        "word_attention_top15": [
+          [
+            "firestick",
+            0.107007
+          ],
+          [
+            "free",
+            0.077097
+          ],
+          [
+            "don't fixed",
+            0.069606
+          ],
+          [
+            "frustrating",
+            0.067831
+          ],
+          [
+            "newsmax",
+            0.063307
+          ],
+          [
+            "star",
+            0.062499
+          ],
+          [
+            "ps",
+            0.055373
+          ],
+          [
+            "+1",
+            0.054802
+          ],
+          [
+            "hassle",
+            0.054327
+          ],
+          [
+            "password",
+            0.052134
+          ],
+          [
+            "reviewers",
+            0.043438
+          ],
+          [
+            "back",
+            0.042184
+          ],
+          [
+            "username",
+            0.036759
+          ],
+          [
+            "not con",
+            0.036434
+          ],
+          [
+            "day",
+            0.031625
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "free",
+            0.000432
+          ],
+          [
+            "star",
+            0.000236
+          ],
+          [
+            "newsmax",
+            -0.000191
+          ],
+          [
+            "password",
+            -0.000165
+          ],
+          [
+            "don't fixed",
+            -0.000158
+          ],
+          [
+            "not",
+            -7.7e-05
+          ],
+          [
+            "hassle",
+            5.7e-05
+          ],
+          [
+            "fox",
+            -3.2e-05
+          ],
+          [
+            "switching",
+            2.8e-05
+          ],
+          [
+            "dear",
+            2.7e-05
+          ],
+          [
+            "peck",
+            -2.6e-05
+          ],
+          [
+            "reviewers",
+            -2.3e-05
+          ],
+          [
+            "ps",
+            1.9e-05
+          ],
+          [
+            "username",
+            -1.7e-05
+          ],
+          [
+            "save",
+            -1.1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14279305934906006,
+          "max": 0.9999996423721313,
+          "std": 0.26321351528167725
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Image at the top-left.",
+      "detailed": "This screen of Newsmax TV & Web (category: News & Magazines) was classified as bad with 100% confidence (with high confidence). The model focused on a small Image at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.fli.android.newsmaxapp",
+    "screen_id": "52597",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\52597.jpg",
+    "text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back? T",
+    "prediction": 0.04112435504794121,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9588756449520588,
+    "gradcam_stats": {
+      "mean": 0.3505650460720062,
+      "max": 1.0,
+      "std": 0.23692528903484344
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!",
+      "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete.",
+      "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?",
+      "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing.",
+      "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con"
+    ],
+    "app_name": "Newsmax TV & Web",
+    "category": "News & Magazines",
+    "faithfulness": {
+      "p_orig": 0.04109907150268555,
+      "p_img": 0.508095383644104,
+      "delta_p_img": 0.46699631214141846
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "bounds_image": [
+          39,
+          147,
+          184,
+          158
+        ],
+        "bounds_rico": [
+          251,
+          1685,
+          1189,
+          1808
+        ],
+        "score_total": 1117.71337890625,
+        "score_mean": 0.7007607391261755
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          39,
+          129,
+          184,
+          144
+        ],
+        "bounds_rico": [
+          251,
+          1482,
+          1189,
+          1650
+        ],
+        "score_total": 1458.6033935546875,
+        "score_mean": 0.6706222499102011
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          39,
+          113,
+          184,
+          128
+        ],
+        "bounds_rico": [
+          251,
+          1296,
+          1189,
+          1464
+        ],
+        "score_total": 1206.4322509765625,
+        "score_mean": 0.5546814947018678
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text Button",
+        "score_total": 1117.71337890625,
+        "score_mean": 0.7007607391261755,
+        "bounds_image": [
+          39,
+          147,
+          184,
+          158
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1458.6033935546875,
+        "score_mean": 0.6706222499102011,
+        "bounds_image": [
+          39,
+          129,
+          184,
+          144
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 1206.4322509765625,
+        "score_mean": 0.5546814947018678,
+        "bounds_image": [
+          39,
+          113,
+          184,
+          128
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text Button",
+        "score_total": 1117.71337890625,
+        "score_mean": 0.7007607391261755,
+        "bounds_image": [
+          39,
+          147,
+          184,
+          158
+        ],
+        "bounds_rico": [
+          251,
+          1685,
+          1189,
+          1808
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 1458.6033935546875,
+        "score_mean": 0.6706222499102011,
+        "bounds_image": [
+          39,
+          129,
+          184,
+          144
+        ],
+        "bounds_rico": [
+          251,
+          1482,
+          1189,
+          1650
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 1206.4322509765625,
+        "score_mean": 0.5546814947018678,
+        "bounds_image": [
+          39,
+          113,
+          184,
+          128
+        ],
+        "bounds_rico": [
+          251,
+          1296,
+          1189,
+          1464
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text Button",
+        "score_total": 464.1266784667969,
+        "score_mean": 0.4572676635140856,
+        "bounds_image": [
+          39,
+          104,
+          184,
+          111
+        ],
+        "bounds_rico": [
+          251,
+          1194,
+          1189,
+          1278
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Input",
+        "score_total": 759.8311767578125,
+        "score_mean": 0.3743010722944889,
+        "bounds_image": [
+          39,
+          90,
+          184,
+          104
+        ],
+        "bounds_rico": [
+          251,
+          1036,
+          1189,
+          1194
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Input",
+        "score_total": 540.75927734375,
+        "score_mean": 0.26638388046490147,
+        "bounds_image": [
+          39,
+          76,
+          184,
+          90
+        ],
+        "bounds_rico": [
+          251,
+          878,
+          1189,
+          1036
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 496.53271484375,
+        "score_mean": 0.190242419480364,
+        "bounds_image": [
+          39,
+          58,
+          184,
+          76
+        ],
+        "bounds_rico": [
+          251,
+          667,
+          1189,
+          878
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 73,
+        "token": "▁content"
+      },
+      {
+        "index": 77,
+        "token": "▁lost"
+      },
+      {
+        "index": 45,
+        "token": "▁continues"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!",
+        "word_count": 77,
+        "interface_pos": 0.0029,
+        "interface_neg": 0.9916,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁early, ▁the, ▁in",
+        "p_orig": 0.045536015182733536,
+        "p_img": 0.5666640400886536,
+        "delta_p_img": 0.52112802490592,
+        "gradcam_mean": 0.3207757771015167,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.27552294358611107,
+        "word_attention_top15": [
+          [
+            "early",
+            0.107307
+          ],
+          [
+            "netflix",
+            0.084146
+          ],
+          [
+            "no commercials",
+            0.073171
+          ],
+          [
+            "not happy",
+            0.055918
+          ],
+          [
+            "far",
+            0.055006
+          ],
+          [
+            "que",
+            0.052948
+          ],
+          [
+            "btw",
+            0.049115
+          ],
+          [
+            "subtitles",
+            0.047992
+          ],
+          [
+            "no greta",
+            0.040903
+          ],
+          [
+            "site",
+            0.034343
+          ],
+          [
+            "episodes",
+            0.034061
+          ],
+          [
+            "cannot",
+            0.030185
+          ],
+          [
+            "ridiculous",
+            0.02833
+          ],
+          [
+            "programs",
+            0.028284
+          ],
+          [
+            "disappointed",
+            0.028135
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cannot",
+            -0.058914
+          ],
+          [
+            "ridiculous",
+            -0.051867
+          ],
+          [
+            "not happy",
+            -0.041843
+          ],
+          [
+            "subtitles",
+            0.029476
+          ],
+          [
+            "advance",
+            -0.020134
+          ],
+          [
+            "bed",
+            0.019779
+          ],
+          [
+            "episodes",
+            0.018253
+          ],
+          [
+            "selection",
+            0.01557
+          ],
+          [
+            "easily",
+            0.015444
+          ],
+          [
+            "watch",
+            0.011162
+          ],
+          [
+            "turn",
+            0.009327
+          ],
+          [
+            "evening",
+            -0.005328
+          ],
+          [
+            "far",
+            0.00428
+          ],
+          [
+            "commercials",
+            0.003319
+          ],
+          [
+            "programs",
+            -0.003184
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15754114091396332,
+          "max": 0.9999997615814209,
+          "std": 0.30337104201316833
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete.",
+        "word_count": 92,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.977,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁part, ▁I, ▁enjoy",
+        "p_orig": 0.0592474602162838,
+        "p_img": 0.6637728810310364,
+        "delta_p_img": 0.6045254208147526,
+        "gradcam_mean": 0.3259045481681824,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.3540973402559757,
+        "word_attention_top15": [
+          [
+            "part",
+            0.22306
+          ],
+          [
+            "enjoy",
+            0.095764
+          ],
+          [
+            "can't stand",
+            0.068391
+          ],
+          [
+            "american",
+            0.035672
+          ],
+          [
+            "play",
+            0.035078
+          ],
+          [
+            "news",
+            0.032657
+          ],
+          [
+            "annoying",
+            0.031731
+          ],
+          [
+            "watching",
+            0.031229
+          ],
+          [
+            "breaks",
+            0.027275
+          ],
+          [
+            "ads",
+            0.026164
+          ],
+          [
+            "stopped",
+            0.024327
+          ],
+          [
+            "life",
+            0.020976
+          ],
+          [
+            "kamala",
+            0.020967
+          ],
+          [
+            "fing",
+            0.020667
+          ],
+          [
+            "delete",
+            0.020189
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoy",
+            0.109784
+          ],
+          [
+            "part",
+            -0.031577
+          ],
+          [
+            "old",
+            -0.011992
+          ],
+          [
+            "can't stand",
+            -0.008085
+          ],
+          [
+            "play",
+            0.005315
+          ],
+          [
+            "annoying",
+            -0.00369
+          ],
+          [
+            "video",
+            0.003328
+          ],
+          [
+            "times",
+            0.003277
+          ],
+          [
+            "news",
+            -0.003119
+          ],
+          [
+            "clips",
+            -0.002852
+          ],
+          [
+            "videos",
+            -0.001283
+          ],
+          [
+            "breaks",
+            -0.000995
+          ],
+          [
+            "ads",
+            -0.000878
+          ],
+          [
+            "not playing",
+            -0.000823
+          ],
+          [
+            "american",
+            -0.000705
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18006063997745514,
+          "max": 0.9999997615814209,
+          "std": 0.33660203218460083
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?",
+        "word_count": 91,
+        "interface_pos": 0.0079,
+        "interface_neg": 0.9837,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁content, ▁lost, ▁continues",
+        "p_orig": 0.04109907150268555,
+        "p_img": 0.508095383644104,
+        "delta_p_img": 0.46699631214141846,
+        "gradcam_mean": 0.3505650460720062,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.23021414875984192,
+        "word_attention_top15": [
+          [
+            "lag-loop",
+            0.069478
+          ],
+          [
+            "lost",
+            0.066482
+          ],
+          [
+            "don't enough",
+            0.05612
+          ],
+          [
+            "content",
+            0.0561
+          ],
+          [
+            "freezes",
+            0.053053
+          ],
+          [
+            "continues",
+            0.052866
+          ],
+          [
+            "horrible",
+            0.051054
+          ],
+          [
+            "where's",
+            0.048392
+          ],
+          [
+            "begins",
+            0.048385
+          ],
+          [
+            "seconds",
+            0.047215
+          ],
+          [
+            "hell",
+            0.037467
+          ],
+          [
+            "back",
+            0.03215
+          ],
+          [
+            "continuously",
+            0.027983
+          ],
+          [
+            "point",
+            0.026946
+          ],
+          [
+            "people",
+            0.024725
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "lost",
+            -0.024957
+          ],
+          [
+            "horrible",
+            -0.007896
+          ],
+          [
+            "fix",
+            -0.006691
+          ],
+          [
+            "hell",
+            -0.005345
+          ],
+          [
+            "begins",
+            -0.005295
+          ],
+          [
+            "freezes",
+            -0.004184
+          ],
+          [
+            "content",
+            0.003752
+          ],
+          [
+            "freeze",
+            -0.00193
+          ],
+          [
+            "problems",
+            -0.001824
+          ],
+          [
+            "next",
+            0.001756
+          ],
+          [
+            "program",
+            0.001502
+          ],
+          [
+            "audio",
+            0.001011
+          ],
+          [
+            "time",
+            -0.001002
+          ],
+          [
+            "$50",
+            0.00094
+          ],
+          [
+            "repeats",
+            -0.000916
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14780907332897186,
+          "max": 0.9999997615814209,
+          "std": 0.290183961391449
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing.",
+        "word_count": 82,
+        "interface_pos": 0.0137,
+        "interface_neg": 0.9699,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁customer, ▁in, ▁work",
+        "p_orig": 0.05545540153980255,
+        "p_img": 0.6434439420700073,
+        "delta_p_img": 0.5879885405302048,
+        "gradcam_mean": 0.32865437865257263,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.3354004770517349,
+        "word_attention_top15": [
+          [
+            "don't issue",
+            0.098571
+          ],
+          [
+            "customer",
+            0.073364
+          ],
+          [
+            "work",
+            0.073303
+          ],
+          [
+            "years",
+            0.067325
+          ],
+          [
+            "newsmax+",
+            0.059898
+          ],
+          [
+            "soon",
+            0.051724
+          ],
+          [
+            "gyrations",
+            0.043639
+          ],
+          [
+            "disappointing",
+            0.043368
+          ],
+          [
+            "quality",
+            0.041395
+          ],
+          [
+            "time",
+            0.034807
+          ],
+          [
+            "fix",
+            0.032651
+          ],
+          [
+            "newsmax",
+            0.032614
+          ],
+          [
+            "change",
+            0.031282
+          ],
+          [
+            "buffers",
+            0.030912
+          ],
+          [
+            "back",
+            0.030268
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.043457
+          ],
+          [
+            "highest",
+            0.028736
+          ],
+          [
+            "quality",
+            0.016242
+          ],
+          [
+            "don't issue",
+            0.015354
+          ],
+          [
+            "customer",
+            0.015247
+          ],
+          [
+            "work",
+            0.006982
+          ],
+          [
+            "cost",
+            -0.004617
+          ],
+          [
+            "newsmax",
+            -0.004475
+          ],
+          [
+            "buffers",
+            -0.00381
+          ],
+          [
+            "newsmax+",
+            -0.003365
+          ],
+          [
+            "soon",
+            0.003181
+          ],
+          [
+            "years",
+            0.002557
+          ],
+          [
+            "hope",
+            0.002226
+          ],
+          [
+            "time",
+            -0.001824
+          ],
+          [
+            "-",
+            -0.001426
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1676364243030548,
+          "max": 0.9999997615814209,
+          "std": 0.3119296133518219
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con",
+        "word_count": 98,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9747,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text Button, Text Button",
+        "top_k_tokens": "▁is, ▁free, stick",
+        "p_orig": 0.055400773882865906,
+        "p_img": 0.623160719871521,
+        "delta_p_img": 0.5677599459886551,
+        "gradcam_mean": 0.3331626057624817,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Text Button, Text",
+        "delta_p_img_shap": 0.3129400163888931,
+        "word_attention_top15": [
+          [
+            "firestick",
+            0.107007
+          ],
+          [
+            "free",
+            0.077097
+          ],
+          [
+            "don't fixed",
+            0.069606
+          ],
+          [
+            "frustrating",
+            0.067831
+          ],
+          [
+            "newsmax",
+            0.063307
+          ],
+          [
+            "star",
+            0.062499
+          ],
+          [
+            "ps",
+            0.055373
+          ],
+          [
+            "+1",
+            0.054802
+          ],
+          [
+            "hassle",
+            0.054327
+          ],
+          [
+            "password",
+            0.052134
+          ],
+          [
+            "reviewers",
+            0.043438
+          ],
+          [
+            "back",
+            0.042184
+          ],
+          [
+            "username",
+            0.036759
+          ],
+          [
+            "not con",
+            0.036434
+          ],
+          [
+            "day",
+            0.031625
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "free",
+            0.041709
+          ],
+          [
+            "star",
+            0.024991
+          ],
+          [
+            "newsmax",
+            -0.021396
+          ],
+          [
+            "password",
+            -0.019873
+          ],
+          [
+            "not",
+            -0.019041
+          ],
+          [
+            "don't fixed",
+            -0.01229
+          ],
+          [
+            "hassle",
+            0.008124
+          ],
+          [
+            "fox",
+            -0.003925
+          ],
+          [
+            "dear",
+            0.003392
+          ],
+          [
+            "peck",
+            -0.002587
+          ],
+          [
+            "reviewers",
+            -0.001959
+          ],
+          [
+            "switching",
+            0.001663
+          ],
+          [
+            "ps",
+            0.001519
+          ],
+          [
+            "back",
+            0.001314
+          ],
+          [
+            "username",
+            -0.001017
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1648712307214737,
+          "max": 0.9999997615814209,
+          "std": 0.3072284162044525
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 96% confidence.",
+      "simple": "This screen was predicted as bad with 96% confidence. The model concentrated on a small Text Button at the top-left.",
+      "detailed": "This screen of Newsmax TV & Web (category: News & Magazines) was predicted as bad with 96% confidence (with strong evidence). The model gave priority to a small Text Button at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.fli.android.newsmaxapp",
+    "screen_id": "52598",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\52598.jpg",
+    "text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back? W",
+    "prediction": 0.0015680933138355613,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9984319066861644,
+    "gradcam_stats": {
+      "mean": 0.45926326513290405,
+      "max": 1.0,
+      "std": 0.2973804771900177
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!",
+      "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete.",
+      "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?",
+      "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing.",
+      "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con"
+    ],
+    "app_name": "Newsmax TV & Web",
+    "category": "News & Magazines",
+    "faithfulness": {
+      "p_orig": 0.0015685532707720995,
+      "p_img": 0.002566541777923703,
+      "delta_p_img": 0.0009979885071516037
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          0,
+          104,
+          111,
+          109
+        ],
+        "bounds_rico": [
+          0,
+          1198,
+          718,
+          1255
+        ],
+        "score_total": 464.91357421875,
+        "score_mean": 0.8376821157094595
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          109,
+          98,
+          142
+        ],
+        "bounds_rico": [
+          0,
+          1256,
+          630,
+          1624
+        ],
+        "score_total": 2499.58935546875,
+        "score_mean": 0.7729095100398113
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          142,
+          98,
+          174
+        ],
+        "bounds_rico": [
+          0,
+          1628,
+          630,
+          1996
+        ],
+        "score_total": 1877.62646484375,
+        "score_mean": 0.5987329288404815
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 464.91357421875,
+        "score_mean": 0.8376821157094595,
+        "bounds_image": [
+          0,
+          104,
+          111,
+          109
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 2499.58935546875,
+        "score_mean": 0.7729095100398113,
+        "bounds_image": [
+          0,
+          109,
+          98,
+          142
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 1877.62646484375,
+        "score_mean": 0.5987329288404815,
+        "bounds_image": [
+          0,
+          142,
+          98,
+          174
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 464.91357421875,
+        "score_mean": 0.8376821157094595,
+        "bounds_image": [
+          0,
+          104,
+          111,
+          109
+        ],
+        "bounds_rico": [
+          0,
+          1198,
+          718,
+          1255
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 2499.58935546875,
+        "score_mean": 0.7729095100398113,
+        "bounds_image": [
+          0,
+          109,
+          98,
+          142
+        ],
+        "bounds_rico": [
+          0,
+          1256,
+          630,
+          1624
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Image",
+        "score_total": 1877.62646484375,
+        "score_mean": 0.5987329288404815,
+        "bounds_image": [
+          0,
+          142,
+          98,
+          174
+        ],
+        "bounds_rico": [
+          0,
+          1628,
+          630,
+          1996
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 9218.330078125,
+        "score_mean": 0.5561251253695101,
+        "bounds_image": [
+          0,
+          30,
+          224,
+          104
+        ],
+        "bounds_rico": [
+          0,
+          354,
+          1440,
+          1194
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 609.042724609375,
+        "score_mean": 0.4531567891438802,
+        "bounds_image": [
+          0,
+          24,
+          224,
+          30
+        ],
+        "bounds_rico": [
+          0,
+          284,
+          1440,
+          350
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 827.5084228515625,
+        "score_mean": 0.4221981749242666,
+        "bounds_image": [
+          112,
+          129,
+          210,
+          149
+        ],
+        "bounds_rico": [
+          722,
+          1485,
+          1352,
+          1706
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 720.7404174804688,
+        "score_mean": 0.3870786345222711,
+        "bounds_image": [
+          112,
+          110,
+          210,
+          129
+        ],
+        "bounds_rico": [
+          722,
+          1260,
+          1352,
+          1481
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 719.2003784179688,
+        "score_mean": 0.3862515458743119,
+        "bounds_image": [
+          112,
+          149,
+          210,
+          168
+        ],
+        "bounds_rico": [
+          722,
+          1710,
+          1352,
+          1931
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 1056.439208984375,
+        "score_mean": 0.3368747477628747,
+        "bounds_image": [
+          0,
+          175,
+          98,
+          207
+        ],
+        "bounds_rico": [
+          0,
+          2000,
+          630,
+          2368
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 187.46786499023438,
+        "score_mean": 0.33476404462541853,
+        "bounds_image": [
+          112,
+          104,
+          224,
+          109
+        ],
+        "bounds_rico": [
+          722,
+          1198,
+          1440,
+          1255
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 583.4833374023438,
+        "score_mean": 0.3133637687445455,
+        "bounds_image": [
+          112,
+          169,
+          210,
+          188
+        ],
+        "bounds_rico": [
+          722,
+          1935,
+          1352,
+          2156
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Image",
+        "score_total": 416.5875244140625,
+        "score_mean": 0.2237312161192602,
+        "bounds_image": [
+          112,
+          189,
+          210,
+          208
+        ],
+        "bounds_rico": [
+          722,
+          2160,
+          1352,
+          2381
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Image",
+        "score_total": 0.1224830150604248,
+        "score_mean": 0.00030242719768006125,
+        "bounds_image": [
+          197,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          98,
+          1440,
+          266
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 73,
+        "token": "▁content"
+      },
+      {
+        "index": 77,
+        "token": "▁lost"
+      },
+      {
+        "index": 45,
+        "token": "▁continues"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 10,
+        "review_source": "cache",
+        "review_text": "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!",
+        "word_count": 77,
+        "interface_pos": 0.0029,
+        "interface_neg": 0.9916,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁early, ▁the, ▁in",
+        "p_orig": 0.0017759265610948205,
+        "p_img": 0.002914663404226303,
+        "delta_p_img": 0.0011387368431314826,
+        "gradcam_mean": 0.45584529638290405,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.13511125126387924,
+        "word_attention_top15": [
+          [
+            "early",
+            0.107307
+          ],
+          [
+            "netflix",
+            0.084146
+          ],
+          [
+            "no commercials",
+            0.073171
+          ],
+          [
+            "not happy",
+            0.055918
+          ],
+          [
+            "far",
+            0.055006
+          ],
+          [
+            "que",
+            0.052948
+          ],
+          [
+            "btw",
+            0.049115
+          ],
+          [
+            "subtitles",
+            0.047992
+          ],
+          [
+            "no greta",
+            0.040903
+          ],
+          [
+            "site",
+            0.034343
+          ],
+          [
+            "episodes",
+            0.034061
+          ],
+          [
+            "cannot",
+            0.030185
+          ],
+          [
+            "ridiculous",
+            0.02833
+          ],
+          [
+            "programs",
+            0.028284
+          ],
+          [
+            "disappointed",
+            0.028135
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not happy",
+            -0.000459
+          ],
+          [
+            "cannot",
+            -0.000451
+          ],
+          [
+            "ridiculous",
+            -0.000414
+          ],
+          [
+            "subtitles",
+            0.000226
+          ],
+          [
+            "watch",
+            0.00018
+          ],
+          [
+            "bed",
+            0.000164
+          ],
+          [
+            "episodes",
+            0.000133
+          ],
+          [
+            "selection",
+            0.000133
+          ],
+          [
+            "advance",
+            -0.000106
+          ],
+          [
+            "easily",
+            0.000104
+          ],
+          [
+            "turn",
+            5.6e-05
+          ],
+          [
+            "commercials",
+            2.8e-05
+          ],
+          [
+            "default",
+            -2.4e-05
+          ],
+          [
+            "settings",
+            -1.5e-05
+          ],
+          [
+            "site",
+            1.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17670938372612,
+          "max": 0.9999964833259583,
+          "std": 0.32728564739227295
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete.",
+        "word_count": 92,
+        "interface_pos": 0.0053,
+        "interface_neg": 0.977,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁part, ▁I, ▁enjoy",
+        "p_orig": 0.0019252919591963291,
+        "p_img": 0.003186605405062437,
+        "delta_p_img": 0.001261313445866108,
+        "gradcam_mean": 0.4546383023262024,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.025821491610258818,
+        "word_attention_top15": [
+          [
+            "part",
+            0.22306
+          ],
+          [
+            "enjoy",
+            0.095764
+          ],
+          [
+            "can't stand",
+            0.068391
+          ],
+          [
+            "american",
+            0.035672
+          ],
+          [
+            "play",
+            0.035078
+          ],
+          [
+            "news",
+            0.032657
+          ],
+          [
+            "annoying",
+            0.031731
+          ],
+          [
+            "watching",
+            0.031229
+          ],
+          [
+            "breaks",
+            0.027275
+          ],
+          [
+            "ads",
+            0.026164
+          ],
+          [
+            "stopped",
+            0.024327
+          ],
+          [
+            "life",
+            0.020976
+          ],
+          [
+            "kamala",
+            0.020967
+          ],
+          [
+            "fing",
+            0.020667
+          ],
+          [
+            "delete",
+            0.020189
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "enjoy",
+            0.001119
+          ],
+          [
+            "part",
+            -0.000219
+          ],
+          [
+            "old",
+            -9.9e-05
+          ],
+          [
+            "annoying",
+            -5.8e-05
+          ],
+          [
+            "news",
+            5.4e-05
+          ],
+          [
+            "can't stand",
+            -4.5e-05
+          ],
+          [
+            "play",
+            4.1e-05
+          ],
+          [
+            "video",
+            4e-05
+          ],
+          [
+            "times",
+            3.3e-05
+          ],
+          [
+            "clips",
+            -2.9e-05
+          ],
+          [
+            "stupid",
+            -2.1e-05
+          ],
+          [
+            "videos",
+            -1.8e-05
+          ],
+          [
+            "hallmark",
+            -1.8e-05
+          ],
+          [
+            "commercial",
+            -1.8e-05
+          ],
+          [
+            "ads",
+            -1.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17253327369689941,
+          "max": 0.9999970197677612,
+          "std": 0.3197632133960724
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 6,
+        "review_source": "cache",
+        "review_text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?",
+        "word_count": 91,
+        "interface_pos": 0.0079,
+        "interface_neg": 0.9837,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁content, ▁lost, ▁continues",
+        "p_orig": 0.0015685532707720995,
+        "p_img": 0.002566541777923703,
+        "delta_p_img": 0.0009979885071516037,
+        "gradcam_mean": 0.45926326513290405,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.11710110562853515,
+        "word_attention_top15": [
+          [
+            "lag-loop",
+            0.069478
+          ],
+          [
+            "lost",
+            0.066482
+          ],
+          [
+            "don't enough",
+            0.05612
+          ],
+          [
+            "content",
+            0.0561
+          ],
+          [
+            "freezes",
+            0.053053
+          ],
+          [
+            "continues",
+            0.052866
+          ],
+          [
+            "horrible",
+            0.051054
+          ],
+          [
+            "where's",
+            0.048392
+          ],
+          [
+            "begins",
+            0.048385
+          ],
+          [
+            "seconds",
+            0.047215
+          ],
+          [
+            "hell",
+            0.037467
+          ],
+          [
+            "back",
+            0.03215
+          ],
+          [
+            "continuously",
+            0.027983
+          ],
+          [
+            "point",
+            0.026946
+          ],
+          [
+            "people",
+            0.024725
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "lost",
+            -0.00023
+          ],
+          [
+            "horrible",
+            -0.000172
+          ],
+          [
+            "fix",
+            -7e-05
+          ],
+          [
+            "program",
+            6e-05
+          ],
+          [
+            "next",
+            5.6e-05
+          ],
+          [
+            "content",
+            4.3e-05
+          ],
+          [
+            "$50",
+            3.5e-05
+          ],
+          [
+            "option",
+            3.3e-05
+          ],
+          [
+            "video",
+            2.4e-05
+          ],
+          [
+            "freezes",
+            -2e-05
+          ],
+          [
+            "problems",
+            -1.4e-05
+          ],
+          [
+            "&",
+            -1.4e-05
+          ],
+          [
+            "hell",
+            -8e-06
+          ],
+          [
+            "people",
+            8e-06
+          ],
+          [
+            "begins",
+            -7e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1777343899011612,
+          "max": 0.9999959468841553,
+          "std": 0.32931429147720337
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 13,
+        "review_source": "cache",
+        "review_text": "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing.",
+        "word_count": 82,
+        "interface_pos": 0.0137,
+        "interface_neg": 0.9699,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁customer, ▁in, ▁work",
+        "p_orig": 0.001826193300075829,
+        "p_img": 0.0030046014580875635,
+        "delta_p_img": 0.0011784081580117345,
+        "gradcam_mean": 0.45260438323020935,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.13705496850889176,
+        "word_attention_top15": [
+          [
+            "don't issue",
+            0.098571
+          ],
+          [
+            "customer",
+            0.073364
+          ],
+          [
+            "work",
+            0.073303
+          ],
+          [
+            "years",
+            0.067325
+          ],
+          [
+            "newsmax+",
+            0.059898
+          ],
+          [
+            "soon",
+            0.051724
+          ],
+          [
+            "gyrations",
+            0.043639
+          ],
+          [
+            "disappointing",
+            0.043368
+          ],
+          [
+            "quality",
+            0.041395
+          ],
+          [
+            "time",
+            0.034807
+          ],
+          [
+            "fix",
+            0.032651
+          ],
+          [
+            "newsmax",
+            0.032614
+          ],
+          [
+            "change",
+            0.031282
+          ],
+          [
+            "buffers",
+            0.030912
+          ],
+          [
+            "back",
+            0.030268
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fix",
+            -0.000419
+          ],
+          [
+            "highest",
+            0.00024
+          ],
+          [
+            "don't issue",
+            0.000164
+          ],
+          [
+            "quality",
+            0.000158
+          ],
+          [
+            "customer",
+            0.000105
+          ],
+          [
+            "hope",
+            7.4e-05
+          ],
+          [
+            "work",
+            5.6e-05
+          ],
+          [
+            "years",
+            3.3e-05
+          ],
+          [
+            "soon",
+            2.6e-05
+          ],
+          [
+            "sure",
+            2.6e-05
+          ],
+          [
+            "cost",
+            -2.2e-05
+          ],
+          [
+            "launch",
+            1.9e-05
+          ],
+          [
+            "big",
+            1.8e-05
+          ],
+          [
+            "change",
+            1.8e-05
+          ],
+          [
+            "back",
+            1.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17341849207878113,
+          "max": 0.9999967813491821,
+          "std": 0.3211047649383545
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 19,
+        "review_source": "cache",
+        "review_text": "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con",
+        "word_count": 98,
+        "interface_pos": 0.0173,
+        "interface_neg": 0.9747,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Image",
+        "top_k_tokens": "▁is, ▁free, stick",
+        "p_orig": 0.0018499960424378514,
+        "p_img": 0.0030054571107029915,
+        "delta_p_img": 0.00115546106826514,
+        "gradcam_mean": 0.45242953300476074,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Text, Image",
+        "delta_p_img_shap": 0.13409462373238057,
+        "word_attention_top15": [
+          [
+            "firestick",
+            0.107007
+          ],
+          [
+            "free",
+            0.077097
+          ],
+          [
+            "don't fixed",
+            0.069606
+          ],
+          [
+            "frustrating",
+            0.067831
+          ],
+          [
+            "newsmax",
+            0.063307
+          ],
+          [
+            "star",
+            0.062499
+          ],
+          [
+            "ps",
+            0.055373
+          ],
+          [
+            "+1",
+            0.054802
+          ],
+          [
+            "hassle",
+            0.054327
+          ],
+          [
+            "password",
+            0.052134
+          ],
+          [
+            "reviewers",
+            0.043438
+          ],
+          [
+            "back",
+            0.042184
+          ],
+          [
+            "username",
+            0.036759
+          ],
+          [
+            "not con",
+            0.036434
+          ],
+          [
+            "day",
+            0.031625
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "free",
+            0.000421
+          ],
+          [
+            "star",
+            0.000246
+          ],
+          [
+            "newsmax",
+            -0.00015
+          ],
+          [
+            "password",
+            -0.000127
+          ],
+          [
+            "don't fixed",
+            -0.000125
+          ],
+          [
+            "frustrating",
+            -6.4e-05
+          ],
+          [
+            "not",
+            -5.1e-05
+          ],
+          [
+            "reviewers",
+            -2.9e-05
+          ],
+          [
+            "hassle",
+            2.7e-05
+          ],
+          [
+            "dear",
+            2.6e-05
+          ],
+          [
+            "username",
+            -2.2e-05
+          ],
+          [
+            "peck",
+            -2e-05
+          ],
+          [
+            "ps",
+            2e-05
+          ],
+          [
+            "save",
+            -1.5e-05
+          ],
+          [
+            "fox",
+            -1.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17297013103961945,
+          "max": 0.9999966621398926,
+          "std": 0.32042571902275085
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Newsmax TV & Web (category: News & Magazines) was classified as bad with 100% confidence (with high confidence). The model focused on a small Text at the top-left, a small Image at the top-left, and a small Image at the top-left."
+    }
+  }
+]

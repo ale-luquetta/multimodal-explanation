@@ -1,0 +1,4299 @@
+[
+  {
+    "package_name": "com.graphilos.wanted",
+    "screen_id": "19558",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19558.jpg",
+    "text": "this app so stupid.. please remove this app from play store. How many time that i click save to sd.. Cant save picture.. Poor apps Crappy cant fix picture and keeps crashing",
+    "prediction": 0.0015397369861602783,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9984602630138397,
+    "gradcam_stats": {
+      "mean": 0.5028618574142456,
+      "max": 1.0,
+      "std": 0.24034516513347626
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+      "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+      "It sucked when I took a picture it rotated and it did not let me take another one",
+      "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+      "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    ],
+    "app_name": "Wanted Poster Maker",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0015400127740576863,
+      "p_img": 0.021357335150241852,
+      "delta_p_img": 0.019817322376184165
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ],
+        "score_total": 24342.060546875,
+        "score_mean": 0.5379698671073859
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          10,
+          183,
+          45,
+          203
+        ],
+        "bounds_rico": [
+          70,
+          2098,
+          294,
+          2322
+        ],
+        "score_total": 235.26124572753906,
+        "score_mean": 0.3360874938964844
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          94,
+          183,
+          129,
+          203
+        ],
+        "bounds_rico": [
+          608,
+          2098,
+          832,
+          2322
+        ],
+        "score_total": 221.037109375,
+        "score_mean": 0.31576729910714285
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 24342.060546875,
+        "score_mean": 0.5379698671073859,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 235.26124572753906,
+        "score_mean": 0.3360874938964844,
+        "bounds_image": [
+          10,
+          183,
+          45,
+          203
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 221.037109375,
+        "score_mean": 0.31576729910714285,
+        "bounds_image": [
+          94,
+          183,
+          129,
+          203
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 24342.060546875,
+        "score_mean": 0.5379698671073859,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 235.26124572753906,
+        "score_mean": 0.3360874938964844,
+        "bounds_image": [
+          10,
+          183,
+          45,
+          203
+        ],
+        "bounds_rico": [
+          70,
+          2098,
+          294,
+          2322
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 221.037109375,
+        "score_mean": 0.31576729910714285,
+        "bounds_image": [
+          94,
+          183,
+          129,
+          203
+        ],
+        "bounds_rico": [
+          608,
+          2098,
+          832,
+          2322
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 122.82881164550781,
+        "score_mean": 0.175469730922154,
+        "bounds_image": [
+          178,
+          183,
+          213,
+          203
+        ],
+        "bounds_rico": [
+          1146,
+          2098,
+          1370,
+          2322
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁this"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁from"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+        "word_count": 34,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.9848,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon, Icon",
+        "top_k_tokens": "▁like, ▁Whenever, ▁zoom",
+        "p_orig": 0.0020300797186791897,
+        "p_img": 0.027788368985056877,
+        "delta_p_img": 0.025758289266377687,
+        "gradcam_mean": 0.49285611510276794,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image, Icon",
+        "delta_p_img_shap": 0.025758289266377687,
+        "word_attention_top15": [
+          [
+            "can't tell",
+            0.230008
+          ],
+          [
+            "picture",
+            0.205172
+          ],
+          [
+            "zooms",
+            0.12416
+          ],
+          [
+            "whenever",
+            0.115612
+          ],
+          [
+            "times",
+            0.090104
+          ],
+          [
+            "crashing",
+            0.040321
+          ],
+          [
+            "put",
+            0.036113
+          ],
+          [
+            "person",
+            0.034896
+          ],
+          [
+            "looked",
+            0.034182
+          ],
+          [
+            "row",
+            0.031959
+          ],
+          [
+            "kept",
+            0.029288
+          ],
+          [
+            "inserting",
+            0.028185
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "looked",
+            -0.000394
+          ],
+          [
+            "whenever",
+            -0.000383
+          ],
+          [
+            "crashing",
+            -0.000282
+          ],
+          [
+            "picture",
+            0.000231
+          ],
+          [
+            "can't tell",
+            0.000163
+          ],
+          [
+            "times",
+            -0.000156
+          ],
+          [
+            "zooms",
+            0.000111
+          ],
+          [
+            "kept",
+            7.6e-05
+          ],
+          [
+            "row",
+            4.6e-05
+          ],
+          [
+            "put",
+            4.5e-05
+          ],
+          [
+            "inserting",
+            1.4e-05
+          ],
+          [
+            "person",
+            -1.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.04866117984056473,
+          "max": 0.9999988079071045,
+          "std": 0.15062135457992554
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+        "word_count": 19,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9758,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon, Icon",
+        "top_k_tokens": "▁interface, ▁take, ▁Always",
+        "p_orig": 0.0019857631996273994,
+        "p_img": 0.026615140959620476,
+        "delta_p_img": 0.024629377759993076,
+        "gradcam_mean": 0.49023160338401794,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image, Icon",
+        "delta_p_img_shap": 0.024629377759993076,
+        "word_attention_top15": [
+          [
+            "don't time",
+            0.371464
+          ],
+          [
+            "take",
+            0.127742
+          ],
+          [
+            "always",
+            0.126628
+          ],
+          [
+            "upside",
+            0.12242
+          ],
+          [
+            "picture",
+            0.100539
+          ],
+          [
+            "comes",
+            0.086292
+          ],
+          [
+            "try",
+            0.064915
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't time",
+            -0.001235
+          ],
+          [
+            "always",
+            0.000829
+          ],
+          [
+            "comes",
+            -0.000342
+          ],
+          [
+            "try",
+            0.000258
+          ],
+          [
+            "picture",
+            0.000162
+          ],
+          [
+            "take",
+            -6.2e-05
+          ],
+          [
+            "upside",
+            2.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.04829878732562065,
+          "max": 0.9999988079071045,
+          "std": 0.15039800107479095
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It sucked when I took a picture it rotated and it did not let me take another one",
+        "word_count": 18,
+        "interface_pos": 0.0057,
+        "interface_neg": 0.9642,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon, Icon",
+        "top_k_tokens": "▁another, ▁interface, ▁It",
+        "p_orig": 0.0018376617226749659,
+        "p_img": 0.025269316509366035,
+        "delta_p_img": 0.02343165478669107,
+        "gradcam_mean": 0.4918997287750244,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image, Icon",
+        "delta_p_img_shap": 0.02343165478669107,
+        "word_attention_top15": [
+          [
+            "another",
+            0.252725
+          ],
+          [
+            "not let",
+            0.209906
+          ],
+          [
+            "picture",
+            0.113075
+          ],
+          [
+            "take",
+            0.11179
+          ],
+          [
+            "rotated",
+            0.111145
+          ],
+          [
+            "sucked",
+            0.103022
+          ],
+          [
+            "took",
+            0.098337
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not let",
+            -0.000686
+          ],
+          [
+            "sucked",
+            -0.000121
+          ],
+          [
+            "rotated",
+            -0.0001
+          ],
+          [
+            "take",
+            6.5e-05
+          ],
+          [
+            "picture",
+            -3.8e-05
+          ],
+          [
+            "took",
+            -1.9e-05
+          ],
+          [
+            "another",
+            -1e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.04844960570335388,
+          "max": 0.9999987483024597,
+          "std": 0.15057429671287537
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+        "word_count": 19,
+        "interface_pos": 0.0124,
+        "interface_neg": 0.855,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon, Icon",
+        "top_k_tokens": "▁and, ▁a, ▁modify",
+        "p_orig": 0.0017951534828171134,
+        "p_img": 0.024854594841599464,
+        "delta_p_img": 0.02305944135878235,
+        "gradcam_mean": 0.4943133294582367,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image, Icon",
+        "delta_p_img_shap": 0.02305944135878235,
+        "word_attention_top15": [
+          [
+            "modify",
+            0.180748
+          ],
+          [
+            "picked",
+            0.161451
+          ],
+          [
+            "cant",
+            0.144219
+          ],
+          [
+            "galery",
+            0.13968
+          ],
+          [
+            "position",
+            0.112103
+          ],
+          [
+            "crashed",
+            0.104208
+          ],
+          [
+            "size",
+            0.084488
+          ],
+          [
+            "picture",
+            0.073102
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cant",
+            -0.000956
+          ],
+          [
+            "crashed",
+            -0.000381
+          ],
+          [
+            "position",
+            -0.000285
+          ],
+          [
+            "size",
+            0.000114
+          ],
+          [
+            "modify",
+            0.000102
+          ],
+          [
+            "picture",
+            0.000101
+          ],
+          [
+            "picked",
+            -2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.048093292862176895,
+          "max": 0.9999986886978149,
+          "std": 0.15034863352775574
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down",
+        "word_count": 25,
+        "interface_pos": 0.0288,
+        "interface_neg": 0.9375,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon, Icon",
+        "top_k_tokens": "▁interface, ▁This, ▁facing",
+        "p_orig": 0.0021664495579898357,
+        "p_img": 0.029231464490294456,
+        "delta_p_img": 0.02706501493230462,
+        "gradcam_mean": 0.49169009923934937,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Background Image, Icon",
+        "delta_p_img_shap": 0.02706501493230462,
+        "word_attention_top15": [
+          [
+            "picture",
+            0.323027
+          ],
+          [
+            "facing",
+            0.151614
+          ],
+          [
+            "place",
+            0.115067
+          ],
+          [
+            "upside",
+            0.100246
+          ],
+          [
+            "bad",
+            0.07966
+          ],
+          [
+            "load",
+            0.07849
+          ],
+          [
+            "right",
+            0.0776
+          ],
+          [
+            "take",
+            0.074295
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000833
+          ],
+          [
+            "picture",
+            -0.000655
+          ],
+          [
+            "right",
+            0.000579
+          ],
+          [
+            "facing",
+            -0.000273
+          ],
+          [
+            "upside",
+            0.00023
+          ],
+          [
+            "place",
+            0.000209
+          ],
+          [
+            "load",
+            6.8e-05
+          ],
+          [
+            "take",
+            -9e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.046424463391304016,
+          "max": 0.9999988079071045,
+          "std": 0.14759118854999542
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Background Image at the top-left.",
+      "detailed": "This screen of Wanted Poster Maker (category: Entertainment) was classified as bad with 100% confidence (with high confidence). The model focused on a small Background Image at the top-left, a small Icon at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.graphilos.wanted",
+    "screen_id": "19559",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19559.jpg",
+    "text": "this app so stupid.. please remove this app from play store. How many time that i click save to sd.. Cant save picture.. Poor apps Crappy cant fix picture and keeps crashing",
+    "prediction": 0.0017848671413958073,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9982151328586042,
+    "gradcam_stats": {
+      "mean": 0.6057248115539551,
+      "max": 1.0,
+      "std": 0.23366020619869232
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+      "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+      "It sucked when I took a picture it rotated and it did not let me take another one",
+      "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+      "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    ],
+    "app_name": "Wanted Poster Maker",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.0017839225474745035,
+      "p_img": 0.018919983878731728,
+      "delta_p_img": 0.017136061331257224
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ],
+        "score_total": 28805.92578125,
+        "score_mean": 0.6366231829307373
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          192,
+          13,
+          218,
+          28
+        ],
+        "bounds_rico": [
+          1237,
+          154,
+          1405,
+          322
+        ],
+        "score_total": 241.89938354492188,
+        "score_mean": 0.6202548296023638
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 28805.92578125,
+        "score_mean": 0.6366231829307373,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 241.89938354492188,
+        "score_mean": 0.6202548296023638,
+        "bounds_image": [
+          192,
+          13,
+          218,
+          28
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 28805.92578125,
+        "score_mean": 0.6366231829307373,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 241.89938354492188,
+        "score_mean": 0.6202548296023638,
+        "bounds_image": [
+          192,
+          13,
+          218,
+          28
+        ],
+        "bounds_rico": [
+          1237,
+          154,
+          1405,
+          322
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁this"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁from"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+        "word_count": 34,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.9848,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Background Image",
+        "top_k_tokens": "▁like, ▁Whenever, ▁zoom",
+        "p_orig": 0.0024017971009016037,
+        "p_img": 0.02469675987958908,
+        "delta_p_img": 0.022294962778687477,
+        "gradcam_mean": 0.6076275706291199,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.022294962778687477,
+        "word_attention_top15": [
+          [
+            "can't tell",
+            0.230008
+          ],
+          [
+            "picture",
+            0.205172
+          ],
+          [
+            "zooms",
+            0.12416
+          ],
+          [
+            "whenever",
+            0.115612
+          ],
+          [
+            "times",
+            0.090104
+          ],
+          [
+            "crashing",
+            0.040321
+          ],
+          [
+            "put",
+            0.036113
+          ],
+          [
+            "person",
+            0.034896
+          ],
+          [
+            "looked",
+            0.034182
+          ],
+          [
+            "row",
+            0.031959
+          ],
+          [
+            "kept",
+            0.029288
+          ],
+          [
+            "inserting",
+            0.028185
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "looked",
+            -0.00047
+          ],
+          [
+            "whenever",
+            -0.000377
+          ],
+          [
+            "crashing",
+            -0.000312
+          ],
+          [
+            "picture",
+            0.000257
+          ],
+          [
+            "can't tell",
+            0.000205
+          ],
+          [
+            "times",
+            -0.000166
+          ],
+          [
+            "zooms",
+            0.000114
+          ],
+          [
+            "kept",
+            8.8e-05
+          ],
+          [
+            "row",
+            3.2e-05
+          ],
+          [
+            "put",
+            3.1e-05
+          ],
+          [
+            "inserting",
+            4e-06
+          ],
+          [
+            "person",
+            2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1316521316766739,
+          "max": 0.9999961853027344,
+          "std": 0.24292823672294617
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+        "word_count": 19,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9758,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Background Image",
+        "top_k_tokens": "▁interface, ▁take, ▁Always",
+        "p_orig": 0.0023168206680566072,
+        "p_img": 0.023542337119579315,
+        "delta_p_img": 0.021225516451522708,
+        "gradcam_mean": 0.6013082265853882,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.021225516451522708,
+        "word_attention_top15": [
+          [
+            "don't time",
+            0.371464
+          ],
+          [
+            "take",
+            0.127742
+          ],
+          [
+            "always",
+            0.126628
+          ],
+          [
+            "upside",
+            0.12242
+          ],
+          [
+            "picture",
+            0.100539
+          ],
+          [
+            "comes",
+            0.086292
+          ],
+          [
+            "try",
+            0.064915
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't time",
+            -0.001359
+          ],
+          [
+            "always",
+            0.000922
+          ],
+          [
+            "comes",
+            -0.000387
+          ],
+          [
+            "try",
+            0.000262
+          ],
+          [
+            "picture",
+            0.000171
+          ],
+          [
+            "upside",
+            4.9e-05
+          ],
+          [
+            "take",
+            -3.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12469839304685593,
+          "max": 0.9999959468841553,
+          "std": 0.2409580647945404
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It sucked when I took a picture it rotated and it did not let me take another one",
+        "word_count": 18,
+        "interface_pos": 0.0057,
+        "interface_neg": 0.9642,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Image",
+        "top_k_tokens": "▁another, ▁interface, ▁It",
+        "p_orig": 0.002135281218215823,
+        "p_img": 0.022358793765306473,
+        "delta_p_img": 0.02022351254709065,
+        "gradcam_mean": 0.5995997190475464,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.02022351254709065,
+        "word_attention_top15": [
+          [
+            "another",
+            0.252725
+          ],
+          [
+            "not let",
+            0.209906
+          ],
+          [
+            "picture",
+            0.113075
+          ],
+          [
+            "take",
+            0.11179
+          ],
+          [
+            "rotated",
+            0.111145
+          ],
+          [
+            "sucked",
+            0.103022
+          ],
+          [
+            "took",
+            0.098337
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not let",
+            -0.000746
+          ],
+          [
+            "sucked",
+            -0.00013
+          ],
+          [
+            "rotated",
+            -9.8e-05
+          ],
+          [
+            "take",
+            6.9e-05
+          ],
+          [
+            "picture",
+            -3.7e-05
+          ],
+          [
+            "took",
+            -1.8e-05
+          ],
+          [
+            "another",
+            -3e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12430868297815323,
+          "max": 0.9999955892562866,
+          "std": 0.24018171429634094
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+        "word_count": 19,
+        "interface_pos": 0.0124,
+        "interface_neg": 0.855,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Background Image",
+        "top_k_tokens": "▁and, ▁a, ▁modify",
+        "p_orig": 0.0020756805315613747,
+        "p_img": 0.021814167499542236,
+        "delta_p_img": 0.01973848696798086,
+        "gradcam_mean": 0.5853137373924255,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.01973848696798086,
+        "word_attention_top15": [
+          [
+            "modify",
+            0.180748
+          ],
+          [
+            "picked",
+            0.161451
+          ],
+          [
+            "cant",
+            0.144219
+          ],
+          [
+            "galery",
+            0.13968
+          ],
+          [
+            "position",
+            0.112103
+          ],
+          [
+            "crashed",
+            0.104208
+          ],
+          [
+            "size",
+            0.084488
+          ],
+          [
+            "picture",
+            0.073102
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cant",
+            -0.001035
+          ],
+          [
+            "crashed",
+            -0.000425
+          ],
+          [
+            "position",
+            -0.000306
+          ],
+          [
+            "size",
+            0.000115
+          ],
+          [
+            "picture",
+            9.7e-05
+          ],
+          [
+            "modify",
+            9.1e-05
+          ],
+          [
+            "picked",
+            -2.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12308410555124283,
+          "max": 0.9999954104423523,
+          "std": 0.23911477625370026
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down",
+        "word_count": 25,
+        "interface_pos": 0.0288,
+        "interface_neg": 0.9375,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Background Image",
+        "top_k_tokens": "▁interface, ▁This, ▁facing",
+        "p_orig": 0.002566528506577015,
+        "p_img": 0.02595560997724533,
+        "delta_p_img": 0.023389081470668316,
+        "gradcam_mean": 0.6040675044059753,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Image",
+        "delta_p_img_shap": 0.023389081470668316,
+        "word_attention_top15": [
+          [
+            "picture",
+            0.323027
+          ],
+          [
+            "facing",
+            0.151614
+          ],
+          [
+            "place",
+            0.115067
+          ],
+          [
+            "upside",
+            0.100246
+          ],
+          [
+            "bad",
+            0.07966
+          ],
+          [
+            "load",
+            0.07849
+          ],
+          [
+            "right",
+            0.0776
+          ],
+          [
+            "take",
+            0.074295
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.000894
+          ],
+          [
+            "picture",
+            -0.000701
+          ],
+          [
+            "right",
+            0.000644
+          ],
+          [
+            "facing",
+            -0.000308
+          ],
+          [
+            "upside",
+            0.000274
+          ],
+          [
+            "place",
+            0.000226
+          ],
+          [
+            "load",
+            7.8e-05
+          ],
+          [
+            "take",
+            9e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12903708219528198,
+          "max": 0.999996542930603,
+          "std": 0.24210591614246368
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 100% confidence.",
+      "simple": "This screen was labeled as bad with 100% confidence. The model directed most attention to a small Background Image at the top-left.",
+      "detailed": "This screen of Wanted Poster Maker (category: Entertainment) was labeled as bad with 100% confidence (confidently). The model attended to a small Background Image at the top-left, and a small Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.graphilos.wanted",
+    "screen_id": "19560",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19560.jpg",
+    "text": "this app so stupid.. please remove this app from play store. The app crashed and we cant modify the size and the position of a picture picked in the galery How many time that i click save to sd.. Cant save picture.. Poor apps",
+    "prediction": 0.10857144743204117,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.8914285525679588,
+    "gradcam_stats": {
+      "mean": 0.3928033411502838,
+      "max": 1.0,
+      "std": 0.2604818046092987
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+      "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+      "It sucked when I took a picture it rotated and it did not let me take another one",
+      "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+      "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    ],
+    "app_name": "Wanted Poster Maker",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.10858412086963654,
+      "p_img": 0.29514142870903015,
+      "delta_p_img": 0.18655730783939362
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          171,
+          7,
+          197,
+          23
+        ],
+        "bounds_rico": [
+          1104,
+          84,
+          1272,
+          266
+        ],
+        "score_total": 303.7642822265625,
+        "score_mean": 0.7302026015061599
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          29,
+          7,
+          166,
+          23
+        ],
+        "bounds_rico": [
+          187,
+          84,
+          1072,
+          266
+        ],
+        "score_total": 1537.471923828125,
+        "score_mean": 0.7014014251040717
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          197,
+          7,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          84,
+          1440,
+          266
+        ],
+        "score_total": 222.54238891601562,
+        "score_mean": 0.5151444187870732
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 303.7642822265625,
+        "score_mean": 0.7302026015061599,
+        "bounds_image": [
+          171,
+          7,
+          197,
+          23
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1537.471923828125,
+        "score_mean": 0.7014014251040717,
+        "bounds_image": [
+          29,
+          7,
+          166,
+          23
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 222.54238891601562,
+        "score_mean": 0.5151444187870732,
+        "bounds_image": [
+          197,
+          7,
+          224,
+          23
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 303.7642822265625,
+        "score_mean": 0.7302026015061599,
+        "bounds_image": [
+          171,
+          7,
+          197,
+          23
+        ],
+        "bounds_rico": [
+          1104,
+          84,
+          1272,
+          266
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1537.471923828125,
+        "score_mean": 0.7014014251040717,
+        "bounds_image": [
+          29,
+          7,
+          166,
+          23
+        ],
+        "bounds_rico": [
+          187,
+          84,
+          1072,
+          266
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 222.54238891601562,
+        "score_mean": 0.5151444187870732,
+        "bounds_image": [
+          197,
+          7,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1272,
+          84,
+          1440,
+          266
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 72.98162841796875,
+        "score_mean": 0.42930369657628675,
+        "bounds_image": [
+          8,
+          10,
+          25,
+          20
+        ],
+        "bounds_rico": [
+          54,
+          119,
+          166,
+          231
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Web View",
+        "score_total": 15508.5478515625,
+        "score_mean": 0.3722289710916499,
+        "bounds_image": [
+          0,
+          23,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          266,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁this"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁from"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+        "word_count": 34,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.9848,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁like, ▁Whenever, ▁zoom",
+        "p_orig": 0.13192963600158691,
+        "p_img": 0.37142834067344666,
+        "delta_p_img": 0.23949870467185974,
+        "gradcam_mean": 0.38987618684768677,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Icon",
+        "delta_p_img_shap": 0.07918599992990494,
+        "word_attention_top15": [
+          [
+            "can't tell",
+            0.230008
+          ],
+          [
+            "picture",
+            0.205172
+          ],
+          [
+            "zooms",
+            0.12416
+          ],
+          [
+            "whenever",
+            0.115612
+          ],
+          [
+            "times",
+            0.090104
+          ],
+          [
+            "crashing",
+            0.040321
+          ],
+          [
+            "put",
+            0.036113
+          ],
+          [
+            "person",
+            0.034896
+          ],
+          [
+            "looked",
+            0.034182
+          ],
+          [
+            "row",
+            0.031959
+          ],
+          [
+            "kept",
+            0.029288
+          ],
+          [
+            "inserting",
+            0.028185
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "whenever",
+            -0.013684
+          ],
+          [
+            "crashing",
+            -0.010488
+          ],
+          [
+            "picture",
+            0.008224
+          ],
+          [
+            "can't tell",
+            0.00664
+          ],
+          [
+            "times",
+            -0.00607
+          ],
+          [
+            "looked",
+            -0.005908
+          ],
+          [
+            "zooms",
+            0.003438
+          ],
+          [
+            "kept",
+            0.002604
+          ],
+          [
+            "put",
+            0.001928
+          ],
+          [
+            "person",
+            -0.000662
+          ],
+          [
+            "inserting",
+            -0.000432
+          ],
+          [
+            "row",
+            0.00025
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12338510900735855,
+          "max": 0.9999998211860657,
+          "std": 0.2557997405529022
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+        "word_count": 19,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9758,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁interface, ▁take, ▁Always",
+        "p_orig": 0.13232114911079407,
+        "p_img": 0.3511328399181366,
+        "delta_p_img": 0.21881169080734253,
+        "gradcam_mean": 0.37655818462371826,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Icon",
+        "delta_p_img_shap": 0.08164165169000626,
+        "word_attention_top15": [
+          [
+            "don't time",
+            0.371464
+          ],
+          [
+            "take",
+            0.127742
+          ],
+          [
+            "always",
+            0.126628
+          ],
+          [
+            "upside",
+            0.12242
+          ],
+          [
+            "picture",
+            0.100539
+          ],
+          [
+            "comes",
+            0.086292
+          ],
+          [
+            "try",
+            0.064915
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't time",
+            -0.05328
+          ],
+          [
+            "always",
+            0.031081
+          ],
+          [
+            "comes",
+            -0.011548
+          ],
+          [
+            "try",
+            0.010069
+          ],
+          [
+            "picture",
+            0.005869
+          ],
+          [
+            "take",
+            -0.002382
+          ],
+          [
+            "upside",
+            0.000501
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12422355264425278,
+          "max": 0.9999998211860657,
+          "std": 0.2535248398780823
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It sucked when I took a picture it rotated and it did not let me take another one",
+        "word_count": 18,
+        "interface_pos": 0.0057,
+        "interface_neg": 0.9642,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁another, ▁interface, ▁It",
+        "p_orig": 0.1246778666973114,
+        "p_img": 0.3331911265850067,
+        "delta_p_img": 0.2085132598876953,
+        "gradcam_mean": 0.3627539575099945,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Icon",
+        "delta_p_img_shap": 0.07651762291789055,
+        "word_attention_top15": [
+          [
+            "another",
+            0.252725
+          ],
+          [
+            "not let",
+            0.209906
+          ],
+          [
+            "picture",
+            0.113075
+          ],
+          [
+            "take",
+            0.11179
+          ],
+          [
+            "rotated",
+            0.111145
+          ],
+          [
+            "sucked",
+            0.103022
+          ],
+          [
+            "took",
+            0.098337
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not let",
+            -0.02546
+          ],
+          [
+            "sucked",
+            -0.008322
+          ],
+          [
+            "rotated",
+            -0.004916
+          ],
+          [
+            "take",
+            0.002782
+          ],
+          [
+            "picture",
+            -0.002644
+          ],
+          [
+            "took",
+            -0.000368
+          ],
+          [
+            "another",
+            -0.000222
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12450361996889114,
+          "max": 0.9999997615814209,
+          "std": 0.25402167439460754
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+        "word_count": 19,
+        "interface_pos": 0.0124,
+        "interface_neg": 0.855,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁and, ▁a, ▁modify",
+        "p_orig": 0.11718635261058807,
+        "p_img": 0.33157896995544434,
+        "delta_p_img": 0.21439261734485626,
+        "gradcam_mean": 0.3488919138908386,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Icon",
+        "delta_p_img_shap": 0.07070303335785866,
+        "word_attention_top15": [
+          [
+            "modify",
+            0.180748
+          ],
+          [
+            "picked",
+            0.161451
+          ],
+          [
+            "cant",
+            0.144219
+          ],
+          [
+            "galery",
+            0.13968
+          ],
+          [
+            "position",
+            0.112103
+          ],
+          [
+            "crashed",
+            0.104208
+          ],
+          [
+            "size",
+            0.084488
+          ],
+          [
+            "picture",
+            0.073102
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cant",
+            -0.034467
+          ],
+          [
+            "crashed",
+            -0.014627
+          ],
+          [
+            "position",
+            -0.013348
+          ],
+          [
+            "modify",
+            0.003215
+          ],
+          [
+            "picked",
+            -0.002317
+          ],
+          [
+            "size",
+            0.001342
+          ],
+          [
+            "picture",
+            0.000317
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12632952630519867,
+          "max": 0.9999997615814209,
+          "std": 0.2596833407878876
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down",
+        "word_count": 25,
+        "interface_pos": 0.0288,
+        "interface_neg": 0.9375,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Text, Icon",
+        "top_k_tokens": "▁interface, ▁This, ▁facing",
+        "p_orig": 0.13985209167003632,
+        "p_img": 0.37516695261001587,
+        "delta_p_img": 0.23531486093997955,
+        "gradcam_mean": 0.3923591375350952,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Icon",
+        "delta_p_img_shap": 0.08514900133013725,
+        "word_attention_top15": [
+          [
+            "picture",
+            0.323027
+          ],
+          [
+            "facing",
+            0.151614
+          ],
+          [
+            "place",
+            0.115067
+          ],
+          [
+            "upside",
+            0.100246
+          ],
+          [
+            "bad",
+            0.07966
+          ],
+          [
+            "load",
+            0.07849
+          ],
+          [
+            "right",
+            0.0776
+          ],
+          [
+            "take",
+            0.074295
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.028422
+          ],
+          [
+            "picture",
+            -0.025223
+          ],
+          [
+            "right",
+            0.020483
+          ],
+          [
+            "facing",
+            -0.011072
+          ],
+          [
+            "place",
+            0.007127
+          ],
+          [
+            "upside",
+            0.005962
+          ],
+          [
+            "load",
+            -0.000562
+          ],
+          [
+            "take",
+            -7.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12321792542934418,
+          "max": 0.9999998211860657,
+          "std": 0.2540092468261719
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 89% confidence.",
+      "simple": "This screen was predicted as bad with 89% confidence. The model concentrated on a small Icon at the top-left.",
+      "detailed": "This screen of Wanted Poster Maker (category: Entertainment) was predicted as bad with 89% confidence (with strong evidence). The model gave priority to a small Icon at the top-left, a small Text at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.graphilos.wanted",
+    "screen_id": "19561",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19561.jpg",
+    "text": "this app so stupid.. please remove this app from play store. The app crashed and we cant modify the size and the position of a picture picked in the galery How many time that i click save to sd.. Cant save picture.. Poor apps",
+    "prediction": 0.05688675493001938,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9431132450699806,
+    "gradcam_stats": {
+      "mean": 0.25481894612312317,
+      "max": 1.0,
+      "std": 0.25117459893226624
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+      "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+      "It sucked when I took a picture it rotated and it did not let me take another one",
+      "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+      "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    ],
+    "app_name": "Wanted Poster Maker",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.05686129629611969,
+      "p_img": 0.1345379799604416,
+      "delta_p_img": 0.0776766836643219
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          0,
+          39,
+          224,
+          54
+        ],
+        "bounds_rico": [
+          0,
+          452,
+          1440,
+          620
+        ],
+        "score_total": 2070.21435546875,
+        "score_mean": 0.6161352248418899
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          8,
+          11,
+          110,
+          19
+        ],
+        "bounds_rico": [
+          56,
+          135,
+          713,
+          228
+        ],
+        "score_total": 445.22210693359375,
+        "score_mean": 0.5456153271245021
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          0,
+          54,
+          224,
+          69
+        ],
+        "bounds_rico": [
+          0,
+          624,
+          1440,
+          792
+        ],
+        "score_total": 1824.09765625,
+        "score_mean": 0.5428862072172619
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 2070.21435546875,
+        "score_mean": 0.6161352248418899,
+        "bounds_image": [
+          0,
+          39,
+          224,
+          54
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 445.22210693359375,
+        "score_mean": 0.5456153271245021,
+        "bounds_image": [
+          8,
+          11,
+          110,
+          19
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1824.09765625,
+        "score_mean": 0.5428862072172619,
+        "bounds_image": [
+          0,
+          54,
+          224,
+          69
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 2070.21435546875,
+        "score_mean": 0.6161352248418899,
+        "bounds_image": [
+          0,
+          39,
+          224,
+          54
+        ],
+        "bounds_rico": [
+          0,
+          452,
+          1440,
+          620
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 445.22210693359375,
+        "score_mean": 0.5456153271245021,
+        "bounds_image": [
+          8,
+          11,
+          110,
+          19
+        ],
+        "bounds_rico": [
+          56,
+          135,
+          713,
+          228
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 1824.09765625,
+        "score_mean": 0.5428862072172619,
+        "bounds_image": [
+          0,
+          54,
+          224,
+          69
+        ],
+        "bounds_rico": [
+          0,
+          624,
+          1440,
+          792
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 1725.5799560546875,
+        "score_mean": 0.5135654631115142,
+        "bounds_image": [
+          0,
+          24,
+          224,
+          39
+        ],
+        "bounds_rico": [
+          0,
+          280,
+          1440,
+          448
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 1419.343994140625,
+        "score_mean": 0.4224238077799479,
+        "bounds_image": [
+          0,
+          69,
+          224,
+          84
+        ],
+        "bounds_rico": [
+          0,
+          796,
+          1440,
+          964
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Text",
+        "score_total": 890.4923095703125,
+        "score_mean": 0.2650274730864025,
+        "bounds_image": [
+          0,
+          84,
+          224,
+          99
+        ],
+        "bounds_rico": [
+          0,
+          968,
+          1440,
+          1136
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Text",
+        "score_total": 561.7103881835938,
+        "score_mean": 0.1671757107689267,
+        "bounds_image": [
+          0,
+          159,
+          224,
+          174
+        ],
+        "bounds_rico": [
+          0,
+          1828,
+          1440,
+          1996
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 491.7217712402344,
+        "score_mean": 0.15679903419650332,
+        "bounds_image": [
+          0,
+          175,
+          224,
+          189
+        ],
+        "bounds_rico": [
+          0,
+          2000,
+          1440,
+          2168
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 441.4701843261719,
+        "score_mean": 0.1313899358113607,
+        "bounds_image": [
+          0,
+          144,
+          224,
+          159
+        ],
+        "bounds_rico": [
+          0,
+          1656,
+          1440,
+          1824
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text Button",
+        "score_total": 75.20152282714844,
+        "score_mean": 0.1066688267051751,
+        "bounds_image": [
+          0,
+          194,
+          47,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2224,
+          308,
+          2392
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 93.26438903808594,
+        "score_mean": 0.10408971990857806,
+        "bounds_image": [
+          0,
+          190,
+          224,
+          194
+        ],
+        "bounds_rico": [
+          0,
+          2172,
+          1440,
+          2224
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 322.1836242675781,
+        "score_mean": 0.09588798341296968,
+        "bounds_image": [
+          0,
+          99,
+          224,
+          114
+        ],
+        "bounds_rico": [
+          0,
+          1140,
+          1440,
+          1308
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 315.2532043457031,
+        "score_mean": 0.09382535843622117,
+        "bounds_image": [
+          0,
+          129,
+          224,
+          144
+        ],
+        "bounds_rico": [
+          0,
+          1484,
+          1440,
+          1652
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Text",
+        "score_total": 183.33670043945312,
+        "score_mean": 0.05456449417840867,
+        "bounds_image": [
+          0,
+          114,
+          224,
+          129
+        ],
+        "bounds_rico": [
+          0,
+          1312,
+          1440,
+          1480
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Text Button",
+        "score_total": 31.40125846862793,
+        "score_mean": 0.04361285898420546,
+        "bounds_image": [
+          47,
+          194,
+          95,
+          209
+        ],
+        "bounds_rico": [
+          308,
+          2224,
+          616,
+          2392
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Input",
+        "score_total": 72.25546264648438,
+        "score_mean": 0.040008561819758794,
+        "bounds_image": [
+          95,
+          194,
+          224,
+          208
+        ],
+        "bounds_rico": [
+          616,
+          2225,
+          1440,
+          2383
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Icon",
+        "score_total": 9.222593307495117,
+        "score_mean": 0.0279472524469549,
+        "bounds_image": [
+          202,
+          8,
+          224,
+          23
+        ],
+        "bounds_rico": [
+          1300,
+          98,
+          1440,
+          266
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁this"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁from"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+        "word_count": 34,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.9848,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁like, ▁Whenever, ▁zoom",
+        "p_orig": 0.08736660331487656,
+        "p_img": 0.07546059042215347,
+        "delta_p_img": 0.011906012892723083,
+        "gradcam_mean": 0.23941071331501007,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input, Text",
+        "delta_p_img_shap": 0.040348876267671585,
+        "word_attention_top15": [
+          [
+            "can't tell",
+            0.230008
+          ],
+          [
+            "picture",
+            0.205172
+          ],
+          [
+            "zooms",
+            0.12416
+          ],
+          [
+            "whenever",
+            0.115612
+          ],
+          [
+            "times",
+            0.090104
+          ],
+          [
+            "crashing",
+            0.040321
+          ],
+          [
+            "put",
+            0.036113
+          ],
+          [
+            "person",
+            0.034896
+          ],
+          [
+            "looked",
+            0.034182
+          ],
+          [
+            "row",
+            0.031959
+          ],
+          [
+            "kept",
+            0.029288
+          ],
+          [
+            "inserting",
+            0.028185
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "looked",
+            -0.032549
+          ],
+          [
+            "whenever",
+            -0.029032
+          ],
+          [
+            "picture",
+            0.018197
+          ],
+          [
+            "crashing",
+            -0.015527
+          ],
+          [
+            "can't tell",
+            0.010993
+          ],
+          [
+            "times",
+            -0.007819
+          ],
+          [
+            "zooms",
+            0.006566
+          ],
+          [
+            "kept",
+            0.005786
+          ],
+          [
+            "put",
+            0.005621
+          ],
+          [
+            "row",
+            0.002286
+          ],
+          [
+            "person",
+            -0.000332
+          ],
+          [
+            "inserting",
+            -0.000165
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11518633365631104,
+          "max": 0.9999992847442627,
+          "std": 0.24919156730175018
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+        "word_count": 19,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9758,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁interface, ▁take, ▁Always",
+        "p_orig": 0.08176807314157486,
+        "p_img": 0.19461341202259064,
+        "delta_p_img": 0.11284533888101578,
+        "gradcam_mean": 0.23115037381649017,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input, Text",
+        "delta_p_img_shap": 0.03678854554891586,
+        "word_attention_top15": [
+          [
+            "don't time",
+            0.371464
+          ],
+          [
+            "take",
+            0.127742
+          ],
+          [
+            "always",
+            0.126628
+          ],
+          [
+            "upside",
+            0.12242
+          ],
+          [
+            "picture",
+            0.100539
+          ],
+          [
+            "comes",
+            0.086292
+          ],
+          [
+            "try",
+            0.064915
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't time",
+            -0.099425
+          ],
+          [
+            "always",
+            0.070185
+          ],
+          [
+            "comes",
+            -0.021924
+          ],
+          [
+            "try",
+            0.021668
+          ],
+          [
+            "picture",
+            0.013307
+          ],
+          [
+            "take",
+            -0.00839
+          ],
+          [
+            "upside",
+            0.000821
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11541566252708435,
+          "max": 0.9999992251396179,
+          "std": 0.24964335560798645
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It sucked when I took a picture it rotated and it did not let me take another one",
+        "word_count": 18,
+        "interface_pos": 0.0057,
+        "interface_neg": 0.9642,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁another, ▁interface, ▁It",
+        "p_orig": 0.07198604196310043,
+        "p_img": 0.17133919894695282,
+        "delta_p_img": 0.09935315698385239,
+        "gradcam_mean": 0.23960261046886444,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input, Text",
+        "delta_p_img_shap": 0.03197988122701645,
+        "word_attention_top15": [
+          [
+            "another",
+            0.252725
+          ],
+          [
+            "not let",
+            0.209906
+          ],
+          [
+            "picture",
+            0.113075
+          ],
+          [
+            "take",
+            0.11179
+          ],
+          [
+            "rotated",
+            0.111145
+          ],
+          [
+            "sucked",
+            0.103022
+          ],
+          [
+            "took",
+            0.098337
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not let",
+            -0.048687
+          ],
+          [
+            "sucked",
+            -0.008182
+          ],
+          [
+            "rotated",
+            -0.00728
+          ],
+          [
+            "take",
+            0.003836
+          ],
+          [
+            "picture",
+            -0.003251
+          ],
+          [
+            "another",
+            -0.002583
+          ],
+          [
+            "took",
+            -0.001112
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11434869468212128,
+          "max": 0.9999991655349731,
+          "std": 0.24752593040466309
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+        "word_count": 19,
+        "interface_pos": 0.0124,
+        "interface_neg": 0.855,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁and, ▁a, ▁modify",
+        "p_orig": 0.06443466246128082,
+        "p_img": 0.05506269633769989,
+        "delta_p_img": 0.009371966123580933,
+        "gradcam_mean": 0.2449038177728653,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input, Text",
+        "delta_p_img_shap": 0.027634084224700928,
+        "word_attention_top15": [
+          [
+            "modify",
+            0.180748
+          ],
+          [
+            "picked",
+            0.161451
+          ],
+          [
+            "cant",
+            0.144219
+          ],
+          [
+            "galery",
+            0.13968
+          ],
+          [
+            "position",
+            0.112103
+          ],
+          [
+            "crashed",
+            0.104208
+          ],
+          [
+            "size",
+            0.084488
+          ],
+          [
+            "picture",
+            0.073102
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cant",
+            -0.050055
+          ],
+          [
+            "position",
+            -0.027307
+          ],
+          [
+            "crashed",
+            -0.019204
+          ],
+          [
+            "modify",
+            0.005274
+          ],
+          [
+            "size",
+            0.00347
+          ],
+          [
+            "picked",
+            -0.002448
+          ],
+          [
+            "picture",
+            0.001798
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1145201325416565,
+          "max": 0.9999990463256836,
+          "std": 0.24893461167812347
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down",
+        "word_count": 25,
+        "interface_pos": 0.0288,
+        "interface_neg": 0.9375,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁interface, ▁This, ▁facing",
+        "p_orig": 0.09747199714183807,
+        "p_img": 0.08546310663223267,
+        "delta_p_img": 0.012008890509605408,
+        "gradcam_mean": 0.2353508472442627,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Input, Text",
+        "delta_p_img_shap": 0.045189112424850464,
+        "word_attention_top15": [
+          [
+            "picture",
+            0.323027
+          ],
+          [
+            "facing",
+            0.151614
+          ],
+          [
+            "place",
+            0.115067
+          ],
+          [
+            "upside",
+            0.100246
+          ],
+          [
+            "bad",
+            0.07966
+          ],
+          [
+            "load",
+            0.07849
+          ],
+          [
+            "right",
+            0.0776
+          ],
+          [
+            "take",
+            0.074295
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "picture",
+            -0.050954
+          ],
+          [
+            "bad",
+            -0.050213
+          ],
+          [
+            "right",
+            0.049168
+          ],
+          [
+            "facing",
+            -0.026705
+          ],
+          [
+            "upside",
+            0.016399
+          ],
+          [
+            "place",
+            0.016096
+          ],
+          [
+            "load",
+            0.004037
+          ],
+          [
+            "take",
+            -0.001093
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1160636842250824,
+          "max": 0.9999994039535522,
+          "std": 0.2511485815048218
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 94% confidence.",
+      "simple": "This screen was labeled as bad with 94% confidence. The model directed most attention to a small Text at the top-left.",
+      "detailed": "This screen of Wanted Poster Maker (category: Entertainment) was labeled as bad with 94% confidence (confidently). The model attended to a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.graphilos.wanted",
+    "screen_id": "19562",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19562.jpg",
+    "text": "this app so stupid.. please remove this app from play store. The app crashed and we cant modify the size and the position of a picture picked in the galery Crappy cant fix picture and keeps crashing",
+    "prediction": 0.003586172591894865,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9964138274081051,
+    "gradcam_stats": {
+      "mean": 0.35585084557533264,
+      "max": 1.0,
+      "std": 0.21921810507774353
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+      "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+      "It sucked when I took a picture it rotated and it did not let me take another one",
+      "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+      "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    ],
+    "app_name": "Wanted Poster Maker",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.003587899263948202,
+      "p_img": 0.0025443604681640863,
+      "delta_p_img": 0.0010435387957841158
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 93.2764892578125,
+        "score_mean": 0.5182027180989583
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ],
+        "bounds_rico": [
+          0,
+          140,
+          56,
+          196
+        ],
+        "score_total": 20.10377311706543,
+        "score_mean": 0.5025943279266357
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 13.48097038269043,
+        "score_mean": 0.026433275260177313
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 93.2764892578125,
+        "score_mean": 0.5182027180989583,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 20.10377311706543,
+        "score_mean": 0.5025943279266357,
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 13.48097038269043,
+        "score_mean": 0.026433275260177313,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 93.2764892578125,
+        "score_mean": 0.5182027180989583,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 20.10377311706543,
+        "score_mean": 0.5025943279266357,
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ],
+        "bounds_rico": [
+          0,
+          140,
+          56,
+          196
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 13.48097038269043,
+        "score_mean": 0.026433275260177313,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁this"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁from"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+        "word_count": 34,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.9848,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁like, ▁Whenever, ▁zoom",
+        "p_orig": 0.004786361940205097,
+        "p_img": 0.003378519555553794,
+        "delta_p_img": 0.0014078423846513033,
+        "gradcam_mean": 0.3501601815223694,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.0014078423846513033,
+        "word_attention_top15": [
+          [
+            "can't tell",
+            0.230008
+          ],
+          [
+            "picture",
+            0.205172
+          ],
+          [
+            "zooms",
+            0.12416
+          ],
+          [
+            "whenever",
+            0.115612
+          ],
+          [
+            "times",
+            0.090104
+          ],
+          [
+            "crashing",
+            0.040321
+          ],
+          [
+            "put",
+            0.036113
+          ],
+          [
+            "person",
+            0.034896
+          ],
+          [
+            "looked",
+            0.034182
+          ],
+          [
+            "row",
+            0.031959
+          ],
+          [
+            "kept",
+            0.029288
+          ],
+          [
+            "inserting",
+            0.028185
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "looked",
+            -0.000712
+          ],
+          [
+            "whenever",
+            -0.000604
+          ],
+          [
+            "picture",
+            0.000507
+          ],
+          [
+            "crashing",
+            -0.000447
+          ],
+          [
+            "can't tell",
+            0.000407
+          ],
+          [
+            "zooms",
+            0.000184
+          ],
+          [
+            "times",
+            -0.000179
+          ],
+          [
+            "kept",
+            0.000143
+          ],
+          [
+            "put",
+            5.9e-05
+          ],
+          [
+            "person",
+            5.4e-05
+          ],
+          [
+            "row",
+            1.9e-05
+          ],
+          [
+            "inserting",
+            -0.0
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08544757217168808,
+          "max": 0.9999995231628418,
+          "std": 0.1909777671098709
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+        "word_count": 19,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9758,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁take, ▁Always",
+        "p_orig": 0.0045656305737793446,
+        "p_img": 0.003232398768886924,
+        "delta_p_img": 0.0013332318048924208,
+        "gradcam_mean": 0.34283676743507385,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.0013332318048924208,
+        "word_attention_top15": [
+          [
+            "don't time",
+            0.371464
+          ],
+          [
+            "take",
+            0.127742
+          ],
+          [
+            "always",
+            0.126628
+          ],
+          [
+            "upside",
+            0.12242
+          ],
+          [
+            "picture",
+            0.100539
+          ],
+          [
+            "comes",
+            0.086292
+          ],
+          [
+            "try",
+            0.064915
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't time",
+            -0.001783
+          ],
+          [
+            "always",
+            0.001326
+          ],
+          [
+            "comes",
+            -0.000484
+          ],
+          [
+            "try",
+            0.000471
+          ],
+          [
+            "picture",
+            0.000361
+          ],
+          [
+            "upside",
+            0.000112
+          ],
+          [
+            "take",
+            -2.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08614585548639297,
+          "max": 0.999999463558197,
+          "std": 0.1923154890537262
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It sucked when I took a picture it rotated and it did not let me take another one",
+        "word_count": 18,
+        "interface_pos": 0.0057,
+        "interface_neg": 0.9642,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁another, ▁interface, ▁It",
+        "p_orig": 0.0042403084225952625,
+        "p_img": 0.002992184367030859,
+        "delta_p_img": 0.0012481240555644035,
+        "gradcam_mean": 0.34644508361816406,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.0012481240555644035,
+        "word_attention_top15": [
+          [
+            "another",
+            0.252725
+          ],
+          [
+            "not let",
+            0.209906
+          ],
+          [
+            "picture",
+            0.113075
+          ],
+          [
+            "take",
+            0.11179
+          ],
+          [
+            "rotated",
+            0.111145
+          ],
+          [
+            "sucked",
+            0.103022
+          ],
+          [
+            "took",
+            0.098337
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not let",
+            -0.000988
+          ],
+          [
+            "take",
+            0.000161
+          ],
+          [
+            "sucked",
+            -0.000127
+          ],
+          [
+            "rotated",
+            -0.000114
+          ],
+          [
+            "took",
+            3.2e-05
+          ],
+          [
+            "picture",
+            -1.3e-05
+          ],
+          [
+            "another",
+            -8e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08675409108400345,
+          "max": 0.9999994039535522,
+          "std": 0.1931731104850769
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+        "word_count": 19,
+        "interface_pos": 0.0124,
+        "interface_neg": 0.855,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁and, ▁a, ▁modify",
+        "p_orig": 0.003812510287389159,
+        "p_img": 0.002680182456970215,
+        "delta_p_img": 0.0011323278304189444,
+        "gradcam_mean": 0.3630754053592682,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.0011323278304189444,
+        "word_attention_top15": [
+          [
+            "modify",
+            0.180748
+          ],
+          [
+            "picked",
+            0.161451
+          ],
+          [
+            "cant",
+            0.144219
+          ],
+          [
+            "galery",
+            0.13968
+          ],
+          [
+            "position",
+            0.112103
+          ],
+          [
+            "crashed",
+            0.104208
+          ],
+          [
+            "size",
+            0.084488
+          ],
+          [
+            "picture",
+            0.073102
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cant",
+            -0.001306
+          ],
+          [
+            "crashed",
+            -0.000581
+          ],
+          [
+            "position",
+            -0.000421
+          ],
+          [
+            "size",
+            0.000177
+          ],
+          [
+            "picture",
+            0.000149
+          ],
+          [
+            "modify",
+            0.000103
+          ],
+          [
+            "picked",
+            -6.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08675606548786163,
+          "max": 0.9999992847442627,
+          "std": 0.1927747130393982
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down",
+        "word_count": 25,
+        "interface_pos": 0.0288,
+        "interface_neg": 0.9375,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁This, ▁facing",
+        "p_orig": 0.005180953536182642,
+        "p_img": 0.003669226774945855,
+        "delta_p_img": 0.0015117267612367868,
+        "gradcam_mean": 0.3480789363384247,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.0015117267612367868,
+        "word_attention_top15": [
+          [
+            "picture",
+            0.323027
+          ],
+          [
+            "facing",
+            0.151614
+          ],
+          [
+            "place",
+            0.115067
+          ],
+          [
+            "upside",
+            0.100246
+          ],
+          [
+            "bad",
+            0.07966
+          ],
+          [
+            "load",
+            0.07849
+          ],
+          [
+            "right",
+            0.0776
+          ],
+          [
+            "take",
+            0.074295
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.001336
+          ],
+          [
+            "right",
+            0.001099
+          ],
+          [
+            "picture",
+            -0.000758
+          ],
+          [
+            "facing",
+            -0.000442
+          ],
+          [
+            "place",
+            0.000428
+          ],
+          [
+            "upside",
+            0.00033
+          ],
+          [
+            "load",
+            0.000203
+          ],
+          [
+            "take",
+            5.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08557126671075821,
+          "max": 0.9999995231628418,
+          "std": 0.19138836860656738
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 100% confidence.",
+      "simple": "This screen was predicted as bad with 100% confidence. The model concentrated on a small Icon at the top-left.",
+      "detailed": "This screen of Wanted Poster Maker (category: Entertainment) was predicted as bad with 100% confidence (with strong evidence). The model gave priority to a small Icon at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.graphilos.wanted",
+    "screen_id": "19563",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\19563.jpg",
+    "text": "this app so stupid.. please remove this app from play store. The app crashed and we cant modify the size and the position of a picture picked in the galery How many time that i click save to sd.. Cant save picture.. Poor apps",
+    "prediction": 0.005672158673405647,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9943278413265944,
+    "gradcam_stats": {
+      "mean": 0.44150927662849426,
+      "max": 1.0,
+      "std": 0.2402530014514923
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+      "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+      "It sucked when I took a picture it rotated and it did not let me take another one",
+      "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+      "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down"
+    ],
+    "app_name": "Wanted Poster Maker",
+    "category": "Entertainment",
+    "faithfulness": {
+      "p_orig": 0.005651660263538361,
+      "p_img": 0.0032495325431227684,
+      "delta_p_img": 0.002402127720415592
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ],
+        "score_total": 235.063232421875,
+        "score_mean": 0.5441278528284144
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 76.56301879882812,
+        "score_mean": 0.42535010443793403
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 106.6878890991211,
+        "score_mean": 0.20919193941004136
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 235.063232421875,
+        "score_mean": 0.5441278528284144,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 76.56301879882812,
+        "score_mean": 0.42535010443793403,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 106.6878890991211,
+        "score_mean": 0.20919193941004136,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 235.063232421875,
+        "score_mean": 0.5441278528284144,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 76.56301879882812,
+        "score_mean": 0.42535010443793403,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 106.6878890991211,
+        "score_mean": 0.20919193941004136,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁this"
+      },
+      {
+        "index": 16,
+        "token": "▁interface"
+      },
+      {
+        "index": 11,
+        "token": "▁from"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Whenever I put in a picture, it zooms in way too much and can't tell who that person looked like. The app kept crashing about 3 times in a row after inserting a picture.",
+        "word_count": 34,
+        "interface_pos": 0.0041,
+        "interface_neg": 0.9848,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁like, ▁Whenever, ▁zoom",
+        "p_orig": 0.007210791576653719,
+        "p_img": 0.004271618090569973,
+        "delta_p_img": 0.002939173486083746,
+        "gradcam_mean": 0.45216062664985657,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.002939173486083746,
+        "word_attention_top15": [
+          [
+            "can't tell",
+            0.230008
+          ],
+          [
+            "picture",
+            0.205172
+          ],
+          [
+            "zooms",
+            0.12416
+          ],
+          [
+            "whenever",
+            0.115612
+          ],
+          [
+            "times",
+            0.090104
+          ],
+          [
+            "crashing",
+            0.040321
+          ],
+          [
+            "put",
+            0.036113
+          ],
+          [
+            "person",
+            0.034896
+          ],
+          [
+            "looked",
+            0.034182
+          ],
+          [
+            "row",
+            0.031959
+          ],
+          [
+            "kept",
+            0.029288
+          ],
+          [
+            "inserting",
+            0.028185
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "whenever",
+            -0.001243
+          ],
+          [
+            "crashing",
+            -0.000882
+          ],
+          [
+            "picture",
+            0.000751
+          ],
+          [
+            "can't tell",
+            0.000508
+          ],
+          [
+            "looked",
+            -0.000505
+          ],
+          [
+            "times",
+            -0.000422
+          ],
+          [
+            "zooms",
+            0.000286
+          ],
+          [
+            "kept",
+            0.000263
+          ],
+          [
+            "put",
+            0.000126
+          ],
+          [
+            "row",
+            4.3e-05
+          ],
+          [
+            "person",
+            -2.4e-05
+          ],
+          [
+            "inserting",
+            1.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21460577845573425,
+          "max": 0.9999998807907104,
+          "std": 0.3022685647010803
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "Don't like it every time you Try to take a picture of yourself it Always comes out upside down",
+        "word_count": 19,
+        "interface_pos": 0.0047,
+        "interface_neg": 0.9758,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁take, ▁Always",
+        "p_orig": 0.007235695142298937,
+        "p_img": 0.004089710768312216,
+        "delta_p_img": 0.003145984373986721,
+        "gradcam_mean": 0.42606019973754883,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.003145984373986721,
+        "word_attention_top15": [
+          [
+            "don't time",
+            0.371464
+          ],
+          [
+            "take",
+            0.127742
+          ],
+          [
+            "always",
+            0.126628
+          ],
+          [
+            "upside",
+            0.12242
+          ],
+          [
+            "picture",
+            0.100539
+          ],
+          [
+            "comes",
+            0.086292
+          ],
+          [
+            "try",
+            0.064915
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't time",
+            -0.004373
+          ],
+          [
+            "always",
+            0.003005
+          ],
+          [
+            "comes",
+            -0.001284
+          ],
+          [
+            "try",
+            0.000904
+          ],
+          [
+            "picture",
+            0.000532
+          ],
+          [
+            "take",
+            -0.000281
+          ],
+          [
+            "upside",
+            0.000156
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21073366701602936,
+          "max": 0.9999998807907104,
+          "std": 0.30895641446113586
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "It sucked when I took a picture it rotated and it did not let me take another one",
+        "word_count": 18,
+        "interface_pos": 0.0057,
+        "interface_neg": 0.9642,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁another, ▁interface, ▁It",
+        "p_orig": 0.0067326887510716915,
+        "p_img": 0.0038301744498312473,
+        "delta_p_img": 0.002902514301240444,
+        "gradcam_mean": 0.43406349420547485,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.002902514301240444,
+        "word_attention_top15": [
+          [
+            "another",
+            0.252725
+          ],
+          [
+            "not let",
+            0.209906
+          ],
+          [
+            "picture",
+            0.113075
+          ],
+          [
+            "take",
+            0.11179
+          ],
+          [
+            "rotated",
+            0.111145
+          ],
+          [
+            "sucked",
+            0.103022
+          ],
+          [
+            "took",
+            0.098337
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not let",
+            -0.002268
+          ],
+          [
+            "sucked",
+            -0.000545
+          ],
+          [
+            "rotated",
+            -0.000387
+          ],
+          [
+            "picture",
+            -0.0002
+          ],
+          [
+            "take",
+            0.000175
+          ],
+          [
+            "took",
+            -8.6e-05
+          ],
+          [
+            "another",
+            -3.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.2447286695241928,
+          "max": 0.9999998211860657,
+          "std": 0.3351992964744568
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 4,
+        "review_source": "cache",
+        "review_text": "The app crashed and we cant modify the size and the position of a picture picked in the galery",
+        "word_count": 19,
+        "interface_pos": 0.0124,
+        "interface_neg": 0.855,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁and, ▁a, ▁modify",
+        "p_orig": 0.0060330103151500225,
+        "p_img": 0.003481565974652767,
+        "delta_p_img": 0.0025514443404972553,
+        "gradcam_mean": 0.4428601861000061,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.0025514443404972553,
+        "word_attention_top15": [
+          [
+            "modify",
+            0.180748
+          ],
+          [
+            "picked",
+            0.161451
+          ],
+          [
+            "cant",
+            0.144219
+          ],
+          [
+            "galery",
+            0.13968
+          ],
+          [
+            "position",
+            0.112103
+          ],
+          [
+            "crashed",
+            0.104208
+          ],
+          [
+            "size",
+            0.084488
+          ],
+          [
+            "picture",
+            0.073102
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "cant",
+            -0.002875
+          ],
+          [
+            "position",
+            -0.001229
+          ],
+          [
+            "crashed",
+            -0.001125
+          ],
+          [
+            "picked",
+            -0.000219
+          ],
+          [
+            "size",
+            0.000189
+          ],
+          [
+            "modify",
+            0.000185
+          ],
+          [
+            "picture",
+            0.00011
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.24526432156562805,
+          "max": 0.9999998211860657,
+          "std": 0.3357202112674713
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "This is bad if you load a picture the picture would be facing the right place and if you take a picture it's upside down",
+        "word_count": 25,
+        "interface_pos": 0.0288,
+        "interface_neg": 0.9375,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Icon, Text Button",
+        "top_k_tokens": "▁interface, ▁This, ▁facing",
+        "p_orig": 0.007761138491332531,
+        "p_img": 0.004475312773138285,
+        "delta_p_img": 0.0032858257181942463,
+        "gradcam_mean": 0.4205172061920166,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.0032858257181942463,
+        "word_attention_top15": [
+          [
+            "picture",
+            0.323027
+          ],
+          [
+            "facing",
+            0.151614
+          ],
+          [
+            "place",
+            0.115067
+          ],
+          [
+            "upside",
+            0.100246
+          ],
+          [
+            "bad",
+            0.07966
+          ],
+          [
+            "load",
+            0.07849
+          ],
+          [
+            "right",
+            0.0776
+          ],
+          [
+            "take",
+            0.074295
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "bad",
+            -0.002694
+          ],
+          [
+            "picture",
+            -0.002292
+          ],
+          [
+            "right",
+            0.00198
+          ],
+          [
+            "facing",
+            -0.000924
+          ],
+          [
+            "upside",
+            0.000768
+          ],
+          [
+            "place",
+            0.000714
+          ],
+          [
+            "load",
+            0.000208
+          ],
+          [
+            "take",
+            -8.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.21043847501277924,
+          "max": 0.9999998807907104,
+          "std": 0.3097362220287323
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 99% confidence.",
+      "simple": "This screen was predicted as bad with 99% confidence. The model concentrated on a small Text at the top-left.",
+      "detailed": "This screen of Wanted Poster Maker (category: Entertainment) was predicted as bad with 99% confidence (with strong evidence). The model gave priority to a small Text at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  }
+]

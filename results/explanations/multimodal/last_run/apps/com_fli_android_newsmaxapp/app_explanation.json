@@ -1,0 +1,365 @@
+{
+  "package_name": "com.fli.android.newsmaxapp",
+  "num_screens": 3,
+  "app_score": 0.014615892199799418,
+  "app_prediction": "bad",
+  "app_confidence": 0.9853841078002006,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0011552282376214862,
+    0.04112435504794121,
+    0.0015680933138355613
+  ],
+  "prediction_variance": 0.0003513777108808496,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_fli_android_newsmaxapp\\com_fli_android_newsmaxapp_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.fli.android.newsmaxapp was labeled as bad with average confidence 99% across 3 screens.",
+    "simple": "com.fli.android.newsmaxapp was labeled as bad with average confidence 99% across 3 screens. Across these screens, the model consistently focused on Image components.",
+    "detailed": "com.fli.android.newsmaxapp was labeled as bad with average confidence 99% across 3 screens. Across these screens, the model consistently focused on Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (5x), Text Button (3x), Text (1x). The most influential review words across screens were 'part', 'early', 'firestick', 'back', and 'don't issue'. The app belongs to the News & Magazines category and was analyzed across 3 screens."
+  },
+  "representative_screen": {
+    "screen_id": "52597",
+    "review_rank": 1,
+    "delta_p_img": 0.6045254208147526,
+    "confidence": 0.9588756449520588,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\52597.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "part",
+      0.669181
+    ],
+    [
+      "early",
+      0.321922
+    ],
+    [
+      "firestick",
+      0.32102
+    ],
+    [
+      "back",
+      0.313808
+    ],
+    [
+      "don't issue",
+      0.295712
+    ],
+    [
+      "newsmax",
+      0.287764
+    ],
+    [
+      "enjoy",
+      0.287292
+    ],
+    [
+      "netflix",
+      0.252439
+    ],
+    [
+      "free",
+      0.23129
+    ],
+    [
+      "customer",
+      0.220091
+    ],
+    [
+      "work",
+      0.219909
+    ],
+    [
+      "no commercials",
+      0.219512
+    ],
+    [
+      "don't fixed",
+      0.208817
+    ],
+    [
+      "lag-loop",
+      0.208433
+    ],
+    [
+      "can't stand",
+      0.205174
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "enjoy",
+      0.11213
+    ],
+    [
+      "cannot",
+      -0.059868
+    ],
+    [
+      "ridiculous",
+      -0.052748
+    ],
+    [
+      "fix",
+      -0.0511
+    ],
+    [
+      "not happy",
+      -0.042765
+    ],
+    [
+      "free",
+      0.042561
+    ],
+    [
+      "part",
+      -0.032103
+    ],
+    [
+      "subtitles",
+      0.029972
+    ],
+    [
+      "highest",
+      0.029243
+    ],
+    [
+      "newsmax",
+      -0.026209
+    ],
+    [
+      "star",
+      0.025473
+    ],
+    [
+      "lost",
+      -0.02543
+    ],
+    [
+      "advance",
+      -0.020405
+    ],
+    [
+      "password",
+      -0.020166
+    ],
+    [
+      "bed",
+      0.020101
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "enjoy",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 7,
+      "rank_shap": 1,
+      "shap_signed": 0.11213,
+      "in_both": true
+    },
+    {
+      "word": "part",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 1,
+      "rank_shap": 7,
+      "shap_signed": -0.032103,
+      "in_both": true
+    },
+    {
+      "word": "free",
+      "rrf_score": 0.029644,
+      "rank_bahdanau": 9,
+      "rank_shap": 6,
+      "shap_signed": 0.042561,
+      "in_both": true
+    },
+    {
+      "word": "newsmax",
+      "rrf_score": 0.029437,
+      "rank_bahdanau": 6,
+      "rank_shap": 10,
+      "shap_signed": -0.026209,
+      "in_both": true
+    },
+    {
+      "word": "early",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "cannot",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": -0.059868,
+      "in_both": false
+    },
+    {
+      "word": "ridiculous",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": -0.052748,
+      "in_both": false
+    },
+    {
+      "word": "firestick",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "fix",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.0511,
+      "in_both": false
+    },
+    {
+      "word": "back",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not happy",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.042765,
+      "in_both": false
+    },
+    {
+      "word": "don't issue",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": 5,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "netflix",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "subtitles",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.029972,
+      "in_both": false
+    },
+    {
+      "word": "highest",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.029243,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 10,
+      "text": "Not happy so far. The default settings to subtitles is ridiculous. Every time I turn it on! I go to bed early, so I watch all the evening programs in the selection of episodes. Every one has subtitles! I cannot advance through commercials easily like I used to. And if this site was like 'Netflix' I would have no commercials. What am I paying for? BTW. No Greta or Rob Schmidt in the que!? Mark me disappointed!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 1,
+      "text": "I enjoy the news part of it. I can't stand the breaks. You play the same old clips over and over and over and over and over and over and over and over and over again. I literally can't stand Ronald Reagan anymore because you played that An American Life video 1000 times too many. when you are not playing the annoying American Life videos you play nothing but Kamala Harris ads. it's so annoying that I have stopped watching. Play that stupid Hallmark commercial one more fing time I will delete."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 6,
+      "text": "This app is horrible. Every time this app is used, the app freezes with a lag-loop. The video freezes, and the audio loops back 10 seconds. When the audio reaches the video freeze point, the stream continues. Then, the cycle repeats continuously, every 20 seconds, until the top of the hour when the next program begins. All of the content in between is lost, too. What the hell, people? Fix this !! There are 5 other problems & I don't have enough characters Where's the option to get my $50 back?"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 13,
+      "text": "This is about Newsmax+ - Buffers all the time. After a show is over, get error screen and all sort of gyrations to get back in. You would think if you were going to launch this big change, you would make sure it was of the highest quality. Hope you fix it soon. I've been a Newsmax customer for years, and I don't have an issue paying for the app even if it cost more, if it would just work. Very disappointing."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 19,
+      "text": "+1 on frustrating. I thought it was just me, but like many, many other reviewers, the Newsmax app logs me out every day. I use the app on a Firestick. So it is doubly frustrating because I have to use my remote to enter the username and password. Hunt and peck it out. Dear Newsmax, I'm switching back to Fox if you don't get this fixed! Their app is hassle free for me. PS. A compromise would be to save username and password like other apps do. And, my one star is for the app, not the con"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "part",
+      0.669181
+    ],
+    [
+      "early",
+      0.321922
+    ],
+    [
+      "firestick",
+      0.32102
+    ],
+    [
+      "back",
+      0.313808
+    ],
+    [
+      "don't issue",
+      0.295712
+    ],
+    [
+      "newsmax",
+      0.287764
+    ],
+    [
+      "enjoy",
+      0.287292
+    ],
+    [
+      "netflix",
+      0.252439
+    ],
+    [
+      "free",
+      0.23129
+    ],
+    [
+      "customer",
+      0.220091
+    ],
+    [
+      "work",
+      0.219909
+    ],
+    [
+      "no commercials",
+      0.219512
+    ],
+    [
+      "don't fixed",
+      0.208817
+    ],
+    [
+      "lag-loop",
+      0.208433
+    ],
+    [
+      "can't stand",
+      0.205174
+    ]
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "package_name": "br.com.band.guiatv",
+  "num_screens": 8,
+  "app_score": 0.019795166881522164,
+  "app_prediction": "bad",
+  "app_confidence": 0.9802048331184778,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0048996503464877605,
+    0.03970324620604515,
+    0.07293165475130081,
+    0.00273115374147892,
+    0.01703677885234356,
+    0.008277103304862976,
+    0.0030499177519232035,
+    0.009731830097734928
+  ],
+  "prediction_variance": 0.0005318529414409279,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\br_com_band_guiatv\\br_com_band_guiatv_app_explanation.png",
+  "text_explanation": {
+    "caption": "br.com.band.guiatv was predicted as bad with average confidence 98% across 8 screens.",
+    "simple": "br.com.band.guiatv was predicted as bad with average confidence 98% across 8 screens. Across these screens, the model frequently emphasized Image components.",
+    "detailed": "br.com.band.guiatv was predicted as bad with average confidence 98% across 8 screens. Across these screens, the model frequently emphasized Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (12x), Text (6x), Icon (2x). The most influential review words across screens were 'de', 'que', 'não', 'problema', and 'f1'. The app belongs to the Entertainment category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "29688",
+    "review_rank": 3,
+    "delta_p_img": 0.2969542294740677,
+    "confidence": 0.9829632211476564,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\29688.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "de",
+      1.415808
+    ],
+    [
+      "que",
+      1.240364
+    ],
+    [
+      "não",
+      1.099208
+    ],
+    [
+      "problema",
+      1.041745
+    ],
+    [
+      "f1",
+      1.026652
+    ],
+    [
+      "horrível",
+      0.939766
+    ],
+    [
+      "not exists",
+      0.934012
+    ],
+    [
+      "streaming/vídeos",
+      0.927213
+    ],
+    [
+      "details",
+      0.90781
+    ],
+    [
+      "dá",
+      0.89668
+    ],
+    [
+      "aberta",
+      0.874752
+    ],
+    [
+      "pior",
+      0.871143
+    ],
+    [
+      "seems",
+      0.820552
+    ],
+    [
+      "email",
+      0.813412
+    ],
+    [
+      "woll",
+      0.720734
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "não",
+      -0.291739
+    ],
+    [
+      "f1",
+      0.248255
+    ],
+    [
+      "helpful",
+      0.242402
+    ],
+    [
+      "melhor",
+      0.185247
+    ],
+    [
+      "mau",
+      -0.168763
+    ],
+    [
+      "streaming/vídeos",
+      0.162291
+    ],
+    [
+      "problema",
+      -0.127021
+    ],
+    [
+      "gosto",
+      0.116404
+    ],
+    [
+      "nenhum",
+      -0.108541
+    ],
+    [
+      "no horário",
+      0.102343
+    ],
+    [
+      "seems",
+      0.085845
+    ],
+    [
+      "gratuita",
+      0.081991
+    ],
+    [
+      "sending",
+      0.081375
+    ],
+    [
+      "cheia",
+      0.080225
+    ],
+    [
+      "tem",
+      0.06736
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "não",
+      "rrf_score": 0.032266,
+      "rank_bahdanau": 3,
+      "rank_shap": 1,
+      "shap_signed": -0.291739,
+      "in_both": true
+    },
+    {
+      "word": "f1",
+      "rrf_score": 0.031514,
+      "rank_bahdanau": 5,
+      "rank_shap": 2,
+      "shap_signed": 0.248255,
+      "in_both": true
+    },
+    {
+      "word": "problema",
+      "rrf_score": 0.03055,
+      "rank_bahdanau": 4,
+      "rank_shap": 7,
+      "shap_signed": -0.127021,
+      "in_both": true
+    },
+    {
+      "word": "streaming/vídeos",
+      "rrf_score": 0.029857,
+      "rank_bahdanau": 8,
+      "rank_shap": 6,
+      "shap_signed": 0.162291,
+      "in_both": true
+    },
+    {
+      "word": "seems",
+      "rrf_score": 0.027783,
+      "rank_bahdanau": 13,
+      "rank_shap": 11,
+      "shap_signed": 0.085845,
+      "in_both": true
+    },
+    {
+      "word": "de",
+      "rrf_score": 0.016393,
+      "rank_bahdanau": 1,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "que",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "helpful",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.242402,
+      "in_both": false
+    },
+    {
+      "word": "melhor",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.185247,
+      "in_both": false
+    },
+    {
+      "word": "mau",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": -0.168763,
+      "in_both": false
+    },
+    {
+      "word": "horrível",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "not exists",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "gosto",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": 0.116404,
+      "in_both": false
+    },
+    {
+      "word": "nenhum",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": -0.108541,
+      "in_both": false
+    },
+    {
+      "word": "details",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 12,
+      "text": "eu tenho bastante problema de conexão com a vivo. Tanto na fibra, quanto nos dados móveis. Assistir F1 no 4g é uma tarefa complicada, as vezes to assistindo e do nada dá erro 404 e tenho que voltar pra página inicial. Quando não fica uma tela de reconectando. Em tela cheia, usando samsung sem aqueles botoes grandes de voltar/home/apps abertos, o app não esconde aquele risco na barra inferior"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 13,
+      "text": "Pior app de streaming/vídeos que tem. Não tem UMA corrida de F1 que este app não dá problema. Horrível!!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 0,
+      "text": "I created my account, even if I confirmed my email, it says that my account does not exists. Please fix that. 3 stars because the support seems to be helpful. I hope they fix that, O woll be sending more details by email"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 15,
+      "text": "Se e pudesse eu dava 0 estrelas, nenhum programa é no horário Certo, principalmente a f1 , que era bem melhor na globo, lá eles passavam Tudo na tv e não tinham essa frescura de aplicativo, agr Todo Mundo é obrigado a assinar o f1 tv pra ver uma corrida de qualidade"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "Uma piada de mau gosto esse app. TV aberta gratuita que não dá pra assistir. Aparece a mensagem \"Ops, a atração deste horário não está disponível por aqui, apenas na TV aberta\" Para que serve esse app então se não dá para assistir TV aberta gratuita ao vivo?"
+    }
+  ],
+  "top_influential_words": [
+    [
+      "de",
+      1.415808
+    ],
+    [
+      "que",
+      1.240364
+    ],
+    [
+      "não",
+      1.099208
+    ],
+    [
+      "problema",
+      1.041745
+    ],
+    [
+      "f1",
+      1.026652
+    ],
+    [
+      "horrível",
+      0.939766
+    ],
+    [
+      "not exists",
+      0.934012
+    ],
+    [
+      "streaming/vídeos",
+      0.927213
+    ],
+    [
+      "details",
+      0.90781
+    ],
+    [
+      "dá",
+      0.89668
+    ],
+    [
+      "aberta",
+      0.874752
+    ],
+    [
+      "pior",
+      0.871143
+    ],
+    [
+      "seems",
+      0.820552
+    ],
+    [
+      "email",
+      0.813412
+    ],
+    [
+      "woll",
+      0.720734
+    ]
+  ]
+}

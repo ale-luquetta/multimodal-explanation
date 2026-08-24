@@ -1,0 +1,369 @@
+{
+  "package_name": "com.video.converterandroid",
+  "num_screens": 7,
+  "app_score": 0.022749709198251367,
+  "app_prediction": "bad",
+  "app_confidence": 0.9772502908017486,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.006983264349400997,
+    0.03909823298454285,
+    0.0038361537735909224,
+    0.02652205340564251,
+    0.03453291952610016,
+    0.034627340734004974,
+    0.013647999614477158
+  ],
+  "prediction_variance": 0.00017865306666576243,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_video_converterandroid\\com_video_converterandroid_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.video.converterandroid was classified as bad with average confidence 98% across 7 screens.",
+    "simple": "com.video.converterandroid was classified as bad with average confidence 98% across 7 screens. Across these screens, the model recurringly attended to Image components.",
+    "detailed": "com.video.converterandroid was classified as bad with average confidence 98% across 7 screens. Across these screens, the model recurringly attended to Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (7x), Text (7x), Icon (3x). The most influential review words across screens were 'good', 'ads', 'dont install', 'video', and 'can't played'. The app belongs to the Video Players & Editors category and was analyzed across 7 screens."
+  },
+  "representative_screen": {
+    "screen_id": "44739",
+    "review_rank": 4,
+    "delta_p_img": 0.24360506981611252,
+    "confidence": 0.9863520003855228,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\44739.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "good",
+      2.367238
+    ],
+    [
+      "ads",
+      1.700249
+    ],
+    [
+      "dont install",
+      1.272117
+    ],
+    [
+      "video",
+      1.269598
+    ],
+    [
+      "can't played",
+      1.177185
+    ],
+    [
+      "reviews",
+      1.156292
+    ],
+    [
+      "file",
+      1.150053
+    ],
+    [
+      "perfectly",
+      1.121766
+    ],
+    [
+      "time",
+      1.058005
+    ],
+    [
+      "using",
+      0.994911
+    ],
+    [
+      "works",
+      0.899717
+    ],
+    [
+      "times",
+      0.87476
+    ],
+    [
+      "open",
+      0.819029
+    ],
+    [
+      "48fps",
+      0.777518
+    ],
+    [
+      "later",
+      0.761623
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "perfectly",
+      0.545615
+    ],
+    [
+      "good",
+      0.493003
+    ],
+    [
+      "works",
+      0.320055
+    ],
+    [
+      "crashed",
+      -0.278999
+    ],
+    [
+      "option",
+      0.251865
+    ],
+    [
+      "able",
+      0.182961
+    ],
+    [
+      "can't played",
+      -0.161293
+    ],
+    [
+      "plz",
+      -0.144677
+    ],
+    [
+      "reviews",
+      0.137646
+    ],
+    [
+      "add",
+      -0.115578
+    ],
+    [
+      "frame",
+      -0.097446
+    ],
+    [
+      "48fps",
+      0.079809
+    ],
+    [
+      "started",
+      0.074176
+    ],
+    [
+      "movie",
+      -0.068805
+    ],
+    [
+      "useless",
+      -0.067598
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "good",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 1,
+      "rank_shap": 2,
+      "shap_signed": 0.493003,
+      "in_both": true
+    },
+    {
+      "word": "perfectly",
+      "rrf_score": 0.031099,
+      "rank_bahdanau": 8,
+      "rank_shap": 1,
+      "shap_signed": 0.545615,
+      "in_both": true
+    },
+    {
+      "word": "can't played",
+      "rrf_score": 0.03031,
+      "rank_bahdanau": 5,
+      "rank_shap": 7,
+      "shap_signed": -0.161293,
+      "in_both": true
+    },
+    {
+      "word": "works",
+      "rrf_score": 0.029958,
+      "rank_bahdanau": 11,
+      "rank_shap": 3,
+      "shap_signed": 0.320055,
+      "in_both": true
+    },
+    {
+      "word": "reviews",
+      "rrf_score": 0.029644,
+      "rank_bahdanau": 6,
+      "rank_shap": 9,
+      "shap_signed": 0.137646,
+      "in_both": true
+    },
+    {
+      "word": "48fps",
+      "rrf_score": 0.027402,
+      "rank_bahdanau": 14,
+      "rank_shap": 12,
+      "shap_signed": 0.079809,
+      "in_both": true
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": 2,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "dont install",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "video",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "crashed",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": -0.278999,
+      "in_both": false
+    },
+    {
+      "word": "option",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.251865,
+      "in_both": false
+    },
+    {
+      "word": "able",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.182961,
+      "in_both": false
+    },
+    {
+      "word": "file",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "plz",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": null,
+      "rank_shap": 8,
+      "shap_signed": -0.144677,
+      "in_both": false
+    },
+    {
+      "word": "time",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 4,
+      "text": "it crashed many times , when try to open Avi video ... big amount of Ads!!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 2,
+      "text": "Dont install and waste your time its crashes so many times while selecting one file only , totally useless , i dont know why developer made this type of fake app"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 1,
+      "text": "Using the (nifty) file manager I was able to locate the flv file I wanted to convert. Selected it, the app started - and crashed 4 seconds later... Uninstalled."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 0,
+      "text": "It's very good, but the low-volume possibilities of making a video are very limited and in some cases, the movie can't be played after conversion."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 5,
+      "text": "I dont understand why theres so many bad reviews?? This app works perfectly!! Plz add 48fps as a frame rate option tho."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "good",
+      2.367238
+    ],
+    [
+      "ads",
+      1.700249
+    ],
+    [
+      "dont install",
+      1.272117
+    ],
+    [
+      "video",
+      1.269598
+    ],
+    [
+      "can't played",
+      1.177185
+    ],
+    [
+      "reviews",
+      1.156292
+    ],
+    [
+      "file",
+      1.150053
+    ],
+    [
+      "perfectly",
+      1.121766
+    ],
+    [
+      "time",
+      1.058005
+    ],
+    [
+      "using",
+      0.994911
+    ],
+    [
+      "works",
+      0.899717
+    ],
+    [
+      "times",
+      0.87476
+    ],
+    [
+      "open",
+      0.819029
+    ],
+    [
+      "48fps",
+      0.777518
+    ],
+    [
+      "later",
+      0.761623
+    ]
+  ]
+}

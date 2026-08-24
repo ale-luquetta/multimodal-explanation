@@ -1,0 +1,370 @@
+{
+  "package_name": "com.kauf.sticker.zombiephotoboothfree",
+  "num_screens": 8,
+  "app_score": 0.013073533205897547,
+  "app_prediction": "bad",
+  "app_confidence": 0.9869264667941025,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.0019423814956098795,
+    0.0032042833045125008,
+    0.010567881166934967,
+    0.027787989005446434,
+    0.000972908572293818,
+    0.0014070007018744946,
+    0.0014578772243112326,
+    0.05724794417619705
+  ],
+  "prediction_variance": 0.0003516166599096184,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_kauf_sticker_zombiephotoboothfree\\com_kauf_sticker_zombiephotoboothfree_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.kauf.sticker.zombiephotoboothfree was classified as bad with average confidence 99% across 8 screens.",
+    "simple": "com.kauf.sticker.zombiephotoboothfree was classified as bad with average confidence 99% across 8 screens. Across these screens, the model recurringly attended to Image components.",
+    "detailed": "com.kauf.sticker.zombiephotoboothfree was classified as bad with average confidence 99% across 8 screens. Across these screens, the model recurringly attended to Image components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Image (6x), Icon (6x), Text Button (4x). The most influential review words across screens were 'doesn't work', 'delete!!it's', 'whats', 'ing', and 'prank.this'. The app belongs to the Entertainment category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "67949",
+    "review_rank": 2,
+    "delta_p_img": 0.2269068919122219,
+    "confidence": 0.942752055823803,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\67949.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "doesn't work",
+      3.872681
+    ],
+    [
+      "delete!!it's",
+      3.148319
+    ],
+    [
+      "whats",
+      2.679402
+    ],
+    [
+      "ing",
+      2.662505
+    ],
+    [
+      "prank.this",
+      2.355579
+    ],
+    [
+      "not happy",
+      2.294996
+    ],
+    [
+      "top",
+      2.039641
+    ],
+    [
+      "f",
+      1.459636
+    ],
+    [
+      "ads",
+      1.365703
+    ],
+    [
+      "bunch",
+      1.231563
+    ],
+    [
+      "anyone",
+      1.167387
+    ],
+    [
+      "advertising",
+      1.157039
+    ],
+    [
+      "junk",
+      1.114597
+    ],
+    [
+      "no stars",
+      1.059549
+    ],
+    [
+      "stupid",
+      1.007976
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "doesn't work",
+      -0.381452
+    ],
+    [
+      "instant",
+      0.172627
+    ],
+    [
+      "download",
+      0.120131
+    ],
+    [
+      "delete!!it's",
+      -0.098457
+    ],
+    [
+      "tonnes",
+      0.079493
+    ],
+    [
+      "adds",
+      0.075354
+    ],
+    [
+      "nexus",
+      -0.073745
+    ],
+    [
+      "prank.this",
+      0.073465
+    ],
+    [
+      "actually",
+      -0.07145
+    ],
+    [
+      "commercial",
+      -0.071312
+    ],
+    [
+      "top",
+      0.069052
+    ],
+    [
+      "click",
+      -0.060865
+    ],
+    [
+      "not",
+      -0.059394
+    ],
+    [
+      "wants",
+      0.057456
+    ],
+    [
+      "pull",
+      0.050682
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "doesn't work",
+      "rrf_score": 0.032787,
+      "rank_bahdanau": 1,
+      "rank_shap": 1,
+      "shap_signed": -0.381452,
+      "in_both": true
+    },
+    {
+      "word": "delete!!it's",
+      "rrf_score": 0.031754,
+      "rank_bahdanau": 2,
+      "rank_shap": 4,
+      "shap_signed": -0.098457,
+      "in_both": true
+    },
+    {
+      "word": "prank.this",
+      "rrf_score": 0.03009,
+      "rank_bahdanau": 5,
+      "rank_shap": 8,
+      "shap_signed": 0.073465,
+      "in_both": true
+    },
+    {
+      "word": "top",
+      "rrf_score": 0.02901,
+      "rank_bahdanau": 7,
+      "rank_shap": 11,
+      "shap_signed": 0.069052,
+      "in_both": true
+    },
+    {
+      "word": "instant",
+      "rrf_score": 0.016129,
+      "rank_bahdanau": null,
+      "rank_shap": 2,
+      "shap_signed": 0.172627,
+      "in_both": false
+    },
+    {
+      "word": "whats",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "download",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.120131,
+      "in_both": false
+    },
+    {
+      "word": "ing",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "tonnes",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.079493,
+      "in_both": false
+    },
+    {
+      "word": "not happy",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "adds",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.075354,
+      "in_both": false
+    },
+    {
+      "word": "nexus",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": null,
+      "rank_shap": 7,
+      "shap_signed": -0.073745,
+      "in_both": false
+    },
+    {
+      "word": "f",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "ads",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "actually",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": -0.07145,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 1,
+      "text": "A 30 second commercial on first start up, then froze. Then I restarted and another commercial. Instant delete!!It's Just more junk!!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 9,
+      "text": "its just a bunch of f ing advertising. I'd give it no stars if I could"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 0,
+      "text": "Anyone that wants to actually pull off a prank should download gohst in photo prank.this app has adds if you click on anything 😑😤"
+    },
+    {
+      "rank": 3,
+      "embedding_idx": -1,
+      "text": "Doesn't even work on nexus 4 and to top it all there's tonnes of add."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "all i get are stupid ads when i open the app. whats up with this not happy."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "doesn't work",
+      3.872681
+    ],
+    [
+      "delete!!it's",
+      3.148319
+    ],
+    [
+      "whats",
+      2.679402
+    ],
+    [
+      "ing",
+      2.662505
+    ],
+    [
+      "prank.this",
+      2.355579
+    ],
+    [
+      "not happy",
+      2.294996
+    ],
+    [
+      "top",
+      2.039641
+    ],
+    [
+      "f",
+      1.459636
+    ],
+    [
+      "ads",
+      1.365703
+    ],
+    [
+      "bunch",
+      1.231563
+    ],
+    [
+      "anyone",
+      1.167387
+    ],
+    [
+      "advertising",
+      1.157039
+    ],
+    [
+      "junk",
+      1.114597
+    ],
+    [
+      "no stars",
+      1.059549
+    ],
+    [
+      "stupid",
+      1.007976
+    ]
+  ]
+}

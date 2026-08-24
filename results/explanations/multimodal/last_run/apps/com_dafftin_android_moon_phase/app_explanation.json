@@ -1,0 +1,370 @@
+{
+  "package_name": "com.dafftin.android.moon_phase",
+  "num_screens": 8,
+  "app_score": 0.9874749332666397,
+  "app_prediction": "good",
+  "app_confidence": 0.9874749332666397,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9749107956886292,
+    0.993137001991272,
+    0.990490198135376,
+    0.9842761754989624,
+    0.975145697593689,
+    0.9933683276176453,
+    0.9922958612442017,
+    0.9961754083633423
+  ],
+  "prediction_variance": 6.186527644191919e-05,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_dafftin_android_moon_phase\\com_dafftin_android_moon_phase_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.dafftin.android.moon_phase was labeled as good with average confidence 99% across 8 screens.",
+    "simple": "com.dafftin.android.moon_phase was labeled as good with average confidence 99% across 8 screens. Across these screens, the model consistently focused on Text Button components.",
+    "detailed": "com.dafftin.android.moon_phase was labeled as good with average confidence 99% across 8 screens. Across these screens, the model consistently focused on Text Button components. Per-screen predictions were stable, indicating consistent evidence across the UI. The most recurring salient components were: Text Button (11x), Text (7x), Icon (3x). The most influential review words across screens were 'sky', 'features', 'day', 'phase', and 'cool'. The app belongs to the Weather category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "16589",
+    "review_rank": 1,
+    "delta_p_img": 0.5573627054691315,
+    "confidence": 0.9749107956886292,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\16589.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "sky",
+      1.914975
+    ],
+    [
+      "features",
+      1.222972
+    ],
+    [
+      "day",
+      1.14371
+    ],
+    [
+      "phase",
+      0.924733
+    ],
+    [
+      "cool",
+      0.923904
+    ],
+    [
+      "equinoxes",
+      0.890308
+    ],
+    [
+      "great",
+      0.867815
+    ],
+    [
+      "widget",
+      0.837903
+    ],
+    [
+      "times",
+      0.739114
+    ],
+    [
+      "10/10",
+      0.689732
+    ],
+    [
+      "quickly",
+      0.596237
+    ],
+    [
+      "bodies",
+      0.591072
+    ],
+    [
+      "feature",
+      0.582958
+    ],
+    [
+      "using",
+      0.549014
+    ],
+    [
+      "good",
+      0.544096
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "great",
+      0.798997
+    ],
+    [
+      "cool",
+      0.391477
+    ],
+    [
+      "sky",
+      0.350844
+    ],
+    [
+      "extremely",
+      0.3284
+    ],
+    [
+      "fav",
+      0.290218
+    ],
+    [
+      "must",
+      0.278346
+    ],
+    [
+      "using",
+      0.267239
+    ],
+    [
+      "good",
+      0.264836
+    ],
+    [
+      "neat",
+      0.230576
+    ],
+    [
+      "multiple",
+      0.22477
+    ],
+    [
+      "features",
+      0.223323
+    ],
+    [
+      "exactly",
+      0.222869
+    ],
+    [
+      "no ads",
+      0.219047
+    ],
+    [
+      "accurate",
+      0.21543
+    ],
+    [
+      "simple",
+      0.20777
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "sky",
+      "rrf_score": 0.032266,
+      "rank_bahdanau": 1,
+      "rank_shap": 3,
+      "shap_signed": 0.350844,
+      "in_both": true
+    },
+    {
+      "word": "cool",
+      "rrf_score": 0.031514,
+      "rank_bahdanau": 5,
+      "rank_shap": 2,
+      "shap_signed": 0.391477,
+      "in_both": true
+    },
+    {
+      "word": "great",
+      "rrf_score": 0.031319,
+      "rank_bahdanau": 7,
+      "rank_shap": 1,
+      "shap_signed": 0.798997,
+      "in_both": true
+    },
+    {
+      "word": "features",
+      "rrf_score": 0.030214,
+      "rank_bahdanau": 2,
+      "rank_shap": 11,
+      "shap_signed": 0.223323,
+      "in_both": true
+    },
+    {
+      "word": "using",
+      "rrf_score": 0.028439,
+      "rank_bahdanau": 14,
+      "rank_shap": 7,
+      "shap_signed": 0.267239,
+      "in_both": true
+    },
+    {
+      "word": "good",
+      "rrf_score": 0.028039,
+      "rank_bahdanau": 15,
+      "rank_shap": 8,
+      "shap_signed": 0.264836,
+      "in_both": true
+    },
+    {
+      "word": "day",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "extremely",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.3284,
+      "in_both": false
+    },
+    {
+      "word": "phase",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "fav",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.290218,
+      "in_both": false
+    },
+    {
+      "word": "equinoxes",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "must",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.278346,
+      "in_both": false
+    },
+    {
+      "word": "widget",
+      "rrf_score": 0.014706,
+      "rank_bahdanau": 8,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "times",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "neat",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.230576,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 5,
+      "text": "I've been using this app for years and it continues to impress me with every update. It has a great visual interface, will help you find planets in the sky, gives you notifications for any moon phase or other sky event that you want. Extremely accurate information for any location for eclipses, lunar phases, solstices and equinoxes, planetary alignments, and much more. Just a great app!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 0,
+      "text": "This is a must have for anyone who is obsessed with the night sky. I've tried other, more well known apps for my stargazing, and none of them have been up to par compared to this one! My fav feature is the moon widget you can add to your home screen, which is basically a calendar for the current moon phase. There are so many neat features on this app and it really is rhe most informative and best designed app that the play store has to offer! 10/10!"
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 15,
+      "text": "Good way to track moon phases and rising and setting times. Really nice widget! Easy to use. Many other great features allowing you to see how all the planets are placed in the sky. Also you can 'time travel' back into the past and forward to the future. No ads. I occasionally donate anonymously using PayPal Thanks for such a great app. It's exactly what I was looking for."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 18,
+      "text": "There are few Apps that make it through multiple phone upgrades, this is one of them. Been using daily for years. It has more data than you can successfully use each day, yet is simple to use and self explanatory. I've never once had a crash or glitch, smooth and precise. They really have thought of everything. Also like the widgets for fast info without having to open the app. As a skywatcher and picture taker, I use this app at least 5 times a day, every day. Highest recommendation."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 6,
+      "text": "App is extremely detailed and loads up quickly. Has a lot of cool features for people interested in celestial bodies. The feature where you can see your location in relation to the sun and moons postions is really cool and puts the world into perspective. I also like that it shows the planets locations in the sky. Something that I never really thought about before."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "sky",
+      1.914975
+    ],
+    [
+      "features",
+      1.222972
+    ],
+    [
+      "day",
+      1.14371
+    ],
+    [
+      "phase",
+      0.924733
+    ],
+    [
+      "cool",
+      0.923904
+    ],
+    [
+      "equinoxes",
+      0.890308
+    ],
+    [
+      "great",
+      0.867815
+    ],
+    [
+      "widget",
+      0.837903
+    ],
+    [
+      "times",
+      0.739114
+    ],
+    [
+      "10/10",
+      0.689732
+    ],
+    [
+      "quickly",
+      0.596237
+    ],
+    [
+      "bodies",
+      0.591072
+    ],
+    [
+      "feature",
+      0.582958
+    ],
+    [
+      "using",
+      0.549014
+    ],
+    [
+      "good",
+      0.544096
+    ]
+  ]
+}

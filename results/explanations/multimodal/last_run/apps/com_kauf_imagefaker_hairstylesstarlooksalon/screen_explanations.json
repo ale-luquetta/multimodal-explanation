@@ -1,0 +1,4482 @@
+[
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesstarlooksalon",
+    "screen_id": "22164",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\22164.jpg",
+    "text": "Pathetic is the word for this rubbish app this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME. THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+    "prediction": 0.1699792593717575,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.8300207406282425,
+    "gradcam_stats": {
+      "mean": 0.21059347689151764,
+      "max": 1.0,
+      "std": 0.25322839617729187
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+      "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+      "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+      "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+      "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!"
+    ],
+    "app_name": "Hairstyles - Star Look Salon",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.17112639546394348,
+      "p_img": 0.07442094385623932,
+      "delta_p_img": 0.09670545160770416
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ],
+        "score_total": 268.7168884277344,
+        "score_mean": 0.6220298343234592
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 304.3683776855469,
+        "score_mean": 0.5968007405598958
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 103.38914489746094,
+        "score_mean": 0.5743841383192274
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 268.7168884277344,
+        "score_mean": 0.6220298343234592,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 304.3683776855469,
+        "score_mean": 0.5968007405598958,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 103.38914489746094,
+        "score_mean": 0.5743841383192274,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 268.7168884277344,
+        "score_mean": 0.6220298343234592,
+        "bounds_image": [
+          26,
+          10,
+          80,
+          18
+        ],
+        "bounds_rico": [
+          169,
+          125,
+          519,
+          210
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 304.3683776855469,
+        "score_mean": 0.5968007405598958,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Icon",
+        "score_total": 103.38914489746094,
+        "score_mean": 0.5743841383192274,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Pathetic"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      },
+      {
+        "index": 4,
+        "token": "▁word"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+        "word_count": 28,
+        "interface_pos": 0.0089,
+        "interface_neg": 0.9823,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁star, ▁app, ▁one",
+        "p_orig": 0.18036212027072906,
+        "p_img": 0.07100730389356613,
+        "delta_p_img": 0.10935481637716293,
+        "gradcam_mean": 0.20687620341777802,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.10935481637716293,
+        "word_attention_top15": [
+          [
+            "doesn't deserve",
+            0.24709
+          ],
+          [
+            "review",
+            0.240684
+          ],
+          [
+            "horrible",
+            0.203118
+          ],
+          [
+            "never download",
+            0.123307
+          ],
+          [
+            "star",
+            0.105169
+          ],
+          [
+            "trust",
+            0.031423
+          ],
+          [
+            "give",
+            0.027844
+          ],
+          [
+            "please",
+            0.021364
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "never download",
+            -0.072572
+          ],
+          [
+            "horrible",
+            -0.058482
+          ],
+          [
+            "trust",
+            0.03224
+          ],
+          [
+            "star",
+            0.008749
+          ],
+          [
+            "doesn't deserve",
+            -0.006612
+          ],
+          [
+            "give",
+            0.005715
+          ],
+          [
+            "please",
+            -0.005217
+          ],
+          [
+            "review",
+            0.002523
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16510264575481415,
+          "max": 0.9999999403953552,
+          "std": 0.3010185956954956
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+        "word_count": 35,
+        "interface_pos": 0.0118,
+        "interface_neg": 0.9579,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁BY, ▁IS, ▁I",
+        "p_orig": 0.18047848343849182,
+        "p_img": 0.06957507133483887,
+        "delta_p_img": 0.11090341210365295,
+        "gradcam_mean": 0.20633496344089508,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.11090341210365295,
+        "word_attention_top15": [
+          [
+            "else's",
+            0.158912
+          ],
+          [
+            "installed",
+            0.140462
+          ],
+          [
+            "doesn't let",
+            0.101409
+          ],
+          [
+            "puts",
+            0.071332
+          ],
+          [
+            "ads",
+            0.068407
+          ],
+          [
+            "size",
+            0.061632
+          ],
+          [
+            "far",
+            0.058998
+          ],
+          [
+            "someone",
+            0.056298
+          ],
+          [
+            "worst",
+            0.046104
+          ],
+          [
+            "keeps",
+            0.042242
+          ],
+          [
+            "change",
+            0.035107
+          ],
+          [
+            "facebook",
+            0.034552
+          ],
+          [
+            "ever",
+            0.030902
+          ],
+          [
+            "body",
+            0.029127
+          ],
+          [
+            "page",
+            0.027443
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "worst",
+            -0.16742
+          ],
+          [
+            "puts",
+            0.015596
+          ],
+          [
+            "face",
+            -0.014952
+          ],
+          [
+            "ever",
+            0.014303
+          ],
+          [
+            "far",
+            0.013095
+          ],
+          [
+            "installed",
+            0.010064
+          ],
+          [
+            "doesn't let",
+            0.009935
+          ],
+          [
+            "change",
+            -0.009632
+          ],
+          [
+            "facebook",
+            0.00961
+          ],
+          [
+            "ads",
+            -0.009353
+          ],
+          [
+            "taking",
+            -0.009347
+          ],
+          [
+            "keeps",
+            0.007327
+          ],
+          [
+            "else's",
+            -0.004568
+          ],
+          [
+            "someone",
+            -0.0038
+          ],
+          [
+            "body",
+            -0.003691
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16493655741214752,
+          "max": 0.9999999403953552,
+          "std": 0.3016943037509918
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+        "word_count": 51,
+        "interface_pos": 0.0183,
+        "interface_neg": 0.9412,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text, Icon",
+        "top_k_tokens": "▁hairstyles, ▁You, ▁finishes",
+        "p_orig": 0.25830891728401184,
+        "p_img": 0.10691701620817184,
+        "delta_p_img": 0.15139190107584,
+        "gradcam_mean": 0.21253076195716858,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.15139190107584,
+        "word_attention_top15": [
+          [
+            "can't choose",
+            0.140311
+          ],
+          [
+            "ridiculous",
+            0.137534
+          ],
+          [
+            "hairstyles",
+            0.133384
+          ],
+          [
+            "don't download",
+            0.125547
+          ],
+          [
+            "can't finishes",
+            0.111978
+          ],
+          [
+            "times",
+            0.042949
+          ],
+          [
+            "ad",
+            0.036954
+          ],
+          [
+            "loads",
+            0.032488
+          ],
+          [
+            "forwards",
+            0.03179
+          ],
+          [
+            "options",
+            0.030582
+          ],
+          [
+            "click",
+            0.026739
+          ],
+          [
+            "forward",
+            0.025974
+          ],
+          [
+            "backwards",
+            0.02329
+          ],
+          [
+            "video",
+            0.021523
+          ],
+          [
+            "give",
+            0.019483
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't download",
+            -0.106308
+          ],
+          [
+            "can't choose",
+            -0.046354
+          ],
+          [
+            "hairstyles",
+            0.019515
+          ],
+          [
+            "options",
+            0.016987
+          ],
+          [
+            "give",
+            0.014303
+          ],
+          [
+            "ad",
+            0.012104
+          ],
+          [
+            "click",
+            -0.011124
+          ],
+          [
+            "can't finishes",
+            -0.010186
+          ],
+          [
+            "times",
+            -0.008302
+          ],
+          [
+            "video",
+            0.008206
+          ],
+          [
+            "four",
+            -0.007816
+          ],
+          [
+            "loads",
+            -0.005757
+          ],
+          [
+            "forward",
+            -0.004508
+          ],
+          [
+            "random",
+            0.004174
+          ],
+          [
+            "forwards",
+            -0.003178
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16866929829120636,
+          "max": 0.9999998807907104,
+          "std": 0.30123087763786316
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+        "word_count": 84,
+        "interface_pos": 0.0202,
+        "interface_neg": 0.963,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text, Icon",
+        "top_k_tokens": "▁layout, ▁the, t",
+        "p_orig": 0.3004927635192871,
+        "p_img": 0.1258252114057541,
+        "delta_p_img": 0.17466755211353302,
+        "gradcam_mean": 0.2094508558511734,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.17466755211353302,
+        "word_attention_top15": [
+          [
+            "doesn't give",
+            0.084576
+          ],
+          [
+            "don't waste",
+            0.074236
+          ],
+          [
+            "free",
+            0.05575
+          ],
+          [
+            "layout",
+            0.052873
+          ],
+          [
+            "playstore",
+            0.050488
+          ],
+          [
+            "ridiculous",
+            0.041549
+          ],
+          [
+            "pieces",
+            0.040845
+          ],
+          [
+            "you'd",
+            0.037113
+          ],
+          [
+            "time",
+            0.033314
+          ],
+          [
+            "grounds",
+            0.032631
+          ],
+          [
+            "try",
+            0.030874
+          ],
+          [
+            "keep",
+            0.030756
+          ],
+          [
+            "outfits",
+            0.02617
+          ],
+          [
+            "hairstyle",
+            0.0249
+          ],
+          [
+            "awful",
+            0.024798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awful",
+            -0.06167
+          ],
+          [
+            "free",
+            0.026968
+          ],
+          [
+            "horribly",
+            -0.023725
+          ],
+          [
+            "don't waste",
+            0.017315
+          ],
+          [
+            "no sense",
+            -0.011876
+          ],
+          [
+            "try",
+            0.010399
+          ],
+          [
+            "style",
+            0.010366
+          ],
+          [
+            "unnatural",
+            -0.009859
+          ],
+          [
+            "look",
+            0.006111
+          ],
+          [
+            "else",
+            -0.005954
+          ],
+          [
+            "hairstyle",
+            0.005695
+          ],
+          [
+            "outfits",
+            0.005208
+          ],
+          [
+            "keep",
+            0.005059
+          ],
+          [
+            "you'd",
+            0.004843
+          ],
+          [
+            "back",
+            -0.003883
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16638635098934174,
+          "max": 0.9999998807907104,
+          "std": 0.2943960428237915
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!",
+        "word_count": 25,
+        "interface_pos": 0.0259,
+        "interface_neg": 0.9101,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text Button, Icon",
+        "top_k_tokens": "▁I, ▁tone, ▁Hairstyles",
+        "p_orig": 0.222767174243927,
+        "p_img": 0.09399783611297607,
+        "delta_p_img": 0.12876933813095093,
+        "gradcam_mean": 0.1995605230331421,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Icon, Text Button, Text",
+        "delta_p_img_shap": 0.12876933813095093,
+        "word_attention_top15": [
+          [
+            "not work",
+            0.13324
+          ],
+          [
+            "yuck",
+            0.121387
+          ],
+          [
+            "doesn't match",
+            0.113475
+          ],
+          [
+            "hairstyles",
+            0.111287
+          ],
+          [
+            "tone",
+            0.095197
+          ],
+          [
+            "else's",
+            0.093415
+          ],
+          [
+            "body",
+            0.077541
+          ],
+          [
+            "don't want",
+            0.074404
+          ],
+          [
+            "blows",
+            0.052162
+          ],
+          [
+            "skin",
+            0.033802
+          ],
+          [
+            "big",
+            0.025583
+          ],
+          [
+            "face",
+            0.024106
+          ],
+          [
+            "someone",
+            0.022718
+          ],
+          [
+            "head",
+            0.021681
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't match",
+            -0.082656
+          ],
+          [
+            "not work",
+            -0.039389
+          ],
+          [
+            "tone",
+            0.034958
+          ],
+          [
+            "blows",
+            -0.025238
+          ],
+          [
+            "big",
+            0.021871
+          ],
+          [
+            "don't want",
+            0.019657
+          ],
+          [
+            "hairstyles",
+            0.019384
+          ],
+          [
+            "head",
+            -0.01784
+          ],
+          [
+            "body",
+            0.015636
+          ],
+          [
+            "someone",
+            -0.015047
+          ],
+          [
+            "else's",
+            0.012588
+          ],
+          [
+            "face",
+            -0.002878
+          ],
+          [
+            "skin",
+            -0.000278
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.17270438373088837,
+          "max": 0.9999999403953552,
+          "std": 0.3097935914993286
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 83% confidence.",
+      "simple": "This screen was classified as bad with 83% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Hairstyles - Star Look Salon (category: Lifestyle) was classified as bad with 83% confidence (with moderate confidence). The model focused on a small Text at the top-left, a small Text Button at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesstarlooksalon",
+    "screen_id": "22165",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\22165.jpg",
+    "text": "Pathetic is the word for this rubbish app I just need to give it a zero! Way too bad THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+    "prediction": 0.003715529339388013,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.996284470660612,
+    "gradcam_stats": {
+      "mean": 0.3906846046447754,
+      "max": 1.0,
+      "std": 0.25134333968162537
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+      "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+      "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+      "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+      "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!"
+    ],
+    "app_name": "Hairstyles - Star Look Salon",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.0037135351449251175,
+      "p_img": 0.07295908033847809,
+      "delta_p_img": 0.06924554519355297
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 19045.423828125,
+        "score_mean": 0.40681441874839797
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ],
+        "score_total": 24.086421966552734,
+        "score_mean": 0.245779815985232
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Background Image",
+        "score_total": 19045.423828125,
+        "score_mean": 0.40681441874839797,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 24.086421966552734,
+        "score_mean": 0.245779815985232,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Background Image",
+        "score_total": 19045.423828125,
+        "score_mean": 0.40681441874839797,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 24.086421966552734,
+        "score_mean": 0.245779815985232,
+        "bounds_image": [
+          210,
+          0,
+          224,
+          7
+        ],
+        "bounds_rico": [
+          1356,
+          0,
+          1440,
+          84
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Pathetic"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      },
+      {
+        "index": 4,
+        "token": "▁word"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+        "word_count": 28,
+        "interface_pos": 0.0089,
+        "interface_neg": 0.9823,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁star, ▁app, ▁one",
+        "p_orig": 0.004943083506077528,
+        "p_img": 0.08176103979349136,
+        "delta_p_img": 0.07681795628741384,
+        "gradcam_mean": 0.39034998416900635,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Icon",
+        "delta_p_img_shap": 0.07681795628741384,
+        "word_attention_top15": [
+          [
+            "doesn't deserve",
+            0.24709
+          ],
+          [
+            "review",
+            0.240684
+          ],
+          [
+            "horrible",
+            0.203118
+          ],
+          [
+            "never download",
+            0.123307
+          ],
+          [
+            "star",
+            0.105169
+          ],
+          [
+            "trust",
+            0.031423
+          ],
+          [
+            "give",
+            0.027844
+          ],
+          [
+            "please",
+            0.021364
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "never download",
+            -0.001076
+          ],
+          [
+            "horrible",
+            -0.000667
+          ],
+          [
+            "trust",
+            0.000544
+          ],
+          [
+            "review",
+            0.000116
+          ],
+          [
+            "give",
+            7.9e-05
+          ],
+          [
+            "doesn't deserve",
+            6.3e-05
+          ],
+          [
+            "please",
+            -3.9e-05
+          ],
+          [
+            "star",
+            3.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16905535757541656,
+          "max": 0.9999995231628418,
+          "std": 0.2953021824359894
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+        "word_count": 35,
+        "interface_pos": 0.0118,
+        "interface_neg": 0.9579,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁BY, ▁IS, ▁I",
+        "p_orig": 0.0047325873747467995,
+        "p_img": 0.08063222467899323,
+        "delta_p_img": 0.07589963730424643,
+        "gradcam_mean": 0.39131420850753784,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Icon",
+        "delta_p_img_shap": 0.07589963730424643,
+        "word_attention_top15": [
+          [
+            "else's",
+            0.158912
+          ],
+          [
+            "installed",
+            0.140462
+          ],
+          [
+            "doesn't let",
+            0.101409
+          ],
+          [
+            "puts",
+            0.071332
+          ],
+          [
+            "ads",
+            0.068407
+          ],
+          [
+            "size",
+            0.061632
+          ],
+          [
+            "far",
+            0.058998
+          ],
+          [
+            "someone",
+            0.056298
+          ],
+          [
+            "worst",
+            0.046104
+          ],
+          [
+            "keeps",
+            0.042242
+          ],
+          [
+            "change",
+            0.035107
+          ],
+          [
+            "facebook",
+            0.034552
+          ],
+          [
+            "ever",
+            0.030902
+          ],
+          [
+            "body",
+            0.029127
+          ],
+          [
+            "page",
+            0.027443
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "worst",
+            -0.002428
+          ],
+          [
+            "doesn't let",
+            0.000289
+          ],
+          [
+            "far",
+            0.000278
+          ],
+          [
+            "puts",
+            0.000256
+          ],
+          [
+            "installed",
+            0.000236
+          ],
+          [
+            "face",
+            -0.00021
+          ],
+          [
+            "ever",
+            0.00017
+          ],
+          [
+            "change",
+            -0.000132
+          ],
+          [
+            "facebook",
+            8.2e-05
+          ],
+          [
+            "size",
+            4.3e-05
+          ],
+          [
+            "body",
+            -3.5e-05
+          ],
+          [
+            "someone",
+            -3e-05
+          ],
+          [
+            "else's",
+            -1.9e-05
+          ],
+          [
+            "keeps",
+            1.9e-05
+          ],
+          [
+            "taking",
+            -1.2e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16867391765117645,
+          "max": 0.999999463558197,
+          "std": 0.2947271168231964
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+        "word_count": 51,
+        "interface_pos": 0.0183,
+        "interface_neg": 0.9412,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁hairstyles, ▁You, ▁finishes",
+        "p_orig": 0.006465220358222723,
+        "p_img": 0.09967921674251556,
+        "delta_p_img": 0.09321399638429284,
+        "gradcam_mean": 0.3787214457988739,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Icon",
+        "delta_p_img_shap": 0.09321399638429284,
+        "word_attention_top15": [
+          [
+            "can't choose",
+            0.140311
+          ],
+          [
+            "ridiculous",
+            0.137534
+          ],
+          [
+            "hairstyles",
+            0.133384
+          ],
+          [
+            "don't download",
+            0.125547
+          ],
+          [
+            "can't finishes",
+            0.111978
+          ],
+          [
+            "times",
+            0.042949
+          ],
+          [
+            "ad",
+            0.036954
+          ],
+          [
+            "loads",
+            0.032488
+          ],
+          [
+            "forwards",
+            0.03179
+          ],
+          [
+            "options",
+            0.030582
+          ],
+          [
+            "click",
+            0.026739
+          ],
+          [
+            "forward",
+            0.025974
+          ],
+          [
+            "backwards",
+            0.02329
+          ],
+          [
+            "video",
+            0.021523
+          ],
+          [
+            "give",
+            0.019483
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't download",
+            -0.001237
+          ],
+          [
+            "hairstyles",
+            0.000439
+          ],
+          [
+            "options",
+            0.000239
+          ],
+          [
+            "can't choose",
+            -0.000238
+          ],
+          [
+            "can't finishes",
+            -0.000181
+          ],
+          [
+            "ad",
+            0.000169
+          ],
+          [
+            "random",
+            0.000138
+          ],
+          [
+            "times",
+            -9.9e-05
+          ],
+          [
+            "give",
+            9.5e-05
+          ],
+          [
+            "four",
+            -8.7e-05
+          ],
+          [
+            "video",
+            8.1e-05
+          ],
+          [
+            "backwards",
+            7e-05
+          ],
+          [
+            "see",
+            6.7e-05
+          ],
+          [
+            "forward",
+            -4.4e-05
+          ],
+          [
+            "click",
+            -3.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16977441310882568,
+          "max": 0.9999995827674866,
+          "std": 0.31576237082481384
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+        "word_count": 84,
+        "interface_pos": 0.0202,
+        "interface_neg": 0.963,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁layout, ▁the, t",
+        "p_orig": 0.007300427183508873,
+        "p_img": 0.10987021774053574,
+        "delta_p_img": 0.10256979055702686,
+        "gradcam_mean": 0.3739144504070282,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Icon",
+        "delta_p_img_shap": 0.10256979055702686,
+        "word_attention_top15": [
+          [
+            "doesn't give",
+            0.084576
+          ],
+          [
+            "don't waste",
+            0.074236
+          ],
+          [
+            "free",
+            0.05575
+          ],
+          [
+            "layout",
+            0.052873
+          ],
+          [
+            "playstore",
+            0.050488
+          ],
+          [
+            "ridiculous",
+            0.041549
+          ],
+          [
+            "pieces",
+            0.040845
+          ],
+          [
+            "you'd",
+            0.037113
+          ],
+          [
+            "time",
+            0.033314
+          ],
+          [
+            "grounds",
+            0.032631
+          ],
+          [
+            "try",
+            0.030874
+          ],
+          [
+            "keep",
+            0.030756
+          ],
+          [
+            "outfits",
+            0.02617
+          ],
+          [
+            "hairstyle",
+            0.0249
+          ],
+          [
+            "awful",
+            0.024798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awful",
+            -0.00076
+          ],
+          [
+            "free",
+            0.000399
+          ],
+          [
+            "don't waste",
+            0.000222
+          ],
+          [
+            "hairstyle",
+            0.000163
+          ],
+          [
+            "no sense",
+            -0.000148
+          ],
+          [
+            "doesn't give",
+            -0.000104
+          ],
+          [
+            "layout",
+            9.8e-05
+          ],
+          [
+            "try",
+            9.6e-05
+          ],
+          [
+            "look",
+            9.2e-05
+          ],
+          [
+            "understand",
+            7.6e-05
+          ],
+          [
+            "option",
+            7.2e-05
+          ],
+          [
+            "style",
+            7.1e-05
+          ],
+          [
+            "you'd",
+            6.1e-05
+          ],
+          [
+            "needing",
+            5.8e-05
+          ],
+          [
+            "sponsors",
+            5.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16733112931251526,
+          "max": 0.9999996423721313,
+          "std": 0.3110472559928894
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!",
+        "word_count": 25,
+        "interface_pos": 0.0259,
+        "interface_neg": 0.9101,
+        "interface_sentiment": "negative",
+        "top_components": "Background Image, Icon",
+        "top_k_tokens": "▁I, ▁tone, ▁Hairstyles",
+        "p_orig": 0.005447514820843935,
+        "p_img": 0.08787930756807327,
+        "delta_p_img": 0.08243179274722934,
+        "gradcam_mean": 0.38770660758018494,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Background Image, Icon",
+        "delta_p_img_shap": 0.08243179274722934,
+        "word_attention_top15": [
+          [
+            "not work",
+            0.13324
+          ],
+          [
+            "yuck",
+            0.121387
+          ],
+          [
+            "doesn't match",
+            0.113475
+          ],
+          [
+            "hairstyles",
+            0.111287
+          ],
+          [
+            "tone",
+            0.095197
+          ],
+          [
+            "else's",
+            0.093415
+          ],
+          [
+            "body",
+            0.077541
+          ],
+          [
+            "don't want",
+            0.074404
+          ],
+          [
+            "blows",
+            0.052162
+          ],
+          [
+            "skin",
+            0.033802
+          ],
+          [
+            "big",
+            0.025583
+          ],
+          [
+            "face",
+            0.024106
+          ],
+          [
+            "someone",
+            0.022718
+          ],
+          [
+            "head",
+            0.021681
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't match",
+            -0.001309
+          ],
+          [
+            "tone",
+            0.000615
+          ],
+          [
+            "don't want",
+            0.000453
+          ],
+          [
+            "not work",
+            -0.000387
+          ],
+          [
+            "big",
+            0.000371
+          ],
+          [
+            "body",
+            0.000306
+          ],
+          [
+            "hairstyles",
+            0.000283
+          ],
+          [
+            "else's",
+            0.000272
+          ],
+          [
+            "head",
+            -0.000252
+          ],
+          [
+            "someone",
+            -0.000231
+          ],
+          [
+            "blows",
+            -0.000205
+          ],
+          [
+            "skin",
+            0.000142
+          ],
+          [
+            "face",
+            2.7e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18024978041648865,
+          "max": 0.9999995231628418,
+          "std": 0.3228166401386261
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Background Image at the top-left.",
+      "detailed": "This screen of Hairstyles - Star Look Salon (category: Lifestyle) was classified as bad with 100% confidence (with high confidence). The model focused on a small Background Image at the top-left, and a small Icon at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesstarlooksalon",
+    "screen_id": "22166",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\22166.jpg",
+    "text": "Pathetic is the word for this rubbish app I just need to give it a zero! Way too bad THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+    "prediction": 0.007644351106137037,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.992355648893863,
+    "gradcam_stats": {
+      "mean": 0.45830443501472473,
+      "max": 1.0,
+      "std": 0.21166729927062988
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+      "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+      "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+      "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+      "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!"
+    ],
+    "app_name": "Hairstyles - Star Look Salon",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.007714787498116493,
+      "p_img": 0.06126539036631584,
+      "delta_p_img": 0.05355060286819935
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          68,
+          0,
+          104,
+          19
+        ],
+        "bounds_rico": [
+          441,
+          0,
+          669,
+          228
+        ],
+        "score_total": 378.66302490234375,
+        "score_mean": 0.5536009135999178
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 21329.498046875,
+        "score_mean": 0.455602743653345
+      },
+      {
+        "rank": 2,
+        "component": "Background Image",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 21329.498046875,
+        "score_mean": 0.455602743653345
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 378.66302490234375,
+        "score_mean": 0.5536009135999178,
+        "bounds_image": [
+          68,
+          0,
+          104,
+          19
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 21329.498046875,
+        "score_mean": 0.455602743653345,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      },
+      {
+        "component": "Background Image",
+        "score_total": 21329.498046875,
+        "score_mean": 0.455602743653345,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 378.66302490234375,
+        "score_mean": 0.5536009135999178,
+        "bounds_image": [
+          68,
+          0,
+          104,
+          19
+        ],
+        "bounds_rico": [
+          441,
+          0,
+          669,
+          228
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "score_total": 21329.498046875,
+        "score_mean": 0.455602743653345,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Background Image",
+        "score_total": 21329.498046875,
+        "score_mean": 0.455602743653345,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 264.15753173828125,
+        "score_mean": 0.3972293710350094,
+        "bounds_image": [
+          120,
+          0,
+          155,
+          19
+        ],
+        "bounds_rico": [
+          775,
+          0,
+          1002,
+          227
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 179.72509765625,
+        "score_mean": 0.2627559907255117,
+        "bounds_image": [
+          16,
+          0,
+          52,
+          19
+        ],
+        "bounds_rico": [
+          107,
+          0,
+          335,
+          228
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 142.54632568359375,
+        "score_mean": 0.21435537696781015,
+        "bounds_image": [
+          172,
+          0,
+          207,
+          19
+        ],
+        "bounds_rico": [
+          1108,
+          0,
+          1335,
+          227
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Pathetic"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      },
+      {
+        "index": 4,
+        "token": "▁word"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+        "word_count": 28,
+        "interface_pos": 0.0089,
+        "interface_neg": 0.9823,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View, Background Image",
+        "top_k_tokens": "▁star, ▁app, ▁one",
+        "p_orig": 0.0102264154702425,
+        "p_img": 0.06923036277294159,
+        "delta_p_img": 0.05900394730269909,
+        "gradcam_mean": 0.442546546459198,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.01346413791179657,
+        "word_attention_top15": [
+          [
+            "doesn't deserve",
+            0.24709
+          ],
+          [
+            "review",
+            0.240684
+          ],
+          [
+            "horrible",
+            0.203118
+          ],
+          [
+            "never download",
+            0.123307
+          ],
+          [
+            "star",
+            0.105169
+          ],
+          [
+            "trust",
+            0.031423
+          ],
+          [
+            "give",
+            0.027844
+          ],
+          [
+            "please",
+            0.021364
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "never download",
+            -0.005454
+          ],
+          [
+            "horrible",
+            -0.002463
+          ],
+          [
+            "trust",
+            0.001891
+          ],
+          [
+            "star",
+            0.000408
+          ],
+          [
+            "give",
+            0.00039
+          ],
+          [
+            "doesn't deserve",
+            0.000363
+          ],
+          [
+            "review",
+            0.000303
+          ],
+          [
+            "please",
+            -8.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11155175417661667,
+          "max": 0.9999998807907104,
+          "std": 0.24666139483451843
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+        "word_count": 35,
+        "interface_pos": 0.0118,
+        "interface_neg": 0.9579,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View, Background Image",
+        "top_k_tokens": "▁BY, ▁IS, ▁I",
+        "p_orig": 0.009566816501319408,
+        "p_img": 0.0680118203163147,
+        "delta_p_img": 0.05844500381499529,
+        "gradcam_mean": 0.4595220983028412,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.012357891537249088,
+        "word_attention_top15": [
+          [
+            "else's",
+            0.158912
+          ],
+          [
+            "installed",
+            0.140462
+          ],
+          [
+            "doesn't let",
+            0.101409
+          ],
+          [
+            "puts",
+            0.071332
+          ],
+          [
+            "ads",
+            0.068407
+          ],
+          [
+            "size",
+            0.061632
+          ],
+          [
+            "far",
+            0.058998
+          ],
+          [
+            "someone",
+            0.056298
+          ],
+          [
+            "worst",
+            0.046104
+          ],
+          [
+            "keeps",
+            0.042242
+          ],
+          [
+            "change",
+            0.035107
+          ],
+          [
+            "facebook",
+            0.034552
+          ],
+          [
+            "ever",
+            0.030902
+          ],
+          [
+            "body",
+            0.029127
+          ],
+          [
+            "page",
+            0.027443
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "worst",
+            -0.01171
+          ],
+          [
+            "far",
+            0.001254
+          ],
+          [
+            "puts",
+            0.001011
+          ],
+          [
+            "face",
+            -0.000862
+          ],
+          [
+            "doesn't let",
+            0.000856
+          ],
+          [
+            "ever",
+            0.000842
+          ],
+          [
+            "change",
+            -0.000567
+          ],
+          [
+            "installed",
+            0.000558
+          ],
+          [
+            "else's",
+            -0.00023
+          ],
+          [
+            "size",
+            0.000224
+          ],
+          [
+            "facebook",
+            0.000198
+          ],
+          [
+            "someone",
+            -0.000186
+          ],
+          [
+            "taking",
+            -4.7e-05
+          ],
+          [
+            "body",
+            -4.2e-05
+          ],
+          [
+            "ads",
+            -8e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11380188167095184,
+          "max": 0.9999998211860657,
+          "std": 0.24918505549430847
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+        "word_count": 51,
+        "interface_pos": 0.0183,
+        "interface_neg": 0.9412,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View, Background Image",
+        "top_k_tokens": "▁hairstyles, ▁You, ▁finishes",
+        "p_orig": 0.014458163641393185,
+        "p_img": 0.08718856424093246,
+        "delta_p_img": 0.07273040059953928,
+        "gradcam_mean": 0.435674786567688,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.018723183311522007,
+        "word_attention_top15": [
+          [
+            "can't choose",
+            0.140311
+          ],
+          [
+            "ridiculous",
+            0.137534
+          ],
+          [
+            "hairstyles",
+            0.133384
+          ],
+          [
+            "don't download",
+            0.125547
+          ],
+          [
+            "can't finishes",
+            0.111978
+          ],
+          [
+            "times",
+            0.042949
+          ],
+          [
+            "ad",
+            0.036954
+          ],
+          [
+            "loads",
+            0.032488
+          ],
+          [
+            "forwards",
+            0.03179
+          ],
+          [
+            "options",
+            0.030582
+          ],
+          [
+            "click",
+            0.026739
+          ],
+          [
+            "forward",
+            0.025974
+          ],
+          [
+            "backwards",
+            0.02329
+          ],
+          [
+            "video",
+            0.021523
+          ],
+          [
+            "give",
+            0.019483
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't download",
+            -0.00619
+          ],
+          [
+            "can't finishes",
+            -0.001157
+          ],
+          [
+            "hairstyles",
+            0.001087
+          ],
+          [
+            "ad",
+            0.000619
+          ],
+          [
+            "can't choose",
+            -0.000559
+          ],
+          [
+            "loads",
+            -0.000341
+          ],
+          [
+            "random",
+            0.00027
+          ],
+          [
+            "options",
+            0.000245
+          ],
+          [
+            "forward",
+            -0.000223
+          ],
+          [
+            "times",
+            -0.00021
+          ],
+          [
+            "give",
+            0.000204
+          ],
+          [
+            "four",
+            -0.000199
+          ],
+          [
+            "video",
+            0.000195
+          ],
+          [
+            "click",
+            -0.000117
+          ],
+          [
+            "three",
+            8.3e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10622937232255936,
+          "max": 0.9999998807907104,
+          "std": 0.24126911163330078
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+        "word_count": 84,
+        "interface_pos": 0.0202,
+        "interface_neg": 0.963,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View, Background Image",
+        "top_k_tokens": "▁layout, ▁the, t",
+        "p_orig": 0.0164374727755785,
+        "p_img": 0.09617182612419128,
+        "delta_p_img": 0.07973435334861279,
+        "gradcam_mean": 0.42787039279937744,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.020966852083802223,
+        "word_attention_top15": [
+          [
+            "doesn't give",
+            0.084576
+          ],
+          [
+            "don't waste",
+            0.074236
+          ],
+          [
+            "free",
+            0.05575
+          ],
+          [
+            "layout",
+            0.052873
+          ],
+          [
+            "playstore",
+            0.050488
+          ],
+          [
+            "ridiculous",
+            0.041549
+          ],
+          [
+            "pieces",
+            0.040845
+          ],
+          [
+            "you'd",
+            0.037113
+          ],
+          [
+            "time",
+            0.033314
+          ],
+          [
+            "grounds",
+            0.032631
+          ],
+          [
+            "try",
+            0.030874
+          ],
+          [
+            "keep",
+            0.030756
+          ],
+          [
+            "outfits",
+            0.02617
+          ],
+          [
+            "hairstyle",
+            0.0249
+          ],
+          [
+            "awful",
+            0.024798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awful",
+            -0.003151
+          ],
+          [
+            "free",
+            0.002185
+          ],
+          [
+            "don't waste",
+            0.000965
+          ],
+          [
+            "hairstyle",
+            0.000722
+          ],
+          [
+            "ridiculous",
+            -0.000529
+          ],
+          [
+            "try",
+            0.000492
+          ],
+          [
+            "no sense",
+            -0.000379
+          ],
+          [
+            "layout",
+            0.000345
+          ],
+          [
+            "horribly",
+            -0.00029
+          ],
+          [
+            "doesn't give",
+            -0.000262
+          ],
+          [
+            "quickly",
+            0.000253
+          ],
+          [
+            "said",
+            0.000239
+          ],
+          [
+            "style",
+            0.000229
+          ],
+          [
+            "ads",
+            -0.000221
+          ],
+          [
+            "amount",
+            0.000221
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10509014874696732,
+          "max": 0.9999999403953552,
+          "std": 0.23967115581035614
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!",
+        "word_count": 25,
+        "interface_pos": 0.0259,
+        "interface_neg": 0.9101,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View, Background Image",
+        "top_k_tokens": "▁I, ▁tone, ▁Hairstyles",
+        "p_orig": 0.011663801036775112,
+        "p_img": 0.07526148110628128,
+        "delta_p_img": 0.06359768006950617,
+        "gradcam_mean": 0.4482787251472473,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Icon, Icon",
+        "delta_p_img_shap": 0.015971832908689976,
+        "word_attention_top15": [
+          [
+            "not work",
+            0.13324
+          ],
+          [
+            "yuck",
+            0.121387
+          ],
+          [
+            "doesn't match",
+            0.113475
+          ],
+          [
+            "hairstyles",
+            0.111287
+          ],
+          [
+            "tone",
+            0.095197
+          ],
+          [
+            "else's",
+            0.093415
+          ],
+          [
+            "body",
+            0.077541
+          ],
+          [
+            "don't want",
+            0.074404
+          ],
+          [
+            "blows",
+            0.052162
+          ],
+          [
+            "skin",
+            0.033802
+          ],
+          [
+            "big",
+            0.025583
+          ],
+          [
+            "face",
+            0.024106
+          ],
+          [
+            "someone",
+            0.022718
+          ],
+          [
+            "head",
+            0.021681
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't match",
+            -0.006465
+          ],
+          [
+            "tone",
+            0.002396
+          ],
+          [
+            "not work",
+            -0.00202
+          ],
+          [
+            "big",
+            0.001384
+          ],
+          [
+            "don't want",
+            0.001214
+          ],
+          [
+            "hairstyles",
+            0.0012
+          ],
+          [
+            "body",
+            0.001165
+          ],
+          [
+            "blows",
+            -0.001029
+          ],
+          [
+            "head",
+            -0.00088
+          ],
+          [
+            "someone",
+            -0.000853
+          ],
+          [
+            "else's",
+            0.000762
+          ],
+          [
+            "skin",
+            0.000327
+          ],
+          [
+            "face",
+            0.000299
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11091970652341843,
+          "max": 0.9999998807907104,
+          "std": 0.24514776468276978
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 99% confidence.",
+      "simple": "This screen was labeled as bad with 99% confidence. The model directed most attention to a small Icon at the top-left.",
+      "detailed": "This screen of Hairstyles - Star Look Salon (category: Lifestyle) was labeled as bad with 99% confidence (confidently). The model attended to a small Icon at the top-left, a small Web View at the top-left, and a small Background Image at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesstarlooksalon",
+    "screen_id": "22167",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\22167.jpg",
+    "text": "Pathetic is the word for this rubbish app I just need to give it a zero! Way too bad THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+    "prediction": 0.018154960125684738,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9818450398743153,
+    "gradcam_stats": {
+      "mean": 0.30485469102859497,
+      "max": 1.0,
+      "std": 0.23804114758968353
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+      "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+      "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+      "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+      "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!"
+    ],
+    "app_name": "Hairstyles - Star Look Salon",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.01811130903661251,
+      "p_img": 0.023587793111801147,
+      "delta_p_img": 0.005476484075188637
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ],
+        "score_total": 132.70350646972656,
+        "score_mean": 0.737241702609592
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ],
+        "bounds_rico": [
+          0,
+          140,
+          56,
+          196
+        ],
+        "score_total": 29.474414825439453,
+        "score_mean": 0.7368603706359863
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ],
+        "score_total": 78.7349853515625,
+        "score_mean": 0.15438232421875
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 132.70350646972656,
+        "score_mean": 0.737241702609592,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ]
+      },
+      {
+        "component": "Icon",
+        "score_total": 29.474414825439453,
+        "score_mean": 0.7368603706359863,
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 78.7349853515625,
+        "score_mean": 0.15438232421875,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 132.70350646972656,
+        "score_mean": 0.737241702609592,
+        "bounds_image": [
+          6,
+          9,
+          24,
+          19
+        ],
+        "bounds_rico": [
+          43,
+          112,
+          155,
+          224
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Icon",
+        "score_total": 29.474414825439453,
+        "score_mean": 0.7368603706359863,
+        "bounds_image": [
+          0,
+          12,
+          8,
+          17
+        ],
+        "bounds_rico": [
+          0,
+          140,
+          56,
+          196
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 78.7349853515625,
+        "score_mean": 0.15438232421875,
+        "bounds_image": [
+          190,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          1225,
+          84,
+          1440,
+          252
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Pathetic"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      },
+      {
+        "index": 4,
+        "token": "▁word"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+        "word_count": 28,
+        "interface_pos": 0.0089,
+        "interface_neg": 0.9823,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁star, ▁app, ▁one",
+        "p_orig": 0.024965723976492882,
+        "p_img": 0.032826684415340424,
+        "delta_p_img": 0.007860960438847542,
+        "gradcam_mean": 0.2856956422328949,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.007860960438847542,
+        "word_attention_top15": [
+          [
+            "doesn't deserve",
+            0.24709
+          ],
+          [
+            "review",
+            0.240684
+          ],
+          [
+            "horrible",
+            0.203118
+          ],
+          [
+            "never download",
+            0.123307
+          ],
+          [
+            "star",
+            0.105169
+          ],
+          [
+            "trust",
+            0.031423
+          ],
+          [
+            "give",
+            0.027844
+          ],
+          [
+            "please",
+            0.021364
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "never download",
+            -0.005767
+          ],
+          [
+            "horrible",
+            -0.003084
+          ],
+          [
+            "trust",
+            0.002747
+          ],
+          [
+            "review",
+            0.000797
+          ],
+          [
+            "star",
+            0.000435
+          ],
+          [
+            "please",
+            -0.000303
+          ],
+          [
+            "give",
+            0.000299
+          ],
+          [
+            "doesn't deserve",
+            -0.000169
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09480356425046921,
+          "max": 0.9999997615814209,
+          "std": 0.20978878438472748
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+        "word_count": 35,
+        "interface_pos": 0.0118,
+        "interface_neg": 0.9579,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁BY, ▁IS, ▁I",
+        "p_orig": 0.023292748257517815,
+        "p_img": 0.031138399615883827,
+        "delta_p_img": 0.007845651358366013,
+        "gradcam_mean": 0.2844604551792145,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.007845651358366013,
+        "word_attention_top15": [
+          [
+            "else's",
+            0.158912
+          ],
+          [
+            "installed",
+            0.140462
+          ],
+          [
+            "doesn't let",
+            0.101409
+          ],
+          [
+            "puts",
+            0.071332
+          ],
+          [
+            "ads",
+            0.068407
+          ],
+          [
+            "size",
+            0.061632
+          ],
+          [
+            "far",
+            0.058998
+          ],
+          [
+            "someone",
+            0.056298
+          ],
+          [
+            "worst",
+            0.046104
+          ],
+          [
+            "keeps",
+            0.042242
+          ],
+          [
+            "change",
+            0.035107
+          ],
+          [
+            "facebook",
+            0.034552
+          ],
+          [
+            "ever",
+            0.030902
+          ],
+          [
+            "body",
+            0.029127
+          ],
+          [
+            "page",
+            0.027443
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "worst",
+            -0.012888
+          ],
+          [
+            "far",
+            0.001562
+          ],
+          [
+            "puts",
+            0.001335
+          ],
+          [
+            "ever",
+            0.00107
+          ],
+          [
+            "face",
+            -0.000961
+          ],
+          [
+            "installed",
+            0.000878
+          ],
+          [
+            "change",
+            -0.000707
+          ],
+          [
+            "doesn't let",
+            0.000669
+          ],
+          [
+            "else's",
+            0.00043
+          ],
+          [
+            "size",
+            0.000369
+          ],
+          [
+            "facebook",
+            0.000344
+          ],
+          [
+            "body",
+            -0.000285
+          ],
+          [
+            "someone",
+            0.000203
+          ],
+          [
+            "taking",
+            -6.9e-05
+          ],
+          [
+            "keeps",
+            4.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.09038747847080231,
+          "max": 0.9999997615814209,
+          "std": 0.19880340993404388
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+        "word_count": 51,
+        "interface_pos": 0.0183,
+        "interface_neg": 0.9412,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁hairstyles, ▁You, ▁finishes",
+        "p_orig": 0.0297137089073658,
+        "p_img": 0.039527446031570435,
+        "delta_p_img": 0.009813737124204636,
+        "gradcam_mean": 0.2786567211151123,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.009813737124204636,
+        "word_attention_top15": [
+          [
+            "can't choose",
+            0.140311
+          ],
+          [
+            "ridiculous",
+            0.137534
+          ],
+          [
+            "hairstyles",
+            0.133384
+          ],
+          [
+            "don't download",
+            0.125547
+          ],
+          [
+            "can't finishes",
+            0.111978
+          ],
+          [
+            "times",
+            0.042949
+          ],
+          [
+            "ad",
+            0.036954
+          ],
+          [
+            "loads",
+            0.032488
+          ],
+          [
+            "forwards",
+            0.03179
+          ],
+          [
+            "options",
+            0.030582
+          ],
+          [
+            "click",
+            0.026739
+          ],
+          [
+            "forward",
+            0.025974
+          ],
+          [
+            "backwards",
+            0.02329
+          ],
+          [
+            "video",
+            0.021523
+          ],
+          [
+            "give",
+            0.019483
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "hairstyles",
+            0.002745
+          ],
+          [
+            "can't choose",
+            -0.00242
+          ],
+          [
+            "don't download",
+            -0.001617
+          ],
+          [
+            "give",
+            0.001134
+          ],
+          [
+            "ad",
+            0.000888
+          ],
+          [
+            "can't finishes",
+            -0.000792
+          ],
+          [
+            "random",
+            0.000774
+          ],
+          [
+            "options",
+            0.000762
+          ],
+          [
+            "video",
+            0.000432
+          ],
+          [
+            "times",
+            -0.000287
+          ],
+          [
+            "four",
+            -0.000281
+          ],
+          [
+            "backwards",
+            0.000148
+          ],
+          [
+            "see",
+            0.000148
+          ],
+          [
+            "click",
+            -0.000145
+          ],
+          [
+            "forward",
+            -0.00011
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.0868813768029213,
+          "max": 0.9999998211860657,
+          "std": 0.19451557099819183
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+        "word_count": 84,
+        "interface_pos": 0.0202,
+        "interface_neg": 0.963,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁layout, ▁the, t",
+        "p_orig": 0.03302400931715965,
+        "p_img": 0.04413336515426636,
+        "delta_p_img": 0.011109355837106705,
+        "gradcam_mean": 0.271237850189209,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.011109355837106705,
+        "word_attention_top15": [
+          [
+            "doesn't give",
+            0.084576
+          ],
+          [
+            "don't waste",
+            0.074236
+          ],
+          [
+            "free",
+            0.05575
+          ],
+          [
+            "layout",
+            0.052873
+          ],
+          [
+            "playstore",
+            0.050488
+          ],
+          [
+            "ridiculous",
+            0.041549
+          ],
+          [
+            "pieces",
+            0.040845
+          ],
+          [
+            "you'd",
+            0.037113
+          ],
+          [
+            "time",
+            0.033314
+          ],
+          [
+            "grounds",
+            0.032631
+          ],
+          [
+            "try",
+            0.030874
+          ],
+          [
+            "keep",
+            0.030756
+          ],
+          [
+            "outfits",
+            0.02617
+          ],
+          [
+            "hairstyle",
+            0.0249
+          ],
+          [
+            "awful",
+            0.024798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awful",
+            -0.00316
+          ],
+          [
+            "free",
+            0.002164
+          ],
+          [
+            "don't waste",
+            0.001016
+          ],
+          [
+            "hairstyle",
+            0.000841
+          ],
+          [
+            "no sense",
+            -0.000631
+          ],
+          [
+            "try",
+            0.000544
+          ],
+          [
+            "said",
+            0.000491
+          ],
+          [
+            "layout",
+            0.000481
+          ],
+          [
+            "understand",
+            0.000325
+          ],
+          [
+            "actually",
+            0.000305
+          ],
+          [
+            "ads",
+            -0.000278
+          ],
+          [
+            "horribly",
+            -0.000277
+          ],
+          [
+            "look",
+            0.000261
+          ],
+          [
+            "you'd",
+            0.000252
+          ],
+          [
+            "grounds",
+            0.000247
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07642108201980591,
+          "max": 0.9999998807907104,
+          "std": 0.18507014214992523
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!",
+        "word_count": 25,
+        "interface_pos": 0.0259,
+        "interface_neg": 0.9101,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Icon, Text Button",
+        "top_k_tokens": "▁I, ▁tone, ▁Hairstyles",
+        "p_orig": 0.026502538472414017,
+        "p_img": 0.03476998955011368,
+        "delta_p_img": 0.008267451077699661,
+        "gradcam_mean": 0.27753946185112,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Icon",
+        "delta_p_img_shap": 0.008267451077699661,
+        "word_attention_top15": [
+          [
+            "not work",
+            0.13324
+          ],
+          [
+            "yuck",
+            0.121387
+          ],
+          [
+            "doesn't match",
+            0.113475
+          ],
+          [
+            "hairstyles",
+            0.111287
+          ],
+          [
+            "tone",
+            0.095197
+          ],
+          [
+            "else's",
+            0.093415
+          ],
+          [
+            "body",
+            0.077541
+          ],
+          [
+            "don't want",
+            0.074404
+          ],
+          [
+            "blows",
+            0.052162
+          ],
+          [
+            "skin",
+            0.033802
+          ],
+          [
+            "big",
+            0.025583
+          ],
+          [
+            "face",
+            0.024106
+          ],
+          [
+            "someone",
+            0.022718
+          ],
+          [
+            "head",
+            0.021681
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't match",
+            -0.006922
+          ],
+          [
+            "tone",
+            0.00265
+          ],
+          [
+            "don't want",
+            0.002186
+          ],
+          [
+            "not work",
+            -0.00201
+          ],
+          [
+            "body",
+            0.001622
+          ],
+          [
+            "else's",
+            0.001607
+          ],
+          [
+            "big",
+            0.001511
+          ],
+          [
+            "hairstyles",
+            0.001263
+          ],
+          [
+            "skin",
+            0.001064
+          ],
+          [
+            "someone",
+            -0.000996
+          ],
+          [
+            "head",
+            -0.000904
+          ],
+          [
+            "blows",
+            -0.000842
+          ],
+          [
+            "face",
+            0.000725
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.08902100473642349,
+          "max": 0.9999997615814209,
+          "std": 0.19699619710445404
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as bad with 98% confidence.",
+      "simple": "This screen was labeled as bad with 98% confidence. The model directed most attention to a small Icon at the top-left.",
+      "detailed": "This screen of Hairstyles - Star Look Salon (category: Lifestyle) was labeled as bad with 98% confidence (confidently). The model attended to a small Icon at the top-left, a small Icon at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.kauf.imagefaker.hairstylesstarlooksalon",
+    "screen_id": "22168",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\22168.jpg",
+    "text": "Pathetic is the word for this rubbish app I just need to give it a zero! Way too bad THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+    "prediction": 0.08898606151342392,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9110139384865761,
+    "gradcam_stats": {
+      "mean": 0.2760755717754364,
+      "max": 1.0,
+      "std": 0.23741796612739563
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+      "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+      "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+      "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+      "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!"
+    ],
+    "app_name": "Hairstyles - Star Look Salon",
+    "category": "Lifestyle",
+    "faithfulness": {
+      "p_orig": 0.08914673328399658,
+      "p_img": 0.04059145227074623,
+      "delta_p_img": 0.04855528101325035
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "bounds_image": [
+          0,
+          99,
+          58,
+          142
+        ],
+        "bounds_rico": [
+          0,
+          1140,
+          374,
+          1632
+        ],
+        "score_total": 1200.513427734375,
+        "score_mean": 0.4813606366216419
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          166,
+          224,
+          168
+        ],
+        "bounds_rico": [
+          0,
+          1898,
+          1440,
+          1926
+        ],
+        "score_total": 171.66070556640625,
+        "score_mean": 0.3831712177821568
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          168,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1926,
+          1440,
+          2392
+        ],
+        "score_total": 3391.707763671875,
+        "score_mean": 0.36930615893639757
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Image",
+        "score_total": 1200.513427734375,
+        "score_mean": 0.4813606366216419,
+        "bounds_image": [
+          0,
+          99,
+          58,
+          142
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 171.66070556640625,
+        "score_mean": 0.3831712177821568,
+        "bounds_image": [
+          0,
+          166,
+          224,
+          168
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 3391.707763671875,
+        "score_mean": 0.36930615893639757,
+        "bounds_image": [
+          0,
+          168,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Image",
+        "score_total": 1200.513427734375,
+        "score_mean": 0.4813606366216419,
+        "bounds_image": [
+          0,
+          99,
+          58,
+          142
+        ],
+        "bounds_rico": [
+          0,
+          1140,
+          374,
+          1632
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "score_total": 171.66070556640625,
+        "score_mean": 0.3831712177821568,
+        "bounds_image": [
+          0,
+          166,
+          224,
+          168
+        ],
+        "bounds_rico": [
+          0,
+          1898,
+          1440,
+          1926
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Web View",
+        "score_total": 3391.707763671875,
+        "score_mean": 0.36930615893639757,
+        "bounds_image": [
+          0,
+          168,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          1926,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Image",
+        "score_total": 482.1009521484375,
+        "score_mean": 0.35870606558663504,
+        "bounds_image": [
+          0,
+          143,
+          224,
+          149
+        ],
+        "bounds_rico": [
+          0,
+          1639,
+          1440,
+          1709
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Web View",
+        "score_total": 847.7373046875,
+        "score_mean": 0.32294754464285713,
+        "bounds_image": [
+          24,
+          150,
+          199,
+          165
+        ],
+        "bounds_rico": [
+          160,
+          1716,
+          1280,
+          1891
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Image",
+        "score_total": 7735.84375,
+        "score_mean": 0.23177863584611696,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          149
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          1709
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Image",
+        "score_total": 4680.11962890625,
+        "score_mean": 0.21104435556034676,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          99
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          1140
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Image",
+        "score_total": 688.1461181640625,
+        "score_mean": 0.18842993377986378,
+        "bounds_image": [
+          58,
+          99,
+          224,
+          121
+        ],
+        "bounds_rico": [
+          374,
+          1140,
+          1440,
+          1386
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Image",
+        "score_total": 606.4815673828125,
+        "score_mean": 0.17397635323660715,
+        "bounds_image": [
+          58,
+          121,
+          224,
+          142
+        ],
+        "bounds_rico": [
+          374,
+          1386,
+          1440,
+          1632
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Pathetic"
+      },
+      {
+        "index": 10,
+        "token": "▁interface"
+      },
+      {
+        "index": 4,
+        "token": "▁word"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "this app doesn't even deserve one star but i had to give it one to make a review. my review;; NEVER DOWNLOAD THIS. ITS HORRIBLE PLEASE TRUST ME.",
+        "word_count": 28,
+        "interface_pos": 0.0089,
+        "interface_neg": 0.9823,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Web View, Web View",
+        "top_k_tokens": "▁star, ▁app, ▁one",
+        "p_orig": 0.11924832314252853,
+        "p_img": 0.05666658282279968,
+        "delta_p_img": 0.06258174031972885,
+        "gradcam_mean": 0.24074700474739075,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.015363812446594238,
+        "word_attention_top15": [
+          [
+            "doesn't deserve",
+            0.24709
+          ],
+          [
+            "review",
+            0.240684
+          ],
+          [
+            "horrible",
+            0.203118
+          ],
+          [
+            "never download",
+            0.123307
+          ],
+          [
+            "star",
+            0.105169
+          ],
+          [
+            "trust",
+            0.031423
+          ],
+          [
+            "give",
+            0.027844
+          ],
+          [
+            "please",
+            0.021364
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "never download",
+            -0.033014
+          ],
+          [
+            "horrible",
+            -0.022282
+          ],
+          [
+            "trust",
+            0.016805
+          ],
+          [
+            "review",
+            0.005585
+          ],
+          [
+            "give",
+            0.003576
+          ],
+          [
+            "star",
+            0.002494
+          ],
+          [
+            "please",
+            -0.001167
+          ],
+          [
+            "doesn't deserve",
+            0.000953
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.23088431358337402,
+          "max": 0.9999998211860657,
+          "std": 0.34844762086868286
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "THIS IS BY FAR THE WORST APP I HAVE EVER INSTALLED. ITS PUTS YOUR FACE  ON SOMEONE ELSE'S BODY AND DOESN'T LET YOU CHANGE THE SIZE. TOO MANY ADS. KEEPS TAKING ME TO FACEBOOK PAGE",
+        "word_count": 35,
+        "interface_pos": 0.0118,
+        "interface_neg": 0.9579,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Web View, Web View",
+        "top_k_tokens": "▁BY, ▁IS, ▁I",
+        "p_orig": 0.11704116314649582,
+        "p_img": 0.05511775240302086,
+        "delta_p_img": 0.06192341074347496,
+        "gradcam_mean": 0.24114686250686646,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.015003040432929993,
+        "word_attention_top15": [
+          [
+            "else's",
+            0.158912
+          ],
+          [
+            "installed",
+            0.140462
+          ],
+          [
+            "doesn't let",
+            0.101409
+          ],
+          [
+            "puts",
+            0.071332
+          ],
+          [
+            "ads",
+            0.068407
+          ],
+          [
+            "size",
+            0.061632
+          ],
+          [
+            "far",
+            0.058998
+          ],
+          [
+            "someone",
+            0.056298
+          ],
+          [
+            "worst",
+            0.046104
+          ],
+          [
+            "keeps",
+            0.042242
+          ],
+          [
+            "change",
+            0.035107
+          ],
+          [
+            "facebook",
+            0.034552
+          ],
+          [
+            "ever",
+            0.030902
+          ],
+          [
+            "body",
+            0.029127
+          ],
+          [
+            "page",
+            0.027443
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "worst",
+            -0.073476
+          ],
+          [
+            "doesn't let",
+            0.008336
+          ],
+          [
+            "puts",
+            0.007787
+          ],
+          [
+            "ever",
+            0.007781
+          ],
+          [
+            "far",
+            0.007619
+          ],
+          [
+            "installed",
+            0.006992
+          ],
+          [
+            "face",
+            -0.005491
+          ],
+          [
+            "change",
+            -0.003999
+          ],
+          [
+            "facebook",
+            0.003403
+          ],
+          [
+            "size",
+            0.002207
+          ],
+          [
+            "taking",
+            -0.000517
+          ],
+          [
+            "someone",
+            -0.000509
+          ],
+          [
+            "else's",
+            0.000406
+          ],
+          [
+            "keeps",
+            -0.000155
+          ],
+          [
+            "ads",
+            0.000115
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.179897740483284,
+          "max": 0.9999998807907104,
+          "std": 0.2787439525127411
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 8,
+        "review_source": "cache",
+        "review_text": "You can't choose the hairstyles. They give you random hairstyles where you have to click forward or backwards to see other options and once you click forwards three or four times, it loads a video ad that you can't get out of until it finishes. DON'T DOWNLOAD THIS APP!! IT'S RIDICULOUS.",
+        "word_count": 51,
+        "interface_pos": 0.0183,
+        "interface_neg": 0.9412,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Web View, Web View",
+        "top_k_tokens": "▁hairstyles, ▁You, ▁finishes",
+        "p_orig": 0.16503514349460602,
+        "p_img": 0.08106701821088791,
+        "delta_p_img": 0.08396812528371811,
+        "gradcam_mean": 0.21960124373435974,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.000959053635597229,
+        "word_attention_top15": [
+          [
+            "can't choose",
+            0.140311
+          ],
+          [
+            "ridiculous",
+            0.137534
+          ],
+          [
+            "hairstyles",
+            0.133384
+          ],
+          [
+            "don't download",
+            0.125547
+          ],
+          [
+            "can't finishes",
+            0.111978
+          ],
+          [
+            "times",
+            0.042949
+          ],
+          [
+            "ad",
+            0.036954
+          ],
+          [
+            "loads",
+            0.032488
+          ],
+          [
+            "forwards",
+            0.03179
+          ],
+          [
+            "options",
+            0.030582
+          ],
+          [
+            "click",
+            0.026739
+          ],
+          [
+            "forward",
+            0.025974
+          ],
+          [
+            "backwards",
+            0.02329
+          ],
+          [
+            "video",
+            0.021523
+          ],
+          [
+            "give",
+            0.019483
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "don't download",
+            -0.033378
+          ],
+          [
+            "hairstyles",
+            0.015148
+          ],
+          [
+            "options",
+            0.006331
+          ],
+          [
+            "can't finishes",
+            -0.005785
+          ],
+          [
+            "ad",
+            0.005679
+          ],
+          [
+            "can't choose",
+            -0.005354
+          ],
+          [
+            "random",
+            0.00473
+          ],
+          [
+            "video",
+            0.004233
+          ],
+          [
+            "click",
+            -0.002526
+          ],
+          [
+            "four",
+            -0.002185
+          ],
+          [
+            "times",
+            -0.002147
+          ],
+          [
+            "give",
+            0.00175
+          ],
+          [
+            "see",
+            0.001734
+          ],
+          [
+            "forward",
+            -0.001505
+          ],
+          [
+            "backwards",
+            0.001489
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18870162963867188,
+          "max": 0.9999999403953552,
+          "std": 0.29163920879364014
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 7,
+        "review_source": "cache",
+        "review_text": "The ads are ridiculous.  I understand needing sponsors to keep the app free, but it's ridiculous the amount this has. Be careful clicking to quickly because you'll be redirected to the ad or playstore. Doesn't give you the option of what style to try, just horribly places your face on someone else picture with awful outfits, head pieces, and unnatural back grounds. Gives you no sense of what you'd actually look like with said hairstyle. awful design layout.  Just don't even waste your time.",
+        "word_count": 84,
+        "interface_pos": 0.0202,
+        "interface_neg": 0.963,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Image, Web View",
+        "top_k_tokens": "▁layout, ▁the, t",
+        "p_orig": 0.18974901735782623,
+        "p_img": 0.1799234002828598,
+        "delta_p_img": 0.00982561707496643,
+        "gradcam_mean": 0.23298805952072144,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.023134097456932068,
+        "word_attention_top15": [
+          [
+            "doesn't give",
+            0.084576
+          ],
+          [
+            "don't waste",
+            0.074236
+          ],
+          [
+            "free",
+            0.05575
+          ],
+          [
+            "layout",
+            0.052873
+          ],
+          [
+            "playstore",
+            0.050488
+          ],
+          [
+            "ridiculous",
+            0.041549
+          ],
+          [
+            "pieces",
+            0.040845
+          ],
+          [
+            "you'd",
+            0.037113
+          ],
+          [
+            "time",
+            0.033314
+          ],
+          [
+            "grounds",
+            0.032631
+          ],
+          [
+            "try",
+            0.030874
+          ],
+          [
+            "keep",
+            0.030756
+          ],
+          [
+            "outfits",
+            0.02617
+          ],
+          [
+            "hairstyle",
+            0.0249
+          ],
+          [
+            "awful",
+            0.024798
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "awful",
+            -0.024312
+          ],
+          [
+            "free",
+            0.013321
+          ],
+          [
+            "don't waste",
+            0.006998
+          ],
+          [
+            "doesn't give",
+            -0.005596
+          ],
+          [
+            "hairstyle",
+            0.005284
+          ],
+          [
+            "no sense",
+            -0.004793
+          ],
+          [
+            "try",
+            0.003414
+          ],
+          [
+            "look",
+            0.002946
+          ],
+          [
+            "you'd",
+            0.002416
+          ],
+          [
+            "style",
+            0.002262
+          ],
+          [
+            "outfits",
+            0.002098
+          ],
+          [
+            "said",
+            0.001992
+          ],
+          [
+            "layout",
+            0.001945
+          ],
+          [
+            "gives",
+            0.001912
+          ],
+          [
+            "option",
+            0.001799
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1904105395078659,
+          "max": 0.9999999403953552,
+          "std": 0.29465803503990173
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": 3,
+        "review_source": "cache",
+        "review_text": "I don't want my head on someone else's body, that doesn't match my skin tone! Face blows up too big does not work! Hairstyles, YUCK!",
+        "word_count": 25,
+        "interface_pos": 0.0259,
+        "interface_neg": 0.9101,
+        "interface_sentiment": "negative",
+        "top_components": "Image, Web View, Web View",
+        "top_k_tokens": "▁I, ▁tone, ▁Hairstyles",
+        "p_orig": 0.1355990171432495,
+        "p_img": 0.0638764277100563,
+        "delta_p_img": 0.0717225894331932,
+        "gradcam_mean": 0.22547048330307007,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Image, Image, Image",
+        "delta_p_img_shap": 0.014761976897716522,
+        "word_attention_top15": [
+          [
+            "not work",
+            0.13324
+          ],
+          [
+            "yuck",
+            0.121387
+          ],
+          [
+            "doesn't match",
+            0.113475
+          ],
+          [
+            "hairstyles",
+            0.111287
+          ],
+          [
+            "tone",
+            0.095197
+          ],
+          [
+            "else's",
+            0.093415
+          ],
+          [
+            "body",
+            0.077541
+          ],
+          [
+            "don't want",
+            0.074404
+          ],
+          [
+            "blows",
+            0.052162
+          ],
+          [
+            "skin",
+            0.033802
+          ],
+          [
+            "big",
+            0.025583
+          ],
+          [
+            "face",
+            0.024106
+          ],
+          [
+            "someone",
+            0.022718
+          ],
+          [
+            "head",
+            0.021681
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "doesn't match",
+            -0.038558
+          ],
+          [
+            "tone",
+            0.017606
+          ],
+          [
+            "not work",
+            -0.013974
+          ],
+          [
+            "don't want",
+            0.013521
+          ],
+          [
+            "big",
+            0.011751
+          ],
+          [
+            "hairstyles",
+            0.010084
+          ],
+          [
+            "body",
+            0.009862
+          ],
+          [
+            "blows",
+            -0.00825
+          ],
+          [
+            "head",
+            -0.007954
+          ],
+          [
+            "someone",
+            -0.007877
+          ],
+          [
+            "else's",
+            0.007776
+          ],
+          [
+            "skin",
+            0.003055
+          ],
+          [
+            "face",
+            0.001412
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1841360330581665,
+          "max": 0.9999998807907104,
+          "std": 0.2848658561706543
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 91% confidence.",
+      "simple": "This screen was predicted as bad with 91% confidence. The model concentrated on a small Image at the top-left.",
+      "detailed": "This screen of Hairstyles - Star Look Salon (category: Lifestyle) was predicted as bad with 91% confidence (with strong evidence). The model gave priority to a small Image at the top-left, a small Web View at the top-left, and a small Web View at the top-left."
+    }
+  }
+]

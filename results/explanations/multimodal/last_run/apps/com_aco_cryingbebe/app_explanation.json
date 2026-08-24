@@ -1,0 +1,367 @@
+{
+  "package_name": "com.aco.cryingbebe",
+  "num_screens": 5,
+  "app_score": 0.33506195768713953,
+  "app_prediction": "bad",
+  "app_confidence": 0.6649380423128605,
+  "true_label": 0,
+  "true_class": "bad",
+  "is_correct": true,
+  "screen_predictions": [
+    0.7800872325897217,
+    0.03057243302464485,
+    0.11895797401666641,
+    0.6671966910362244,
+    0.07849545776844025
+  ],
+  "prediction_variance": 0.1027204295333917,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\com_aco_cryingbebe\\com_aco_cryingbebe_app_explanation.png",
+  "text_explanation": {
+    "caption": "com.aco.cryingbebe was predicted as bad with average confidence 66% across 5 screens.",
+    "simple": "com.aco.cryingbebe was predicted as bad with average confidence 66% across 5 screens. Across these screens, the model frequently emphasized Text Button components.",
+    "detailed": "com.aco.cryingbebe was predicted as bad with average confidence 66% across 5 screens. Across these screens, the model frequently emphasized Text Button components. Per-screen predictions varied substantially (variance 0.10), suggesting the app shows mixed visual or textual signals. The most recurring salient components were: Text Button (5x), Text (2x), Input (2x). The most influential review words across screens were 'can't korean', 'poorly', 'region', 'without membership', and 'not worth'. The app belongs to the Parenting category and was analyzed across 5 screens."
+  },
+  "representative_screen": {
+    "screen_id": "7937",
+    "review_rank": 4,
+    "delta_p_img": 0.8312061950564384,
+    "confidence": 0.9215045422315598,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\7937.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "can't korean",
+      1.871122
+    ],
+    [
+      "poorly",
+      1.054129
+    ],
+    [
+      "region",
+      0.993745
+    ],
+    [
+      "without membership",
+      0.753416
+    ],
+    [
+      "not worth",
+      0.698053
+    ],
+    [
+      "access",
+      0.682966
+    ],
+    [
+      "number",
+      0.590575
+    ],
+    [
+      "didn't receive",
+      0.574086
+    ],
+    [
+      "membership",
+      0.507988
+    ],
+    [
+      "available",
+      0.473394
+    ],
+    [
+      "국가번호란도",
+      0.468172
+    ],
+    [
+      "kind",
+      0.450899
+    ],
+    [
+      "not moving",
+      0.434589
+    ],
+    [
+      "안돼네요",
+      0.432821
+    ],
+    [
+      "japanese",
+      0.42583
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "poorly",
+      -0.433961
+    ],
+    [
+      "not worth",
+      -0.299523
+    ],
+    [
+      "can't korean",
+      -0.250593
+    ],
+    [
+      "designed",
+      0.20396
+    ],
+    [
+      "kind",
+      0.176503
+    ],
+    [
+      "permission",
+      -0.143169
+    ],
+    [
+      "not moving",
+      -0.103443
+    ],
+    [
+      "didn't receive",
+      -0.0883
+    ],
+    [
+      "안돼네요",
+      -0.087938
+    ],
+    [
+      "핸드폰번호",
+      0.087436
+    ],
+    [
+      "foreign",
+      -0.084659
+    ],
+    [
+      "못하네요",
+      -0.080739
+    ],
+    [
+      "waste",
+      -0.077053
+    ],
+    [
+      "dont waste",
+      0.06762
+    ],
+    [
+      "japanese",
+      0.064659
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "poorly",
+      "rrf_score": 0.032522,
+      "rank_bahdanau": 2,
+      "rank_shap": 1,
+      "shap_signed": -0.433961,
+      "in_both": true
+    },
+    {
+      "word": "can't korean",
+      "rrf_score": 0.032266,
+      "rank_bahdanau": 1,
+      "rank_shap": 3,
+      "shap_signed": -0.250593,
+      "in_both": true
+    },
+    {
+      "word": "not worth",
+      "rrf_score": 0.031514,
+      "rank_bahdanau": 5,
+      "rank_shap": 2,
+      "shap_signed": -0.299523,
+      "in_both": true
+    },
+    {
+      "word": "didn't receive",
+      "rrf_score": 0.029412,
+      "rank_bahdanau": 8,
+      "rank_shap": 8,
+      "shap_signed": -0.0883,
+      "in_both": true
+    },
+    {
+      "word": "kind",
+      "rrf_score": 0.029274,
+      "rank_bahdanau": 12,
+      "rank_shap": 5,
+      "shap_signed": 0.176503,
+      "in_both": true
+    },
+    {
+      "word": "not moving",
+      "rrf_score": 0.028624,
+      "rank_bahdanau": 13,
+      "rank_shap": 7,
+      "shap_signed": -0.103443,
+      "in_both": true
+    },
+    {
+      "word": "안돼네요",
+      "rrf_score": 0.028006,
+      "rank_bahdanau": 14,
+      "rank_shap": 9,
+      "shap_signed": -0.087938,
+      "in_both": true
+    },
+    {
+      "word": "japanese",
+      "rrf_score": 0.026667,
+      "rank_bahdanau": 15,
+      "rank_shap": 15,
+      "shap_signed": 0.064659,
+      "in_both": true
+    },
+    {
+      "word": "region",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "without membership",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "designed",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.20396,
+      "in_both": false
+    },
+    {
+      "word": "permission",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": -0.143169,
+      "in_both": false
+    },
+    {
+      "word": "access",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "number",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "membership",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 3,
+      "text": "I can't use this app even I am a Korean. Not worth it. Asking for all kind of permission and access."
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 1,
+      "text": "해외인데 핸드폰번호 인증이 안돼네요.. 한국번호야만 가능한지? 국가번호란도 없고. Can't do the mobile number verification.. plus, the T&C contents and the verification instructions in Korean would not be comprehensible for non-Korean speakers."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 4,
+      "text": "Without membership, it's not moving to next step and during registration of membership, I didn't receive any code to verify the mobile number."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 0,
+      "text": "한국사람이어도 해외에 살아서 한국 핸드폰 없으면 인증 못해서 사용 못하네요. 그럴꺼면 왜 해외계정에서 다운받을 수 있게 해놓은거죠? Waste of my time when baby is crying and needed a baby crying analysis. To use this app you need a Korean mobile to register. Dont waste your time downloading and trying to get this work.0"
+    },
+    {
+      "rank": 4,
+      "embedding_idx": -1,
+      "text": "Poorly designed app. This app is in foreign language and should only be available to Japanese region."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "can't korean",
+      1.871122
+    ],
+    [
+      "poorly",
+      1.054129
+    ],
+    [
+      "region",
+      0.993745
+    ],
+    [
+      "without membership",
+      0.753416
+    ],
+    [
+      "not worth",
+      0.698053
+    ],
+    [
+      "access",
+      0.682966
+    ],
+    [
+      "number",
+      0.590575
+    ],
+    [
+      "didn't receive",
+      0.574086
+    ],
+    [
+      "membership",
+      0.507988
+    ],
+    [
+      "available",
+      0.473394
+    ],
+    [
+      "국가번호란도",
+      0.468172
+    ],
+    [
+      "kind",
+      0.450899
+    ],
+    [
+      "not moving",
+      0.434589
+    ],
+    [
+      "안돼네요",
+      0.432821
+    ],
+    [
+      "japanese",
+      0.42583
+    ]
+  ]
+}

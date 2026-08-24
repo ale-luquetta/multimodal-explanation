@@ -1,0 +1,370 @@
+{
+  "package_name": "org.nutritionfacts.dailydozen",
+  "num_screens": 8,
+  "app_score": 0.9779220446944237,
+  "app_prediction": "good",
+  "app_confidence": 0.9779220446944237,
+  "true_label": 1,
+  "true_class": "good",
+  "is_correct": true,
+  "screen_predictions": [
+    0.9749791026115417,
+    0.9876108765602112,
+    0.9902385473251343,
+    0.9826969504356384,
+    0.9870511293411255,
+    0.9994538426399231,
+    0.9545915722846985,
+    0.9467543363571167
+  ],
+  "prediction_variance": 0.0002924657285036658,
+  "visualization_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\results\\explanations\\multimodal_v3\\explicabilidade_v6_20260823_140033\\apps\\org_nutritionfacts_dailydozen\\org_nutritionfacts_dailydozen_app_explanation.png",
+  "text_explanation": {
+    "caption": "org.nutritionfacts.dailydozen was classified as good with average confidence 98% across 8 screens.",
+    "simple": "org.nutritionfacts.dailydozen was classified as good with average confidence 98% across 8 screens. Across these screens, the model recurringly attended to Text components.",
+    "detailed": "org.nutritionfacts.dailydozen was classified as good with average confidence 98% across 8 screens. Across these screens, the model recurringly attended to Text components. The screens agreed on the prediction, pointing to a coherent signal. The most recurring salient components were: Text (9x), Icon (5x), Image (4x). The most influential review words across screens were 'great', 'best', 'dozen', 'available', and 'easy'. The app belongs to the Health & Fitness category and was analyzed across 8 screens."
+  },
+  "representative_screen": {
+    "screen_id": "13725",
+    "review_rank": 1,
+    "delta_p_img": 0.4305793046951294,
+    "confidence": 0.9870511293411255,
+    "selection_criterion": "delta_p_img",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\13725.jpg"
+  },
+  "top_bahdanau_aggregated": [
+    [
+      "great",
+      1.118807
+    ],
+    [
+      "best",
+      0.969599
+    ],
+    [
+      "dozen",
+      0.894747
+    ],
+    [
+      "available",
+      0.857141
+    ],
+    [
+      "easy",
+      0.789231
+    ],
+    [
+      "food",
+      0.707919
+    ],
+    [
+      "better",
+      0.707213
+    ],
+    [
+      "nutrient-dense",
+      0.66494
+    ],
+    [
+      "daily",
+      0.602569
+    ],
+    [
+      "suggested",
+      0.598438
+    ],
+    [
+      "foods",
+      0.551971
+    ],
+    [
+      "plant-based",
+      0.543989
+    ],
+    [
+      "butters",
+      0.542298
+    ],
+    [
+      "greger's",
+      0.53566
+    ],
+    [
+      "wfpb",
+      0.529174
+    ]
+  ],
+  "top_shap_textual_aggregated": [
+    [
+      "great",
+      0.917778
+    ],
+    [
+      "best",
+      0.379847
+    ],
+    [
+      "forward",
+      0.297426
+    ],
+    [
+      "especially",
+      0.284458
+    ],
+    [
+      "easiest",
+      0.281228
+    ],
+    [
+      "love",
+      0.273998
+    ],
+    [
+      "easy",
+      0.244485
+    ],
+    [
+      "nutrient-dense",
+      0.240808
+    ],
+    [
+      "changer",
+      0.207001
+    ],
+    [
+      "enjoy",
+      0.192512
+    ],
+    [
+      "works",
+      0.161681
+    ],
+    [
+      "look",
+      0.153153
+    ],
+    [
+      "amazing",
+      0.152881
+    ],
+    [
+      "reminder",
+      0.13609
+    ],
+    [
+      "learning",
+      0.12818
+    ]
+  ],
+  "top_common_words": [
+    {
+      "word": "great",
+      "rrf_score": 0.032787,
+      "rank_bahdanau": 1,
+      "rank_shap": 1,
+      "shap_signed": 0.917778,
+      "in_both": true
+    },
+    {
+      "word": "best",
+      "rrf_score": 0.032258,
+      "rank_bahdanau": 2,
+      "rank_shap": 2,
+      "shap_signed": 0.379847,
+      "in_both": true
+    },
+    {
+      "word": "easy",
+      "rrf_score": 0.03031,
+      "rank_bahdanau": 5,
+      "rank_shap": 7,
+      "shap_signed": 0.244485,
+      "in_both": true
+    },
+    {
+      "word": "nutrient-dense",
+      "rrf_score": 0.029412,
+      "rank_bahdanau": 8,
+      "rank_shap": 8,
+      "shap_signed": 0.240808,
+      "in_both": true
+    },
+    {
+      "word": "dozen",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": 3,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "forward",
+      "rrf_score": 0.015873,
+      "rank_bahdanau": null,
+      "rank_shap": 3,
+      "shap_signed": 0.297426,
+      "in_both": false
+    },
+    {
+      "word": "available",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": 4,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "especially",
+      "rrf_score": 0.015625,
+      "rank_bahdanau": null,
+      "rank_shap": 4,
+      "shap_signed": 0.284458,
+      "in_both": false
+    },
+    {
+      "word": "easiest",
+      "rrf_score": 0.015385,
+      "rank_bahdanau": null,
+      "rank_shap": 5,
+      "shap_signed": 0.281228,
+      "in_both": false
+    },
+    {
+      "word": "love",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": null,
+      "rank_shap": 6,
+      "shap_signed": 0.273998,
+      "in_both": false
+    },
+    {
+      "word": "food",
+      "rrf_score": 0.015152,
+      "rank_bahdanau": 6,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "better",
+      "rrf_score": 0.014925,
+      "rank_bahdanau": 7,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "changer",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": null,
+      "rank_shap": 9,
+      "shap_signed": 0.207001,
+      "in_both": false
+    },
+    {
+      "word": "daily",
+      "rrf_score": 0.014493,
+      "rank_bahdanau": 9,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    },
+    {
+      "word": "suggested",
+      "rrf_score": 0.014286,
+      "rank_bahdanau": 10,
+      "rank_shap": null,
+      "shap_signed": 0.0,
+      "in_both": false
+    }
+  ],
+  "polarized_reviews": [
+    {
+      "rank": 0,
+      "embedding_idx": 9,
+      "text": "This app is absolutely amazing! I have completely turned my health around using Dr. Greger's methods and I actually understand nutrition now. This is the easiest way I have every found to track my nutrition, I'm not having to count any calories or anything like that. Just simply check off the boxes! An absolute game changer, especially when used in correlation with the books. My life is changed!"
+    },
+    {
+      "rank": 1,
+      "embedding_idx": 5,
+      "text": "Best weight loss app. Over the past 12 weeks, my partner and I have lost over 35 lbs each and we're still losing. The most I've ever lost before was 5lbs through calorie counting. But using this app, I've been able to eat until I'm full. We've also lowered our blood pressure and cholesterol, plus we feel great. It did take about 3 weeks for my sense of taste to adjust, but it's worth it because now whole foods taste much better. My kids are also eating more healthy now."
+    },
+    {
+      "rank": 2,
+      "embedding_idx": 3,
+      "text": "This App works great. Most of the changes I have made to fit in the daily dozen have actually made me enjoy my food more. For instance, when I make pizza now I add in spinach to the tomato sauce to get greens, and this tastes great. For breakfast, I eat frozen berries (defrosted) with various combinations of apples, flax meal, walnuts, nut butters, and so on, and I really look forward to this now. I think a complete fod journal is still best, especially for obese people but this App is good."
+    },
+    {
+      "rank": 3,
+      "embedding_idx": 13,
+      "text": "I don't ordinarily download apps but I was striving to be successful at the daily dozen program, thus downloaded the app. It has made reaching my daily dozen goals so easy. I love the check off format. I love the simplicity of the layout. When I forget how much is a serving of rice , I can touch the grain icon and it will take me to a page with more information about the food. This app is so easy to use. I look forward to learning more about its other facets."
+    },
+    {
+      "rank": 4,
+      "embedding_idx": 0,
+      "text": "I really like this app and the visual reminder to focus on getting the most nutrient-dense foods into my diet every single day. I'm still relatively new to the Daily Dozen and WFPB, although I've been plant-based for nearly half a year. I hope there will continue to be some modifications to the app as others have suggested. I like having the 21 tweaks available to mark off, too."
+    }
+  ],
+  "top_influential_words": [
+    [
+      "great",
+      1.118807
+    ],
+    [
+      "best",
+      0.969599
+    ],
+    [
+      "dozen",
+      0.894747
+    ],
+    [
+      "available",
+      0.857141
+    ],
+    [
+      "easy",
+      0.789231
+    ],
+    [
+      "food",
+      0.707919
+    ],
+    [
+      "better",
+      0.707213
+    ],
+    [
+      "nutrient-dense",
+      0.66494
+    ],
+    [
+      "daily",
+      0.602569
+    ],
+    [
+      "suggested",
+      0.598438
+    ],
+    [
+      "foods",
+      0.551971
+    ],
+    [
+      "plant-based",
+      0.543989
+    ],
+    [
+      "butters",
+      0.542298
+    ],
+    [
+      "greger's",
+      0.53566
+    ],
+    [
+      "wfpb",
+      0.529174
+    ]
+  ]
+}

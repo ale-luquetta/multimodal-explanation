@@ -1,0 +1,3687 @@
+[
+  {
+    "package_name": "com.digit64.vehicle.rto",
+    "screen_id": "35406",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\35406.jpg",
+    "text": "worst app, keep on loading Everytime This app does not work I shouldn't even give this app a start😠why do u create something stupid😡",
+    "prediction": 0.0812787115573883,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9187212884426117,
+    "gradcam_stats": {
+      "mean": 0.29468801617622375,
+      "max": 1.0,
+      "std": 0.25255849957466125
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+      "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+      "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+      "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+      "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego."
+    ],
+    "app_name": "Vehicle registration details",
+    "category": "Auto & Vehicles",
+    "faithfulness": {
+      "p_orig": 0.08108481019735336,
+      "p_img": 0.05078880488872528,
+      "delta_p_img": 0.030296005308628082
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Input",
+        "bounds_image": [
+          126,
+          111,
+          159,
+          125
+        ],
+        "bounds_rico": [
+          815,
+          1279,
+          1025,
+          1434
+        ],
+        "score_total": 413.88726806640625,
+        "score_mean": 0.8958598875896239
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "bounds_image": [
+          78,
+          131,
+          145,
+          144
+        ],
+        "bounds_rico": [
+          506,
+          1504,
+          933,
+          1650
+        ],
+        "score_total": 604.6405029296875,
+        "score_mean": 0.6941911629502727
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "bounds_image": [
+          63,
+          155,
+          160,
+          164
+        ],
+        "bounds_rico": [
+          409,
+          1780,
+          1030,
+          1882
+        ],
+        "score_total": 521.1633911132812,
+        "score_mean": 0.5969798294539305
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Input",
+        "score_total": 413.88726806640625,
+        "score_mean": 0.8958598875896239,
+        "bounds_image": [
+          126,
+          111,
+          159,
+          125
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 604.6405029296875,
+        "score_mean": 0.6941911629502727,
+        "bounds_image": [
+          78,
+          131,
+          145,
+          144
+        ]
+      },
+      {
+        "component": "Text Button",
+        "score_total": 521.1633911132812,
+        "score_mean": 0.5969798294539305,
+        "bounds_image": [
+          63,
+          155,
+          160,
+          164
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Input",
+        "score_total": 413.88726806640625,
+        "score_mean": 0.8958598875896239,
+        "bounds_image": [
+          126,
+          111,
+          159,
+          125
+        ],
+        "bounds_rico": [
+          815,
+          1279,
+          1025,
+          1434
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text Button",
+        "score_total": 604.6405029296875,
+        "score_mean": 0.6941911629502727,
+        "bounds_image": [
+          78,
+          131,
+          145,
+          144
+        ],
+        "bounds_rico": [
+          506,
+          1504,
+          933,
+          1650
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text Button",
+        "score_total": 521.1633911132812,
+        "score_mean": 0.5969798294539305,
+        "bounds_image": [
+          63,
+          155,
+          160,
+          164
+        ],
+        "bounds_rico": [
+          409,
+          1780,
+          1030,
+          1882
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 655.7130126953125,
+        "score_mean": 0.5652698385304418,
+        "bounds_image": [
+          117,
+          164,
+          157,
+          193
+        ],
+        "bounds_rico": [
+          757,
+          1882,
+          1012,
+          2217
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 462.883056640625,
+        "score_mean": 0.5148866036046996,
+        "bounds_image": [
+          75,
+          164,
+          106,
+          193
+        ],
+        "bounds_rico": [
+          484,
+          1882,
+          683,
+          2217
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Web View",
+        "score_total": 1755.526611328125,
+        "score_mean": 0.4898232732500349,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Input",
+        "score_total": 279.97552490234375,
+        "score_mean": 0.4254947186965711,
+        "bounds_image": [
+          69,
+          111,
+          116,
+          125
+        ],
+        "bounds_rico": [
+          449,
+          1279,
+          752,
+          1434
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 1001.2611694335938,
+        "score_mean": 0.30396513947589365,
+        "bounds_image": [
+          20,
+          90,
+          203,
+          108
+        ],
+        "bounds_rico": [
+          130,
+          1036,
+          1310,
+          1244
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 327.04937744140625,
+        "score_mean": 0.17442633463541668,
+        "bounds_image": [
+          49,
+          72,
+          174,
+          87
+        ],
+        "bounds_rico": [
+          316,
+          826,
+          1123,
+          1001
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Web View",
+        "score_total": 302.66943359375,
+        "score_mean": 0.09008018856956845,
+        "bounds_image": [
+          0,
+          7,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          0,
+          84,
+          1440,
+          259
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁worst"
+      },
+      {
+        "index": 9,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+        "word_count": 33,
+        "interface_pos": 0.0045,
+        "interface_neg": 0.9118,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Text Button, Text Button",
+        "top_k_tokens": "s, ▁no, ▁it",
+        "p_orig": 0.09115130454301834,
+        "p_img": 0.0605827197432518,
+        "delta_p_img": 0.03056858479976654,
+        "gradcam_mean": 0.3148133158683777,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.028140999376773834,
+        "word_attention_top15": [
+          [
+            "hi",
+            0.157681
+          ],
+          [
+            "no",
+            0.132539
+          ],
+          [
+            "no owners",
+            0.117845
+          ],
+          [
+            "app.every",
+            0.090758
+          ],
+          [
+            "not real",
+            0.090085
+          ],
+          [
+            "not getting",
+            0.084302
+          ],
+          [
+            "chassis",
+            0.066974
+          ],
+          [
+            "name",
+            0.057578
+          ],
+          [
+            "engine",
+            0.050048
+          ],
+          [
+            "password",
+            0.049241
+          ],
+          [
+            "login",
+            0.046463
+          ],
+          [
+            "mentioned",
+            0.02981
+          ],
+          [
+            "time",
+            0.026675
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not real",
+            -0.060038
+          ],
+          [
+            "mentioned",
+            -0.024239
+          ],
+          [
+            "not getting",
+            -0.009874
+          ],
+          [
+            "login",
+            -0.008587
+          ],
+          [
+            "app.every",
+            -0.006253
+          ],
+          [
+            "hi",
+            0.005308
+          ],
+          [
+            "name",
+            0.005137
+          ],
+          [
+            "chassis",
+            0.00352
+          ],
+          [
+            "no owners",
+            0.003171
+          ],
+          [
+            "no",
+            0.002531
+          ],
+          [
+            "engine",
+            0.002445
+          ],
+          [
+            "time",
+            -0.001101
+          ],
+          [
+            "password",
+            7.4e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07584025710821152,
+          "max": 0.9999997615814209,
+          "std": 0.18488074839115143
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+        "word_count": 27,
+        "interface_pos": 0.0284,
+        "interface_neg": 0.7631,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Text Button, Text Button",
+        "top_k_tokens": "▁fc, ▁ads, ▁Ads",
+        "p_orig": 0.09880336374044418,
+        "p_img": 0.06589284539222717,
+        "delta_p_img": 0.03291051834821701,
+        "gradcam_mean": 0.3225184381008148,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.02899763733148575,
+        "word_attention_top15": [
+          [
+            "ads..!!.this",
+            0.31416
+          ],
+          [
+            "fcuk",
+            0.222776
+          ],
+          [
+            "ads",
+            0.118164
+          ],
+          [
+            "person",
+            0.092823
+          ],
+          [
+            "middle",
+            0.055997
+          ],
+          [
+            "parivahan",
+            0.047356
+          ],
+          [
+            "sales",
+            0.044065
+          ],
+          [
+            "links",
+            0.033073
+          ],
+          [
+            "u",
+            0.03066
+          ],
+          [
+            "login",
+            0.02355
+          ],
+          [
+            "man",
+            0.017378
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fcuk",
+            -0.072149
+          ],
+          [
+            "ads..!!.this",
+            0.018359
+          ],
+          [
+            "sales",
+            0.01239
+          ],
+          [
+            "links",
+            -0.011314
+          ],
+          [
+            "man",
+            -0.011075
+          ],
+          [
+            "parivahan",
+            -0.010139
+          ],
+          [
+            "ads",
+            0.009786
+          ],
+          [
+            "middle",
+            -0.00802
+          ],
+          [
+            "person",
+            -0.002411
+          ],
+          [
+            "u",
+            -0.001329
+          ],
+          [
+            "login",
+            0.00065
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07661856710910797,
+          "max": 0.9999997615814209,
+          "std": 0.18532267212867737
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+        "word_count": 15,
+        "interface_pos": 0.1438,
+        "interface_neg": 0.5835,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Text Button, Web View",
+        "top_k_tokens": "▁connectivity, ▁wrong, ▁interface",
+        "p_orig": 0.18192808330059052,
+        "p_img": 0.272489458322525,
+        "delta_p_img": 0.09056137502193451,
+        "gradcam_mean": 0.26267147064208984,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.015416592359542847,
+        "word_attention_top15": [
+          [
+            "connectivity",
+            0.341904
+          ],
+          [
+            "connection",
+            0.246476
+          ],
+          [
+            "wrong",
+            0.179078
+          ],
+          [
+            "not opening",
+            0.105877
+          ],
+          [
+            "check",
+            0.061936
+          ],
+          [
+            "keeps",
+            0.039134
+          ],
+          [
+            "saying",
+            0.025595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not opening",
+            -0.02447
+          ],
+          [
+            "wrong",
+            0.02267
+          ],
+          [
+            "keeps",
+            0.013881
+          ],
+          [
+            "check",
+            0.009924
+          ],
+          [
+            "saying",
+            0.007673
+          ],
+          [
+            "connectivity",
+            -0.006683
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.12559154629707336,
+          "max": 0.9999996423721313,
+          "std": 0.26833853125572205
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+        "word_count": 31,
+        "interface_pos": 0.2439,
+        "interface_neg": 0.6329,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Text Button, Text Button",
+        "top_k_tokens": "▁It, ▁really, ▁INDIA",
+        "p_orig": 0.17517752945423126,
+        "p_img": 0.12461578100919724,
+        "delta_p_img": 0.05056174844503403,
+        "gradcam_mean": 0.2557070255279541,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Text, Text",
+        "delta_p_img_shap": 0.06247381865978241,
+        "word_attention_top15": [
+          [
+            "but......now....it's",
+            0.179877
+          ],
+          [
+            "thanks",
+            0.160181
+          ],
+          [
+            "on_19/01/21",
+            0.107253
+          ],
+          [
+            "garbage",
+            0.106586
+          ],
+          [
+            "------error",
+            0.087392
+          ],
+          [
+            "reply",
+            0.082053
+          ],
+          [
+            "u.p",
+            0.058139
+          ],
+          [
+            "india",
+            0.0466
+          ],
+          [
+            "works",
+            0.036435
+          ],
+          [
+            "showing",
+            0.035993
+          ],
+          [
+            "days",
+            0.026878
+          ],
+          [
+            "instant",
+            0.012722
+          ],
+          [
+            "request",
+            0.012564
+          ],
+          [
+            "let",
+            0.009862
+          ],
+          [
+            "continuing",
+            0.009463
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "but......now....it's",
+            -0.118062
+          ],
+          [
+            "thanks",
+            0.090996
+          ],
+          [
+            "instant",
+            0.076763
+          ],
+          [
+            "works",
+            0.069483
+          ],
+          [
+            "------error",
+            -0.062715
+          ],
+          [
+            "bad",
+            -0.027007
+          ],
+          [
+            "garbage",
+            -0.021571
+          ],
+          [
+            "continuing",
+            0.015649
+          ],
+          [
+            "days",
+            -0.013218
+          ],
+          [
+            "showing",
+            -0.011888
+          ],
+          [
+            "observe",
+            -0.008587
+          ],
+          [
+            "india",
+            -0.007888
+          ],
+          [
+            "reply",
+            0.007748
+          ],
+          [
+            "u.p",
+            -0.006236
+          ],
+          [
+            "east",
+            -0.005958
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1414458006620407,
+          "max": 0.9999995827674866,
+          "std": 0.29440441727638245
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego.",
+        "word_count": 16,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.992,
+        "interface_sentiment": "negative",
+        "top_components": "Input, Text Button, Text Button",
+        "top_k_tokens": "▁Blow, ▁blows, ▁re",
+        "p_orig": 0.07621406763792038,
+        "p_img": 0.04810374602675438,
+        "delta_p_img": 0.028110321611166,
+        "gradcam_mean": 0.3331437110900879,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Web View",
+        "delta_p_img_shap": 0.015130788087844849,
+        "word_attention_top15": [
+          [
+            "blowfish",
+            0.21307
+          ],
+          [
+            "rego",
+            0.143862
+          ],
+          [
+            "blows",
+            0.140315
+          ],
+          [
+            "chucky",
+            0.115217
+          ],
+          [
+            "rubbish",
+            0.112786
+          ],
+          [
+            "couldnt",
+            0.076928
+          ],
+          [
+            "vehicle",
+            0.051447
+          ],
+          [
+            "verification",
+            0.05079
+          ],
+          [
+            "step",
+            0.039262
+          ],
+          [
+            "right",
+            0.029958
+          ],
+          [
+            "find",
+            0.026365
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "couldnt",
+            -0.017798
+          ],
+          [
+            "rubbish",
+            -0.013587
+          ],
+          [
+            "find",
+            0.011936
+          ],
+          [
+            "blows",
+            -0.009043
+          ],
+          [
+            "vehicle",
+            -0.006594
+          ],
+          [
+            "step",
+            0.003296
+          ],
+          [
+            "right",
+            -0.003127
+          ],
+          [
+            "blowfish",
+            -0.002468
+          ],
+          [
+            "verification",
+            0.002404
+          ],
+          [
+            "chucky",
+            -0.000992
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.07245343178510666,
+          "max": 0.9999997615814209,
+          "std": 0.1797311156988144
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was predicted as bad with 92% confidence.",
+      "simple": "This screen was predicted as bad with 92% confidence. The model concentrated on a small Input at the top-left.",
+      "detailed": "This screen of Vehicle registration details (category: Auto & Vehicles) was predicted as bad with 92% confidence (with strong evidence). The model gave priority to a small Input at the top-left, a small Text Button at the top-left, and a small Text Button at the top-left."
+    }
+  },
+  {
+    "package_name": "com.digit64.vehicle.rto",
+    "screen_id": "35407",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\35407.jpg",
+    "text": "worst app, keep on loading Everytime This app does not work I shouldn't even give this app a start😠why do u create something stupid😡",
+    "prediction": 0.0699051097035408,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9300948902964592,
+    "gradcam_stats": {
+      "mean": 0.19099697470664978,
+      "max": 1.0,
+      "std": 0.24464888870716095
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+      "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+      "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+      "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+      "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego."
+    ],
+    "app_name": "Vehicle registration details",
+    "category": "Auto & Vehicles",
+    "faithfulness": {
+      "p_orig": 0.06983833014965057,
+      "p_img": 0.0797019675374031,
+      "delta_p_img": 0.009863637387752533
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          67,
+          157,
+          104,
+          167
+        ],
+        "bounds_rico": [
+          436,
+          1805,
+          671,
+          1911
+        ],
+        "score_total": 299.7594299316406,
+        "score_mean": 0.8101606214368665
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ],
+        "bounds_rico": [
+          470,
+          1598,
+          638,
+          1766
+        ],
+        "score_total": 274.0097351074219,
+        "score_mean": 0.7025890643780048
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          125,
+          157,
+          150,
+          167
+        ],
+        "bounds_rico": [
+          806,
+          1805,
+          965,
+          1911
+        ],
+        "score_total": 147.20822143554688,
+        "score_mean": 0.5888328857421875
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 299.7594299316406,
+        "score_mean": 0.8101606214368665,
+        "bounds_image": [
+          67,
+          157,
+          104,
+          167
+        ]
+      },
+      {
+        "component": "Image",
+        "score_total": 274.0097351074219,
+        "score_mean": 0.7025890643780048,
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 147.20822143554688,
+        "score_mean": 0.5888328857421875,
+        "bounds_image": [
+          125,
+          157,
+          150,
+          167
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 299.7594299316406,
+        "score_mean": 0.8101606214368665,
+        "bounds_image": [
+          67,
+          157,
+          104,
+          167
+        ],
+        "bounds_rico": [
+          436,
+          1805,
+          671,
+          1911
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Image",
+        "score_total": 274.0097351074219,
+        "score_mean": 0.7025890643780048,
+        "bounds_image": [
+          73,
+          139,
+          99,
+          154
+        ],
+        "bounds_rico": [
+          470,
+          1598,
+          638,
+          1766
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 147.20822143554688,
+        "score_mean": 0.5888328857421875,
+        "bounds_image": [
+          125,
+          157,
+          150,
+          167
+        ],
+        "bounds_rico": [
+          806,
+          1805,
+          965,
+          1911
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Icon",
+        "score_total": 188.21212768554688,
+        "score_mean": 0.5170662848504035,
+        "bounds_image": [
+          21,
+          177,
+          47,
+          191
+        ],
+        "bounds_rico": [
+          138,
+          2023,
+          306,
+          2191
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Text",
+        "score_total": 123.54069519042969,
+        "score_mean": 0.5147528966267904,
+        "bounds_image": [
+          22,
+          157,
+          46,
+          167
+        ],
+        "bounds_rico": [
+          142,
+          1805,
+          302,
+          1911
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Icon",
+        "score_total": 198.41525268554688,
+        "score_mean": 0.5087570581680689,
+        "bounds_image": [
+          124,
+          139,
+          150,
+          154
+        ],
+        "bounds_rico": [
+          802,
+          1598,
+          970,
+          1766
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 172.1025390625,
+        "score_mean": 0.44128856169871794,
+        "bounds_image": [
+          21,
+          139,
+          47,
+          154
+        ],
+        "bounds_rico": [
+          138,
+          1598,
+          306,
+          1766
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 101.81320190429688,
+        "score_mean": 0.4040206424773686,
+        "bounds_image": [
+          20,
+          195,
+          48,
+          204
+        ],
+        "bounds_rico": [
+          131,
+          2230,
+          313,
+          2336
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 117.22734069824219,
+        "score_mean": 0.24422362645467122,
+        "bounds_image": [
+          165,
+          157,
+          213,
+          167
+        ],
+        "bounds_rico": [
+          1066,
+          1805,
+          1370,
+          1911
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Text",
+        "score_total": 625.9501953125,
+        "score_mean": 0.2229167362224003,
+        "bounds_image": [
+          8,
+          121,
+          224,
+          134
+        ],
+        "bounds_rico": [
+          56,
+          1392,
+          1440,
+          1542
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Image",
+        "score_total": 56.183624267578125,
+        "score_mean": 0.1440605750450721,
+        "bounds_image": [
+          176,
+          139,
+          202,
+          154
+        ],
+        "bounds_rico": [
+          1134,
+          1598,
+          1302,
+          1766
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁worst"
+      },
+      {
+        "index": 9,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+        "word_count": 33,
+        "interface_pos": 0.0045,
+        "interface_neg": 0.9118,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "s, ▁no, ▁it",
+        "p_orig": 0.07610182464122772,
+        "p_img": 0.09156841039657593,
+        "delta_p_img": 0.015466585755348206,
+        "gradcam_mean": 0.19144515693187714,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.003316149115562439,
+        "word_attention_top15": [
+          [
+            "hi",
+            0.157681
+          ],
+          [
+            "no",
+            0.132539
+          ],
+          [
+            "no owners",
+            0.117845
+          ],
+          [
+            "app.every",
+            0.090758
+          ],
+          [
+            "not real",
+            0.090085
+          ],
+          [
+            "not getting",
+            0.084302
+          ],
+          [
+            "chassis",
+            0.066974
+          ],
+          [
+            "name",
+            0.057578
+          ],
+          [
+            "engine",
+            0.050048
+          ],
+          [
+            "password",
+            0.049241
+          ],
+          [
+            "login",
+            0.046463
+          ],
+          [
+            "mentioned",
+            0.02981
+          ],
+          [
+            "time",
+            0.026675
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not real",
+            -0.05753
+          ],
+          [
+            "mentioned",
+            -0.021839
+          ],
+          [
+            "not getting",
+            -0.010441
+          ],
+          [
+            "login",
+            -0.008088
+          ],
+          [
+            "app.every",
+            -0.007824
+          ],
+          [
+            "name",
+            0.004466
+          ],
+          [
+            "engine",
+            0.003373
+          ],
+          [
+            "chassis",
+            0.002881
+          ],
+          [
+            "no owners",
+            0.002866
+          ],
+          [
+            "no",
+            0.002222
+          ],
+          [
+            "time",
+            -0.001449
+          ],
+          [
+            "hi",
+            0.00077
+          ],
+          [
+            "password",
+            9.8e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11226829141378403,
+          "max": 0.9999996423721313,
+          "std": 0.2254975289106369
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+        "word_count": 27,
+        "interface_pos": 0.0284,
+        "interface_neg": 0.7631,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁fc, ▁ads, ▁Ads",
+        "p_orig": 0.08327681571245193,
+        "p_img": 0.10281950235366821,
+        "delta_p_img": 0.019542686641216278,
+        "gradcam_mean": 0.18887953460216522,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.005428306758403778,
+        "word_attention_top15": [
+          [
+            "ads..!!.this",
+            0.31416
+          ],
+          [
+            "fcuk",
+            0.222776
+          ],
+          [
+            "ads",
+            0.118164
+          ],
+          [
+            "person",
+            0.092823
+          ],
+          [
+            "middle",
+            0.055997
+          ],
+          [
+            "parivahan",
+            0.047356
+          ],
+          [
+            "sales",
+            0.044065
+          ],
+          [
+            "links",
+            0.033073
+          ],
+          [
+            "u",
+            0.03066
+          ],
+          [
+            "login",
+            0.02355
+          ],
+          [
+            "man",
+            0.017378
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fcuk",
+            -0.071387
+          ],
+          [
+            "sales",
+            0.01451
+          ],
+          [
+            "parivahan",
+            -0.012582
+          ],
+          [
+            "links",
+            -0.012222
+          ],
+          [
+            "ads..!!.this",
+            0.011075
+          ],
+          [
+            "man",
+            -0.010136
+          ],
+          [
+            "ads",
+            0.006408
+          ],
+          [
+            "middle",
+            -0.005969
+          ],
+          [
+            "person",
+            -0.00499
+          ],
+          [
+            "u",
+            0.004455
+          ],
+          [
+            "login",
+            0.001306
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.11138537526130676,
+          "max": 0.9999997019767761,
+          "std": 0.22413286566734314
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+        "word_count": 15,
+        "interface_pos": 0.1438,
+        "interface_neg": 0.5835,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁connectivity, ▁wrong, ▁interface",
+        "p_orig": 0.17499622702598572,
+        "p_img": 0.21938645839691162,
+        "delta_p_img": 0.0443902313709259,
+        "gradcam_mean": 0.16486085951328278,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.058032065629959106,
+        "word_attention_top15": [
+          [
+            "connectivity",
+            0.341904
+          ],
+          [
+            "connection",
+            0.246476
+          ],
+          [
+            "wrong",
+            0.179078
+          ],
+          [
+            "not opening",
+            0.105877
+          ],
+          [
+            "check",
+            0.061936
+          ],
+          [
+            "keeps",
+            0.039134
+          ],
+          [
+            "saying",
+            0.025595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not opening",
+            -0.025565
+          ],
+          [
+            "wrong",
+            0.021738
+          ],
+          [
+            "keeps",
+            0.014804
+          ],
+          [
+            "check",
+            0.008922
+          ],
+          [
+            "connectivity",
+            -0.007277
+          ],
+          [
+            "saying",
+            0.004757
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.15577596426010132,
+          "max": 0.9999996423721313,
+          "std": 0.30707380175590515
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+        "word_count": 31,
+        "interface_pos": 0.2439,
+        "interface_neg": 0.6329,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁It, ▁really, ▁INDIA",
+        "p_orig": 0.14718854427337646,
+        "p_img": 0.19385263323783875,
+        "delta_p_img": 0.04666408896446228,
+        "gradcam_mean": 0.17393334209918976,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.0388132780790329,
+        "word_attention_top15": [
+          [
+            "but......now....it's",
+            0.179877
+          ],
+          [
+            "thanks",
+            0.160181
+          ],
+          [
+            "on_19/01/21",
+            0.107253
+          ],
+          [
+            "garbage",
+            0.106586
+          ],
+          [
+            "------error",
+            0.087392
+          ],
+          [
+            "reply",
+            0.082053
+          ],
+          [
+            "u.p",
+            0.058139
+          ],
+          [
+            "india",
+            0.0466
+          ],
+          [
+            "works",
+            0.036435
+          ],
+          [
+            "showing",
+            0.035993
+          ],
+          [
+            "days",
+            0.026878
+          ],
+          [
+            "instant",
+            0.012722
+          ],
+          [
+            "request",
+            0.012564
+          ],
+          [
+            "let",
+            0.009862
+          ],
+          [
+            "continuing",
+            0.009463
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "but......now....it's",
+            -0.127062
+          ],
+          [
+            "thanks",
+            0.089476
+          ],
+          [
+            "instant",
+            0.077037
+          ],
+          [
+            "works",
+            0.066822
+          ],
+          [
+            "------error",
+            -0.061845
+          ],
+          [
+            "bad",
+            -0.024977
+          ],
+          [
+            "garbage",
+            -0.024568
+          ],
+          [
+            "days",
+            -0.019582
+          ],
+          [
+            "continuing",
+            0.018132
+          ],
+          [
+            "showing",
+            -0.013857
+          ],
+          [
+            "observe",
+            -0.009456
+          ],
+          [
+            "india",
+            -0.007843
+          ],
+          [
+            "reply",
+            0.007702
+          ],
+          [
+            "east",
+            -0.007117
+          ],
+          [
+            "u.p",
+            -0.005978
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14145305752754211,
+          "max": 0.9999996423721313,
+          "std": 0.27985453605651855
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego.",
+        "word_count": 16,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.992,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Image, Text",
+        "top_k_tokens": "▁Blow, ▁blows, ▁re",
+        "p_orig": 0.06561475992202759,
+        "p_img": 0.07673680782318115,
+        "delta_p_img": 0.011122047901153564,
+        "gradcam_mean": 0.19739793241024017,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text, Text, Text",
+        "delta_p_img_shap": 0.00014241784811019897,
+        "word_attention_top15": [
+          [
+            "blowfish",
+            0.21307
+          ],
+          [
+            "rego",
+            0.143862
+          ],
+          [
+            "blows",
+            0.140315
+          ],
+          [
+            "chucky",
+            0.115217
+          ],
+          [
+            "rubbish",
+            0.112786
+          ],
+          [
+            "couldnt",
+            0.076928
+          ],
+          [
+            "vehicle",
+            0.051447
+          ],
+          [
+            "verification",
+            0.05079
+          ],
+          [
+            "step",
+            0.039262
+          ],
+          [
+            "right",
+            0.029958
+          ],
+          [
+            "find",
+            0.026365
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "couldnt",
+            -0.019842
+          ],
+          [
+            "rubbish",
+            -0.015507
+          ],
+          [
+            "find",
+            0.014541
+          ],
+          [
+            "blows",
+            -0.010034
+          ],
+          [
+            "vehicle",
+            -0.005639
+          ],
+          [
+            "step",
+            0.004155
+          ],
+          [
+            "right",
+            -0.003611
+          ],
+          [
+            "blowfish",
+            -0.003388
+          ],
+          [
+            "verification",
+            0.00322
+          ],
+          [
+            "chucky",
+            -0.000499
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.10996738821268082,
+          "max": 0.9999997019767761,
+          "std": 0.22277244925498962
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 93% confidence.",
+      "simple": "This screen was classified as bad with 93% confidence. The model focused primarily on a small Text at the top-left.",
+      "detailed": "This screen of Vehicle registration details (category: Auto & Vehicles) was classified as bad with 93% confidence (with high confidence). The model focused on a small Text at the top-left, a small Image at the top-left, and a small Text at the top-left."
+    }
+  },
+  {
+    "package_name": "com.digit64.vehicle.rto",
+    "screen_id": "35408",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\35408.jpg",
+    "text": "worst app, keep on loading Everytime This app does not work I shouldn't even give this app a start😠why do u create something stupid😡",
+    "prediction": 0.001260404591448605,
+    "predicted_class": "bad",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": true,
+    "confidence": 0.9987395954085514,
+    "gradcam_stats": {
+      "mean": 0.37434467673301697,
+      "max": 1.0,
+      "std": 0.23048759996891022
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+      "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+      "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+      "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+      "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego."
+    ],
+    "app_name": "Vehicle registration details",
+    "category": "Auto & Vehicles",
+    "faithfulness": {
+      "p_orig": 0.0012622313806787133,
+      "p_img": 0.10379131138324738,
+      "delta_p_img": 0.10252908000256866
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "bounds_image": [
+          0,
+          0,
+          27,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          175,
+          175
+        ],
+        "score_total": 178.85025024414062,
+        "score_mean": 0.44160555615837194
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ],
+        "score_total": 18090.037109375,
+        "score_mean": 0.3864071494654605
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Icon",
+        "score_total": 178.85025024414062,
+        "score_mean": 0.44160555615837194,
+        "bounds_image": [
+          0,
+          0,
+          27,
+          15
+        ]
+      },
+      {
+        "component": "Web View",
+        "score_total": 18090.037109375,
+        "score_mean": 0.3864071494654605,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Icon",
+        "score_total": 178.85025024414062,
+        "score_mean": 0.44160555615837194,
+        "bounds_image": [
+          0,
+          0,
+          27,
+          15
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          175,
+          175
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Web View",
+        "score_total": 18090.037109375,
+        "score_mean": 0.3864071494654605,
+        "bounds_image": [
+          0,
+          0,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          0,
+          1440,
+          2392
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁worst"
+      },
+      {
+        "index": 9,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁app"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+        "word_count": 33,
+        "interface_pos": 0.0045,
+        "interface_neg": 0.9118,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "s, ▁no, ▁it",
+        "p_orig": 0.0014676123391836882,
+        "p_img": 0.11143024265766144,
+        "delta_p_img": 0.10996263031847775,
+        "gradcam_mean": 0.37436002492904663,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.10996263031847775,
+        "word_attention_top15": [
+          [
+            "hi",
+            0.157681
+          ],
+          [
+            "no",
+            0.132539
+          ],
+          [
+            "no owners",
+            0.117845
+          ],
+          [
+            "app.every",
+            0.090758
+          ],
+          [
+            "not real",
+            0.090085
+          ],
+          [
+            "not getting",
+            0.084302
+          ],
+          [
+            "chassis",
+            0.066974
+          ],
+          [
+            "name",
+            0.057578
+          ],
+          [
+            "engine",
+            0.050048
+          ],
+          [
+            "password",
+            0.049241
+          ],
+          [
+            "login",
+            0.046463
+          ],
+          [
+            "mentioned",
+            0.02981
+          ],
+          [
+            "time",
+            0.026675
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not real",
+            -0.00098
+          ],
+          [
+            "mentioned",
+            -0.000307
+          ],
+          [
+            "not getting",
+            -0.000181
+          ],
+          [
+            "app.every",
+            -0.00017
+          ],
+          [
+            "login",
+            -0.000126
+          ],
+          [
+            "name",
+            9.6e-05
+          ],
+          [
+            "chassis",
+            7.7e-05
+          ],
+          [
+            "no owners",
+            7.3e-05
+          ],
+          [
+            "engine",
+            7.2e-05
+          ],
+          [
+            "no",
+            6.4e-05
+          ],
+          [
+            "hi",
+            5.6e-05
+          ],
+          [
+            "time",
+            -4.1e-05
+          ],
+          [
+            "password",
+            9e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1443583071231842,
+          "max": 0.9999992847442627,
+          "std": 0.24053795635700226
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+        "word_count": 27,
+        "interface_pos": 0.0284,
+        "interface_neg": 0.7631,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁fc, ▁ads, ▁Ads",
+        "p_orig": 0.0016139231156557798,
+        "p_img": 0.11780143529176712,
+        "delta_p_img": 0.11618751217611134,
+        "gradcam_mean": 0.3707449734210968,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.11618751217611134,
+        "word_attention_top15": [
+          [
+            "ads..!!.this",
+            0.31416
+          ],
+          [
+            "fcuk",
+            0.222776
+          ],
+          [
+            "ads",
+            0.118164
+          ],
+          [
+            "person",
+            0.092823
+          ],
+          [
+            "middle",
+            0.055997
+          ],
+          [
+            "parivahan",
+            0.047356
+          ],
+          [
+            "sales",
+            0.044065
+          ],
+          [
+            "links",
+            0.033073
+          ],
+          [
+            "u",
+            0.03066
+          ],
+          [
+            "login",
+            0.02355
+          ],
+          [
+            "man",
+            0.017378
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fcuk",
+            -0.000886
+          ],
+          [
+            "ads..!!.this",
+            0.000396
+          ],
+          [
+            "ads",
+            0.000226
+          ],
+          [
+            "parivahan",
+            -0.000211
+          ],
+          [
+            "links",
+            -0.000202
+          ],
+          [
+            "sales",
+            0.000193
+          ],
+          [
+            "man",
+            -0.000172
+          ],
+          [
+            "u",
+            0.000132
+          ],
+          [
+            "person",
+            -8.9e-05
+          ],
+          [
+            "middle",
+            -8e-05
+          ],
+          [
+            "login",
+            4.6e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1436668485403061,
+          "max": 0.9999993443489075,
+          "std": 0.23961329460144043
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+        "word_count": 15,
+        "interface_pos": 0.1438,
+        "interface_neg": 0.5835,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁connectivity, ▁wrong, ▁interface",
+        "p_orig": 0.003188095986843109,
+        "p_img": 0.15931904315948486,
+        "delta_p_img": 0.15613094717264175,
+        "gradcam_mean": 0.34437501430511475,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.15613094717264175,
+        "word_attention_top15": [
+          [
+            "connectivity",
+            0.341904
+          ],
+          [
+            "connection",
+            0.246476
+          ],
+          [
+            "wrong",
+            0.179078
+          ],
+          [
+            "not opening",
+            0.105877
+          ],
+          [
+            "check",
+            0.061936
+          ],
+          [
+            "keeps",
+            0.039134
+          ],
+          [
+            "saying",
+            0.025595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "wrong",
+            0.000423
+          ],
+          [
+            "not opening",
+            -0.000383
+          ],
+          [
+            "keeps",
+            0.000246
+          ],
+          [
+            "check",
+            0.000165
+          ],
+          [
+            "saying",
+            0.000141
+          ],
+          [
+            "connectivity",
+            -0.000123
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18661551177501678,
+          "max": 0.9999995827674866,
+          "std": 0.2858612835407257
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+        "word_count": 31,
+        "interface_pos": 0.2439,
+        "interface_neg": 0.6329,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁It, ▁really, ▁INDIA",
+        "p_orig": 0.002273912774398923,
+        "p_img": 0.13907334208488464,
+        "delta_p_img": 0.13679942931048572,
+        "gradcam_mean": 0.3487330377101898,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.13679942931048572,
+        "word_attention_top15": [
+          [
+            "but......now....it's",
+            0.179877
+          ],
+          [
+            "thanks",
+            0.160181
+          ],
+          [
+            "on_19/01/21",
+            0.107253
+          ],
+          [
+            "garbage",
+            0.106586
+          ],
+          [
+            "------error",
+            0.087392
+          ],
+          [
+            "reply",
+            0.082053
+          ],
+          [
+            "u.p",
+            0.058139
+          ],
+          [
+            "india",
+            0.0466
+          ],
+          [
+            "works",
+            0.036435
+          ],
+          [
+            "showing",
+            0.035993
+          ],
+          [
+            "days",
+            0.026878
+          ],
+          [
+            "instant",
+            0.012722
+          ],
+          [
+            "request",
+            0.012564
+          ],
+          [
+            "let",
+            0.009862
+          ],
+          [
+            "continuing",
+            0.009463
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "but......now....it's",
+            -0.001672
+          ],
+          [
+            "instant",
+            0.001082
+          ],
+          [
+            "thanks",
+            0.001075
+          ],
+          [
+            "works",
+            0.001065
+          ],
+          [
+            "------error",
+            -0.000825
+          ],
+          [
+            "bad",
+            -0.000377
+          ],
+          [
+            "garbage",
+            -0.000322
+          ],
+          [
+            "days",
+            -0.000299
+          ],
+          [
+            "continuing",
+            0.00029
+          ],
+          [
+            "showing",
+            -0.000169
+          ],
+          [
+            "observe",
+            -0.000135
+          ],
+          [
+            "india",
+            -0.000128
+          ],
+          [
+            "u.p",
+            -0.000125
+          ],
+          [
+            "east",
+            -0.00011
+          ],
+          [
+            "let",
+            9.5e-05
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.14695622026920319,
+          "max": 0.9999995827674866,
+          "std": 0.24096816778182983
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego.",
+        "word_count": 16,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.992,
+        "interface_sentiment": "negative",
+        "top_components": "Icon, Web View",
+        "top_k_tokens": "▁Blow, ▁blows, ▁re",
+        "p_orig": 0.0013227666495367885,
+        "p_img": 0.10229001939296722,
+        "delta_p_img": 0.10096725274343044,
+        "gradcam_mean": 0.37529563903808594,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Web View, Icon",
+        "delta_p_img_shap": 0.10096725274343044,
+        "word_attention_top15": [
+          [
+            "blowfish",
+            0.21307
+          ],
+          [
+            "rego",
+            0.143862
+          ],
+          [
+            "blows",
+            0.140315
+          ],
+          [
+            "chucky",
+            0.115217
+          ],
+          [
+            "rubbish",
+            0.112786
+          ],
+          [
+            "couldnt",
+            0.076928
+          ],
+          [
+            "vehicle",
+            0.051447
+          ],
+          [
+            "verification",
+            0.05079
+          ],
+          [
+            "step",
+            0.039262
+          ],
+          [
+            "right",
+            0.029958
+          ],
+          [
+            "find",
+            0.026365
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "couldnt",
+            -0.00029
+          ],
+          [
+            "rubbish",
+            -0.000248
+          ],
+          [
+            "find",
+            0.000234
+          ],
+          [
+            "blows",
+            -0.000153
+          ],
+          [
+            "verification",
+            8.4e-05
+          ],
+          [
+            "step",
+            8.1e-05
+          ],
+          [
+            "vehicle",
+            -6.4e-05
+          ],
+          [
+            "blowfish",
+            -5.2e-05
+          ],
+          [
+            "chucky",
+            6e-06
+          ],
+          [
+            "right",
+            -2e-06
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1467207819223404,
+          "max": 0.9999992251396179,
+          "std": 0.24339453876018524
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was classified as bad with 100% confidence.",
+      "simple": "This screen was classified as bad with 100% confidence. The model focused primarily on a small Icon at the top-left.",
+      "detailed": "This screen of Vehicle registration details (category: Auto & Vehicles) was classified as bad with 100% confidence (with high confidence). The model focused on a small Icon at the top-left, and a small Web View at the top-left."
+    }
+  },
+  {
+    "package_name": "com.digit64.vehicle.rto",
+    "screen_id": "35409",
+    "image_path": "C:\\UTFPR\\Mestrado\\repos\\multimodal\\data\\datasets\\rico\\screenshots\\35409.jpg",
+    "text": "Cool apps. love it. Easy and great app Started working again. My vehicle had data on RTO server, app shows data correctly",
+    "prediction": 0.937650203704834,
+    "predicted_class": "good",
+    "true_label": 0,
+    "true_class": "bad",
+    "is_correct": false,
+    "confidence": 0.937650203704834,
+    "gradcam_stats": {
+      "mean": 0.49816298484802246,
+      "max": 1.0,
+      "std": 0.21381913125514984
+    },
+    "cam_metrics": {},
+    "review_texts": [
+      "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+      "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+      "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+      "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+      "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego."
+    ],
+    "app_name": "Vehicle registration details",
+    "category": "Auto & Vehicles",
+    "faithfulness": {
+      "p_orig": 0.9375565052032471,
+      "p_img": 0.8963317275047302,
+      "delta_p_img": 0.041224777698516846
+    },
+    "top_components_ablated": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "bounds_image": [
+          34,
+          47,
+          218,
+          53
+        ],
+        "bounds_rico": [
+          224,
+          541,
+          1405,
+          617
+        ],
+        "score_total": 929.2620849609375,
+        "score_mean": 0.8417229030443274
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "bounds_image": [
+          34,
+          32,
+          218,
+          39
+        ],
+        "bounds_rico": [
+          224,
+          373,
+          1405,
+          449
+        ],
+        "score_total": 1003.7185668945312,
+        "score_mean": 0.7792846016261888
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "bounds_image": [
+          34,
+          62,
+          218,
+          68
+        ],
+        "bounds_rico": [
+          224,
+          709,
+          1405,
+          785
+        ],
+        "score_total": 708.4490966796875,
+        "score_mean": 0.6417111382968184
+      }
+    ],
+    "top_components": [
+      {
+        "component": "Text",
+        "score_total": 929.2620849609375,
+        "score_mean": 0.8417229030443274,
+        "bounds_image": [
+          34,
+          47,
+          218,
+          53
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 1003.7185668945312,
+        "score_mean": 0.7792846016261888,
+        "bounds_image": [
+          34,
+          32,
+          218,
+          39
+        ]
+      },
+      {
+        "component": "Text",
+        "score_total": 708.4490966796875,
+        "score_mean": 0.6417111382968184,
+        "bounds_image": [
+          34,
+          62,
+          218,
+          68
+        ]
+      }
+    ],
+    "components_full_ranked": [
+      {
+        "rank": 0,
+        "component": "Text",
+        "score_total": 929.2620849609375,
+        "score_mean": 0.8417229030443274,
+        "bounds_image": [
+          34,
+          47,
+          218,
+          53
+        ],
+        "bounds_rico": [
+          224,
+          541,
+          1405,
+          617
+        ]
+      },
+      {
+        "rank": 1,
+        "component": "Text",
+        "score_total": 1003.7185668945312,
+        "score_mean": 0.7792846016261888,
+        "bounds_image": [
+          34,
+          32,
+          218,
+          39
+        ],
+        "bounds_rico": [
+          224,
+          373,
+          1405,
+          449
+        ]
+      },
+      {
+        "rank": 2,
+        "component": "Text",
+        "score_total": 708.4490966796875,
+        "score_mean": 0.6417111382968184,
+        "bounds_image": [
+          34,
+          62,
+          218,
+          68
+        ],
+        "bounds_rico": [
+          224,
+          709,
+          1405,
+          785
+        ]
+      },
+      {
+        "rank": 3,
+        "component": "Text",
+        "score_total": 1214.470458984375,
+        "score_mean": 0.6024159022739956,
+        "bounds_image": [
+          0,
+          13,
+          224,
+          22
+        ],
+        "bounds_rico": [
+          0,
+          154,
+          1440,
+          257
+        ]
+      },
+      {
+        "rank": 4,
+        "component": "Image",
+        "score_total": 58.1856575012207,
+        "score_mean": 0.559477475973276,
+        "bounds_image": [
+          13,
+          46,
+          26,
+          54
+        ],
+        "bounds_rico": [
+          87,
+          537,
+          171,
+          621
+        ]
+      },
+      {
+        "rank": 5,
+        "component": "Web View",
+        "score_total": 1922.912841796875,
+        "score_mean": 0.5365270205906459,
+        "bounds_image": [
+          0,
+          193,
+          224,
+          209
+        ],
+        "bounds_rico": [
+          0,
+          2217,
+          1440,
+          2392
+        ]
+      },
+      {
+        "rank": 6,
+        "component": "Icon",
+        "score_total": 45.315826416015625,
+        "score_mean": 0.49797611446171014,
+        "bounds_image": [
+          13,
+          32,
+          26,
+          39
+        ],
+        "bounds_rico": [
+          87,
+          369,
+          171,
+          453
+        ]
+      },
+      {
+        "rank": 7,
+        "component": "Text",
+        "score_total": 532.3153686523438,
+        "score_mean": 0.48086302497953365,
+        "bounds_image": [
+          16,
+          173,
+          139,
+          182
+        ],
+        "bounds_rico": [
+          105,
+          1984,
+          897,
+          2087
+        ]
+      },
+      {
+        "rank": 8,
+        "component": "Text",
+        "score_total": 213.47142028808594,
+        "score_mean": 0.47649870600019184,
+        "bounds_image": [
+          16,
+          166,
+          80,
+          173
+        ],
+        "bounds_rico": [
+          105,
+          1908,
+          520,
+          1984
+        ]
+      },
+      {
+        "rank": 9,
+        "component": "Image",
+        "score_total": 48.11244583129883,
+        "score_mean": 0.46261967145479643,
+        "bounds_image": [
+          13,
+          61,
+          26,
+          69
+        ],
+        "bounds_rico": [
+          87,
+          705,
+          171,
+          789
+        ]
+      },
+      {
+        "rank": 10,
+        "component": "Text",
+        "score_total": 577.4127197265625,
+        "score_mean": 0.44830180102993983,
+        "bounds_image": [
+          34,
+          76,
+          218,
+          83
+        ],
+        "bounds_rico": [
+          224,
+          877,
+          1405,
+          953
+        ]
+      },
+      {
+        "rank": 11,
+        "component": "Text",
+        "score_total": 154.55926513671875,
+        "score_mean": 0.429331292046441,
+        "bounds_image": [
+          16,
+          187,
+          76,
+          193
+        ],
+        "bounds_rico": [
+          105,
+          2143,
+          491,
+          2217
+        ]
+      },
+      {
+        "rank": 12,
+        "component": "Text",
+        "score_total": 439.4253845214844,
+        "score_mean": 0.4091484027201903,
+        "bounds_image": [
+          34,
+          153,
+          213,
+          159
+        ],
+        "bounds_rico": [
+          224,
+          1751,
+          1370,
+          1827
+        ]
+      },
+      {
+        "rank": 13,
+        "component": "Icon",
+        "score_total": 41.28962707519531,
+        "score_mean": 0.3970156449538011,
+        "bounds_image": [
+          16,
+          152,
+          29,
+          160
+        ],
+        "bounds_rico": [
+          105,
+          1747,
+          189,
+          1831
+        ]
+      },
+      {
+        "rank": 14,
+        "component": "Image",
+        "score_total": 34.06192398071289,
+        "score_mean": 0.37430685693091087,
+        "bounds_image": [
+          16,
+          138,
+          29,
+          145
+        ],
+        "bounds_rico": [
+          105,
+          1579,
+          189,
+          1663
+        ]
+      },
+      {
+        "rank": 15,
+        "component": "Icon",
+        "score_total": 33.32266616821289,
+        "score_mean": 0.3661831447056362,
+        "bounds_image": [
+          13,
+          76,
+          26,
+          83
+        ],
+        "bounds_rico": [
+          87,
+          873,
+          171,
+          957
+        ]
+      },
+      {
+        "rank": 16,
+        "component": "Text",
+        "score_total": 429.84173583984375,
+        "score_mean": 0.3337280557762762,
+        "bounds_image": [
+          34,
+          91,
+          218,
+          98
+        ],
+        "bounds_rico": [
+          224,
+          1045,
+          1405,
+          1121
+        ]
+      },
+      {
+        "rank": 17,
+        "component": "Icon",
+        "score_total": 27.739843368530273,
+        "score_mean": 0.3048334436102228,
+        "bounds_image": [
+          13,
+          91,
+          26,
+          98
+        ],
+        "bounds_rico": [
+          87,
+          1041,
+          171,
+          1125
+        ]
+      },
+      {
+        "rank": 18,
+        "component": "Text",
+        "score_total": 367.55401611328125,
+        "score_mean": 0.29333919881347265,
+        "bounds_image": [
+          34,
+          138,
+          213,
+          145
+        ],
+        "bounds_rico": [
+          224,
+          1583,
+          1370,
+          1659
+        ]
+      },
+      {
+        "rank": 19,
+        "component": "Text Button",
+        "score_total": 90.55282592773438,
+        "score_mean": 0.06742578252251256,
+        "bounds_image": [
+          72,
+          111,
+          151,
+          128
+        ],
+        "bounds_rico": [
+          463,
+          1276,
+          976,
+          1467
+        ]
+      }
+    ],
+    "top_k_tokens": [
+      {
+        "index": 1,
+        "token": "▁Cool"
+      },
+      {
+        "index": 8,
+        "token": "▁interface"
+      },
+      {
+        "index": 2,
+        "token": "▁apps"
+      }
+    ],
+    "per_review_analyses": [
+      {
+        "review_rank": 0,
+        "embedding_idx": 0,
+        "review_source": "cache",
+        "review_text": "Hi... it's not real as mentioned in it . Same app like other app.Every time I have to login and password. I am not getting engine no, chassis no or owners name .",
+        "word_count": 33,
+        "interface_pos": 0.0045,
+        "interface_neg": 0.9118,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Image, Text",
+        "top_k_tokens": "s, ▁no, ▁it",
+        "p_orig": 0.4647303521633148,
+        "p_img": 0.1274128258228302,
+        "delta_p_img": 0.3373175263404846,
+        "gradcam_mean": 0.12033980339765549,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Icon",
+        "delta_p_img_shap": 0.33359991014003754,
+        "word_attention_top15": [
+          [
+            "hi",
+            0.157681
+          ],
+          [
+            "no",
+            0.132539
+          ],
+          [
+            "no owners",
+            0.117845
+          ],
+          [
+            "app.every",
+            0.090758
+          ],
+          [
+            "not real",
+            0.090085
+          ],
+          [
+            "not getting",
+            0.084302
+          ],
+          [
+            "chassis",
+            0.066974
+          ],
+          [
+            "name",
+            0.057578
+          ],
+          [
+            "engine",
+            0.050048
+          ],
+          [
+            "password",
+            0.049241
+          ],
+          [
+            "login",
+            0.046463
+          ],
+          [
+            "mentioned",
+            0.02981
+          ],
+          [
+            "time",
+            0.026675
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not real",
+            -0.14333
+          ],
+          [
+            "app.every",
+            -0.034633
+          ],
+          [
+            "mentioned",
+            -0.031809
+          ],
+          [
+            "not getting",
+            -0.023929
+          ],
+          [
+            "login",
+            -0.01465
+          ],
+          [
+            "time",
+            -0.013018
+          ],
+          [
+            "name",
+            0.011346
+          ],
+          [
+            "engine",
+            0.008241
+          ],
+          [
+            "chassis",
+            0.008199
+          ],
+          [
+            "no owners",
+            0.007031
+          ],
+          [
+            "hi",
+            0.005346
+          ],
+          [
+            "no",
+            0.003923
+          ],
+          [
+            "password",
+            -0.001639
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1635179966688156,
+          "max": 0.9999999403953552,
+          "std": 0.2782275080680847
+        }
+      },
+      {
+        "review_rank": 1,
+        "embedding_idx": 2,
+        "review_source": "cache",
+        "review_text": "Ads ads ads..!!.this apps is like a middle man sales person.. fcuk all does it do just links u to parivahan and u have to login there",
+        "word_count": 27,
+        "interface_pos": 0.0284,
+        "interface_neg": 0.7631,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Text, Image",
+        "top_k_tokens": "▁fc, ▁ads, ▁Ads",
+        "p_orig": 0.4938444197177887,
+        "p_img": 0.14018647372722626,
+        "delta_p_img": 0.35365794599056244,
+        "gradcam_mean": 0.10176192224025726,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Image",
+        "delta_p_img_shap": 0.3514391928911209,
+        "word_attention_top15": [
+          [
+            "ads..!!.this",
+            0.31416
+          ],
+          [
+            "fcuk",
+            0.222776
+          ],
+          [
+            "ads",
+            0.118164
+          ],
+          [
+            "person",
+            0.092823
+          ],
+          [
+            "middle",
+            0.055997
+          ],
+          [
+            "parivahan",
+            0.047356
+          ],
+          [
+            "sales",
+            0.044065
+          ],
+          [
+            "links",
+            0.033073
+          ],
+          [
+            "u",
+            0.03066
+          ],
+          [
+            "login",
+            0.02355
+          ],
+          [
+            "man",
+            0.017378
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "fcuk",
+            -0.150615
+          ],
+          [
+            "links",
+            -0.033493
+          ],
+          [
+            "ads",
+            0.032361
+          ],
+          [
+            "ads..!!.this",
+            0.030981
+          ],
+          [
+            "parivahan",
+            -0.02346
+          ],
+          [
+            "man",
+            -0.022357
+          ],
+          [
+            "sales",
+            0.016395
+          ],
+          [
+            "middle",
+            -0.013878
+          ],
+          [
+            "u",
+            -0.010616
+          ],
+          [
+            "person",
+            -0.009841
+          ],
+          [
+            "login",
+            0.001365
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16552186012268066,
+          "max": 0.9999999403953552,
+          "std": 0.2813177704811096
+        }
+      },
+      {
+        "review_rank": 2,
+        "embedding_idx": 1,
+        "review_source": "cache",
+        "review_text": "App is not opening, keeps saying check connectivity while there's nothing wrong with my connection.",
+        "word_count": 15,
+        "interface_pos": 0.1438,
+        "interface_neg": 0.5835,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Web View",
+        "top_k_tokens": "▁connectivity, ▁wrong, ▁interface",
+        "p_orig": 0.7375727295875549,
+        "p_img": 0.3166869580745697,
+        "delta_p_img": 0.42088577151298523,
+        "gradcam_mean": 0.3543226718902588,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Icon, Image",
+        "delta_p_img_shap": 0.221282958984375,
+        "word_attention_top15": [
+          [
+            "connectivity",
+            0.341904
+          ],
+          [
+            "connection",
+            0.246476
+          ],
+          [
+            "wrong",
+            0.179078
+          ],
+          [
+            "not opening",
+            0.105877
+          ],
+          [
+            "check",
+            0.061936
+          ],
+          [
+            "keeps",
+            0.039134
+          ],
+          [
+            "saying",
+            0.025595
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "not opening",
+            -0.064118
+          ],
+          [
+            "wrong",
+            0.039024
+          ],
+          [
+            "connectivity",
+            -0.022951
+          ],
+          [
+            "keeps",
+            0.019176
+          ],
+          [
+            "check",
+            0.014651
+          ],
+          [
+            "saying",
+            0.001493
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.18069112300872803,
+          "max": 0.9999998807907104,
+          "std": 0.30180299282073975
+        }
+      },
+      {
+        "review_rank": 3,
+        "embedding_idx": 9,
+        "review_source": "cache",
+        "review_text": "It really works in East U.P. INDIA BUT......NOW....it's a GARBAGE...... SHOWING ------ERROR 500, BAD REQUEST ON_19/01/21 THANKS FOR INSTANT REPLY.... IT'S continuing by the last 4 days. Let me observe ......THANKS",
+        "word_count": 31,
+        "interface_pos": 0.2439,
+        "interface_neg": 0.6329,
+        "interface_sentiment": "negative",
+        "top_components": "Text, Text, Text",
+        "top_k_tokens": "▁It, ▁really, ▁INDIA",
+        "p_orig": 0.6620469093322754,
+        "p_img": 0.6501703262329102,
+        "delta_p_img": 0.011876583099365234,
+        "gradcam_mean": 0.35616421699523926,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Image",
+        "delta_p_img_shap": 0.4208817183971405,
+        "word_attention_top15": [
+          [
+            "but......now....it's",
+            0.179877
+          ],
+          [
+            "thanks",
+            0.160181
+          ],
+          [
+            "on_19/01/21",
+            0.107253
+          ],
+          [
+            "garbage",
+            0.106586
+          ],
+          [
+            "------error",
+            0.087392
+          ],
+          [
+            "reply",
+            0.082053
+          ],
+          [
+            "u.p",
+            0.058139
+          ],
+          [
+            "india",
+            0.0466
+          ],
+          [
+            "works",
+            0.036435
+          ],
+          [
+            "showing",
+            0.035993
+          ],
+          [
+            "days",
+            0.026878
+          ],
+          [
+            "instant",
+            0.012722
+          ],
+          [
+            "request",
+            0.012564
+          ],
+          [
+            "let",
+            0.009862
+          ],
+          [
+            "continuing",
+            0.009463
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "------error",
+            -0.092898
+          ],
+          [
+            "works",
+            0.091218
+          ],
+          [
+            "but......now....it's",
+            -0.076451
+          ],
+          [
+            "thanks",
+            0.06944
+          ],
+          [
+            "instant",
+            0.059515
+          ],
+          [
+            "garbage",
+            -0.042873
+          ],
+          [
+            "bad",
+            -0.03473
+          ],
+          [
+            "showing",
+            -0.02017
+          ],
+          [
+            "india",
+            -0.015917
+          ],
+          [
+            "reply",
+            0.012149
+          ],
+          [
+            "days",
+            -0.010949
+          ],
+          [
+            "observe",
+            -0.009825
+          ],
+          [
+            "let",
+            -0.009563
+          ],
+          [
+            "u.p",
+            -0.00835
+          ],
+          [
+            "continuing",
+            0.007178
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.16957980394363403,
+          "max": 0.9999999403953552,
+          "std": 0.2888033390045166
+        }
+      },
+      {
+        "review_rank": 4,
+        "embedding_idx": -1,
+        "review_source": "raw",
+        "review_text": "Blowfish is right this app blows. Chucky verification step rubbish. Couldnt even find my vehicle rego.",
+        "word_count": 16,
+        "interface_pos": 0.0024,
+        "interface_neg": 0.992,
+        "interface_sentiment": "negative",
+        "top_components": "Text Button, Image, Text",
+        "top_k_tokens": "▁Blow, ▁blows, ▁re",
+        "p_orig": 0.44397562742233276,
+        "p_img": 0.10924457758665085,
+        "delta_p_img": 0.3347310498356819,
+        "gradcam_mean": 0.1274767816066742,
+        "gradcam_max": 1.0,
+        "top_components_shap": "Text Button, Web View, Image",
+        "delta_p_img_shap": 0.33787772059440613,
+        "word_attention_top15": [
+          [
+            "blowfish",
+            0.21307
+          ],
+          [
+            "rego",
+            0.143862
+          ],
+          [
+            "blows",
+            0.140315
+          ],
+          [
+            "chucky",
+            0.115217
+          ],
+          [
+            "rubbish",
+            0.112786
+          ],
+          [
+            "couldnt",
+            0.076928
+          ],
+          [
+            "vehicle",
+            0.051447
+          ],
+          [
+            "verification",
+            0.05079
+          ],
+          [
+            "step",
+            0.039262
+          ],
+          [
+            "right",
+            0.029958
+          ],
+          [
+            "find",
+            0.026365
+          ]
+        ],
+        "shap_textual_top15": [
+          [
+            "couldnt",
+            -0.061966
+          ],
+          [
+            "rubbish",
+            -0.057649
+          ],
+          [
+            "blows",
+            -0.036949
+          ],
+          [
+            "find",
+            0.021076
+          ],
+          [
+            "step",
+            0.009277
+          ],
+          [
+            "right",
+            -0.008597
+          ],
+          [
+            "vehicle",
+            0.006095
+          ],
+          [
+            "chucky",
+            -0.005038
+          ],
+          [
+            "blowfish",
+            0.005001
+          ],
+          [
+            "verification",
+            0.001667
+          ]
+        ],
+        "shap_visual_stats": {
+          "mean": 0.1649717539548874,
+          "max": 0.9999999403953552,
+          "std": 0.27960488200187683
+        }
+      }
+    ],
+    "visualization_path": null,
+    "text_explanation": {
+      "caption": "This screen was labeled as good with 94% confidence.",
+      "simple": "This screen was labeled as good with 94% confidence. The model directed most attention to a small Text at the top-left.",
+      "detailed": "This screen of Vehicle registration details (category: Auto & Vehicles) was labeled as good with 94% confidence (confidently). The model attended to a small Text at the top-left, a small Text at the top-left, and a small Text at the top-left."
+    }
+  }
+]
